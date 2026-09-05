@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>龙与地下城 · SRD 5.2.1 中文阅读站</title>
+  <meta name="description" content="D&D 5.2.1 SRD 中文阅读站，持续整理与汉化。" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="sigil">✦</span><span>SRD 中文阅读站</span></a>
+    <label class="search"><span>⌕</span><input id="search" type="search" placeholder="搜索章节、术语……" aria-label="搜索内容" /></label>
+    <button id="theme" class="icon-button" title="切换主题" aria-label="切换主题">◐</button>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="side-title">目录 <span id="count"></span></div>
+      <nav id="nav"></nav>
+      <div class="side-note"><strong>当前进度</strong><br><span class="dot green"></span> 中文导读已接入 5 项<br><span class="dot amber"></span> 其余内容待汉化</div>
+    </aside>
+    <main id="main" class="main"><div class="loading">正在打开冒险档案……</div></main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
