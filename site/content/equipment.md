@@ -1,2286 +1,1367 @@
-# Equipment
+# 装备（Equipment）
 
-## Coins
+## 货币（Coins）
 
-Characters often find coins on their adventures and can spend those coins in shops, inns, and other businesses. Coins come in different denominations based on the relative worth of their material. The Coin Values table lists coins and how much they're worth relative to the Gold Piece, which is the game's main coin. For example, 100 Copper Pieces are worth 1 Gold Piece.
+角色在冒险中经常会找到钱币，并可在商店、旅店和其他商家处花费这些钱币。钱币根据其材质的相对价值分为不同面额。“钱币价值”表列出了各种钱币，以及它们相对于金币（Gold Piece）的价值；金币是游戏中的主要货币。例如，100 枚铜币价值 1 枚金币。
 
-A coin weighs about a third of an ounce, so fifty coins weigh a pound.
+一枚钱币重约三分之一盎司，因此五十枚钱币重 1 磅。
 
-**Coin Values**
+**钱币价值（Coin Values）**
 
-<table>
-  <thead>
-    <tr>
-      <th>Coin</th>
-      <th>Value in GP</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Copper Piece (CP)</td>
-      <td>1/100</td>
-    </tr>
-    <tr>
-      <td>Silver Piece (SP)</td>
-      <td>1/10</td>
-    </tr>
-    <tr>
-      <td>Electrum Piece (EP)</td>
-      <td>1/2</td>
-    </tr>
-    <tr>
-      <td>Gold Piece (GP)</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Platinum Piece (PP)</td>
-      <td>10</td>
-    </tr>
-  </tbody>
-</table>
+| 钱币 | GP 价值 |
+|---|---:|
+| 铜币（Copper Piece，CP） | 1/100 |
+| 银币（Silver Piece，SP） | 1/10 |
+| 琥珀金币（Electrum Piece，EP） | 1/2 |
+| 金币（Gold Piece，GP） | 1 |
+| 铂金币（Platinum Piece，PP） | 10 |
 
-## Weapons
+## 武器（Weapons）
 
-The Weapons table in this section shows the game's main weapons. The table lists the cost and weight of each weapon, as well as the following details:
+本节的“武器”表列出了游戏中的主要武器。表中列出了每种武器的价格和重量，以及以下信息：
 
-**Category.** Every weapon falls into a category: Simple or Martial. Weapon proficiencies are usually tied to one of these categories. For example, you might have proficiency with Simple weapons.
+**类别（Category）。** 每种武器都属于一个类别：简易武器（Simple）或军用武器（Martial）。武器熟练通常与其中一种类别相关。例如，你可能拥有简易武器熟练。
 
-**Melee or Ranged.** A weapon is classified as either Melee or Ranged. A Melee weapon is used to attack a target within 5 feet, whereas a Ranged weapon is used to attack at a greater distance.
+**近战或远程（Melee or Ranged）。** 武器被分类为近战武器或远程武器。近战武器用于攻击 5 尺内的目标，而远程武器则用于攻击更远处的目标。
 
-**Damage.** The table lists the amount of damage a weapon deals when an attacker hits with it as well as the type of that damage.
+**伤害（Damage）。** 表中列出了攻击者用该武器命中时造成的伤害数值，以及伤害类型。
 
-**Properties.** Any properties a weapon has are listed in the Properties column. Each property is defined in the "Properties" section.
+**属性（Properties）。** 武器拥有的任何属性都会列在“属性”栏中。每种属性都在“武器属性”一节中说明。
 
-**Mastery.** Each weapon has a mastery property, which is defined in the "Mastery Properties" section. To use that property, you must have a feature that lets you use it.
+**精通（Mastery）。** 每种武器都有一个精通属性（Mastery Property），其定义见“精通属性”一节。你必须拥有允许你使用该属性的特性，才能使用它。
 
-> **Selling Equipment**
+> **出售装备（Selling Equipment）**
 >
-> Equipment fetches half its cost when sold. In contrast, trade goods and valuables—like gems and art objects—retain their full value in the marketplace. "Magic Items" has prices for magic items.
+> 出售装备时，其售价为原价的一半。相比之下，贸易货物和贵重物品——例如宝石和艺术品——在市场上仍能保持其完整价值。“魔法物品”一节列出了魔法物品的价格。
 
-### Weapon Proficiency
+### 武器熟练（Weapon Proficiency）
 
-Anyone can wield a weapon, but you must have proficiency with it to add your Proficiency Bonus to an attack roll you make with it. A player character's features can provide weapon proficiencies. A monster is proficient with any weapon in its stat block.
+任何人都可以挥舞武器，但你必须拥有该武器的熟练，才能把你的熟练加值加入使用该武器进行的攻击检定。玩家角色的特性可以给予武器熟练。怪物自动熟练其数据中列出的任何武器。
 
-### Properties
+### 武器属性（Properties）
 
-Here are definitions of the properties in the Properties column of the Weapons table.
+以下是“武器”表中“属性”栏所列各项的定义。
 
-**Ammunition.**
+**弹药（Ammunition）。**
 
-You can use a weapon that has the Ammunition property to make a ranged attack only if you have ammunition to fire from it. The type of ammunition required is specified with the weapon's range. Each attack expends one piece of ammunition. Drawing the ammunition is part of the attack (you need a free hand to load a one-handed weapon). After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost.
+具有弹药属性的武器只有在你拥有可供发射的弹药时，才能用于进行远程攻击。所需弹药类型会与武器射程一起标明。每次攻击消耗一枚弹药。取出弹药属于攻击的一部分；如果你要为单手武器装填弹药，则必须有一只空手。
 
-**Finesse.** When making an attack with a Finesse weapon, use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+战斗结束后，你可以花费 1 分钟回收本场战斗中使用的一半弹药，向下取整；其余弹药遗失。
 
-**Heavy.** You have Disadvantage on attack rolls with a Heavy weapon if it's a Melee weapon and your Strength score isn't at least 13 or if it's a Ranged weapon and your Dexterity score isn't at least 13.
+**灵巧（Finesse）。** 使用灵巧武器进行攻击时，你可以选择使用力量或敏捷调整值进行攻击检定和伤害掷骰。两次掷骰必须使用同一个属性调整值。
 
-**Light.** When you take the Attack action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage unless that modifier is negative. For example, you can attack with a Shortsword in one hand and a Dagger in the other using the Attack action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action unless that modifier is negative.
+**重型（Heavy）。** 如果你使用重型近战武器而力量值低于 13，或者使用重型远程武器而敏捷值低于 13，则使用该武器进行的攻击检定具有劣势。
 
-**Loading.** You can fire only one piece of ammunition from a Loading weapon when you use an action, a Bonus Action, or a Reaction to fire it, regardless of the number of attacks you can normally make.
+**轻型（Light）。** 当你在自己的回合执行攻击动作，并使用轻型武器进行攻击时，可以在该回合稍后用附赠动作额外进行一次攻击。该额外攻击必须使用另一件不同的轻型武器，而且你不能将属性调整值加入该额外攻击的伤害，除非该调整值为负数。
 
-**Range.** A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have Disadvantage on the attack roll. You can't attack a target beyond the long range.
+例如，你可以在一只手持短剑、另一只手持匕首的情况下，分别使用攻击动作和附赠动作发动攻击，但除非你的力量或敏捷调整值为负数，否则不能把该调整值加入附赠动作攻击的伤害掷骰。
 
-**Reach.** A Reach weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for Opportunity Attacks with it.
+**装填（Loading）。** 当你使用动作、附赠动作或反应发射具有装填属性的武器时，无论你通常能够发动多少次攻击，都只能发射一枚弹药。
 
-**Thrown.** If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack. If the weapon is a Melee weapon, use the same ability modifier for the attack and damage rolls that you use for a melee attack with that weapon.
+**射程（Range）。** 具有射程的武器会在弹药或投掷属性后的括号内标明射程。射程包含两个数字。第一个数字是武器以尺为单位的常规射程，第二个数字是远距射程。
 
-**Two-Handed.** A Two-Handed weapon requires two hands when you attack with it.
+攻击超出常规射程的目标时，你的攻击检定具有劣势。你无法攻击超出远距射程的目标。
 
-**Versatile.** A Versatile weapon can be used with one or two hands. A damage value in parentheses appears with the property. The weapon deals that damage when used with two hands to make a melee attack.
+**触及（Reach）。** 使用触及武器攻击时，你的触及距离增加 5 尺；在判定使用该武器进行借机攻击时的触及范围时，也同样增加 5 尺。
 
-### Mastery Properties
+**投掷（Thrown）。** 如果武器具有投掷属性，你可以投掷该武器进行远程攻击，并且可以在攻击过程中取出该武器。如果该武器属于近战武器，则攻击检定和伤害掷骰使用与你用该武器进行近战攻击时相同的属性调整值。
 
-Each weapon has a mastery property, which is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character. The properties are defined below.
+**双手（Two-Handed）。** 使用双手武器进行攻击时，必须双手持握。
 
-> **Improvised Weapons**
+**多用（Versatile）。** 多用武器可以单手或双手使用。该属性会在括号中列出一个伤害值。当你双手使用该武器进行近战攻击时，武器造成括号中的伤害。
+
+### 精通属性（Mastery Properties）
+
+每种武器都有一个精通属性。只有拥有某项特性——例如武器精通（Weapon Mastery）——从而解锁该属性的角色才能使用它。各精通属性定义如下。
+
+> **临时武器（Improvised Weapons）**
 >
-> If you use an object—such as a table leg, frying pan, or bottle—as a makeshift weapon, see "Improvised Weapons" in "Rules Glossary." Also see those rules if you wield a weapon in an unusual way, such as using a Ranged weapon to make a melee attack.
-
-**Cleave.** If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.
-
-**Graze.** If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.
-
-**Nick.** When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.
-
-**Push.** If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.
-
-**Sap.** If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.
-
-**Slow.** If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.
-
-**Topple.** If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.
-
-**Vex.** If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.
-
-**Weapons**
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Damage</th>
-      <th>Properties</th>
-      <th>Mastery</th>
-      <th>Weight</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th colspan="6"><em>Simple Melee Weapons</em></th>
-    </tr>
-    <tr>
-      <td>Club</td>
-      <td>1d4 Bludgeoning</td>
-      <td>Light</td>
-      <td>Slow</td>
-      <td>2 lb.</td>
-      <td>1 SP</td>
-    </tr>
-    <tr>
-      <td>Dagger</td>
-      <td>1d4 Piercing</td>
-      <td>Finesse, Light, Thrown (Range 20/60)</td>
-      <td>Nick</td>
-      <td>1 lb.</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <td>Greatclub</td>
-      <td>1d8 Bludgeoning</td>
-      <td>Two-Handed</td>
-      <td>Push</td>
-      <td>10 lb.</td>
-      <td>2 SP</td>
-    </tr>
-    <tr>
-      <td>Handaxe</td>
-      <td>1d6 Slashing</td>
-      <td>Light, Thrown (Range 20/60)</td>
-      <td>Vex</td>
-      <td>2 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Javelin</td>
-      <td>1d6 Piercing</td>
-      <td>Thrown (Range 30/120)</td>
-      <td>Slow</td>
-      <td>2 lb.</td>
-      <td>5 SP</td>
-    </tr>
-    <tr>
-      <td>Light Hammer</td>
-      <td>1d4 Bludgeoning</td>
-      <td>Light, Thrown (Range 20/60)</td>
-      <td>Nick</td>
-      <td>2 lb.</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <td>Mace</td>
-      <td>1d6 Bludgeoning</td>
-      <td>—</td>
-      <td>Sap</td>
-      <td>4 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Quarterstaff</td>
-      <td>1d6 Bludgeoning</td>
-      <td>Versatile (1d8)</td>
-      <td>Topple</td>
-      <td>4 lb.</td>
-      <td>2 SP</td>
-    </tr>
-    <tr>
-      <td>Sickle</td>
-      <td>1d4 Slashing</td>
-      <td>Light</td>
-      <td>Nick</td>
-      <td>2 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Spear</td>
-      <td>1d6 Piercing</td>
-      <td>Thrown (Range 20/60), Versatile (1d8)</td>
-      <td>Sap</td>
-      <td>3 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <th colspan="6"><em>Simple Ranged Weapons</em></th>
-    </tr>
-    <tr>
-      <td>Dart</td>
-      <td>1d4 Piercing</td>
-      <td>Finesse, Thrown (Range 20/60)</td>
-      <td>Vex</td>
-      <td>1/4 lb.</td>
-      <td>5 CP</td>
-    </tr>
-    <tr>
-      <td>Light Crossbow</td>
-      <td>1d8 Piercing</td>
-      <td>Ammunition (Range 80/320; Bolt), Loading, Two-Handed</td>
-      <td>Slow</td>
-      <td>5 lb.</td>
-      <td>25 GP</td>
-    </tr>
-    <tr>
-      <td>Shortbow</td>
-      <td>1d6 Piercing</td>
-      <td>Ammunition (Range 80/320; Arrow), Two-Handed</td>
-      <td>Vex</td>
-      <td>2 lb.</td>
-      <td>25 GP</td>
-    </tr>
-    <tr>
-      <td>Sling</td>
-      <td>1d4 Bludgeoning</td>
-      <td>Ammunition (Range 30/120; Bullet)</td>
-      <td>Slow</td>
-      <td>—</td>
-      <td>1 SP</td>
-    </tr>
-    <tr>
-      <th colspan="6"><em>Martial Melee Weapons</em></th>
-    </tr>
-    <tr>
-      <td>Battleaxe</td>
-      <td>1d8 Slashing</td>
-      <td>Versatile (1d10)</td>
-      <td>Topple</td>
-      <td>4 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Flail</td>
-      <td>1d8 Bludgeoning</td>
-      <td>—</td>
-      <td>Sap</td>
-      <td>2 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Glaive</td>
-      <td>1d10 Slashing</td>
-      <td>Heavy, Reach, Two-Handed</td>
-      <td>Graze</td>
-      <td>6 lb.</td>
-      <td>20 GP</td>
-    </tr>
-    <tr>
-      <td>Greataxe</td>
-      <td>1d12 Slashing</td>
-      <td>Heavy, Two-Handed</td>
-      <td>Cleave</td>
-      <td>7 lb.</td>
-      <td>30 GP</td>
-    </tr>
-    <tr>
-      <td>Greatsword</td>
-      <td>2d6 Slashing</td>
-      <td>Heavy, Two-Handed</td>
-      <td>Graze</td>
-      <td>6 lb.</td>
-      <td>50 GP</td>
-    </tr>
-    <tr>
-      <td>Halberd</td>
-      <td>1d10 Slashing</td>
-      <td>Heavy, Reach, Two-Handed</td>
-      <td>Cleave</td>
-      <td>6 lb.</td>
-      <td>20 GP</td>
-    </tr>
-    <tr>
-      <td>Lance</td>
-      <td>1d10 Piercing</td>
-      <td>Heavy, Reach, Two-Handed (unless mounted)</td>
-      <td>Topple</td>
-      <td>6 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Longsword</td>
-      <td>1d8 Slashing</td>
-      <td>Versatile (1d10)</td>
-      <td>Sap</td>
-      <td>3 lb.</td>
-      <td>15 GP</td>
-    </tr>
-    <tr>
-      <td>Maul</td>
-      <td>2d6 Bludgeoning</td>
-      <td>Heavy, Two-Handed</td>
-      <td>Topple</td>
-      <td>10 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Morningstar</td>
-      <td>1d8 Piercing</td>
-      <td>—</td>
-      <td>Sap</td>
-      <td>4 lb.</td>
-      <td>15 GP</td>
-    </tr>
-    <tr>
-      <td>Pike</td>
-      <td>1d10 Piercing</td>
-      <td>Heavy, Reach, Two-Handed</td>
-      <td>Push</td>
-      <td>18 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Rapier</td>
-      <td>1d8 Piercing</td>
-      <td>Finesse</td>
-      <td>Vex</td>
-      <td>2 lb.</td>
-      <td>25 GP</td>
-    </tr>
-    <tr>
-      <td>Scimitar</td>
-      <td>1d6 Slashing</td>
-      <td>Finesse, Light</td>
-      <td>Nick</td>
-      <td>3 lb.</td>
-      <td>25 GP</td>
-    </tr>
-    <tr>
-      <td>Shortsword</td>
-      <td>1d6 Piercing</td>
-      <td>Finesse, Light</td>
-      <td>Vex</td>
-      <td>2 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Trident</td>
-      <td>1d8 Piercing</td>
-      <td>Thrown (Range 20/60), Versatile (1d10)</td>
-      <td>Topple</td>
-      <td>4 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Warhammer</td>
-      <td>1d8 Bludgeoning</td>
-      <td>Versatile (1d10)</td>
-      <td>Push</td>
-      <td>5 lb.</td>
-      <td>15 GP</td>
-    </tr>
-    <tr>
-      <td>War Pick</td>
-      <td>1d8 Piercing</td>
-      <td>Versatile (1d10)</td>
-      <td>Sap</td>
-      <td>2 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Whip</td>
-      <td>1d4 Slashing</td>
-      <td>Finesse, Reach</td>
-      <td>Slow</td>
-      <td>3 lb.</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <th colspan="6"><em>Martial Ranged Weapons</em></th>
-    </tr>
-    <tr>
-      <td>Blowgun</td>
-      <td>1 Piercing</td>
-      <td>Ammunition (Range 25/100; Needle), Loading</td>
-      <td>Vex</td>
-      <td>1 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Hand Crossbow</td>
-      <td>1d6 Piercing</td>
-      <td>Ammunition (Range 30/120; Bolt), Light, Loading</td>
-      <td>Vex</td>
-      <td>3 lb.</td>
-      <td>75 GP</td>
-    </tr>
-    <tr>
-      <td>Heavy Crossbow</td>
-      <td>1d10 Piercing</td>
-      <td>Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed</td>
-      <td>Push</td>
-      <td>18 lb.</td>
-      <td>50 GP</td>
-    </tr>
-    <tr>
-      <td>Longbow</td>
-      <td>1d8 Piercing</td>
-      <td>Ammunition (Range 150/600; Arrow), Heavy, Two-Handed</td>
-      <td>Slow</td>
-      <td>2 lb.</td>
-      <td>50 GP</td>
-    </tr>
-    <tr>
-      <td>Musket</td>
-      <td>1d12 Piercing</td>
-      <td>Ammunition (Range 40/120; Bullet), Loading, Two-Handed</td>
-      <td>Slow</td>
-      <td>10 lb.</td>
-      <td>500 GP</td>
-    </tr>
-    <tr>
-      <td>Pistol</td>
-      <td>1d10 Piercing</td>
-      <td>Ammunition (Range 30/90; Bullet), Loading</td>
-      <td>Vex</td>
-      <td>3 lb.</td>
-      <td>250 GP</td>
-    </tr>
-  </tbody>
-</table>
-
-## Armor
-
-The Armor table lists the game's main armor. The table includes the cost and weight of armor, as well as the following details:
-
-**Category.** Every type of armor falls into a category: Light, Medium, or Heavy. The category determines how long it takes to don or doff the armor (as shown in the table).
-
-**Armor Class (AC).** The table's Armor Class column tells you what your base AC is when you wear a type of armor. For example, if you wear Leather Armor, your base AC is 11 plus your Dexterity modifier, whereas your AC is 16 in Chain Mail.
-
-**Strength.** If the table shows a Strength score in the Strength column for an armor type, that armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.
-
-**Stealth.** If the table shows "Disadvantage" in the Stealth column for an armor type, the wearer has Disadvantage on Dexterity (Stealth) checks.
-
-**Armor**
-
-<table>
-  <thead>
-    <tr>
-      <th>Armor</th>
-      <th>Armor Class (AC)</th>
-      <th>Strength</th>
-      <th>Stealth</th>
-      <th>Weight</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th colspan="6"><em>Light Armor (1 Minute to Don or Doff)</em></th>
-    </tr>
-    <tr>
-      <td>Padded Armor</td>
-      <td>11 + Dex modifier</td>
-      <td>—</td>
-      <td>Disadvantage</td>
-      <td>8 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Leather Armor</td>
-      <td>11 + Dex modifier</td>
-      <td>—</td>
-      <td>—</td>
-      <td>10 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Studded Leather Armor</td>
-      <td>12 + Dex modifier</td>
-      <td>—</td>
-      <td>—</td>
-      <td>13 lb.</td>
-      <td>45 GP</td>
-    </tr>
-    <tr>
-      <th colspan="6"><em>Medium Armor (5 Minutes to Don and 1 Minute to Doff)</em></th>
-    </tr>
-    <tr>
-      <td>Hide Armor</td>
-      <td>12 + Dex modifier (max 2)</td>
-      <td>—</td>
-      <td>—</td>
-      <td>12 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Chain Shirt</td>
-      <td>13 + Dex modifier (max 2)</td>
-      <td>—</td>
-      <td>—</td>
-      <td>20 lb.</td>
-      <td>50 GP</td>
-    </tr>
-    <tr>
-      <td>Scale Mail</td>
-      <td>14 + Dex modifier (max 2)</td>
-      <td>—</td>
-      <td>Disadvantage</td>
-      <td>45 lb.</td>
-      <td>50 GP</td>
-    </tr>
-    <tr>
-      <td>Breastplate</td>
-      <td>14 + Dex modifier (max 2)</td>
-      <td>—</td>
-      <td>—</td>
-      <td>20 lb.</td>
-      <td>400 GP</td>
-    </tr>
-    <tr>
-      <td>Half Plate Armor</td>
-      <td>15 + Dex modifier (max 2)</td>
-      <td>—</td>
-      <td>Disadvantage</td>
-      <td>40 lb.</td>
-      <td>750 GP</td>
-    </tr>
-    <tr>
-      <th colspan="6"><em>Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)</em></th>
-    </tr>
-    <tr>
-      <td>Ring Mail</td>
-      <td>14</td>
-      <td>—</td>
-      <td>Disadvantage</td>
-      <td>40 lb.</td>
-      <td>30 GP</td>
-    </tr>
-    <tr>
-      <td>Chain Mail</td>
-      <td>16</td>
-      <td>Str 13</td>
-      <td>Disadvantage</td>
-      <td>55 lb.</td>
-      <td>75 GP</td>
-    </tr>
-    <tr>
-      <td>Splint Armor</td>
-      <td>17</td>
-      <td>Str 15</td>
-      <td>Disadvantage</td>
-      <td>60 lb.</td>
-      <td>200 GP</td>
-    </tr>
-    <tr>
-      <td>Plate Armor</td>
-      <td>18</td>
-      <td>Str 15</td>
-      <td>Disadvantage</td>
-      <td>65 lb.</td>
-      <td>1,500 GP</td>
-    </tr>
-    <tr>
-      <th colspan="6"><em>Shield (Utilize Action to Don or Doff)</em></th>
-    </tr>
-    <tr>
-      <td>Shield</td>
-      <td>+2</td>
-      <td>—</td>
-      <td>—</td>
-      <td>6 lb.</td>
-      <td>10 GP</td>
-    </tr>
-  </tbody>
-</table>
-
-### Armor Training
-
-Anyone can don armor or hold a Shield, but only those with training can use them effectively, as explained below. A character's class and other features determine the character's armor training. A monster has training with any armor in its stat block.
-
-**Light, Medium, or Heavy Armor.** If you wear Light, Medium, or Heavy armor and lack training with it, you have Disadvantage on any D20 Test that involves Strength or Dexterity, and you can't cast spells.
-
-**Shield.** You gain the Armor Class benefit of a Shield only if you have training with it.
-
-### One at a Time
-
-A creature can wear only one suit of armor at a time and wield only one Shield at a time.
-
-## Tools
-
-A tool helps you make specialized ability checks, craft certain items, or both. A tool's description includes the tool's cost and weight, as well as the following entries:
-
-**Ability.** This entry lists the ability to use when making an ability check with the tool.
-
-**Utilize.** This entry lists things you can do with the tool when you take the Utilize action. You can do one of those things each time you take the action. This entry also provides the DC for the action.
-
-**Craft.** This entry lists what, if anything, you can craft with the tool. For crafting rules, see "Crafting Nonmagical Items," "Brewing Potions of Healing," and "Scribing Spell Scrolls" later in "Equipment."
-
-**Variants.** This entry appears if the tool has variants, which are listed. Each requires a separate proficiency.
-
-### Tool Proficiency
-
-If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have Advantage on the check too.
-
-Your features might give you proficiency with a tool. A monster has proficiency with any tool in its stat block.
-
-#### Artisan's Tools
-
-Artisan's Tools are each focused on crafting items and pursuing a trade. Each of these tools requires a separate proficiency.
-
-**Alchemist's Supplies (50 GP)**
-
-**Ability:** Intelligence **Weight:** 8 lb.
-**Utilize:** Identify a substance (DC 15), or start a fire (DC 15)
-**Craft:** Acid, Alchemist's Fire, Component Pouch, Oil, Paper, Perfume
-
-**Brewer's Supplies (20 GP)**
-
-**Ability:** Intelligence **Weight:** 9 lb.
-**Utilize:** Detect poisoned drink (DC 15), or identify alcohol (DC 10)
-**Craft:** Antitoxin
-
-**Calligrapher's Supplies (10 GP)**
-
-**Ability:** Dexterity **Weight:** 5 lb.
-**Utilize:** Write text with impressive flourishes that guard against forgery (DC 15)
-**Craft:** Ink, _Spell Scroll_
-
-**Carpenter's Tools (8 GP)**
-
-**Ability:** Strength **Weight:** 6 lb.
-**Utilize:** Seal or pry open a door or container (DC 20)
-**Craft:** Club, Greatclub, Quarterstaff, Barrel, Chest, Ladder, Pole, Portable Ram, Torch
-
-**Cartographer's Tools (15 GP)**
-
-**Ability:** Wisdom **Weight:** 6 lb.
-**Utilize:** Draft a map of a small area (DC 15)
-**Craft:** Map
-
-**Cobbler's Tools (5 GP)**
-
-**Ability:** Dexterity **Weight:** 5 lb.
-**Utilize:** Modify footwear to give Advantage on the wearer's next Dexterity (Acrobatics) check (DC 10)
-**Craft:** Climber's Kit
-
-**Cook's Utensils (1 GP)**
-
-**Ability:** Wisdom **Weight:** 8 lb.
-**Utilize:** Improve food's flavor (DC 10), or detect spoiled or poisoned food (DC 15)
-**Craft:** Rations
-
-**Glassblower's Tools (30 GP)**
-
-**Ability:** Intelligence **Weight:** 5 lb.
-**Utilize:** Discern what a glass object held in the past 24 hours (DC 15)
-**Craft:** Glass Bottle, Magnifying Glass, Spyglass, Vial
-
-**Jeweler's Tools (25 GP)**
-
-**Ability:** Intelligence **Weight:** 2 lb.
-**Utilize:** Discern a gem's value (DC 15)
-**Craft:** Arcane Focus, Holy Symbol
-
-**Leatherworker's Tools (5 GP)**
-
-**Ability:** Dexterity **Weight:** 5 lb.
-**Utilize:** Add a design to a leather item (DC 10)
-**Craft:** Sling, Whip, Hide Armor, Leather Armor, Studded Leather Armor, Backpack, Crossbow Bolt Case, Map or Scroll Case, Parchment, Pouch, Quiver, Waterskin
-
-**Mason's Tools (10 GP)**
-
-**Ability:** Strength **Weight:** 8 lb.
-**Utilize:** Chisel a symbol or hole in stone (DC 10)
-**Craft:** Block and Tackle
-
-**Painter's Supplies (10 GP)**
-
-**Ability:** Wisdom **Weight:** 5 lb.
-**Utilize:** Paint a recognizable image of something you've seen (DC 10)
-**Craft:** Druidic Focus, Holy Symbol
-
-**Potter's Tools (10 GP)**
-
-**Ability:** Intelligence **Weight:** 3 lb.
-**Utilize:** Discern what a ceramic object held in the past 24 hours (DC 15)
-**Craft:** Jug, Lamp
-
-**Smith's Tools (20 GP)**
-
-**Ability:** Strength **Weight:** 8 lb.
-**Utilize:** Pry open a door or container (DC 20)
-**Craft:** Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets
-
-**Tinker's Tools (50 GP)**
-**Ability:** Dexterity **Weight:** 10 lb.
-**Utilize:** Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)
-**Craft:** Musket, Pistol, Bell, Bullseye Lantern, Flask, Hooded Lantern, Hunting Trap, Lock, Manacles, Mirror, Shovel, Signal Whistle, Tinderbox
-
-**Weaver's Tools (1 GP)**
-**Ability:** Dexterity **Weight:** 5 lb.
-**Utilize:** Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)
-**Craft:** Padded Armor, Basket, Bedroll, Blanket, Fine Clothes, Net, Robe, Rope, Sack, String, Tent, Traveler's Clothes
-
-**Woodcarver's Tools (1 GP)**
-**Ability:** Dexterity **Weight:** 5 lb.
-**Utilize:** Carve a pattern in wood (DC 10)
-**Craft:** Club, Greatclub, Quarterstaff, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, Arrows, Bolts, Druidic Focus, Ink Pen, Needles
-
-#### Other Tools
-
-**Disguise Kit (25 GP)**
-**Ability:** Charisma **Weight:** 3 lb.
-**Utilize:** Apply makeup (DC 10)
-**Craft:** Costume
-
-**Forgery Kit (15 GP)**
-**Ability:** Dexterity **Weight:** 5 lb.
-**Utilize:** Mimic 10 or fewer words of someone else's handwriting (DC 15), or duplicate a wax seal (DC 20)
-
-**Gaming Set (Varies)**
-**Ability:** Wisdom **Weight:** —
-**Utilize:** Discern whether someone is cheating (DC 10), or win the game (DC 20)
-**Variants:** Dice (1 SP), dragonchess (1 GP), playing cards (5 SP), three-dragon ante (1 GP)
-
-**Herbalism Kit (5 GP)**
-**Ability:** Intelligence **Weight:** 3 lb.
-**Utilize:** Identify a plant (DC 10)
-**Craft:** Antitoxin, Candle, Healer's Kit, _Potion of Healing_
-
-**Musical Instrument (Varies)**
-**Ability:** Charisma **Weight:** Varies
-**Utilize:** Play a known tune (DC 10), or improvise a song (DC 15)
-**Variants:** Bagpipes (30 GP, 6 lb.), drum (6 GP, 3 lb.), dulcimer (25 GP, 10 lb.), flute (2 GP, 1 lb.), horn (3 GP, 2 lb.), lute (35 GP, 2 lb.), lyre (30 GP, 2 lb.), pan flute (12 GP, 2 lb.), shawm (2 GP, 1 lb.), viol (30 GP, 1 lb.)
-
-**Navigator's Tools (25 GP)**
-**Ability:** Wisdom **Weight:** 2 lb.
-**Utilize:** Plot a course (DC 10), or determine position by stargazing (DC 15)
-
-**Poisoner's Kit (50 GP)**
-**Ability:** Intelligence **Weight:** 2 lb.
-**Utilize:** Detect a poisoned object (DC 10)
-**Craft:** Basic Poison
-
-**Thieves' Tools (25 GP)**
-**Ability:** Dexterity **Weight:** 1 lb.
-**Utilize:** Pick a lock (DC 15), or disarm a trap (DC 15)
-
-## Adventuring Gear
-
-The Adventuring Gear table in this section includes gear that adventurers often find useful. These items are described here in alphabetical order, with an item's price appearing after its name.
-
-#### Acid (25 GP)
-
-When you take the Attack action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage.
-
-#### Alchemist's Fire (50 GP)
-
-When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 1d4 Fire damage and start burning (see "Rules Glossary").
-
-#### Ammunition (Varies)
-
-Ammunition is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.
-
-**Adventuring Gear**
-
-<table>
-  <thead>
-    <tr>
-      <th>Item</th>
-      <th>Weight</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Acid</td>
-      <td>1 lb.</td>
-      <td>25 GP</td>
-    </tr>
-    <tr>
-      <td>Alchemist's Fire</td>
-      <td>1 lb.</td>
-      <td>50 GP</td>
-    </tr>
-    <tr>
-      <td>Ammunition</td>
-      <td>Varies</td>
-      <td>Varies</td>
-    </tr>
-    <tr>
-      <td>Antitoxin</td>
-      <td>—</td>
-      <td>50 GP</td>
-    </tr>
-    <tr>
-      <td>Arcane Focus</td>
-      <td>Varies</td>
-      <td>Varies</td>
-    </tr>
-    <tr>
-      <td>Backpack</td>
-      <td>5 lb.</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <td>Ball Bearings</td>
-      <td>2 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Barrel</td>
-      <td>70 lb.</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <td>Basket</td>
-      <td>2 lb.</td>
-      <td>4 SP</td>
-    </tr>
-    <tr>
-      <td>Bedroll</td>
-      <td>7 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Bell</td>
-      <td>—</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Blanket</td>
-      <td>3 lb.</td>
-      <td>5 SP</td>
-    </tr>
-    <tr>
-      <td>Block and Tackle</td>
-      <td>5 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Book</td>
-      <td>5 lb.</td>
-      <td>25 GP</td>
-    </tr>
-    <tr>
-      <td>Bottle, Glass</td>
-      <td>2 lb.</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <td>Bucket</td>
-      <td>2 lb.</td>
-      <td>5 CP</td>
-    </tr>
-    <tr>
-      <td>Burglar's Pack</td>
-      <td>42 lb.</td>
-      <td>16 GP</td>
-    </tr>
-    <tr>
-      <td>Caltrops</td>
-      <td>2 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Candle</td>
-      <td>—</td>
-      <td>1 CP</td>
-    </tr>
-    <tr>
-      <td>Case, Crossbow Bolt</td>
-      <td>1 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Case, Map or Scroll</td>
-      <td>1 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Chain</td>
-      <td>10 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Chest</td>
-      <td>25 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Climber's Kit</td>
-      <td>12 lb.</td>
-      <td>25 GP</td>
-    </tr>
-    <tr>
-      <td>Clothes, Fine</td>
-      <td>6 lb.</td>
-      <td>15 GP</td>
-    </tr>
-    <tr>
-      <td>Clothes, Traveler's</td>
-      <td>4 lb.</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <td>Component Pouch</td>
-      <td>2 lb.</td>
-      <td>25 GP</td>
-    </tr>
-    <tr>
-      <td>Costume</td>
-      <td>4 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Crowbar</td>
-      <td>5 lb.</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <td>Diplomat's Pack</td>
-      <td>39 lb.</td>
-      <td>39 GP</td>
-    </tr>
-    <tr>
-      <td>Druidic Focus</td>
-      <td>Varies</td>
-      <td>Varies</td>
-    </tr>
-    <tr>
-      <td>Dungeoneer's Pack</td>
-      <td>55 lb.</td>
-      <td>12 GP</td>
-    </tr>
-    <tr>
-      <td>Entertainer's Pack</td>
-      <td>58½ lb.</td>
-      <td>40 GP</td>
-    </tr>
-    <tr>
-      <td>Explorer's Pack</td>
-      <td>55 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Flask</td>
-      <td>1 lb.</td>
-      <td>2 CP</td>
-    </tr>
-    <tr>
-      <td>Grappling Hook</td>
-      <td>4 lb.</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <td>Healer's Kit</td>
-      <td>3 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Holy Symbol</td>
-      <td>Varies</td>
-      <td>Varies</td>
-    </tr>
-    <tr>
-      <td>Holy Water</td>
-      <td>1 lb.</td>
-      <td>25 GP</td>
-    </tr>
-    <tr>
-      <td>Hunting Trap</td>
-      <td>25 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Ink</td>
-      <td>—</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Ink Pen</td>
-      <td>—</td>
-      <td>2 CP</td>
-    </tr>
-    <tr>
-      <td>Jug</td>
-      <td>4 lb.</td>
-      <td>2 CP</td>
-    </tr>
-    <tr>
-      <td>Ladder</td>
-      <td>25 lb.</td>
-      <td>1 SP</td>
-    </tr>
-    <tr>
-      <td>Lamp</td>
-      <td>1 lb.</td>
-      <td>5 SP</td>
-    </tr>
-    <tr>
-      <td>Lantern, Bullseye</td>
-      <td>2 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Lantern, Hooded</td>
-      <td>2 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Lock</td>
-      <td>1 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Magnifying Glass</td>
-      <td>—</td>
-      <td>100 GP</td>
-    </tr>
-    <tr>
-      <td>Manacles</td>
-      <td>6 lb.</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <td>Map</td>
-      <td>—</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Mirror</td>
-      <td>1/2 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Net</td>
-      <td>3 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Oil</td>
-      <td>1 lb.</td>
-      <td>1 SP</td>
-    </tr>
-    <tr>
-      <td>Paper</td>
-      <td>—</td>
-      <td>2 SP</td>
-    </tr>
-    <tr>
-      <td>Parchment</td>
-      <td>—</td>
-      <td>1 SP</td>
-    </tr>
-    <tr>
-      <td>Perfume</td>
-      <td>—</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Poison, Basic</td>
-      <td>—</td>
-      <td>100 GP</td>
-    </tr>
-    <tr>
-      <td>Pole</td>
-      <td>7 lb.</td>
-      <td>5 CP</td>
-    </tr>
-    <tr>
-      <td>Pot, Iron</td>
-      <td>10 lb.</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <td>Potion of Healing</td>
-      <td>1/2 lb.</td>
-      <td>50 GP</td>
-    </tr>
-    <tr>
-      <td>Pouch</td>
-      <td>1 lb.</td>
-      <td>5 SP</td>
-    </tr>
-    <tr>
-      <td>Priest's Pack</td>
-      <td>29 lb.</td>
-      <td>33 GP</td>
-    </tr>
-    <tr>
-      <td>Quiver</td>
-      <td>1 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Ram, Portable</td>
-      <td>35 lb.</td>
-      <td>4 GP</td>
-    </tr>
-    <tr>
-      <td>Rations</td>
-      <td>2 lb.</td>
-      <td>5 SP</td>
-    </tr>
-    <tr>
-      <td>Robe</td>
-      <td>4 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Rope</td>
-      <td>5 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Sack</td>
-      <td>1/2 lb.</td>
-      <td>1 CP</td>
-    </tr>
-    <tr>
-      <td>Scholar's Pack</td>
-      <td>22 lb.</td>
-      <td>40 GP</td>
-    </tr>
-    <tr>
-      <td>Shovel</td>
-      <td>5 lb.</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <td>Signal Whistle</td>
-      <td>—</td>
-      <td>5 CP</td>
-    </tr>
-    <tr>
-      <td>Spell Scroll (Cantrip)</td>
-      <td>—</td>
-      <td>30 GP</td>
-    </tr>
-    <tr>
-      <td>Spell Scroll (Level 1)</td>
-      <td>—</td>
-      <td>50 GP</td>
-    </tr>
-    <tr>
-      <td>Spikes, Iron</td>
-      <td>5 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Spyglass</td>
-      <td>1 lb.</td>
-      <td>1,000 GP</td>
-    </tr>
-    <tr>
-      <td>String</td>
-      <td>—</td>
-      <td>1 SP</td>
-    </tr>
-    <tr>
-      <td>Tent</td>
-      <td>20 lb.</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <td>Tinderbox</td>
-      <td>1 lb.</td>
-      <td>5 SP</td>
-    </tr>
-    <tr>
-      <td>Torch</td>
-      <td>1 lb.</td>
-      <td>1 CP</td>
-    </tr>
-    <tr>
-      <td>Vial</td>
-      <td>—</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Waterskin</td>
-      <td>5 lb. (full)</td>
-      <td>2 SP</td>
-    </tr>
-  </tbody>
-</table>
-
-**Ammunition**
-
-<table>
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Amount</th>
-      <th>Storage</th>
-      <th>Weight</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Arrows</td>
-      <td>20</td>
-      <td>Quiver</td>
-      <td>1 lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Bolts</td>
-      <td>20</td>
-      <td>Case</td>
-      <td>1½ lb.</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Bullets, Firearm</td>
-      <td>10</td>
-      <td>Pouch</td>
-      <td>2 lb.</td>
-      <td>3 GP</td>
-    </tr>
-    <tr>
-      <td>Bullets, Sling</td>
-      <td>20</td>
-      <td>Pouch</td>
-      <td>1½ lb.</td>
-      <td>4 CP</td>
-    </tr>
-    <tr>
-      <td>Needles</td>
-      <td>50</td>
-      <td>Pouch</td>
-      <td>1 lb.</td>
-      <td>1 GP</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Antitoxin (50 GP)
-
-As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour.
-
-#### Arcane Focus (Varies)
-
-An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.
-
-**Arcane Focuses**
-
-<table>
-  <thead>
-    <tr>
-      <th>Focus</th>
-      <th>Weight</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Crystal</td>
-      <td>1 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Orb</td>
-      <td>3 lb.</td>
-      <td>20 GP</td>
-    </tr>
-    <tr>
-      <td>Rod</td>
-      <td>2 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Staff (also a Quarterstaff)</td>
-      <td>4 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Wand</td>
-      <td>1 lb.</td>
-      <td>10 GP</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Backpack (2 GP)
-
-A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.
-
-#### Ball Bearings (1 GP)
-
-As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the Prone condition. It takes 10 minutes to recover the Ball Bearings.
-
-#### Barrel (2 GP)
-
-A Barrel holds up to 40 gallons of liquid or up to 4 cubic feet of dry goods.
-
-#### Basket (4 SP)
-
-A Basket holds up to 40 pounds within 2 cubic feet.
-
-#### Bedroll (1 GP)
-
-A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see "Gameplay Toolbox").
-
-#### Bell (1 GP)
-
-When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.
-
-#### Blanket (5 SP)
-
-While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see "Gameplay Toolbox").
-
-#### Block and Tackle (1 GP)
-
-A Block and Tackle allows you to hoist up to four times the weight you can normally lift.
-
-#### Book (25 GP)
-
-A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.
-
-#### Bottle, Glass (2 GP)
-
-A Glass Bottle holds up to 1½ pints.
-
-#### Bucket (5 CP)
-
-A Bucket holds up to half a cubic foot of contents.
-
-#### Burglar's Pack (16 GP)
-
-A Burglar's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles, Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin.
-
-#### Caltrops (1 GP)
-
-As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.
-
-#### Candle (1 CP)
-
-For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.
-
-#### Case, Crossbow Bolt (1 GP)
-
-A Crossbow Bolt Case holds up to 20 Bolts.
-
-#### Case, Map or Scroll (1 GP)
-
-A Map or Scroll Case holds up to 10 sheets of paper or 5 sheets of parchment.
-
-#### Chain (5 GP)
-
-As a Utilize action, you can wrap a Chain around an unwilling creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13 Strength (Athletics) check. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Chain requires the creature to make a successful DC 18 Dexterity (Acrobatics) check as an action. Bursting the Chain requires a successful DC 20 Strength (Athletics) check as an action.
-
-#### Chest (5 GP)
-
-A Chest holds up to 12 cubic feet of contents.
-
-#### Climber's Kit (25 GP)
-
-A Climber's Kit includes boot tips, gloves, pitons, and a harness. As a Utilize action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a Bonus Action.
-
-#### Clothes, Fine (15 GP)
-
-Fine Clothes are made of expensive fabrics and adorned with expertly crafted details. Some events and locations admit only people wearing these clothes.
-
-#### Clothes, Traveler's (2 GP)
-
-Traveler's Clothes are resilient garments designed for travel in various environments.
-
-#### Component Pouch (25 GP)
-
-A Component Pouch is watertight and filled with compartments that hold all the free Material components of your spells.
-
-#### Costume (5 GP)
-
-While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents.
-
-#### Crowbar (2 GP)
-
-Using a Crowbar gives you Advantage on Strength checks where the Crowbar's leverage can be applied.
-
-#### Diplomat's Pack (39 GP)
-
-A Diplomat's Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 flasks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Tinderbox.
-
-#### Druidic Focus (Varies)
-
-A Druidic Focus takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.
-
-**Druidic Focuses**
-
-<table>
-  <thead>
-    <tr>
-      <th>Focus</th>
-      <th>Weight</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Sprig of mistletoe</td>
-      <td>—</td>
-      <td>1 GP</td>
-    </tr>
-    <tr>
-      <td>Wooden staff (also a Quarterstaff)</td>
-      <td>4 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Yew wand</td>
-      <td>1 lb.</td>
-      <td>10 GP</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Dungeoneer's Pack (12 GP)
-
-A Dungeoneer's Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.
-
-#### Entertainer's Pack (40 GP)
-
-An Entertainer's Pack contains the following items: Backpack, Bedroll, Bell, Bullseye Lantern, 3 Costumes, Mirror, 8 flasks of Oil, 9 days of Rations, Tinderbox, and Waterskin.
-
-#### Explorer's Pack (10 GP)
-
-An Explorer's Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.
-
-#### Flask (2 CP)
-
-A Flask holds up to 1 pint.
-
-#### Grappling Hook (2 GP)
-
-As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it.
-
-#### Healer's Kit (5 GP)
-
-A Healer's Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check.
-
-#### Holy Symbol (Varies)
-
-A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.
-
-The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.
-
-**Holy Symbols**
-
-<table>
-  <thead>
-    <tr>
-      <th>Symbol</th>
-      <th>Weight</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Amulet (worn or held)</td>
-      <td>1 lb.</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Emblem (borne on fabric or a Shield)</td>
-      <td>—</td>
-      <td>5 GP</td>
-    </tr>
-    <tr>
-      <td>Reliquary (held)</td>
-      <td>2 lb.</td>
-      <td>5 GP</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Holy Water (25 GP)
-
-When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.
-
-#### Hunting Trap (5 GP)
-
-As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center.
-
-The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature.
-
-#### Ink (10 GP)
-
-Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.
-
-#### Ink Pen (2 CP)
-
-Using Ink, an Ink Pen is used to write or draw.
-
-#### Jug (2 CP)
-
-A Jug holds up to 1 gallon.
-
-#### Ladder (1 SP)
-
-A Ladder is 10 feet tall. You must climb to move up or down it.
-
-#### Lamp (5 SP)
-
-A Lamp burns Oil as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.
-
-#### Lantern, Bullseye (10 GP)
-
-A Bullseye Lantern burns Oil as fuel to cast Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet.
-
-#### Lantern, Hooded (5 GP)
-
-A Hooded Lantern burns Oil as fuel to cast Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. As a Bonus Action, you can lower the hood, reducing the light to Dim Light in a 5-foot radius, or raise it again.
-
-#### Lock (10 GP)
-
-A Lock comes with a key. Without the key, a creature can use Thieves' Tools to pick this Lock with a successful DC 15 Dexterity (Sleight of Hand) check.
-
-#### Magnifying Glass (100 GP)
-
-A Magnifying Glass grants Advantage on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite.
-
-#### Manacles (2 GP)
-
-As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action.
-
-Each set of Manacles comes with a key. Without the key, a creature can use Thieves' Tools to pick the Manacles' lock with a successful DC 15 Dexterity (Sleight of Hand) check.
-
-#### Map (1 GP)
-
-If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it.
-
-#### Mirror (5 GP)
-
-A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal.
-
-#### Net (1 GP)
-
-When you take the Attack action, you can replace one of your attacks with throwing a Net. Target a creature you can see within 15 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or have the Restrained condition until it escapes. The target succeeds automatically if it is Huge or larger.
-
-To escape, the target or a creature within 5 feet of it must take an action to make a DC 10 Strength (Athletics) check, freeing the Restrained creature on a success. Destroying the Net (AC 10; 5 HP; Immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect.
-
-#### Oil (1 SP)
-
-You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.
-
-_Dousing a Creature or an Object._ When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra 5 Fire damage from burning oil.
-
-_Dousing a Space._ You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.
-
-_Fuel._ Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.
-
-#### Paper (2 SP)
-
-One sheet of Paper can hold about 250 handwritten words.
-
-#### Parchment (1 SP)
-
-One sheet of Parchment can hold about 250 handwritten words.
-
-#### Perfume (5 GP)
-
-Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself.
-
-#### Poison, Basic (100 GP)
-
-As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra 1d4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.
-
-#### Pole (5 CP)
-
-A Pole is 10 feet long. You can use it to touch something up to 10 feet away. If you must make a Strength (Athletics) check as part of a High or Long Jump, you can use the Pole to vault, giving yourself Advantage on the check.
-
-#### Pot, Iron (2 GP)
-
-An Iron Pot holds up to 1 gallon.
-
-#### Potion of Healing (50 GP)
-
-This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.
-
-#### Pouch (5 SP)
-
-A Pouch holds up to 6 pounds within one-fifth of a cubic foot.
-
-#### Priest's Pack (33 GP)
-
-A Priest's Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Tinderbox.
-
-#### Quiver (1 GP)
-
-A Quiver holds up to 20 Arrows.
-
-#### Ram, Portable (4 GP)
-
-You can use a Portable Ram to break down doors. When doing so, you gain a +4 bonus to the Strength check. One other character can help you use the ram, giving you Advantage on this check.
-
-#### Rations (5 SP)
-
-Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See "Malnutrition" in "Rules Glossary" for the risks of not eating.
-
-#### Robe (1 GP)
-
-A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.
-
-#### Rope (1 GP)
-
-As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.
-
-You can bind an unwilling creature with the Rope only if the creature has the Grappled, Incapacitated, or Restrained condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.
-
-#### Sack (1 CP)
-
-A Sack holds up to 30 pounds within 1 cubic foot.
-
-#### Scholar's Pack (40 GP)
-
-A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox.
-
-#### Shovel (2 GP)
-
-Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material.
-
-#### Signal Whistle (5 CP)
-
-When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away.
-
-#### Spell Scroll (Cantrip, 30 GP; Level 1, 50 GP)
-
-A _Spell Scroll_ (Cantrip) or _Spell Scroll_ (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll's creator. If the spell is on your class's spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.
-
-If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is +5. The scroll disintegrates when the casting is completed.
-
-#### Spikes, Iron (1 GP)
-
-Iron Spikes come in bundles of ten. As a Utilize action, you can use a blunt object, such as a Light Hammer, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a Rope or Chain to the Spike.
-
-#### Spyglass (1,000 GP)
-
-Objects viewed through a Spyglass are magnified to twice their size.
-
-#### String (1 SP)
-
-String is 10 feet long. You can tie a knot in it as a Utilize action.
-
-#### Tent (2 GP)
-
-A Tent sleeps up to two Small or Medium creatures.
-
-#### Tinderbox (5 SP)
-
-A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.
-
-#### Torch (1 CP)
-
-A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.
-
-#### Vial (1 GP)
-
-A Vial holds up to 4 ounces.
-
-#### Waterskin (2 SP)
-
-A Waterskin holds up to 4 pints. If you don't drink sufficient water, you risk dehydration (see "Rules Glossary").
-
-## Mounts and Vehicles
-
-A mount can help you move more quickly through the wilderness, but its primary purpose is to carry gear that would otherwise slow you down. The Mounts and Other Animals table shows each animal's carrying capacity. See "Monsters" for the animals' stat blocks.
-
-### Mounts and Cargo
-
-An animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, add their carrying capacities together.
-
-### Barding
-
-Barding is armor designed for a mount. Any type of armor on the Armor table in "Equipment" can be purchased as barding. The cost is four times the normal cost, and it weighs twice as much.
-
-### Saddles
-
-A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle. A Military Saddle gives Advantage on any ability check you make to remain mounted. An Exotic Saddle is required for riding an aquatic or a flying mount.
-
-**Mounts and Other Animals**
-
-<table>
-  <thead>
-    <tr>
-      <th>Item</th>
-      <th>Carrying Capacity</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Camel</td>
-      <td>450 lb.</td>
-      <td>50 GP</td>
-    </tr>
-    <tr>
-      <td>Elephant</td>
-      <td>1,320 lb.</td>
-      <td>200 GP</td>
-    </tr>
-    <tr>
-      <td>Horse, Draft</td>
-      <td>540 lb.</td>
-      <td>50 GP</td>
-    </tr>
-    <tr>
-      <td>Horse, Riding</td>
-      <td>480 lb.</td>
-      <td>75 GP</td>
-    </tr>
-    <tr>
-      <td>Mastiff</td>
-      <td>195 lb.</td>
-      <td>25 GP</td>
-    </tr>
-    <tr>
-      <td>Mule</td>
-      <td>420 lb.</td>
-      <td>8 GP</td>
-    </tr>
-    <tr>
-      <td>Pony</td>
-      <td>225 lb.</td>
-      <td>30 GP</td>
-    </tr>
-    <tr>
-      <td>Warhorse</td>
-      <td>540 lb.</td>
-      <td>400 GP</td>
-    </tr>
-  </tbody>
-</table>
-
-**Tack, Harness, and Drawn Vehicles**
-
-<table>
-  <thead>
-    <tr>
-      <th>Item</th>
-      <th>Weight</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Carriage</td>
-      <td>600 lb.</td>
-      <td>100 GP</td>
-    </tr>
-    <tr>
-      <td>Cart</td>
-      <td>200 lb.</td>
-      <td>15 GP</td>
-    </tr>
-    <tr>
-      <td>Chariot</td>
-      <td>100 lb.</td>
-      <td>250 GP</td>
-    </tr>
-    <tr>
-      <td>Feed per day</td>
-      <td>10 lb.</td>
-      <td>5 CP</td>
-    </tr>
-    <tr>
-      <td>Saddle</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Exotic</td>
-      <td>40 lb.</td>
-      <td>60 GP</td>
-    </tr>
-    <tr>
-      <td>Military</td>
-      <td>30 lb.</td>
-      <td>20 GP</td>
-    </tr>
-    <tr>
-      <td>Riding</td>
-      <td>25 lb.</td>
-      <td>10 GP</td>
-    </tr>
-    <tr>
-      <td>Sled</td>
-      <td>300 lb.</td>
-      <td>20 GP</td>
-    </tr>
-    <tr>
-      <td>Stabling per day</td>
-      <td>—</td>
-      <td>5 SP</td>
-    </tr>
-    <tr>
-      <td>Wagon</td>
-      <td>400 lb.</td>
-      <td>35 GP</td>
-    </tr>
-  </tbody>
-</table>
-
-### Large Vehicles
-
-The Airborne and Waterborne Vehicles table provides statistics for various types of large vehicles. The following notes apply.
-
-#### Speed
-
-A ship sailing against a strong wind moves at half speed. In a dead calm (no wind), waterborne ships can't move under sail and must be rowed. Keelboats and Rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A Rowboat can be carried and weighs 100 pounds.
-
-<table>
-  <thead>
-    <tr>
-      <th>Ship</th>
-      <th>Speed</th>
-      <th>Crew</th>
-      <th>Passengers</th>
-      <th>Cargo (Tons)</th>
-      <th>AC</th>
-      <th>HP</th>
-      <th>Damage Threshold</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Airship</td>
-      <td>8 mph</td>
-      <td>10</td>
-      <td>20</td>
-      <td>1</td>
-      <td>13</td>
-      <td>300</td>
-      <td>—</td>
-      <td>40,000 GP</td>
-    </tr>
-    <tr>
-      <td>Galley</td>
-      <td>4 mph</td>
-      <td>80</td>
-      <td>—</td>
-      <td>150</td>
-      <td>15</td>
-      <td>500</td>
-      <td>20</td>
-      <td>30,000 GP</td>
-    </tr>
-    <tr>
-      <td>Keelboat</td>
-      <td>1 mph</td>
-      <td>1</td>
-      <td>6</td>
-      <td>1/2</td>
-      <td>15</td>
-      <td>100</td>
-      <td>10</td>
-      <td>3,000 GP</td>
-    </tr>
-    <tr>
-      <td>Longship</td>
-      <td>3 mph</td>
-      <td>40</td>
-      <td>150</td>
-      <td>10</td>
-      <td>15</td>
-      <td>300</td>
-      <td>15</td>
-      <td>10,000 GP</td>
-    </tr>
-    <tr>
-      <td>Rowboat</td>
-      <td>1½ mph</td>
-      <td>1</td>
-      <td>3</td>
-      <td>—</td>
-      <td>11</td>
-      <td>50</td>
-      <td>—</td>
-      <td>50 GP</td>
-    </tr>
-    <tr>
-      <td>Sailing Ship</td>
-      <td>2 mph</td>
-      <td>20</td>
-      <td>20</td>
-      <td>100</td>
-      <td>15</td>
-      <td>300</td>
-      <td>15</td>
-      <td>10,000 GP</td>
-    </tr>
-    <tr>
-      <td>Warship</td>
-      <td>2½ mph</td>
-      <td>60</td>
-      <td>60</td>
-      <td>200</td>
-      <td>15</td>
-      <td>500</td>
-      <td>20</td>
-      <td>25,000 GP</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Crew
-
-A ship larger than a Keelboat or Rowboat needs a crew of skilled hirelings (see "Hirelings" later in "Equipment") to function. The minimum number of skilled hirelings needed to crew a ship depends on the type of ship, as shown in the table.
-
-#### Passengers
-
-The table lists the number of Small and Medium passengers the ship can accommodate using hammocks. A ship outfitted with private accommodations can carry one-fifth as many passengers. A passenger usually pays 5 SP per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 2 GP per day.
-
-#### Damage Threshold
-
-If a vehicle has a damage threshold (see "Rules Glossary"), it's noted in the table.
-
-#### Ship Repair
-
-Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 Hit Point of damage requires 1 day and costs 20 GP for materials and labor. If the repairs are made in a location where supplies and skilled labor are abundant, such as a city shipyard, the repair time and cost are halved.
-
-## Lifestyle Expenses
-
-Lifestyle expenses summarize the cost of living in a fantasy world. They cover lodging, food, equipment maintenance, and other necessities.
-
-At the start of each week or month (GM's choice), choose a lifestyle below—Wretched, Squalid, Poor, Modest, Comfortable, Wealthy, or Aristocratic—and pay the price to sustain that lifestyle.
-
-Lifestyles have no inherent consequences, but the GM might take them into account when determining risks or how others perceive your character.
-
-### Wretched (Free)
-
-You survive via chance and charity. You're often exposed to natural dangers as a result of sleeping outside.
-
-### Squalid (1 SP per Day)
-
-You spend the bare minimum for your necessities. You might be exposed to unhealthy conditions and opportunistic criminals.
-
-### Poor (2 SP per Day)
-
-You spend frugally for your necessities.
-
-### Modest (1 GP per Day)
-
-You support yourself at an average level.
-
-### Comfortable (2 GP per Day)
-
-You spend modestly for your necessities and enjoy a few luxuries.
-
-### Wealthy (4 GP per Day)
-
-You're accustomed to the finer things in life and might have servants.
-
-### Aristocratic (10 GP per Day)
-
-You pay for the best and might have a staff that supports your lifestyle. Others notice your wealth and might encourage you to share it, either legally or otherwise.
-
-## Food, Drink, and Lodging
-
-The Food, Drink, and Lodging table gives prices for food and a single night's lodging. Prices for daily lodging and meals are included in your lifestyle's expenses.
-
-**Food, Drink, and Lodging**
-
-<table>
-  <thead>
-    <tr>
-      <th>Item</th>
-      <th>Cost</th>
-      <th>Item</th>
-      <th>Cost</th>
-    </tr>
-    <tr>
-      <th>Inn Stay per Day</th>
-      <th></th>
-      <th>Meal</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Ale (mug)</td>
-      <td>4 CP</td>
-      <td>Comfortable</td>
-      <td>8 SP</td>
-    </tr>
-    <tr>
-      <td>Bread (loaf)</td>
-      <td>2 CP</td>
-      <td>Wealthy</td>
-      <td>2 GP</td>
-    </tr>
-    <tr>
-      <td>Cheese (wedge)</td>
-      <td>1 SP</td>
-      <td>Aristocratic</td>
-      <td>4 GP</td>
-    </tr>
-    <tr>
-      <td>Squalid</td>
-      <td>7 CP</td>
-      <td>Squalid</td>
-      <td>1 CP</td>
-    </tr>
-    <tr>
-      <td>Poor</td>
-      <td>1 SP</td>
-      <td>Poor</td>
-      <td>2 CP</td>
-    </tr>
-    <tr>
-      <td>Modest</td>
-      <td>5 SP</td>
-      <td>Modest</td>
-      <td>1 SP</td>
-    </tr>
-    <tr>
-      <td>Comfortable</td>
-      <td>2 SP</td>
-      <td>Wine (bottle)</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Wealthy</td>
-      <td>3 SP</td>
-      <td>Common</td>
-      <td>2 SP</td>
-    </tr>
-    <tr>
-      <td>Aristocratic</td>
-      <td>6 SP</td>
-      <td>Fine</td>
-      <td>10 GP</td>
-    </tr>
-  </tbody>
-</table>
-
-## Hirelings
-
-Skilled hirelings include anyone hired to perform a service that involves a proficiency (including weapon, tool, or skill): a mercenary, an artisan, a scribe, or the like. The pay shown on the Hirelings table is a minimum; some expert hirelings require more pay. Untrained hirelings are hired for work that requires no particular proficiencies; they include laborers and porters.
-
-**Hirelings**
-
-<table>
-  <thead>
-    <tr>
-      <th>Service</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Skilled hireling</td>
-      <td>2 GP per day</td>
-    </tr>
-    <tr>
-      <td>Untrained hireling</td>
-      <td>2 SP per day</td>
-    </tr>
-    <tr>
-      <td>Messenger</td>
-      <td>2 CP per mile</td>
-    </tr>
-  </tbody>
-</table>
-
-## Spellcasting
-
-Most settlements contain individuals who are willing to cast spells in exchange for payment. If a spell has expensive components, add the cost of those components to the cost listed in the Spellcasting Services table. The higher the level of a desired spell, the harder it is to find someone to cast it.
-
-**Spellcasting Services**
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell Level</th>
-      <th>Availability</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Cantrip</td>
-      <td>Village, town, or city</td>
-      <td>30 GP</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Village, town, or city</td>
-      <td>50 GP</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Village, town, or city</td>
-      <td>200 GP</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Town or city only</td>
-      <td>300 GP</td>
-    </tr>
-    <tr>
-      <td>4–5</td>
-      <td>Town or city only</td>
-      <td>2,000 GP</td>
-    </tr>
-    <tr>
-      <td>6–8</td>
-      <td>City only</td>
-      <td>20,000 GP</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>City only</td>
-      <td>100,000 GP</td>
-    </tr>
-  </tbody>
-</table>
-
-## Magic Items
-
-Adventures hold the promise—but not a guarantee—of finding magic items. Hundreds of magic items are detailed in "Magic Items" later in this document. Here's what you need to know about using magic items.
-
-### Identifying a Magic Item
-
-Some magic items are indistinguishable from their nonmagical counterparts, while others are conspicuously magical. Handling a magic item is enough to give you a sense that it is extraordinary, but learning a magic item's properties isn't automatic.
-
-The _Identify_ spell is the fastest way to reveal an item's properties. Alternatively, you can focus on one magic item during a Short Rest while being in physical contact with the item. At the end of the rest, you learn its properties and how to use them (but not any curse the item might bear).
-
-Sometimes a magic item carries a clue to its properties. The command word to activate a ring might be etched inside the band, or a feathered design might hint that it's a _Ring of Feather Falling_.
-
-Wearing or experimenting with an item can also offer hints about its properties. In the specific case of Potions, a little taste is enough to tell the taster what a potion does. Other items might require more experimentation. For example, if your character puts on a _Ring of Swimming_, the GM might say, "Your movement feels strangely fluid." Perhaps you then dive into a river to see what happens. The GM would then say you swim unexpectedly well.
-
-### Attunement
-
-Some magic items require a creature to form a bond—called Attunement—with them before the creature can use an item's magical properties. Without becoming attuned to an item that requires Attunement, you gain only its nonmagical benefits unless its description states otherwise. For example, a magic Shield that requires Attunement provides the benefits of a normal Shield if you aren't attuned to it, but none of its magical properties.
-
-#### Attune during a Short Rest
-
-Attuning to an item requires you to spend a Short Rest focused on only that item while being in physical contact with it (this can't be the same Short Rest used to learn the item's properties). This focus can take the form of weapon practice (for a Weapon), meditation (for a Wand), or some other appropriate activity. If the Short Rest is interrupted, the Attunement attempt fails. Otherwise, at the end of the Short Rest, you're attuned to the magic item and can access its full magical capabilities.
-
-#### No More Than Three Items
-
-You can be attuned to no more than three magic items at a time. Any attempt to attune to a fourth item fails; you must end your Attunement to an item first. Additionally, you can't attune to more than one copy of an item. For example, you can't attune to more than one _Ring of Protection_ at a time.
-
-#### Ending Attunement
-
-Your Attunement to an item ends if you no longer satisfy the prerequisites for Attunement, if the item has been more than 100 feet away for at least 24 hours, if you die, or if another creature attunes to
-the item. You can also voluntarily end Attunement by spending another Short Rest focused on the item unless the item is cursed.
-
-### Wearing and Wielding Items
-
-Using a magic item's properties might mean wearing or wielding it. A magic item meant to be worn must be donned in the intended fashion: boots go on feet, gloves on hands, hats and helmets on a head, and rings on a finger. Magic armor must be donned, a Shield strapped to the arm, a cloak fastened about the shoulders. A weapon must be held.
-
-In most cases, a magic item that's meant to be worn can fit a creature regardless of size or build. Magic garments are made to be easily adjustable, or they magically adjust themselves to the wearer.
-
-#### Multiple Items of the Same Kind
-
-You can't wear more than one of certain magic items. You can't normally wear more than one pair of footwear, one pair of gloves or gauntlets, one pair of bracers, one suit of armor, one item of headwear, or one cloak. The GM might make exceptions.
-
-#### Paired Items
-
-Items that come in pairs—such as boots, bracers, gauntlets, and gloves—impart their benefits only if both items of the pair are worn. For example, a character wearing a _Boot of Striding and Springing_ on one foot and a _Boot of Elvenkind_ on the other foot gains no benefit from either.
-
-## Crafting Nonmagical Items
-
-To craft a nonmagical item, you need tools, raw materials, and time, each of which is detailed below. If you meet the requirements, you make the item, and you can use it or sell it at its normal price.
-
-### Tools
-
-The "Tools" section of "Equipment" lists which tools are required to make certain items. The GM assigns required tools for items not listed there.
-
-You must use the required tool to make an item and have proficiency with that tool. Anyone who helps you must also have proficiency with it.
-
-### Raw Materials
-
-To make an item, you need raw materials worth half its purchase cost (round down). For example, you need 750 GP of raw materials to make Plate Armor, which sells for 1,500 GP. The GM determines whether appropriate raw materials are available.
-
-### Time
-
-To determine how many days (working 8 hours a day) it takes to make an item, divide its purchase cost in GP by 10 (round a fraction up to a day). For example, you need 5 days to make a Heavy Crossbow, which sells for 50 GP.
-
-If an item requires multiple days, the days needn't be consecutive.
-
-Characters can combine their efforts to shorten the crafting time. Divide the time needed to create an item by the number of characters working on it. Normally, only one other character can assist you, but the GM might allow more assistants.
-
-## Brewing Potions of Healing
-
-A character who has proficiency with the Herbalism Kit can create a _Potion of Healing_. Doing so requires using that kit and 25 GP of raw material over the course of 1 day (8 hours of work).
-
-## Scribing Spell Scrolls
-
-A spellcaster can transfer a spell to a scroll and create a _Spell Scroll_, using the rules below.
-
-### Time and Cost
-
-Scribing a scroll takes an amount of time and money based on the level of the spell, as shown in the Spell Scroll Costs table. For each day of inscription, you must work for 8 hours. If a scroll requires multiple days, those days needn't be consecutive.
-
-### Prerequisites for the Scribe
-
-To scribe a scroll, you must have proficiency in the Arcana skill or with Calligrapher's Supplies and have the spell prepared on each day of the inscription. You must also have at hand any Material components required by the spell; if the spell consumes its Material components, they are consumed only when you complete the scroll. The scroll's spell uses your spell save DC and spell attack bonus.
-
-### Cantrips
-
-If the scribed spell is a cantrip, the version on the scroll works as if the caster were your level.
-
-**Spell Scroll Costs**
-
-<table>
-  <thead>
-    <tr>
-      <th>Spell Level</th>
-      <th>Time</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Cantrip</td>
-      <td>1 day</td>
-      <td>15 GP</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>1 day</td>
-      <td>25 GP</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>3 days</td>
-      <td>100 GP</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>5 days</td>
-      <td>150 GP</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>10 days</td>
-      <td>1,000 GP</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>25 days</td>
-      <td>1,500 GP</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>40 days</td>
-      <td>10,000 GP</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>50 days</td>
-      <td>12,500 GP</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>60 days</td>
-      <td>15,000 GP</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>120 days</td>
-      <td>50,000 GP</td>
-    </tr>
-  </tbody>
-</table>
+> 如果你把物体——例如桌腿、煎锅或瓶子——当作临时武器使用，请参见“规则术语表”中的“临时武器”。如果你以非常规方式使用武器，例如用远程武器进行近战攻击，也参照那些规则。
+
+**顺劈（Cleave）。** 如果你用该武器进行近战攻击检定并命中一个生物，可以用该武器对第一个目标 5 尺内、且同样位于你触及范围内的第二个生物进行一次近战攻击检定。
+
+命中时，第二个生物受到该武器的伤害，但除非你的属性调整值为负数，否则不要将该属性调整值加入伤害。你每回合只能进行一次这种额外攻击。
+
+**擦伤（Graze）。** 如果你用该武器进行的攻击检定未命中一个生物，你仍可对该生物造成等于你进行该攻击检定时所用属性调整值的伤害。该伤害类型与武器本身造成的伤害类型相同，而且该伤害只能通过提高该属性调整值来增加。
+
+**迅击（Nick）。** 当你发动轻型属性给予的额外攻击时，可以把该攻击作为攻击动作的一部分进行，而不是使用附赠动作。你每回合只能进行一次这种额外攻击。
+
+**推击（Push）。** 如果你用该武器命中一个生物，并且该生物为大型或更小，你可以将其沿直线推离你至多 10 尺。
+
+**削弱（Sap）。** 如果你用该武器命中一个生物，该生物在你的下一回合开始前进行的下一次攻击检定具有劣势。
+
+**缓速（Slow）。** 如果你用该武器命中一个生物并对其造成伤害，可以使其速度降低 10 尺，直到你的下一回合开始。如果该生物被多个具有该属性的武器命中，速度降低总值仍不会超过 10 尺。
+
+**击倒（Topple）。** 如果你用该武器命中一个生物，可以迫使其进行一次体质豁免。DC 等于 8 + 本次攻击检定所用属性调整值 + 你的熟练加值。豁免失败时，该生物陷入倒地状态。
+
+**扰乱（Vex）。** 如果你用该武器命中一个生物并造成伤害，则在你的下一回合结束前，你对该生物进行的下一次攻击检定具有优势。
+
+**武器（Weapons）**
+
+| 名称 | 伤害 | 属性 | 精通 | 重量 | 价格 |
+|---|---|---|---|---:|---:|
+| *简易近战武器* |  |  |  |  |  |
+| 短棒（Club） | 1d4 钝击 | 轻型 | 缓速 | 2 磅 | 1 SP |
+| 匕首（Dagger） | 1d4 穿刺 | 灵巧、轻型、投掷（射程 20/60） | 迅击 | 1 磅 | 2 GP |
+| 巨棒（Greatclub） | 1d8 钝击 | 双手 | 推击 | 10 磅 | 2 SP |
+| 手斧（Handaxe） | 1d6 挥砍 | 轻型、投掷（射程 20/60） | 扰乱 | 2 磅 | 5 GP |
+| 标枪（Javelin） | 1d6 穿刺 | 投掷（射程 30/120） | 缓速 | 2 磅 | 5 SP |
+| 轻锤（Light Hammer） | 1d4 钝击 | 轻型、投掷（射程 20/60） | 迅击 | 2 磅 | 2 GP |
+| 硬头锤（Mace） | 1d6 钝击 | — | 削弱 | 4 磅 | 5 GP |
+| 长棍（Quarterstaff） | 1d6 钝击 | 多用（1d8） | 击倒 | 4 磅 | 2 SP |
+| 镰刀（Sickle） | 1d4 挥砍 | 轻型 | 迅击 | 2 磅 | 1 GP |
+| 长矛（Spear） | 1d6 穿刺 | 投掷（射程 20/60）、多用（1d8） | 削弱 | 3 磅 | 1 GP |
+| *简易远程武器* |  |  |  |  |  |
+| 飞镖（Dart） | 1d4 穿刺 | 灵巧、投掷（射程 20/60） | 扰乱 | 1/4 磅 | 5 CP |
+| 轻弩（Light Crossbow） | 1d8 穿刺 | 弹药（射程 80/320；弩矢）、装填、双手 | 缓速 | 5 磅 | 25 GP |
+| 短弓（Shortbow） | 1d6 穿刺 | 弹药（射程 80/320；箭）、双手 | 扰乱 | 2 磅 | 25 GP |
+| 投石索（Sling） | 1d4 钝击 | 弹药（射程 30/120；投石索弹丸） | 缓速 | — | 1 SP |
+| *军用近战武器* |  |  |  |  |  |
+| 战斧（Battleaxe） | 1d8 挥砍 | 多用（1d10） | 击倒 | 4 磅 | 10 GP |
+| 连枷（Flail） | 1d8 钝击 | — | 削弱 | 2 磅 | 10 GP |
+| 长柄刀（Glaive） | 1d10 挥砍 | 重型、触及、双手 | 擦伤 | 6 磅 | 20 GP |
+| 巨斧（Greataxe） | 1d12 挥砍 | 重型、双手 | 顺劈 | 7 磅 | 30 GP |
+| 巨剑（Greatsword） | 2d6 挥砍 | 重型、双手 | 擦伤 | 6 磅 | 50 GP |
+| 戟（Halberd） | 1d10 挥砍 | 重型、触及、双手 | 顺劈 | 6 磅 | 20 GP |
+| 骑枪（Lance） | 1d10 穿刺 | 重型、触及、双手（骑乘时除外） | 击倒 | 6 磅 | 10 GP |
+| 长剑（Longsword） | 1d8 挥砍 | 多用（1d10） | 削弱 | 3 磅 | 15 GP |
+| 巨锤（Maul） | 2d6 钝击 | 重型、双手 | 击倒 | 10 磅 | 10 GP |
+| 晨星锤（Morningstar） | 1d8 穿刺 | — | 削弱 | 4 磅 | 15 GP |
+| 长枪（Pike） | 1d10 穿刺 | 重型、触及、双手 | 推击 | 18 磅 | 5 GP |
+| 细剑（Rapier） | 1d8 穿刺 | 灵巧 | 扰乱 | 2 磅 | 25 GP |
+| 弯刀（Scimitar） | 1d6 挥砍 | 灵巧、轻型 | 迅击 | 3 磅 | 25 GP |
+| 短剑（Shortsword） | 1d6 穿刺 | 灵巧、轻型 | 扰乱 | 2 磅 | 10 GP |
+| 三叉戟（Trident） | 1d8 穿刺 | 投掷（射程 20/60）、多用（1d10） | 击倒 | 4 磅 | 5 GP |
+| 战锤（Warhammer） | 1d8 钝击 | 多用（1d10） | 推击 | 5 磅 | 15 GP |
+| 战镐（War Pick） | 1d8 穿刺 | 多用（1d10） | 削弱 | 2 磅 | 5 GP |
+| 长鞭（Whip） | 1d4 挥砍 | 灵巧、触及 | 缓速 | 3 磅 | 2 GP |
+| *军用远程武器* |  |  |  |  |  |
+| 吹箭筒（Blowgun） | 1 穿刺 | 弹药（射程 25/100；吹箭针）、装填 | 扰乱 | 1 磅 | 10 GP |
+| 手弩（Hand Crossbow） | 1d6 穿刺 | 弹药（射程 30/120；弩矢）、轻型、装填 | 扰乱 | 3 磅 | 75 GP |
+| 重弩（Heavy Crossbow） | 1d10 穿刺 | 弹药（射程 100/400；弩矢）、重型、装填、双手 | 推击 | 18 磅 | 50 GP |
+| 长弓（Longbow） | 1d8 穿刺 | 弹药（射程 150/600；箭）、重型、双手 | 缓速 | 2 磅 | 50 GP |
+| 火枪（Musket） | 1d12 穿刺 | 弹药（射程 40/120；火器弹丸）、装填、双手 | 缓速 | 10 磅 | 500 GP |
+| 手枪（Pistol） | 1d10 穿刺 | 弹药（射程 30/90；火器弹丸）、装填 | 扰乱 | 3 磅 | 250 GP |
+
+## 护甲（Armor）
+
+“护甲”表列出了游戏中的主要护甲。表中包括护甲的价格和重量，以及以下信息：
+
+**类别（Category）。** 每种护甲都属于轻甲、中甲或重甲中的一种。类别决定穿上和脱下护甲所需的时间，如表中所示。
+
+**护甲等级（Armor Class，AC）。** 表中的“护甲等级”栏告诉你穿着某种护甲时的基础 AC。例如，穿着皮甲时，你的基础 AC 为 11 + 敏捷调整值，而穿着链甲时 AC 为 16。
+
+**力量（Strength）。** 如果某种护甲在“力量”栏列出了力量值，则除非穿戴者的力量值等于或高于该数字，否则该护甲会使穿戴者的速度降低 10 尺。
+
+**隐匿（Stealth）。** 如果某种护甲在“隐匿”栏中标有“劣势”，则穿戴者进行敏捷（隐匿）检定时具有劣势。
+
+**护甲（Armor）**
+
+| 护甲 | 护甲等级（AC） | 力量 | 隐匿 | 重量 | 价格 |
+|---|---|---|---|---:|---:|
+| *轻甲（穿上或脱下需 1 分钟）* |  |  |  |  |  |
+| 衬甲（Padded Armor） | 11 + 敏捷调整值 | — | 劣势 | 8 磅 | 5 GP |
+| 皮甲（Leather Armor） | 11 + 敏捷调整值 | — | — | 10 磅 | 10 GP |
+| 镶钉皮甲（Studded Leather Armor） | 12 + 敏捷调整值 | — | — | 13 磅 | 45 GP |
+| *中甲（穿上需 5 分钟，脱下需 1 分钟）* |  |  |  |  |  |
+| 兽皮甲（Hide Armor） | 12 + 敏捷调整值（最高 +2） | — | — | 12 磅 | 10 GP |
+| 链甲衫（Chain Shirt） | 13 + 敏捷调整值（最高 +2） | — | — | 20 磅 | 50 GP |
+| 鳞甲（Scale Mail） | 14 + 敏捷调整值（最高 +2） | — | 劣势 | 45 磅 | 50 GP |
+| 胸甲（Breastplate） | 14 + 敏捷调整值（最高 +2） | — | — | 20 磅 | 400 GP |
+| 半身板甲（Half Plate Armor） | 15 + 敏捷调整值（最高 +2） | — | 劣势 | 40 磅 | 750 GP |
+| *重甲（穿上需 10 分钟，脱下需 5 分钟）* |  |  |  |  |  |
+| 环甲（Ring Mail） | 14 | — | 劣势 | 40 磅 | 30 GP |
+| 链甲（Chain Mail） | 16 | 力量 13 | 劣势 | 55 磅 | 75 GP |
+| 条板甲（Splint Armor） | 17 | 力量 15 | 劣势 | 60 磅 | 200 GP |
+| 板甲（Plate Armor） | 18 | 力量 15 | 劣势 | 65 磅 | 1,500 GP |
+| *盾牌（使用动作穿戴或卸下）* |  |  |  |  |  |
+| 盾牌（Shield） | +2 | — | — | 6 磅 | 10 GP |
+
+### 护甲训练（Armor Training）
+
+任何人都可以穿戴护甲或持用盾牌，但只有接受过相应训练的人才能有效使用它们，具体如下。角色的职业和其他特性决定其护甲训练。怪物自动拥有其数据中列出的任何护甲训练。
+
+**轻甲、中甲或重甲。** 如果你穿着轻甲、中甲或重甲，但没有相应训练，则所有涉及力量或敏捷的 D20 检定都具有劣势，并且你无法施放法术。
+
+**盾牌。** 只有接受过盾牌训练时，你才能获得盾牌提供的护甲等级收益。
+
+### 同一时间仅一件（One at a Time）
+
+一个生物同一时间只能穿着一套护甲，并且只能持用一面盾牌。
+
+## 工具（Tools）
+
+工具可以帮助你进行专门的属性检定、制作特定物品，或两者兼有。工具的说明包括价格和重量，以及以下条目：
+
+**属性（Ability）。** 该条目列出使用此工具进行属性检定时所使用的属性。
+
+**使用（Utilize）。** 该条目列出了当你执行使用动作时，可以用该工具进行的事情。每次执行该动作时，你可以完成其中一项。该条目还提供该动作的 DC。
+
+**制作（Craft）。** 该条目列出可以使用该工具制作的物品。如果没有，则不列出。制作规则见本章稍后的“制作非魔法物品”“酿制治疗药水”和“抄写法术卷轴”。
+
+**变体（Variants）。** 如果工具拥有多个变体，则会出现该条目。每种变体都需要单独的熟练。
+
+### 工具熟练（Tool Proficiency）
+
+如果你拥有某项工具熟练，则在使用该工具进行任何属性检定时加入你的熟练加值。
+
+如果你同时拥有该检定所使用技能的熟练，则该检定还具有优势。
+
+你的特性可能会给予你工具熟练。怪物自动熟练其数据中列出的任何工具。
+
+#### 工匠工具（Artisan's Tools）
+
+每种工匠工具都专注于制作物品或从事一种行业。每种工具都需要单独的熟练。
+
+**炼金工具（Alchemist's Supplies，50 GP）**
+
+**属性：** 智力　**重量：** 8 磅  
+**使用：** 鉴定一种物质（DC 15），或生火（DC 15）  
+**制作：** 强酸、炼金火、材料包、油、纸张、香水
+
+**酿酒工具（Brewer's Supplies，20 GP）**
+
+**属性：** 智力　**重量：** 9 磅  
+**使用：** 侦测饮品是否有毒（DC 15），或鉴定酒类（DC 10）  
+**制作：** 解毒剂
+
+**书法工具（Calligrapher's Supplies，10 GP）**
+
+**属性：** 敏捷　**重量：** 5 磅  
+**使用：** 以华丽笔法书写文字，使其更难伪造（DC 15）  
+**制作：** 墨水、*法术卷轴*
+
+**木匠工具（Carpenter's Tools，8 GP）**
+
+**属性：** 力量　**重量：** 6 磅  
+**使用：** 封闭或撬开门或容器（DC 20）  
+**制作：** 短棒、巨棒、长棍、木桶、箱子、梯子、长杆、便携式攻城锤、火把
+
+**制图工具（Cartographer's Tools，15 GP）**
+
+**属性：** 感知　**重量：** 6 磅  
+**使用：** 绘制一小片区域的地图（DC 15）  
+**制作：** 地图
+
+**鞋匠工具（Cobbler's Tools，5 GP）**
+
+**属性：** 敏捷　**重量：** 5 磅  
+**使用：** 改造鞋靴，使穿戴者下一次敏捷（特技）检定具有优势（DC 10）  
+**制作：** 攀爬工具包
+
+**厨师工具（Cook's Utensils，1 GP）**
+
+**属性：** 感知　**重量：** 8 磅  
+**使用：** 改善食物味道（DC 10），或侦测腐败或有毒食物（DC 15）  
+**制作：** 口粮
+
+**玻璃匠工具（Glassblower's Tools，30 GP）**
+
+**属性：** 智力　**重量：** 5 磅  
+**使用：** 判断一个玻璃物体在过去 24 小时中装过什么（DC 15）  
+**制作：** 玻璃瓶、放大镜、望远镜、小瓶
+
+**珠宝匠工具（Jeweler's Tools，25 GP）**
+
+**属性：** 智力　**重量：** 2 磅  
+**使用：** 判断宝石价值（DC 15）  
+**制作：** 奥术法器、圣徽
+
+**皮匠工具（Leatherworker's Tools，5 GP）**
+
+**属性：** 敏捷　**重量：** 5 磅  
+**使用：** 在皮革制品上添加图案（DC 10）  
+**制作：** 投石索、长鞭、兽皮甲、皮甲、镶钉皮甲、背包、弩矢盒、地图或卷轴筒、羊皮纸、小包、箭袋、水袋
+
+**石匠工具（Mason's Tools，10 GP）**
+
+**属性：** 力量　**重量：** 8 磅  
+**使用：** 在石头上凿刻符号或孔洞（DC 10）  
+**制作：** 滑轮组
+
+**画家工具（Painter's Supplies，10 GP）**
+
+**属性：** 感知　**重量：** 5 磅  
+**使用：** 绘制你见过事物的可辨认图像（DC 10）  
+**制作：** 德鲁伊法器、圣徽
+
+**陶匠工具（Potter's Tools，10 GP）**
+
+**属性：** 智力　**重量：** 3 磅  
+**使用：** 判断一个陶瓷物体在过去 24 小时中装过什么（DC 15）  
+**制作：** 陶罐、油灯
+
+**铁匠工具（Smith's Tools，20 GP）**
+
+**属性：** 力量　**重量：** 8 磅  
+**使用：** 撬开门或容器（DC 20）  
+**制作：** 任意近战武器（短棒、巨棒、长棍和长鞭除外）、中甲（兽皮甲除外）、重甲、滚珠、桶、铁蒺藜、锁链、撬棍、火器弹丸、抓钩、铁锅、铁钉、投石索弹丸
+
+**修补匠工具（Tinker's Tools，50 GP）**
+
+**属性：** 敏捷　**重量：** 10 磅  
+**使用：** 使用废料拼装一个微型物品，该物品会在 1 分钟后散架（DC 20）  
+**制作：** 火枪、手枪、铃铛、牛眼提灯、水壶、带罩提灯、捕猎陷阱、锁、镣铐、镜子、铲子、信号哨、火绒盒
+
+**织工工具（Weaver's Tools，1 GP）**
+
+**属性：** 敏捷　**重量：** 5 磅  
+**使用：** 修补衣物上的裂口（DC 10），或缝制一个微型图案（DC 10）  
+**制作：** 衬甲、篮子、睡袋、毛毯、华服、网、水袍、绳索、麻袋、细绳、帐篷、旅行服
+
+**木雕工具（Woodcarver's Tools，1 GP）**
+
+**属性：** 敏捷　**重量：** 5 磅  
+**使用：** 在木头上雕刻图案（DC 10）  
+**制作：** 短棒、巨棒、长棍、远程武器（手枪、火枪和投石索除外）、奥术法器、箭、弩矢、德鲁伊法器、墨水笔、吹箭针
+
+#### 其他工具（Other Tools）
+
+**易容工具包（Disguise Kit，25 GP）**  
+**属性：** 魅力　**重量：** 3 磅  
+**使用：** 化妆（DC 10）  
+**制作：** 戏服
+
+**伪造工具包（Forgery Kit，15 GP）**  
+**属性：** 敏捷　**重量：** 5 磅  
+**使用：** 模仿不超过 10 个词的他人笔迹（DC 15），或复制蜡封（DC 20）
+
+**游戏套具（Gaming Set，价格不等）**  
+**属性：** 感知　**重量：** —  
+**使用：** 判断某人是否作弊（DC 10），或赢得游戏（DC 20）  
+**变体：** 骰子（1 SP）、龙棋（1 GP）、纸牌（5 SP）、三龙牌（1 GP）
+
+**草药工具（Herbalism Kit，5 GP）**  
+**属性：** 智力　**重量：** 3 磅  
+**使用：** 鉴定一种植物（DC 10）  
+**制作：** 解毒剂、蜡烛、医疗包、*治疗药水*
+
+**乐器（Musical Instrument，价格不等）**  
+**属性：** 魅力　**重量：** 不等  
+**使用：** 演奏已知曲调（DC 10），或即兴创作歌曲（DC 15）  
+**变体：** 风笛（30 GP，6 磅）、鼓（6 GP，3 磅）、扬琴（25 GP，10 磅）、长笛（2 GP，1 磅）、号角（3 GP，2 磅）、鲁特琴（35 GP，2 磅）、里拉琴（30 GP，2 磅）、排箫（12 GP，2 磅）、肖姆管（2 GP，1 磅）、维奥尔琴（30 GP，1 磅）
+
+**领航工具（Navigator's Tools，25 GP）**  
+**属性：** 感知　**重量：** 2 磅  
+**使用：** 规划航线（DC 10），或通过观星确定位置（DC 15）
+
+**毒药师工具（Poisoner's Kit，50 GP）**  
+**属性：** 智力　**重量：** 2 磅  
+**使用：** 侦测物体是否有毒（DC 10）  
+**制作：** 基础毒药
+
+**盗贼工具（Thieves' Tools，25 GP）**  
+**属性：** 敏捷　**重量：** 1 磅  
+**使用：** 撬锁（DC 15），或解除陷阱（DC 15）
+
+## 冒险装备（Adventuring Gear）
+
+本节的“冒险装备”表列出了冒险者经常会觉得有用的装备。以下物品按字母顺序说明，物品名称后标有价格。
+
+#### 强酸（Acid，25 GP）
+
+当你执行攻击动作时，可以用投掷一瓶强酸替代其中一次攻击。以你能看见且位于你 20 尺内的一个生物或物体为目标。
+
+目标必须成功通过一次敏捷豁免，DC 等于 8 + 你的敏捷调整值 + 熟练加值，否则受到 2d6 强酸伤害。
+
+#### 炼金火（Alchemist's Fire，50 GP）
+
+当你执行攻击动作时，可以用投掷一瓶炼金火替代其中一次攻击。以你能看见且位于你 20 尺内的一个生物或物体为目标。
+
+目标必须成功通过一次敏捷豁免，DC 等于 8 + 你的敏捷调整值 + 熟练加值，否则受到 1d4 火焰伤害并开始燃烧，见“规则术语表”。
+
+#### 弹药（Ammunition，价格不等）
+
+拥有弹药属性的武器需要弹药才能使用。武器说明会注明其使用的弹药类型。
+
+“弹药”表列出了不同种类的弹药及购买时获得的数量。表中还列出了通常用于存放每种弹药的物品；储存容器必须另行购买。
+
+**冒险装备（Adventuring Gear）**
+
+| 物品 | 重量 | 价格 |
+|---|---:|---:|
+| 强酸 | 1 磅 | 25 GP |
+| 炼金火 | 1 磅 | 50 GP |
+| 弹药 | 不等 | 不等 |
+| 解毒剂 | — | 50 GP |
+| 奥术法器 | 不等 | 不等 |
+| 背包 | 5 磅 | 2 GP |
+| 滚珠 | 2 磅 | 1 GP |
+| 木桶 | 70 磅 | 2 GP |
+| 篮子 | 2 磅 | 4 SP |
+| 睡袋 | 7 磅 | 1 GP |
+| 铃铛 | — | 1 GP |
+| 毛毯 | 3 磅 | 5 SP |
+| 滑轮组 | 5 磅 | 1 GP |
+| 书籍 | 5 磅 | 25 GP |
+| 玻璃瓶 | 2 磅 | 2 GP |
+| 桶 | 2 磅 | 5 CP |
+| 窃贼套组 | 42 磅 | 16 GP |
+| 铁蒺藜 | 2 磅 | 1 GP |
+| 蜡烛 | — | 1 CP |
+| 弩矢盒 | 1 磅 | 1 GP |
+| 地图或卷轴筒 | 1 磅 | 1 GP |
+| 锁链 | 10 磅 | 5 GP |
+| 箱子 | 25 磅 | 5 GP |
+| 攀爬工具包 | 12 磅 | 25 GP |
+| 华服 | 6 磅 | 15 GP |
+| 旅行服 | 4 磅 | 2 GP |
+| 材料包 | 2 磅 | 25 GP |
+| 戏服 | 4 磅 | 5 GP |
+| 撬棍 | 5 磅 | 2 GP |
+| 外交官套组 | 39 磅 | 39 GP |
+| 德鲁伊法器 | 不等 | 不等 |
+| 地城探索者套组 | 55 磅 | 12 GP |
+| 艺人套组 | 58½ 磅 | 40 GP |
+| 探索者套组 | 55 磅 | 10 GP |
+| 水壶 | 1 磅 | 2 CP |
+| 抓钩 | 4 磅 | 2 GP |
+| 医疗包 | 3 磅 | 5 GP |
+| 圣徽 | 不等 | 不等 |
+| 圣水 | 1 磅 | 25 GP |
+| 捕猎陷阱 | 25 磅 | 5 GP |
+| 墨水 | — | 10 GP |
+| 墨水笔 | — | 2 CP |
+| 陶罐 | 4 磅 | 2 CP |
+| 梯子 | 25 磅 | 1 SP |
+| 油灯 | 1 磅 | 5 SP |
+| 牛眼提灯 | 2 磅 | 10 GP |
+| 带罩提灯 | 2 磅 | 5 GP |
+| 锁 | 1 磅 | 10 GP |
+| 放大镜 | — | 100 GP |
+| 镣铐 | 6 磅 | 2 GP |
+| 地图 | — | 1 GP |
+| 镜子 | 1/2 磅 | 5 GP |
+| 网 | 3 磅 | 1 GP |
+| 油 | 1 磅 | 1 SP |
+| 纸张 | — | 2 SP |
+| 羊皮纸 | — | 1 SP |
+| 香水 | — | 5 GP |
+| 基础毒药 | — | 100 GP |
+| 长杆 | 7 磅 | 5 CP |
+| 铁锅 | 10 磅 | 2 GP |
+| 治疗药水 | 1/2 磅 | 50 GP |
+| 小包 | 1 磅 | 5 SP |
+| 祭司套组 | 29 磅 | 33 GP |
+| 箭袋 | 1 磅 | 1 GP |
+| 便携式攻城锤 | 35 磅 | 4 GP |
+| 口粮 | 2 磅 | 5 SP |
+| 长袍 | 4 磅 | 1 GP |
+| 绳索 | 5 磅 | 1 GP |
+| 麻袋 | 1/2 磅 | 1 CP |
+| 学者套组 | 22 磅 | 40 GP |
+| 铲子 | 5 磅 | 2 GP |
+| 信号哨 | — | 5 CP |
+| 法术卷轴（戏法） | — | 30 GP |
+| 法术卷轴（1 环） | — | 50 GP |
+| 铁钉 | 5 磅 | 1 GP |
+| 望远镜 | 1 磅 | 1,000 GP |
+| 细绳 | — | 1 SP |
+| 帐篷 | 20 磅 | 2 GP |
+| 火绒盒 | 1 磅 | 5 SP |
+| 火把 | 1 磅 | 1 CP |
+| 小瓶 | — | 1 GP |
+| 水袋 | 5 磅（装满） | 2 SP |
+
+**弹药（Ammunition）**
+
+| 类型 | 数量 | 储存容器 | 重量 | 价格 |
+|---|---:|---|---:|---:|
+| 箭（Arrows） | 20 | 箭袋 | 1 磅 | 1 GP |
+| 弩矢（Bolts） | 20 | 弩矢盒 | 1½ 磅 | 1 GP |
+| 火器弹丸（Bullets, Firearm） | 10 | 小包 | 2 磅 | 3 GP |
+| 投石索弹丸（Bullets, Sling） | 20 | 小包 | 1½ 磅 | 4 CP |
+| 吹箭针（Needles） | 50 | 小包 | 1 磅 | 1 GP |
+
+#### 解毒剂（Antitoxin，50 GP）
+
+你可以使用附赠动作喝下一瓶解毒剂。接下来 1 小时内，你为避免或结束中毒状态而进行的豁免具有优势。
+
+#### 奥术法器（Arcane Focus，价格不等）
+
+奥术法器采用“奥术法器”表中列出的一种形式，并镶有珠宝或经过雕刻，以引导奥术魔法。
+
+术士、邪术师或法师可以使用此类物品作为施法法器。
+
+**奥术法器（Arcane Focuses）**
+
+| 法器 | 重量 | 价格 |
+|---|---:|---:|
+| 水晶（Crystal） | 1 磅 | 10 GP |
+| 法球（Orb） | 3 磅 | 20 GP |
+| 权杖（Rod） | 2 磅 | 10 GP |
+| 法杖（Staff，同时也是长棍） | 4 磅 | 5 GP |
+| 魔杖（Wand） | 1 磅 | 10 GP |
+
+#### 背包（Backpack，2 GP）
+
+一个背包可以在 1 立方尺空间内装载至多 30 磅物品。
+
+它也可以作为鞍袋使用。
+
+#### 滚珠（Ball Bearings，1 GP）
+
+作为使用动作，你可以把滚珠从袋中撒出。它们会覆盖你 10 尺内一片平坦的 10 尺见方区域。
+
+一个生物在一个回合中第一次进入该区域时，必须成功通过 DC 10 敏捷豁免，否则陷入倒地状态。
+
+回收滚珠需要 10 分钟。
+
+#### 木桶（Barrel，2 GP）
+
+一个木桶最多可以装 40 加仑液体，或 4 立方尺干货。
+
+#### 篮子（Basket，4 SP）
+
+一个篮子可以在 2 立方尺空间内装载至多 40 磅物品。
+
+#### 睡袋（Bedroll，1 GP）
+
+一个睡袋可供一个小型或中型生物睡眠。
+
+处于睡袋内时，你自动成功通过对抗极寒环境的豁免，见“游戏工具箱”。
+
+#### 铃铛（Bell，1 GP）
+
+当你使用使用动作摇响铃铛时，它发出的声音在 60 尺内都能听见。
+
+#### 毛毯（Blanket，5 SP）
+
+当你裹着毛毯时，对抗极寒环境的豁免具有优势，见“游戏工具箱”。
+
+#### 滑轮组（Block and Tackle，1 GP）
+
+滑轮组允许你吊起最多相当于你正常举起重量四倍的重量。
+
+#### 书籍（Book，25 GP）
+
+一本书包含虚构或非虚构内容。
+
+如果你查阅一本关于某主题且内容准确的非虚构书籍，则进行与该主题相关的智力（奥秘、历史、自然或宗教）检定时获得 +5 加值。
+
+#### 玻璃瓶（Bottle, Glass，2 GP）
+
+一个玻璃瓶最多可容纳 1½ 品脱液体。
+
+#### 桶（Bucket，5 CP）
+
+一个桶最多可容纳半立方尺内容物。
+
+#### 窃贼套组（Burglar's Pack，16 GP）
+
+一个窃贼套组包含以下物品：背包、滚珠、铃铛、10 根蜡烛、撬棍、带罩提灯、7 瓶油、5 天口粮、绳索、火绒盒和水袋。
+
+#### 铁蒺藜（Caltrops，1 GP）
+
+作为使用动作，你可以把铁蒺藜从袋中撒出，覆盖你 5 尺内一片 5 尺见方区域。
+
+一个生物在一个回合中第一次进入该区域时，必须成功通过 DC 15 敏捷豁免，否则受到 1 点穿刺伤害，并且速度降为 0，直到其下一回合开始。
+
+回收铁蒺藜需要 10 分钟。
+
+#### 蜡烛（Candle，1 CP）
+
+点燃的蜡烛燃烧 1 小时，在半径 5 尺内提供明亮光照，并在额外 5 尺范围内提供微光。
+
+#### 弩矢盒（Case, Crossbow Bolt，1 GP）
+
+一个弩矢盒最多可以装 20 支弩矢。
+
+#### 地图或卷轴筒（Case, Map or Scroll，1 GP）
+
+一个地图或卷轴筒最多可以装 10 张纸或 5 张羊皮纸。
+
+#### 锁链（Chain，5 GP）
+
+作为使用动作，如果你成功通过 DC 13 力量（运动）检定，可以用锁链缠住你 5 尺内一个不自愿且处于擒抱、失能或束缚状态的生物。
+
+如果该生物双腿被捆住，它会陷入束缚状态，直到逃脱。
+
+要从锁链中逃脱，该生物必须使用动作成功通过 DC 18 敏捷（特技）检定。
+
+要挣断锁链，必须使用动作成功通过 DC 20 力量（运动）检定。
+
+#### 箱子（Chest，5 GP）
+
+一个箱子最多可以容纳 12 立方尺内容物。
+
+#### 攀爬工具包（Climber's Kit，25 GP）
+
+攀爬工具包包括靴尖、手套、岩钉和安全带。
+
+作为使用动作，你可以用攀爬工具包将自己固定。
+
+固定后，你从锚点处最多只会坠落 25 尺，并且在未使用附赠动作解除固定前，不能离锚点超过 25 尺。
+
+#### 华服（Clothes, Fine，15 GP）
+
+华服由昂贵织物制成，并带有精湛工艺制作的装饰细节。
+
+某些活动和场所只允许穿着此类服装的人进入。
+
+#### 旅行服（Clothes, Traveler's，2 GP）
+
+旅行服是为在各种环境中旅行而设计的耐用服装。
+
+#### 材料包（Component Pouch，25 GP）
+
+材料包具有防水能力，并包含多个隔层，用于存放你法术所需的所有无需支付费用的材料成分。
+
+#### 戏服（Costume，5 GP）
+
+穿着戏服时，如果你进行任何旨在冒充该戏服所代表人物或人物类型的属性检定，该检定具有优势。
+
+#### 撬棍（Crowbar，2 GP）
+
+在能够利用撬棍杠杆作用的力量检定中，使用撬棍会使该检定具有优势。
+
+#### 外交官套组（Diplomat's Pack，39 GP）
+
+一个外交官套组包含以下物品：箱子、华服、墨水、5 支墨水笔、油灯、2 个地图或卷轴筒、4 瓶油、5 张纸、5 张羊皮纸、香水和火绒盒。
+
+#### 德鲁伊法器（Druidic Focus，价格不等）
+
+德鲁伊法器采用“德鲁伊法器”表中的一种形式，并通过雕刻、系缚丝带或涂绘来引导原始魔法。
+
+德鲁伊或游侠可以使用此类物品作为施法法器。
+
+**德鲁伊法器（Druidic Focuses）**
+
+| 法器 | 重量 | 价格 |
+|---|---:|---:|
+| 一枝槲寄生（Sprig of Mistletoe） | — | 1 GP |
+| 木制法杖（同时也是长棍） | 4 磅 | 5 GP |
+| 紫杉木魔杖（Yew Wand） | 1 磅 | 10 GP |
+
+#### 地城探索者套组（Dungeoneer's Pack，12 GP）
+
+一个地城探索者套组包含以下物品：背包、铁蒺藜、撬棍、2 瓶油、10 天口粮、绳索、火绒盒、10 支火把和水袋。
+
+#### 艺人套组（Entertainer's Pack，40 GP）
+
+一个艺人套组包含以下物品：背包、睡袋、铃铛、牛眼提灯、3 套戏服、镜子、8 瓶油、9 天口粮、火绒盒和水袋。
+
+#### 探索者套组（Explorer's Pack，10 GP）
+
+一个探索者套组包含以下物品：背包、睡袋、2 瓶油、10 天口粮、绳索、火绒盒、10 支火把和水袋。
+
+#### 水壶（Flask，2 CP）
+
+一个水壶最多可容纳 1 品脱液体。
+
+#### 抓钩（Grappling Hook，2 GP）
+
+作为使用动作，你可以把抓钩投向你 50 尺内的栏杆、突出边缘或其他可供钩住的位置。
+
+如果你成功通过 DC 13 敏捷（特技）检定，抓钩就会牢牢挂住。
+
+如果你在抓钩上绑有绳索，随后便可沿绳索攀爬。
+
+#### 医疗包（Healer's Kit，5 GP）
+
+一个医疗包有十次使用次数。
+
+作为使用动作，你可以消耗一次使用次数，使一个生命值为 0 的昏迷生物稳定，而无需进行感知（医药）检定。
+
+#### 圣徽（Holy Symbol，价格不等）
+
+圣徽采用“圣徽”表中列出的一种形式，并镶有珠宝或进行涂绘，以引导神圣魔法。
+
+牧师或圣武士可以使用圣徽作为施法法器。
+
+表中注明了圣徽需要被握持、佩戴，还是承载于织物——例如战袍或旗帜——或盾牌上。
+
+**圣徽（Holy Symbols）**
+
+| 圣徽 | 重量 | 价格 |
+|---|---:|---:|
+| 护符（Amulet，佩戴或握持） | 1 磅 | 5 GP |
+| 徽记（Emblem，承载于织物或盾牌上） | — | 5 GP |
+| 圣物匣（Reliquary，握持） | 2 磅 | 5 GP |
+
+#### 圣水（Holy Water，25 GP）
+
+当你执行攻击动作时，可以用投掷一瓶圣水替代其中一次攻击。
+
+以你能看见且位于你 20 尺内的一个生物为目标。
+
+目标必须成功通过一次敏捷豁免，DC 等于 8 + 你的敏捷调整值 + 熟练加值；如果目标是邪魔或不死生物，豁免失败时受到 2d8 光耀伤害。
+
+#### 捕猎陷阱（Hunting Trap，5 GP）
+
+作为使用动作，你可以设置捕猎陷阱。它是一圈锯齿状钢制夹环，当生物踩上中央压力板时会猛然闭合。
+
+陷阱通过粗重锁链固定在一个无法移动的物体上，例如树木或打入地面的铁钉。
+
+踩上压力板的生物必须成功通过 DC 13 敏捷豁免，否则受到 1d4 穿刺伤害，并且速度降低至 0，直到其下一回合开始。
+
+之后，在生物挣脱陷阱前，其移动范围会受锁链长度限制，通常为 3 尺。
+
+生物可以使用动作进行 DC 13 力量（运动）检定，成功时使自己或触及范围内另一个生物脱困。
+
+每次检定失败，被困生物受到 1 点穿刺伤害。
+
+#### 墨水（Ink，10 GP）
+
+墨水装在 1 盎司容量的瓶中，一瓶足够书写约 500 页。
+
+#### 墨水笔（Ink Pen，2 CP）
+
+墨水笔配合墨水，用于书写或绘画。
+
+#### 陶罐（Jug，2 CP）
+
+一个陶罐最多可以容纳 1 加仑液体。
+
+#### 梯子（Ladder，1 SP）
+
+梯子高 10 尺。
+
+你必须通过攀爬才能沿梯子向上或向下移动。
+
+#### 油灯（Lamp，5 SP）
+
+油灯以油作为燃料，在半径 15 尺内提供明亮光照，并在额外 30 尺范围内提供微光。
+
+#### 牛眼提灯（Lantern, Bullseye，10 GP）
+
+牛眼提灯以油作为燃料，在 60 尺锥状区域内提供明亮光照，并在额外 60 尺范围内提供微光。
+
+#### 带罩提灯（Lantern, Hooded，5 GP）
+
+带罩提灯以油作为燃料，在半径 30 尺内提供明亮光照，并在额外 30 尺范围内提供微光。
+
+作为附赠动作，你可以放下灯罩，将光照缩减为半径 5 尺的微光；也可以再次升起灯罩。
+
+#### 锁（Lock，10 GP）
+
+一把锁附带一把钥匙。
+
+没有钥匙时，生物可以使用盗贼工具，并成功通过 DC 15 敏捷（巧手）检定来撬开这把锁。
+
+#### 放大镜（Magnifying Glass，100 GP）
+
+使用放大镜鉴定或检查高度精细的物品时，相关属性检定具有优势。
+
+使用放大镜生火需要足够明亮、如同阳光般的光源供你聚焦，还需要引火材料，并且大约需要 5 分钟才能点燃火焰。
+
+#### 镣铐（Manacles，2 GP）
+
+作为使用动作，如果你成功通过 DC 13 敏捷（巧手）检定，可以使用镣铐束缚你 5 尺内一个不自愿、体型为小型或中型，并且处于擒抱、失能或束缚状态的生物。
+
+被束缚时，该生物的攻击检定具有劣势。
+
+如果镣铐被连接到固定于原地的锁链或挂钩上，该生物还会陷入束缚状态。
+
+从镣铐中逃脱需要使用动作成功通过 DC 20 敏捷（巧手）检定。
+
+挣断镣铐需要使用动作成功通过 DC 25 力量（运动）检定。
+
+每套镣铐附带一把钥匙。
+
+没有钥匙时，生物可以使用盗贼工具，通过 DC 15 敏捷（巧手）检定撬开镣铐的锁。
+
+#### 地图（Map，1 GP）
+
+如果你查阅一张准确的地图，则在地图所描绘地点中寻路时进行的感知（求生）检定获得 +5 加值。
+
+#### 镜子（Mirror，5 GP）
+
+一面手持钢镜可用于个人整理仪容，也可用于窥视拐角后方，或反射光线作为信号。
+
+#### 网（Net，1 GP）
+
+当你执行攻击动作时，可以用投掷一张网替代其中一次攻击。
+
+以你能看见且位于你 15 尺内的一个生物为目标。
+
+目标必须成功通过一次敏捷豁免，DC 等于 8 + 你的敏捷调整值 + 熟练加值，否则陷入束缚状态，直到挣脱。
+
+如果目标为巨型或更大，则自动成功。
+
+要逃脱，目标或其 5 尺内的一个生物必须使用动作进行 DC 10 力量（运动）检定，成功时使被束缚生物脱困。
+
+摧毁网也会使目标获得自由并结束该效果。网具有 AC 10、5 点生命值，并免疫钝击、毒素和心灵伤害。
+
+#### 油（Oil，1 SP）
+
+你可以把油泼洒在生物、物体或区域上，也可以将其作为燃料，具体如下。
+
+*泼洒在生物或物体上。* 当你执行攻击动作时，可以用投掷一瓶油替代其中一次攻击。
+
+以你 20 尺内的一个生物或物体为目标。
+
+目标必须成功通过一次敏捷豁免，DC 等于 8 + 你的敏捷调整值 + 熟练加值，否则会被油覆盖。
+
+如果目标在油干燥之前——1 分钟后——受到火焰伤害，则燃烧的油使目标额外受到 5 点火焰伤害。
+
+*泼洒在区域上。* 你可以执行使用动作，把一瓶油倒在你 5 尺内的平坦地面上，覆盖一片 5 尺见方区域。
+
+如果油被点燃，它会一直燃烧到点燃后的第 2 轮回合结束，也就是 12 秒。
+
+任何进入该区域或在那里结束回合的生物都会受到 5 点火焰伤害。
+
+一个生物每回合只能受到一次这种伤害。
+
+*燃料。* 油可以作为油灯和提灯的燃料。
+
+一瓶油点燃后，可以在油灯或提灯中累计燃烧 6 小时。
+
+这 6 小时不必连续；你可以使用使用动作熄灭燃油，之后再次点燃，直到累计燃烧满 6 小时。
+
+#### 纸张（Paper，2 SP）
+
+一张纸大约可以容纳 250 个手写单词。
+
+#### 羊皮纸（Parchment，1 SP）
+
+一张羊皮纸大约可以容纳 250 个手写单词。
+
+#### 香水（Perfume，5 GP）
+
+香水装在一个 4 盎司的小瓶中。
+
+将香水涂抹到自己身上后的 1 小时内，你进行魅力（游说）检定，以影响你 5 尺内态度冷淡的类人生物时具有优势。
+
+#### 基础毒药（Poison, Basic，100 GP）
+
+作为附赠动作，你可以使用一瓶基础毒药给一件武器或至多三枚弹药涂毒。
+
+被涂毒武器或弹药造成穿刺或挥砍伤害的生物，会额外受到 1d4 毒素伤害。
+
+涂抹后，毒药的效力持续 1 分钟，或者直到其伤害被触发，以先发生者为准。
+
+#### 长杆（Pole，5 CP）
+
+一根长杆长 10 尺。
+
+你可以用它触碰最远 10 尺外的东西。
+
+如果你在进行跳高或跳远时需要进行力量（运动）检定，可以使用长杆撑杆起跳，使该检定具有优势。
+
+#### 铁锅（Pot, Iron，2 GP）
+
+一个铁锅最多可以容纳 1 加仑液体。
+
+#### 治疗药水（Potion of Healing，50 GP）
+
+这种药水是一件魔法物品。
+
+作为附赠动作，你可以饮用它，或让你 5 尺内另一个生物喝下它。
+
+喝下瓶中魔法红色液体的生物恢复 2d4 + 2 生命值。
+
+#### 小包（Pouch，5 SP）
+
+一个小包可以在五分之一立方尺空间内装载至多 6 磅物品。
+
+#### 祭司套组（Priest's Pack，33 GP）
+
+一个祭司套组包含以下物品：背包、毛毯、圣水、油灯、7 天口粮、长袍和火绒盒。
+
+#### 箭袋（Quiver，1 GP）
+
+一个箭袋最多可以装 20 支箭。
+
+#### 便携式攻城锤（Ram, Portable，4 GP）
+
+你可以使用便携式攻城锤破门。
+
+这样做时，你的力量检定获得 +4 加值。
+
+另一名角色可以协助你使用攻城锤，使该检定具有优势。
+
+#### 口粮（Rations，5 SP）
+
+口粮由适合旅行携带的食物组成，包括肉干、干果、硬饼和坚果。
+
+不进食可能带来的风险见“规则术语表”中的“营养不良（Malnutrition）”。
+
+#### 长袍（Robe，1 GP）
+
+长袍具有职业或仪式意义。
+
+某些活动和地点只允许穿着带有特定颜色或符号长袍的人进入。
+
+#### 绳索（Rope，1 GP）
+
+作为使用动作，如果你成功通过 DC 10 敏捷（巧手）检定，可以用绳索打结。
+
+绳索可以通过成功的 DC 20 力量（运动）检定被挣断。
+
+只有当一个不自愿生物处于擒抱、失能或束缚状态时，你才能用绳索束缚它。
+
+如果该生物双腿被捆住，它会陷入束缚状态，直到逃脱。
+
+要从绳索中逃脱，该生物必须使用动作成功通过 DC 15 敏捷（特技）检定。
+
+#### 麻袋（Sack，1 CP）
+
+一个麻袋可以在 1 立方尺空间内装载至多 30 磅物品。
+
+#### 学者套组（Scholar's Pack，40 GP）
+
+一个学者套组包含以下物品：背包、书籍、墨水、墨水笔、油灯、10 瓶油、10 张羊皮纸和火绒盒。
+
+#### 铲子（Shovel，2 GP）
+
+工作 1 小时后，你可以使用铲子在泥土或类似材质中挖出一个长、宽、深各 5 尺的坑。
+
+#### 信号哨（Signal Whistle，5 CP）
+
+当你使用使用动作吹响信号哨时，其声音最远可在 600 尺外听见。
+
+#### 法术卷轴（Spell Scroll；戏法 30 GP；1 环 50 GP）
+
+*法术卷轴（戏法）*或*法术卷轴（1 环）*是一件魔法物品，分别记载由卷轴制作者决定的一道戏法或 1 环法术。
+
+如果该法术位于你的职业法术列表上，你可以阅读卷轴，并按照法术正常施法时间施放它，而且无需提供任何材料成分。
+
+如果法术要求豁免或攻击检定，则法术豁免 DC 为 13，法术攻击加值为 +5。
+
+施法完成后，卷轴化为粉尘。
+
+#### 铁钉（Spikes, Iron，1 GP）
+
+铁钉每捆十枚。
+
+作为使用动作，你可以使用钝器，例如轻锤，将一枚铁钉敲入木材、泥土或类似材料中。
+
+你可以用这种方式卡死一扇门，或者将绳索或锁链绑在铁钉上。
+
+#### 望远镜（Spyglass，1,000 GP）
+
+通过望远镜观察的物体看起来会放大到原本尺寸的两倍。
+
+#### 细绳（String，1 SP）
+
+细绳长 10 尺。
+
+你可以使用使用动作在上面打结。
+
+#### 帐篷（Tent，2 GP）
+
+一个帐篷可供最多两个小型或中型生物睡眠。
+
+#### 火绒盒（Tinderbox，5 SP）
+
+火绒盒是一个小容器，里面装有燧石、打火钢和引火物，通常是浸过少量油的干布，用于生火。
+
+使用它点燃蜡烛、油灯、提灯、火把或其他暴露燃料的东西需要一个附赠动作。
+
+点燃其他火源需要 1 分钟。
+
+#### 火把（Torch，1 CP）
+
+一支火把可燃烧 1 小时，在半径 20 尺内提供明亮光照，并在额外 20 尺范围内提供微光。
+
+当你执行攻击动作时，可以使用火把进行攻击，并把它视为简易近战武器。
+
+命中时，目标受到 1 点火焰伤害。
+
+#### 小瓶（Vial，1 GP）
+
+一个小瓶最多可以容纳 4 盎司液体。
+
+#### 水袋（Waterskin，2 SP）
+
+一个水袋最多可以容纳 4 品脱液体。
+
+如果你没有饮用足够的水，就可能面临脱水风险，见“规则术语表”。
+
+## 坐骑与载具（Mounts and Vehicles）
+
+坐骑可以帮助你更快穿越荒野，但其主要用途是携带原本可能拖慢你速度的装备。
+
+“坐骑及其他动物”表列出了每种动物的载重能力。动物的数据见“怪物”。
+
+### 坐骑与货物（Mounts and Cargo）
+
+一只动物拉动马车、手推车、战车、雪橇或货车时，可以拖动最多等于其基础载重能力五倍的重量，其中包括载具本身的重量。
+
+如果多只动物共同拉动同一载具，将它们的载重能力相加。
+
+### 坐骑护甲（Barding）
+
+坐骑护甲是专为坐骑设计的护甲。
+
+“装备”中的“护甲”表列出的任何种类护甲都可以作为坐骑护甲购买。
+
+其价格为正常价格的四倍，重量为正常重量的两倍。
+
+### 鞍具（Saddles）
+
+一套马鞍附带嚼子、笼头、缰绳以及使用该鞍具所需的其他装备。
+
+军用鞍（Military Saddle）使你进行任何保持骑乘状态的属性检定时具有优势。
+
+骑乘水生或飞行坐骑时，必须使用特殊鞍（Exotic Saddle）。
+
+**坐骑及其他动物（Mounts and Other Animals）**
+
+| 项目 | 载重能力 | 价格 |
+|---|---:|---:|
+| 骆驼（Camel） | 450 磅 | 50 GP |
+| 大象（Elephant） | 1,320 磅 | 200 GP |
+| 挽马（Horse, Draft） | 540 磅 | 50 GP |
+| 骑乘马（Horse, Riding） | 480 磅 | 75 GP |
+| 獒犬（Mastiff） | 195 磅 | 25 GP |
+| 骡子（Mule） | 420 磅 | 8 GP |
+| 矮马（Pony） | 225 磅 | 30 GP |
+| 战马（Warhorse） | 540 磅 | 400 GP |
+
+**挽具、鞍具与牵引载具（Tack, Harness, and Drawn Vehicles）**
+
+| 项目 | 重量 | 价格 |
+|---|---:|---:|
+| 四轮马车（Carriage） | 600 磅 | 100 GP |
+| 手推车（Cart） | 200 磅 | 15 GP |
+| 战车（Chariot） | 100 磅 | 250 GP |
+| 每日饲料（Feed per Day） | 10 磅 | 5 CP |
+| 鞍具（Saddle） |  |  |
+| └ 特殊鞍（Exotic） | 40 磅 | 60 GP |
+| └ 军用鞍（Military） | 30 磅 | 20 GP |
+| └ 骑乘鞍（Riding） | 25 磅 | 10 GP |
+| 雪橇（Sled） | 300 磅 | 20 GP |
+| 每日马厩费（Stabling per Day） | — | 5 SP |
+| 货车（Wagon） | 400 磅 | 35 GP |
+
+### 大型载具（Large Vehicles）
+
+“空中与水上载具”表提供了多种大型载具的数据。以下规则适用于它们。
+
+#### 速度（Speed）
+
+船只逆着强风航行时以一半速度移动。
+
+在完全无风时，水上船只无法依靠帆航行，必须划桨。
+
+龙骨艇（Keelboat）和划艇（Rowboat）用于湖泊和河流。
+
+顺流而下时，将水流速度——通常为每小时 3 里——加到载具速度上。
+
+这些载具无法逆着明显水流划行，但可以由岸上的挽畜牵引逆流而上。
+
+划艇可以被搬运，其重量为 100 磅。
+
+**空中与水上载具（Airborne and Waterborne Vehicles）**
+
+| 船只 | 速度 | 船员 | 乘客 | 载货（吨） | AC | HP | 伤害阈值 | 价格 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 飞空艇（Airship） | 8 里/小时 | 10 | 20 | 1 | 13 | 300 | — | 40,000 GP |
+| 桨帆战舰（Galley） | 4 里/小时 | 80 | — | 150 | 15 | 500 | 20 | 30,000 GP |
+| 龙骨艇（Keelboat） | 1 里/小时 | 1 | 6 | 1/2 | 15 | 100 | 10 | 3,000 GP |
+| 长船（Longship） | 3 里/小时 | 40 | 150 | 10 | 15 | 300 | 15 | 10,000 GP |
+| 划艇（Rowboat） | 1½ 里/小时 | 1 | 3 | — | 11 | 50 | — | 50 GP |
+| 帆船（Sailing Ship） | 2 里/小时 | 20 | 20 | 100 | 15 | 300 | 15 | 10,000 GP |
+| 战舰（Warship） | 2½ 里/小时 | 60 | 60 | 200 | 15 | 500 | 20 | 25,000 GP |
+
+#### 船员（Crew）
+
+比龙骨艇或划艇更大的船只需要由熟练雇员——见本章稍后的“雇员”——组成船员才能正常运作。
+
+船只所需的最低熟练雇员人数取决于船只种类，如表中所示。
+
+#### 乘客（Passengers）
+
+表中列出了船只使用吊床时能够容纳的小型和中型乘客数量。
+
+如果船只配备私人住宿，则只能容纳表中人数的五分之一。
+
+乘客通常为一张吊床支付每日 5 SP，但不同船只的价格可能有所差异。
+
+一个小型私人舱室通常每天花费 2 GP。
+
+#### 伤害阈值（Damage Threshold）
+
+如果载具具有伤害阈值，见“规则术语表”，则会在表中注明。
+
+#### 船只维修（Ship Repair）
+
+受损船只停泊时可以进行维修。
+
+修复 1 点生命值需要 1 天，并消耗价值 20 GP 的材料和人工费用。
+
+如果维修地点拥有充足物资和熟练劳动力，例如城市造船厂，则维修时间和费用减半。
+
+## 生活方式开销（Lifestyle Expenses）
+
+生活方式开销概括了在奇幻世界中的生活成本，包括住宿、食物、装备维护以及其他生活必需品。
+
+每周或每月开始时——由 GM 决定——从以下生活方式中选择一种：悲惨、肮脏、贫穷、普通、舒适、富裕或贵族，并支付维持该生活方式所需的费用。
+
+生活方式本身没有固有的规则后果，但 GM 在判断你可能面临的风险，或其他人如何看待你的角色时，可以将其纳入考虑。
+
+### 悲惨（Wretched，免费）
+
+你依靠运气和施舍维生。
+
+由于经常露宿户外，你往往直接暴露在自然环境的危险中。
+
+### 肮脏（Squalid，每日 1 SP）
+
+你只花费维持基本生存所需的最低费用。
+
+你可能暴露在不卫生的环境和伺机而动的罪犯之中。
+
+### 贫穷（Poor，每日 2 SP）
+
+你节俭地支付生活必需品费用。
+
+### 普通（Modest，每日 1 GP）
+
+你以一般水平维持自己的生活。
+
+### 舒适（Comfortable，每日 2 GP）
+
+你适度花费于生活必需品，并享受少量奢侈。
+
+### 富裕（Wealthy，每日 4 GP）
+
+你习惯生活中的优质享受，并可能拥有仆从。
+
+### 贵族（Aristocratic，每日 10 GP）
+
+你为最好的东西付费，并可能拥有一批工作人员维持你的生活方式。
+
+其他人会注意到你的财富，并可能鼓励你与他们分享——无论是通过合法方式还是其他方式。
+
+## 食物、饮料与住宿（Food, Drink, and Lodging）
+
+“食物、饮料与住宿”表列出了食物和单晚住宿的价格。
+
+每日住宿和餐饮费用已经包含在你的生活方式开销中。
+
+**食物、饮料与住宿（Food, Drink, and Lodging）**
+
+| 项目 | 价格 | 项目 | 价格 |
+|---|---:|---|---:|
+| *旅店每日住宿* |  | *餐食* |  |
+| 麦酒（一杯） | 4 CP | 舒适 | 8 SP |
+| 面包（一条） | 2 CP | 富裕 | 2 GP |
+| 奶酪（一块） | 1 SP | 贵族 | 4 GP |
+| 肮脏 | 7 CP | 肮脏 | 1 CP |
+| 贫穷 | 1 SP | 贫穷 | 2 CP |
+| 普通 | 5 SP | 普通 | 1 SP |
+| 舒适 | 2 SP | 葡萄酒（一瓶） |  |
+| 富裕 | 3 SP | 普通 | 2 SP |
+| 贵族 | 6 SP | 上等 | 10 GP |
+
+## 雇员（Hirelings）
+
+熟练雇员包括任何受雇执行需要熟练项——包括武器、工具或技能熟练——的服务人员，例如佣兵、工匠、抄写员等。
+
+“雇员”表中所列工资为最低工资；某些专家级雇员会要求更高报酬。
+
+非熟练雇员则受雇完成不需要任何特殊熟练的工作，包括劳工和搬运工。
+
+**雇员（Hirelings）**
+
+| 服务 | 价格 |
+|---|---:|
+| 熟练雇员 | 每日 2 GP |
+| 非熟练雇员 | 每日 2 SP |
+| 信使 | 每里 2 CP |
+
+## 施法服务（Spellcasting）
+
+大多数聚居地中都有愿意收取报酬施放法术的人。
+
+如果法术具有昂贵材料成分，则将这些材料成分的费用加到“施法服务”表列出的价格中。
+
+所需法术环阶越高，就越难找到能够施放该法术的人。
+
+**施法服务（Spellcasting Services）**
+
+| 法术环阶 | 可获得地点 | 价格 |
+|---|---|---:|
+| 戏法 | 村庄、城镇或城市 | 30 GP |
+| 1 | 村庄、城镇或城市 | 50 GP |
+| 2 | 村庄、城镇或城市 | 200 GP |
+| 3 | 仅城镇或城市 | 300 GP |
+| 4–5 | 仅城镇或城市 | 2,000 GP |
+| 6–8 | 仅城市 | 20,000 GP |
+| 9 | 仅城市 | 100,000 GP |
+
+## 魔法物品（Magic Items）
+
+冒险意味着有机会——但并不能保证——发现魔法物品。
+
+本文档稍后的“魔法物品”一节详细介绍了数百件魔法物品。
+
+以下是使用魔法物品时需要了解的规则。
+
+### 鉴定魔法物品（Identifying a Magic Item）
+
+有些魔法物品与其非魔法版本无法区分，而另一些则明显带有魔法特征。
+
+仅仅拿起或触碰一件魔法物品，就足以让你感觉到它非同寻常，但你不会自动知道它的具体属性。
+
+*鉴定术（Identify）*是揭示物品属性最快的方法。
+
+除此之外，你也可以在一次短休期间专注于一件魔法物品，并始终与该物品保持身体接触。
+
+短休结束时，你会了解该物品的属性以及如何使用它，但不会得知物品可能带有的任何诅咒。
+
+有时，魔法物品本身会提供暗示其属性的线索。
+
+例如，启动一枚戒指所需的命令词可能刻在戒指内侧，而羽毛图案可能暗示它是一枚*羽落戒指（Ring of Feather Falling）*。
+
+穿戴或试验某件物品也可能提供有关其属性的线索。
+
+对于药水而言，仅仅品尝一点就足以让品尝者知道该药水的效果。
+
+其他物品可能需要更多尝试。
+
+例如，如果你的角色戴上一枚*游泳戒指（Ring of Swimming）*，GM 可能会说：“你感觉自己的动作变得异常流畅。”
+
+之后你可能跳进河里试试看会发生什么。
+
+GM 随后可能告诉你，你游得出奇地好。
+
+### 同调（Attunement）
+
+某些魔法物品要求生物与其建立一种称为同调的联系，之后才能使用该物品的魔法属性。
+
+如果一件物品需要同调，而你尚未与其同调，则除非物品说明另有规定，否则你只能获得其非魔法收益。
+
+例如，一面需要同调的魔法盾牌，在你未与其同调时仍可提供普通盾牌的收益，但不会提供任何魔法属性。
+
+#### 在短休期间同调（Attune during a Short Rest）
+
+与一件物品同调要求你进行一次短休，并在整个短休中只专注于该物品，同时与其保持身体接触。
+
+这一专注可以表现为武器练习——如果物品是武器；冥想——如果物品是魔杖；或者其他适合该物品的活动。
+
+如果短休被中断，同调尝试失败。
+
+否则，在短休结束时，你便与该魔法物品完成同调，并能够使用其全部魔法能力。
+
+#### 最多三件物品（No More Than Three Items）
+
+你同一时间最多只能与三件魔法物品同调。
+
+任何尝试与第四件物品同调的行为都会失败；你必须先结束与其中一件物品的同调。
+
+此外，你不能同时与同一种物品的多个副本同调。
+
+例如，你不能同时与两枚*防护戒指（Ring of Protection）*同调。
+
+#### 结束同调（Ending Attunement）
+
+如果你不再满足同调的先决条件、物品与你之间距离超过 100 尺并持续至少 24 小时、你死亡，或者另一名生物与该物品完成同调，你与该物品的同调会结束。
+
+除非物品受到诅咒，你也可以通过再进行一次专注于该物品的短休，自愿结束同调。
+
+### 穿戴和持用物品（Wearing and Wielding Items）
+
+使用某件魔法物品的属性可能要求你穿戴或持用它。
+
+设计为穿戴的魔法物品必须以其预定方式穿戴：靴子穿在脚上，手套戴在手上，帽子和头盔戴在头上，戒指戴在手指上。
+
+魔法护甲必须正常穿上，盾牌必须绑在手臂上，斗篷必须系在肩上。
+
+武器必须持握。
+
+大多数情况下，设计为穿戴的魔法物品都可以适合不同体型和身材的生物。
+
+魔法服饰通常设计为容易调整尺寸，或者会自动以魔法方式适应穿戴者。
+
+#### 多件同类物品（Multiple Items of the Same Kind）
+
+某些类别的魔法物品不能同时穿戴多件。
+
+通常你不能穿超过一双鞋、一双手套或护手、一对护腕、一套护甲、一件头部装备或一件斗篷。
+
+GM 可以作出例外裁定。
+
+#### 成对物品（Paired Items）
+
+成对出现的物品——例如靴子、护腕、护手和手套——只有两件都穿戴时才会提供收益。
+
+例如，一个角色一只脚穿着*大步奔行之靴（Boots of Striding and Springing）*，另一只脚穿着*精灵之靴（Boots of Elvenkind）*，则两者都不会提供任何收益。
+
+## 制作非魔法物品（Crafting Nonmagical Items）
+
+要制作一件非魔法物品，你需要工具、原材料和时间，各项规则如下。
+
+如果你满足这些要求，就可以完成该物品，并可自行使用或按照正常价格出售。
+
+### 工具（Tools）
+
+“装备”中的“工具”一节列出了制作特定物品所需的工具。
+
+对于未在其中列出的物品，由 GM 决定所需工具。
+
+你必须使用制作该物品所需的工具，并且拥有该工具的熟练。
+
+任何协助你制作的人也必须拥有该工具的熟练。
+
+### 原材料（Raw Materials）
+
+制作一件物品需要价值等于其购买价格一半的原材料，向下取整。
+
+例如，制作一套售价 1,500 GP 的板甲，需要价值 750 GP 的原材料。
+
+由 GM 决定是否能够获得合适的原材料。
+
+### 时间（Time）
+
+要确定制作一件物品需要多少天——每天工作 8 小时——将其以 GP 计的购买价格除以 10，并将任何不足一天的部分向上取整为一天。
+
+例如，制作一把售价 50 GP 的重弩需要 5 天。
+
+如果一件物品需要多天制作，这些天不必连续。
+
+多个角色可以共同制作，从而缩短所需时间。
+
+将物品所需制作时间除以参与工作的角色数量。
+
+通常只有另一个角色能够协助你，但 GM 可以允许更多协助者。
+
+## 酿制治疗药水（Brewing Potions of Healing）
+
+拥有草药工具熟练的角色可以制作一瓶*治疗药水（Potion of Healing）*。
+
+这需要使用草药工具，并在 1 天内——也就是工作 8 小时——消耗价值 25 GP 的原材料。
+
+## 抄写法术卷轴（Scribing Spell Scrolls）
+
+施法者可以将一道法术转录到卷轴上，从而制作一张*法术卷轴（Spell Scroll）*，规则如下。
+
+### 时间与费用（Time and Cost）
+
+抄写卷轴需要的时间和金钱取决于法术环阶，如“法术卷轴成本”表所示。
+
+每一天的抄写都必须工作 8 小时。
+
+如果卷轴需要多天才能完成，这些天不必连续。
+
+### 抄写者的先决条件（Prerequisites for the Scribe）
+
+要抄写卷轴，你必须拥有奥秘技能熟练或书法工具熟练，并且在抄写的每一天都准备着该法术。
+
+你还必须准备好该法术所需的一切材料成分。
+
+如果法术会消耗其材料成分，则这些成分只有在你完成卷轴时才会被消耗。
+
+卷轴中的法术使用你的法术豁免 DC 和法术攻击加值。
+
+### 戏法（Cantrips）
+
+如果抄写的法术是一道戏法，则卷轴上的版本按照施法者等级等于你的等级来计算效果。
+
+**法术卷轴成本（Spell Scroll Costs）**
+
+| 法术环阶 | 时间 | 费用 |
+|---|---:|---:|
+| 戏法 | 1 天 | 15 GP |
+| 1 | 1 天 | 25 GP |
+| 2 | 3 天 | 100 GP |
+| 3 | 5 天 | 150 GP |
+| 4 | 10 天 | 1,000 GP |
+| 5 | 25 天 | 1,500 GP |
+| 6 | 40 天 | 10,000 GP |
+| 7 | 50 天 | 12,500 GP |
+| 8 | 60 天 | 15,000 GP |
+| 9 | 120 天 | 50,000 GP |

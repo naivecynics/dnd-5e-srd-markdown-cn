@@ -1,6025 +1,7371 @@
-﻿# Spells
+﻿# 法术（Spells）
 
-## Gaining Spells
+## 获得法术（Gaining Spells）
 
-Before you can cast a spell, you must have the spell prepared in your mind or have access to the spell from a magic item, such as a _Spell Scroll_. Your features specify which spells you have access to, if any; whether you always have certain spells prepared; and whether you can change the list of spells you have prepared.
+在你能够施放一个法术之前，你必须已经在心中准备好该法术，或者能够通过某件魔法物品使用该法术，例如一张*法术卷轴（Spell Scroll）*。你的特性会说明你能够使用哪些法术（如果有）；你是否始终准备着某些法术；以及你是否能够更改自己的已准备法术列表。
 
-### Preparing Spells
+### 准备法术（Preparing Spells）
 
-If you have a list of level 1+ spells you prepare, your spellcasting feature specifies when you can change the list and the number of spells you can change, as summarized in the Spell Preparation by Class table.
+如果你拥有一份由你准备的 1 环或更高环阶法术列表，你的施法特性会说明你何时可以更改该列表，以及每次可以更改多少个法术，如下方“各职业的法术准备”表所示。
 
-**Spell Preparation by Class**
+**各职业的法术准备（Spell Preparation by Class）**
 
-<table>
-  <thead>
-    <tr>
-      <th>Class</th>
-      <th>Change When You…</th>
-      <th>Number of Spells</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Bard</td>
-      <td>Gain a level</td>
-      <td>One</td>
-    </tr>
-    <tr>
-      <td>Cleric</td>
-      <td>Finish a Long Rest</td>
-      <td>Any</td>
-    </tr>
-    <tr>
-      <td>Druid</td>
-      <td>Finish a Long Rest</td>
-      <td>Any</td>
-    </tr>
-    <tr>
-      <td>Paladin</td>
-      <td>Finish a Long Rest</td>
-      <td>One</td>
-    </tr>
-    <tr>
-      <td>Ranger</td>
-      <td>Finish a Long Rest</td>
-      <td>One</td>
-    </tr>
-    <tr>
-      <td>Sorcerer</td>
-      <td>Gain a level</td>
-      <td>One</td>
-    </tr>
-    <tr>
-      <td>Warlock</td>
-      <td>Gain a level</td>
-      <td>One</td>
-    </tr>
-    <tr>
-      <td>Wizard</td>
-      <td>Finish a Long Rest</td>
-      <td>Any</td>
-    </tr>
-  </tbody>
-</table>
+| 职业 | 何时可以更改…… | 法术数量 |
+|---|---|---:|
+| 吟游诗人（Bard） | 升级时 | 一个 |
+| 牧师（Cleric） | 完成长休时 | 任意数量 |
+| 德鲁伊（Druid） | 完成长休时 | 任意数量 |
+| 圣武士（Paladin） | 完成长休时 | 一个 |
+| 游侠（Ranger） | 完成长休时 | 一个 |
+| 术士（Sorcerer） | 升级时 | 一个 |
+| 邪术师（Warlock） | 升级时 | 一个 |
+| 法师（Wizard） | 完成长休时 | 任意数量 |
 
-Most spellcasting monsters don't change their lists of prepared spells, but the GM is free to alter them.
+大多数能够施法的怪物不会更改自己的已准备法术列表，不过游戏主持人（GM）可以自由调整这些列表。
 
-### Always-Prepared Spells
+### 始终准备的法术（Always-Prepared Spells）
 
-Certain features might give you a spell that you always have prepared. If you also have a list of prepared spells that you can change, a spell that you always have prepared doesn't count against the number of spells on that list.
+某些特性可能会给予你一个始终处于准备状态的法术。如果你同时拥有一份可以更改的已准备法术列表，那么始终准备的法术不会计入该列表的法术数量。
 
-## Casting Spells
+## 施放法术（Casting Spells）
 
-Each spell description has a series of entries that provide the details needed to cast the spell. The following sections explain each of those entries, which follow a spell's name.
+每个法术的描述都包含一系列条目，提供施放该法术所需的具体信息。以下各节会解释这些条目；它们会依次出现在法术名称之后。
 
-> **Casting in Armor**
+> **穿着护甲施法（Casting in Armor）**
 >
-> You must have training with any armor you are wearing to cast spells while wearing it. You are otherwise too hampered by the armor for spellcasting.
+> 当你穿着护甲施放法术时，你必须受训于你当前穿着的任何护甲。否则，护甲会严重妨碍你，使你无法施法。
 
-### Spell Level
+### 法术环阶（Spell Level）
 
-Every spell has a level from 0 to 9, which is indicated in a spell's description. A spell's level is an indicator of how powerful it is. Cantrips—simple spells that can be cast almost by rote—are level 0. The rules for each spellcasting class say when its members gain access to spells of certain levels.
+每个法术都有一个从 0 到 9 的环阶，并会在法术描述中标明。法术环阶代表其强大程度。戏法（Cantrips）——那些几乎可以凭本能反复施放的简单法术——属于 0 环。各施法职业的规则会说明其成员何时能够使用特定环阶的法术。
 
-#### Spell Slots
+#### 法术位（Spell Slots）
 
-Spellcasting is taxing, so a spellcaster can cast only a limited number of level 1+ spells before resting. Spell slots are the main way a spellcaster's magical potential is represented. Each spellcasting class gives its members a limited number of spell slots of certain spell levels. For example, a level 3 Wizard has four level 1 spell slots and two level 2 slots.
+施法是一件耗费精力的事，因此施法者在休息之前只能施放数量有限的 1 环或更高环阶法术。法术位是表现施法者魔法潜力的主要方式。每个施法职业都会给予其成员一定数量、特定环阶的法术位。例如，一名 3 级法师拥有四个 1 环法术位和两个 2 环法术位。
 
-When you cast a spell, you expend a slot of that spell's level or higher, effectively "filling" a slot with the spell. Imagine a spell slot is a groove of a certain size—small for a level 1 slot and larger for a higher-level spell. A level 1 spell fits into a slot of any size, but a level 2 spell fits only into a slot that's at least level 2. So when a level 3 Wizard casts _Magic Missile_, a level 1 spell, that Wizard spends one of four level 1 slots and has three remaining.
+当你施放一个法术时，你必须消耗一个与该法术环阶相同或更高环阶的法术位，相当于用该法术“填入”那个法术位。你可以把法术位想象成一个具有特定大小的凹槽——1 环法术位较小，高环法术位则更大。一个 1 环法术可以放入任意大小的法术位，但一个 2 环法术只能放入至少为 2 环的法术位。因此，当一名 3 级法师施放 1 环法术*魔法飞弹（Magic Missile）*时，该法师会消耗四个 1 环法术位中的一个，并剩下三个。
 
-Finishing a Long Rest restores any expended spell slots.
+完成一次长休会恢复所有已消耗的法术位。
 
-#### Casting without Slots
+#### 不使用法术位施法（Casting without Slots）
 
-There are several ways to cast a spell without expending a spell slot:
+有多种方式可以在不消耗法术位的情况下施放法术：
 
-**Cantrips.** A cantrip is cast without a spell slot.
+**戏法。** 施放戏法不需要法术位。
 
-**Rituals.** Certain spells have the Ritual tag in the Casting Time entry. Such a spell can be cast following the normal rules for spellcasting, or it can be cast as a Ritual. The Ritual version of a spell takes 10 minutes longer to cast than normal, but it doesn't expend a spell slot. To cast a spell as a Ritual, a spellcaster must have it prepared.
+**仪式（Rituals）。** 某些法术在“施法时间”条目中具有“仪式”标签。这样的法术既可以按照正常施法规则施放，也可以作为仪式施放。以仪式方式施放一个法术时，施法时间比正常情况多 10 分钟，但不会消耗法术位。要以仪式方式施放一个法术，施法者必须已经准备该法术。
 
-**Special Abilities.** Some characters and monsters have special abilities that allow them to cast specific spells without a spell slot. This casting is usually limited in another way, such as being able to cast the spell a limited number of times per day.
+**特殊能力。** 某些角色和怪物拥有特殊能力，可以让他们在不使用法术位的情况下施放特定法术。这类施法通常会受到其他限制，例如每天只能施放有限次数。
 
-**Magic Items.** _Spell Scrolls_ and some other magic items contain spells that can be cast without a spell slot. The description of such an item specifies how many times a spell can be cast from it.
+**魔法物品。** *法术卷轴*和某些其他魔法物品中包含可以在不消耗法术位的情况下施放的法术。这类物品的描述会说明其中的法术可以被施放多少次。
 
-#### Using a Higher-Level Spell Slot
+#### 使用更高环阶法术位（Using a Higher-Level Spell Slot）
 
-When a spellcaster casts a spell using a slot that is of a higher level than the spell, the spell takes on the higher level for that casting. For instance, if a Wizard casts _Magic Missile_ using a level 2 slot, that _Magic Missile_ is level 2. Effectively, the spell expands to fill the slot it is put into.
-Some spells, such as _Magic Missile_ and _Cure Wounds_, have more powerful effects when cast at a higher level, as detailed in a spell's description.
+当施法者使用高于法术本身环阶的法术位施放该法术时，该法术在此次施放中视为拥有该更高环阶。例如，如果一名法师使用 2 环法术位施放*魔法飞弹*，那么此次*魔法飞弹*视为 2 环法术。实际上，该法术会扩展以填满它所占用的法术位。
 
-### School of Magic
+某些法术，例如*魔法飞弹*和*疗伤术（Cure Wounds）*，在使用更高环阶施放时会产生更强大的效果，具体内容会在法术描述中说明。
 
-Each spell belongs to a school of magic. The schools are listed in the Schools of Magic table. These categories help describe spells but have no rules of their own, although some other rules refer to them.
+### 魔法学派（School of Magic）
 
-**Schools of Magic**
+每个法术都属于一个魔法学派。各学派列于“魔法学派”表中。这些分类有助于描述法术，但其本身没有独立的规则效果，不过某些其他规则会引用这些分类。
 
-<table>
-  <thead>
-    <tr>
-      <th>School</th>
-      <th>Typical Effects</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Abjuration</td>
-      <td>Prevents or reverses harmful effects</td>
-    </tr>
-    <tr>
-      <td>Conjuration</td>
-      <td>Transports creatures or objects</td>
-    </tr>
-    <tr>
-      <td>Divination</td>
-      <td>Reveals information</td>
-    </tr>
-    <tr>
-      <td>Enchantment</td>
-      <td>Influences minds</td>
-    </tr>
-    <tr>
-      <td>Evocation</td>
-      <td>Channels energy to create effects that are often destructive</td>
-    </tr>
-    <tr>
-      <td>Illusion</td>
-      <td>Deceives the mind or senses</td>
-    </tr>
-    <tr>
-      <td>Necromancy</td>
-      <td>Manipulates life and death</td>
-    </tr>
-    <tr>
-      <td>Transmutation</td>
-      <td>Transforms creatures or objects</td>
-    </tr>
-  </tbody>
-</table>
+**魔法学派（Schools of Magic）**
 
-### Class Spell Lists
+| 学派 | 典型效果 |
+|---|---|
+| 防护学派（Abjuration） | 阻止或逆转有害效果 |
+| 咒法学派（Conjuration） | 传送生物或物体 |
+| 预言学派（Divination） | 揭示信息 |
+| 惑控学派（Enchantment） | 影响心智 |
+| 塑能学派（Evocation） | 引导能量以产生效果，通常具有破坏性 |
+| 幻术学派（Illusion） | 欺骗心智或感官 |
+| 死灵学派（Necromancy） | 操纵生命与死亡 |
+| 变化学派（Transmutation） | 改变生物或物体 |
 
-If a spell is on a class's spell list, the class's name appears in parentheses after the spell's school of magic. Some features add a spell to a character's spell list even if the character isn't a member of a class in the parentheses.
+### 职业法术列表（Class Spell Lists）
 
-## Casting Time
+如果某个法术位于某职业的法术列表上，那么该职业名称会写在法术所属魔法学派之后的括号中。某些特性即使角色并不属于括号中所列的职业，也可能将某个法术加入该角色的法术列表。
 
-Most spells require the Magic action to cast, but some spells require a Bonus Action, a Reaction, or 1 minute or more. A spell's Casting Time entry specifies which of those is required.
+## 施法时间（Casting Time）
 
-### One Spell with a Spell Slot per Turn
+大多数法术需要使用魔法动作（Magic action）来施放，但有些法术需要附赠动作（Bonus Action）、反应（Reaction），或者需要 1 分钟乃至更长时间。法术的“施法时间”条目会具体说明所需方式。
 
-On a turn, you can expend only one spell slot to cast a spell. This rule means you can't, for example, cast a spell with a spell slot using the Magic action and another one using a Bonus Action on the same turn.
+### 每回合只能用法术位施放一个法术（One Spell with a Spell Slot per Turn）
 
-### Reaction and Bonus Action Triggers
+在一个回合中，你只能消耗一个法术位来施放法术。这意味着，例如，你不能在同一个回合中先使用魔法动作并消耗法术位施放一个法术，再使用附赠动作并消耗法术位施放另一个法术。
 
-A spell that has a casting time of a Reaction is cast in response to a trigger that is defined in the spell's Casting Time entry. Some spells that have a casting time of a Bonus Action are also cast in response to a trigger defined in the spell.
+### 反应与附赠动作的触发条件（Reaction and Bonus Action Triggers）
 
-### Longer Casting Times
+施法时间为“反应”的法术，会响应其“施法时间”条目中规定的触发条件而施放。某些施法时间为“附赠动作”的法术，也会响应法术中规定的触发条件而施放。
 
-Certain spells—including a spell cast as a Ritual—require more time to cast: minutes or even hours. While you cast a spell with a casting time of 1 minute or more, you must take the Magic action on each of your turns, and you must maintain Concentration (see "Rules Glossary") while you do so. If your Concentration is broken, the spell fails, but you don't expend a spell slot. To cast the spell again, you must start over.
+### 较长的施法时间（Longer Casting Times）
 
-## Range
+某些法术——包括作为仪式施放的法术——需要更长的施法时间：数分钟甚至数小时。当你施放一个施法时间为 1 分钟或更长的法术时，你必须在自己的每个回合都执行魔法动作，并且在此期间必须维持专注（Concentration；见“规则术语表”）。如果你的专注中断，法术失败，但你不会消耗法术位。若要再次施放该法术，你必须从头开始。
 
-A spell's range indicates how far from the spellcaster the spell's effect can originate, and the spell's description specifies which part of the effect is limited by the range.
+## 射程（Range）
 
-A range usually takes one of the following forms:
+法术的射程表示该法术的效果可以从距离施法者多远的位置产生，而法术描述会具体说明效果的哪一部分受到射程限制。
 
-**Distance**. The range is expressed in feet.
+射程通常采用以下形式之一：
 
-**Touch**. The spell's effect originates on something, as defined by the spell, that the spellcaster must touch within their reach.
+**距离（Distance）。** 射程以尺为单位表示。
 
-**Self**. The spell is cast on the spellcaster or emanates from them, as specified in the spell.
+**触及（Touch）。** 法术效果起始于施法者触碰的某个目标，具体目标由法术规定，并且必须处于施法者的触及范围内。
 
-If a spell has movable effects, they aren't restricted by its range unless the spell's description says otherwise.
+**自身（Self）。** 法术施放于施法者自身，或者按照法术描述从施法者身上向外扩散。
 
-## Components
+如果某个法术的效果可以移动，那么除非法术描述另有规定，这些移动中的效果不会受到法术原始射程的限制。
 
-A spell's components are physical requirements the spellcaster must meet to cast the spell. Each spell's description indicates whether it requires Verbal (V), Somatic (S), or Material (M) components. If the spellcaster can't provide one or more of a spell's components, the spellcaster can't cast the spell.
+## 成分（Components）
 
-### Verbal (V)
+法术成分是施法者施放该法术时必须满足的实体要求。每个法术的描述都会说明其是否需要言语（Verbal，V）、姿势（Somatic，S）或材料（Material，M）成分。如果施法者无法提供法术所需的一项或多项成分，便无法施放该法术。
 
-A Verbal component is the chanting of esoteric words that sound like nonsense to the uninitiated. The words must be uttered in a normal speaking voice. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and resonance, sets the threads of magic in motion. Thus, a creature who is gagged or in an area of magical silence can't cast a spell with a Verbal component.
+### 言语（V）
 
-### Somatic (S)
+言语成分是吟诵一系列神秘词句；对未经训练的人而言，这些话听起来可能毫无意义。这些词句必须以正常说话音量发出。词语本身并非法术力量的来源；真正让魔法之线运转起来的，是特定声音组合以及精确的音高与共鸣。因此，被堵住嘴，或者身处魔法沉默区域中的生物，无法施放具有言语成分的法术。
 
-A Somatic component is a forceful gesticulation or an intricate set of gestures. A spellcaster must use at least one of their hands to perform these movements.
+### 姿势（S）
 
-### Material (M)
+姿势成分是一种有力的手势或一套复杂动作。施法者必须至少使用一只手来完成这些动作。
 
-A Material component is a particular material used in a spell's casting, as specified in parentheses in the Components entry. These materials aren't consumed by the spell unless the spell's description states otherwise. The spellcaster must have a hand free to access them, but it can be the same hand used to perform Somatic components, if any.
+### 材料（M）
 
-If a spell doesn't consume its materials and doesn't specify a cost for them, a spellcaster can use a Component Pouch (see "Equipment") instead of providing the materials specified in the spell, or the
-spellcaster can substitute a Spellcasting Focus if the caster has a feature that allows that substitution. To use a Component Pouch, you must have a hand free to reach into it, and to use a Spellcasting Focus, you must hold it unless its description says otherwise (see "Equipment" for descriptions).
+材料成分是在施法过程中使用的一种特定材料，具体内容写在“成分”条目的括号中。除非法术描述另有说明，这些材料不会被法术消耗。施法者必须有一只空闲的手来取用这些材料；如果法术同时需要姿势成分，这只手可以与完成姿势成分时使用的手相同。
 
-## Duration
+如果法术不会消耗材料，并且没有为材料规定费用，那么施法者可以使用材料包（Component Pouch；见“装备”）代替法术中所写的具体材料；或者，如果施法者拥有允许替代材料的特性，也可以使用施法法器（Spellcasting Focus）。使用材料包时，你必须有一只空闲的手伸入其中；使用施法法器时，除非其描述另有说明，你必须持有它（具体描述见“装备”）。
 
-A spell's duration is the length of time the spell persists after it is cast. A duration typically takes one of the following forms:
+## 持续时间（Duration）
 
-**Concentration.** A duration that requires Concentration follows the Concentration rules (see "Rules Glossary").
+法术的持续时间是其在施放后持续存在的时间。持续时间通常采取以下形式之一：
 
-**Instantaneous.** An instantaneous duration means the spell's magic appears only for a moment and then disappears.
+**专注。** 需要专注的持续时间遵循专注规则（见“规则术语表”）。
 
-**Time Span.** A duration that provides a time span specifies how long the spell lasts in rounds, minutes, hours, or the like. For example, a Duration entry might say "1 minute," meaning the spell ends after 1 minute has passed. While a time-span spell that you cast is ongoing, you can dismiss it (no action required) if you don't have the Incapacitated condition.
+**立即（Instantaneous）。** “立即”意味着法术的魔法仅出现片刻，随后消失。
 
-## Effects
+**时间跨度（Time Span）。** 如果持续时间给出一个时间跨度，它会说明法术持续多少轮、分钟、小时等。例如，“持续时间”条目可能写着“1 分钟”，意味着在 1 分钟过去后法术结束。只要你施放的一个有时间跨度的法术仍在持续，并且你没有处于失能（Incapacitated）状态，你就可以解除该法术，无需动作。
 
-The effects of a spell are detailed after its duration entry. Those details present exactly what the spell does, which ignores mundane physical laws; any outcomes beyond those effects are under the GM's purview. Whatever the effects, they typically deal with targets, saving throws, attack rolls, or all three, each of which is detailed below.
+## 效果（Effects）
 
-## Targets
+法术的效果会在“持续时间”条目之后详细说明。这些细节准确规定了法术会做什么，而法术效果可以无视普通的物理法则；超出这些明确效果之外的任何结果，都由 GM 裁定。
 
-A typical spell requires the caster to pick one or more targets to be affected by the spell's magic. A spell's description says whether the spell targets creatures, objects, or something else.
+无论法术产生什么效果，它们通常都会涉及目标、豁免检定、攻击检定，或者三者兼有；以下各节会分别说明。
 
-_A Clear Path to the Target._ To target something with a spell, a caster must have a clear path to it, so it can't be behind Total Cover.
+## 目标（Targets）
 
-_Targeting Yourself._ If a spell targets a creature of your choice, you can choose yourself unless the creature must be Hostile or specifically a creature other than you.
+典型法术要求施法者选择一个或多个目标，让法术魔法影响这些目标。法术描述会说明其目标是生物、物体还是其他事物。
 
-_Areas of Effect._ Some spells, such as _Thunderwave_, cover an area called an area of effect, which is defined in "Rules Glossary." The area determines what the spell targets. The description of a spell specifies whether it has an area of effect, which is typically one of these shapes: Cone, Cube, Cylinder, Emanation, Line, or Sphere.
+*通往目标的清晰路径（A Clear Path to the Target）。* 要以法术指定某个目标，施法者与目标之间必须有一条清晰路径，因此目标不能位于全掩护（Total Cover）之后。
 
-_Awareness of Being Targeted._ Unless a spell has a perceptible effect, a creature doesn't know it was targeted by the spell. An effect like lightning is obvious, but a more subtle effect, such as an attempt to read thoughts, goes unnoticed unless a spell's description says otherwise.
+*以自己为目标（Targeting Yourself）。* 如果一个法术可以指定“你选择的一个生物”为目标，那么你可以选择自己，除非该生物必须是敌对（Hostile）生物，或者明确要求目标必须是除你之外的生物。
 
-_Invalid Targets._ If you cast a spell on someone or something that can't be affected by it, nothing happens to that target, but if you used a spell slot to cast the spell, the slot is still expended.
+*影响范围（Areas of Effect）。* 某些法术，例如*雷鸣波（Thunderwave）*，会覆盖一片称为影响范围（area of effect）的区域，其定义见“规则术语表”。影响范围决定法术会指定哪些目标。法术描述会说明它是否具有影响范围；影响范围通常采用以下形状之一：锥状（Cone）、立方（Cube）、柱状（Cylinder）、发散（Emanation）、线状（Line）或球状（Sphere）。
 
-If the spell normally has no effect on a target that succeeds on a saving throw, the invalid target appears to have succeeded on its saving throw, even though it didn't attempt one (giving no hint that the creature is an invalid target). Otherwise, you perceive that the spell did nothing to the target.
+*察觉自己成为目标（Awareness of Being Targeted）。* 除非法术产生可感知的效果，否则生物不会知道自己成为了该法术的目标。闪电一类的效果显而易见，但像读取思想这样的微妙效果则不会被察觉，除非法术描述另有说明。
 
-## Saving Throws
+*无效目标（Invalid Targets）。* 如果你对一个无法被该法术影响的生物或物体施放法术，则该目标不会发生任何事；但如果你使用了法术位施放该法术，该法术位仍然会被消耗。
 
-Many spells specify that a target makes a saving throw to avoid some or all of a spell's effects. The spell specifies the ability that the target uses for the save and what happens on a success or failure. Here's how to calculate the DC for your spells:
+如果该法术通常会在目标豁免成功时对目标完全无效，那么无效目标看起来就像是成功通过了该豁免一样，尽管实际上它并未进行豁免，因此不会暴露该生物其实是无效目标。否则，你会察觉到该法术对目标没有产生任何效果。
 
-**Spell save DC** = 8 + your spellcasting ability modifier + your Proficiency Bonus
+## 豁免检定（Saving Throws）
 
-## Attack Rolls
+许多法术会规定目标进行豁免检定，以避开法术的部分或全部效果。法术会规定目标使用哪项属性进行豁免，以及成功或失败时发生什么。
 
-Some spells require the caster to make an attack roll to determine whether the spell hits a target. Here's how to calculate the attack modifier for your spells:
+你的法术豁免 DC 按以下方式计算：
 
-**Spell attack modifier** = your spellcasting ability modifier + your Proficiency Bonus
+**法术豁免 DC** = 8 + 你的施法属性调整值 + 你的熟练加值
 
-## Combining Spell Effects
+## 攻击检定（Attack Rolls）
 
-The effects of different spells add together while their durations overlap. In contrast, the effects of the same spell cast multiple times don't combine. Instead, the most potent effect—such as the highest bonus—from those castings applies while their durations overlap. The most recent effect applies if the castings are equally potent and their durations overlap. For example, if two Clerics cast _Bless_ on the same target, that target gains the spell's benefit only once; the target doesn't receive two bonus dice. But if the durations of the spells overlap, the effect continues until the duration of the second _Bless_ ends.
+某些法术要求施法者进行攻击检定，以判断法术是否命中目标。
 
-> **IDENTIFYING AN ONGOING SPELL**
+你的法术攻击调整值按以下方式计算：
+
+**法术攻击调整值** = 你的施法属性调整值 + 你的熟练加值
+
+## 叠加法术效果（Combining Spell Effects）
+
+不同法术的效果在持续时间重叠时可以同时生效。相反，同一个法术被多次施放时，其效果不会叠加。取而代之的是，当这些施法的持续时间重叠时，只应用其中最强的效果——例如最高的加值。
+
+如果这些施法的效果强度相同且持续时间重叠，则应用最近一次施放的效果。例如，如果两名牧师对同一个目标施放*祝福术（Bless）*，该目标只会获得一次该法术的收益；它不会得到两枚额外骰。但如果两个法术的持续时间互相重叠，那么效果会持续到第二个*祝福术*结束为止。
+
+> **识别一个正在持续的法术（IDENTIFYING AN ONGOING SPELL）**
 >
-> You can try to identify a non-instantaneous spell by its observable effects if its duration is ongoing. To identify it, you must take the Study action and succeed on a DC 15 Intelligence (Arcana) check.
+> 如果一个非立即法术仍在持续，你可以根据其可观察到的效果尝试识别该法术。要识别它，你必须执行研究（Study）动作，并成功通过一次 DC 15 的智力（奥秘）检定。
 
-## Spell Descriptions
+## 法术描述（Spell Descriptions）
 
-#### Acid Arrow
+#### 强酸箭（Acid Arrow）
 
-_Level 2 Evocation (Wizard)_
+*2 环塑能法术（法师）*
 
-**Casting Time:** Action
-**Range:** 90 feet
-**Components:** V, S, M (powdered rhubarb leaf)
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 90 尺  
+**成分：** V、S、M（磨成粉末的大黄叶）  
+**持续时间：** 立即
 
-A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 Acid damage and 2d4 Acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage only.
+一支闪烁着绿光的箭矢朝射程内的一个目标疾驰而去，并爆裂成强酸飞沫。对目标进行一次远程法术攻击。命中时，目标受到 4d4 强酸伤害，并在其下一回合结束时再受到 2d4 强酸伤害。未命中时，箭矢仍会将强酸溅到目标身上，但仅造成初始伤害的一半。
 
-_Using a Higher-Level Spell Slot._ The damage (both initial and later) increases by 1d4 for each spell slot level above 2.
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，法术的伤害（包括初始伤害和后续伤害）均增加 1d4。
 
-#### Acid Splash
+#### 酸液飞溅（Acid Splash）
 
-_Evocation Cantrip (Sorcerer, Wizard)_
+*塑能戏法（术士、法师）*
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take 1d6 Acid damage.
+你在射程内一点创造一个酸液泡，它在那里爆炸，形成半径 5 尺的球状区域。球状区域内的每个生物必须成功通过一次敏捷豁免，否则受到 1d6 强酸伤害。
 
-_Cantrip Upgrade._ The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).
+*戏法升级（Cantrip Upgrade）。* 当你达到 5 级（2d6）、11 级（3d6）和 17 级（4d6）时，伤害各增加 1d6。
 
-#### Aid
+#### 援助术（Aid）
 
-_Level 2 Abjuration (Bard, Cleric, Druid, Paladin, Ranger)_
+*2 环防护法术（吟游诗人、牧师、德鲁伊、圣武士、游侠）*
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S, M (a strip of white cloth)
-**Duration:** 8 hours
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一条白布）  
+**持续时间：** 8 小时
 
-Choose up to three creatures within range. Each target's Hit Point maximum and current Hit Points increase by 5 for the duration.
+选择射程内至多三个生物。持续时间内，每个目标的生命值上限和当前生命值均提高 5 点。
 
-_Using a Higher-Level Spell Slot._ Each target's Hit Points increase by 5 for each spell slot level above 2.
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，每个目标的生命值提高量增加 5 点。
 
-#### Alarm
+#### 警报术（Alarm）
 
-_Level 1 Abjuration (Ranger, Wizard)_
+*1 环防护法术（游侠、法师）*
 
-**Casting Time:** 1 minute or Ritual
-**Range:** 30 feet
-**Components:** V, S, M (a bell and silver wire)
-**Duration:** 8 hours
+**施法时间：** 1 分钟或仪式  
+**射程：** 30 尺  
+**成分：** V、S、M（一个铃铛和一段银线）  
+**持续时间：** 8 小时
 
-You set an alarm against intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot Cube. Until the spell ends, an alarm alerts you whenever a creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is audible or mental:
+你设置一道防止入侵的警报。选择射程内的一扇门、一扇窗户，或者一片不大于 20 尺立方区域的空间。在法术结束前，只要有生物触碰或进入被防护的区域，警报便会提醒你。施放法术时，你可以指定不会触发警报的生物。你还要选择警报是以声音还是心灵方式发出。
 
-**Audible Alarm.** The alarm produces the sound of a handbell for 10 seconds within 60 feet of the warded area.
+**声音警报（Audible Alarm）。** 警报在被防护区域 60 尺范围内产生持续 10 秒的手铃声。
 
-**Mental Alarm.** You are alerted by a mental ping if you are within 1 mile of the warded area. This ping awakens you if you're asleep.
+**心灵警报（Mental Alarm）。** 如果你距离被防护区域不超过 1 里，你会收到一声心灵提示。如果你正在睡眠，这声提示会唤醒你。
 
-#### Alter Self
+#### 变身术（Alter Self）
 
-_Level 2 Transmutation (Sorcerer, Wizard)_
+*2 环变化法术（术士、法师）*
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** Concentration, up to 1 hour
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 小时
 
-You alter your physical form. Choose one of the following options. Its effects last for the duration, during which you can take a Magic action to replace the option you chose with a different one.
+你改变自己的身体形态。选择以下一个选项。其效果持续到法术结束，在此期间，你可以执行魔法动作，将所选选项替换为另一个选项。
 
-_Aquatic Adaptation._ You sprout gills and grow webs between your fingers. You can breathe underwater and gain a Swim Speed equal to your Speed.
+*水栖适应（Aquatic Adaptation）。* 你长出鳃，并且手指之间生出蹼。你可以在水下呼吸，并获得等同于自身速度的游泳速度。
 
-_Change Appearance._ You alter your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and other distinguishing characteristics. You can make yourself appear as a member of another species, though none of your statistics change. You can't appear as a creature of a different size, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. For the duration, you can take a Magic action to change your appearance in this way again.
+*改变外貌（Change Appearance）。* 你改变自己的外貌。你自行决定自己的样子，包括身高、体重、面部特征、声音、头发长度、体色和其他显著特征。你可以让自己看起来像另一物种的成员，不过你的任何游戏数据都不会改变。你不能显得像一个不同体型的生物，你的基本身体构造也不会改变；例如，如果你原本是双足生物，就不能借此法术变成四足生物。持续时间内，你可以再次执行魔法动作，以这种方式改变自己的外貌。
 
-_Natural Weapons._ You grow claws (Slashing), fangs (Piercing), horns (Piercing), or hooves (Bludgeoning). When you use your Unarmed Strike to deal damage with that new growth, it deals 1d6 damage of the type in parentheses instead of dealing the normal damage for your Unarmed Strike, and you use your spellcasting ability modifier for the attack and damage rolls rather than using Strength.
+*天生武器（Natural Weapons）。* 你长出利爪（挥砍）、尖牙（穿刺）、犄角（穿刺）或蹄子（钝击）。当你使用徒手打击（Unarmed Strike）并通过这些新生部位造成伤害时，伤害改为括号中所列类型的 1d6，而不是徒手打击通常造成的伤害；你的攻击检定和伤害掷骰使用施法属性调整值，而不是力量。
 
-#### Animal Friendship
+#### 动物友好术（Animal Friendship）
 
-_Level 1 Enchantment (Bard, Druid, Ranger)_
+*1 环惑控法术（吟游诗人、德鲁伊、游侠）*
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S, M (a morsel of food)
-**Duration:** 24 hours
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一小口食物）  
+**持续时间：** 24 小时
 
-Target a Beast that you can see within range. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. If you
-or one of your allies deals damage to the target, the spells ends.
+指定一个你在射程内能看见的野兽。目标必须成功通过一次感知豁免，否则在持续时间内陷入魅惑（Charmed）状态。如果你或你的一名盟友对目标造成伤害，法术结束。
 
-_Using a Higher-Level Spell Slot._ You can target one additional Beast for each spell slot level above 1.
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，就可以额外指定一个野兽。
 
-#### Animal Messenger
+#### 动物信使（Animal Messenger）
 
-_Level 2 Enchantment (Bard, Druid, Ranger)_
+*2 环惑控法术（吟游诗人、德鲁伊、游侠）*
 
-**Casting Time:** Action or Ritual
-**Range:** 30 feet
-**Components:** V, S, M (a morsel of food)
-**Duration:** 24 hours
+**施法时间：** 动作或仪式  
+**射程：** 30 尺  
+**成分：** V、S、M（一小口食物）  
+**持续时间：** 24 小时
 
-A Tiny Beast of your choice that you can see within range must succeed on a Charisma saving throw, or it attempts to deliver a message for you (if the target's Challenge Rating isn't 0, it automatically succeeds). You specify a location you have visited and a recipient who matches a general description, such as "a person dressed in the uniform of the town guard" or "a red-haired dwarf wearing a pointed hat." You also communicate a message of up to twenty-five words. The Beast travels for the duration toward the specified location, covering about 25 miles per 24 hours or 50 miles if the Beast can fly.
+选择一个你在射程内能看见的微型野兽。它必须成功通过一次魅力豁免，否则会尝试替你传递一条信息（如果目标的挑战等级不是 0，它会自动豁免成功）。
 
-When the Beast arrives, it delivers your message to the creature that you described, mimicking your communication. If the Beast doesn't reach its destination before the spell ends, the message is lost, and the Beast returns to where you cast the spell.
-
-_Using a Higher-Level Spell Slot._ The spell's duration increases by 48 hours for each spell slot level above 2.
-
-#### Animal Shapes
-
-_Level 8 Transmutation (Druid)_
-
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** 24 hours
-
-Choose any number of willing creatures that you can see within range. Each target shape-shifts into a Large or smaller Beast of your choice that has a Challenge Rating of 4 or lower. You can choose a different form for each target. On later turns, you can take a Magic action to transform the targets again.
-
-A target's game statistics are replaced by the chosen Beast's statistics, but the target retains its creature type; Hit Points; Hit Point Dice; alignment; ability to communicate; and Intelligence, Wisdom, and Charisma scores. The target's actions are limited by the Beast form's anatomy, and it can't cast spells. The target's equipment melds into the new form, and the target can't use any of that equipment while in that form.
+你指定一个自己曾去过的地点，以及一名符合一般性描述的收信者，例如“一个穿着城镇守卫制服的人”或“一个戴尖帽子的红发矮人”。你还要传达一条最多二十五个词的信息。该野兽会在持续时间内向指定地点行进，每 24 小时大约能行进 25 里；如果该野兽能够飞行，则为 50 里。
 
-The target gains a number of Temporary Hit Points equal to the Hit Points of the first form into which it shape-shifts. These Temporary Hit Points vanish if any remain when the spell ends. The transformation lasts for the duration or until the target ends it as a Bonus Action.
+野兽抵达后，会向符合你描述的生物传达你的信息，并模仿你的表达方式。如果野兽未能在法术结束前抵达目的地，信息便会遗失，而野兽会返回你施放法术的地点。
 
-#### Animate Dead
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，法术持续时间增加 48 小时。
 
-_Level 3 Necromancy (Cleric, Wizard)_
+#### 动物形态（Animal Shapes）
 
-**Casting Time:** 1 minute
-**Range:** 10 feet
-**Components:** V, S, M (a drop of blood, a piece of flesh, and a pinch of bone dust)
-**Duration:** Instantaneous
+*8 环变化法术（德鲁伊）*
 
-Choose a pile of bones or a corpse of a Medium or Small Humanoid within range. The target becomes an Undead creature: a **Skeleton** if you chose bones or a **Zombie** if you chose a corpse (see "Monsters" for the stat blocks).
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 24 小时
 
-On each of your turns, you can take a Bonus Action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move on its next turn, or you can issue a general command, such as to guard a chamber or corridor. If you issue no commands, the creature takes the Dodge action and moves only to avoid harm. Once given an order, the creature continues to follow it until its task is complete.
+选择任意数量你在射程内能看见且自愿的生物。每个目标都会变形为一个由你选择的、大型或更小的野兽，其挑战等级不得高于 4。你可以为不同目标选择不同形态。在之后的回合中，你可以执行魔法动作，再次让这些目标变形。
 
-The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell rather than animating a new creature.
+目标的游戏数据被所选野兽的游戏数据替代，但目标保留自己的生物类型、生命值、生命骰、阵营、沟通能力，以及智力、感知和魅力属性值。目标能够执行的动作受野兽形态的身体构造限制，并且无法施放法术。目标的装备会融入新形态中，并且在该形态下不能使用任何这些装备。
 
-_Using a Higher-Level Spell Slot._ You animate or reassert control over two additional Undead creatures for each spell slot level above 3. Each of the creatures must come from a different corpse or pile of bones.
+目标获得等同于其第一次变形形态生命值数量的临时生命值。如果法术结束时仍有剩余临时生命值，这些临时生命值会消失。变形会持续至法术结束，或者目标以附赠动作主动结束变形。
 
-#### Animate Objects
+#### 操纵死尸（Animate Dead）
 
-_Level 5 Transmutation (Bard, Sorcerer, Wizard)_
+*3 环死灵法术（牧师、法师）*
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+**施法时间：** 1 分钟  
+**射程：** 10 尺  
+**成分：** V、S、M（一滴血、一块肉和一撮骨粉）  
+**持续时间：** 立即
 
-Objects animate at your command. Choose a number of nonmagical objects within range that aren't being worn or carried, aren't fixed to a surface, and aren't Gargantuan. The maximum number of objects is equal to your spellcasting ability modifier; for this number, a Medium or smaller target counts as
-one object, a Large target counts as two, and a Huge target counts as three.
+选择射程内一堆骨骸，或者一具中型或小型类人生物尸体。目标变成一个不死生物：如果你选择骨骸，则变成**骷髅（Skeleton）**；如果选择尸体，则变成**僵尸（Zombie）**（其数据见“怪物”）。
 
-Each target animates, sprouts legs, and becomes a Construct that uses the **Animated Object** stat block; this creature is under your control until the spell ends or until it is reduced to 0 Hit Points. Each creature you make with this spell is an ally to you and your allies. In combat, it shares your Initiative count and takes its turn immediately after yours.
+在你的每个回合中，如果一个由该法术创造的生物位于你 60 尺内，你可以使用附赠动作在心灵中命令它。如果你控制多个生物，可以同时命令其中任意数量，但必须向它们发出相同命令。你决定该生物在下一回合采取什么动作以及移动到哪里；你也可以发出一般性指令，例如看守某个房间或走廊。如果你没有下达命令，该生物执行闪避（Dodge）动作，并且只会为了躲避伤害而移动。一旦收到命令，它会持续执行，直到任务完成。
 
-Until the spell ends, you can take a Bonus Action to mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to each one). If you issue no commands, the creature takes the Dodge action and moves only to avoid harm. When the creature drops to 0 Hit Points, it reverts to its object form, and any remaining damage carries over to that form.
+该生物会受你控制 24 小时，之后便不再服从你给予的任何命令。要再维持 24 小时控制，你必须在当前 24 小时结束前再次对该生物施放此法术。如此使用法术时，你可以重新控制至多四个由此法术活化的生物，而不是创造新的生物。
 
-_Using a Higher-Level Spell Slot._ The creature's Slam damage increases by 1d4 (Medium or smaller), 1d6 (Large), or 1d12 (Huge) for each spell slot level above 5.
+*使用更高环阶法术位。* 你每使用高于 3 环一环的法术位，可以额外活化或重新控制两个不死生物。每个生物必须来自不同的尸体或骨骸堆。
 
-#### Animated Object
+#### 活化物体（Animate Objects）
 
-_Huge or Smaller Construct, Unaligned_
+*5 环变化法术（吟游诗人、术士、法师）*
 
-**AC** 15
-**HP** 10 (Medium or smaller), 20 (Large), 40 (Huge)
-**Speed** 30 ft.
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-<table>
-  <tbody>
-    <tr>
-      <td>MOD</td>
-      <td>SAVE</td>
-      <td></td>
-      <td>MOD</td>
-      <td>SAVE</td>
-      <td></td>
-      <td>MOD</td>
-      <td>SAVE</td>
-      <td colspan="4"></td>
-    </tr>
-    <tr>
-      <td>STR</td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td>DEX</td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td>CON</td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td>INT</td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td>WIS</td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td>CHA</td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-    </tr>
-  </tbody>
-</table>
+物体响应你的命令获得生命。选择射程内一定数量的非魔法物体；它们不得正被穿戴或携带，不得固定在某个表面上，也不能是超巨型（Gargantuan）。你最多可以选择数量等同于你施法属性调整值的物体；计算这一数量时，中型或更小的目标计作一个物体，大型目标计作两个，巨型目标计作三个。
 
-**Immunities** Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Poisoned
-**Senses** Blindsight 30 ft.; Passive Perception 6
-**Languages** Understands the languages you know
-**CR** None (XP 0; PB equals your Proficiency Bonus)
+每个目标都会活化，长出腿，并成为一个构装生物（Construct），使用下方的**活化物体（Animated Object）**数据。该生物受你控制，直到法术结束或其生命值降至 0。你通过此法术创造的每个生物都是你和你盟友的盟友。战斗中，它与你共享先攻值，并在你的回合结束后立即进行自己的回合。
 
-#### Actions
+在法术结束前，如果一个由该法术创造的生物位于你 500 尺内，你可以使用附赠动作在心灵中命令它。如果你控制多个生物，可以同时命令其中任意数量，但必须发出相同命令。如果你没有发出命令，该生物执行闪避动作，并且只会为了避免伤害而移动。当它的生命值降至 0 时，会恢复成原本的物体形态，任何超过其剩余生命值的伤害都会延续至该物体。
 
-_Slam._ _Melee Attack Roll:_ Bonus equals your spell attack modifier, reach 5 ft. _Hit:_ Force damage equal to 1d4 + 3 (Medium or smaller), 2d6 + 3 + your spellcasting ability modifier (Large), or 2d12 + 3 + your spellcasting ability modifier (Huge).
+*使用更高环阶法术位。* 你每使用高于 5 环一环的法术位，该生物的猛击伤害增加：中型或更小增加 1d4，大型增加 1d6，巨型增加 1d12。
 
-#### Antilife Shell
+#### 活化物体（Animated Object）
 
-_Level 5 Abjuration (Druid)_
+*巨型或更小构装生物，无阵营*
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** Concentration, up to 1 hour
+**AC** 15  
+**生命值** 10（中型或更小）、20（大型）、40（巨型）  
+**速度** 30 尺
 
-An aura extends from you in a 10-foot Emanation for the duration. The aura prevents creatures other than Constructs and Undead from passing or reaching through it. An affected creature can cast spells or make attacks with Ranged or Reach weapons through the barrier.
+| 属性 | 属性值 | 调整值 | 豁免 | 属性 | 属性值 | 调整值 | 豁免 | 属性 | 属性值 | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| 力量 | 16 | +3 | +3 | 敏捷 | 10 | +0 | +0 | 体质 | 10 | +0 | +0 |
+| 智力 | 3 | −4 | −4 | 感知 | 3 | −4 | −4 | 魅力 | 1 | −5 | −5 |
 
-If you move so that an affected creature is forced to pass through the barrier, the spell ends.
+**免疫** 毒素、心灵伤害；魅惑、力竭、恐慌、麻痹、中毒  
+**感官** 盲视 30 尺；被动察觉 6  
+**语言** 理解你所知道的语言  
+**CR** 无（XP 0；PB 等于你的熟练加值）
 
-#### Antimagic Field
+#### 动作
 
-_Level 8 Abjuration (Cleric, Wizard)_
+*猛击（Slam）。* *近战攻击检定：* 加值等于你的法术攻击调整值，触及 5 尺。*命中：* 力场伤害，数值为：中型或更小 1d4 + 3；大型 2d6 + 3 + 你的施法属性调整值；巨型 2d12 + 3 + 你的施法属性调整值。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (iron filings)
-**Duration:** Concentration, up to 1 hour
+#### 防生物力场（Antilife Shell）
 
-An aura of antimagic surrounds you in 10-foot Emanation. No one can cast spells, take Magic actions, or create other magical effects inside the aura, and those things can't target or otherwise affect anything inside it. Magical properties of magic items don't work inside the aura or on anything inside it.
+*5 环防护法术（德鲁伊）*
 
-Areas of effect created by spells or other magic can't extend into the aura, and no one can teleport into or out of it or use planar travel there. Portals close temporarily while in the aura.
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 小时
 
-Ongoing spells, except those cast by an Artifact or a deity, are suppressed in the area. While an effect is suppressed, it doesn't function, but the time it spends suppressed counts against its duration.
+一道灵光从你身上向外延伸，在持续时间内形成 10 尺发散区域。除构装生物和不死生物外，其他生物无法穿过该灵光，也无法通过该灵光向内伸手或触及。
 
-_Dispel Magic_ has no effect on the aura, and the auras created by different _Antimagic Field_ spells don't nullify each other.
+受到影响的生物仍然可以隔着屏障施放法术，或者使用远程武器或具有触及特性的武器发动攻击。
 
-#### Antipathy/Sympathy
+如果你移动并迫使一个受到影响的生物穿过屏障，法术结束。
 
-_Level 8 Enchantment (Bard, Druid, Wizard)_
+#### 反魔法力场（Antimagic Field）
 
-**Casting Time:** 1 hour
-**Range:** 60 feet
-**Components:** V, S, M (a mix of vinegar and honey)
-**Duration:** 10 days
+*8 环防护法术（牧师、法师）*
 
-As you cast the spell, choose whether it creates antipathy or sympathy, and target one creature or object that is Huge or smaller. Then specify a kind of creature, such as red dragons, goblins, or vampires. A creature of the chosen kind makes a Wisdom saving throw when it comes within 120 feet of the target. Your choice of antipathy or sympathy determines what happens to a creature when it fails that save:
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（铁屑）  
+**持续时间：** 专注，至多 1 小时
 
-**Antipathy.** The creature has the Frightened condition. The Frightened creature must use its movement on its turns to get as far away as possible from the target, moving by the safest route.
+一道反魔法灵光环绕着你，形成 10 尺发散区域。在灵光内，任何人都无法施放法术、执行魔法动作或创造其他魔法效果；而灵光外的这些效果也无法指定或以其他方式影响灵光内的任何事物。魔法物品的魔法属性在灵光内不会运作，对灵光内的事物也不起作用。
 
-**Sympathy.** The creature has the Charmed condition. The Charmed creature must use its movement on its turns to get as close as possible to the target, moving by the safest route. If the creature is within 5 feet of the target, the creature can't willingly move away. If the target damages the Charmed creature, that creature can make a
-Wisdom saving throw to end the effect, as described below.
+由法术或其他魔法创造的影响范围无法延伸进灵光内；任何人也无法传送进入或离开该区域，亦无法在那里进行位面旅行。传送门位于灵光内时会暂时关闭。
 
-_Ending the Effect._ If the Frightened or Charmed creature ends its turn more than 120 feet away from the target, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target. A creature that successfully saves against this effect is immune to it for 1 minute, after which it can be affected again.
+持续中的法术会在该区域内被压制，但由神器（Artifact）或神祇施放的法术除外。一个效果受到压制时不会运作，但被压制期间经过的时间仍计入其持续时间。
 
-#### Arcane Eye
+*解除魔法（Dispel Magic）*无法影响该灵光，而不同*反魔法力场*创造的灵光也不会彼此抵消。
 
-_Level 4 Divination (Wizard)_
+#### 厌恶/关爱术（Antipathy/Sympathy）
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S, M (a bit of bat fur)
-**Duration:** Concentration, up to 1 hour
+*8 环惑控法术（吟游诗人、德鲁伊、法师）*
 
-You create an Invisible, invulnerable eye within range that hovers for the duration. You mentally receive visual information from the eye, which can see in every direction. It also has Darkvision with a range of 30 feet.
+**施法时间：** 1 小时  
+**射程：** 60 尺  
+**成分：** V、S、M（醋与蜂蜜的混合物）  
+**持续时间：** 10 天
 
-As a Bonus Action, you can move the eye up to 30 feet in any direction. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.
+施放法术时，选择让法术产生“厌恶”或“关爱”效果，并指定一个巨型或更小的生物或物体。然后指定一种生物，例如红龙、地精或吸血鬼。
 
-#### Arcane Hand
+所指定种类的生物每当进入目标 120 尺内时，都必须进行一次感知豁免。你选择的是厌恶还是关爱，决定了该生物豁免失败时发生什么：
 
-_Level 5 Evocation (Sorcerer, Wizard)_
+**厌恶（Antipathy）。** 该生物陷入恐慌状态。恐慌的生物在自己的回合中必须使用移动，以最安全的路线尽可能远离目标。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S, M (an eggshell and a glove)
-**Duration:** Concentration, up to 1 minute
+**关爱（Sympathy）。** 该生物陷入魅惑状态。魅惑的生物在自己的回合中必须使用移动，以最安全的路线尽可能接近目标。如果生物位于目标 5 尺内，它不能主动远离目标。如果目标对魅惑的生物造成伤害，该生物可以按照下方所述进行一次感知豁免，以结束该效果。
 
-You create a Large hand of shimmering magical energy in an unoccupied space that you can see within range. The hand lasts for the duration, and it moves at your command, mimicking the movements of your own hand.
+*结束效果（Ending the Effect）。* 如果恐慌或魅惑的生物在自己的回合结束时距离目标超过 120 尺，它会进行一次感知豁免。豁免成功时，该生物不再受到目标影响。成功通过该效果豁免的生物会对其免疫 1 分钟，之后可以再次受到影响。
 
-The hand is an object that has AC 20 and Hit Points equal to your Hit Point maximum. If it drops to 0 Hit Points, the spell ends. The hand doesn't occupy its space.
+#### 奥术眼（Arcane Eye）
 
-When you cast the spell and as a Bonus Action on your later turns, you can move the hand up to 60 feet and then cause one of the following effects:
+*4 环预言法术（法师）*
 
-**Clenched Fist.** The hand strikes a target within 5 feet of it. Make a melee spell attack. On a hit, the target takes 5d8 Force damage.
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一小撮蝙蝠毛）  
+**持续时间：** 专注，至多 1 小时
 
-**Forceful Hand.** The hand attempts to push a Huge or smaller creature within 5 feet of it. The target must succeed on a Strength saving throw, or the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target, remaining within 5 feet of it.
+你在射程内创造一只隐形且无法被摧毁的眼睛，它会悬浮并持续至法术结束。你会在心灵中接收到这只眼睛看到的视觉信息，而它可以观察所有方向。它还拥有 30 尺范围的黑暗视觉。
 
-**Grasping Hand.** The hand attempts to grapple a Huge or smaller creature within 5 feet of it. The target must succeed on a Dexterity saving throw, or the target has the Grappled condition, with an escape DC equal to your spell save DC. While the hand grapples the target, you can take a Bonus Action to cause the hand to crush it, dealing Bludgeoning damage to the target equal to 4d6 plus your spellcasting ability modifier.
+你可以使用附赠动作让眼睛向任意方向移动至多 30 尺。实体屏障会阻挡它移动，但它可以穿过直径小至 1 英寸的开口。
 
-**Interposing Hand.** The hand grants you Half Cover against attacks and other effects that originate from its space or that pass through it. In addition, its space counts as Difficult Terrain for your enemies.
+#### 奥术之手（Arcane Hand）
 
-_Using a Higher-Level Spell Slot._ The damage of the Clenched Fist increases by 2d8 and the damage of the Grasping Hand increases by 2d6 for each spell slot level above 5.
+*5 环塑能法术（术士、法师）*
 
-#### Arcane Lock
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S、M（一个蛋壳和一只手套）  
+**持续时间：** 专注，至多 1 分钟
 
-_Level 2 Abjuration (Wizard)_
+你在射程内一个你能看见的未占据空间中创造一只闪耀着魔法能量的大型手掌。手掌持续至法术结束，并按照你的命令移动，模仿你自己的手部动作。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (gold dust worth 25+ GP, which the spell consumes)
-**Duration:** Until dispelled
+手掌属于物体，AC 为 20，生命值等于你的生命值上限。如果其生命值降至 0，法术结束。手掌不会占据其所在空间。
 
-You touch a closed door, window, gate, container, or hatch and magically lock it for the duration. This lock can't be unlocked by any nonmagical means. You and any creatures you designate when you cast the spell can open and close the object despite the lock. You can also set a password that, when spoken within 5 feet of the object, unlocks it for 1 minute.
+当你施放该法术时，以及你之后回合中的附赠动作，你都可以先让手掌移动至多 60 尺，然后使其产生以下一种效果：
 
-#### Arcane Sword
+**紧握拳（Clenched Fist）。** 手掌攻击其 5 尺内的一个目标。进行一次近战法术攻击。命中时，目标受到 5d8 力场伤害。
 
-_Level 7 Evocation (Bard, Wizard)_
+**强力推掌（Forceful Hand）。** 手掌尝试推动其 5 尺内一个巨型或更小的生物。目标必须成功通过一次力量豁免，否则手掌会将目标推开至多 5 尺，再额外加上等于你施法属性调整值五倍的尺数。手掌会随目标一同移动，并保持在其 5 尺内。
 
-**Casting Time:** Action
-**Range:** 90 feet
-**Components:** V, S, M (a miniature sword worth 250+ GP)
-**Duration:** Concentration, up to 1 minute
+**擒握之手（Grasping Hand）。** 手掌尝试擒抱其 5 尺内一个巨型或更小的生物。目标必须成功通过一次敏捷豁免，否则陷入擒抱（Grappled）状态，其逃脱 DC 等于你的法术豁免 DC。当手掌擒抱目标时，你可以使用附赠动作让手掌挤压目标，使其受到等于 4d6 + 你的施法属性调整值的钝击伤害。
 
-You create a spectral sword that hovers within range. It lasts for the duration.
+**阻挡之手（Interposing Hand）。** 对于从手掌所在空间发出或经过该空间的攻击与其他效果，手掌为你提供半掩护（Half Cover）。此外，对你的敌人而言，手掌所在空间视为困难地形。
 
-When the sword appears, you make a melee spell attack against a target within 5 feet of the sword. On a hit, the target takes Force damage equal to 4d12 plus your spellcasting ability modifier.
+*使用更高环阶法术位。* 你每使用高于 5 环一环的法术位，紧握拳的伤害增加 2d8，擒握之手的伤害增加 2d6。
 
-On your later turns, you can take a Bonus Action to move the sword up to 30 feet to a spot you can see and repeat the attack against the same target or a different one.
+#### 奥术锁（Arcane Lock）
 
-#### Arcanist's Magic Aura
+*2 环防护法术（法师）*
 
-_Level 2 Illusion (Wizard)_
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 25 GP 的金粉，法术会将其消耗）  
+**持续时间：** 直到被解除
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a small square of silk)
-**Duration:** 24 hours
+你触摸一扇关闭的门、窗户、大门、容器或舱盖，并以魔法将其锁上，持续至法术结束。该锁无法通过任何非魔法手段打开。
 
-With a touch, you place an illusion on a willing creature or an object that isn't being worn or carried. A creature gains the Mask effect below, and an object gains the False Aura effect below. The effect lasts for the duration. If you cast the spell on the same target every day for 30 days, the illusion lasts until dispelled.
+你以及你施放法术时指定的任何生物，都可以无视该锁正常打开和关闭物体。你还可以设定一个口令；当有人在物体 5 尺内说出口令时，该物体会解锁 1 分钟。
 
-_Mask (Creature)._ Choose a creature type other than the target's actual type. Spells and other magical effects treat the target as if it were a creature of the chosen type.
+#### 奥术之剑（Arcane Sword）
 
-_False Aura (Object)._ You change the way the target appears to spells and magical effects that detect magical auras, such as _Detect Magic_. You can make a nonmagical object appear magical, make a magic item appear nonmagical, or change the object's aura so that it appears to belong to a school of magic you choose.
+*7 环塑能法术（吟游诗人、法师）*
 
-#### Astral Projection
+**施法时间：** 动作  
+**射程：** 90 尺  
+**成分：** V、S、M（一柄价值至少 250 GP 的微型剑）  
+**持续时间：** 专注，至多 1 分钟
 
-_Level 9 Necromancy (Cleric, Warlock, Wizard)_
+你创造一柄悬浮于射程内的幽灵长剑。它持续至法术结束。
 
-**Casting Time:** 1 hour
-**Range:** 10 feet
-**Components:** V, S, M (for each of the spell's targets, one jacinth worth 1,000+ GP and one silver bar worth 100+ GP, all of which the spell consumes)
-**Duration:** Until dispelled
+长剑出现时，你对其 5 尺内一个目标进行一次近战法术攻击。命中时，目标受到等于 4d12 + 你的施法属性调整值的力场伤害。
 
-You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell ends instantly if you are already on that plane). Each target's body is left behind in a state of suspended animation; it has the Unconscious condition, doesn't need food or air, and doesn't age.
+之后的回合中，你可以使用附赠动作将长剑移动至多 30 尺至一个你能看见的位置，并再次攻击同一目标或另一个目标。
 
-A target's astral form resembles its body in almost every way, replicating its game statistics and possessions. The principal difference is the addition of a silvery cord that trails from between the shoulder blades of the astral form. The cord fades from view after 1 foot. If the cord is cut—which happens only when an effect states that it does so—the target's body and astral form both die.
+#### 奥术师魔法灵光（Arcanist's Magic Aura）
 
-A target's astral form can travel through the Astral Plane. The moment an astral form leaves that plane, the target's body and possessions travel along the silver cord, causing the target to re-enter its body on the new plane.
+*2 环幻术法术（法师）*
 
-Any damage or other effects that apply to an astral form have no effect on the target's body and vice versa. If a target's body or astral form drops to 0 Hit Points, the spell ends for that target. The spell ends for all the targets if you take a Magic action to dismiss it.
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一小块方形丝绸）  
+**持续时间：** 24 小时
 
-When the spell ends for a target who isn't dead, the target reappears in its body and exits the state of suspended animation.
+你通过触碰在一个自愿生物或一件未被穿戴或携带的物体上施加幻术。生物获得下方的“伪装”效果，物体获得下方的“虚假灵光”效果。该效果持续至法术结束。
 
-#### Augury
+如果你连续 30 天每天都对同一目标施放此法术，该幻术会持续到被解除为止。
 
-_Level 2 Divination (Cleric, Druid, Wizard)_
+*伪装（Mask，生物）。* 选择一个不同于目标真实生物类型的生物类型。法术和其他魔法效果会将目标视为所选类型的生物。
 
-**Casting Time:** 1 minute or Ritual
-**Range:** Self
-**Components:** V, S, M (specially marked sticks, bones, cards, or other divinatory tokens worth 25+ GP)
-**Duration:** Instantaneous
+*虚假灵光（False Aura，物体）。* 你改变目标在侦测魔法灵光的法术和魔法效果——例如*侦测魔法（Detect Magic）*——面前所呈现的样子。你可以让非魔法物体显得具有魔法，让魔法物品显得没有魔法，或者改变物体的灵光，使其看起来属于你选择的某个魔法学派。
 
-You receive an omen from an otherworldly entity about the results of a course of action that you plan to take within the next 30 minutes. The GM chooses the omen from the Omens table.
+#### 星界投影（Astral Projection）
 
-**Omens**
+*9 环死灵法术（牧师、邪术师、法师）*
 
-<table>
-  <thead>
-    <tr>
-      <th>Omen</th>
-      <th>For Results That Will Be …</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Weal</td>
-      <td>Good</td>
-    </tr>
-    <tr>
-      <td>Woe</td>
-      <td>Bad</td>
-    </tr>
-    <tr>
-      <td>Weal and woe</td>
-      <td>Good and bad</td>
-    </tr>
-    <tr>
-      <td>Indifference</td>
-      <td>Neither good nor bad</td>
-    </tr>
-  </tbody>
-</table>
+**施法时间：** 1 小时  
+**射程：** 10 尺  
+**成分：** V、S、M（法术每个目标各需一颗价值至少 1,000 GP 的橙红刚玉和一根价值至少 100 GP 的银条，法术会将这些材料全部消耗）  
+**持续时间：** 直到被解除
 
-The spell doesn't account for circumstances, such as other spells, that might change the results.
+你和射程内至多八个自愿生物将自己的星界躯体投射到星界位面（Astral Plane）。如果你施放法术时已经位于该位面，法术立即结束。
 
-If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.
+每个目标的身体会留在原处并进入假死状态；该身体处于昏迷（Unconscious）状态，不需要食物或空气，也不会衰老。
 
-#### Aura of Life
+目标的星界形态在几乎所有方面都与其身体相似，并复制其游戏数据和持有物。主要差别是星界形态的两肩之间会延伸出一条银线。银线离开身体约 1 尺后会逐渐隐去。只有明确说明能够切断银线的效果才能切断它；如果银线被切断，目标的身体和星界形态都会死亡。
 
-_Level 4 Abjuration (Cleric, Paladin)_
+目标的星界形态可以在星界位面中旅行。当星界形态离开星界位面的瞬间，目标的身体和持有物会沿银线一同移动，使目标在新的位面重新进入自己的身体。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V
-**Duration:** Concentration, up to 10 minutes
+施加于星界形态的任何伤害或其他效果都不会影响目标身体，反之亦然。如果目标的身体或星界形态生命值降至 0，该目标的法术效果结束。如果你执行魔法动作解除该法术，则所有目标的法术效果均结束。
 
-An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Resistance to Necrotic damage, and your Hit Point maximums can't be reduced. If an ally with 0 Hit Points starts its turn in the aura, that ally regains 1 Hit Point.
+当法术对一个尚未死亡的目标结束时，该目标会重新出现在自己的身体中，并退出假死状态。
 
-#### Awaken
+#### 卜筮术（Augury）
 
-_Level 5 Transmutation (Bard, Druid)_
+*2 环预言法术（牧师、德鲁伊、法师）*
 
-**Casting Time:** 8 hours
-**Range:** Touch
-**Components:** V, S, M (an agate worth 1,000+ GP, which the spell consumes)
-**Duration:** Instantaneous
+**施法时间：** 1 分钟或仪式  
+**射程：** 自身  
+**成分：** V、S、M（一套经过特殊标记、价值至少 25 GP 的木签、骨块、卡牌或其他占卜用具）  
+**持续时间：** 立即
 
-You spend the casting time tracing magical pathways within a precious gemstone, and then touch the target. The target must be either a Beast or Plant creature with an Intelligence of 3 or less or a natural plant that isn't a creature. The target gains
-an Intelligence of 10 and the ability to speak one language you know. If the target is a natural plant, it becomes a Plant creature and gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human's. The GM chooses statistics appropriate for the awakened Plant, such as the statistics for the **Awakened Shrub** or **Awakened Tree** in "Monsters."
+你从一个异界实体那里获得征兆，预示你计划在接下来 30 分钟内采取的一项行动会产生怎样的结果。GM 从“征兆”表中选择结果。
 
-The awakened target has the Charmed condition for 30 days or until you or your allies deal damage to it. When that condition ends, the awakened creature chooses its attitude toward you.
+**征兆（Omens）**
 
-#### Bane
+| 征兆 | 代表结果将会…… |
+|---|---|
+| 吉兆（Weal） | 良好 |
+| 凶兆（Woe） | 糟糕 |
+| 吉凶参半（Weal and woe） | 有好有坏 |
+| 无关紧要（Indifference） | 既不好也不坏 |
 
-_Level 1 Enchantment (Bard, Cleric, Warlock)_
+该法术不会考虑可能改变结果的其他情况，例如其他法术。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S, M (a drop of blood)
-**Duration:** Concentration, up to 1 minute
+如果你在完成一次长休之前多次施放该法术，则从第二次施放开始，每额外施放一次，都有累积 25% 的几率无法获得任何答案。
 
-Up to three creatures of your choice that you can see within range must each make a Charisma saving throw. Whenever a target that fails this save makes an attack roll or a saving throw before the spell ends, the target must subtract 1d4 from the attack roll or save.
+#### 生命灵光（Aura of Life）
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 1.
+*4 环防护法术（牧师、圣武士）*
 
-#### Banishment
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V  
+**持续时间：** 专注，至多 10 分钟
 
-_Level 4 Abjuration (Cleric, Paladin, Sorcerer, Warlock, Wizard)_
+持续时间内，一道灵光从你身上向外辐射，形成 30 尺发散区域。当你和你的盟友处于灵光中时，拥有黯蚀伤害抗性，并且生命值上限无法被降低。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S, M (a pentacle)
-**Duration:** Concentration, up to 1 minute
+如果一个生命值为 0 的盟友在该灵光中开始其回合，它恢复 1 点生命值。
 
-One creature that you can see within range must succeed on a Charisma saving throw or be transported to a harmless demiplane for the duration. While there, the target has the Incapacitated condition. When the spell ends, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.
+#### 启蒙术（Awaken）
 
-If the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn't return if the spell lasts for 1 minute. The target is instead transported to a random location on a plane (GM's choice) associated with its creature type.
+*5 环变化法术（吟游诗人、德鲁伊）*
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 4.
+**施法时间：** 8 小时  
+**射程：** 触及  
+**成分：** V、S、M（一颗价值至少 1,000 GP 的玛瑙，法术会将其消耗）  
+**持续时间：** 立即
 
-#### Barkskin
+在整个施法时间中，你在一颗珍贵宝石内部描绘魔法路径，然后触碰目标。
 
-_Level 2 Transmutation (Druid, Ranger)_
+目标必须是智力不高于 3 的野兽或植物生物，或者是一株并非生物的天然植物。目标的智力变为 10，并获得说一种你所知语言的能力。
 
-**Casting Time:** Bonus Action
-**Range:** Touch
+如果目标是一株天然植物，它会变成植物（Plant）生物，并获得移动自己的枝干、根须、藤蔓、蔓生枝等部位的能力，同时获得近似于人类的感官。GM 会为这株被启蒙的植物选择合适的数据，例如“怪物”中的**启蒙灌木（Awakened Shrub）**或**启蒙树（Awakened Tree）**数据。
 
-**Component:** V, S, M (a handful of bark)
-**Duration:** 1 hour
+被启蒙的目标会陷入对你的魅惑状态，持续 30 天，或者直到你或你的盟友对它造成伤害。当该状态结束时，被启蒙的生物会自行决定对你的态度。
 
-You touch a willing creature. Until the spell ends, the target's skin assumes a bark-like appearance, and the target has an Armor Class of 17 if its AC is lower than that.
+#### 灾祸术（Bane）
 
-#### Beacon of Hope
+*1 环惑控法术（吟游诗人、牧师、邪术师）*
 
-_Level 3 Abjuration (Cleric)_
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一滴血）  
+**持续时间：** 专注，至多 1 分钟
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+选择至多三个你在射程内能看见的生物。每个目标都必须进行一次魅力豁免。
 
-Choose any number of creatures within range. For the duration, each target has Advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.
+在法术结束前，每当一个豁免失败的目标进行攻击检定或豁免检定时，该目标必须从攻击检定或豁免结果中减去 1d4。
 
-#### Befuddlement
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，就可以额外指定一个生物。
 
-_Level 8 Enchantment (Bard, Druid, Warlock, Wizard)_
+#### 放逐术（Banishment）
 
-**Casting Time:** Action
-**Range:** 150 feet
-**Components:** V, S, M (a key ring with no keys)
-**Duration:** Instantaneous
+*4 环防护法术（牧师、圣武士、术士、邪术师、法师）*
 
-You blast the mind of a creature that you can see within range. The target makes an Intelligence saving throw.
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一个五芒星形符号）  
+**持续时间：** 专注，至多 1 分钟
 
-On a failed save, the target takes 10d12 Psychic damage and can't cast spells or take the Magic action. At the end of every 30 days, the target repeats the save, ending the effect on a success. The effect can also be ended by the _Greater Restoration_, _Heal_, or _Wish_ spell.
+一个你在射程内能看见的生物必须成功通过一次魅力豁免，否则会在持续时间内被传送到一个无害的半位面（demiplane）。在那里，目标处于失能状态。法术结束时，目标重新出现在自己离开的位置；如果该位置被占据，则出现在最近的未占据空间。
 
-On a successful save, the target takes half as much damage only.
+如果目标是异怪（Aberration）、天界生物（Celestial）、元素（Elemental）、妖精（Fey）或邪魔（Fiend），并且法术持续了完整的 1 分钟，则目标不会返回。相反，它会被传送到一个与其生物类型相关的位面中的随机地点，具体位面由 GM 选择。
 
-#### Bestow Curse
+*使用更高环阶法术位。* 你每使用高于 4 环一环的法术位，就可以额外指定一个生物。
 
-_Level 3 Necromancy (Bard, Cleric, Wizard)_
+#### 树肤术（Barkskin）
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+*2 环变化法术（德鲁伊、游侠）*
 
-You touch a creature, which must succeed on a Wisdom saving throw or become cursed for the duration. Until the curse ends, the target suffers one of the following effects of your choice:
+**施法时间：** 附赠动作  
+**射程：** 触及  
+**成分：** V、S、M（一把树皮）  
+**持续时间：** 1 小时
 
-- Choose one ability. The target has Disadvantage on ability checks and saving throws made with that ability.
-- The target has Disadvantage on attack rolls against you.
-- In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns or be forced to take the Dodge action on that turn.
-  • If you deal damage to the target with an attack roll or a spell, the target takes an extra 1d8 Necrotic damage.
+你触碰一个自愿生物。直到法术结束，目标的皮肤呈现树皮般的外观；如果其 AC 低于 17，则其护甲等级变为 17。
 
-_Using a Higher-Level Spell Slot._ If you cast this spell using a level 4 spell slot, you can maintain Concentration on it for up to 10 minutes. If you use a level 5+ spell slot, the spell doesn't require Concentration, and the duration becomes 8 hours (level 5–6 slot) or 24 hours (level 7–8 slot). If you use a level 9 spell slot, the spell lasts until dispelled.
+#### 希望信标（Beacon of Hope）
 
-#### Black Tentacles
+*3 环防护法术（牧师）*
 
-_Level 4 Conjuration (Wizard)_
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-**Casting Time:** Action
-**Range:** 90 feet
-**Components:** V, S, M (a tentacle)
-**Duration:** Concentration, up to 1 minute
+选择射程内任意数量的生物。在持续时间内，每个目标进行感知豁免和死亡豁免时具有优势，并且任何治疗效果为目标恢复生命值时，均恢复该治疗能够产生的最大生命值。
 
-Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in that area into Difficult Terrain.
+#### 心智迷乱（Befuddlement）
 
-Each creature in that area makes a Strength saving throw. On a failed save, it takes 3d6 Bludgeoning damage, and it has the Restrained condition until the spell ends. A creature also makes that save if it enters the area or ends it turn there. A creature makes that save only once per turn.
+*8 环惑控法术（吟游诗人、德鲁伊、邪术师、法师）*
 
-A Restrained creature can take an action to make a Strength (Athletics) check against your spell save DC, ending the condition on itself on a success.
+**施法时间：** 动作  
+**射程：** 150 尺  
+**成分：** V、S、M（一串没有钥匙的钥匙环）  
+**持续时间：** 立即
 
-#### Blade Barrier
+你以魔法轰击一个你在射程内能看见的生物的心智。目标进行一次智力豁免。
 
-_Level 6 Evocation (Cleric)_
+豁免失败时，目标受到 10d12 心灵伤害，并且无法施放法术或执行魔法动作。在之后每经过 30 天时，目标都会再次进行该豁免；豁免成功则结束这一效果。该效果也可以被*高等复原术（Greater Restoration）*、*医疗术（Heal）*或*祈愿术（Wish）*结束。
 
-**Casting Time:** Action
-**Range:** 90 feet
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+豁免成功时，目标仅受到一半伤害。
 
-You create a wall of whirling blades made of magical energy. The wall appears within range and lasts for the duration. You make a straight wall up to 100 feet long, 20 feet high, and 5 feet thick, or a ringed wall up to 60 feet in diameter, 20 feet high, and 5 feet thick. The wall provides Three-Quarters Cover, and its space is Difficult Terrain.
+#### 降咒（Bestow Curse）
 
-Any creature in the wall's space makes a Dexterity saving throw, taking 6d10 Force damage on a failed save or half as much damage on a successful one. A creature also makes that save if it enters the wall's space or ends it turn there. A creature makes that save only once per turn.
+*3 环死灵法术（吟游诗人、牧师、法师）*
 
-#### Bless
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-_Level 1 Enchantment (Cleric, Paladin)_
+你触碰一个生物。目标必须成功通过一次感知豁免，否则在持续时间内受到诅咒。诅咒结束前，你选择让目标遭受以下一种效果：
 
-**Casting Time:** Action
-**Range:** 30 feet
+- 选择一种属性。目标使用该属性进行属性检定和豁免检定时具有劣势。
+- 目标对你进行攻击检定时具有劣势。
+- 战斗中，目标在自己每个回合开始时必须成功通过一次感知豁免，否则该回合必须执行闪避动作。
+- 当你通过攻击检定或法术对目标造成伤害时，目标额外受到 1d8 黯蚀伤害。
 
-**Components:** V, S, M (a Holy Symbol worth 5+ GP)
-**Duration:** Concentration, up to 1 minute
+*使用更高环阶法术位。* 如果你使用 4 环法术位施放该法术，你可以维持专注至多 10 分钟。如果你使用 5 环或更高法术位，该法术不再需要专注，持续时间变为：使用 5–6 环法术位时为 8 小时；使用 7–8 环法术位时为 24 小时。如果使用 9 环法术位，法术持续到被解除为止。
 
-You bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save.
+#### 黑触手（Black Tentacles）
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 1.
+*4 环咒法法术（法师）*
 
-#### Blight
+**施法时间：** 动作  
+**射程：** 90 尺  
+**成分：** V、S、M（一条触手）  
+**持续时间：** 专注，至多 1 分钟
 
-_Level 4 Necromancy (Druid, Sorcerer, Warlock, Wizard)_
+扭动的黑色触手覆盖射程内你能看见的一片 20 尺方形地面。在持续时间内，这些触手使该区域成为困难地形。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** Instantaneous
+该区域内的每个生物进行一次力量豁免。豁免失败时，生物受到 3d6 钝击伤害，并陷入束缚（Restrained）状态，直到法术结束。生物进入该区域或在其中结束回合时也必须进行该豁免。每个生物每回合只进行一次该豁免。
 
-A creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save.
+被束缚的生物可以执行动作，针对你的法术豁免 DC 进行一次力量（运动）检定；成功时解除自己身上的该状态。
 
-Alternatively, target a nonmagical plant that isn't a creature, such as a tree or shrub. It doesn't make a save; it simply withers and dies.
+#### 剑刃障壁（Blade Barrier）
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 4.
+*6 环塑能法术（牧师）*
 
-#### Blindness/Deafness
+**施法时间：** 动作  
+**射程：** 90 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-_Level 2 Transmutation (Bard, Cleric, Sorcerer, Wizard)_
+你创造一道由魔法能量构成、不断旋转的剑刃墙。墙出现在射程内，并持续至法术结束。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V
-**Duration:** 1 minute
+你可以创造一道最长 100 尺、高 20 尺、厚 5 尺的直墙；或者创造一道直径至多 60 尺、高 20 尺、厚 5 尺的环形墙。墙提供四分之三掩护（Three-Quarters Cover），其空间视为困难地形。
 
-One creature that you can see within range must succeed on a Constitution saving throw, or it has the Blinded or Deafened condition (your choice) for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.
+位于墙空间中的每个生物都进行一次敏捷豁免。豁免失败受到 6d10 力场伤害，成功则受到一半伤害。生物进入墙的空间或在其中结束回合时也必须进行该豁免。每个生物每回合只进行一次该豁免。
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 2.
+#### 祝福术（Bless）
 
-#### Blink
+*1 环惑控法术（牧师、圣武士）*
 
-_Level 3 Transmutation (Sorcerer, Wizard)_
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一件价值至少 5 GP 的圣徽）  
+**持续时间：** 专注，至多 1 分钟
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** 1 minute
+你祝福射程内至多三个生物。在法术结束前，每当目标进行攻击检定或豁免检定时，都将 1d4 加到该攻击检定或豁免结果上。
 
-Roll 1d6 at the end of each of your turns for the duration. On a roll of 4–6, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell ends instantly if you are already on that plane). While on the Ethereal Plane, you can
-perceive the plane you left, which is cast in shades of gray, but you can't see anything there more than 60 feet away. You can affect and be affected only by other creatures on the Ethereal Plane, and creatures on the other plane can't perceive you unless they have a special ability that lets them perceive things on the Ethereal Plane.
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，就可以额外指定一个生物。
 
-You return to the other plane at the start of your next turn and when the spell ends if you are on the Ethereal Plane. You return to an unoccupied space of your choice that you can see within 10 feet of the space you left. If no unoccupied space is available within that range, you appear in the nearest unoccupied space.
+#### 枯萎术（Blight）
 
-#### Blur
+*4 环死灵法术（德鲁伊、术士、邪术师、法师）*
 
-_Level 2 Illusion (Sorcerer, Wizard)_
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V
-**Duration:** Concentration, up to 1 minute
+一个你在射程内能看见的生物进行一次体质豁免。豁免失败受到 8d8 黯蚀伤害，成功则受到一半伤害。植物生物会自动豁免失败。
 
-Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.
+或者，你可以指定一株并非生物的非魔法植物，例如树木或灌木。它无需豁免，而是直接枯萎死亡。
 
-#### Burning Hands
+*使用更高环阶法术位。* 你每使用高于 4 环一环的法术位，伤害增加 1d8。
 
-_Level 1 Evocation (Sorcerer, Wizard)_
+#### 目盲/耳聋术（Blindness/Deafness）
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** Instantaneous
+*2 环变化法术（吟游诗人、牧师、术士、法师）*
 
-A thin sheet of flames shoots forth from you. Each creature in a 15-foot Cone makes a Dexterity saving throw, taking 3d6 Fire damage on a failed save or half as much damage on a successful one.
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V  
+**持续时间：** 1 分钟
 
-Flammable objects in the Cone that aren't being worn or carried start burning.
+一个你在射程内能看见的生物必须成功通过一次体质豁免，否则在持续时间内陷入目盲或耳聋状态，由你选择。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d6 for each spell slot level above 1.
+目标在自己每个回合结束时再次进行该豁免，成功则结束自身所受法术。
 
-#### Call Lightning
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，就可以额外指定一个生物。
 
-_Level 3 Conjuration (Druid)_
+#### 闪现术（Blink）
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+*3 环变化法术（术士、法师）*
 
-A storm cloud appears at a point within range that you can see above yourself. It takes the shape of a Cylinder that is 10 feet tall with a 60-foot radius.
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 1 分钟
 
-When you cast the spell, choose a point you can see under the cloud. A lightning bolt shoots from the cloud to that point. Each creature within 5 feet of that point makes a Dexterity saving throw, taking 3d10 Lightning damage on a failed save or half as much damage on a successful one.
+持续时间内，在你的每个回合结束时掷 1d6。掷出 4–6 时，你从当前存在位面消失，并出现在以太位面（Ethereal Plane）中；如果你已经位于该位面，法术立即结束。
 
-Until the spell ends, you can take a Magic action to call down lightning in that way again, targeting the same point or a different one.
+当你位于以太位面时，可以感知自己离开的位面；那里看起来是一片灰色，但你无法看见距离超过 60 尺的事物。你只能影响以太位面中的其他生物，也只能受到它们影响；另一位面的生物无法感知你，除非拥有能够感知以太位面事物的特殊能力。
 
-If you're outdoors in a storm when you cast this spell, the spell gives you control over that storm instead of creating a new one. Under such conditions, the spell's damage increases by 1d10.
+在你的下一回合开始时，你会返回另一位面；如果法术结束时你正在以太位面，也会立即返回。你出现在离开位置 10 尺内一个你能看见的未占据空间中。如果该范围内没有未占据空间，你会出现在最近的未占据空间。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d10 for each spell slot level above 3.
+#### 朦胧术（Blur）
 
-#### Calm Emotions
+*2 环幻术法术（术士、法师）*
 
-_Level 2 Enchantment (Bard, Cleric)_
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V  
+**持续时间：** 专注，至多 1 分钟
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+你的身体变得模糊不清。持续时间内，任何生物对你进行攻击检定时具有劣势。
 
-Each Humanoid in a 20-foot-radius Sphere centered on a point you choose within range must succeed on a Charisma saving throw or be affected by one of the following effects (choose for each creature):
+如果攻击者通过盲视或真实视觉感知你，则不受此效果影响。
 
-- The creature has Immunity to the Charmed and Frightened conditions until the spell ends. If the creature was already Charmed or Frightened, those conditions are suppressed for the duration.
-- The creature becomes Indifferent about creatures of your choice that it's Hostile toward. This indifference ends if the target takes damage or witnesses its allies taking damage. When the spell ends, the creature's attitude returns to normal.
+#### 燃烧之手（Burning Hands）
 
-#### Chain Lightning
+*1 环塑能法术（术士、法师）*
 
-_Level 6 Evocation (Sorcerer, Wizard)_
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 立即
 
-**Casting Time:** Action
-**Range:** 150 feet
-**Components:** V, S, M (three silver pins)
-**Duration:** Instantaneous
+一片薄薄的火焰从你身上喷射而出。15 尺锥状区域内的每个生物进行一次敏捷豁免。豁免失败受到 3d6 火焰伤害，成功则受到一半伤害。
 
-You launch a lightning bolt toward a target you can see within range. Three bolts then leap from that target to as many as three other targets of your choice, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.
+锥状区域内未被穿戴或携带的易燃物体会开始燃烧。
 
-Each target makes a Dexterity saving throw, taking 10d8 Lightning damage on a failed save or half as much damage on a successful one.
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，伤害增加 1d6。
 
-_Using a Higher-Level Spell Slot._ One additional bolt leaps from the first target to another target for each spell slot level above 6.
+#### 召雷术（Call Lightning）
 
-#### Charm Monster
+*3 环咒法法术（德鲁伊）*
 
-_Level 4 Enchantment (Bard, Druid, Sorcerer, Warlock, Wizard)_
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** 1 hour
-One creature you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.
+一片暴风云出现在你上方射程内一个你能看见的点。它形成一个高 10 尺、半径 60 尺的柱状区域。
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 4.
+施放法术时，选择云层下方一个你能看见的点。一道闪电从云中劈向该点。距离该点 5 尺内的每个生物进行一次敏捷豁免，豁免失败受到 3d10 闪电伤害，成功则受到一半伤害。
 
-#### Charm Person
+直到法术结束，你都可以执行魔法动作再次以同样方式召下闪电，指定同一地点或其他地点。
 
-_Level 1 Enchantment (Bard, Druid, Sorcerer, Warlock, Wizard)_
+如果你在户外暴风雨中施放该法术，法术会让你控制现有风暴，而不是创造新的风暴。在这种情况下，法术伤害增加 1d10。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** 1 hour
+*使用更高环阶法术位。* 你每使用高于 3 环一环的法术位，伤害增加 1d10。
 
-One Humanoid you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.
+#### 安定心神（Calm Emotions）
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 1.
+*2 环惑控法术（吟游诗人、牧师）*
 
-#### Chill Touch
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-_Necromancy Cantrip (Sorcerer, Warlock, Wizard)_
+以射程内你选择的一点为中心，在半径 20 尺球状区域内的每个类人生物都必须成功通过一次魅力豁免，否则受到以下一种效果影响；你可以为每个生物分别选择：
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S
-**Duration:** Instantaneous
+- 该生物在法术结束前免疫魅惑和恐慌状态。如果它原本已经处于魅惑或恐慌状态，这些状态会在持续时间内被压制。
+- 该生物对你选择的、原本被其视为敌对的生物变得冷漠（Indifferent）。如果目标受到伤害，或者目睹自己的盟友受到伤害，这种冷漠会结束。法术结束时，该生物的态度恢复正常。
 
-Channeling the chill of the grave, make a melee spell attack against a target within reach. On a hit, the target takes 1d10 Necrotic damage, and it can't regain Hit Points until the end of your next turn.
+#### 连锁闪电（Chain Lightning）
 
-_Cantrip Upgrade._ The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).
+*6 环塑能法术（术士、法师）*
 
-#### Chromatic Orb
+**施法时间：** 动作  
+**射程：** 150 尺  
+**成分：** V、S、M（三根银针）  
+**持续时间：** 立即
 
-_Level 1 Evocation (Sorcerer, Wizard)_
+你向一个你在射程内能看见的目标发射一道闪电。随后，最多三道闪电从第一个目标跳向至多三个你选择的其他目标；每个次级目标必须位于第一个目标 30 尺内。
 
-**Casting Time:** Action
-**Range:** 90 feet
-**Components:** V, S, M (a diamond worth 50+ GP)
-**Duration:** Instantaneous
+目标可以是生物或物体，并且每个目标只能被其中一道闪电指定。
 
-You hurl an orb of energy at a target within range. Choose Acid, Cold, Fire, Lightning, Poison, or Thunder for the type of orb you create, and then make a ranged spell attack against the target. On a hit, the target takes 3d8 damage of the chosen type.
+每个目标进行一次敏捷豁免。豁免失败受到 10d8 闪电伤害，成功则受到一半伤害。
 
-If you roll the same number on two or more of the d8s, the orb leaps to a different target of your choice within 30 feet of the target. Make an attack roll against the new target, and make a new damage roll. The orb can't leap again unless you cast the spell with a level 2+ spell slot.
+*使用更高环阶法术位。* 你每使用高于 6 环一环的法术位，就会额外有一道闪电从第一个目标跳向另一个目标。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 1. The orb can leap a maximum number of times equal to the level of the slot expended, and a creature can be targeted only once by each casting of this spell.
+#### 魅惑怪物（Charm Monster）
 
-#### Circle of Death
+*4 环惑控法术（吟游诗人、德鲁伊、术士、邪术师、法师）*
 
-_Level 6 Necromancy (Sorcerer, Warlock, Wizard)_
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 1 小时
 
-**Casting Time:** Action
-**Range:** 150 feet
-**Components:** V, S, M (the powder of a crushed black pearl worth 500+ GP)
-**Duration:** Instantaneous
+一个你在射程内能看见的生物进行一次感知豁免。如果你或你的盟友正与它战斗，它进行该豁免时具有优势。
 
-Negative energy ripples out in a 60-foot-radius Sphere from a point you choose within range. Each creature in that area makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one.
+豁免失败时，目标陷入魅惑状态，持续至法术结束，或者直到你或你的盟友对它造成伤害。被魅惑的生物对你态度友善（Friendly）。法术结束时，目标知道自己曾被你魅惑。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 2d8 for each spell slot level above 6.
+*使用更高环阶法术位。* 你每使用高于 4 环一环的法术位，就可以额外指定一个生物。
 
-#### Clairvoyance
+#### 魅惑人类（Charm Person）
 
-_Level 3 Divination (Bard, Cleric, Sorcerer, Wizard)_
+*1 环惑控法术（吟游诗人、德鲁伊、术士、邪术师、法师）*
 
-**Casting Time:** 10 minutes
-**Range:** 1 mile
-**Components:** V, S, M (a focus worth 100+ GP, either a jeweled horn for hearing or a glass eye for seeing)
-**Duration:** Concentration, up to 10 minutes
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 1 小时
 
-You create an Invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The intangible, invulnerable sensor remains in place for the duration.
+一个你在射程内能看见的类人生物进行一次感知豁免。如果你或你的盟友正与它战斗，它进行该豁免时具有优势。
 
-When you cast the spell, choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As a Bonus Action, you can switch between seeing and hearing.
+豁免失败时，目标陷入魅惑状态，持续至法术结束，或者直到你或你的盟友对它造成伤害。被魅惑的生物对你态度友善。法术结束时，目标知道自己曾被你魅惑。
 
-A creature that sees the sensor (such as a creature benefiting from _See Invisibility_ or Truesight) sees a luminous orb about the size of your fist.
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，就可以额外指定一个生物。
 
-#### Clone
+#### 寒冷之触（Chill Touch）
 
-_Level 8 Necromancy (Wizard)_
+*死灵戏法（术士、邪术师、法师）*
 
-**Casting Time:** 1 hour
-**Range:** Touch
-**Components:** V, S, M (a diamond worth 1,000+ GP, which the spell consumes, and a sealable vessel worth 2,000+ GP that is large enough to hold the creature being cloned)
-**Duration:** Instantaneous
-You touch a creature or at least 1 cubic inch of its flesh. An inert duplicate of that creature forms inside the vessel used in the spell's casting and finishes growing after 120 days; you choose whether the finished clone is the same age as the creature or younger. The clone remains inert and endures indefinitely while its vessel remains undisturbed.
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 立即
 
-If the original creature dies after the clone finishes forming, the creature's soul transfers to the clone if the soul is free and willing to return. The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the original's equipment. The creature's original remains, if any, become inert and can't be revived, since the creature's soul is elsewhere.
+你引导坟墓中的寒意，对触及范围内一个目标进行一次近战法术攻击。命中时，目标受到 1d10 黯蚀伤害，并且直到你的下一回合结束前无法恢复生命值。
 
-#### Cloudkill
+*戏法升级。* 当你达到 5 级（2d10）、11 级（3d10）和 17 级（4d10）时，伤害各增加 1d10。
 
-_Level 5 Conjuration (Sorcerer, Wizard)_
+#### 七彩法球（Chromatic Orb）
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+*1 环塑能法术（术士、法师）*
 
-You create a 20-foot-radius Sphere of yellow-green fog centered on a point within range. The fog lasts for the duration or until strong wind (such as the one created by _Gust of Wind_) disperses it, ending the spell. Its area is Heavily Obscured.
+**施法时间：** 动作  
+**射程：** 90 尺  
+**成分：** V、S、M（一颗价值至少 50 GP 的钻石）  
+**持续时间：** 立即
 
-Each creature in the Sphere makes a Constitution saving throw, taking 5d8 Poison damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.
+你向射程内一个目标投出一颗能量法球。选择强酸、寒冷、火焰、闪电、毒素或雷鸣作为你创造的法球伤害类型，然后对目标进行一次远程法术攻击。命中时，目标受到 3d8 所选类型的伤害。
 
-The Sphere moves 10 feet away from you at the start of each of your turns.
+如果你在两个或更多 d8 上掷出相同数字，法球会跳向原目标 30 尺内另一个你选择的目标。对新目标进行一次攻击检定，并重新掷伤害。除非你使用 2 环或更高法术位施放该法术，否则法球无法再次跳跃。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 5.
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，伤害增加 1d8。法球最多能够跳跃的次数等于所消耗法术位的环阶，并且每次施放该法术时，同一个生物只能成为一次目标。
 
-#### Color Spray
+#### 死亡法阵（Circle of Death）
 
-_Level 1 Illusion (Bard, Sorcerer, Wizard)_
+*6 环死灵法术（术士、邪术师、法师）*
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a pinch of colorful sand)
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 150 尺  
+**成分：** V、S、M（一颗价值至少 500 GP 的黑珍珠磨成的粉末）  
+**持续时间：** 立即
 
-You launch a dazzling array of flashing, colorful light. Each creature in a 15-foot Cone originating from you must succeed on a Constitution saving throw or have the Blinded condition until the end of your next turn.
+负能量以射程内你选择的一点为中心，向外扩散成半径 60 尺的球状区域。区域内的每个生物进行一次体质豁免。豁免失败受到 8d8 黯蚀伤害，成功则受到一半伤害。
 
-#### Command
+*使用更高环阶法术位。* 你每使用高于 6 环一环的法术位，伤害增加 2d8。
 
-_Level 1 Enchantment (Bard, Cleric, Paladin)_
+#### 千里眼（Clairvoyance）
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V
-**Duration:** Instantaneous
+*3 环预言法术（吟游诗人、牧师、术士、法师）*
 
-You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. Choose the command from these options:
+**施法时间：** 10 分钟  
+**射程：** 1 里  
+**成分：** V、S、M（一件价值至少 100 GP 的法器；用于聆听时是一只镶有珠宝的角，用于观察时是一只玻璃眼）  
+**持续时间：** 专注，至多 10 分钟
 
-**Approach.** The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.
+你在射程内创造一个隐形的感知器。其位置可以是你熟悉的地点——即你曾经去过或看见过的地方——也可以是你不熟悉但位置明确的地点，例如门后、拐角另一侧或树林中。
 
-**Drop.** The target drops whatever it is holding and then ends its turn.
+该感知器没有实体、无法被摧毁，并在持续时间内固定于原处。
 
-**Flee.** The target spends its turn moving away from you by the fastest available means.
+施放法术时，选择视觉或听觉。你可以如同自己身处感知器所在空间一样，通过它使用所选感官。作为附赠动作，你可以在视觉和听觉之间切换。
 
-**Grovel.** The target has the Prone condition and then ends its turn.
+能够看见该感知器的生物——例如受益于*识破隐形（See Invisibility）*或拥有真实视觉的生物——会看到一个约你拳头大小的发光球体。
 
-**Halt.** On its turn, the target doesn't move and takes no action or Bonus Action.
+#### 克隆术（Clone）
 
-_Using a Higher-Level Spell Slot._ You can affect one additional creature for each spell slot level above 1.
+*8 环死灵法术（法师）*
 
-#### Commune
+**施法时间：** 1 小时  
+**射程：** 触及  
+**成分：** V、S、M（一颗价值至少 1,000 GP 的钻石，法术会将其消耗；以及一个价值至少 2,000 GP、可密封且足以容纳被克隆生物的容器）  
+**持续时间：** 立即
 
-_Level 5 Divination (Cleric)_
+你触碰一个生物，或者至少 1 立方英寸的该生物血肉。一个没有意识的该生物复制体在施法所用容器中形成，并在 120 天后发育完成；你可以选择成品克隆体与原生物年龄相同或更年轻。
 
-**Casting Time:** 1 minute or Ritual
-**Range:** Self
-**Components:** V, S, M (incense)
-**Duration:** 1 minute
+只要容器不受干扰，克隆体会保持无意识状态，并可以无限期存在。
 
-You contact a deity or a divine proxy and ask up to three questions that can be answered with yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.
+如果克隆体发育完成后原生物死亡，只要其灵魂自由且愿意回归，该生物的灵魂便会转移到克隆体中。克隆体在身体上与原生物完全相同，并拥有相同的人格、记忆和能力，但没有原生物的任何装备。
 
-Divine beings aren't necessarily omniscient, so you might receive "unclear" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the GM might offer a short phrase as an answer instead.
+原生物剩余的遗体（如有）会失去活性，并且无法被复活，因为该生物的灵魂已经位于其他地方。
 
-If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.
+#### 死云术（Cloudkill）
 
-#### Commune with Nature
+*5 环咒法法术（术士、法师）*
 
-_Level 5 Divination (Druid, Ranger)_
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-**Casting Time:** 1 minute or Ritual
-**Range:** Self
-**Components:** V, S
-**Duration:** Instantaneous
+你以射程内一点为中心创造一个半径 20 尺的黄绿色雾气球状区域。雾气持续至法术结束，或者直到强风——例如*舞风术（Gust of Wind）*创造的强风——将其吹散并结束法术。区域处于重度遮蔽（Heavily Obscured）状态。
 
-You commune with nature spirits and gain knowledge of the surrounding area. In the outdoors, the spell gives you knowledge of the area within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell
-doesn't function where nature has been replaced by construction, such as in castles and settlements.
+球状区域内的每个生物进行一次体质豁免，豁免失败受到 5d8 毒素伤害，成功则受到一半伤害。当球状区域移动进入一个生物的空间时，以及生物进入球状区域或在其中结束回合时，该生物也必须进行该豁免。一个生物每回合只进行一次该豁免。
 
-Choose three of the following facts; you learn those facts as they pertain to the spell's area:
+在你的每个回合开始时，球状区域会沿远离你的方向移动 10 尺。
 
-• Locations of settlements
-• Locations of portals to other planes of existence
-• Location of one Challenge Rating 10+ creature (GM's choice) that is a Celestial, an Elemental, a Fey, a Fiend, or an Undead
-• The most prevalent kind of plant, mineral, or Beast (you choose which to learn)
-• Locations of bodies of water
+*使用更高环阶法术位。* 你每使用高于 5 环一环的法术位，伤害增加 1d8。
 
-For example, you could determine the location of a powerful monster in the area, the locations of bodies of water, and the locations of any towns.
+#### 七彩喷射（Color Spray）
 
-#### Comprehend Languages
+*1 环幻术法术（吟游诗人、术士、法师）*
 
-_Level 1 Divination (Bard, Sorcerer, Warlock, Wizard)_
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一撮彩色沙子）  
+**持续时间：** 立即
 
-**Casting Time:** Action or Ritual
-**Range:** Self
-**Components:** V, S, M (a pinch of soot and salt)
-**Duration:** 1 hour
+你发出一阵耀眼、闪烁的彩光。从你身上发出的 15 尺锥状区域内，每个生物都必须成功通过一次体质豁免，否则陷入目盲状态，直到你的下一回合结束。
 
-For the duration, you understand the literal meaning of any language that you hear or see signed. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. This spell doesn't decode symbols or secret messages.
+#### 命令术（Command）
 
-#### Compulsion
+*1 环惑控法术（吟游诗人、牧师、圣武士）*
 
-_Level 4 Enchantment (Bard)_
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V  
+**持续时间：** 立即
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+你对一个你在射程内能看见的生物说出一道只有一个词的命令。目标必须成功通过一次感知豁免，否则在其下一回合按照命令行动。你从以下选项中选择命令：
 
-Each creature of your choice that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition until the spell ends.
+**靠近（Approach）。** 目标沿最短、最直接路线向你移动；如果它移动到你 5 尺内，其回合立即结束。
 
-For the duration, you can take a Bonus Action to designate a direction that is horizontal to you. Each Charmed target must use as much of its movement as possible to move in that direction on its next turn, taking the safest route. After moving in this way, a target repeats the save, ending the spell on itself on a success.
+**丢下（Drop）。** 目标丢下自己正握持的一切物品，然后结束回合。
 
-#### Cone of Cold
+**逃走（Flee）。** 目标在自己的回合中以最快可行方式远离你。
 
-_Level 5 Evocation (Druid, Sorcerer, Wizard)_
+**伏地（Grovel）。** 目标陷入倒地（Prone）状态，然后结束回合。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a small crystal or glass cone)
-**Duration:** Instantaneous
+**停下（Halt）。** 在自己的回合中，目标不移动，也不执行动作或附赠动作。
 
-You unleash a blast of cold air. Each creature in a 60-foot Cone originating from you makes a Constitution saving throw, taking 8d8 Cold damage on a failed save or half as much damage on a successful one. A creature killed by this spell becomes a frozen statue until it thaws.
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，就可以额外影响一个生物。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 5.
+#### 通神术（Commune）
 
-#### Confusion
+*5 环预言法术（牧师）*
 
-_Level 4 Enchantment (Bard, Druid, Sorcerer, Wizard)_
+**施法时间：** 1 分钟或仪式  
+**射程：** 自身  
+**成分：** V、S、M（熏香）  
+**持续时间：** 1 分钟
 
-**Casting Time:** Action
-**Range:** 90 feet
-**Components:** V, S, M (three nut shells)
-**Duration:** Concentration, up to 1 minute
+你联络一位神祇或神圣代理者，并提出至多三个能够以“是”或“否”回答的问题。你必须在法术结束前提出这些问题。每个问题都会获得一个正确答案。
 
-Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw, or that target can't take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below.
+神圣存在并不一定全知全能，因此如果问题涉及超出该神祇知识范围的信息，你可能会得到“无法确定”的回答。如果单词回答可能造成误导或者违背神祇的利益，GM 可以改为提供一句简短的话作为回答。
 
-<table>
-  <thead>
-    <tr>
-      <th>1d10</th>
-      <th>Behavior for the Turn</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>The target doesn't take an action, and it uses all its movement to move. Roll 1d4 for the direction: 1, north; 2, east; 3, south; or 4, west.</td>
-    </tr>
-    <tr>
-      <td>2–6</td>
-      <td>The target doesn't move or take actions.</td>
-    </tr>
-    <tr>
-      <td>7–8</td>
-      <td>The target doesn't move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action.</td>
-    </tr>
-    <tr>
-      <td>9–10</td>
-      <td>The target chooses its behavior.</td>
-    </tr>
-  </tbody>
-</table>
+如果你在完成一次长休之前多次施放该法术，则从第二次施放起，每额外施放一次，都有累积 25% 的几率得不到任何回答。
 
-At the end of each of its turns, an affected target repeats the save, ending the spell on itself on a success.
+#### 沟通自然（Commune with Nature）
 
-_Using a Higher-Level Spell Slot._ The Sphere's radius increases by 5 feet for each spell slot level above 4.
+*5 环预言法术（德鲁伊、游侠）*
 
-#### Conjure Animals
+**施法时间：** 1 分钟或仪式  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 立即
 
-_Level 3 Conjuration (Druid, Ranger)_
+你与自然精魂交流，并获得关于周围区域的知识。在户外时，该法术让你了解自己周围 3 里范围内的区域。在洞穴和其他天然地下环境中，其范围限制为半径 300 尺。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+该法术无法在自然已经被建筑完全取代的地点运作，例如城堡或聚落。
 
-You conjure nature spirits that appear as a Large pack of spectral, intangible animals in an unoccupied space you can see within range. The pack lasts for the duration, and you choose the spirits' animal form, such as wolves, serpents, or birds.
+从以下信息中选择三项；你会得知这些信息在法术范围内的情况：
 
-You have Advantage on Strength saving throws while you're within 5 feet of the pack, and when you move on your turn, you can also move the pack up to 30 feet to an unoccupied space you can see.
+- 聚落的位置
+- 通往其他存在位面的传送门位置
+- 一个挑战等级 10 或更高的天界生物、元素、妖精、邪魔或不死生物的位置，由 GM 选择
+- 当地最常见的一种植物、矿物或野兽，由你选择想了解哪一类
+- 水体的位置
 
-Whenever the pack moves within 10 feet of a creature you can see and whenever a creature you can see enters a space within 10 feet of the pack or ends
-its turn there, you can force that creature to make a Dexterity saving throw. On a failed save, the creature takes 3d10 Slashing damage. A creature makes this save only once per turn.
+例如，你可以查明区域内一只强大怪物的位置、水体的位置以及任何城镇的位置。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d10 for each spell slot level above 3.
+#### 通晓语言（Comprehend Languages）
 
-#### Conjure Celestial
+*1 环预言法术（吟游诗人、术士、邪术师、法师）*
 
-_Level 7 Conjuration (Cleric)_
+**施法时间：** 动作或仪式  
+**射程：** 自身  
+**成分：** V、S、M（一撮煤灰和盐）  
+**持续时间：** 1 小时
 
-**Casting Time:** Action
-**Range:** 90 feet
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+持续时间内，你可以理解自己听见或看见以手势表达的任何语言的字面含义。
 
-You conjure a spirit from the Upper Planes, which manifests as a pillar of light in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range. For each creature you can see in the Cylinder, choose which of these lights shines on it:
+你也能理解自己看到的任何书面语言，不过必须触碰书写这些文字的表面。阅读一页文字大约需要 1 分钟。
 
-**Healing Light.** The target regains Hit Points equal to 4d12 plus your spellcasting ability modifier.
+该法术无法解读符号或秘密信息。
 
-**Searing Light.** The target makes a Dexterity saving throw, taking 6d12 Radiant damage on a failed save or half as much damage on a successful one.
+#### 强迫术（Compulsion）
 
-Until the spell ends, Bright Light fills the Cylinder, and when you move on your turn, you can also move the Cylinder up to 30 feet.
+*4 环惑控法术（吟游诗人）*
 
-Whenever the Cylinder moves into the space of a creature you can see and whenever a creature you can see enters the Cylinder or ends its turn there, you can bathe it in one of the lights. A creature can be affected by this spell only once per turn.
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-_Using a Higher-Level Spell Slot._ The healing and damage increase by 1d12 for each spell slot level above 7.
+射程内你能看见的、由你选择的每个生物都必须成功通过一次感知豁免，否则在法术结束前陷入魅惑状态。
 
-#### Conjure Elemental
+持续时间内，你可以使用附赠动作指定一个相对于你的水平方向。每个被魅惑的目标必须在其下一回合尽可能使用全部移动沿该方向前进，并选择最安全的路线。
 
-_Level 5 Conjuration (Druid, Wizard)_
+以此方式移动之后，目标会再次进行豁免；成功时结束自身受到的法术。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+#### 寒冰锥（Cone of Cold）
 
-You conjure a Large, intangible spirit from the Elemental Planes that appears in an unoccupied space within range. Choose the spirit's element, which determines its damage type: air (Lightning), earth (Thunder), fire (Fire), or water (Cold). The spirit lasts for the duration.
+*5 环塑能法术（德鲁伊、术士、法师）*
 
-Whenever a creature you can see enters the spirit's space or starts its turn within 5 feet of the spirit, you can force that creature to make a Dexterity saving throw if the spirit has no creature Restrained. On failed save, the target takes 8d8 damage of the spirit's type, and the target has the Restrained condition until the spell ends. At the start of each of its turns, the Restrained target repeats the save.
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一枚小型水晶或玻璃锥体）  
+**持续时间：** 立即
 
-On a failed save, the target takes 4d8 damage of the spirit's type. On a successful save, the target isn't Restrained by the spirit.
+你释放一股极寒空气。从你身上发出的 60 尺锥状区域内，每个生物进行一次体质豁免。豁免失败受到 8d8 寒冷伤害，成功则受到一半伤害。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 5.
+被该法术杀死的生物会变成冻结的雕像，直到解冻为止。
 
-#### Conjure Fey
+*使用更高环阶法术位。* 你每使用高于 5 环一环的法术位，伤害增加 1d8。
 
-_Level 6 Conjuration (Druid)_
+#### 困惑术（Confusion）
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+*4 环惑控法术（吟游诗人、德鲁伊、术士、法师）*
 
-You conjure a Medium spirit from the Feywild in an unoccupied space you can see within range. The spirit lasts for the duration, and it looks like a Fey creature of your choice. When the spirit appears, you can make one melee spell attack against a creature within 5 feet of it. On a hit, the target takes Psychic damage equal to 3d12 plus your spellcasting ability modifier, and the target has the Frightened condition until the start of your next turn, with both you and the spirit as the source of the fear.
+**施法时间：** 动作  
+**射程：** 90 尺  
+**成分：** V、S、M（三个坚果壳）  
+**持续时间：** 专注，至多 1 分钟
 
-As a Bonus Action on your later turns, you can teleport the spirit to an unoccupied space you can see within 30 feet of the space it left and make the attack against a creature within 5 feet of it.
+以射程内你选择的一点为中心，一个半径 10 尺的球状区域中的每个生物都必须成功通过一次感知豁免，否则在法术持续时间内无法执行附赠动作或反应，并且必须在自己每个回合开始时掷 1d10，查阅下表确定该回合的行为。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d12 for each spell slot level above 6.
+| 1d10 | 本回合行为 |
+|---:|---|
+| 1 | 目标不执行动作，并使用全部移动。掷 1d4 决定方向：1，北；2，东；3，南；4，西。 |
+| 2–6 | 目标不移动，也不执行动作。 |
+| 7–8 | 目标不移动，并执行攻击动作，对触及范围内一个随机生物进行一次近战攻击。如果触及范围内没有生物，则目标不执行动作。 |
+| 9–10 | 目标自行决定行为。 |
 
-#### Conjure Minor Elementals
+每个受影响的目标会在自己的回合结束时再次进行豁免；成功时结束自身受到的法术。
 
-_Level 4 Conjuration (Druid, Wizard)_
+*使用更高环阶法术位。* 你每使用高于 4 环一环的法术位，球状区域半径增加 5 尺。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+#### 召唤动物（Conjure Animals）
 
-You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra 2d8 damage when you hit a creature in the Emanation. This damage is Acid, Cold, Fire, or Lightning (your choice when you make the attack).
+*3 环咒法法术（德鲁伊、游侠）*
 
-In addition, the ground in the Emanation is Difficult Terrain for your enemies.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 4.
+你召唤自然精魂，它们以一大群幽灵般、没有实体的动物形态出现在射程内一个你能看见的未占据空间中。兽群持续至法术结束，而你可以选择这些精魂显现为何种动物，例如狼、蛇或鸟。
 
-#### Conjure Woodland Beings
+当你位于兽群 5 尺内时，你进行力量豁免具有优势；而当你在自己的回合中移动时，你也可以将兽群移动至多 30 尺，到达一个你能看见的未占据空间。
 
-_Level 4 Conjuration (Druid, Ranger)_
+每当兽群移动到距离一个你能看见的生物 10 尺内时，以及每当一个你能看见的生物进入兽群 10 尺内的空间或在那里结束回合时，你都可以迫使该生物进行一次敏捷豁免。豁免失败时，生物受到 3d10 挥砍伤害。一个生物每回合只进行一次该豁免。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+*使用更高环阶法术位。* 你每使用高于 3 环一环的法术位，伤害增加 1d10。
 
-You conjure nature spirits that flit around you in a 10-foot Emanation for the duration. Whenever the Emanation enters the space of a creature you can
-see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. The creature takes 5d8 Force damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.
+#### 召唤天界生物（Conjure Celestial）
 
-In addition, you can take the Disengage action as a Bonus Action for the spell's duration.
+*7 环咒法法术（牧师）*
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 4.
+**施法时间：** 动作  
+**射程：** 90 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-#### Contact Other Plane
+你从上层位面（Upper Planes）召唤一个精魂，它会显现为一道光柱，以射程内一点为中心形成半径 10 尺、高 40 尺的柱状区域。
 
-_Level 5 Divination (Warlock, Wizard)_
+对于柱状区域内你能看见的每个生物，你决定以下哪一种光芒照耀它：
 
-**Casting Time:** 1 minute or Ritual
-**Range:** Self
-**Components:** V
-**Duration:** 1 minute
+**治愈之光（Healing Light）。** 目标恢复等于 4d12 + 你的施法属性调整值的生命值。
 
-You mentally contact a demigod, the spirit of a long-dead sage, or some other knowledgeable entity from another plane. Contacting this otherworldly intelligence can break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The GM answers each question with one word, such as "yes," "no," "maybe," "never," "irrelevant," or "unclear" (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a short phrase as an answer.
+**灼烧之光（Searing Light）。** 目标进行一次敏捷豁免。豁免失败受到 6d12 光耀伤害，成功则受到一半伤害。
 
-On a failed save, you take 6d6 Psychic damage and have the Incapacitated condition until you finish a Long Rest. A _Greater Restoration_ spell cast on you ends this effect.
+直到法术结束，柱状区域内充满明亮光照；当你在自己的回合中移动时，也可以将柱状区域移动至多 30 尺。
 
-#### Contagion
+每当柱状区域移动进入一个你能看见的生物所在空间，以及每当一个你能看见的生物进入该柱状区域或在那里结束回合时，你可以让该生物受到其中一种光芒影响。一个生物每回合只能受到该法术影响一次。
 
-_Level 5 Necromancy (Cleric, Druid)_
+*使用更高环阶法术位。* 你每使用高于 7 环一环的法术位，治疗量与伤害均增加 1d12。
 
-**Casting Time:** Action
-**Range:** Touch
-**Component:** V, S
-**Duration:** 7 days
+#### 召唤元素（Conjure Elemental）
 
-Your touch inflicts a magical contagion. The target must succeed on a Constitution saving throw or take 11d8 Necrotic damage and have the Poisoned condition. Also, choose one ability when you cast the spell. While Poisoned, the target has Disadvantage on saving throws made with the chosen ability.
+*5 环咒法法术（德鲁伊、法师）*
 
-The target must repeat the saving throw at the end of each of its turns until it gets three successes or failures. If the target succeeds on three of these saves, the spell ends on the target. If the target fails three of the saves, the spell lasts for 7 days on it.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-Whenever the Poisoned target receives an effect that would end the Poisoned condition, the target must succeed on a Constitution saving throw, or the Poisoned condition doesn't end on it.
+你从元素位面（Elemental Planes）召唤一个大型、没有实体的精魂，使其出现在射程内一个未占据空间中。
 
-#### Contingency
+选择精魂的元素，这会决定其伤害类型：空气（闪电）、大地（雷鸣）、火焰（火焰）或水（水寒冷）。精魂持续至法术结束。
 
-_Level 6 Abjuration (Wizard)_
+每当一个你能看见的生物进入精魂的空间，或者在距离精魂 5 尺内开始回合时，只要精魂当前没有束缚任何生物，你就可以迫使该生物进行一次敏捷豁免。
 
-**Casting Time:** 10 minutes
-**Range:** Self
-**Components:** V, S, M (a gem-encrusted statuette of yourself worth 1,500+ GP)
-**Duration:** 10 days
+豁免失败时，目标受到 8d8 精魂对应类型的伤害，并陷入束缚状态，直到法术结束。在被束缚目标的每个回合开始时，它都会再次进行豁免。
 
-Choose a spell of level 5 or lower that you can cast, that has a casting time of an action, and that can target you. You cast that spell—called the contingent spell—as part of casting _Contingency_, expending spell slots for both, but the contingent spell doesn't come into effect. Instead, it takes effect when a certain trigger occurs. You describe that trigger when you cast the two spells. For example, a _Contingency_ cast with _Water Breathing_ might stipulate that _Water Breathing_ comes into effect when you are engulfed in water or a similar liquid.
+再次豁免失败时，目标受到 4d8 精魂对应类型的伤害。豁免成功时，目标不再受该精魂束缚。
 
-The contingent spell takes effect immediately after the trigger occurs for the first time, whether or not you want it to, and then _Contingency_ ends.
+*使用更高环阶法术位。* 你每使用高于 5 环一环的法术位，伤害增加 1d8。
 
-The contingent spell takes effect only on you, even if it can normally target others. You can use only one _Contingency_ spell at a time. If you cast this spell again, the effect of another _Contingency_ spell on you ends. Also, _Contingency_ ends on you if its material component is ever not on your person.
+#### 召唤妖精（Conjure Fey）
 
-#### Continual Flame
+*6 环咒法法术（德鲁伊）*
 
-_Level 2 Evocation (Cleric, Druid, Wizard)_
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (ruby dust worth 50+ GP, which the spell consumes)
-**Duration:** Until dispelled
+你从妖精荒野（Feywild）召唤一个中型精魂，使其出现在射程内一个你能看见的未占据空间中。
 
-A flame springs from an object that you touch. The effect casts Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.
+精魂持续至法术结束，并呈现为一种由你选择的妖精生物形态。
 
-#### Control Water
+当精魂出现时，你可以对其 5 尺内一个生物进行一次近战法术攻击。命中时，目标受到等于 3d12 + 你的施法属性调整值的心灵伤害，并陷入恐慌状态，直到你的下一回合开始；你和该精魂都会被视为恐惧来源。
 
-_Level 4 Transmutation (Cleric, Druid, Wizard)_
+之后的回合中，你可以使用附赠动作，将精魂从当前位置传送到离开位置 30 尺内一个你能看见的未占据空间，并对精魂 5 尺内一个生物发动上述攻击。
 
-**Casting Time:** Action
-**Range:** 300 feet
-**Components:** V, S, M (a mixture of water and dust)
-**Duration:** Concentration, up to 10 minutes
+*使用更高环阶法术位。* 你每使用高于 6 环一环的法术位，伤害增加 1d12。
 
-Until the spell ends, you control any water inside an area you choose that is a Cube up to 100 feet on a side, using one of the following effects. As a Magic action on your later turns, you can repeat the same effect or choose a different one.
+#### 召唤次级元素（Conjure Minor Elementals）
 
-_Flood._ You cause the water level of all standing water in the area to rise by as much as 20 feet. If you
-choose an area in a large body of water, you instead create a 20-foot tall wave that travels from one side of the area to the other and then crashes. Any Huge or smaller vehicles in the wave's path are carried with it to the other side. Any Huge or smaller vehicles struck by the wave have a 25 percent chance of capsizing.
+*4 环咒法法术（德鲁伊、法师）*
 
-The water level remains elevated until the spell ends or you choose a different effect. If this effect produced a wave, the wave repeats on the start of your next turn while the flood effect lasts.
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-_Part Water._ You part water in the area and create a trench. The trench extends across the spell's area, and the separated water forms a wall to either side. The trench remains until the spell ends or you choose a different effect. The water then slowly fills in the trench over the course of the next round until the normal water level is restored.
+你从元素位面召唤精魂，它们在持续时间内围绕你飞舞，形成 15 尺发散区域。
 
-_Redirect Flow._ You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves beyond the spell's area, it resumes its flow based on the terrain. The water continues to move in the direction you chose until the spell ends or you choose a different effect.
+直到法术结束，每当你通过攻击命中位于该发散区域内的生物时，该次攻击额外造成 2d8 伤害。该伤害为强酸、寒冷、火焰或闪电之一，由你在发动攻击时选择。
 
-_Whirlpool._ You cause a whirlpool to form in the center of the area, which must be at least 50 feet square and 25 feet deep. The whirlpool lasts until you choose a different effect or the spell ends. The whirlpool is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature in the water and within 25 feet of the whirlpool is pulled 10 feet toward it. When a creature enters the whirlpool for the first time on a turn or ends its turn there, it makes a Strength saving throw. On a failed save, the creature takes 2d8 Bludgeoning damage. On a successful save, the creature takes half as much damage. A creature can swim away from the whirlpool only if it first takes an action to pull away and succeeds on a Strength (Athletics) check against your spell save DC.
+此外，对你的敌人而言，发散区域内的地面属于困难地形。
 
-#### Control Weather
+*使用更高环阶法术位。* 你每使用高于 4 环一环的法术位，伤害增加 1d8。
 
-_Level 8 Transmutation (Cleric, Druid, Wizard)_
+#### 召唤林地生物（Conjure Woodland Beings）
 
-**Casting Time:** 10 minutes
-**Range:** Self
-**Components:** V, S, M (burning incense)
-**Duration:** Concentration, up to 8 hours
+*4 环咒法法术（德鲁伊、游侠）*
 
-You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-When you cast the spell, you change the current weather conditions, which are determined by the GM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new
+你召唤自然精魂，它们在持续时间内围绕你飞舞，形成 10 尺发散区域。
 
-conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.
+每当发散区域进入一个你能看见的生物的空间，以及每当一个你能看见的生物进入发散区域或在那里结束回合时，你都可以迫使该生物进行一次感知豁免。豁免失败受到 5d8 力场伤害，成功则受到一半伤害。一个生物每回合只进行一次该豁免。
 
-When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.
+此外，在法术持续时间内，你可以用附赠动作执行撤离（Disengage）动作。
 
-**Precipitation**
+*使用更高环阶法术位。* 你每使用高于 4 环一环的法术位，伤害增加 1d8。
 
-<table>
-  <thead>
-    <tr>
-      <th>Stage</th>
-      <th>Condition</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Clear</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Light clouds</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Overcast or ground fog</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Rain, hail, or snow</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Torrential rain, driving hail, or blizzard</td>
-    </tr>
-  </tbody>
-</table>
+#### 联络异界（Contact Other Plane）
 
-**Temperature**
+*5 环预言法术（邪术师、法师）*
 
-<table>
-  <thead>
-    <tr>
-      <th>Stage</th>
-      <th>Condition</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Heat wave</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Hot</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Warm</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Cool</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Cold</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>Freezing</td>
-    </tr>
-  </tbody>
-</table>
+**施法时间：** 1 分钟或仪式  
+**射程：** 自身  
+**成分：** V  
+**持续时间：** 1 分钟
 
-**Wind**
+你在心灵中联络一位半神、一名早已死去的贤者之灵，或者另一个来自其他位面、知识渊博的实体。与这种异界智慧接触可能使你的心智崩溃。
 
-<table>
-  <thead>
-    <tr>
-      <th>Stage</th>
-      <th>Condition</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Calm</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Moderate wind</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Strong wind</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Gale</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Storm</td>
-    </tr>
-  </tbody>
-</table>
+当你施放该法术时，进行一次 DC 15 的智力豁免。成功时，你可以向该实体提出至多五个问题。你必须在法术结束前问完这些问题。
 
-#### Counterspell
+GM 会以一个词回答每个问题，例如“是”“否”“也许”“永远不会”“无关”或“不清楚”（如果实体不知道答案）。如果一个词可能造成误导，GM 可以改为给出一个简短短语作为回答。
 
-_Level 3 Abjuration (Sorcerer, Warlock, Wizard)_
+豁免失败时，你受到 6d6 心灵伤害，并陷入失能状态，直到完成一次长休。对你施放*高等复原术*可以结束该效果。
 
-**Casting Time:** Reaction, which you take when you see a creature within 60 feet of yourself casting a spell with Verbal, Somatic, or Material components
-**Range:** 60 feet
-**Components:** S
-**Duration:** Instantaneous
+#### 疫病术（Contagion）
 
-You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.
+*5 环死灵法术（牧师、德鲁伊）*
 
-#### Create Food and Water
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 7 天
 
-_Level 3 Conjuration (Cleric, Paladin)_
+你的触碰会施加一种魔法疫病。目标必须成功通过一次体质豁免，否则受到 11d8 黯蚀伤害，并陷入中毒状态。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** Instantaneous
+此外，施放法术时选择一种属性。在目标处于中毒状态期间，它使用所选属性进行豁免检定时具有劣势。
 
-You create 45 pounds of food and 30 gallons of fresh water on the ground or in containers within range—both useful in fending off the hazards of malnutrition and dehydration. The food is bland but nourishing and looks like a food of your choice, and the water is clean. The food spoils after 24 hours if uneaten.
+目标必须在自己的每个回合结束时重复该豁免，直到累计得到三次成功或三次失败。如果目标累计成功三次，法术对其结束。如果目标累计失败三次，该法术会在其身上持续 7 天。
 
-#### Create or Destroy Water
+每当中毒的目标受到一个本应结束中毒状态的效果时，目标必须成功通过一次体质豁免，否则其身上的中毒状态不会结束。
 
-_Level 1 Transmutation (Cleric, Druid)_
+#### 偶发术（Contingency）
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S, M (a mix of water and sand)
-**Duration:** Instantaneous
+*6 环防护法术（法师）*
 
-You do one of the following:
+**施法时间：** 10 分钟  
+**射程：** 自身  
+**成分：** V、S、M（一尊镶嵌宝石、价值至少 1,500 GP 的你自己的小雕像）  
+**持续时间：** 10 天
 
-**Create Water.** You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot Cube within range, extinguishing exposed flames there.
+选择一个你能够施放、环阶不高于 5 环、施法时间为一个动作，并且可以指定你为目标的法术。在施放*偶发术*的过程中，你同时施放该法术——称为“预备法术（contingent spell）”——并同时消耗两个法术所需的法术位，但预备法术此时不会立即生效。
 
-**Destroy Water.** You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot Cube within range.
+相反，当某个特定触发条件发生时，它才会生效。你在施放这两个法术时描述该触发条件。
 
-_Using a Higher-Level Spell Slot._ You create or destroy 10 additional gallons of water, or the size of the Cube increases by 5 feet, for each spell slot level above 1.
+例如，与*水下呼吸（Water Breathing）*搭配的*偶发术*可以规定：当你被水或类似液体完全淹没时，*水下呼吸*立即生效。
 
-#### Create Undead
+触发条件第一次发生后，预备法术会立即生效，不论你是否愿意；随后*偶发术*结束。
 
-_Level 6 Necromancy (Cleric, Warlock, Wizard)_
+预备法术只会作用于你，即使它通常可以指定其他目标。
 
-**Casting Time:** 1 minute
-**Range:** 10 feet
-**Components:** V, S, M (one 150+ GP black onyx stone for each corpse)
-**Duration:** Instantaneous
+同一时间，你只能受一个*偶发术*影响。如果你再次施放该法术，你身上先前的*偶发术*效果结束。
 
-You can cast this spell only at night. Choose up to three corpses of Medium or Small Humanoids within range. Each one becomes a **Ghoul** under your control (see "Monsters" for its stat block).
+此外，如果你身上不再携带该法术的材料成分，*偶发术*也会结束。
 
-As a Bonus Action on each of your turns, you can mentally command any creature you animated with this spell if the creature is within 120 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to them). You decide what action the creature will take and where it will move on its next turn, or you can issue a general command, such as to guard a particular place. If you issue no commands, the creature takes the Dodge action and moves only to avoid harm. Once given an order, the creature continues to follow the order until its task is complete.
+#### 不灭明焰（Continual Flame）
 
-The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature before the current 24-hour period ends. This use of the spell reasserts your control over up to three creatures you have animated with this spell rather than animating new ones.
+*2 环塑能法术（牧师、德鲁伊、法师）*
 
-_Using a Higher-Level Spell Slot._ If you use a level 7 spell slot, you can animate or reassert control over four **Ghouls**. If you use a level 8 spell slot, you can animate or reassert control over five **Ghouls** or two **Ghasts** or **Wights**. If you use a level 9 spell slot, you can animate or reassert control over six **Ghouls**, three **Ghasts** or **Wights**, or two **Mummies**. See "Monsters" for these stat blocks.
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 50 GP 的红宝石粉末，法术会将其消耗）  
+**持续时间：** 直到被解除
 
-#### Creation
+一团火焰从你触碰的物体上升起。该效果在半径 20 尺内产生明亮光照，并在额外 20 尺内产生微光。
 
-_Level 5 Illusion (Sorcerer, Wizard)_
+它看起来像普通火焰，却不会产生热量，也不会消耗燃料。
 
-**Casting Time:** 1 minute
-**Range:** 30 feet
-**Components:** V, S, M (a paintbrush)
-**Duration:** Special
+火焰可以被遮盖或隐藏，但无法被闷灭或熄灭。
 
-You pull wisps of shadow material from the Shadowfell to create an object within range. It is either an object of vegetable matter (soft goods, rope, wood, and the like) or mineral matter (stone, crystal, metal, and the like). The object must be no larger than a 5-foot Cube, and the object must be of a form and material that you have seen.
+#### 操控水体（Control Water）
 
-The spell's duration depends on the object's material, as shown in the Materials table. If the object is composed of multiple materials, use the shortest duration. Using any object created by this spell as another spell's Material component causes the other spell to fail.
+*4 环变化法术（牧师、德鲁伊、法师）*
 
-**Materials**
+**施法时间：** 动作  
+**射程：** 300 尺  
+**成分：** V、S、M（水和尘土的混合物）  
+**持续时间：** 专注，至多 10 分钟
 
-<table>
-  <thead>
-    <tr>
-      <th>Material</th>
-      <th>Duration</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Vegetable matter</td>
-      <td>24 hours</td>
-    </tr>
-    <tr>
-      <td>Stone or crystal</td>
-      <td>12 hours</td>
-    </tr>
-    <tr>
-      <td>Precious metals</td>
-      <td>1 hour</td>
-    </tr>
-    <tr>
-      <td>Gems</td>
-      <td>10 minutes</td>
-    </tr>
-    <tr>
-      <td>Adamantine or mithral</td>
-      <td>1 minute</td>
-    </tr>
-  </tbody>
-</table>
+直到法术结束，你可以控制你所选择区域内的水体；该区域是边长至多 100 尺的立方区域。选择以下一种效果。
 
-_Using a Higher-Level Spell Slot._ The Cube increases by 5 feet for each spell slot level above 5.
+在之后的回合中，你可以执行魔法动作，重复当前效果或选择另一个效果。
 
-#### Cure Wounds
+*洪水（Flood）。* 你使区域内所有静止水体的水位上升至多 20 尺。如果你选择的是大型水体的一部分，则改为创造一道高 20 尺的波浪，从区域一侧移动到另一侧并撞击下去。
 
-_Level 1 Abjuration (Bard, Cleric, Druid, Paladin, Ranger)_
+波浪路径中的所有巨型或更小载具都会被带到区域另一侧。任何被波浪击中的巨型或更小载具都有 25% 的几率倾覆。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S
-**Duration:** Instantaneous
+水位会保持升高，直到法术结束或你选择不同效果。如果该效果产生了波浪，只要洪水效果仍在持续，波浪就会在你的下一回合开始时再次出现。
 
-A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.
+*分水（Part Water）。* 你将区域内的水分开并形成一道沟渠。沟渠横贯法术区域，而分开的水则在两侧形成水墙。
 
-_Using a Higher-Level Spell Slot._ The healing increases by 2d8 for each spell slot level above 1.
+沟渠持续至法术结束或你选择其他效果。之后，在下一轮时间内，水会缓慢填回沟渠，直到恢复正常水位。
 
-#### Dancing Lights
+*改变水流（Redirect Flow）。* 你令区域内正在流动的水朝你选择的方向移动，即使这意味着水必须越过障碍物、向上流过墙壁，或者沿其他不寻常方向流动。
 
-_Illusion Cantrip (Bard, Sorcerer, Wizard)_
+区域中的水会按你指定方式移动；一旦流出法术区域，水便会按照地形恢复正常流动。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S, M (a bit of phosphorus)
-**Duration:** Concentration, up to 1 minute
-You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10-foot radius.
+水会继续沿你选择的方向移动，直到法术结束或你选择不同效果。
 
-As a Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of another light created by this spell, and a light vanishes if it exceeds the spell's range.
+*漩涡（Whirlpool）。* 你在区域中心创造一个漩涡。该区域必须至少为 50 尺见方且深 25 尺。
 
-#### Darkness
+漩涡持续到你选择其他效果或法术结束。漩涡底部宽 5 尺，顶部至多宽 50 尺，高 25 尺。
 
-_Level 2 Evocation (Sorcerer, Warlock, Wizard)_
+水中距离漩涡 25 尺内的任何生物都会被向漩涡方向拉近 10 尺。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, M (bat fur and a piece of coal)
-**Duration:** Concentration, up to 10 minutes
+当一个生物在一个回合中第一次进入漩涡，或在其中结束回合时，它必须进行一次力量豁免。豁免失败受到 2d8 钝击伤害，成功则受到一半伤害。
 
-For the duration, magical Darkness spreads from a point within range and fills a 15-foot-radius Sphere. Darkvision can't see through it, and nonmagical light can't illuminate it.
+一个生物若想游离漩涡，必须先执行动作奋力挣脱，并成功通过一次针对你的法术豁免 DC 的力量（运动）检定。
 
-Alternatively, you cast the spell on an object that isn't being worn or carried, causing the Darkness to fill a 15-foot Emanation originating from that object. Covering that object with something opaque, such as a bowl or helm, blocks the Darkness.
+#### 操控天气（Control Weather）
 
-If any of this spell's area overlaps with an area of Bright Light or Dim Light created by a spell of level 2 or lower, that other spell is dispelled.
+*8 环变化法术（牧师、德鲁伊、法师）*
 
-#### Darkvision
+**施法时间：** 10 分钟  
+**射程：** 自身  
+**成分：** V、S、M（燃烧的熏香）  
+**持续时间：** 专注，至多 8 小时
 
-_Level 2 Transmutation (Druid, Ranger, Sorcerer, Wizard)_
+持续时间内，你控制自己周围 5 里范围内的天气。你必须在户外才能施放该法术；如果你进入室内，法术提前结束。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a dried carrot)
-**Duration:** 8 hours
+当你施放法术时，你改变当前天气状况，而当前天气由 GM 决定。你可以改变降水、温度和风。
 
-For the duration, a willing creature you touch has Darkvision with a range of 150 feet.
+新天气状况需要 1d4 × 10 分钟才能完全生效。生效后，你可以再次改变天气。当法术结束时，天气会逐渐恢复正常。
 
-#### Daylight
+改变天气时，在以下表格中找出当前状况，然后将其阶段向上或向下改变一级。改变风时，你还可以改变其方向。
 
-_Level 3 Evocation (Cleric, Druid, Paladin, Ranger, Sorcerer)_
+**降水（Precipitation）**
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** 1 hour
+| 阶段 | 状况 |
+|---:|---|
+| 1 | 晴朗 |
+| 2 | 少云 |
+| 3 | 阴天或地面雾气 |
+| 4 | 雨、冰雹或雪 |
+| 5 | 暴雨、猛烈冰雹或暴风雪 |
 
-For the duration, sunlight spreads from a point within range and fills a 60-foot-radius Sphere. The sunlight's area is Bright Light and sheds Dim Light for an additional 60 feet.
+**温度（Temperature）**
 
-Alternatively, you cast the spell on an object that isn't being worn or carried, causing the sunlight to fill a 60-foot Emanation originating from that object. Covering that object with something opaque, such as a bowl or helm, blocks the sunlight.
+| 阶段 | 状况 |
+|---:|---|
+| 1 | 热浪 |
+| 2 | 炎热 |
+| 3 | 温暖 |
+| 4 | 凉爽 |
+| 5 | 寒冷 |
+| 6 | 冰冻 |
 
-If any of this spell's area overlaps with an area of Darkness created by a spell of level 3 or lower, that other spell is dispelled.
+**风（Wind）**
 
-#### Death Ward
+| 阶段 | 状况 |
+|---:|---|
+| 1 | 无风 |
+| 2 | 中等风力 |
+| 3 | 强风 |
+| 4 | 烈风 |
+| 5 | 风暴 |
 
-_Level 4 Abjuration (Cleric, Paladin)_
+#### 法术反制（Counterspell）
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S
-**Duration:** 8 hours
+*3 环防护法术（术士、邪术师、法师）*
 
-You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 Hit Points before the spell ends, the target instead drops to 1 Hit Point, and the spell ends.
+**施法时间：** 反应；当你看见自身 60 尺内一个生物正在施放具有言语、姿势或材料成分的法术时使用  
+**射程：** 60 尺  
+**成分：** S  
+**持续时间：** 立即
 
-If the spell is still in effect when the target is subjected to an effect that would kill it instantly without dealing damage, that effect is negated against the target, and the spell ends.
+你尝试打断一个生物正在施放的法术。该生物进行一次体质豁免。
 
-#### Delayed Blast Fireball
+豁免失败时，该法术消散而不产生效果；用于施放该法术的动作、附赠动作或反应也被浪费。如果该法术使用法术位施放，则该法术位不会被消耗。
 
-_Level 7 Evocation (Sorcerer, Wizard)_
+#### 创造食粮（Create Food and Water）
 
-**Casting Time:** Action
-**Range:** 150 feet
-**Components:** V, S, M (a ball of bat guano and sulfur)
-**Duration:** Concentration, up to 1 minute
+*3 环咒法法术（牧师、圣武士）*
 
-A beam of yellow light flashes from you, then condenses at a chosen point within range as a glowing bead for the duration. When the spell ends, the bead explodes, and each creature in a 20-foot-radius Sphere centered on that point makes a Dexterity saving throw. A creature takes Fire damage equal to the total accumulated damage on a failed save or half as much damage on a successful one.
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-The spell's base damage is 12d6, and the damage increases by 1d6 whenever your turn ends and the spell hasn't ended.
+你在射程内的地面上或容器中创造 45 磅食物和 30 加仑淡水；两者都足以帮助抵御营养不良和脱水带来的危险。
 
-If a creature touches the glowing bead before the spell ends, that creature makes a Dexterity saving throw. On a failed save, the spell ends, causing the bead to explode. On a successful save, the creature can throw the bead up to 40 feet. If the thrown bead enters a creature's space or collides with a solid object, the spell ends, and the bead explodes.
+食物味道平淡但营养充足，并呈现为你选择的一种食物；水则十分洁净。
 
-When the bead explodes, flammable objects in the explosion that aren't being worn or carried start burning.
+如果食物没有被食用，会在 24 小时后腐坏。
 
-_Using a Higher-Level Spell Slot._ The base damage increases by 1d6 for each spell slot level above 7.
+#### 造水/枯水术（Create or Destroy Water）
 
-#### Demiplane
+*1 环变化法术（牧师、德鲁伊）*
 
-_Level 8 Conjuration (Sorcerer, Warlock, Wizard)_
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（水与沙子的混合物）  
+**持续时间：** 立即
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** S
-**Duration:** 1 hour
-You create a shadowy Medium door on a flat solid surface that you can see within range. This door can be opened and closed, and it leads to a demiplane that is an empty room 30 feet in each dimension, made of wood or stone (your choice).
+你产生以下一种效果：
 
-When the spell ends, the door vanishes, and any objects inside the demiplane remain there. Any creatures inside also remain unless they opt to be shunted through the door as it vanishes, landing with the Prone condition in the unoccupied spaces closest to the door's former space.
+**造水（Create Water）。** 你在射程内一个开放容器中创造至多 10 加仑洁净水。或者，你让水以雨的形式降落在射程内一个 30 尺立方区域中，并熄灭其中暴露在外的火焰。
 
-Each time you cast this spell, you can create a new demiplane or connect the shadowy door to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can connect the shadowy door to that demiplane instead.
+**枯水（Destroy Water）。** 你摧毁射程内一个开放容器中的至多 10 加仑水。或者，你清除射程内一个 30 尺立方区域中的雾气。
 
-#### Detect Evil and Good
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，可以额外创造或摧毁 10 加仑水，或者让立方区域边长增加 5 尺。
 
-_Level 1 Divination (Cleric, Paladin)_
+#### 创造不死生物（Create Undead）
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+*6 环死灵法术（牧师、邪术师、法师）*
 
-For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the _Hallow_ spell is active there and, if so, where.
+**施法时间：** 1 分钟  
+**射程：** 10 尺  
+**成分：** V、S、M（每具尸体一颗价值至少 150 GP 的黑玛瑙）  
+**持续时间：** 立即
 
-The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.
+你只能在夜间施放该法术。选择射程内至多三具中型或小型类人生物尸体。每具尸体都会变成一只受你控制的**食尸鬼（Ghoul）**（数据见“怪物”）。
 
-#### Detect Magic
+在你的每个回合中，如果一个由该法术活化的生物位于你 120 尺内，你可以使用附赠动作在心灵中命令它。如果你控制多个生物，可以同时命令其中任意数量，但必须向它们发出相同命令。
 
-_Level 1 Divination (Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard)_
+你决定该生物在下一回合采取什么动作以及移动到哪里；你也可以发出一般性命令，例如守卫某个地点。如果你没有下达命令，该生物执行闪避动作，并且只会为了避免伤害而移动。
 
-**Casting Time:** Action or Ritual
-**Range:** Self
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+一旦收到命令，该生物会一直执行，直到任务完成。
 
-For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the Magic action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell's school of magic.
+该生物受你控制 24 小时，之后便不再服从你给予的任何命令。要继续控制它 24 小时，你必须在当前 24 小时结束前再次对其施放该法术。
 
-The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.
+如此使用该法术时，你可以重新控制至多三个此前由该法术活化的生物，而不是创造新的生物。
 
-#### Detect Poison and Disease
+*使用更高环阶法术位。* 如果使用 7 环法术位，你可以活化或重新控制四只**食尸鬼**。如果使用 8 环法术位，你可以活化或重新控制五只**食尸鬼**，或者两只**妖鬼（Ghast）**或**尸妖（Wight）**。如果使用 9 环法术位，你可以活化或重新控制六只**食尸鬼**、三只**妖鬼**或**尸妖**，或者两只**木乃伊（Mummy）**。这些数据见“怪物”。
 
-_Level 1 Divination (Cleric, Druid, Paladin, Ranger)_
+#### 创造术（Creation）
 
-**Casting Time:** Action or Ritual
-**Range:** Self
-**Components:** V, S, M (a yew leaf)
-**Duration:** Concentration, up to 10 minutes
+*5 环幻术法术（术士、法师）*
 
-For the duration, you sense the location of poisons, poisonous or venomous creatures, and magical contagions within 30 feet of yourself. You sense the kind of poison, creature, or contagion in each case.
+**施法时间：** 1 分钟  
+**射程：** 30 尺  
+**成分：** V、S、M（一支画笔）  
+**持续时间：** 特殊
 
-The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.
+你从堕影冥界（Shadowfell）汲取丝缕般的暗影物质，并在射程内创造一个物体。
 
-#### Detect Thoughts
+该物体可以由植物性材料构成——例如布料、绳索、木材等——也可以由矿物材料构成——例如石头、水晶、金属等。
 
-_Level 2 Divination (Bard, Sorcerer, Wizard)_
+该物体不得大于一个 5 尺立方区域，并且必须具有一种你曾经见过的形状和材质。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (1 Copper Piece)
-**Duration:** Concentration, up to 1 minute
+法术持续时间取决于物体材料，如“材料”表所示。如果物体由多种材料构成，则采用持续时间最短的材料。
 
-You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic action on your later turns.
+如果将该法术创造的物体用作另一法术的材料成分，则另一法术会失败。
 
-_Sense Thoughts._ You sense the presence of thoughts within 30 feet of yourself that belong to creatures that know languages or are telepathic. You don't read the thoughts, but you know that a thinking creature is present.
+**材料（Materials）**
 
-The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.
+| 材料 | 持续时间 |
+|---|---|
+| 植物性材料 | 24 小时 |
+| 石头或水晶 | 12 小时 |
+| 贵金属 | 1 小时 |
+| 宝石 | 10 分钟 |
+| 精金或秘银 | 1 分钟 |
 
-_Read Thoughts._ Target one creature you can see within 30 feet of yourself or one creature within 30 feet of yourself that you detected with the Sense Thoughts option. You learn what is most on the target's mind right now. If the target doesn't know any languages and isn't telepathic, you learn nothing.
+*使用更高环阶法术位。* 你每使用高于 5 环一环的法术位，立方区域的边长增加 5 尺。
 
-As a Magic action on your next turn, you can try to probe deeper into the target's mind. If you probe deeper, the target makes a Wisdom saving throw. On a failed save, you discern the target's reasoning, emotions, and something that looms large in its mind (such as a worry, love, or hate). On a successful save, the spell ends. Either way, the target knows that you are probing into its mind, and until you shift your attention away from the target's mind, the target can take an action on its turn to make an Intelligence (Arcana) check against your spell save DC, ending the spell on a success.
+#### 疗伤术（Cure Wounds）
 
-#### Dimension Door
+*1 环防护法术（吟游诗人、牧师、德鲁伊、圣武士、游侠）*
 
-_Level 4 Conjuration (Bard, Sorcerer, Warlock, Wizard)_
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 立即
 
-**Casting Time:** Action
-**Range:** 500 feet
-**Components:** V
-**Duration:** Instantaneous
+你触碰的一个生物恢复等于 2d8 + 你的施法属性调整值的生命值。
 
-You teleport to a location within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as "200 feet straight downward" or "300 feet upward to the northwest at a 45-degree angle."
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，治疗量增加 2d8。
 
-You can also teleport one willing creature. The creature must be within 5 feet of you when you teleport, and it teleports to a space within 5 feet of your destination space.
-If you, the other creature, or both would arrive in a space occupied by a creature or completely filled by one or more objects, you and any creature traveling with you each take 4d6 Force damage, and the teleportation fails.
+#### 舞光术（Dancing Lights）
 
-#### Disguise Self
+*幻术戏法（吟游诗人、术士、法师）*
 
-_Level 1 Illusion (Bard, Sorcerer, Wizard)_
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S、M（一小块磷）  
+**持续时间：** 专注，至多 1 分钟
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** 1 hour
+你在射程内创造至多四个火把大小的光源，并令它们呈现为火把、提灯或悬浮的发光球体，持续至法术结束。
 
-You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the illusion is up to you.
+或者，你可以将四个光源组合成一个模糊类人形状的中型发光体。
 
-The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing.
+无论选择哪种形态，每个光源都会在半径 10 尺内产生微光。
 
-To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an Intelligence (Investigation) check against your spell save DC.
+作为附赠动作，你可以将这些光源移动至多 60 尺，到达射程内的空间。每个光源必须位于由该法术创造的另一个光源 20 尺内；如果一个光源超出法术射程，它会消失。
 
-#### Disintegrate
+#### 黑暗术（Darkness）
 
-_Level 6 Transmutation (Sorcerer, Wizard)_
+*2 环塑能法术（术士、邪术师、法师）*
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a lodestone and dust)
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、M（蝙蝠毛和一块煤）  
+**持续时间：** 专注，至多 10 分钟
 
-You launch a green ray at a target you can see within range. The target can be a creature, a nonmagical object, or a creation of magical force, such as the wall created by _Wall of Force_.
+持续时间内，魔法黑暗从射程内一点向外蔓延，填满半径 15 尺的球状区域。
 
-A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes 10d6 + 40 Force damage. If this damage reduces it to 0 Hit Points, it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a _True Resurrection_ or a _Wish_ spell.
+黑暗视觉无法看穿该区域，非魔法光源也无法照亮它。
 
-This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If such a target is Huge or larger, this spell disintegrates a 10-foot-Cube portion of it.
+或者，你可以将该法术施放在一件未被穿戴或携带的物体上，使黑暗从该物体向外形成 15 尺发散区域。用不透明物体——例如碗或头盔——完全遮住该物体，可以阻挡黑暗。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 3d6 for each spell slot level above 6.
+如果该法术区域与由 2 环或更低环阶法术创造的明亮光照或微光区域重叠，创造那些光照的法术会被解除。
 
-#### Dispel Evil and Good
+#### 黑暗视觉（Darkvision）
 
-_Level 5 Abjuration (Cleric, Paladin)_
+*2 环变化法术（德鲁伊、游侠、术士、法师）*
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (powdered silver and iron)
-**Duration:** Concentration, up to 1 minute
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一根晒干的胡萝卜）  
+**持续时间：** 8 小时
 
-For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions.
+持续时间内，你触碰的一个自愿生物获得范围 150 尺的黑暗视觉。
 
-_Break Enchantment._ As a Magic action, you touch a creature that is possessed by or has the Charmed or Frightened condition from one or more creatures of the types above. The target is no longer possessed, Charmed, or Frightened by such creatures.
+#### 昼明术（Daylight）
 
-_Dismissal._ As a Magic action, you target one creature you can see within 5 feet of you that has one of the creature types above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn't there already. If they aren't on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the Feywild.
+*3 环塑能法术（牧师、德鲁伊、圣武士、游侠、术士）*
 
-#### Dispel Magic
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 1 小时
 
-_Level 3 Abjuration (Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard)_
+持续时间内，日光从射程内一点向外扩散，填满半径 60 尺的球状区域。日光区域属于明亮光照，并在额外 60 尺内产生微光。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Instantaneous
+或者，你可以将法术施放在一件未被穿戴或携带的物体上，使日光从该物体向外形成 60 尺发散区域。用不透明物体——例如碗或头盔——完全遮住该物体，可以阻挡日光。
 
-Choose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level 4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell's level). On a successful check, the spell ends.
+如果该法术区域与由 3 环或更低环阶法术创造的黑暗区域重叠，创造黑暗的法术会被解除。
 
-_Using a Higher-Level Spell Slot._ You automatically end a spell on the target if the spell's level is equal to or less than the level of the spell slot you use.
+#### 防死结界（Death Ward）
 
-#### Dissonant Whispers
+*4 环防护法术（牧师、圣武士）*
 
-_Level 1 Enchantment (Bard)_
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 8 小时
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V
-**Duration:** Instantaneous
+你触碰一个生物，并赋予它一定程度的死亡防护。
 
-One creature of your choice that you can see within range hears a discordant melody in its mind. The target makes a Wisdom saving throw. On a failed save, it takes 3d6 Psychic damage and must immediately use its Reaction, if available, to move as far away from you as it can, using the safest route. On a successful save, the target takes half as much damage only.
+在法术结束前，目标第一次本应降至 0 生命值时，改为降至 1 生命值，并且法术结束。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d6 for each spell slot level above 1.
+如果法术仍然有效，而目标受到一个无需造成伤害便会直接杀死它的效果，则该效果对目标无效，并且法术结束。
 
-#### Divination
+#### 延迟爆裂火球（Delayed Blast Fireball）
 
-_Level 4 Divination (Cleric, Druid, Wizard)_
+*7 环塑能法术（术士、法师）*
 
-**Casting Time:** Action or Ritual
-**Range:** Self
-**Components:** V, S, M (incense worth 25+ GP, which the spell consumes)
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 150 尺  
+**成分：** V、S、M（一团蝙蝠粪和硫磺）  
+**持续时间：** 专注，至多 1 分钟
 
-This spell puts you in contact with a god or a god's servants. You ask one question about a specific goal, event, or activity to occur within 7 days. The GM offers a truthful reply, which might be a short phrase or cryptic rhyme. The spell doesn't account for circumstances that might change the answer, such as the casting of other spells.
+一道黄色光束从你身上闪过，随后在射程内你选择的一点凝聚成一颗发光珠子，并持续至法术结束。
 
-If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.
+当法术结束时，珠子爆炸。以该点为中心半径 20 尺的球状区域内，每个生物进行一次敏捷豁免。豁免失败时，生物受到等于法术当前累计伤害的火焰伤害；成功则受到一半伤害。
 
-#### Divine Favor
+该法术的基础伤害为 12d6。每当你的回合结束，而法术尚未结束时，伤害增加 1d6。
 
-_Level 1 Transmutation (Paladin)_
+如果一个生物在法术结束前触碰发光珠子，它必须进行一次敏捷豁免。豁免失败时，法术立即结束并使珠子爆炸。豁免成功时，该生物可以将珠子投掷至多 40 尺。
 
-**Casting Time:** Bonus Action
-**Range:** Self
-**Components:** V, S
-**Duration:** 1 minute
+如果被投出的珠子进入一个生物的空间，或者撞上实体物体，法术立即结束，珠子爆炸。
 
-Until the spell ends, your attacks with weapons deal an extra 1d4 Radiant damage on a hit.
+珠子爆炸时，爆炸范围内未被穿戴或携带的易燃物体开始燃烧。
 
-#### Divine Smite
+*使用更高环阶法术位。* 你每使用高于 7 环一环的法术位，基础伤害增加 1d6。
 
-_Level 1 Evocation (Paladin)_
+#### 半位面（Demiplane）
 
-**Casting Time:** Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike
-**Range:** Self
-**Component:** V
-**Duration:** Instantaneous
+*8 环咒法法术（术士、邪术师、法师）*
 
-The target takes an extra 2d8 Radiant damage from the attack. The damage increases by 1d8 if the target is a Fiend or an Undead.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** S  
+**持续时间：** 1 小时
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 1.
+你在射程内一个你能看见的平坦实体表面上创造一扇阴影构成的中型门。
 
-#### Divine Word
+这扇门可以打开和关闭，并通向一个半位面；其中是一间长、宽、高各 30 尺的空房间，由木材或石头构成，由你选择。
 
-_Level 7 Evocation (Cleric)_
+法术结束时，门会消失，而半位面内的物体会留在那里。其中的生物也会留下，除非它们选择在门消失的瞬间被排出；这样做时，它们会出现在原门所在位置附近最近的未占据空间，并陷入倒地状态。
 
-**Casting Time:** Bonus Action
-**Range:** 30 feet
-**Components:** V
-**Duration:** Instantaneous
+每次施放该法术时，你可以创造一个新的半位面，或者将阴影之门连接到你之前通过该法术创造的某个半位面。
 
-You utter a word imbued with power from the Upper Planes. Each creature of your choice in range makes a Charisma saving throw. On a failed save, a target that has 50 Hit Points or fewer suffers an effect based on its current Hit Points, as shown in the Divine Word Effects table. Regardless of its Hit Points, a Celestial, an Elemental, a Fey, or a Fiend target that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to the current plane for 24 hours by any means short of a _Wish_ spell.
+此外，如果你知道另一生物通过该法术创造的某个半位面的性质与内部情况，你也可以让阴影之门改为连接到那个半位面。
 
-**Divine Word Effects**
+#### 侦测善恶（Detect Evil and Good）
 
-<table>
-  <thead>
-    <tr>
-      <th>Hit Points</th>
-      <th>Effect</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0–20</td>
-      <td>The target dies.</td>
-    </tr>
-    <tr>
-      <td>21–30</td>
-      <td>The target has the Blinded, Deafened, and Stunned conditions for 1 hour.</td>
-    </tr>
-    <tr>
-      <td>31–40</td>
-      <td>The target has the Blinded and Deafened conditions for 10 minutes.</td>
-    </tr>
-    <tr>
-      <td>41–50</td>
-      <td>The target has the Deafened condition for 1 minute.</td>
-    </tr>
-  </tbody>
-</table>
+*1 环预言法术（牧师、圣武士）*
 
-#### Dominate Beast
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-_Level 4 Enchantment (Druid, Ranger, Sorcerer)_
+持续时间内，你可以感知自己 30 尺内任何异怪、天界生物、元素、妖精、邪魔或不死生物的位置。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+你也能感知该范围内是否存在生效中的*圣居（Hallow）*法术；如果存在，你会知道其所在位置。
 
-One Beast you can see within range must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target has Advantage on the save if you or your allies are fighting it. Whenever the target takes damage, it repeats the save, ending the spell on itself on a success.
+1 尺厚的石头、泥土或木材，1 英寸厚的金属，或者一层薄铅板都可以阻挡该法术。
 
-You have a telepathic link with the Charmed target while the two of you are on the same plane of existence. On your turn, you can use this link to issue commands to the target (no action required), such as "Attack that creature," "Move over there," or "Fetch that object." The target does its best to obey on its turn. If it completes an order and doesn't receive further direction from you, it acts and moves as it likes, focusing on protecting itself.
+#### 侦测魔法（Detect Magic）
 
-You can command the target to take a Reaction but must take your own Reaction to do so.
+*1 环预言法术（吟游诗人、牧师、德鲁伊、圣武士、游侠、术士、邪术师、法师）*
 
-_Using a Higher-Level Spell Slot._ Your Concentration can last longer with a spell slot of level 5 (up to 10 minutes), 6 (up to 1 hour), or 7+ (up to 8 hours).
+**施法时间：** 动作或仪式  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-#### Dominate Monster
+持续时间内，你可以感知自己 30 尺内魔法效果的存在。
 
-_Level 8 Enchantment (Bard, Sorcerer, Warlock, Wizard)_
+如果你感知到这样的效果，你可以执行魔法动作，看见区域内任何承载魔法的可见生物或物体周围浮现微弱灵光；如果该效果由法术创造，你还会得知该法术所属的魔法学派。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 hour
+1 尺厚的石头、泥土或木材，1 英寸厚的金属，或者一层薄铅板都可以阻挡该法术。
 
-One creature you can see within range must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target has Advantage on the save if you or your allies are fighting it. Whenever the target takes damage, it repeats the save, ending the spell on itself on a success.
-You have a telepathic link with the Charmed target while the two of you are on the same plane of existence. On your turn, you can use this link to issue commands to the target (no action required), such as "Attack that creature," "Move over there," or "Fetch that object." The target does its best to obey on its turn. If it completes an order and doesn't receive further direction from you, it acts and moves as it likes, focusing on protecting itself.
+#### 侦测毒性与疾病（Detect Poison and Disease）
 
-You can command the target to take a Reaction but must take your own Reaction to do so.
+*1 环预言法术（牧师、德鲁伊、圣武士、游侠）*
 
-_Using a Higher-Level Spell Slot._ Your Concentration can last longer with a level 9 spell slot (up to 8 hours).
+**施法时间：** 动作或仪式  
+**射程：** 自身  
+**成分：** V、S、M（一片紫杉叶）  
+**持续时间：** 专注，至多 10 分钟
 
-#### Dominate Person
+持续时间内，你可以感知自己 30 尺内毒物、有毒或带毒液的生物，以及魔法疫病的位置。
 
-_Level 5 Enchantment (Bard, Sorcerer, Wizard)_
+你还会得知每一种情况下毒物、生物或疫病的种类。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+1 尺厚的石头、泥土或木材，1 英寸厚的金属，或者一层薄铅板都可以阻挡该法术。
 
-One Humanoid you can see within range must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target has Advantage on the save if you or your allies are fighting it. Whenever the target takes damage, it repeats the save, ending the spell on itself on a success.
+#### 侦测思想（Detect Thoughts）
 
-You have a telepathic link with the Charmed target while the two of you are on the same plane of existence. On your turn, you can use this link to issue commands to the target (no action required), such as "Attack that creature," "Move over there," or "Fetch that object." The target does its best to obey on its turn. If it completes an order and doesn't receive further direction from you, it acts and moves as it likes, focusing on protecting itself.
+*2 环预言法术（吟游诗人、术士、法师）*
 
-You can command the target to take a Reaction but must take your own Reaction to do so.
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（1 枚铜币）  
+**持续时间：** 专注，至多 1 分钟
 
-_Using a Higher-Level Spell Slot._ Your Concentration can last longer with a spell slot of level 6 (up to 10 minutes), 7 (up to 1 hour), or 8+ (up to 8 hours).
+你启用以下一种效果。在法术结束前，你可以在之后的回合中执行魔法动作，启用其中任意一种效果。
 
-#### Dragon's Breath
+*感知思想（Sense Thoughts）。* 你感知自己 30 尺内属于会使用语言或具有心灵感应能力的生物的思想存在。你不会读取这些思想，但会知道附近存在一个正在思考的生物。
 
-_Level 2 Transmutation (Sorcerer, Wizard)_
+1 尺厚的石头、泥土或木材，1 英寸厚的金属，或者一层薄铅板都可以阻挡该法术。
 
-**Casting Time:** Bonus Action
-**Range:** Touch
-**Components:** V, S, M (a hot pepper)
-**Duration:** Concentration, up to 1 minute
+*读取思想（Read Thoughts）。* 指定一个你在自己 30 尺内能看见的生物，或者一个位于你 30 尺内、且已通过“感知思想”选项被你侦测到的生物。
 
-You touch one willing creature, and choose Acid, Cold, Fire, Lightning, or Poison. Until the spell ends, the target can take a Magic action to exhale a 15-foot Cone. Each creature in that area makes a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save or half as much damage on a successful one.
+你会得知目标此刻最主要的念头。如果目标不会任何语言，也不具备心灵感应能力，则你无法得知任何信息。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d6 for each spell slot level above 2.
+在你的下一回合，你可以执行魔法动作，尝试进一步深入目标的心智。如果你这么做，目标必须进行一次感知豁免。
 
-#### Dream
+豁免失败时，你可以分辨目标的思维逻辑、情绪，以及一个当前在其心中占据重要位置的事物，例如忧虑、爱或仇恨。
 
-_Level 5 Illusion (Bard, Warlock, Wizard)_
+豁免成功时，法术结束。
 
-**Casting Time:** 1 minute
-**Range:** Special
-**Components:** V, S, M (a handful of sand)
-**Duration:** 8 hours
+无论成功或失败，目标都知道你正在窥探其心智；只要你仍将注意力集中在其思想上，目标便可以在自己的回合中执行动作，针对你的法术豁免 DC 进行一次智力（奥秘）检定，成功时结束该法术。
 
-You target a creature you know on the same plane of existence. You or a willing creature you touch enters a trance state to act as a dream messenger. While in the trance, the messenger is Incapacitated and has a Speed of 0.
+#### 任意门（Dimension Door）
 
-If the target is asleep, the messenger appears in the target's dreams and can converse with the target as long as it remains asleep, through the spell's duration. The messenger can also shape the dream's environment, creating landscapes, objects, and other images. The messenger can emerge from the trance at any time, ending the spell. The target recalls the dream perfectly upon waking.
+*4 环咒法法术（吟游诗人、术士、邪术师、法师）*
 
-If the target is awake when you cast the spell, the messenger knows it and can either end the trance (and the spell) or wait for the target to sleep, at which point the messenger enters its dreams.
+**施法时间：** 动作  
+**射程：** 500 尺  
+**成分：** V  
+**持续时间：** 立即
 
-You can make the messenger terrifying to the target. If you do so, the messenger can deliver a message of no more than ten words, and then the target makes a Wisdom saving throw. On a failed save, the target gains no benefit from its rest, and it takes 3d6 Psychic damage when it wakes up.
+你传送到射程内的一个地点，并准确出现在希望抵达的位置。
 
-#### Druidcraft
+目的地可以是你能看见的位置、你能够想象的位置，或者你通过距离和方向描述的位置，例如“垂直向下 200 尺”或“向西北方向以 45 度角向上 300 尺”。
 
-_Transmutation Cantrip (Druid)_
+你还可以传送一个自愿生物。传送发生时，该生物必须位于你 5 尺内，并会传送到距离你目的地位置 5 尺内的一个空间。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** Instantaneous
+如果你、另一个生物，或者你们双方抵达的位置被其他生物占据，或者完全被一个或多个物体填满，则你和与你同行的每个生物各受到 4d6 力场伤害，并且此次传送失败。
 
-Whispering to the spirits of nature, you create one of the following effects within range.
+#### 易容术（Disguise Self）
 
-_Weather Sensor._ You create a Tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.
+*1 环幻术法术（吟游诗人、术士、法师）*
 
-_Bloom._ You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 1 小时
 
-_Sensory Effect._ You create a harmless sensory effect, such as falling leaves, spectral dancing fairies, a gentle breeze, the sound of an animal, or the faint odor of skunk. The effect must fit in a 5-foot Cube.
+你让自己——包括衣服、护甲、武器和身上携带的其他物品——在法术结束前看起来与原本不同。
 
-_Fire Play._ You light or snuff out a candle, a torch, or a campfire.
+你可以让自己显得高或矮至多 1 尺，也可以显得更重或更轻。你必须采用与自己拥有相同基本肢体结构的形态。除此之外，幻术外观由你决定。
 
-#### Earthquake
+该法术造成的变化无法经受实体检查。例如，如果你借此法术让衣着中多出一顶帽子，那么物体会直接穿过帽子，而任何触碰帽子的人都会发现那里什么都没有。
 
-_Level 8 Transmutation (Cleric, Druid, Sorcerer)_
+要识破你的伪装，一个生物必须执行研究动作检查你的外观，并成功通过一次针对你的法术豁免 DC 的智力（调查）检定。
 
-**Casting Time:** Action
-**Range:** 500 feet
-**Components:** V, S, M (a fractured rock)
-**Duration:** Concentration, up to 1 minute
+#### 解离术（Disintegrate）
 
-Choose a point on the ground that you can see within range. For the duration, an intense tremor rips through the ground in a 100-foot-radius circle centered on that point. The ground there is Difficult Terrain.
+*6 环变化法术（术士、法师）*
 
-When you cast this spell and at the end of each of your turns for the duration, each creature on the ground in the area makes a Dexterity saving throw. On a failed save, a creature has the Prone condition, and its Concentration is broken.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一块天然磁石和尘土）  
+**持续时间：** 立即
 
-You can also cause the effects below.
+你向射程内一个你能看见的目标发射一道绿色射线。目标可以是生物、非魔法物体，或者由魔法力场创造的事物，例如*力场墙（Wall of Force）*创造的墙壁。
 
-_Fissures._ A total of 1d6 fissures open in the spell's area at the end of the turn you cast it. You choose the fissures' locations, which can't be under structures. Each fissure is 1d10 × 10 feet deep and 10 feet wide, and it extends from one edge of the spell's area to another edge. A creature in the same space as a fissure must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens.
+如果目标是生物，它进行一次敏捷豁免。豁免失败时，目标受到 10d6 + 40 力场伤害。
 
-_Structures._ The tremor deals 50 Bludgeoning damage to any structure in contact with the ground in the area when you cast the spell and at the end of each of your turns until the spell ends. If a structure drops to 0 Hit Points, it collapses.
+如果该伤害使其生命值降至 0，则目标以及它穿戴和携带的一切非魔法物品都会被解离成灰色尘埃。目标只能通过*完全复生术（True Resurrection）*或*祈愿术*复活。
 
-A creature within a distance from a collapsing structure equal to half the structure's height makes a Dexterity saving throw. On a failed save, the creature takes 12d6 Bludgeoning damage, has the Prone condition, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. On a successful save, the creature takes half as much damage only.
+该法术会自动解离大型或更小的非魔法物体或魔法力场造物。如果这样的目标为巨型或更大，则只解离其中一个 10 尺立方区域。
 
-#### Eldritch Blast
+*使用更高环阶法术位。* 你每使用高于 6 环一环的法术位，伤害增加 3d6。
 
-_Evocation Cantrip (Warlock)_
+#### 解除善恶（Dispel Evil and Good）
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Instantaneous
+*5 环防护法术（牧师、圣武士）*
 
-You hurl a beam of crackling energy. Make a ranged spell attack against one creature or object in range. On a hit, the target takes 1d10 Force damage.
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（银粉与铁粉）  
+**持续时间：** 专注，至多 1 分钟
 
-_Cantrip Upgrade._ The spell creates two beams at level 5, three beams at level 11, and four beams at level 17. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.
+持续时间内，天界生物、元素、妖精、邪魔和不死生物对你进行攻击检定时具有劣势。
 
-#### Elementalism
+你可以通过使用以下任一特殊功能提前结束该法术。
 
-_Transmutation Cantrip (Druid, Sorcerer, Wizard)_
+*破除惑控（Break Enchantment）。* 作为魔法动作，你触碰一个被上述一种或多种类型生物附身，或者因这些生物而处于魅惑或恐慌状态的生物。目标不再被这些生物附身、魅惑或恐吓。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** Instantaneous
+*驱逐（Dismissal）。* 作为魔法动作，你指定一个位于你 5 尺内、你能看见且具有上述生物类型之一的生物。目标必须成功通过一次魅力豁免，否则如果它当前不在自己的原生位面，就会被送回原生位面。
 
-You exert control over the elements, creating one of the following effects within range.
+如果不死生物并不在自己的原生位面，则被送往堕影冥界；妖精则被送往妖精荒野。
 
-_Beckon Air._ You create a breeze strong enough to ripple cloth, stir dust, rustle leaves, and close open doors and shutters, all in a 5-foot Cube. Doors and shutters being held open by someone or something aren't affected.
+#### 解除魔法（Dispel Magic）
 
-_Beckon Earth._ You create a thin shroud of dust or sand that covers surfaces in a 5-foot-square area, or you cause a single word to appear in your handwriting in a patch of dirt or sand.
+*3 环防护法术（吟游诗人、牧师、德鲁伊、圣武士、游侠、术士、邪术师、法师）*
 
-_Beckon Fire._ You create a thin cloud of harmless embers and colored, scented smoke in a 5-foot Cube. You choose the color and scent, and the embers can light candles, torches, or lamps in that area. The smoke's scent lingers for 1 minute.
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-_Beckon Water._ You create a spray of cool mist that lightly dampens creatures and objects in a 5-foot Cube. Alternatively, you create 1 cup of clean water either in an open container or on a surface, and the water evaporates in 1 minute.
+选择射程内一个生物、物体或魔法效果。
 
-_Sculpt Element._ You cause dirt, sand, fire, smoke, mist, or water that can fit in a 1-foot Cube to assume a crude shape (such as that of a creature) for 1 hour.
+目标上所有持续中的 3 环或更低环阶法术都会结束。
 
-#### Enhance Ability
+对于目标上的每一个 4 环或更高环阶持续法术，使用你的施法属性进行一次属性检定，DC 为 10 + 该法术环阶。检定成功时，该法术结束。
 
-_Level 2 Transmutation (Bard, Cleric, Druid, Ranger, Sorcerer, Wizard)_
+*使用更高环阶法术位。* 如果目标上某法术的环阶不高于你用来施放*解除魔法*的法术位环阶，则该法术自动结束。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (fur or a feather)
-**Duration:** Concentration, up to 1 hour
+#### 失谐低语（Dissonant Whispers）
 
-You touch a creature and choose Strength, Dexterity, Intelligence, Wisdom, or Charisma. For the duration, the target has Advantage on ability checks using the chosen ability.
+*1 环惑控法术（吟游诗人）*
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 2. You can choose a different ability for each target.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V  
+**持续时间：** 立即
 
-#### Enlarge/Reduce
+一个你在射程内能看见、由你选择的生物会在心中听见一段不和谐旋律。
 
-_Level 2 Transmutation (Bard, Druid, Sorcerer, Wizard)_
+目标进行一次感知豁免。豁免失败时，目标受到 3d6 心灵伤害，并且如果它的反应尚可使用，就必须立即使用反应，沿最安全的路线尽可能远离你。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S, M (a pinch of powdered iron)
-**Duration:** Concentration, up to 1 minute
+豁免成功时，目标仅受到一半伤害。
 
-For the duration, the spell enlarges or reduces a creature or an object you can see within range (see the chosen effect below). A targeted object must be neither worn nor carried. If the target is an unwilling creature, it can make a Constitution saving throw. On a successful save, the spell has no effect.
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，伤害增加 1d6。
 
-Everything that a targeted creature is wearing and carrying changes size with it. Any item it drops returns to normal size at once. A thrown weapon or piece of ammunition returns to normal size immediately after it hits or misses a target.
+#### 预言术（Divination）
 
-_Enlarge._ The target's size increases by one category—from Medium to Large, for example. The target also has Advantage on Strength checks and Strength saving throws. The target's attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.
+*4 环预言法术（牧师、德鲁伊、法师）*
 
-_Reduce._ The target's size decreases by one category—from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target's attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can't reduce the damage below 1).
+**施法时间：** 动作或仪式  
+**射程：** 自身  
+**成分：** V、S、M（价值至少 25 GP 的熏香，法术会将其消耗）  
+**持续时间：** 立即
 
-#### Ensnaring Strike
+该法术让你与一位神祇或其仆从建立联系。
 
-_Level 1 Conjuration (Ranger)_
+你提出一个关于将在未来 7 天内发生的特定目标、事件或活动的问题。GM 会给予真实回答，可能是一句简短的话，也可能是一段隐晦的押韵诗句。
 
-**Casting Time:** Bonus Action, which you take immediately after hitting a creature with a weapon
-**Range:** Self
-**Components:** V
-**Duration:** Concentration, up to 1 minute
+该法术不会考虑可能改变结果的情况，例如施放其他法术。
 
-As you hit the target, grasping vines appear on it, and it makes a Strength saving throw. A Large or larger creature has Advantage on this save. On a failed save, the target has the Restrained condition until the spell ends. On a successful save, the vines shrivel away, and the spell ends.
+如果你在完成一次长休之前多次施放该法术，则从第二次施放起，每额外施放一次，都有累积 25% 的几率得不到任何回答。
 
-While Restrained, the target takes 1d6 Piercing damage at the start of each of its turns. The target or a creature within reach of it can take an action to make a Strength (Athletics) check against your spell save DC. On a success, the spell ends.
+#### 神恩（Divine Favor）
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d6 for each spell slot level above 1.
+*1 环变化法术（圣武士）*
 
-#### Entangle
+**施法时间：** 附赠动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 1 分钟
 
-_Level 1 Conjuration (Druid, Ranger)_
+直到法术结束，你使用武器发动的攻击命中时额外造成 1d4 光耀伤害。
 
-**Casting Time:** Action
-**Range:** 90 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+#### 神圣惩击（Divine Smite）
 
-Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into Difficult Terrain. They disappear when the spell ends.
+*1 环塑能法术（圣武士）*
 
-Each creature (other than you) in the area when you cast the spell must succeed on a Strength saving throw or have the Restrained condition until the spell ends. A Restrained creature can take an action to make a Strength (Athletics) check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.
+**施法时间：** 附赠动作；当你使用近战武器或徒手打击命中一个目标后立即使用  
+**射程：** 自身  
+**成分：** V  
+**持续时间：** 立即
 
-#### Enthrall
+该次攻击额外对目标造成 2d8 光耀伤害。如果目标是邪魔或不死生物，伤害额外增加 1d8。
 
-_Level 2 Enchantment (Bard, Warlock)_
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，伤害增加 1d8。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+#### 神圣真言（Divine Word）
 
-You weave a distracting string of words, causing creatures of your choice that you can see within range to make a Wisdom saving throw. Any creature you or your companions are fighting automatically succeeds on this save. On a failed save, a target has a −10 penalty to Wisdom (Perception) checks and Passive Perception until the spell ends.
+*7 环塑能法术（牧师）*
 
-#### Etherealness
+**施法时间：** 附赠动作  
+**射程：** 30 尺  
+**成分：** V  
+**持续时间：** 立即
 
-_Level 7 Conjuration (Bard, Cleric, Sorcerer, Warlock, Wizard)_
+你说出一个蕴含上层位面力量的词语。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** Up to 8 hours
+射程内由你选择的每个生物进行一次魅力豁免。豁免失败时，如果目标当前生命值不高于 50，则根据其当前生命值受到“神圣真言效果”表中的相应效果。
 
-You step into the border regions of the Ethereal Plane, where it overlaps with your current plane. You remain in the Border Ethereal for the duration. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can perceive the plane you left, which looks gray, and you can't see anything there more than 60 feet away.
+无论生命值多少，一个天界生物、元素、妖精或邪魔目标如果豁免失败，都会被强制送回其原生位面（如果它当前不在那里），并且在 24 小时内无法通过任何方式返回当前位面，除非使用*祈愿术*。
 
-While on the Ethereal Plane, you can affect and be affected only by creatures, objects, and effects on that plane. Creatures that aren't on the Ethereal Plane can't perceive or interact with you unless a feature gives them the ability to do so.
+**神圣真言效果（Divine Word Effects）**
 
-When the spell ends, you return to the plane you left in the spot that corresponds to your space in the Border Ethereal. If you appear in an occupied space, you are shunted to the nearest unoccupied space and take Force damage equal to twice the number of feet you are moved.
+| 当前生命值 | 效果 |
+|---:|---|
+| 0–20 | 目标死亡。 |
+| 21–30 | 目标陷入目盲、耳聋和震慑状态 1 小时。 |
+| 31–40 | 目标陷入目盲和耳聋状态 10 分钟。 |
+| 41–50 | 目标陷入耳聋状态 1 分钟。 |
 
-This spell ends instantly if you cast it while you are on the Ethereal Plane or a plane that doesn't border it, such as one of the Outer Planes.
+#### 支配野兽（Dominate Beast）
 
-_Using a Higher-Level Spell Slot._ You can target up to three willing creatures (including yourself) for each spell slot level above 7. The creatures must be within 10 feet of you when you cast the spell.
+*4 环惑控法术（德鲁伊、游侠、术士）*
 
-#### Expeditious Retreat
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-_Level 1 Transmutation (Sorcerer, Warlock, Wizard)_
+一个你在射程内能看见的野兽必须成功通过一次感知豁免，否则在持续时间内陷入魅惑状态。如果你或你的盟友正与目标战斗，目标进行该豁免时具有优势。
 
-**Casting Time:** Bonus Action
-**Range:** Self
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+每当目标受到伤害时，它都会再次进行该豁免；成功时结束自身受到的法术。
 
-You take the Dash action, and until the spell ends, you can take that action again as a Bonus Action.
+只要你和被魅惑目标处于同一存在位面，你们之间就保持心灵感应连接。
 
-#### Eyebite
+在你的回合中，你可以通过该连接向目标下达命令，无需动作，例如“攻击那个生物”“移动到那里”或“把那个物体拿过来”。
 
-_Level 6 Necromancy (Bard, Sorcerer, Warlock, Wizard)_
+目标会在自己的回合尽最大努力服从命令。如果完成命令后没有得到进一步指示，它会按照自己的意愿行动和移动，同时优先保护自己。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+你可以命令目标执行反应，但要这么做，你必须同时使用自己的反应。
 
-For the duration, your eyes become an inky void. One creature of your choice within 60 feet of you that you can see must succeed on a Wisdom saving throw or be affected by one of the following effects of your choice for the duration.
+*使用更高环阶法术位。* 使用不同环阶的法术位时，你的专注可以持续更久：5 环至多 10 分钟，6 环至多 1 小时，7 环或更高至多 8 小时。
 
-On each of your turns until the spell ends, you can take a Magic action to target another creature but can't target a creature again if it has succeeded on a save against this casting of the spell.
+#### 支配怪物（Dominate Monster）
 
-_Asleep._ The target has the Unconscious condition. It wakes up if it takes any damage or if another creature takes an action to shake it awake.
+*8 环惑控法术（吟游诗人、术士、邪术师、法师）*
 
-_Panicked._ The target has the Frightened condition. On each of its turns, the Frightened target must take the Dash action and move away from you by the safest and shortest route available. If the target moves to a space at least 60 feet away from you where it can't see you, this effect ends.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 小时
 
-_Sickened._ The target has the Poisoned condition.
+一个你在射程内能看见的生物必须成功通过一次感知豁免，否则在持续时间内陷入魅惑状态。如果你或你的盟友正与目标战斗，目标进行该豁免时具有优势。
 
-#### Fabricate
+每当目标受到伤害时，它都会再次进行该豁免；成功时结束自身受到的法术。
 
-_Level 4 Transmutation (Wizard)_
+只要你和被魅惑目标处于同一存在位面，你们之间就保持心灵感应连接。
 
-**Casting Time:** 10 minutes
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Instantaneous
+在你的回合中，你可以通过该连接向目标下达命令，无需动作，例如“攻击那个生物”“移动到那里”或“把那个物体拿过来”。
 
-You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, or clothes from flax or wool.
+目标会在自己的回合尽最大努力服从命令。如果完成命令后没有得到进一步指示，它会按照自己的意愿行动和移动，同时优先保护自己。
 
-Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot Cube or eight connected 5-foot Cubes) given a sufficient quantity of material. If you're working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a 5-foot Cube). The quality of any fabricated objects is based on the quality of the raw materials.
+你可以命令目标执行反应，但必须使用自己的反应才能这么做。
 
-Creatures and magic items can't be created by this spell. You also can't use it to create items that require a high degree of skill—such as weapons and armor—unless you have proficiency with the type of Artisan's Tools used to craft such objects.
+*使用更高环阶法术位。* 使用 9 环法术位时，你的专注可以持续至多 8 小时。
 
-#### Faerie Fire
+#### 支配人类（Dominate Person）
 
-_Level 1 Evocation (Bard, Druid)_
+*5 环惑控法术（吟游诗人、术士、法师）*
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V
-**Duration:** Concentration, up to 1 minute
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-Objects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed Dim Light in a 10-foot radius and can't benefit from the Invisible condition.
+一个你在射程内能看见的类人生物必须成功通过一次感知豁免，否则在持续时间内陷入魅惑状态。如果你或你的盟友正与目标战斗，目标进行该豁免时具有优势。
 
-Attack rolls against an affected creature or object have Advantage if the attacker can see it.
+每当目标受到伤害时，它都会再次进行该豁免；成功时结束自身受到的法术。
 
-#### Faithful Hound
+只要你和被魅惑目标处于同一存在位面，你们之间就保持心灵感应连接。
 
-_Level 4 Conjuration (Wizard)_
+在你的回合中，你可以通过该连接向目标下达命令，无需动作，例如“攻击那个生物”“移动到那里”或“把那个物体拿过来”。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S, M (a silver whistle)
-**Duration:** 8 hours
+目标会在自己的回合尽最大努力服从命令。如果完成命令后没有得到进一步指示，它会按照自己的意愿行动和移动，同时优先保护自己。
 
-You conjure a phantom watchdog in an unoccupied space that you can see within range. The hound remains for the duration or until the two of you are more than 300 feet apart from each other.
+你可以命令目标执行反应，但必须使用自己的反应才能这么做。
 
-No one but you can see the hound, and it is intangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound has Truesight with a range of 30 feet.
+*使用更高环阶法术位。* 使用不同环阶的法术位时，你的专注可以持续更久：6 环至多 10 分钟，7 环至多 1 小时，8 环或更高至多 8 小时。
 
-At the start of each of your turns, the hound attempts to bite one enemy within 5 feet of it. That enemy must succeed on a Dexterity saving throw or take 4d8 Force damage.
+#### 龙息术（Dragon's Breath）
 
-On your later turns, you can take a Magic action to move the hound up to 30 feet.
+*2 环变化法术（术士、法师）*
 
-#### False Life
+**施法时间：** 附赠动作  
+**射程：** 触及  
+**成分：** V、S、M（一根辣椒）  
+**持续时间：** 专注，至多 1 分钟
 
-_Level 1 Necromancy (Sorcerer, Wizard)_
+你触碰一个自愿生物，并选择强酸、寒冷、火焰、闪电或毒素。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a drop of alcohol)
-**Duration:** Instantaneous
+直到法术结束，目标可以执行魔法动作，呼出一道 15 尺锥状吐息。区域内每个生物进行一次敏捷豁免，豁免失败受到 3d6 所选类型的伤害，成功则受到一半伤害。
 
-You gain 2d4 + 4 Temporary Hit Points.
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，伤害增加 1d6。
 
-_Using a Higher-Level Spell Slot._ You gain 5 additional Temporary Hit Points for each spell slot level above 1.
+#### 托梦术（Dream）
 
-#### Fear
+*5 环幻术法术（吟游诗人、邪术师、法师）*
 
-_Level 3 Illusion (Bard, Sorcerer, Warlock, Wizard)_
+**施法时间：** 1 分钟  
+**射程：** 特殊  
+**成分：** V、S、M（一把沙子）  
+**持续时间：** 8 小时
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a white feather)
-**Duration:** Concentration, up to 1 minute
+你指定一个与你处于同一存在位面、且你所认识的生物。你或者一个你触碰的自愿生物会进入恍惚状态，作为梦境信使。
 
-Each creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and have the Frightened condition for the duration.
+处于恍惚状态时，信使陷入失能状态，且速度为 0。
 
-A Frightened creature takes the Dash action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn't have line of sight to you, the creature makes a Wisdom saving throw. On a successful save, the spell ends on that creature.
+如果目标正在睡眠，信使会出现在目标梦中，并且只要目标继续睡眠，就能在法术持续期间与其交谈。信使还可以塑造梦境环境，创造地貌、物体和其他影像。
 
-#### Feather Fall
+信使可以随时退出恍惚状态，从而结束法术。目标醒来后会完整记得该梦境。
 
-_Level 1 Transmutation (Bard, Sorcerer, Wizard)_
+如果你施放法术时目标醒着，信使会知道这一点，并可以选择立即结束恍惚状态和法术，或者等待目标入睡，之后进入其梦境。
 
-**Casting Time:** Reaction, which you take when you or a creature you can see within 60 feet of you falls
-**Range:** 60 feet
-**Components:** V, M (a small feather or piece of down)
-**Duration:** 1 minute
+你可以让信使在目标眼中显得极其恐怖。这样做时，信使可以传达一条不超过十个词的信息，之后目标进行一次感知豁免。
 
-Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If a creature lands before the spell ends, the creature takes no damage from the fall, and the spell ends for that creature.
+豁免失败时，目标无法从此次休息中获得任何收益，并在醒来时受到 3d6 心灵伤害。
 
-#### Find Familiar
+#### 德鲁伊伎俩（Druidcraft）
 
-_Level 1 Conjuration (Wizard)_
+*变化戏法（德鲁伊）*
 
-**Casting Time:** 1 hour or Ritual
-**Range:** 10 feet
-**Components:** V, S, M (burning incense worth 10+ GP, which the spell consumes)
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-You gain the service of a familiar, a spirit that takes an animal form you choose: **Bat, Cat, Frog, Hawk, Lizard, Octopus, Owl, Rat, Raven, Spider, Weasel**, or another Beast that has a Challenge Rating of 0. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form (see "Monsters"), though it is a Celestial, Fey, or Fiend (your choice) instead of a Beast. Your familiar acts independently of you, but it obeys your commands.
+你低声向自然精魂呢喃，并在射程内创造以下一种效果：
 
-_Telepathic Connection._ While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as a Bonus Action, you can see through the familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses it has.
+*天气征兆（Weather Sensor）。* 你创造一个微型、无害的感官效果，预测你所在地点未来 24 小时的天气。效果可能表现为代表晴天的金色球体、代表降雨的云朵、代表降雪的飘落雪花等。该效果持续 1 轮。
 
-Finally, when you cast a spell with a range of touch, your familiar can deliver the touch. Your familiar must be within 100 feet of you, and it must take a Reaction to deliver the touch when you cast the spell.
+*绽放（Bloom）。* 你立即让一朵花开放、一颗种荚裂开，或者一枚叶芽绽放。
 
-_Combat._ The familiar is an ally to you and your allies. It rolls its own Initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.
+*感官效果（Sensory Effect）。* 你创造一个无害的感官效果，例如飘落的树叶、幽灵般舞动的妖精、轻柔微风、动物叫声或淡淡的臭鼬气味。该效果必须能容纳在一个 5 尺立方区域内。
 
-_Disappearance of the Familiar._ When the familiar drops to 0 Hit Points, it disappears. It reappears after you cast this spell again. As a Magic action, you can temporarily dismiss the familiar to a pocket dimension. Alternatively, you can dismiss it forever. As a Magic action while it is temporarily dismissed, you can cause it to reappear in an unoccupied space within 30 feet of you. Whenever the familiar drops to 0 Hit Points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.
+*戏火（Fire Play）。* 你点燃或熄灭一根蜡烛、一支火把或一处营火。
 
-_One Familiar Only._ You can't have more than one familiar at a time. If you cast this spell while you have a familiar, you instead cause it to adopt a new eligible form.
+#### 地震术（Earthquake）
 
-#### Find Steed
+*8 环变化法术（牧师、德鲁伊、术士）*
 
-_Level 2 Conjuration (Paladin)_
+**施法时间：** 动作  
+**射程：** 500 尺  
+**成分：** V、S、M（一块开裂的岩石）  
+**持续时间：** 专注，至多 1 分钟
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Component:** V, S
-**Duration:** Instantaneous
+选择射程内一个你能看见的地面点。在持续时间内，以该点为中心、半径 100 尺圆形区域中的地面发生猛烈震动。该地面属于困难地形。
 
-You summon an otherworldly being that appears as a loyal steed in an unoccupied space of your choice within range. This creature uses the **Otherworldly Steed** stat block. If you already have a steed from this spell, the steed is replaced by the new one.
+当你施放该法术时，以及持续时间内你的每个回合结束时，区域内站在地面上的每个生物都进行一次敏捷豁免。
 
-The steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed's creature type—Celestial, Fey, or Fiend—which determines certain traits in the stat block.
+豁免失败时，该生物陷入倒地状态，并且其专注中断。
 
-_Combat._ The steed is an ally to you and your allies. In combat, it shares your Initiative count, and it functions as a controlled mount while you ride it (as defined in the rules on mounted combat). If you have the Incapacitated condition, the steed takes its turn immediately after yours and acts independently, focusing on protecting you.
+你还可以造成以下效果：
 
-_Disappearance of the Steed._ The steed disappears if it drops to 0 Hit Points or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one.
+*裂缝（Fissures）。* 在你施放法术的那个回合结束时，法术区域内总共出现 1d6 条裂缝。你决定裂缝位置，但裂缝不能位于建筑物正下方。
 
-_Using a Higher-Level Spell Slot._ Use the spell slot's level for the spell's level in the stat block.
+每条裂缝深 1d10 × 10 尺、宽 10 尺，并从法术区域的一侧边缘延伸到另一侧。
 
-## Otherworldly Steed
+如果一个生物正处于裂缝出现的空间中，它必须成功通过一次敏捷豁免，否则跌入裂缝。豁免成功的生物会随着裂缝边缘形成而移动至其边缘。
 
-_Large Celestial, Fey, or Fiend (Your Choice), Neutral_
+*建筑（Structures）。* 当你施放法术时，以及之后每个回合结束时，震动会对区域内任何与地面接触的建筑造成 50 点钝击伤害，持续至法术结束。
 
-**AC** 10 + 1 per spell level
-**HP** 5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)
-**Speed** 60 ft., Fly 60 ft. (requires level 4+ spell)
+如果一座建筑生命值降至 0，它会倒塌。
 
-<table>
-  <tbody>
-    <tr>
-      <td>MOD</td>
-      <td>SAVE</td>
-      <td></td>
-      <td>MOD</td>
-      <td>SAVE</td>
-      <td></td>
-      <td>MOD</td>
-      <td>SAVE</td>
-      <td colspan="4"></td>
-    </tr>
-    <tr>
-      <td>STR</td>
-      <td>18</td>
-      <td>+4</td>
-      <td>+4</td>
-      <td>DEX</td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td>CON</td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td>INT</td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td>WIS</td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td>CHA</td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-  </tbody>
-</table>
+距离倒塌建筑不超过其高度一半的每个生物都必须进行一次敏捷豁免。
 
-**Senses** Passive Perception 11
-**Languages** Telepathy 1 mile (works only with you)
-**CR** None (XP 0; PB equals your Proficiency Bonus)
+豁免失败时，生物受到 12d6 钝击伤害，陷入倒地状态，并被埋在废墟中；它必须执行动作并成功通过一次 DC 20 的力量（运动）检定才能脱身。
 
-#### Traits
+豁免成功时，生物仅受到一半伤害。
 
-**_Life Bond._** When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you're within 5 feet of it.
+#### 魔能爆（Eldritch Blast）
 
-#### Actions
+*塑能戏法（邪术师）*
 
-**_Otherworldly Slam._** _Melee Attack Roll:_ Bonus equals your spell attack modifier, reach 5 ft. _Hit:_ 1d8 plus the spell's level of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage.
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-#### Bonus Actions
+你发射一道噼啪作响的能量束。对射程内一个生物或物体进行一次远程法术攻击。
 
-**_Fell Glare (Fiend Only; Recharges after a Long Rest)._** _Wisdom Saving Throw:_ DC equals your spell save DC, one creature within 60 feet the steed can see. _Failure:_ The target has the Frightened condition until the end of your next turn.
+命中时，目标受到 1d10 力场伤害。
 
-**_Fey Step (Fey Only; Recharges after a Long Rest)._** The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself.
+*戏法升级。* 当你达到 5 级时，该法术产生两道射线；11 级时产生三道；17 级时产生四道。
 
-**_Healing Touch (Celestial Only; Recharges after a Long Rest)._** One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8 plus the spell's level.
+你可以让这些射线攻击同一目标，也可以分别攻击不同目标。每道射线分别进行一次攻击检定。
 
-#### Find the Path
+#### 元素伎俩（Elementalism）
 
-_Level 6 Divination (Bard, Cleric, Druid)_
+*变化戏法（德鲁伊、术士、法师）*
 
-**Casting Time:** 1 minute
-**Range:** Self
-**Components:** V, S, M (a set of divination tools—such as cards or runes—worth 100+ GP)
-**Duration:** Concentration, up to 1 day
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-You magically sense the most direct physical route to a location you name. You must be familiar with the location, and the spell fails if you name a destination on another plane of existence, a moving destination (such as a mobile fortress), or an unspecific destination (such as "a green dragon's lair").
+你控制元素，在射程内产生以下一种效果：
 
-For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. Whenever you face a choice of paths along the way there, you know which path is the most direct.
+*唤风（Beckon Air）。* 你在一个 5 尺立方区域内创造一股足以让布料起伏、扬起尘土、吹动树叶，并关闭打开的门窗的微风。被某人或某物固定在开启状态的门窗不受影响。
 
-#### Find Traps
+*唤土（Beckon Earth）。* 你创造一层薄薄的尘土或沙土，覆盖一个 5 尺见方区域的表面；或者让一个词以你的笔迹出现在一片泥土或沙地上。
 
-_Level 2 Divination (Cleric, Druid, Ranger)_
+*唤火（Beckon Fire）。* 你在一个 5 尺立方区域中创造一层无害的余烬薄云以及带有颜色和气味的烟雾。你选择颜色和气味；余烬可以点燃区域内的蜡烛、火把或灯。烟雾气味会持续 1 分钟。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Instantaneous
+*唤水（Beckon Water）。* 你创造一阵凉爽水雾，使一个 5 尺立方区域中的生物和物体轻微湿润。或者，你创造 1 杯洁净水，置于开放容器中或一个表面上；该水会在 1 分钟后蒸发。
 
-You sense any trap within range that is within line of sight. A trap, for the purpose of this spell, includes any object or mechanism that was created to cause damage or other danger. Thus, the spell would sense the _Alarm_ or _Glyph of Warding_ spell or a mechanical pit trap, but it wouldn't reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.
+*塑造元素（Sculpt Element）。* 你令能够容纳在 1 尺立方区域内的泥土、沙子、火焰、烟雾、水雾或水形成一个粗糙造型——例如某种生物的形状——持续 1 小时。
 
-This spell reveals that a trap is present but not its location. You do learn the general nature of the danger posed by a trap you sense.
+#### 强化属性（Enhance Ability）
 
-#### Finger of Death
+*2 环变化法术（吟游诗人、牧师、德鲁伊、游侠、术士、法师）*
 
-_Level 7 Necromancy (Sorcerer, Warlock, Wizard)_
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（毛皮或羽毛）  
+**持续时间：** 专注，至多 1 小时
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Instantaneous
+你触碰一个生物，并选择力量、敏捷、智力、感知或魅力。
 
-You unleash negative energy toward a creature you can see within range. The target makes a Constitution saving throw, taking 7d8 + 30 Necrotic damage on a failed save or half as much damage on a successful one.
+持续时间内，目标使用所选属性进行属性检定时具有优势。
 
-A Humanoid killed by this spell rises at the start of your next turn as a **Zombie** (see "Monsters") that follows your verbal orders.
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，就可以额外指定一个生物。你可以为不同目标选择不同属性。
 
-#### Fireball
+#### 变巨/缩小术（Enlarge/Reduce）
 
-_Level 3 Evocation (Sorcerer, Wizard)_
+*2 环变化法术（吟游诗人、德鲁伊、术士、法师）*
 
-**Casting Time:** Action
-**Range:** 150 feet
-**Components:** V, S, M (a ball of bat guano and sulfur)
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一撮铁粉）  
+**持续时间：** 专注，至多 1 分钟
 
-A bright streak flashes from you to a point you choose within range and then blossoms with a low roar into a fiery explosion. Each creature in a 20-foot-radius Sphere centered on that point makes a Dexterity saving throw, taking 8d6 Fire damage on a failed save or half as much damage on a successful one.
+持续时间内，该法术令射程内一个你能看见的生物或物体变大或缩小，具体效果见下方所选效果。
 
-Flammable objects in the area that aren't being worn or carried start burning.
+作为目标的物体不得被穿戴或携带。如果目标是不自愿的生物，它可以进行一次体质豁免；成功时法术对其无效。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d6 for each spell slot level above 3.
+目标生物穿戴和携带的一切都会与其一同改变大小。其丢下的任何物品都会立刻恢复正常大小。投掷武器或弹药在命中或未命中目标之后会立即恢复正常大小。
 
-#### Fire Bolt
+*变巨（Enlarge）。* 目标体型增大一级，例如从中型变为大型。目标进行力量检定和力量豁免时具有优势。
 
-_Evocation Cantrip (Sorcerer, Wizard)_
+目标使用因法术而变大的武器或徒手打击发动攻击，命中时额外造成 1d4 伤害。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Instantaneous
+*缩小（Reduce）。* 目标体型减小一级，例如从中型变为小型。目标进行力量检定和力量豁免时具有劣势。
 
-You hurl a mote of fire at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Fire damage. A flammable object hit by this spell starts burning if it isn't being worn or carried.
+目标使用因法术而缩小的武器或徒手打击发动攻击，命中时造成的伤害减少 1d4，但伤害最低不能低于 1。
 
-_Cantrip Upgrade._ The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).
+#### 诱捕打击（Ensnaring Strike）
 
-#### Fire Shield
+*1 环咒法法术（游侠）*
 
-_Level 4 Evocation (Druid, Sorcerer, Wizard)_
+**施法时间：** 附赠动作；当你使用武器命中一个生物后立即使用  
+**射程：** 自身  
+**成分：** V  
+**持续时间：** 专注，至多 1 分钟
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a bit of phosphorus or a firefly)
-**Duration:** 10 minutes
+当你命中目标时，缠绕藤蔓出现在目标身上，目标进行一次力量豁免。大型或更大的生物进行该豁免时具有优势。
 
-Wispy flames wreathe your body for the duration, shedding Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.
+豁免失败时，目标陷入束缚状态，持续至法术结束。豁免成功时，藤蔓立即枯萎，法术结束。
 
-The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you Resistance to Cold damage, and the chill shield grants you Resistance to Fire damage.
+处于束缚状态期间，目标在自己的每个回合开始时受到 1d6 穿刺伤害。
 
-In addition, whenever a creature within 5 feet of you hits you with a melee attack roll, the shield erupts with flame. The attacker takes 2d8 Fire damage from a warm shield or 2d8 Cold damage from a chill shield.
+目标本身，或者其触及范围内的一个生物，可以执行动作，针对你的法术豁免 DC 进行一次力量（运动）检定。成功时，法术结束。
 
-#### Fire Storm
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，伤害增加 1d6。
 
-_Level 7 Evocation (Cleric, Druid, Sorcerer)_
+#### 纠缠术（Entangle）
 
-**Casting Time:** Action
-**Range:** 150 feet
-**Components:** V, S
-**Duration:** Instantaneous
+*1 环咒法法术（德鲁伊、游侠）*
 
-A storm of fire appears within range. The area of the storm consists of up to ten 10-foot Cubes, which you arrange as you like. Each Cube must be contiguous with at least one other Cube. Each creature in the area makes a Dexterity saving throw, taking 7d10 Fire damage on a failed save or half as much damage on a successful one.
+**施法时间：** 动作  
+**射程：** 90 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-Flammable objects in the area that aren't being worn or carried start burning.
+缠绕植物从射程内一片 20 尺方形地面中生长出来。持续时间内，这些植物使区域内地面成为困难地形。法术结束时，植物消失。
 
-#### Flame Blade
+施放该法术时，区域内除你以外的每个生物都必须成功通过一次力量豁免，否则陷入束缚状态，直到法术结束。
 
-_Level 2 Evocation (Druid, Sorcerer)_
+被束缚的生物可以执行动作，针对你的法术豁免 DC 进行一次力量（运动）检定。成功时，它挣脱植物，不再受其束缚。
 
-**Casting Time:** Bonus Action
-**Range:** Self
-**Components:** V, S, M (a sumac leaf)
-**Duration:** Concentration, up to 10 minutes
+#### 迷魂术（Enthrall）
 
-You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke it again as a Bonus Action.
+*2 环惑控法术（吟游诗人、邪术师）*
 
-As a Magic action, you can make a melee spell attack with the fiery blade. On a hit, the target takes Fire damage equal to 3d6 plus your spellcasting ability modifier.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-The flaming blade sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.
+你编织出一连串令人分心的话语，迫使射程内你能看见的、由你选择的生物进行一次感知豁免。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d6 for each spell slot level above 2.
+任何正与你或你的同伴战斗的生物都会自动成功通过该豁免。
 
-#### Flame Strike
+豁免失败时，目标进行感知（察觉）检定和计算被动察觉时承受 −10 减值，直到法术结束。
 
-_Level 5 Evocation (Cleric)_
+#### 以太化（Etherealness）
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a pinch of sulfur)
-**Duration:** Instantaneous
+*7 环咒法法术（吟游诗人、牧师、术士、邪术师、法师）*
 
-A vertical column of brilliant fire roars down from above. Each creature in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range makes a Dexterity saving throw, taking 5d6 Fire damage and 5d6 Radiant damage on a failed save or half as much damage on a successful one.
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 至多 8 小时
 
-_Using a Higher-Level Spell Slot._ The Fire damage and the Radiant damage increase by 1d6 for each spell slot level above 5.
+你进入以太位面的边界区域，即它与你当前位面重叠的区域。你会在持续时间内停留于边界以太（Border Ethereal）。
 
-#### Flaming Sphere
+在此期间，你可以向任意方向移动。如果向上或向下移动，每移动 1 尺需要额外花费 1 尺移动。
 
-_Level 2 Conjuration (Druid, Sorcerer, Wizard)_
+你可以感知自己离开的位面；那里呈现为灰色，并且你无法看见距离超过 60 尺的事物。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a ball of wax)
-**Duration:** Concentration, up to 1 minute
+当你位于以太位面时，你只能影响该位面的生物、物体和效果，也只能受到它们影响。除非某个特性让其他生物能够感知以太位面，否则不在以太位面的生物无法感知你或与你互动。
 
-You create a 5-foot-diameter sphere of fire in an unoccupied space on the ground within range. It lasts for the duration. Any creature that ends its turn within 5 feet of the sphere makes a Dexterity saving throw, taking 2d6 Fire damage on a failed save or half as much damage on a successful one.
+法术结束时，你会返回原本位面中与自己在边界以太位置相对应的地点。如果该位置被占据，你会被排挤到最近的未占据空间，并受到等于你被移动尺数两倍的力场伤害。
 
-As a Bonus Action, you can move the sphere up to 30 feet, rolling it along the ground. If you move the sphere into a creature's space, that creature makes the save against the sphere, and the sphere stops moving for the turn.
+如果你在以太位面，或者一个与以太位面不相邻的位面——例如某个外层位面（Outer Plane）——中施放该法术，法术立即结束。
 
-When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. Flammable objects that aren't being worn or carried start burning if touched by the sphere, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.
+*使用更高环阶法术位。* 你每使用高于 7 环一环的法术位，可以指定至多三个自愿生物，包括你自己。施放法术时，这些生物必须位于你 10 尺内。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d6 for each spell slot level above 2.
+#### 脚底抹油（Expeditious Retreat）
 
-#### Flesh to Stone
+*1 环变化法术（术士、邪术师、法师）*
 
-_Level 6 Transmutation (Druid, Sorcerer, Wizard)_
+**施法时间：** 附赠动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a cockatrice feather)
-**Duration:** Concentration, up to 1 minute
+你立即执行疾走（Dash）动作，并且直到法术结束，你都可以用附赠动作再次执行该动作。
 
-You attempt to turn one creature that you can see within range into stone. The target makes a Constitution saving throw. On a failed save, it has the Restrained condition for the duration. On a successful save, its Speed is 0 until the start of your next turn. Constructs automatically succeed on the save.
+#### 魔眼煞（Eyebite）
 
-A Restrained target makes another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and has the Petrified condition for the duration. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind.
+*6 环死灵法术（吟游诗人、术士、邪术师、法师）*
 
-If you maintain your Concentration on this spell for the entire possible duration, the target is Petrified until the condition is ended by _Greater Restoration_ or similar magic.
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-#### Floating Disk
+持续时间内，你的双眼变成漆黑虚空。
 
-_Level 1 Conjuration (Wizard)_
+选择一个你在自己 60 尺内能看见的生物。目标必须成功通过一次感知豁免，否则在持续时间内受到以下一种由你选择的效果。
 
-**Casting Time:** Action or Ritual
-**Range:** 30 feet
-**Components:** V, S, M (a drop of mercury)
-**Duration:** 1 hour
+直到法术结束，在你的每个回合中，你都可以执行魔法动作指定另一个生物；但如果某个生物已经成功通过此次施法的豁免，则你不能再次指定它。
 
-This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.
+*沉睡（Asleep）。* 目标陷入昏迷状态。如果目标受到任何伤害，或者另一个生物执行动作摇醒它，它就会醒来。
 
-The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.
+*惊恐（Panicked）。* 目标陷入恐慌状态。在其每个回合中，恐慌目标必须执行疾走动作，并沿最安全且最短的路线远离你。
 
-If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends.
+如果目标移动到距离你至少 60 尺、且无法看见你的空间，该效果结束。
 
-#### Fly
+*患病（Sickened）。* 目标陷入中毒状态。
 
-_Level 3 Transmutation (Sorcerer, Warlock, Wizard)_
+#### 制造术（Fabricate）
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a feather)
-**Duration:** Concentration, up to 10 minutes
+*4 环变化法术（法师）*
 
-You touch a willing creature. For the duration, the target gains a Fly Speed of 60 feet and can hover. When the spell ends, the target falls if it is still aloft unless it can stop the fall.
+**施法时间：** 10 分钟  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 3.
+你将原材料转化成由相同材料制成的成品。
 
-#### Fog Cloud
+例如，你可以用一片树林制造木桥，用一片大麻制造绳索，或者用亚麻或羊毛制造衣服。
 
-_Level 1 Conjuration (Druid, Ranger, Sorcerer, Wizard)_
+选择射程内你能看见的原材料。如果材料数量足够，你可以制造一个大型或更小的物体，该物体必须容纳在一个 10 尺立方区域中，或者八个彼此连接的 5 尺立方区域中。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 hour
+如果你使用的是金属、石头或其他矿物材料，则制造出的物体不得大于中型，并且必须容纳在一个 5 尺立方区域中。
 
-You create a 20-foot-radius Sphere of fog centered on a point within range. The Sphere is Heavily Obscured. It lasts for the duration or until a strong wind (such as one created by _Gust of Wind_) disperses it.
+制造出来的物体品质取决于原材料本身的品质。
 
-_Using a Higher-Level Spell Slot._ The fog's radius increases by 20 feet for each spell slot level above 1.
+该法术不能创造生物或魔法物品。你也不能用它创造需要高度技巧才能制作的物品——例如武器和护甲——除非你熟练使用制造这类物品所需种类的工匠工具。
 
-#### Forbiddance
+#### 妖火术（Faerie Fire）
 
-_Level 6 Abjuration (Cleric)_
+*1 环塑能法术（吟游诗人、德鲁伊）*
 
-**Casting Time:** 10 minutes or Ritual
-**Range:** Touch
-**Components:** V, S, M (ruby dust worth 1,000+ GP)
-**Duration:** 1 day
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V  
+**持续时间：** 专注，至多 1 分钟
 
-You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can't teleport into the area or use portals, such as those created by the _Gate_ spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, the Ethereal Plane, the Feywild, the Shadowfell, or the _Plane Shift_ spell.
+射程内一个 20 尺立方区域中的物体被蓝色、绿色或紫罗兰色光芒勾勒轮廓，由你选择颜色。
 
-In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: Aberrations, Celestials, Elementals, Fey, Fiends, and Undead. When a creature of a chosen type enters the spell's area for the first time on a turn or ends its turn there, the creature takes 5d10 Radiant or Necrotic damage (your choice when you cast this spell).
+区域中的每个生物如果敏捷豁免失败，也会被光芒勾勒出来。
 
-You can designate a password when you cast the spell. A creature that speaks the password as it enters the area takes no damage from the spell.
+持续时间内，被影响的物体和生物在半径 10 尺内产生微光，并且无法从隐形状态中获得任何收益。
 
-The spell's area can't overlap with the area of another _Forbiddance_ spell. If you cast _Forbiddance_ every day for 30 days in the same location, the spell lasts until it is dispelled, and the Material components are consumed on the last casting.
+如果攻击者能够看见一个被影响的生物或物体，则对其进行攻击检定时具有优势。
 
-#### Forcecage
+#### 忠诚猎犬（Faithful Hound）
 
-_Level 7 Evocation (Bard, Warlock, Wizard)_
+*4 环咒法法术（法师）*
 
-**Casting Time:** Action
-**Range:** 100 feet
-**Components:** V, S, M (ruby dust worth 1,500+ GP, which the spell consumes)
-**Duration:** Concentration, up to 1 hour
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一只银哨）  
+**持续时间：** 8 小时
 
-An immobile, Invisible, Cube-shaped prison composed of magical force springs into existence around an area you choose within range. The prison can be a cage or a solid box, as you choose.
+你在射程内一个你能看见的未占据空间中召唤一只幻影看门犬。
 
-A prison in the shape of a cage can be up to 20 feet on a side and is made from 1/2-inch diameter bars spaced 1/2 inch apart. A prison in the shape of a box can be up to 10 feet on a side, creating a solid barrier that prevents any matter from passing through it and blocking any spells cast into or out from the area.
+猎犬会持续至法术结束，或者直到你与它彼此距离超过 300 尺。
 
-When you cast the spell, any creature that is completely inside the cage's area is trapped. Creatures only partially within the area, or those too large to fit inside it, are pushed away from the center of the area until they are completely outside it.
+除你以外没人能看见该猎犬；它没有实体，并且无法受到伤害。
 
-A creature inside the cage can't leave it by nonmagical means. If the creature tries to use teleportation or interplanar travel to leave, it must first make a Charisma saving throw. On a successful save, the creature can use that magic to exit the cage. On a failed save, the creature doesn't exit the cage and wastes the spell or effect. The cage also extends into the Ethereal Plane, blocking ethereal travel.
+当一个小型或更大的生物进入它 30 尺内，而没有先说出你施放法术时指定的口令，猎犬会开始大声吠叫。
 
-This spell can't be dispelled by _Dispel Magic_.
+猎犬拥有范围 30 尺的真实视觉。
 
-#### Foresight
+在你的每个回合开始时，猎犬都会尝试撕咬其 5 尺内一个敌人。该敌人必须成功通过一次敏捷豁免，否则受到 4d8 力场伤害。
 
-_Level 9 Divination (Bard, Druid, Warlock, Wizard)_
+在之后的回合中，你可以执行魔法动作让猎犬移动至多 30 尺。
 
-**Casting Time:** 1 minute
-**Range:** Touch
-**Components:** V, S, M (a hummingbird feather)
-**Duration:** 8 hours
+#### 虚假生命（False Life）
 
-You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target has Advantage on D20 Tests, and other creatures have Disadvantage on attack rolls against it. The spell ends early if you cast it again.
+*1 环死灵法术（术士、法师）*
 
-#### Freedom of Movement
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一滴酒精）  
+**持续时间：** 立即
 
-_Level 4 Abjuration (Bard, Cleric, Druid, Ranger)_
+你获得 2d4 + 4 点临时生命值。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a leather strap)
-**Duration:** 1 hour
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，就额外获得 5 点临时生命值。
 
-You touch a willing creature. For the duration, the target's movement is unaffected by Difficult Terrain, and spells and other magical effects can neither reduce the target's Speed nor cause the target to have the Paralyzed or Restrained conditions. The target also has a Swim Speed equal to its Speed.
+#### 恐惧术（Fear）
 
-In addition, the target can spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature imposing the Grappled condition on it.
+*3 环幻术法术（吟游诗人、术士、邪术师、法师）*
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 4.
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一根白色羽毛）  
+**持续时间：** 专注，至多 1 分钟
 
-#### Freezing Sphere
+30 尺锥状区域内的每个生物必须成功通过一次感知豁免，否则丢下自己正握持的所有物品，并在持续时间内陷入恐慌状态。
 
-_Level 6 Evocation (Sorcerer, Wizard)_
+恐慌的生物在自己的每个回合中必须执行疾走动作，并沿最安全路线远离你，除非没有任何可移动地点。
 
-**Casting Time:** Action
-**Range:** 300 feet
-**Components:** V, S, M (a miniature crystal sphere)
-**Duration:** Instantaneous
+如果该生物在自己的回合结束时位于一个无法直接看见你的位置，它会进行一次感知豁免。豁免成功时，该生物身上的法术结束。
 
-A frigid globe streaks from you to a point of your choice within range, where it explodes in a 60-foot-radius Sphere. Each creature in that area makes a Constitution saving throw, taking 10d6 Cold damage on failed save or half as much damage on a successful one.
+#### 羽落术（Feather Fall）
 
-If the globe strikes a body of water, it freezes the water to a depth of 6 inches over an area 30 feet square. This ice lasts for 1 minute. Creatures that were swimming on the surface of frozen water are trapped in the ice and have the Restrained condition. A trapped creature can take an action to make a Strength (Athletics) check against your spell save DC to break free.
+*1 环变化法术（吟游诗人、术士、法师）*
 
-You can refrain from firing the globe after completing the spell's casting. If you do so, a globe about the size of a sling bullet, cool to the touch, appears in your hand. At any time, you or a creature you give the globe to can throw the globe (to a range of 40 feet) or hurl it with a sling (to the sling's normal range). It shatters on impact, with the same effect as a normal casting of the spell. You can also set the globe down without shattering it. After 1 minute, if the globe hasn't already shattered, it explodes.
+**施法时间：** 反应；当你或一个你在 60 尺内能看见的生物坠落时使用  
+**射程：** 60 尺  
+**成分：** V、M（一根小羽毛或绒毛）  
+**持续时间：** 1 分钟
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d6 for each spell slot level above 6.
+选择射程内至多五个正在坠落的生物。
 
-#### Gaseous Form
+直到法术结束，每个目标的下降速度减缓为每轮 60 尺。
 
-_Level 3 Transmutation (Sorcerer, Warlock, Wizard)_
+如果一个生物在法术结束前落地，它不会受到坠落伤害，并且该生物身上的法术结束。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a bit of gauze)
-**Duration:** Concentration, up to 1 hour
+#### 寻获魔宠（Find Familiar）
 
-A willing creature you touch shape-shifts, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends on the target if it drops to 0 Hit Points or if it takes a Magic action to end the spell on itself.
+*1 环咒法法术（法师）*
 
-While in this form, the target's only method of movement is a Fly Speed of 10 feet, and it can hover. The target can enter and occupy the space of another creature. The target has Resistance to Bludgeoning, Piercing, and Slashing damage; it has Immunity to the Prone condition; and it has Advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through narrow openings, but it treats liquids as though they were solid surfaces.
+**施法时间：** 1 小时或仪式  
+**射程：** 10 尺  
+**成分：** V、S、M（价值至少 10 GP 的燃烧熏香，法术会将其消耗）  
+**持续时间：** 立即
 
-The target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. Finally, the target can't attack or cast spells.
+你获得一个魔宠（familiar）的服务。它是一位精魂，会采用你选择的一种动物形态：**蝙蝠（Bat）、猫（Cat）、青蛙（Frog）、鹰（Hawk）、蜥蜴（Lizard）、章鱼（Octopus）、猫头鹰（Owl）、鼠（Rat）、乌鸦（Raven）、蜘蛛（Spider）、鼬（Weasel）**，或者另一个挑战等级为 0 的野兽。
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 3.
+魔宠出现在射程内一个未占据空间，并使用所选形态的数据（见“怪物”），但其生物类型不再是野兽，而是天界生物、妖精或邪魔，由你选择。
 
-#### Gate
+你的魔宠独立行动，但会服从你的命令。
 
-_Level 9 Conjuration (Cleric, Sorcerer, Warlock, Wizard)_
+*心灵连接（Telepathic Connection）。* 当魔宠位于你 100 尺内时，你可以与它进行心灵感应交流。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a diamond worth 5,000+ GP)
-**Duration:** Concentration, up to 1 minute
+此外，作为附赠动作，你可以通过魔宠的眼睛观察、通过它的耳朵聆听，持续到你的下一回合开始，并获得它拥有的任何特殊感官所带来的收益。
 
-You conjure a portal linking an unoccupied space you can see within range to a precise location on a different plane of existence. The portal is a circular opening, which you can make 5 to 20 feet in diameter. You can orient the portal in any direction you choose. The portal lasts for the duration, and the portal's destination is visible through it.
+最后，当你施放一个射程为触及的法术时，魔宠可以替你传递该接触。魔宠必须位于你 100 尺内，并且当你施放法术时，它必须使用反应来完成接触。
 
-The portal has a front and a back on each plane where it appears. Travel through the portal is possible only by moving through its front. Anything that does so is instantly transported to the other plane, appearing in the unoccupied space nearest to the portal.
+*战斗（Combat）。* 魔宠是你和你盟友的盟友。它单独掷先攻，并在自己的回合行动。魔宠无法攻击，但可以正常执行其他动作。
 
-Deities and other planar rulers can prevent portals created by this spell from opening in their presence or anywhere within their domains.
+*魔宠消失（Disappearance of the Familiar）。* 当魔宠生命值降至 0 时，它会消失。你再次施放该法术后，它会重新出现。
 
-When you cast this spell, you can speak the name of a specific creature (a pseudonym, title, or nickname doesn't work). If that creature is on a plane other than the one you are on, the portal opens next to the named creature and transports it to the nearest unoccupied space on your side of the portal. You gain no special power over the creature, and it is free to act as the GM deems appropriate. It might leave, attack you, or help you.
+作为魔法动作，你可以暂时将魔宠遣返至一个次元空间。或者，你可以永久遣散它。
 
-#### Geas
+当魔宠暂时被遣返时，你可以执行魔法动作，让它重新出现在距离你 30 尺内一个未占据空间。
 
-_Level 5 Enchantment (Bard, Cleric, Druid, Paladin, Wizard)_
+每当魔宠因生命值降至 0 或进入次元空间而消失时，它穿戴或携带的一切都会留在原空间中。
 
-**Casting Time:** 1 minute
-**Range:** 60 feet
-**Components:** V
-**Duration:** 30 days
+*只能有一个魔宠（One Familiar Only）。* 同一时间你不能拥有超过一个魔宠。如果你已有魔宠时再次施放该法术，则改为令现有魔宠采用另一种符合条件的形态。
 
-You give a verbal command to a creature that you can see within range, ordering it to carry out some service or refrain from an action or a course of activity as you decide. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target automatically succeeds if it can't understand your command.
+#### 寻获坐骑（Find Steed）
 
-While Charmed, the creature takes 5d10 Psychic damage if it acts in a manner directly counter to your command. It takes this damage no more than once each day.
+*2 环咒法法术（圣武士）*
 
-You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-A _Remove Curse_, _Greater Restoration_, or _Wish_ spell ends this spell.
+你召唤一个异界存在，它以忠诚坐骑的形式出现在射程内一个由你选择的未占据空间中。
 
-_Using a Higher-Level Spell Slot._ If you use a level 7 or 8 spell slot, the duration is 365 days. If you use a level 9 spell slot, the spell lasts until it is ended by one of the spells mentioned above.
+该生物使用下方的**异界坐骑（Otherworldly Steed）**数据。
 
-#### Gentle Repose
+如果你已经拥有通过该法术召唤的坐骑，原坐骑会被新坐骑取代。
 
-_Level 2 Necromancy (Cleric, Paladin, Wizard)_
+坐骑呈现为你选择的一种大型、可以骑乘的动物，例如马、骆驼、恐狼或麋鹿。
 
-**Casting Time:** Action or Ritual
-**Range:** Touch
-**Components:** V, S, M (2 Copper Pieces, which the spell consumes)
-**Duration:** 10 days
+每次施放该法术时，选择坐骑的生物类型：天界生物、妖精或邪魔；该选择会决定其数据中的部分特性。
 
-You touch a corpse or other remains. For the duration, the target is protected from decay and can't become Undead.
+*战斗。* 坐骑是你和你盟友的盟友。在战斗中，它与你共享先攻值，而当你骑乘它时，它按照受控坐骑的规则行动，具体见骑乘战斗规则。
 
-The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as _Raise Dead_.
+如果你处于失能状态，坐骑会在你的回合后立即进行自己的回合，并独立行动，以保护你为主要目标。
 
-#### Giant Insect
+*坐骑消失（Disappearance of the Steed）。* 如果坐骑生命值降至 0，或者你死亡，坐骑会消失。消失时，它穿戴或携带的一切都会留在原处。
 
-_Level 4 Conjuration (Druid)_
+如果你再次施放该法术，可以决定召唤此前消失的同一坐骑，或者召唤另一匹坐骑。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+*使用更高环阶法术位。* 在下方数据中，将你使用的法术位环阶视为该法术的环阶。
 
-You summon a giant centipede, spider, or wasp (chosen when you cast the spell). It manifests in an unoccupied space you can see within range and uses the Giant Insect stat block. The form you choose determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.
+## 异界坐骑（Otherworldly Steed）
 
-The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger.
-_Using a Higher-Level Spell Slot._ Use the spell slot's level for the spell's level in the stat block.
+*大型天界生物、妖精或邪魔（由你选择），中立*
 
-## Giant Insect
+**AC** 10 + 每个法术环阶 1 点  
+**生命值** 5 + 每个法术环阶 10 点（坐骑拥有数量等同于法术环阶的 d10 生命骰）  
+**速度** 60 尺；飞行 60 尺（需要 4 环或更高法术）
 
-_Large Beast, Unaligned_
+| 属性 | 属性值 | 调整值 | 豁免 | 属性 | 属性值 | 调整值 | 豁免 | 属性 | 属性值 | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| 力量 | 18 | +4 | +4 | 敏捷 | 12 | +1 | +1 | 体质 | 14 | +2 | +2 |
+| 智力 | 6 | −2 | −2 | 感知 | 12 | +1 | +1 | 魅力 | 8 | −1 | −1 |
 
-**AC** 11 + the spell's level
-**HP** 30 + 10 for each spell level above 4
-**Speed** 40 ft., Climb 40 ft., Fly 40 ft. (Wasp only)
+**感官** 被动察觉 11  
+**语言** 心灵感应 1 里（仅能与你交流）  
+**CR** 无（XP 0；PB 等于你的熟练加值）
 
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>STR</td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td>DEX</td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td>CON</td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td>INT</td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-      <td>WIS</td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td>CHA</td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
+#### 特质
 
-**Senses** Darkvision 60 ft.; Passive Perception 12
-**Languages** Understands the languages you know
-**CR** None (XP 0; PB equals your Proficiency Bonus)
+***生命联结（Life Bond）。*** 当你通过一个 1 环或更高法术恢复生命值时，如果坐骑位于你 5 尺内，它也会恢复相同数量的生命值。
 
-#### Traits
+#### 动作
 
-_Spider Climb._ The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check.
+***异界猛击（Otherworldly Slam）。*** *近战攻击检定：* 加值等于你的法术攻击调整值，触及 5 尺。*命中：* 1d8 + 法术环阶的伤害；伤害类型取决于坐骑类型：天界生物为光耀，妖精为心灵，邪魔为黯蚀。
 
-#### Actions
+#### 附赠动作
 
-_Multiattack._ The insect makes a number of attacks equal to half this spell's level (round down).
+***凶邪凝视（Fell Glare，仅邪魔；完成长休后充能）。*** *感知豁免：* DC 等于你的法术豁免 DC，目标为坐骑在 60 尺内能看见的一个生物。*失败：* 目标陷入恐慌状态，直到你的下一回合结束。
 
-_Poison Jab. Melee Attack Roll:_ Bonus equals your spell attack modifier, reach 10 ft. _Hit:_ 1d6 + 3 plus the spell's level Piercing damage plus 1d4 Poison damage.
+***妖精步（Fey Step，仅妖精；完成长休后充能）。*** 坐骑连同骑手一起传送到距离自身至多 60 尺、由你选择的一个未占据空间。
 
-_Web Bolt (Spider Only). Ranged Attack Roll:_ Bonus equals your spell attack modifier, range 60 ft. _Hit:_ 1d10 + 3 plus the spell's level Bludgeoning damage, and the target's Speed is reduced to 0 until the start of the insect's next turn.
+***治疗之触（Healing Touch，仅天界生物；完成长休后充能）。*** 坐骑 5 尺内一个生物恢复等于 2d8 + 法术环阶的生命值。
 
-#### Bonus Actions
+#### 寻路术（Find the Path）
 
-_Venomous Spew (Centipede Only). Constitution Saving Throw:_ Your spell save DC, one creature the insect can see within 10 feet. _Failure:_ The target has the Poisoned condition until the start of the insect's next turn.
+*6 环预言法术（吟游诗人、牧师、德鲁伊）*
 
-#### Glibness
+**施法时间：** 1 分钟  
+**射程：** 自身  
+**成分：** V、S、M（一套价值至少 100 GP 的占卜工具，例如卡牌或符文）  
+**持续时间：** 专注，至多 1 天
 
-_Level 8 Enchantment (Bard, Warlock)_
+你以魔法感知通往一个你说出名称的地点的最直接实体路线。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V
-**Duration:** 1 hour
+你必须熟悉该地点。如果你指定的目的地位于另一个存在位面、正在移动——例如一座移动堡垒——或者过于笼统——例如“某条绿龙的巢穴”——则法术失败。
 
-Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.
+在持续时间内，只要你与目的地处于同一存在位面，就始终知道它距离你有多远，以及位于哪个方向。
 
-#### Globe of Invulnerability
+每当你在前往那里途中面临路线选择时，你会知道哪条路线最为直接。
 
-_Level 6 Abjuration (Sorcerer, Wizard)_
+#### 寻找陷阱（Find Traps）
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a glass bead)
-**Duration:** Concentration, up to 1 minute
+*2 环预言法术（牧师、德鲁伊、游侠）*
 
-An immobile, shimmering barrier appears in a 10-foot Emanation around you and remains for the duration.
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-Any spell of level 5 or lower cast from outside the barrier can't affect anything within it. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from areas of effect created by such spells.
+你感知射程内、且位于你视线范围内的任何陷阱。
 
-_Using a Higher-Level Spell Slot._ The barrier blocks spells of 1 level higher for each spell slot level above 6.
+就该法术而言，“陷阱”包括任何被制造出来、目的在于造成伤害或其他危险的物体或机关。
 
-#### Glyph of Warding
+因此，该法术能够感知*警报术*、*守卫刻文（Glyph of Warding）*或者机械式深坑陷阱，但无法侦测地板上的天然薄弱处、不稳定的天花板或隐藏的天然陷坑。
 
-_Level 3 Abjuration (Bard, Cleric, Wizard)_
+该法术只会告诉你存在陷阱，而不会揭示陷阱具体位于何处。
 
-**Casting Time:** 1 hour
-**Range:** Touch
-**Components:** V, S, M (powdered diamond worth 200+ GP, which the spell consumes)
-**Duration:** Until dispelled or triggered
+不过，你会得知所感知陷阱大致会造成哪一类危险。
 
-You inscribe a glyph that later unleashes a magical effect. You inscribe it either on a surface (such as a table or a section of floor) or within an object that can be closed (such as a book or chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.
+#### 死亡一指（Finger of Death）
 
-The glyph is nearly imperceptible and requires a successful Wisdom (Perception) check against your spell save DC to notice.
+*7 环死灵法术（术士、邪术师、法师）*
 
-When you inscribe the glyph, you set its trigger and choose whether it's an explosive rune or a spell glyph, as explained below.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-_Set the Trigger._ You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, common triggers include touching or stepping on the glyph, removing another object covering it, or approaching within a certain distance of it. For glyphs inscribed within an object, common triggers include opening that object or seeing the glyph. Once a glyph is triggered, this spell ends.
+你向射程内一个你能看见的生物释放负能量。目标进行一次体质豁免，豁免失败受到 7d8 + 30 黯蚀伤害，成功则受到一半伤害。
 
-You can refine the trigger so that only creatures of certain types activate it (for example, the glyph could be set to affect Aberrations). You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.
+被该法术杀死的类人生物会在你的下一回合开始时作为一只**僵尸（Zombie）**起身（见“怪物”），并服从你的口头命令。
 
-_Explosive Rune._ When triggered, the glyph erupts with magical energy in a 20-foot-radius Sphere centered on the glyph. Each creature in the area makes a Dexterity saving throw. A creature takes 5d8 Acid, Cold, Fire, Lightning, or Thunder damage (your
-choice when you create the glyph) on a failed save or half as much damage on a successful one.
+#### 火球术（Fireball）
 
-_Spell Glyph._ You can store a prepared spell of level 3 or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way.
+*3 环塑能法术（术士、法师）*
 
-When the glyph is triggered, the stored spell takes effect. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons Hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires Concentration, it lasts until the end of its full duration.
+**施法时间：** 动作  
+**射程：** 150 尺  
+**成分：** V、S、M（一团蝙蝠粪和硫磺）  
+**持续时间：** 立即
 
-_Using a Higher-Level Spell Slot._ The damage of an explosive rune increases by 1d8 for each spell slot level above 3. If you create a spell glyph, you can store any spell of up to the same level as the spell slot you use for the _Glyph of Warding_.
+一道明亮光芒从你身上射向射程内你选择的一点，随后伴随低沉轰鸣爆发成火焰。
 
-#### Goodberry
+以该点为中心、半径 20 尺的球状区域内，每个生物进行一次敏捷豁免。豁免失败受到 8d6 火焰伤害，成功则受到一半伤害。
 
-_Level 1 Conjuration (Druid, Ranger)_
+区域内未被穿戴或携带的易燃物体会开始燃烧。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a sprig of mistletoe)
-**Duration:** 24 hours
+*使用更高环阶法术位。* 你每使用高于 3 环一环的法术位，伤害增加 1d6。
 
-Ten berries appear in your hand and are infused with magic for the duration. A creature can take a Bonus Action to eat one berry. Eating a berry restores 1 Hit Point, and the berry provides enough nourishment to sustain a creature for one day.
+#### 火焰箭（Fire Bolt）
 
-Uneaten berries disappear when the spell ends.
+*塑能戏法（术士、法师）*
 
-#### Grease
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-_Level 1 Conjuration (Sorcerer, Wizard)_
+你向射程内一个生物或物体投出一团火焰。对目标进行一次远程法术攻击。命中时，目标受到 1d10 火焰伤害。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a bit of pork rind or butter)
-**Duration:** 1 minute
+如果目标是一个未被穿戴或携带的易燃物体，它会开始燃烧。
 
-Nonflammable grease covers the ground in a 10-foot square centered on a point within range and turns it into Difficult Terrain for the duration.
+*戏法升级。* 当你达到 5 级（2d10）、11 级（3d10）和 17 级（4d10）时，伤害各增加 1d10。
 
-When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or have the Prone condition. A creature that enters the area or ends its turn there must also succeed on that save or fall Prone.
+#### 火焰护盾（Fire Shield）
 
-#### Greater Invisibility
+*4 环塑能法术（德鲁伊、术士、法师）*
 
-_Level 4 Illusion (Bard, Sorcerer, Wizard)_
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一小块磷或一只萤火虫）  
+**持续时间：** 10 分钟
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+持续时间内，稀薄火焰环绕你的身体，在半径 10 尺内产生明亮光照，并在额外 10 尺内产生微光。
 
-A creature you touch has the Invisible condition until the spell ends.
+施放法术时，选择形成暖焰护盾或寒焰护盾。暖焰护盾给予你寒冷伤害抗性，寒焰护盾则给予你火焰伤害抗性。
 
-#### Greater Restoration
+此外，每当你 5 尺内一个生物以近战攻击检定命中你时，护盾会爆发火焰。攻击者受到 2d8 火焰伤害（暖焰护盾）或 2d8 寒冷伤害（寒焰护盾）。
 
-_Level 5 Abjuration (Bard, Cleric, Druid, Paladin, Ranger)_
+#### 火焰风暴（Fire Storm）
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (diamond dust worth 100+ GP, which the spell consumes)
-**Duration:** Instantaneous
+*7 环塑能法术（牧师、德鲁伊、术士）*
 
-You touch a creature and magically remove one of the following effects from it:
+**施法时间：** 动作  
+**射程：** 150 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-- 1 Exhaustion level
-- The Charmed or Petrified condition
-- A curse, including the target's Attunement to a cursed magic item
-- Any reduction to one of the target's ability scores
-- Any reduction to the target's Hit Point maximum
+一道火焰风暴出现在射程内。
 
-#### Guardian of Faith
+风暴区域由至多十个 10 尺立方区域组成，你可以任意排列，但每个立方区域至少必须与另一个立方区域相连。
 
-_Level 4 Conjuration (Cleric)_
+区域内每个生物进行一次敏捷豁免。豁免失败受到 7d10 火焰伤害，成功则受到一半伤害。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V
-**Duration:** 8 hours
+区域内未被穿戴或携带的易燃物体会开始燃烧。
 
-A Large spectral guardian appears and hovers for the duration in an unoccupied space that you can see within range. The guardian occupies that space and is invulnerable, and it appears in a form appropriate for your deity or pantheon.
+#### 火焰刀（Flame Blade）
 
-Any enemy that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there makes a Dexterity saving throw, taking 20 Radiant damage on a failed save or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.
+*2 环塑能法术（德鲁伊、术士）*
 
-#### Guards and Wards
+**施法时间：** 附赠动作  
+**射程：** 自身  
+**成分：** V、S、M（一片漆树叶）  
+**持续时间：** 专注，至多 10 分钟
 
-_Level 6 Abjuration (Bard, Wizard)_
+你在空闲的手中唤出一柄火焰刀刃。刀刃大小和形状近似弯刀，并持续至法术结束。
 
-**Casting Time:** 1 hour
-**Range:** Touch
-**Components:** V, S, M (a silver rod worth 10+ GP)
-**Duration:** 24 hours
+如果你松开刀刃，它会消失，但你可以使用附赠动作再次唤出它。
 
-You create a ward that protects up to 2,500 square feet of floor space. The warded area can be up to 20 feet tall, and you shape it as one 50-foot square, one hundred 5-foot squares that are contiguous, or twenty-five 10-foot squares that are contiguous.
+作为魔法动作，你可以使用火焰刀进行一次近战法术攻击。命中时，目标受到等于 3d6 + 你的施法属性调整值的火焰伤害。
 
-When you cast this spell, you can specify individuals that are unaffected by the spell's effects. You can also specify a password that, when spoken aloud within 5 feet of the warded area, makes the speaker immune to its effects.
-The spell creates the effects below within the warded area. _Dispel Magic_ has no effect on _Guards and Wards_ itself, but each of the following effects can be dispelled. If all four are dispelled, _Guards and Wards_ ends. If you cast the spell every day for 365 days on the same area, the spell thereafter lasts until all its effects are dispelled.
+火焰刀在半径 10 尺内产生明亮光照，并在额外 10 尺内产生微光。
 
-**Corridors.** Fog fills all the warded corridors, making them Heavily Obscured. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you believes it is going in the opposite direction from the one it chooses.
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，伤害增加 1d6。
 
-**Doors.** All doors in the warded area are magically locked, as if sealed by the _Arcane Lock_ spell. In addition, you can cover up to ten doors with an illusion to make them appear as plain sections of wall.
+#### 焰击术（Flame Strike）
 
-**Stairs.** Webs fill all stairs in the warded area from top to bottom, as in the _Web_ spell. These strands regrow in 10 minutes if they are destroyed while _Guards and Wards_ lasts.
+*5 环塑能法术（牧师）*
 
-**Other Spell Effect.** Place one of the following magical effects within the warded area:
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一撮硫磺）  
+**持续时间：** 立即
 
-- _Dancing Lights_ in four corridors, with a simple program that the lights repeat as long as _Guards and Wards_ lasts
-- _Magic Mouth_ in two locations
-- _Stinking Cloud_ in two locations (the vapors return within 10 minutes if dispersed while _Guards and Wards_ lasts)
-- _Gust of Wind_ in one corridor or room (the wind blows continuously while the spell lasts)
-- _Suggestion_ in one 5-foot square; any creature that enters that square receives the suggestion mentally
+一道耀眼火柱从高处轰然落下。
 
-#### Guidance
+以射程内一点为中心，一个半径 10 尺、高 40 尺的柱状区域内，每个生物进行一次敏捷豁免。
 
-_Divination Cantrip (Cleric, Druid)_
+豁免失败时，目标受到 5d6 火焰伤害和 5d6 光耀伤害；成功则两种伤害都减半。
 
-**Casting Time:** Action
-**Range:** Touch
-**Component:** V, S
-**Duration:** Concentration, up to 1 minute
+*使用更高环阶法术位。* 你每使用高于 5 环一环的法术位，火焰伤害和光耀伤害各增加 1d6。
 
-You touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill.
+#### 炽焰法球（Flaming Sphere）
 
-#### Guiding Bolt
+*2 环咒法法术（德鲁伊、术士、法师）*
 
-_Level 1 Evocation (Cleric)_
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一颗蜡球）  
+**持续时间：** 专注，至多 1 分钟
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** 1 round
+你在射程内地面上一个未占据空间中创造一个直径 5 尺的火焰球体。它持续至法术结束。
 
-You hurl a bolt of light toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 4d6 Radiant damage, and the next attack roll made against it before the end of your next turn has Advantage.
+任何在球体 5 尺内结束回合的生物都必须进行一次敏捷豁免。豁免失败受到 2d6 火焰伤害，成功则受到一半伤害。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d6 for each spell slot level above 1.
+作为附赠动作，你可以让球体沿地面滚动至多 30 尺。如果你让球体进入一个生物的空间，该生物进行一次针对球体的豁免，而球体在本回合停止移动。
 
-#### Gust of Wind
+移动球体时，你可以让它越过最高 5 尺的障碍，或跨越最宽 10 尺的坑洞。
 
-_Level 2 Evocation (Druid, Ranger, Sorcerer, Wizard)_
+未被穿戴或携带的易燃物体如果被球体触碰，会开始燃烧。球体还会在半径 20 尺内产生明亮光照，并在额外 20 尺内产生微光。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a legume seed)
-**Duration:** Concentration, up to 1 minute
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，伤害增加 1d6。
 
-A Line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the duration. Each creature in the Line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the Line. A creature that ends its turn in the Line must make the same save.
+#### 石化术（Flesh to Stone）
 
-Any creature in the Line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.
+*6 环变化法术（德鲁伊、术士、法师）*
 
-The gust disperses gas or vapor, and it extinguishes candles and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一根鸡蛇羽毛）  
+**持续时间：** 专注，至多 1 分钟
 
-As a Bonus Action on your later turns, you can change the direction in which the Line blasts from you.
+你尝试将射程内一个你能看见的生物变成石头。目标进行一次体质豁免。
 
-#### Hallow
+豁免失败时，目标在持续时间内陷入束缚状态。豁免成功时，其速度变为 0，直到你的下一回合开始。构装生物自动豁免成功。
 
-_Level 5 Abjuration (Cleric)_
+被束缚的目标在自己每个回合结束时再次进行体质豁免。如果它累计三次豁免成功，法术结束。如果累计三次失败，则目标被转化为石头，并在持续时间内陷入石化（Petrified）状态。
 
-**Casting Time:** 24 hours
-**Range:** Touch
-**Components:** V, S, M (incense worth 1,000+ GP, which the spell consumes)
-**Duration:** Until dispelled
+成功和失败不需要连续；分别记录，直到其中一种累计达到三次。
 
-You touch a point and infuse an area around it with holy or unholy power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect of _Hallow_. The affected area has the following effects.
+如果你在该法术整个最大持续时间内都维持专注，目标会持续处于石化状态，直到被*高等复原术*或类似魔法解除。
 
-**Hallowed Ward.** Choose any of these creature types: Aberration, Celestial, Elemental, Fey, Fiend, or Undead. Creatures of the chosen types can't willingly enter the area, and any creature that is possessed by or that has the Charmed or Frightened condition from such creatures isn't possessed, Charmed, or Frightened by them while in the area.
+#### 浮碟术（Floating Disk）
 
-**Extra Effect.** You bind an extra effect to the area from the list below:
+*1 环咒法法术（法师）*
 
-**Courage.** Creatures of any types you choose can't gain the Frightened condition while in the area.
+**施法时间：** 动作或仪式  
+**射程：** 30 尺  
+**成分：** V、S、M（一滴水银）  
+**持续时间：** 1 小时
 
-**Darkness.** Darkness fills the area. Normal light, as well as magical light created by spells of a level lower than this spell, can't illuminate the area.
-**Daylight.** Bright light fills the area. Magical Darkness created by spells of a level lower than this spell can't extinguish the light.
+该法术创造一个直径 3 尺、厚 1 英寸的圆形水平力场平面，悬浮在地面上方 3 尺，出现在射程内你能看见的一个未占据空间。
 
-**Peaceful Rest.** Dead bodies interred in the area can't be turned into Undead.
+圆盘持续至法术结束，并能够承载至多 500 磅重量。如果放置在圆盘上的重量超过该上限，法术结束，圆盘上的所有东西掉到地面。
 
-**Extradimensional Interference.** Creatures of any types you choose can't enter or exit the area using teleportation or interplanar travel.
+当你位于圆盘 20 尺内时，圆盘保持静止。如果你距离它超过 20 尺，它会跟随你移动，使自己始终保持在你 20 尺内。
 
-**Fear.** Creatures of any types you choose have the Frightened condition while in the area.
+它可以通过不平整地形、楼梯、斜坡等，但无法跨越高度差达到或超过 10 尺的地形。例如，圆盘无法越过一个深 10 尺的坑，也无法从这样一个坑底离开。
 
-**Resistance.** Creatures of any types you choose have Resistance to one damage type of your choice while in the area.
+如果你距离圆盘超过 100 尺——通常是因为它无法绕过障碍物跟上你——法术结束。
 
-**Silence.** No sound can emanate from within the area, and no sound can reach into it.
+#### 飞行术（Fly）
 
-**Tongues.** Creatures of any types you choose can communicate with any other creature in the area even if they don't share a common language.
+*3 环变化法术（术士、邪术师、法师）*
 
-**Vulnerability.** Creatures of any types you choose have Vulnerability to one damage type of your choice while in the area.
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一根羽毛）  
+**持续时间：** 专注，至多 10 分钟
 
-#### Hallucinatory Terrain
+你触碰一个自愿生物。持续时间内，目标获得 60 尺飞行速度，并可以悬停。
 
-_Level 4 Illusion (Bard, Druid, Warlock, Wizard)_
+法术结束时，如果目标仍在空中并且没有其他方式阻止坠落，它会坠落。
 
-**Casting Time:** 10 minutes
-**Range:** 300 feet
-**Components:** V, S, M (a mushroom)
-**Duration:** 24 hours
+*使用更高环阶法术位。* 你每使用高于 3 环一环的法术位，就可以额外指定一个生物。
 
-You make natural terrain in a 150-foot Cube in range look, sound, and smell like another sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed.
+#### 云雾术（Fog Cloud）
 
-The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to notice the illusion. If the difference isn't obvious by touch, a creature examining the illusion can take the Study action to make an Intelligence (Investigation) check against your spell save DC to disbelieve it. If a creature discerns that the terrain is illusory, the creature sees a vague image superimposed on the real terrain.
+*1 环咒法法术（德鲁伊、游侠、术士、法师）*
 
-#### Harm
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 小时
 
-_Level 6 Necromancy (Cleric)_
+你以射程内一点为中心创造一个半径 20 尺的雾气球状区域。区域处于重度遮蔽状态。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Instantaneous
+雾气持续至法术结束，或者直到强风——例如*舞风术*创造的强风——将其吹散。
 
-You unleash virulent magic on a creature you can see within range. The target makes a Constitution saving throw. On a failed save, it takes 14d6 Necrotic damage, and its Hit Point maximum is reduced by an amount equal to the Necrotic damage it took. On a successful save, it takes half as much damage only. This spell can't reduce a target's Hit Point maximum below 1.
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，雾气半径增加 20 尺。
 
-#### Haste
+#### 禁制术（Forbiddance）
 
-_Level 3 Transmutation (Sorcerer, Wizard)_
+*6 环防护法术（牧师）*
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S, M (a shaving of licorice root)
-**Duration:** Concentration, up to 1 minute
+**施法时间：** 10 分钟或仪式  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 1,000 GP 的红宝石粉末）  
+**持续时间：** 1 天
 
-Choose a willing creature that you can see within range. Until the spell ends, the target's Speed is doubled, it gains a +2 bonus to Armor Class, it has Advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used to take only the Attack (one attack only), Dash, Disengage, Hide, or Utilize action.
+你创造一道防止魔法旅行的结界，可保护至多 40,000 平方尺的地面区域，并向地面上方延伸 30 尺。
 
-When the spell ends, the target is Incapacitated and has a Speed of 0 until the end of its next turn, as a wave of lethargy washes over it.
+持续时间内，生物无法传送进入该区域，也无法通过传送门进入，例如*异界之门（Gate）*创造的传送门。
 
-#### Heal
+该法术还阻止位面旅行，因此生物无法通过星界位面、以太位面、妖精荒野、堕影冥界或*异界传送（Plane Shift）*进入该区域。
 
-_Level 6 Abjuration (Cleric, Druid)_
+此外，你在施放法术时选择一种或多种生物类型：异怪、天界生物、元素、妖精、邪魔和不死生物。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Instantaneous
+每当一个所选类型的生物在一个回合中第一次进入法术区域，或者在其中结束回合时，该生物受到 5d10 光耀或黯蚀伤害，由你施法时选择伤害类型。
 
-Choose a creature that you can see within range. Positive energy washes through the target, restoring 70 Hit Points. This spell also ends the Blinded, Deafened, and Poisoned conditions on the target.
+施放法术时，你可以指定一个口令。生物进入区域时如果说出口令，不会受到法术伤害。
 
-_Using a Higher-Level Spell Slot._ The healing increases by 10 for each spell slot level above 6.
+该法术的区域不能与另一个*禁制术*区域重叠。
 
-#### Healing Word
+如果你连续 30 天每天都在同一地点施放该法术，它会持续到被解除为止，并且材料成分在最后一次施放时被消耗。
 
-_Level 1 Abjuration (Bard, Cleric, Druid)_
+#### 力场监牢（Forcecage）
 
-**Casting Time:** Bonus Action
-**Range:** 60 feet
-**Components:** V
-**Duration:** Instantaneous
+*7 环塑能法术（吟游诗人、邪术师、法师）*
 
-A creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your spellcasting ability modifier.
+**施法时间：** 动作  
+**射程：** 100 尺  
+**成分：** V、S、M（价值至少 1,500 GP 的红宝石粉末，法术会将其消耗）  
+**持续时间：** 专注，至多 1 小时
 
-_Using a Higher-Level Spell Slot._ The healing increases by 2d4 for each spell slot level above 1.
+一个由魔法力场组成、固定不动、隐形且呈立方体形状的监牢，会围绕射程内你选择的一片区域出现。
 
-#### Heat Metal
+你可以选择让监牢成为栅栏式牢笼或实体盒子。
 
-_Level 2 Transmutation (Bard, Druid)_
+栅栏式牢笼每边最长可达 20 尺，由直径 1/2 英寸、间隔 1/2 英寸的力场栏杆构成。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a piece of iron and a flame)
-**Duration:** Concentration, up to 1 minute
-Choose a manufactured metal object, such as a metal weapon or a suit of Heavy or Medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 Fire damage when you cast the spell. Until the spell ends, you can take a Bonus Action on each of your later turns to deal this damage again if the object is within range.
+实体盒子每边最长可达 10 尺，形成完全实体的屏障，阻止任何物质通过，并阻挡任何从区域外施放进来或从区域内施放出去的法术。
 
-If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn't drop the object, it has Disadvantage on attack rolls and ability checks until the start of your next turn.
+施放法术时，完全位于牢笼区域内的生物会被困住。只有部分身体位于区域内，或体型大得无法被完全容纳的生物，会被从区域中心推开，直到完全位于区域外。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 2.
+牢笼内的生物无法通过非魔法手段离开。
 
-#### Hellish Rebuke
+如果它试图通过传送或跨位面旅行离开，必须先进行一次魅力豁免。豁免成功时，它可以使用该魔法离开；失败时，它不会离开，并浪费该法术或效果。
 
-_Level 1 Evocation (Warlock)_
+牢笼也延伸进以太位面，因此会阻挡以太旅行。
 
-**Casting Time:** Reaction, which you take in response to taking damage from a creature that you can see within 60 feet of yourself
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Instantaneous
+该法术无法被*解除魔法*解除。
 
-The creature that damaged you is momentarily surrounded by green flames. It makes a Dexterity saving throw, taking 2d10 Fire damage on a failed save or half as much damage on a successful one.
+#### 预警术（Foresight）
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d10 for each spell slot level above 1.
+*9 环预言法术（吟游诗人、德鲁伊、邪术师、法师）*
 
-#### Heroes' Feast
+**施法时间：** 1 分钟  
+**射程：** 触及  
+**成分：** V、S、M（一根蜂鸟羽毛）  
+**持续时间：** 8 小时
 
-_Level 6 Conjuration (Bard, Cleric, Druid)_
+你触碰一个自愿生物，并赋予它有限地预见即时未来的能力。
 
-**Casting Time:** 10 minutes
-**Range:** Self
-**Components:** V, S, M (a gem-encrusted bowl worth 1,000+ GP, which the spell consumes)
-**Duration:** Instantaneous
+持续时间内，目标进行 D20 检定时具有优势，而其他生物对其进行攻击检定时具有劣势。
 
-You conjure a feast that appears on a surface in an unoccupied 10-foot Cube next to you. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don't set in until this hour is over. Up to twelve creatures can partake of the feast.
+如果你再次施放该法术，当前效果提前结束。
 
-A creature that partakes gains several benefits, which last for 24 hours. The creature has Resistance to Poison damage, and it has Immunity to the Frightened and Poisoned conditions. Its Hit Point maximum also increases by 2d10, and it gains the same number of Hit Points.
+#### 行动自如（Freedom of Movement）
 
-#### Heroism
+*4 环防护法术（吟游诗人、牧师、德鲁伊、游侠）*
 
-_Level 1 Enchantment (Bard, Paladin)_
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一条皮带）  
+**持续时间：** 1 小时
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+你触碰一个自愿生物。
 
-A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to the Frightened condition and gains Temporary Hit Points equal to your spellcasting ability modifier at the start of each of its turns.
+持续时间内，困难地形不会影响目标的移动，而法术和其他魔法效果既无法降低目标速度，也无法令目标陷入麻痹或束缚状态。
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 1.
+目标还获得等于自身速度的游泳速度。
 
-#### Hex
+此外，目标可以花费 5 尺移动，自动挣脱非魔法束缚，例如镣铐，或者由其他生物施加的擒抱状态。
 
-_Level 1 Enchantment (Warlock)_
+*使用更高环阶法术位。* 你每使用高于 4 环一环的法术位，就可以额外指定一个生物。
 
-**Casting Time:** Bonus Action
-**Range:** 90 feet
-**Components:** V, S, M (the petrified eye of a newt)
-**Duration:** Concentration, up to 1 hour
+#### 冰冻法球（Freezing Sphere）
 
-You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has Disadvantage on ability checks made with the chosen ability.
+*6 环塑能法术（术士、法师）*
 
-If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action on a later turn to curse a new creature.
+**施法时间：** 动作  
+**射程：** 300 尺  
+**成分：** V、S、M（一颗微型水晶球）  
+**持续时间：** 立即
 
-_Using a Higher-Level Spell Slot._ Your Concentration can last longer with a spell slot of level 2 (up to 4 hours), 3–4 (up to 8 hours), or 5+ (24 hours).
+一颗极寒球体从你身上射向射程内你选择的一点，并在那里爆炸，形成半径 60 尺的球状区域。
 
-#### Hideous Laughter
+区域内每个生物进行一次体质豁免。豁免失败受到 10d6 寒冷伤害，成功则受到一半伤害。
 
-_Level 1 Enchantment (Bard, Warlock, Wizard)_
+如果球体击中水体，会冻结一个 30 尺见方区域内、深 6 英寸的水层。冰层持续 1 分钟。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S, M (a tart and a feather)
-**Duration:** Concentration, up to 1 minute
+原本在被冻结水面上游泳的生物会被困在冰中，并陷入束缚状态。被困生物可以执行动作，针对你的法术豁免 DC 进行一次力量（运动）检定以挣脱。
 
-One creature of your choice that you can see within range makes a Wisdom saving throw. On a failed save, it has the Prone and Incapacitated conditions for the duration. During that time, it laughs uncontrollably if it's capable of laughter, and it can't end the Prone condition on itself.
+完成施法后，你可以选择暂时不发射球体。如果这样做，一个约投石索弹丸大小、触感冰凉的球体会出现在你手中。
 
-At the end of each of its turns and each time it takes damage, it makes another Wisdom saving throw. The target has Advantage on the save if the save is triggered by damage. On a successful save, the spell ends.
+在任何时候，你或你交给球体的生物都可以将它投掷出去，射程为 40 尺；也可以使用投石索发射，射程为该武器正常射程。
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 1.
+球体撞击时破裂，产生与正常施放法术相同的效果。你也可以把球体放在地上而不使其破裂。
 
-#### Hold Monster
+1 分钟后，如果球体还没有破裂，它会自动爆炸。
 
-_Level 5 Enchantment (Bard, Sorcerer, Warlock, Wizard)_
+*使用更高环阶法术位。* 你每使用高于 6 环一环的法术位，伤害增加 1d6。
 
-**Casting Time:** Action
-**Range:** 90 feet
-**Components:** V, S, M (a straight piece of iron)
-**Duration:** Concentration, up to 1 minute
+#### 气化形体（Gaseous Form）
 
-Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.
+*3 环变化法术（术士、邪术师、法师）*
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 5.
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一小块纱布）  
+**持续时间：** 专注，至多 1 小时
 
-#### Hold Person
+你触碰一个自愿生物，使其连同穿戴和携带的一切都变形为一团雾气，持续至法术结束。
 
-_Level 2 Enchantment (Bard, Cleric, Druid, Sorcerer, Warlock, Wizard)_
+如果目标生命值降至 0，或者目标执行魔法动作主动结束自身的法术效果，该法术对目标结束。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a straight piece of iron)
-**Duration:** Concentration, up to 1 minute
+在该形态下，目标唯一的移动方式是 10 尺飞行速度，并可以悬停。
 
-Choose a Humanoid that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.
+目标可以进入并占据其他生物的空间。
 
-_Using a Higher-Level Spell Slot._ You can target one additional Humanoid for each spell slot level above 2.
+目标对钝击、穿刺和挥砍伤害具有抗性；免疫倒地状态；进行力量、敏捷和体质豁免时具有优势。
 
-#### Holy Aura
+目标可以穿过狭窄缝隙，但会将液体视为实体表面。
 
-_Level 8 Abjuration (Cleric)_
+目标无法说话或操纵物体，并且其原本携带或握持的物品无法丢下、使用或以其他方式互动。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a reliquary worth 1,000+ GP)
-**Duration:** Concentration, up to 1 minute
+最后，目标无法攻击或施放法术。
 
-For the duration, you emit an aura in a 30-foot Emanation. While in the aura, creatures of your choice have Advantage on all saving throws, and other creatures have Disadvantage on attack rolls against them. In addition, when a Fiend or an Undead hits an affected creature with a melee attack roll, the attacker must succeed on a Constitution saving throw or have the Blinded condition until the end of its next turn.
+*使用更高环阶法术位。* 你每使用高于 3 环一环的法术位，就可以额外指定一个生物。
 
-#### Hunter's Mark
+#### 异界之门（Gate）
 
-_Level 1 Divination (Ranger)_
+*9 环咒法法术（牧师、术士、邪术师、法师）*
 
-**Casting Time:** Bonus Action
-**Range:** 90 feet
-**Components:** V
-**Duration:** Concentration, up to 1 hour
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一颗价值至少 5,000 GP 的钻石）  
+**持续时间：** 专注，至多 1 分钟
 
-You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target whenever you hit it with an attack roll. You also have Advantage on any Wisdom (Perception or Survival) check you make to find it.
+你创造一道传送门，将射程内一个你能看见的未占据空间与另一个存在位面中的精确地点连接起来。
 
-If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.
+传送门为圆形开口，直径可由你设定为 5 至 20 尺。你可以将传送门朝任意方向放置。
 
-_Using a Higher-Level Spell Slot._ Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).
+传送门持续至法术结束，并且可以透过它看到另一端的目的地。
 
-#### Hypnotic Pattern
+传送门在其出现的两个位面各自都有正面与背面。只有从正面穿过才能进行位面旅行。
 
-_Level 3 Illusion (Bard, Sorcerer, Warlock, Wizard)_
+任何穿过正面的事物都会立即被传送到另一位面，并出现在距离传送门最近的未占据空间。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** S, M (a pinch of confetti)
-**Duration:** Concentration, up to 1 minute
+神祇和其他位面统治者可以阻止由该法术创造的传送门在其面前，或者在其领域的任何地点开启。
 
-You create a twisting pattern of colors in a 30-foot Cube within range. The pattern appears for a moment and vanishes. Each creature in the area who can see the pattern must succeed on a Wisdom saving throw or have the Charmed condition for the duration. While Charmed, the creature has the Incapacitated condition and a Speed of 0.
+施放该法术时，你可以说出一个具体生物的名字；化名、头衔或昵称无效。
 
-The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.
+如果该生物位于与你不同的位面，传送门会在它旁边打开，并将其传送到你这一侧距离传送门最近的未占据空间。
 
-#### Ice Knife
+你不会获得任何控制该生物的特殊能力，它可以按照 GM 认为合适的方式自由行动。它可能离开、攻击你，或者帮助你。
 
-_Level 1 Conjuration (Druid, Sorcerer, Wizard)_
+#### 指使术（Geas）
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** S, M (a drop of water or a piece of ice)
-**Duration:** Instantaneous
+*5 环惑控法术（吟游诗人、牧师、德鲁伊、圣武士、法师）*
 
-You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage.
+**施法时间：** 1 分钟  
+**射程：** 60 尺  
+**成分：** V  
+**持续时间：** 30 天
 
-_Using a Higher-Level Spell Slot._ The Cold damage increases by 1d6 for each spell slot level above 1.
+你对射程内一个你能看见的生物下达口头命令，要求它完成某项服务，或者禁止它采取某种行动或活动，由你决定。
 
-#### Ice Storm
+目标必须成功通过一次感知豁免，否则在持续时间内陷入魅惑状态。如果目标无法理解你的命令，它自动豁免成功。
 
-_Level 4 Evocation (Druid, Sorcerer, Wizard)_
+处于魅惑状态时，如果目标采取直接违背你命令的行为，会受到 5d10 心灵伤害。它每天至多因此受到一次该伤害。
 
-**Casting Time:** Action
-**Range:** 300 feet
-**Components:** V, S, M (a mitten)
-**Duration:** Instantaneous
+你可以下达任何命令，只要命令不会要求目标执行必然导致死亡的行为。如果你下达自杀性质的命令，法术结束。
 
-Hail falls in a 20-foot-radius, 40-foot-high Cylinder centered on a point within range. Each creature in the Cylinder makes a Dexterity saving throw. A creature takes 2d10 Bludgeoning damage and 4d6 Cold damage on a failed save or half as much damage on a successful one.
+*移除诅咒（Remove Curse）*、*高等复原术*或*祈愿术*可以结束该法术。
 
-Hailstones turn ground in the Cylinder into Difficult Terrain until the end of your next turn.
-_Using a Higher-Level Spell Slot._ The Bludgeoning damage increases by 1d10 for each spell slot level above 4.
+*使用更高环阶法术位。* 使用 7 环或 8 环法术位时，持续时间变为 365 天。使用 9 环法术位时，法术持续到被上述法术之一结束为止。
 
-#### Identify
+#### 遗体防腐（Gentle Repose）
 
-_Level 1 Divination (Bard, Wizard)_
+*2 环死灵法术（牧师、圣武士、法师）*
 
-**Casting Time:** 1 minute or Ritual
-**Range:** Touch
-**Components:** V, S, M (a pearl worth 100+ GP)
-**Duration:** Instantaneous
+**施法时间：** 动作或仪式  
+**射程：** 触及  
+**成分：** V、S、M（2 枚铜币，法术会将其消耗）  
+**持续时间：** 10 天
 
-You touch an object throughout the spell's casting. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell's name.
+你触碰一具尸体或其他遗骸。
 
-If you instead touch a creature throughout the casting, you learn which ongoing spells, if any, are currently affecting it.
+持续时间内，目标不会腐烂，也不会变成不死生物。
 
-#### Illusory Script
+该法术也会有效延长让目标复活的时间限制，因为目标处于该法术影响下经过的天数，不会计入诸如*死者复活（Raise Dead）*等法术规定的死亡时间限制。
 
-_Level 1 Illusion (Bard, Warlock, Wizard)_
+#### 巨虫术（Giant Insect）
 
-**Casting Time:** 1 minute or Ritual
-**Range:** Touch
-**Components:** S, M (ink worth 10+ GP, which the spell consumes)
-**Duration:** 10 days
+*4 环咒法法术（德鲁伊）*
 
-You write on parchment, paper, or another suitable material and imbue it with an illusion that lasts for the duration. To you and any creatures you designate when you cast the spell, the writing appears normal, seems to be written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, the illusion can alter the meaning, handwriting, and language of the text, though the language must be one you know.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-If the spell is dispelled, the original script and the illusion both disappear.
+你召唤一只巨型蜈蚣、蜘蛛或黄蜂，施法时选择其种类。
 
-A creature that has Truesight can read the hidden message.
+它出现在射程内一个你能看见的未占据空间，并使用下方的**巨虫（Giant Insect）**数据。你选择的形态决定其数据中的部分内容。
 
-#### Imprisonment
+当生物生命值降至 0 或法术结束时，它会消失。
 
-_Level 9 Abjuration (Warlock, Wizard)_
+该生物是你和你盟友的盟友。战斗中，它与你共享先攻值，但会在你的回合结束后立即进行自己的回合。
 
-**Casting Time:** 1 minute
-**Range:** 30 feet
-**Components:** V, S, M (a statuette of the target worth 5,000+ GP)
-**Duration:** Until dispelled
+它服从你的口头命令，无需你使用动作。如果你没有发出命令，它会执行闪避动作，并使用移动躲避危险。
 
-You create a magical restraint to hold a creature that you can see within range. The target must make a Wisdom saving throw. On a successful save, the target is unaffected, and it is immune to this spell for the next 24 hours. On a failed save, the target is imprisoned. While imprisoned, the target doesn't need to breathe, eat, or drink, and it doesn't age. Divination spells can't locate or perceive the imprisoned target, and the target can't teleport.
+*使用更高环阶法术位。* 在下方数据中，将你使用的法术位环阶作为该法术的环阶。
 
-Until the spell ends, the target is also affected by one of the following effects of your choice:
+## 巨虫（Giant Insect）
 
-**Burial.** The target is entombed beneath the earth in a hollow globe of magical force that is just large enough to contain the target. Nothing can pass into or out of the globe.
+*大型野兽，无阵营*
 
-**Chaining.** Chains firmly rooted in the ground hold the target in place. The target has the Restrained condition and can't be moved by any means.
+**AC** 11 + 法术环阶  
+**生命值** 30 + 每高于 4 环一环增加 10 点  
+**速度** 40 尺；攀爬 40 尺；飞行 40 尺（仅黄蜂）
 
-**Hedged Prison.** The target is trapped in a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like.
+| 属性 | 属性值 | 调整值 | 豁免 | 属性 | 属性值 | 调整值 | 豁免 | 属性 | 属性值 | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| 力量 | 17 | +3 | +3 | 敏捷 | 13 | +1 | +1 | 体质 | 15 | +2 | +2 |
+| 智力 | 4 | −3 | −3 | 感知 | 14 | +2 | +2 | 魅力 | 3 | −4 | −4 |
 
-**Minimus Containment.** The target becomes 1 inch tall and is trapped inside an indestructible gemstone or a similar object. Light can pass through the gemstone (allowing the target to see out and other creatures to see in), but nothing else can pass through by any means.
+**感官** 黑暗视觉 60 尺；被动察觉 12  
+**语言** 理解你所知道的语言  
+**CR** 无（XP 0；PB 等于你的熟练加值）
 
-**Slumber.** The target has the Unconscious condition and can't be awoken.
+#### 特质
 
-_Ending the Spell._ When you cast the spell, specify a trigger that will end it. The trigger can be as simple or as elaborate as you choose, but the GM must agree that it has a high likelihood of happening within the next decade. The trigger must be an observable action, such as someone making a particular offering at the temple of your god, saving your true love, or defeating a specific monster.
+*蛛行（Spider Climb）。* 巨虫无需进行属性检定，就能攀爬困难表面，包括倒挂在天花板上移动。
 
-A _Dispel Magic_ spell can end the spell only if it is cast with a level 9 spell slot, targeting either the prison or the component used to create it.
+#### 动作
 
-#### Incendiary Cloud
+*多重攻击（Multiattack）。* 巨虫进行次数等于该法术环阶一半的攻击，向下取整。
 
-_Level 8 Conjuration (Druid, Sorcerer, Wizard)_
+*毒刺（Poison Jab）。* *近战攻击检定：* 加值等于你的法术攻击调整值，触及 10 尺。*命中：* 1d6 + 3 + 法术环阶的穿刺伤害，再加 1d4 毒素伤害。
 
-**Casting Time:** Action
-**Range:** 150 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+*蛛网弹（Web Bolt，仅蜘蛛）。* *远程攻击检定：* 加值等于你的法术攻击调整值，射程 60 尺。*命中：* 1d10 + 3 + 法术环阶的钝击伤害，并且目标速度降至 0，直到巨虫下一回合开始。
 
-A swirling cloud of embers and smoke fills a 20-foot-radius Sphere centered on a point within range. The cloud's area is Heavily Obscured. It lasts for the duration or until a strong wind (like that created by _Gust of Wind_) disperses it.
+#### 附赠动作
 
-When the cloud appears, each creature in it makes a Dexterity saving throw, taking 10d8 Fire damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.
-The cloud moves 10 feet away from you in a direction you choose at the start of each of your turns.
+*毒液喷吐（Venomous Spew，仅蜈蚣）。* *体质豁免：* DC 等于你的法术豁免 DC，目标为巨虫在 10 尺内能看见的一个生物。*失败：* 目标陷入中毒状态，直到巨虫下一回合开始。
 
-#### Inflict Wounds
+#### 能言善道（Glibness）
 
-_Level 1 Necromancy (Cleric)_
+*8 环惑控法术（吟游诗人、邪术师）*
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V  
+**持续时间：** 1 小时
 
-A creature you touch makes a Constitution saving throw, taking 2d10 Necrotic damage on a failed save or half as much damage on a successful one.
+直到法术结束，每当你进行魅力检定时，可以将你掷出的数字替换为 15。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d10 for each spell slot level above 1.
+此外，无论你说什么，任何用于判断你是否正在说真话的魔法都会显示你说的是真话。
 
-#### Insect Plague
+#### 法术无效结界（Globe of Invulnerability）
 
-_Level 5 Conjuration (Cleric, Druid, Sorcerer)_
+*6 环防护法术（术士、法师）*
 
-**Casting Time:** Action
-**Range:** 300 feet
-**Components:** V, S, M (a locust)
-**Duration:** Concentration, up to 10 minutes
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一颗玻璃珠）  
+**持续时间：** 专注，至多 1 分钟
 
-Swarming locusts fill a 20-foot-radius Sphere centered on a point you choose within range. The Sphere remains for the duration, and its area is Lightly Obscured and Difficult Terrain.
+一道固定不动、闪耀的屏障出现在你周围，形成 10 尺发散区域，并持续至法术结束。
 
-When the swarm appears, each creature in it makes a Constitution saving throw, taking 4d10 Piercing damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell's area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.
+任何从屏障外施放的 5 环或更低环阶法术，都无法影响屏障内的任何事物。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d10 for each spell slot level above 5.
+这样的法术仍然可以指定屏障内的生物和物体为目标，但不会对它们产生任何效果。同样，由这些法术创造的影响范围也不会覆盖屏障内区域。
 
-#### Instant Summons
+*使用更高环阶法术位。* 你每使用高于 6 环一环的法术位，屏障能够阻挡的法术最高环阶提高 1 环。
 
-_Level 6 Conjuration (Wizard)_
+#### 守卫刻文（Glyph of Warding）
 
-**Casting Time:** 1 minute or Ritual
-**Range:** Touch
-**Components:** V, S, M (a sapphire worth 1,000+ GP)
-**Duration:** Until dispelled
+*3 环防护法术（吟游诗人、牧师、法师）*
 
-You touch the sapphire used in the casting and an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an Invisible mark on that object and invisibly inscribes the object's name on the sapphire. Each time you cast this spell, you must use a different sapphire.
+**施法时间：** 1 小时  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 200 GP 的钻石粉末，法术会将其消耗）  
+**持续时间：** 直到被解除或触发
 
-Thereafter, you can take a Magic action to speak the object's name and crush the sapphire. The object instantly appears in your hand regardless of physical or planar distances, and the spell ends.
+你刻下一枚符文，在之后触发时释放魔法效果。
 
-If another creature is holding or carrying the object, crushing the sapphire doesn't transport it, but instead you learn who that creature is and where that creature is currently located.
+你可以将符文刻在一个表面上，例如桌面或地板的一部分；或者刻在一个能够关闭的物体内部，例如书本或箱子，以隐藏符文。
 
-#### Irresistible Dance
+符文覆盖范围不得超过直径 10 尺。
 
-_Level 6 Enchantment (Bard, Wizard)_
+如果承载符文的表面或物体被移动到距离施法地点超过 10 尺，符文会破坏，法术结束且不会被触发。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V
-**Duration:** Concentration, up to 1 minute
+符文几乎无法察觉。要注意到它，必须成功通过一次针对你的法术豁免 DC 的感知（察觉）检定。
 
-One creature that you can see within range must make a Wisdom saving throw. On a successful save, the target dances comically until the end of its next turn, during which it must spend all its movement to dance in place.
+刻下符文时，你设定它的触发条件，并选择让它成为爆炸符文或法术符文，具体如下。
 
-On a failed save, the target has the Charmed condition for the duration. While Charmed, the target dances comically, must use all its movement to dance in place, and has Disadvantage on Dexterity saving throws and attack rolls, and other creatures have Advantage on attack rolls against it. On each of its turns, the target can take an action to collect itself and repeat the save, ending the spell on itself on a success.
+*设定触发条件（Set the Trigger）。* 施放法术时，你决定什么会触发符文。
 
-#### Invisibility
+刻在表面上的符文常见触发条件包括：触碰或踩到符文、移走覆盖符文的物体，或者进入符文一定距离内。
 
-_Level 2 Illusion (Bard, Sorcerer, Warlock, Wizard)_
+刻在物体内部的符文常见触发条件包括：打开该物体或者看见符文。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (an eyelash in gum arabic)
-**Duration:** Concentration, up to 1 hour
+一旦符文被触发，该法术结束。
 
-A creature you touch has the Invisible condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.
+你可以进一步细化触发条件，使其仅对特定类型生物生效，例如设定符文只影响异怪。
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 2.
+你也可以规定某些不会触发符文的条件，例如说出特定口令的生物不会触发。
 
-#### Jump
+*爆炸符文（Explosive Rune）。* 被触发时，符文以自身为中心，在半径 20 尺球状区域内爆发魔法能量。
 
-_Level 1 Transmutation (Druid, Ranger, Sorcerer, Wizard)_
+区域内每个生物进行一次敏捷豁免。豁免失败时，受到 5d8 强酸、寒冷、火焰、闪电或雷鸣伤害，由你创造符文时选择；成功则受到一半伤害。
 
-**Casting Time:** Bonus Action
-**Range:** Touch
-**Component:** V, S, M (a grasshopper's hind leg)
-**Duration:** 1 minute
+*法术符文（Spell Glyph）。* 你可以在符文中储存一个已准备的 3 环或更低法术，并在创造符文过程中施放它。
 
-You touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.
+被储存法术必须指定单一生物或影响一片区域。以这种方式施放时，该法术不会立即产生效果。
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 1.
+符文触发时，被储存的法术生效。如果法术具有目标，则以触发符文的生物为目标。如果法术影响区域，则区域以该生物为中心。
 
-#### Knock
+如果法术召唤敌对生物或创造有害物体或陷阱，它们会尽可能接近入侵者出现，并攻击它。
 
-_Level 2 Transmutation (Bard, Sorcerer, Wizard)_
+如果法术需要专注，则会持续到其完整持续时间结束，而不需要有人维持专注。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V
-**Duration:** Instantaneous
-Choose an object that you can see within range. The object can be a door, a box, a chest, a set of manacles, a padlock, or another object that contains a mundane or magical means that prevents access.
+*使用更高环阶法术位。* 你每使用高于 3 环一环的法术位，爆炸符文伤害增加 1d8。
 
-A target that is held shut by a mundane lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked.
+如果创造法术符文，则可以储存环阶不高于你用于施放*守卫刻文*的法术位环阶的法术。
 
-If the target is held shut by _Arcane Lock_, that spell is suppressed for 10 minutes, during which time the target can be opened and closed.
+#### 神莓术（Goodberry）
 
-When you cast the spell, a loud knock, audible up to 300 feet away, emanates from the target.
+*1 环咒法法术（德鲁伊、游侠）*
 
-#### Legend Lore
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一小枝槲寄生）  
+**持续时间：** 24 小时
 
-_Level 5 Divination (Bard, Cleric, Wizard)_
+十颗浆果出现在你手中，并在持续时间内充满魔法。
 
-**Casting Time:** 10 minutes
-**Range:** Self
-**Components:** V, S, M (incense worth 250+ GP, which the spell consumes, and four ivory strips worth 50+ GP each)
-**Duration:** Instantaneous
+一个生物可以使用附赠动作吃下一颗浆果。吃下浆果会恢复 1 点生命值，并提供足以维持一天所需的营养。
 
-Name or describe a famous person, place, or object. The spell brings to your mind a brief summary of the significant lore about that famous thing, as described by the GM.
+未被食用的浆果在法术结束时消失。
 
-The lore might consist of important details, amusing revelations, or even secret lore that has never been widely known. The more information you already know about the thing, the more precise and detailed the information you receive is. That information is accurate but might be couched in figurative language or poetry, as determined by the GM.
+#### 油腻术（Grease）
 
-If the famous thing you chose isn't actually famous, you hear sad musical notes played on a trombone, and the spell fails.
+*1 环咒法法术（术士、法师）*
 
-#### Lesser Restoration
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一小块猪皮或黄油）  
+**持续时间：** 1 分钟
 
-_Level 2 Abjuration (Bard, Cleric, Druid, Paladin, Ranger)_
+不可燃的油脂覆盖以射程内一点为中心的一片 10 尺方形地面，并在持续时间内使该区域成为困难地形。
 
-**Casting Time:** Bonus Action
-**Range:** Touch
-**Components:** V, S
-**Duration:** Instantaneous
+油脂出现时，区域内站立的每个生物必须成功通过一次敏捷豁免，否则陷入倒地状态。
 
-You touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned.
+生物进入区域或在那里结束回合时，也必须成功通过该豁免，否则倒地。
 
-#### Levitate
+#### 高等隐形术（Greater Invisibility）
 
-_Level 2 Transmutation (Sorcerer, Wizard)_
+*4 环幻术法术（吟游诗人、术士、法师）*
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a metal spring)
-**Duration:** Concentration, up to 10 minutes
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-One creature or loose object of your choice that you can see within range rises vertically up to 20 feet and remains suspended there for the duration. The spell can levitate an object that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.
+你触碰的一个生物陷入隐形状态，持续至法术结束。
 
-The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can take a Magic action to move the target, which must remain within the spell's range.
+#### 高等复原术（Greater Restoration）
 
-When the spell ends, the target floats gently to the ground if it is still aloft.
+*5 环防护法术（吟游诗人、牧师、德鲁伊、圣武士、游侠）*
 
-#### Light
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 100 GP 的钻石粉末，法术会将其消耗）  
+**持续时间：** 立即
 
-_Evocation Cantrip (Bard, Cleric, Sorcerer, Wizard)_
+你触碰一个生物，并以魔法移除其身上的以下一种效果：
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, M (a firefly or phosphorescent moss)
-**Duration:** 1 hour
+- 1 级力竭
+- 魅惑或石化状态
+- 一项诅咒，包括目标对一件受诅咒魔法物品的同调（Attunement）
+- 目标任意一项属性值受到的降低
+- 目标生命值上限受到的降低
 
-You touch one Large or smaller object that isn't being worn or carried by someone else. Until the spell ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can be colored as you like.
+#### 信仰守卫（Guardian of Faith）
 
-Covering the object with something opaque blocks the light. The spell ends if you cast it again.
+*4 环咒法法术（牧师）*
 
-#### Lightning Bolt
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V  
+**持续时间：** 8 小时
 
-_Level 3 Evocation (Sorcerer, Wizard)_
+一个大型幽灵守卫出现在射程内一个你能看见的未占据空间，并悬浮在那里，持续至法术结束。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a bit of fur and a crystal rod)
-**Duration:** Instantaneous
+守卫占据该空间且无法被摧毁，其外形会以与你的神祇或神系相符的方式显现。
 
-A stroke of lightning forming a 100-foot-long, 5-foot-wide Line blasts out from you in a direction you choose. Each creature in the Line makes a Dexterity saving throw, taking 8d6 Lightning damage on a failed save or half as much damage on a successful one.
+每当一个敌人在一个回合中第一次移动到守卫 10 尺内的空间，或者在该区域内开始自己的回合时，它必须进行一次敏捷豁免。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d6 for each spell slot level above 3.
+豁免失败受到 20 点光耀伤害，成功则受到一半伤害。
 
-#### Locate Animals or Plants
+当守卫累计造成 60 点伤害后，它会消失。
 
-_Level 2 Divination (Bard, Druid, Ranger)_
+#### 铜墙铁壁（Guards and Wards）
 
-**Casting Time:** Action or Ritual
-**Range:** Self
-**Components:** V, S, M (fur from a bloodhound)
-**Duration:** Instantaneous
+*6 环防护法术（吟游诗人、法师）*
 
-Describe or name a specific kind of Beast, Plant creature, or nonmagical plant. You learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.
+**施法时间：** 1 小时  
+**射程：** 触及  
+**成分：** V、S、M（一根价值至少 10 GP 的银棒）  
+**持续时间：** 24 小时
 
-#### Locate Creature
+你创造一道结界，保护至多 2,500 平方尺的地面区域。
 
-_Level 4 Divination (Bard, Cleric, Druid, Paladin, Ranger, Wizard)_
+被防护区域高度最高为 20 尺，并且你可以将其塑造成一个 50 尺见方区域、一百个彼此相连的 5 尺方格，或二十五个彼此相连的 10 尺方格。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (fur from a bloodhound)
-**Duration:** Concentration, up to 1 hour
+施放法术时，你可以指定不受该法术效果影响的个体。
 
-Describe or name a creature that is familiar to you. You sense the direction to the creature's location if that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.
+你也可以指定一个口令；任何人在距离被防护区域 5 尺内大声说出口令后，会免疫法术效果。
 
-The spell can locate a specific creature known to you or the nearest creature of a specific kind (such as a human or a unicorn) if you have seen such a creature up close—within 30 feet—at least once. If the creature you described or named is in a different form, such as under the effects of a _Flesh to Stone_ or _Polymorph_ spell, this spell doesn't locate the creature.
+法术在被防护区域内创造以下效果。
 
-This spell can't locate a creature if any thickness of lead blocks a direct path between you and the creature.
+*解除魔法*无法直接解除*铜墙铁壁*本身，但下列每项效果都可以分别被解除。
 
-#### Locate Object
+如果四种效果全部被解除，*铜墙铁壁*结束。
 
-_Level 2 Divination (Bard, Cleric, Druid, Paladin, Ranger, Wizard)_
+如果你连续 365 天每天都在同一区域施放该法术，那么此后法术会持续到所有效果都被解除为止。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a forked twig)
-**Duration:** Concentration, up to 10 minutes
+**走廊（Corridors）。** 雾气填满所有被防护的走廊，使它们处于重度遮蔽状态。
 
-Describe or name an object that is familiar to you. You sense the direction to the object's location if that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.
+此外，在每个岔路或提供方向选择的交叉路口，除你之外的生物有 50% 几率误以为自己正在向与实际选择相反的方向前进。
 
-The spell can locate a specific object known to you if you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.
+**门（Doors）。** 被防护区域内所有门都会被魔法锁住，如同受到*奥术锁*影响。
 
-This spell can't locate an object if any thickness of lead blocks a direct path between you and the object.
+此外，你可以用幻象覆盖至多十扇门，使它们看起来像普通墙面。
 
-#### Longstrider
+**楼梯（Stairs）。** 被防护区域内所有楼梯从上到下都被蛛网填满，如同受到*蛛网术（Web）*影响。
 
-_Level 1 Transmutation (Bard, Druid, Ranger, Wizard)_
+如果蛛网在*铜墙铁壁*持续期间被摧毁，会在 10 分钟后重新生长。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a pinch of dirt)
-**Duration:** 1 hour
+**其他法术效果（Other Spell Effect）。** 在被防护区域内放置以下一种魔法效果：
 
-You touch a creature. The target's Speed increases by 10 feet until the spell ends.
+- 在四条走廊中放置*舞光术*，让光源按照一个简单程序反复行动，持续至*铜墙铁壁*结束
+- 在两个地点放置*魔嘴术（Magic Mouth）*
+- 在两个地点放置*臭云术（Stinking Cloud）*；如果雾气在*铜墙铁壁*持续期间被吹散，会在 10 分钟后重新出现
+- 在一条走廊或房间中放置*舞风术*；风会在法术持续期间持续吹动
+- 在一个 5 尺方格中放置*暗示术（Suggestion）*；任何进入该方格的生物都会在心灵中接收到该暗示
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 1.
+#### 神导术（Guidance）
 
-#### Mage Armor
+*预言戏法（牧师、德鲁伊）*
 
-_Level 1 Abjuration (Sorcerer, Wizard)_
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a piece of cured leather)
-**Duration:** 8 hours
+你触碰一个自愿生物，并选择一项技能。
 
-You touch a willing creature who isn't wearing armor. Until the spell ends, the target's base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor.
+直到法术结束，该生物在使用所选技能进行属性检定时，都将 1d4 加到检定结果上。
 
-#### Mage Hand
+#### 曳光弹（Guiding Bolt）
 
-_Conjuration Cantrip (Bard, Sorcerer, Warlock, Wizard)_
+*1 环塑能法术（牧师）*
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** 1 minute
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 1 轮
 
-A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.
+你向射程内一个生物发射一道光束。对目标进行一次远程法术攻击。
 
-When you cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial.
+命中时，目标受到 4d6 光耀伤害，并且在你的下一回合结束前，对其进行的下一次攻击检定具有优势。
 
-As a Magic action on your later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30 feet.
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，伤害增加 1d6。
 
-The hand can't attack, activate magic items, or carry more than 10 pounds.
+#### 舞风术（Gust of Wind）
 
-#### Magic Circle
+*2 环塑能法术（德鲁伊、游侠、术士、法师）*
 
-_Level 3 Abjuration (Cleric, Paladin, Warlock, Wizard)_
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一粒豆科植物种子）  
+**持续时间：** 专注，至多 1 分钟
 
-**Casting Time:** 1 minute
-**Range:** 10 feet
-**Components:** V, S, M (salt and powdered silver worth 100+ GP, which the spell consumes)
-**Duration:** 1 hour
+持续时间内，一道长 60 尺、宽 10 尺的强风线状区域从你身上沿你选择的方向吹出。
 
-You create a 10-foot-radius, 20-foot-tall Cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the Cylinder intersects with the floor or other surface.
+线状区域内每个生物必须成功通过一次力量豁免，否则沿该线状区域方向被推离你 15 尺。
 
-Choose one or more of the following types of creatures: Celestials, Elementals, Fey, Fiends, or Undead. The circle affects a creature of the chosen type in the following ways:
+在该线状区域内结束回合的生物也必须进行相同豁免。
 
-• The creature can't willingly enter the Cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.
-• The creature has Disadvantage on attack rolls against targets within the Cylinder.
-• Targets within the Cylinder can't be possessed by or gain the Charmed or Frightened condition from the creature.
+区域中的任何生物如果向你靠近，每移动 1 尺必须花费 2 尺移动。
 
-Each time you cast this spell, you can cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the Cylinder and protecting targets outside it.
+强风会吹散气体和蒸汽，并熄灭区域内蜡烛等未受保护的火焰。
 
-_Using a Higher-Level Spell Slot._ The duration increases by 1 hour for each spell slot level above 3.
+受保护的火焰，例如灯笼中的火焰，会剧烈摇曳，并有 50% 几率被熄灭。
 
-#### Magic Jar
+在之后的回合中，你可以使用附赠动作改变线状区域从你身上吹出的方向。
 
-_Level 6 Necromancy (Wizard)_
+#### 圣居（Hallow）
 
-**Casting Time:** 1 minute
-**Range:** Self
-**Components:** V, S, M (a gem, crystal, or reliquary worth 500+ GP)
-**Duration:** Until dispelled
+*5 环防护法术（牧师）*
 
-Your body falls into a catatonic state as your soul leaves it and enters the container you used for the spell's Material component. While your soul inhabits the container, you are aware of your surroundings as if you were in the container's space. You can't move or take Reactions. The only action you can take is to project your soul up to 100 feet out of the container, either returning to your living body (and ending the spell) or attempting to possess a Humanoid's body.
+**施法时间：** 24 小时  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 1,000 GP 的熏香，法术会将其消耗）  
+**持续时间：** 直到被解除
 
-You can attempt to possess any Humanoid within 100 feet of you that you can see (creatures warded by a _Protection from Evil and Good_ or _Magic Circle_ spell can't be possessed). The target makes a Charisma saving throw. On a failed save, your soul enters the target's body, and the target's soul becomes trapped in the container. On a successful save, the target resists your efforts to possess it, and you can't attempt to possess it again for 24 hours.
+你触碰一点，并以神圣或亵渎力量灌注周围区域。
 
-Once you possess a creature's body, you control it. Your Hit Points, Hit Point Dice, Strength, Dexterity, Constitution, Speed, and senses are replaced by the creature's. You otherwise keep your game statistics.
+区域半径最大可达 60 尺。如果该半径内包含已经受到*圣居*影响的区域，则法术失败。
 
-Meanwhile, the possessed creature's soul can perceive from the container using its own senses, but it can't move and it is Incapacitated.
+受到影响的区域具有以下效果。
 
-While possessing a body, you can take a Magic action to return from the host body to the container if it is within 100 feet of you, returning the host creature's soul to its body. If the host body dies while you're in it, the creature dies, and you make a Charisma saving throw against your own spellcasting DC. On a success, you return to the container if it is within 100 feet of you. Otherwise, you die.
+**圣域结界（Hallowed Ward）。** 从以下生物类型中选择任意数量：异怪、天界生物、元素、妖精、邪魔或不死生物。
 
-If the container is destroyed or the spell ends, your soul returns to your body. If your body is more than 100 feet away from you or if your body is dead, you die. If another creature's soul is in the container when it is destroyed, the creature's soul returns to its body if the body is alive and within 100 feet. Otherwise, that creature dies.
+所选类型的生物无法主动进入区域。
 
-When the spell ends, the container is destroyed.
+此外，任何被这些类型生物附身，或者因它们陷入魅惑或恐慌状态的生物，只要位于区域内，就不会被其附身、魅惑或恐吓。
 
-#### Magic Missile
+**额外效果（Extra Effect）。** 从以下列表中选择一种额外效果绑定至该区域：
 
-_Level 1 Evocation (Sorcerer, Wizard)_
+**勇气（Courage）。** 你选择的任意生物类型在区域内无法陷入恐慌状态。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Instantaneous
+**黑暗（Darkness）。** 黑暗充满区域。普通光源，以及由低于该法术环阶的法术创造的魔法光照，都无法照亮区域。
 
-You create three glowing darts of magical force. Each dart strikes a creature of your choice that you can see within range. A dart deals 1d4 + 1 Force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.
+**日光（Daylight）。** 明亮光照充满区域。由低于该法术环阶的法术创造的魔法黑暗无法熄灭该光照。
 
-_Using a Higher-Level Spell Slot._ The spell creates one more dart for each spell slot level above 1.
+**安息（Peaceful Rest）。** 埋葬在区域内的尸体无法被转化为不死生物。
 
-#### Magic Mouth
+**异次元干扰（Extradimensional Interference）。** 你选择的任意生物类型无法通过传送或跨位面旅行进入或离开该区域。
 
-_Level 2 Illusion (Bard, Wizard)_
+**恐惧（Fear）。** 你选择的任意生物类型在区域内陷入恐慌状态。
 
-**Casting Time:** 1 minute or Ritual
-**Range:** 30 feet
-**Components:** V, S, M (jade dust worth 10+ GP, which the spell consumes)
-**Duration:** Until dispelled
+**抗性（Resistance）。** 你选择的任意生物类型在区域内对你选择的一种伤害类型具有抗性。
 
-You implant a message within an object in range—a message that is uttered when a trigger condition is met. Choose an object that you can see and that isn't being worn or carried by another creature. Then speak the message, which must be 25 words or fewer, though it can be delivered over as long as 10 minutes. Finally, determine the circumstance that will trigger the spell to deliver your message.
+**沉默（Silence）。** 区域内部无法传出声音，外部声音也无法传入。
 
-When that trigger occurs, a magical mouth appears on the object and recites the message in your voice and at the same volume you spoke. If the object you chose has a mouth or something that looks like a mouth (for example, the mouth of a statue), the magical mouth appears there, so the words appear to come from the object's mouth. When you cast this spell, you can have the spell end after it delivers its message, or it can remain and repeat its message whenever the trigger occurs.
+**巧言（Tongues）。** 你选择的任意生物类型在区域内可以与其他任何生物交流，即使彼此没有共同语言。
 
-The trigger can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the object. For example, you could instruct the mouth to speak when any creature moves within 30 feet of the object or when a silver bell rings within 30 feet of it.
+**易伤（Vulnerability）。** 你选择的任意生物类型在区域内对你选择的一种伤害类型具有易伤。
 
-#### Magic Weapon
+#### 幻景地形（Hallucinatory Terrain）
 
-_Level 2 Transmutation (Paladin, Ranger, Sorcerer, Wizard)_
+*4 环幻术法术（吟游诗人、德鲁伊、邪术师、法师）*
 
-**Casting Time:** Bonus Action
-**Range:** Touch
-**Components:** V, S
-**Duration:** 1 hour
+**施法时间：** 10 分钟  
+**射程：** 300 尺  
+**成分：** V、S、M（一朵蘑菇）  
+**持续时间：** 24 小时
 
-You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. The spell ends early if you cast it again.
+你让射程内一个 150 尺立方区域中的天然地形，看起来、听起来和闻起来像另一种天然地形。
 
-_Using a Higher-Level Spell Slot._ The bonus increases to +2 with a level 3–5 spell slot. The bonus increases to +3 with a level 6+ spell slot.
+例如，开阔田野或道路可以看起来像沼泽、山丘、裂谷或其他难以通行甚至无法通行的地形。
 
-#### Magnificent Mansion
+池塘可以看起来像草地，悬崖可以看起来像缓坡，而遍布岩石的沟谷可以看起来像宽阔平坦的道路。
 
-_Level 7 Conjuration (Bard, Wizard)_
+区域中的人工建筑、装备和生物不会改变。
 
-**Casting Time:** 1 minute
-**Range:** 300 feet
-**Components:** V, S, M (a miniature door worth 15+ GP)
-**Duration:** 24 hours
+地形的触觉特征不会改变，因此进入区域的生物通常有机会通过触碰察觉幻象。
 
-You conjure a shimmering door in range that lasts for the duration. The door leads to an extradimensional dwelling and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the door remains open. You can open or close it (no action required) if you are within 30 feet of it. While closed, the door is imperceptible.
+如果触觉上的差异并不明显，一个检查幻象的生物可以执行研究动作，针对你的法术豁免 DC 进行一次智力（调查）检定。
 
-Beyond the door is a magnificent foyer with numerous chambers beyond. The dwelling's atmosphere is clean, fresh, and warm.
+成功时，它会识破幻象。识破后，该生物会看见一个模糊幻影叠加在真实地形上。
 
-You can create any floor plan you like for the dwelling, but it can't exceed 50 contiguous 10-foot Cubes. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine-course banquet for up to 100 people. Furnishings and other objects created by this spell dissipate into smoke if removed from it.
+#### 重伤术（Harm）
 
-A staff of 100 near-transparent servants attends all who enter. You determine the appearance of these servants and their attire. They are invulnerable and obey your commands. Each servant can perform tasks that a human could perform, but they can't attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can't leave the dwelling.
+*6 环死灵法术（牧师）*
 
-When the spell ends, any creatures or objects left inside the extradimensional space are expelled into the unoccupied spaces nearest to the entrance.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-#### Major Image
+你对射程内一个你能看见的生物释放强烈腐败魔法。
 
-_Level 3 Illusion (Bard, Sorcerer, Warlock, Wizard)_
+目标进行一次体质豁免。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S, M (a bit of fleece)
-**Duration:** Concentration, up to 10 minutes
+豁免失败时，目标受到 14d6 黯蚀伤害，并且其生命值上限降低等同于实际受到的黯蚀伤害数量。
 
-You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot Cube. The image appears at a spot that you can see within range and lasts for the duration. It seems real, including sounds, smells, and temperature appropriate to the thing depicted, but it can't deal damage or cause conditions.
+豁免成功时，目标仅受到一半伤害。
 
-If you are within range of the illusion, you can take a Magic action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.
+该法术无法将目标的生命值上限降低至 1 以下。
 
-Physical interaction with the image reveals it to be an illusion, for things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.
+#### 加速术（Haste）
 
-_Using a Higher-Level Spell Slot._ The spell lasts until dispelled, without requiring Concentration, if cast with a level 4+ spell slot.
+*3 环变化法术（术士、法师）*
 
-#### Mass Cure Wounds
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一小片甘草根）  
+**持续时间：** 专注，至多 1 分钟
 
-_Level 5 Abjuration (Bard, Cleric, Druid)_
+选择一个你在射程内能看见的自愿生物。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Instantaneous
+直到法术结束，目标速度翻倍，AC 获得 +2 加值，进行敏捷豁免时具有优势，并且在自己的每个回合中获得一个额外动作。
 
-A wave of healing energy washes out from a point you can see within range. Choose up to six creatures in a 30-foot-radius Sphere centered on that point. Each target regains Hit Points equal to 5d8 plus your spellcasting ability modifier.
+该额外动作只能用于执行以下一种动作：攻击（且只能进行一次攻击）、疾走、撤离、躲藏或使用。
 
-_Using a Higher-Level Spell Slot._ The healing increases by 1d8 for each spell slot level above 5.
+法术结束时，一阵强烈疲惫席卷目标；目标陷入失能状态，速度变为 0，直到其下一回合结束。
 
-#### Mass Heal
+#### 医疗术（Heal）
 
-_Level 9 Abjuration (Cleric)_
+*6 环防护法术（牧师、德鲁伊）*
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-A flood of healing energy flows from you into creatures around you. You restore up to 700 Hit Points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell also have the Blinded, Deafened, and Poisoned conditions removed from them.
+选择一个你在射程内能看见的生物。正能量涌入目标，使其恢复 70 点生命值。
 
-#### Mass Healing Word
+该法术还会结束目标身上的目盲、耳聋和中毒状态。
 
-_Level 3 Abjuration (Bard, Cleric)_
+*使用更高环阶法术位。* 你每使用高于 6 环一环的法术位，治疗量增加 10 点。
 
-**Casting Time:** Bonus Action
-**Range:** 60 feet
-**Components:** V
-**Duration:** Instantaneous
+#### 治愈真言（Healing Word）
 
-Up to six creatures of your choice that you can see within range regain Hit Points equal to 2d4 plus your spellcasting ability modifier.
+*1 环防护法术（吟游诗人、牧师、德鲁伊）*
 
-_Using a Higher-Level Spell Slot._ The healing increases by 1d4 for each spell slot level above 3.
+**施法时间：** 附赠动作  
+**射程：** 60 尺  
+**成分：** V  
+**持续时间：** 立即
 
-#### Mass Suggestion
+选择一个你在射程内能看见的生物。
 
-_Level 6 Enchantment (Bard, Sorcerer, Wizard)_
+目标恢复等于 2d4 + 你的施法属性调整值的生命值。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, M (a snake's tongue)
-**Duration:** 24 hours
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，治疗量增加 2d4。
 
-You suggest a course of activity—described in no more than 25 words—to twelve or fewer creatures you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to any of the targets or their allies. For example, you could say, "Walk to the village down that road, and help the villagers there harvest crops until sunset." Or you could say, "Now is not the time for violence. Drop your weapons, and dance! Stop in an hour."
+#### 灼热金属（Heat Metal）
 
-Each target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. Each Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for a target upon completing it.
+*2 环变化法术（吟游诗人、德鲁伊）*
 
-_Using a Higher-Level Spell Slot._ The duration is longer with a spell slot of level 7 (10 days), 8 (30 days), or 9 (366 days).
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一块铁和一团火焰）  
+**持续时间：** 专注，至多 1 分钟
 
-#### Maze
+选择一件你在射程内能看见的人造金属物体，例如金属武器，或者一套重甲或中甲金属护甲。
 
-_Level 8 Conjuration (Wizard)_
+你使该物体变得灼红。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+施放法术时，与该物体存在身体接触的任何生物都会受到 2d8 火焰伤害。
 
-You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.
+直到法术结束，在你之后的每个回合中，只要物体仍在射程内，你都可以使用附赠动作再次造成该伤害。
 
-The target can take a Study action to try to escape. When it does so, it makes a DC 20 Intelligence (Investigation) check. If it succeeds, it escapes, and the spell ends.
+如果一个生物正在握持或穿戴该物体，并且受到该伤害，它必须成功通过一次体质豁免，否则如果能够放下物体，就必须将其丢下。
 
-When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.
+如果它没有丢下物体，则进行攻击检定和属性检定时具有劣势，直到你的下一回合开始。
 
-#### Meld into Stone
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，伤害增加 1d8。
 
-_Level 3 Transmutation (Cleric, Druid, Ranger)_
+#### 炼狱叱喝（Hellish Rebuke）
 
-**Casting Time:** Action or Ritual
-**Range:** Touch
-**Components:** V, S
-**Duration:** 8 hours
+*1 环塑能法术（邪术师）*
 
-You step into a stone object or surface large enough to fully contain your body, merging yourself and your equipment with the stone for the duration. You must touch the stone to do so. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.
+**施法时间：** 反应；当一个你在自己 60 尺内能看见的生物对你造成伤害时使用  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-While merged with the stone, you can't see what occurs outside it, and any Wisdom (Perception) checks you make to hear sounds outside it are made with Disadvantage. You remain aware of the passage of time and can cast spells on yourself while merged in the stone. You can use 5 feet of movement to leave the stone where you entered it, which ends the spell. You otherwise can't move.
+伤害你的生物会瞬间被绿色火焰包围。
 
-Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 Force damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals 50 Force damage to you. If expelled, you move into an unoccupied space closest to where you first entered and have the Prone condition.
+它进行一次敏捷豁免，豁免失败受到 2d10 火焰伤害，成功则受到一半伤害。
 
-#### Mending
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，伤害增加 1d10。
 
-_Transmutation Cantrip (Bard, Cleric, Druid, Sorcerer, Wizard)_
+#### 英雄宴（Heroes' Feast）
 
-**Casting Time:** 1 minute
-**Range:** Touch
-**Components:** V, S, M (two lodestones)
-**Duration:** Instantaneous
+*6 环咒法法术（吟游诗人、牧师、德鲁伊）*
 
-This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.
+**施法时间：** 10 分钟  
+**射程：** 自身  
+**成分：** V、S、M（一只镶嵌宝石、价值至少 1,000 GP 的碗，法术会将其消耗）  
+**持续时间：** 立即
 
-This spell can physically repair a magic item, but it can't restore magic to such an object.
+你召唤出一场盛宴，出现在你旁边一个未占据的 10 尺立方区域中的表面上。
 
-#### Message
+享用盛宴需要 1 小时，盛宴会在该时间结束时消失，而有益效果要等这 1 小时结束后才会生效。
 
-_Transmutation Cantrip (Bard, Druid, Sorcerer, Wizard)_
+至多十二个生物可以参与盛宴。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** S, M (a copper wire)
-**Duration:** 1 round
-You point toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.
+参加盛宴的生物会获得多项持续 24 小时的收益：
 
-You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence; 1 foot of stone, metal, or wood; or a thin sheet of lead blocks the spell.
+该生物对毒素伤害具有抗性，并免疫恐慌和中毒状态。
 
-#### Meteor Swarm
+其生命值上限还会增加 2d10，并恢复等量生命值。
 
-_Level 9 Evocation (Sorcerer, Wizard)_
+#### 英雄气概（Heroism）
 
-**Casting Time:** Action
-**Range:** 1 mile
-**Components:** V, S
-**Duration:** Instantaneous
+*1 环惑控法术（吟游诗人、圣武士）*
 
-Blazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius Sphere centered on each of those points makes a Dexterity saving throw. A creature takes 20d6 Fire damage and 20d6 Bludgeoning damage on a failed save or half as much damage on a successful one. A creature in the area of more than one fiery Sphere is affected only once.
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area, and the object starts burning if it's flammable.
+你触碰一个自愿生物，并使其充满勇气。
 
-#### Mind Blank
+直到法术结束，目标免疫恐慌状态，并在自己每个回合开始时获得等于你的施法属性调整值的临时生命值。
 
-_Level 8 Abjuration (Bard, Wizard)_
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，就可以额外指定一个生物。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S
-**Duration:** 24 hours
+#### 巫术诅咒（Hex）
 
-Until the spell ends, one willing creature you touch has Immunity to Psychic damage and the Charmed condition. The target is also unaffected by anything that would sense its emotions or alignment, read its thoughts, or magically detect its location, and no spell—not even _Wish_—can gather information about the target, observe it remotely, or control its mind.
+*1 环惑控法术（邪术师）*
 
-#### Mind Spike
+**施法时间：** 附赠动作  
+**射程：** 90 尺  
+**成分：** V、S、M（一只被石化的蝾螈眼睛）  
+**持续时间：** 专注，至多 1 小时
 
-_Level 2 Divination (Sorcerer, Warlock, Wizard)_
+你诅咒射程内一个你能看见的生物。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** S
-**Duration:** Concentration, up to 1 hour
+直到法术结束，每当你通过攻击检定命中目标时，额外对其造成 1d6 黯蚀伤害。
 
-You drive a spike of psionic energy into the mind of one creature you can see within range. The target makes a Wisdom saving throw, taking 3d8 Psychic damage on a failed save or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane
+此外，施放法术时选择一种属性。目标使用该属性进行属性检定时具有劣势。
 
-of existence. While you have this knowledge, the target can't become hidden from you, and if it has the Invisible condition, it gains no benefit from that condition against you.
+如果目标在法术结束前生命值降至 0，你可以在之后的某个回合使用附赠动作，将诅咒转移到一个新的生物。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 2.
+*使用更高环阶法术位。* 使用更高环阶法术位时，你的专注可以持续更久：2 环至多 4 小时；3–4 环至多 8 小时；5 环或更高至多 24 小时。
 
-#### Minor Illusion
+#### 狂笑术（Hideous Laughter）
 
-_Illusion Cantrip (Bard, Sorcerer, Warlock, Wizard)_
+*1 环惑控法术（吟游诗人、邪术师、法师）*
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** S, M (a bit of fleece)
-**Duration:** 1 minute
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一块馅饼和一根羽毛）  
+**持续时间：** 专注，至多 1 分钟
 
-You create a sound or an image of an object within range that lasts for the duration. See the descriptions below for the effects of each. The illusion ends if you cast this spell again.
+一个你在射程内能看见、由你选择的生物进行一次感知豁免。
 
-If a creature takes a Study action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.
+豁免失败时，目标在持续时间内同时陷入倒地和失能状态。
 
-_Sound._ If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.
+在此期间，如果目标具备笑的能力，它会无法控制地大笑，并且不能主动结束自身的倒地状态。
 
-_Image._ If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, since things can pass through it.
+目标在自己每个回合结束时，以及每次受到伤害时，都再次进行一次感知豁免。
 
-#### Mirage Arcane
+如果是因为受到伤害而触发豁免，目标具有优势。
 
-_Level 7 Illusion (Bard, Druid, Wizard)_
+豁免成功时，法术结束。
 
-**Casting Time:** 10 minutes
-**Range:** Sight
-**Components:** V, S
-**Duration:** 10 days
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，就可以额外指定一个生物。
 
-You make terrain in an area up to 1 mile square look, sound, smell, and even feel like some other sort of terrain. Open fields or a road could be made to resemble a swamp, hill, crevasse, or some other rough or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road.
+#### 怪物定身术（Hold Monster）
 
-Similarly, you can alter the appearance of structures or add them where none are present. The spell doesn't disguise, conceal, or add creatures.
+*5 环惑控法术（吟游诗人、术士、邪术师、法师）*
 
-The illusion includes audible, visual, tactile, and olfactory elements, so it can turn clear ground
-into Difficult Terrain (or vice versa) or otherwise impede movement through the area. Any piece of the illusory terrain (such as a rock or stick) that is removed from the spell's area disappears immediately.
+**施法时间：** 动作  
+**射程：** 90 尺  
+**成分：** V、S、M（一小段笔直铁条）  
+**持续时间：** 专注，至多 1 分钟
 
-Creatures with Truesight can see through the illusion to the terrain's true form; however, all other elements of the illusion remain, so while the creature is aware of the illusion's presence, the creature can still physically interact with the illusion.
+选择一个你在射程内能看见的生物。
 
-#### Mirror Image
+目标必须成功通过一次感知豁免，否则在持续时间内陷入麻痹状态。
 
-_Level 2 Illusion (Bard, Sorcerer, Warlock, Wizard)_
+目标在自己每个回合结束时再次进行豁免，成功则结束自身所受法术。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** 1 minute
+*使用更高环阶法术位。* 你每使用高于 5 环一环的法术位，就可以额外指定一个生物。
 
-Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real.
+#### 人类定身术（Hold Person）
 
-Each time a creature hits you with an attack roll during the spell's duration, roll a d6 for each of your remaining duplicates. If any of the d6s rolls a 3 or higher, one of the duplicates is hit instead of you, and the duplicate is destroyed. The duplicates otherwise ignore all other damage and effects. The spell ends when all three duplicates are destroyed.
+*2 环惑控法术（吟游诗人、牧师、德鲁伊、术士、邪术师、法师）*
 
-A creature is unaffected by this spell if it has the Blinded condition, Blindsight, or Truesight.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一小段笔直铁条）  
+**持续时间：** 专注，至多 1 分钟
 
-#### Mislead
+选择一个你在射程内能看见的类人生物。
 
-_Level 5 Illusion (Bard, Warlock, Wizard)_
+目标必须成功通过一次感知豁免，否则在持续时间内陷入麻痹状态。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** S
-**Duration:** Concentration, up to 1 hour
+目标在自己每个回合结束时再次进行豁免，成功则结束自身所受法术。
 
-You gain the Invisible condition at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends immediately after you make an attack roll, deal damage, or cast a spell.
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，就可以额外指定一个类人生物。
 
-As a Magic action, you can move the illusory double up to twice your Speed and make it gesture, speak, and behave in whatever way you choose. It is intangible and invulnerable.
+#### 圣洁灵光（Holy Aura）
 
-You can see through its eyes and hear through its ears as if you were located where it is.
+*8 环防护法术（牧师）*
 
-#### Misty Step
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一件价值至少 1,000 GP 的圣物匣）  
+**持续时间：** 专注，至多 1 分钟
 
-_Level 2 Conjuration (Sorcerer, Warlock, Wizard)_
+持续时间内，你向外散发一道 30 尺发散区域的灵光。
 
-**Casting Time:** Bonus Action
-**Range:** Self
-**Components:** V
-**Duration:** Instantaneous
+灵光内你选择的生物进行所有豁免检定时具有优势，而其他生物对这些目标进行攻击检定时具有劣势。
 
-Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.
+此外，当一个邪魔或不死生物以近战攻击检定命中受影响生物时，攻击者必须成功通过一次体质豁免，否则陷入目盲状态，直到其下一回合结束。
 
-#### Modify Memory
+#### 猎人印记（Hunter's Mark）
 
-_Level 5 Enchantment (Bard, Wizard)_
+*1 环预言法术（游侠）*
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+**施法时间：** 附赠动作  
+**射程：** 90 尺  
+**成分：** V  
+**持续时间：** 专注，至多 1 小时
 
-You attempt to reshape another creature's memories. One creature that you can see within range makes a Wisdom saving throw. If you are fighting the creature, it has Advantage on the save. On a failed save, the target has the Charmed condition for the duration. While Charmed in this way, the target also has the Incapacitated condition and is unaware of its surroundings, though it can hear you. If it takes any damage or is targeted by another spell, this spell ends, and no memories are modified.
+你以魔法将射程内一个你能看见的生物标记为猎物。
 
-While this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity, change its memory of the event's details, or create a memory of some other event.
+直到法术结束，每当你通过攻击检定命中目标时，额外造成 1d6 力场伤害。
 
-You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you finish describing the modified memories, the creature's memory isn't altered. Otherwise, the modified memories take hold when the spell ends.
+此外，你进行用于寻找目标的感知（察觉或求生）检定时具有优势。
 
-A modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, alignment, or beliefs. An illogical modified memory, such as a false memory of how much the creature enjoyed swimming in acid, is dismissed as a bad dream. The GM might deem a modified memory too nonsensical to affect a creature.
+如果目标在法术结束前生命值降至 0，你可以使用附赠动作，将标记转移到射程内一个你能看见的新生物。
 
-A _Remove Curse_ or _Greater Restoration_ spell cast on the target restores the creature's true memory.
+*使用更高环阶法术位。* 使用 3–4 环法术位时，专注可以持续至多 8 小时；使用 5 环或更高法术位时，可以持续至多 24 小时。
 
-_Using a Higher-Level Spell Slot._ You can alter the target's memories of an event that took place up to 7 days ago (level 6 spell slot), 30 days ago (level 7 spell slot), 365 days ago (level 8 spell slot), or any time in the creature's past (level 9 spell slot).
+#### 催眠图纹（Hypnotic Pattern）
 
-#### Moonbeam
+*3 环幻术法术（吟游诗人、术士、邪术师、法师）*
 
-_Level 2 Evocation (Druid)_
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** S、M（一撮彩纸屑）  
+**持续时间：** 专注，至多 1 分钟
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S, M (a moonseed leaf)
-**Duration:** Concentration, up to 1 minute
-A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Dim Light fills the Cylinder, and you can take a Magic action on later turns to move the Cylinder up to 60 feet.
+你在射程内创造一个扭曲旋转的彩色图案，填满一个 30 尺立方区域。
 
-When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes 2d10 Radiant damage, and if the creature is shape-shifted (as a result of the _Polymorph_ spell, for example), it reverts to its true form and can't shape-shift until it leaves the Cylinder. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell's area moves into its space and when it enters the spell's area or ends its turn there. A creature makes this save only once per turn.
+图案出现片刻后消失。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d10 for each spell slot level above 2.
+区域内每个能够看见图案的生物必须成功通过一次感知豁免，否则在持续时间内陷入魅惑状态。
 
-#### Move Earth
+处于魅惑状态时，生物同时陷入失能状态，且速度为 0。
 
-_Level 6 Transmutation (Druid, Sorcerer, Wizard)_
+如果受影响生物受到任何伤害，或者另一个生物执行动作将其从恍惚状态中摇醒，该生物身上的法术结束。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S, M (a miniature shovel)
-**Duration:** Concentration, up to 2 hours
+#### 冰刃术（Ice Knife）
 
-Choose an area of terrain no larger than 40 feet on a side within range. You can reshape dirt, sand, or clay in the area in any manner you choose for the duration. You can raise or lower the area's elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can't exceed half the area's largest dimension. For example, if you affect a 40-foot square, you can create a pillar up to 20 feet high, raise or lower the square's elevation by up to 20 feet, dig a trench up to 20 feet deep, and so on. It takes 10 minutes for these changes to complete. Because the terrain's transformation occurs slowly, creatures in the area can't usually be trapped or injured by the ground's movement.
+*1 环咒法法术（德鲁伊、术士、法师）*
 
-At the end of every 10 minutes you spend concentrating on the spell, you can choose a new area of terrain to affect within range.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** S、M（一滴水或一块冰）  
+**持续时间：** 立即
 
-This spell can't manipulate natural stone or stone construction. Rocks and structures shift to accommodate the new terrain. If the way you shape the terrain would make a structure unstable, it might collapse.
+你创造一枚冰晶碎片，并投向射程内一个生物。
 
-Similarly, this spell doesn't directly affect plant growth. The moved earth carries any plants along with it.
+对目标进行一次远程法术攻击。命中时，目标受到 1d10 穿刺伤害。
 
-#### Nondetection
+无论命中与否，碎片随后都会爆炸。目标以及其 5 尺内每个生物都必须成功通过一次敏捷豁免，否则受到 2d6 寒冷伤害。
 
-_Level 3 Abjuration (Bard, Ranger, Wizard)_
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，寒冷伤害增加 1d6。
 
-**Casting Time:** Action
-**Range:** Touch
+#### 冰风暴（Ice Storm）
 
-**Components:** V, S, M (a pinch of diamond dust worth 25+ GP, which the spell consumes)
-**Duration:** 8 hours
+*4 环塑能法术（德鲁伊、术士、法师）*
 
-For the duration, you hide a target that you touch from Divination spells. The target can be a willing creature, or it can be a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any Divination spell or perceived through magical scrying sensors.
+**施法时间：** 动作  
+**射程：** 300 尺  
+**成分：** V、S、M（一只连指手套）  
+**持续时间：** 立即
 
-#### Passwall
+冰雹落入以射程内一点为中心、半径 20 尺、高 40 尺的柱状区域。
 
-_Level 5 Transmutation (Wizard)_
+区域内每个生物进行一次敏捷豁免。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S, M (a pinch of sesame seeds)
-**Duration:** 1 hour
+豁免失败时，生物受到 2d10 钝击伤害和 4d6 寒冷伤害；成功则受到一半伤害。
 
-A passage appears at a point that you can see on a wooden, plaster, or stone surface (such as a wall, ceiling, or floor) within range and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.
+冰雹使柱状区域内的地面成为困难地形，直到你的下一回合结束。
 
-When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell.
+*使用更高环阶法术位。* 你每使用高于 4 环一环的法术位，钝击伤害增加 1d10。
 
-#### Pass without Trace
+#### 鉴定术（Identify）
 
-_Level 2 Abjuration (Druid, Ranger)_
+*1 环预言法术（吟游诗人、法师）*
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (ashes from burned mistletoe)
-**Duration:** Concentration, up to 1 hour
+**施法时间：** 1 分钟或仪式  
+**射程：** 触及  
+**成分：** V、S、M（一颗价值至少 100 GP 的珍珠）  
+**持续时间：** 立即
 
-You radiate a concealing aura in a 30-foot Emanation for the duration. While in the aura, you and each creature you choose have a +10 bonus to Dexterity (Stealth) checks and leave no tracks.
+在整个施法过程中，你必须持续触碰一个物体。
 
-#### Phantasmal Force
+如果该物体是魔法物品或其他魔法物体，你会得知其属性和使用方式、是否需要同调，以及如果拥有充能次数的话，其当前充能数量。
 
-_Level 2 Illusion (Bard, Sorcerer, Wizard)_
+你会得知是否有任何持续中的法术正在影响该物品，以及这些法术是什么。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a bit of fleece)
-**Duration:** Concentration, up to 1 minute
+如果该物品由某个法术创造，你会得知该法术名称。
 
-You attempt to craft an illusion in the mind of a creature you can see within range. The target makes an Intelligence saving throw. On a failed save, you create a phantasmal object, creature, or other phenomenon that is no larger than a 10-foot Cube and that is perceivable only to the target for the duration. The phantasm includes sound, temperature, and other stimuli.
+如果你改为在整个施法过程中持续触碰一个生物，则会得知当前有哪些持续中的法术正在影响它，如果有的话。
 
-The target can take a Study action to examine the phantasm with an Intelligence (Investigation) check against your spell save DC. If the check succeeds, the target realizes that the phantasm is an illusion, and the spell ends.
+#### 幻景文（Illusory Script）
 
-While affected by the spell, the target treats the phantasm as if it were real and rationalizes any illogical outcomes from interacting with it. For example, if the target steps through a phantasmal bridge and survives the fall, it believes the bridge exists and something else caused it to fall.
+*1 环幻术法术（吟游诗人、邪术师、法师）*
 
-An affected target can even take damage from the illusion if the phantasm represents a dangerous creature or hazard. On each of your turns, such a phantasm can deal 2d8 Psychic damage to the target if it is in the phantasm's area or within 5 feet of the phantasm. The target perceives the damage as a type appropriate to the illusion.
+**施法时间：** 1 分钟或仪式  
+**射程：** 触及  
+**成分：** S、M（价值至少 10 GP 的墨水，法术会将其消耗）  
+**持续时间：** 10 天
 
-#### Phantasmal Killer
+你在羊皮纸、纸张或其他适合书写的材料上写下文字，并赋予其一个持续至法术结束的幻象。
 
-_Level 4 Illusion (Bard, Wizard)_
+对你以及你施放法术时指定的任何生物而言，文字看起来完全正常，似乎由你亲手书写，并传达你原本想表达的含义。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+对其他所有生物而言，文字看起来像使用未知或魔法文字书写，无法理解。
 
-You tap into the nightmares of a creature you can see within range and create an illusion of its deepest fears, visible only to that creature. The target makes a Wisdom saving throw. On a failed save, the target takes 4d10 Psychic damage and has Disadvantage on ability checks and attack rolls for the duration. On a successful save, the target takes half as much damage, and the spell ends.
+或者，你可以让幻象改变文字的含义、笔迹和语言，不过使用的语言必须是你所知道的语言。
 
-For the duration, the target makes a Wisdom saving throw at the end of each of its turns. On a failed save, it takes the Psychic damage again. On a successful save, the spell ends.
+如果该法术被解除，原始文字和幻象都会消失。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d10 for each spell slot level above 4.
+拥有真实视觉的生物可以读取隐藏信息。
 
-#### Phantom Steed
+#### 禁锢术（Imprisonment）
 
-_Level 3 Illusion (Wizard)_
+*9 环防护法术（邪术师、法师）*
 
-**Casting Time:** 1 minute or Ritual
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** 1 hour
+**施法时间：** 1 分钟  
+**射程：** 30 尺  
+**成分：** V、S、M（一尊价值至少 5,000 GP 的目标雕像）  
+**持续时间：** 直到被解除
 
-A Large, quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, and it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.
+你创造一道魔法束缚，用来困住射程内一个你能看见的生物。
 
-For the duration, you or a creature you choose can ride the steed. The steed uses the Riding Horse stat block (see "Monsters"), except it has a Speed of 100 feet and can travel 13 miles in an hour. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends early if the steed takes any damage.
+目标进行一次感知豁免。豁免成功时，目标不受影响，并在接下来 24 小时内免疫该法术。
 
-#### Planar Ally
+豁免失败时，目标被禁锢。
 
-_Level 6 Conjuration (Cleric)_
+被禁锢期间，目标不需要呼吸、进食或饮水，也不会衰老。
 
-**Casting Time:** 10 minutes
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Instantaneous
+预言法术无法定位或感知被禁锢目标，而目标无法传送。
 
-You beseech an otherworldly entity for aid. The being must be known to you: a god, a demon prince, or some other being of cosmic power. That entity sends a Celestial, an Elemental, or a Fiend loyal to it to aid you, making the creature appear in an unoccupied space within range. If you know a specific creature's name, you can speak that name when you cast this spell to request that creature, though you might get a different creature anyway (GM's choice).
+直到法术结束，目标还会受到以下一种由你选择的效果：
 
-When the creature appears, it is under no compulsion to behave a particular way. You can ask it to perform a service in exchange for payment, but it isn't obliged to do so. The requested task could range from simple (fly us across the chasm, or help us fight a battle) to complex (spy on our enemies, or protect us during our foray into the dungeon). You must be able to communicate with the creature to bargain for its services.
+**埋葬（Burial）。** 目标被封在地下一个刚好能够容纳它的中空魔法力场球体中。任何东西都无法进入或离开球体。
 
-Payment can take a variety of forms. A Celestial might require a sizable donation of gold or magic items to an allied temple, while a Fiend might demand a living sacrifice or a gift of treasure. Some creatures might exchange their service for a quest undertaken by you.
+**锁链（Chaining）。** 固定在地面的锁链牢牢束缚目标。目标陷入束缚状态，并且无法通过任何方式被移动。
 
-A task that can be measured in minutes requires a payment worth 100 GP per minute. A task measured in hours requires 1,000 GP per hour. And a task measured in days (up to 10 days) requires 10,000 GP per day. The GM can adjust these payments based on the circumstances under which you cast the spell. If the task is aligned with the creature's ethos, the payment might be halved or even waived. Nonhazardous tasks typically require only half the suggested payment, while especially dangerous tasks might require a greater gift. Creatures rarely accept tasks that seem suicidal.
+**封闭监牢（Hedged Prison）。** 目标被困在一个受到防护、禁止传送和位面旅行的半位面中。该半位面可以是迷宫、牢笼、高塔或类似环境，由你选择。
 
-After the creature completes the task, or when the agreed-upon duration of service expires, the creature returns to its home plane after reporting back to you if possible. If you are unable to agree on a price for the creature's service, the creature immediately returns to its home plane.
+**微缩收容（Minimus Containment）。** 目标缩小到 1 英寸高，并被困在一颗无法摧毁的宝石或类似物体内部。
 
-#### Planar Binding
+光线可以穿过宝石，因此目标可以看见外面，而其他生物也可以看见里面；但除此之外，任何东西都无法以任何方式穿过。
 
-_Level 5 Abjuration (Bard, Cleric, Druid, Warlock, Wizard)_
+**沉眠（Slumber）。** 目标陷入昏迷状态，并且无法被唤醒。
 
-**Casting Time:** 1 hour
-**Range:** 60 feet
-**Components:** V, S, M (a jewel worth 1,000+ GP, which the spell consumes)
-**Duration:** 24 hours
-You attempt to bind a Celestial, an Elemental, a Fey, or a Fiend to your service. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of the inverted version of the _Magic Circle_ spell to trap it while this spell is cast.) At the completion of the casting, the target must succeed on a Charisma saving throw or be bound to serve you for the duration. If the creature was summoned or created by another spell, that spell's duration is extended to match the duration of this spell.
+*结束法术（Ending the Spell）。* 施放法术时，你指定一个能够结束法术的触发条件。
 
-A bound creature must follow your commands to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. If the creature is Hostile, it strives to twist your commands to achieve its own objectives. If the creature carries out your commands completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane, it returns to the place where you bound it and remains there until the spell ends.
+触发条件可以尽可能简单或复杂，但 GM 必须同意它在未来十年内具有较高发生可能性。
 
-_Using a Higher-Level Spell Slot._ The duration increases with a spell slot of level 6 (10 days), 7 (30 days), 8 (180 days), and 9 (366 days).
+触发条件必须是一个可以观察到的行动，例如有人在你神祇的神殿献上某种供品、拯救你的真爱，或者击败某个特定怪物。
 
-#### Plane Shift
+*解除魔法*只有在使用 9 环法术位施放时，才能结束该法术；并且必须指定监牢本身或创造监牢时使用的材料成分为目标。
 
-_Level 7 Conjuration (Cleric, Druid, Sorcerer, Warlock, Wizard)_
+#### 焚云术（Incendiary Cloud）
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a forked, metal rod worth 250+ GP and attuned to a plane of existence)
-**Duration:** Instantaneous
+*8 环咒法法术（德鲁伊、术士、法师）*
 
-You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as a specific city on the Elemental Plane of Fire or palace on the second level of the Nine Hells, and you appear in or near that destination, as determined by the GM.
+**施法时间：** 动作  
+**射程：** 150 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.
+翻滚的余烬和浓烟填满以射程内一点为中心、半径 20 尺的球状区域。
 
-#### Plant Growth
+云雾区域处于重度遮蔽状态。
 
-_Level 3 Transmutation (Bard, Druid, Ranger)_
+云雾持续至法术结束，或者直到强风——例如*舞风术*创造的强风——将其吹散。
 
-**Casting Time:** Action (Overgrowth) or 8 hours (Enrichment)
-**Range:** 150 feet
-**Components:** V, S
-**Duration:** Instantaneous
+云雾出现时，其中每个生物进行一次敏捷豁免。豁免失败受到 10d8 火焰伤害，成功则受到一半伤害。
 
-This spell channels vitality into plants. The casting time you use determines whether the spell has the Overgrowth or the Enrichment effect below.
+当球状区域移动进入一个生物的空间时，以及生物进入球状区域或在那里结束回合时，该生物也必须进行该豁免。
 
-_Overgrowth._ Choose a point within range. All normal plants in a 100-foot-radius Sphere centered on that point become thick and overgrown. A creature moving through that area must spend 4 feet of movement for every 1 foot it moves. You can exclude one or more areas of any size within the spell's area from being affected.
+一个生物每回合只进行一次该豁免。
 
-_Enrichment._ All plants in a half-mile radius centered on a point within range become enriched for 365 days. The plants yield twice the normal amount of food when harvested. They can benefit from only one _Plant Growth_ per year.
+在你的每个回合开始时，云雾沿你选择的方向远离你移动 10 尺。
 
-#### Poison Spray
+#### 致伤术（Inflict Wounds）
 
-_Necromancy Cantrip (Druid, Sorcerer, Warlock, Wizard)_
+*1 环死灵法术（牧师）*
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 立即
 
-You spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Poison damage.
+你触碰的一个生物进行一次体质豁免。
 
-_Cantrip Upgrade._ The damage increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12).
+豁免失败受到 2d10 黯蚀伤害，成功则受到一半伤害。
 
-#### Polymorph
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，伤害增加 1d10。
 
-_Level 4 Transmutation (Bard, Druid, Sorcerer, Wizard)_
+#### 虫群瘟疫（Insect Plague）
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a caterpillar cocoon)
-**Duration:** Concentration, up to 1 hour
+*5 环咒法法术（牧师、德鲁伊、术士）*
 
-You attempt to transform a creature that you can see within range into a Beast. The target must succeed on a Wisdom saving throw or shape-shift into a Beast form for the duration. That form can be any Beast you choose that has a Challenge Rating equal to or less than the target's (or the target's level if it doesn't have a Challenge Rating). The target's game statistics are replaced by the stat block of the chosen Beast, but the target retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. See the "Animals" section of "Monsters" for a sample of Beast stat blocks.
+**施法时间：** 动作  
+**射程：** 300 尺  
+**成分：** V、S、M（一只蝗虫）  
+**持续时间：** 专注，至多 10 分钟
 
-The target gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the spell ends. The spell ends early on the target if it has no Temporary Hit Points left.
+成群蝗虫填满以射程内你选择的一点为中心、半径 20 尺的球状区域。
 
-The target is limited in the actions it can perform by the anatomy of its new form, and it can't speak or cast spells.
-The target's gear melds into the new form. The creature can't use or otherwise benefit from any of that equipment.
+该球状区域持续至法术结束，并且属于轻度遮蔽（Lightly Obscured）和困难地形。
 
-#### Power Word Heal
+虫群出现时，其中每个生物进行一次体质豁免。豁免失败受到 4d10 穿刺伤害，成功则受到一半伤害。
 
-_Level 9 Enchantment (Bard, Cleric)_
+生物在一个回合中第一次进入法术区域，或者在其中结束回合时，也会进行该豁免。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Component:** V
-**Duration:** Instantaneous
+一个生物每回合只进行一次该豁免。
 
-A wave of healing energy washes over one creature you can see within range. The target regains all its Hit Points. If the creature has the Charmed, Frightened, Paralyzed, Poisoned, or Stunned condition, the condition ends. If the creature has the Prone condition, it can use its Reaction to stand up.
+*使用更高环阶法术位。* 你每使用高于 5 环一环的法术位，伤害增加 1d10。
 
-#### Power Word Kill
+#### 即刻召唤（Instant Summons）
 
-_Level 9 Enchantment (Bard, Sorcerer, Warlock, Wizard)_
+*6 环咒法法术（法师）*
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Component:** V
-**Duration:** Instantaneous
+**施法时间：** 1 分钟或仪式  
+**射程：** 触及  
+**成分：** V、S、M（一颗价值至少 1,000 GP 的蓝宝石）  
+**持续时间：** 直到被解除
 
-You compel one creature you can see within range to die. If the target has 100 Hit Points or fewer, it dies. Otherwise, it takes 12d12 Psychic damage.
+你触碰施法所使用的蓝宝石，以及一个重量不超过 10 磅、最长尺寸不超过 6 尺的物体。
 
-#### Power Word Stun
+法术在该物体上留下一个隐形印记，并在蓝宝石上以隐形文字刻下该物体名称。
 
-_Level 8 Enchantment (Bard, Sorcerer, Warlock, Wizard)_
+每次施放该法术时，都必须使用不同的蓝宝石。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V
-**Duration:** Instantaneous
+此后，你可以执行魔法动作，说出物体名称并捏碎蓝宝石。
 
-You overwhelm the mind of one creature you can see within range. If the target has 150 Hit Points or fewer, it has the Stunned condition. Otherwise, its Speed is 0 until the start of your next turn.
+无论物理距离或位面距离多远，该物体都会立即出现在你手中，随后法术结束。
 
-The Stunned target makes a Constitution saving throw at the end of each of its turns, ending the condition on itself on a success.
+如果该物体正被另一个生物握持或携带，捏碎蓝宝石不会将其传送过来；相反，你会得知该生物是谁，以及它当前所在位置。
 
-#### Prayer of Healing
+#### 无法抗拒之舞（Irresistible Dance）
 
-_Level 2 Abjuration (Cleric, Paladin)_
+*6 环惑控法术（吟游诗人、法师）*
 
-**Casting Time:** 10 minutes
-**Range:** 30 feet
-**Components:** V
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V  
+**持续时间：** 专注，至多 1 分钟
 
-Up to five creatures of your choice who remain within range for the spell's entire casting gain the benefits of a Short Rest and also regain 2d8 Hit Points. A creature can't be affected by this spell again until that creature finishes a Long Rest.
+一个你在射程内能看见的生物必须进行一次感知豁免。
 
-_Using a Higher-Level Spell Slot._ The healing increases by 1d8 for each spell slot level above 2.
+豁免成功时，目标会滑稽地跳舞，直到其下一回合结束；在此期间，它必须花费全部移动在原地跳舞。
 
-#### Prestidigitation
+豁免失败时，目标在持续时间内陷入魅惑状态。
 
-_Transmutation Cantrip (Bard, Sorcerer, Warlock, Wizard)_
+处于魅惑状态期间，目标会滑稽地跳舞，必须花费全部移动在原地跳舞，并且进行敏捷豁免和攻击检定时具有劣势，而其他生物对其进行攻击检定时具有优势。
 
-**Casting Time:** Action
-**Range:** 10 feet
-**Components:** V, S
-**Duration:** Up to 1 hour
+在目标的每个回合中，它可以执行动作让自己重新集中精神并再次进行豁免；成功时结束自身受到的法术。
 
-You create a magical effect within range. Choose the effect from the options below. If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time.
+#### 隐形术（Invisibility）
 
-_Sensory Effect._ You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.
+*2 环幻术法术（吟游诗人、术士、邪术师、法师）*
 
-_Fire Play._ You instantaneously light or snuff out a candle, a torch, or a small campfire.
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一根被阿拉伯胶包裹的睫毛）  
+**持续时间：** 专注，至多 1 小时
 
-_Clean or Soil._ You instantaneously clean or soil an object no larger than 1 cubic foot.
+你触碰的一个生物陷入隐形状态，直到法术结束。
 
-_Minor Sensation._ You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.
+目标进行攻击检定、造成伤害或施放法术后，该法术立即提前结束。
 
-_Magic Mark._ You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，就可以额外指定一个生物。
 
-_Minor Creation._ You create a nonmagical trinket or an illusory image that can fit in your hand. It lasts until the end of your next turn. A trinket can deal no damage and has no monetary worth.
+#### 跳跃术（Jump）
 
-#### Prismatic Spray
+*1 环变化法术（德鲁伊、游侠、术士、法师）*
 
-_Level 7 Evocation (Bard, Sorcerer, Wizard)_
+**施法时间：** 附赠动作  
+**射程：** 触及  
+**成分：** V、S、M（一条蚱蜢后腿）  
+**持续时间：** 1 分钟
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** Instantaneous
+你触碰一个自愿生物。
 
-Eight rays of light flash from you in a 60-foot Cone. Each creature in the Cone makes a Dexterity saving throw. For each target, roll 1d8 to determine which color ray affects it, consulting the Prismatic Rays table.
+直到法术结束，在该生物自己的每个回合中，它可以花费 10 尺移动跳跃至多 30 尺一次。
 
-**Prismatic Rays**
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，就可以额外指定一个生物。
 
-<table>
-  <thead>
-    <tr>
-      <th>1d8</th>
-      <th>Ray</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>**Red.** *Failed Save:* 12d6 Fire damage. *Successful Save:* Half as much damage.</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>**Orange.** *Failed Save:* 12d6 Acid damage. *Successful Save:* Half as much damage.</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>**Yellow.** *Failed Save:* 12d6 Lightning damage. *Successful Save:* Half as much damage.</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>**Green.** *Failed Save:* 12d6 Poison damage. *Successful Save:* Half as much damage.</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>**Blue.** *Failed Save:* 12d6 Cold damage. *Successful Save:* Half as much damage.</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>**Indigo.** *Failed Save:* The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the *Greater Restoration* spell. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind.</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>**Violet.** *Failed Save:* The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM's choice).</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>**Special.** The target is struck by two rays. Roll twice, rerolling any 8.</td>
-    </tr>
-  </tbody>
-</table>
+#### 敲击术（Knock）
 
-#### Prismatic Wall
+*2 环变化法术（吟游诗人、术士、法师）*
 
-_Level 9 Abjuration (Bard, Wizard)_
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V  
+**持续时间：** 立即
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** 10 minutes
+选择射程内一个你能看见的物体。
 
-A shimmering, multicolored plane of light forms a vertical opaque wall—up to 90 feet long, 30 feet high, and 1 inch thick—centered on a point within range. Alternatively, you shape the wall into a globe up to 30 feet in diameter centered on a point within range. The wall lasts for the duration. If you position the wall in a space occupied by a creature, the spell ends instantly without effect.
+该物体可以是一扇门、箱子、宝箱、一副镣铐、一把挂锁，或其他具有非魔法或魔法封闭手段的物体。
 
-The wall sheds Bright Light within 100 feet and Dim Light for an additional 100 feet. You and creatures you designate when you cast the spell can pass through and be near the wall without harm. If another creature that can see the wall moves within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or have the Blinded condition for 1 minute.
+如果目标由普通锁具锁住、卡死或被门闩封住，它会被解锁、松开或解除门闩。
 
-The wall consists of seven layers, each with a different color. When a creature reaches into or passes through the wall, it does so one layer at a time through all the layers. Each layer forces the creature to make a Dexterity saving throw or be affected by that layer's properties as described in the Prismatic Layers table.
+如果物体具有多个锁，只会打开其中一个。
 
-The wall, which has AC 10, can be destroyed one layer at a time, in order from red to violet, by means specific to each layer. If a layer is destroyed, it is gone for the duration. _Antimagic Field_ has no effect on the wall, and _Dispel Magic_ can affect only the violet layer.
+如果目标被*奥术锁*封闭，则该法术会被压制 10 分钟；在此期间，目标可以正常打开和关闭。
 
-**Prismatic Layers**
+施放该法术时，目标会发出一声巨响，最远 300 尺外都能听见。
 
-<table>
-  <thead>
-    <tr>
-      <th>Order</th>
-      <th>Effects</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>**Red.** *Failed Save:* 12d6 Fire damage. *Successful Save:* Half as much damage. *Additional Effects:* Nonmagical ranged attacks can't pass through this layer, which is destroyed if it takes at least 25 Cold damage.</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>**Orange.** *Failed Save:* 12d6 Acid damage. *Successful Save:* Half as much damage. *Additional Effects:* Magical ranged attacks can't pass through this layer, which is destroyed by a strong wind (such as the one created by *Gust of Wind*).</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>**Yellow.** *Failed Save:* 12d6 Lightning damage. *Successful Save:* Half as much damage. *Additional Effects:* The layer is destroyed if it takes at least 60 Force damage.</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>**Green.** *Failed Save:* 12d6 Poison damage. *Successful Save:* Half as much damage. *Additional Effects:* A *Passwall* spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>**Blue.** *Failed Save:* 12d6 Cold damage. *Successful Save:* Half as much damage. *Additional Effects:* The layer is destroyed if it takes at least 25 Fire damage.</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>**Indigo.** *Failed Save:* The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the *Greater Restoration* spell. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind. *Additional Effects:* Spells can't be cast through this layer, which is destroyed by Bright Light shed by the *Daylight* spell.</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>**Violet.** *Failed Save:* The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM's choice). *Additional Effects:* This layer is destroyed by *Dispel Magic*.</td>
-    </tr>
-  </tbody>
-</table>
+#### 通晓传奇（Legend Lore）
 
-#### Private Sanctum
+*5 环预言法术（吟游诗人、牧师、法师）*
 
-_Level 4 Abjuration (Wizard)_
+**施法时间：** 10 分钟  
+**射程：** 自身  
+**成分：** V、S、M（价值至少 250 GP 的熏香，法术会将其消耗；以及四条每条价值至少 50 GP 的象牙片）  
+**持续时间：** 立即
 
-**Casting Time:** 10 minutes
-**Range:** 120 feet
-**Components:** V, S, M (a thin sheet of lead)
-**Duration:** 24 hours
+说出或描述一个著名人物、地点或物体。
 
-You make an area within range magically secure. The area is a Cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration.
+法术会让你想起关于该著名事物的重要传说摘要，由 GM 描述。
 
-When you cast the spell, you decide what sort of security the spell provides, choosing any of the following properties:
+这些传说可能包括关键细节、有趣的秘闻，甚至从未广为人知的秘密知识。
 
-- Sound can't pass through the barrier at the edge of the warded area.
-- The barrier of the warded area appears dark and foggy, preventing vision (including Darkvision) through it.
-- Sensors created by Divination spells can't appear inside the protected area or pass through the barrier at its perimeter.
-- Creatures in the area can't be targeted by Divination spells.
-- Nothing can teleport into or out of the warded area.
-- Planar travel is blocked within the warded area.
+你对该事物本来了解得越多，获得的信息就越精确、越详细。
 
-Casting this spell on the same spot every day for 365 days makes the spell last until dispelled.
+获得的信息准确无误，但 GM 可以让它以比喻、诗歌或其他修辞形式表达。
 
-_Using a Higher-Level Spell Slot._ You can increase the size of the Cube by 100 feet for each spell slot level above 4.
+如果你选择的事物实际上并不著名，你会听见长号奏出一段悲伤旋律，随后法术失败。
 
-#### Produce Flame
+#### 次级复原术（Lesser Restoration）
 
-_Conjuration Cantrip (Druid)_
+*2 环防护法术（吟游诗人、牧师、德鲁伊、圣武士、游侠）*
 
-**Casting Time:** Bonus Action
-**Range:** Self
-**Components:** V, S
-**Duration:** 10 minutes
+**施法时间：** 附赠动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 立即
 
-A flickering flame appears in your hand and remains there for the duration. While there, the flame emits no heat and ignites nothing, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The spell ends if you cast it again.
+你触碰一个生物，并结束它身上的以下一种状态：目盲、耳聋、麻痹或中毒。
 
-Until the spell ends, you can take a Magic action to hurl fire at a creature or an object within 60 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 Fire damage.
+#### 浮空术（Levitate）
 
-_Cantrip Upgrade._ The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).
+*2 环变化法术（术士、法师）*
 
-#### Programmed Illusion
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一根金属弹簧）  
+**持续时间：** 专注，至多 10 分钟
 
-_Level 6 Illusion (Bard, Wizard)_
+你选择射程内一个你能看见的生物或未固定物体，使其垂直升高至多 20 尺，并在持续时间内悬浮在那里。
 
-**Casting Time:** Action
-**Range:** 120 feet
+该法术可以使重量不超过 500 磅的物体浮空。
 
-**Components:** V, S, M (jade dust worth 25+ GP)
-**Duration:** Until dispelled
+不自愿生物如果成功通过一次体质豁免，则不受影响。
 
-You create an illusion of an object, a creature, or some other visible phenomenon within range that activates when a specific trigger occurs. The illusion is imperceptible until then. It must be no larger than a 30-foot Cube, and you decide when you cast the spell how the illusion behaves and what sounds it makes. This scripted performance can last up to 5 minutes.
+目标只能通过推拉触及范围内的固定物体或表面来移动，例如墙壁或天花板；这种移动方式如同攀爬。
 
-When the trigger you specify occurs, the illusion springs into existence and performs in the manner you described. Once the illusion finishes performing, it disappears and remains dormant for 10 minutes, after which the illusion can be activated again.
+在你的回合中，你可以让目标高度向上或向下改变至多 20 尺。
 
-The trigger can be as general or as detailed as you like, though it must be based on visual or audible phenomena that occur within 30 feet of the area. For example, you could create an illusion of yourself to appear and warn off others who attempt to open a trapped door.
+如果你自己是目标，可以将高度变化作为自身移动的一部分。
 
-Physical interaction with the image reveals it to be illusory, since things can pass through it. A creature that takes the Study action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.
+否则，你可以执行魔法动作移动目标，但目标必须始终位于法术射程内。
 
-#### Project Image
+法术结束时，如果目标仍在空中，会缓慢飘落地面。
 
-_Level 7 Illusion (Bard, Wizard)_
+#### 光亮术（Light）
 
-**Casting Time:** Action
-**Range:** 500 miles
-**Components:** V, S, M (a statuette of yourself worth 5+ GP)
-**Duration:** Concentration, up to 1 day
+*塑能戏法（吟游诗人、牧师、术士、法师）*
 
-You create an illusory copy of yourself that lasts for the duration. The copy can appear at any location within range that you have seen before, regardless of intervening obstacles. The illusion looks and sounds like you, but it is intangible. If the illusion takes any damage, it disappears, and the spell ends.
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、M（一只萤火虫或一小块磷光苔藓）  
+**持续时间：** 1 小时
 
-You can see through the illusion's eyes and hear through its ears as if you were in its space. As a Magic action, you can move it up to 60 feet and make it gesture, speak, and behave in whatever way you choose. It mimics your mannerisms perfectly.
+你触碰一个大型或更小、且未被其他生物穿戴或携带的物体。
 
-Physical interaction with the image reveals it to be illusory, since things can pass through it. A creature that takes the Study action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.
+直到法术结束，该物体在半径 20 尺内产生明亮光照，并在额外 20 尺内产生微光。
 
-#### Protection from Energy
+光线可以呈现你选择的任意颜色。
 
-_Level 3 Abjuration (Cleric, Druid, Ranger, Sorcerer, Wizard)_
+用不透明物体遮住目标可以阻挡光线。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S
-**Duration:** Concentration, up to 1 hour
+如果你再次施放该法术，当前法术结束。
 
-For the duration, the willing creature you touch has Resistance to one damage type of your choice: Acid, Cold, Fire, Lightning, or Thunder.
+#### 闪电束（Lightning Bolt）
 
-#### Protection from Evil and Good
+*3 环塑能法术（术士、法师）*
 
-_Level 1 Abjuration (Cleric, Druid, Paladin, Warlock, Wizard)_
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一小撮毛皮和一根水晶棒）  
+**持续时间：** 立即
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a flask of Holy Water worth 25+ GP, which the spell consumes)
-**Duration:** Concentration, up to 10 minutes
+一道闪电从你身上沿你选择的方向轰出，形成长 100 尺、宽 5 尺的线状区域。
 
-Until the spell ends, one willing creature you touch is protected against creatures that are Aberrations, Celestials, Elementals, Fey, Fiends, or Undead.
+区域内每个生物进行一次敏捷豁免。豁免失败受到 8d6 闪电伤害，成功则受到一半伤害。
 
-The protection grants several benefits. Creatures of those types have Disadvantage on attack rolls against the target. The target also can't be possessed by or gain the Charmed or Frightened conditions from them. If the target is already possessed, Charmed, or Frightened by such a creature, the target has Advantage on any new saving throw against the relevant effect.
+*使用更高环阶法术位。* 你每使用高于 3 环一环的法术位，伤害增加 1d6。
 
-#### Protection from Poison
+#### 定位动植物（Locate Animals or Plants）
 
-_Level 2 Abjuration (Cleric, Druid, Paladin, Ranger)_
+*2 环预言法术（吟游诗人、德鲁伊、游侠）*
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S
-**Duration:** 1 hour
+**施法时间：** 动作或仪式  
+**射程：** 自身  
+**成分：** V、S、M（一撮猎犬毛）  
+**持续时间：** 立即
 
-You touch a creature and end the Poisoned condition on it. For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.
+描述或说出一种特定的野兽、植物生物或非魔法植物。
 
-#### Purify Food and Drink
+如果你周围 5 里内存在该种类的生物或植物，你会得知距离你最近的一个所在方向和距离。
 
-_Level 1 Transmutation (Cleric, Druid, Paladin)_
+#### 定位生物（Locate Creature）
 
-**Casting Time:** Action or Ritual
-**Range:** 10 feet
-**Components:** V, S
-**Duration:** Instantaneous
+*4 环预言法术（吟游诗人、牧师、德鲁伊、圣武士、游侠、法师）*
 
-You remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range.
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一撮猎犬毛）  
+**持续时间：** 专注，至多 1 小时
 
-#### Raise Dead
+描述或说出一个你熟悉的生物。
 
-_Level 5 Necromancy (Bard, Cleric, Paladin)_
+如果该生物位于你 1,000 尺内，你会感知其所在方向。
 
-**Casting Time:** 1 hour
-**Range:** Touch
-**Components:** V, S, M (a diamond worth 500+ GP, which the spell consumes)
-**Duration:** Instantaneous
+如果生物正在移动，你也会知道其移动方向。
 
-With a touch, you revive a dead creature if it has been dead no longer than 10 days and it wasn't Undead when it died.
+该法术可以定位一个你认识的具体生物；或者，如果你曾经至少一次在 30 尺内近距离看见过某种生物，则可以定位离你最近的该类生物，例如人类或独角兽。
 
-The creature returns to life with 1 Hit Point. This spell also neutralizes any poisons that affected the creature at the time of death.
+如果你所描述或说出的生物目前处于不同形态，例如受到*石化术*或*变形术（Polymorph）*影响，则该法术无法定位它。
 
-This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.
+如果你与该生物之间的直接路径被任意厚度的铅阻隔，该法术也无法定位它。
 
-Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.
+#### 定位物品（Locate Object）
 
-#### Ray of Enfeeblement
+*2 环预言法术（吟游诗人、牧师、德鲁伊、圣武士、游侠、法师）*
 
-_Level 2 Necromancy (Warlock, Wizard)_
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一根叉形树枝）  
+**持续时间：** 专注，至多 10 分钟
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+描述或说出一个你熟悉的物体。
 
-A beam of enervating energy shoots from you toward a creature within range. The target must make a Constitution saving throw. On a successful save, the target has Disadvantage on the next attack roll it makes until the start of your next turn.
+如果该物体位于你 1,000 尺内，你会感知其所在方向。
 
-On a failed save, the target has Disadvantage on Strength-based D20 Tests for the duration. During that time, it also subtracts 1d8 from all its damage rolls. The target repeats the save at the end of each of its turns, ending the spell on a success.
+如果物体正在移动，你也会知道其移动方向。
 
-#### Ray of Frost
+如果你至少曾经一次在 30 尺内近距离看见某个具体物体，该法术可以定位该物体。
 
-_Evocation Cantrip (Sorcerer, Wizard)_
+或者，该法术可以定位离你最近的一类物体，例如某种服饰、首饰、家具、工具或武器。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Instantaneous
+如果你与物体之间的直接路径被任意厚度的铅阻隔，该法术无法定位它。
 
-A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 Cold damage, and its Speed is reduced by 10 feet until the start of your next turn.
+#### 大步奔行（Longstrider）
 
-_Cantrip Upgrade._ The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).
+*1 环变化法术（吟游诗人、德鲁伊、游侠、法师）*
 
-#### Regenerate
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一撮泥土）  
+**持续时间：** 1 小时
 
-_Level 7 Transmutation (Bard, Cleric, Druid)_
+你触碰一个生物。
 
-**Casting Time:** 1 minute
-**Range:** Touch
-**Components:** V, S, M (a prayer wheel)
-**Duration:** 1 hour
+直到法术结束，目标速度提高 10 尺。
 
-A creature you touch regains 4d8 + 15 Hit Points. For the duration, the target regains 1 Hit Point at the start of each of its turns, and any severed body parts regrow after 2 minutes.
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，就可以额外指定一个生物。
 
-#### Ray of Sickness
+#### 法师护甲（Mage Armor）
 
-_Level 1 Necromancy (Sorcerer, Wizard)_
+*1 环防护法术（术士、法师）*
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一小块鞣制皮革）  
+**持续时间：** 8 小时
 
-You shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 Poison damage and has the Poisoned condition until the end of your next turn.
+你触碰一个没有穿着护甲的自愿生物。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 1.
+直到法术结束，目标的基础 AC 变为 13 + 其敏捷调整值。
 
-#### Reincarnate
+如果目标穿上护甲，法术提前结束。
 
-_Level 5 Necromancy (Druid)_
+#### 法师之手（Mage Hand）
 
-**Casting Time:** 1 hour
-**Range:** Touch
-**Components:** V, S, M (rare oils worth 1,000+ GP, which the spell consumes)
-**Duration:** Instantaneous
+*咒法戏法（吟游诗人、术士、邪术师、法师）*
 
-You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. Roll 1d10 and consult the table below to determine the body's species, or the GM chooses another playable species.
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 1 分钟
 
-<table>
-  <thead>
-    <tr>
-      <th>1d10</th>
-      <th>Species</th>
-      <th>1d10</th>
-      <th>Species</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Roll again.</td>
-      <td>6</td>
-      <td>Goliath</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Dragonborn</td>
-      <td>7</td>
-      <td>Halfling</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Dwarf</td>
-      <td>8</td>
-      <td>Human</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Elf</td>
-      <td>9</td>
-      <td>Orc</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Gnome</td>
-      <td>10</td>
-      <td>Tiefling</td>
-    </tr>
-  </tbody>
-</table>
+一只幽灵般漂浮的手出现在射程内你选择的一点。
 
-The reincarnated creature makes any choices that a species' description offers, and the creature recalls its former life. It retains the capabilities it had in its original form, except it loses the traits of its previous species and gains the traits of its new one.
+手掌持续至法术结束。
 
-#### Remove Curse
+如果手掌距离你超过 30 尺，或者你再次施放该法术，它会消失。
 
-_Level 3 Abjuration (Cleric, Paladin, Warlock, Wizard)_
+施放法术时，你可以使用手掌操纵物体、打开未上锁的门或容器、把物品放入开放容器或从中取出，或者倒出小瓶中的内容物。
 
-**Casting Time:** Action
-**Range:** Touch
+在之后的回合中，你可以执行魔法动作，再次以这种方式控制手掌。
 
-**Components:** V, S
-**Duration:** Instantaneous
+作为该动作的一部分，你可以让手掌移动至多 30 尺。
 
-At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or discarded.
+手掌无法攻击、启动魔法物品，也无法携带超过 10 磅的重量。
 
-#### Resilient Sphere
+#### 魔法阵（Magic Circle）
 
-_Level 4 Abjuration (Wizard)_
+*3 环防护法术（牧师、圣武士、邪术师、法师）*
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S, M (a glass sphere)
-**Duration:** Concentration, up to 1 minute
+**施法时间：** 1 分钟  
+**射程：** 10 尺  
+**成分：** V、S、M（盐以及价值至少 100 GP 的银粉，法术会将其消耗）  
+**持续时间：** 1 小时
 
-A shimmering sphere encloses a Large or smaller creature or object within range. An unwilling creature must succeed on a Dexterity saving throw or be enclosed for the duration.
+你以射程内地面上一个你能看见的点为中心，创造一个半径 10 尺、高 20 尺的魔法能量柱状区域。
 
-Nothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.
+发光符文会出现在柱状区域与地板或其他表面相交的地方。
 
-The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can take an action to push against the sphere's walls and thus roll the sphere at up to half the creature's Speed. Similarly, the globe can be picked up and moved by other creatures.
+从以下生物类型中选择一种或多种：天界生物、元素、妖精、邪魔或不死生物。
 
-A _Disintegrate_ spell targeting the globe destroys it without harming anything inside.
+法阵会以以下方式影响所选类型的生物：
 
-#### Resistance
+- 该生物无法通过非魔法手段主动进入柱状区域。如果它试图通过传送或跨位面旅行进入，必须先成功通过一次魅力豁免。
+- 该生物对柱状区域内目标进行攻击检定时具有劣势。
+- 柱状区域内的目标无法被该生物附身，也无法因其陷入魅惑或恐慌状态。
 
-_Abjuration Cantrip (Cleric, Druid)_
+每次施放该法术时，你可以让其魔法反向运作：阻止所选类型的生物离开柱状区域，并保护柱状区域外的目标。
 
-**Casting Time:** Action
-**Range:** Touch
-**Component:** V, S
-**Duration:** Concentration, up to 1 minute
+*使用更高环阶法术位。* 你每使用高于 3 环一环的法术位，持续时间增加 1 小时。
 
-You touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by 1d4. A creature can benefit from this spell only once per turn.
+#### 魔魂壶（Magic Jar）
 
-#### Resurrection
+*6 环死灵法术（法师）*
 
-_Level 7 Necromancy (Bard, Cleric)_
+**施法时间：** 1 分钟  
+**射程：** 自身  
+**成分：** V、S、M（一颗价值至少 500 GP 的宝石、水晶或圣物匣）  
+**持续时间：** 直到被解除
 
-**Casting Time:** 1 hour
-**Range:** Touch
-**Components:** V, S, M (a diamond worth 1,000+ GP, which the spell consumes)
-**Duration:** Instantaneous
-With a touch, you revive a dead creature that has been dead for no more than a century, didn't die of old age, and wasn't Undead when it died.
+你的身体进入紧张性木僵状态，而你的灵魂离开身体并进入用作法术材料成分的容器。
 
-The creature returns to life with all its Hit Points. This spell also neutralizes any poisons that affected the creature at the time of death. This spell closes all mortal wounds and restores any missing body parts.
+当你的灵魂位于容器内时，你能如同自己身处容器所在空间一样感知周围环境。
 
-Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.
+你无法移动或执行反应。
 
-Casting this spell to revive a creature that has been dead for 365 days or longer taxes you. Until you finish a Long Rest, you can't cast spells again, and you have Disadvantage on D20 Tests.
+你唯一能够执行的动作，是将灵魂从容器中投射至多 100 尺；你可以借此返回自己仍活着的身体并结束法术，或者尝试附身一个类人生物。
 
-#### Reverse Gravity
+你可以尝试附身你在 100 尺内能看见的任何类人生物，但受到*防护善恶（Protection from Evil and Good）*或*魔法阵*保护的生物无法被附身。
 
-_Level 7 Transmutation (Druid, Sorcerer, Wizard)_
+目标进行一次魅力豁免。
 
-**Casting Time:** Action
-**Range:** 100 feet
-**Components:** V, S, M (a lodestone and iron filings)
-**Duration:** Concentration, up to 1 minute
+豁免失败时，你的灵魂进入目标身体，而目标灵魂被困在容器内。
 
-This spell reverses gravity in a 50-foot-radius, 100-foot high Cylinder centered on a point within range. All creatures and objects in that area that aren't anchored to the ground fall upward and reach the top of the Cylinder. A creature can make a Dexterity saving throw to grab a fixed object it can reach, thus avoiding the fall upward.
+豁免成功时，目标抵抗你的附身尝试，并且你在接下来 24 小时内无法再次尝试附身该生物。
 
-If a ceiling or an anchored object is encountered in this upward fall, creatures and objects strike it just as they would during a downward fall. If an affected creature or object reaches the Cylinder's top without striking anything, it hovers there for the duration. When the spell ends, affected objects and creatures fall downward.
+成功附身一个生物后，你控制它的身体。
 
-#### Revivify
+你的生命值、生命骰、力量、敏捷、体质、速度和感官会被该生物对应数据替代，其余游戏数据保持不变。
 
-_Level 3 Necromancy (Cleric, Druid, Paladin, Ranger)_
+与此同时，被附身生物的灵魂可以使用自己的感官从容器中感知外界，但无法移动，并陷入失能状态。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a diamond worth 300+ GP, which the spell consumes)
-**Duration:** Instantaneous
+附身某个身体时，只要容器位于你 100 尺内，你可以执行魔法动作返回容器，使宿主生物的灵魂重新进入自己的身体。
 
-You touch a creature that has died within the last minute. That creature revives with 1 Hit Point. This spell can't revive a creature that has died of old age, nor does it restore any missing body parts.
+如果宿主身体在你附身期间死亡，该生物死亡，而你必须针对自己的法术豁免 DC 进行一次魅力豁免。
 
-#### Rope Trick
+成功时，如果容器位于你 100 尺内，你会返回容器。否则，你死亡。
 
-_Level 2 Transmutation (Wizard)_
+如果容器被摧毁或法术结束，你的灵魂会返回自己的身体。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a segment of rope)
-**Duration:** 1 hour
+如果你的身体距离超过 100 尺，或者你的身体已经死亡，你也会死亡。
 
-You touch a rope. One end of it hovers upward until the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it.
+如果容器被摧毁时其中存在另一个生物的灵魂，只要该生物身体仍活着且位于 100 尺内，其灵魂就会返回身体；否则该生物死亡。
 
-The space can hold up to eight Medium or smaller creatures. Attacks, spells, and other effects can't pass into or out of the space, but creatures inside it can see through the portal. Anything inside the space drops out when the spell ends.
+法术结束时，容器被摧毁。
 
-#### Sacred Flame
+#### 魔法飞弹（Magic Missile）
 
-_Evocation Cantrip (Cleric)_
+*1 环塑能法术（术士、法师）*
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 Radiant damage. The target gains no benefit from Half Cover or Three-Quarters Cover for this save.
+你创造三枚闪耀着魔法力场的飞弹。
 
-_Cantrip Upgrade._ The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).
+每枚飞弹都会命中射程内一个你能看见、由你选择的生物。
 
-#### Sanctuary
+每枚飞弹对目标造成 1d4 + 1 力场伤害。
 
-_Level 1 Abjuration (Cleric)_
+所有飞弹同时命中，你可以让它们全部击中同一生物，也可以分配给多个生物。
 
-**Casting Time:** Bonus Action
-**Range:** 30 feet
-**Components:** V, S, M (a shard of glass from a mirror)
-**Duration:** 1 minute
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，就会额外创造一枚飞弹。
 
-You ward a creature within range. Until the spell ends, any creature who targets the warded creature with an attack roll or a damaging spell must succeed on a Wisdom saving throw or either choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from areas of effect. The spell ends if the warded creature makes an attack roll, casts a spell, or deals damage.
+#### 魔嘴术（Magic Mouth）
 
-#### Scorching Ray
+*2 环幻术法术（吟游诗人、法师）*
 
-_Level 2 Evocation (Sorcerer, Wizard)_
+**施法时间：** 1 分钟或仪式  
+**射程：** 30 尺  
+**成分：** V、S、M（价值至少 10 GP 的玉石粉末，法术会将其消耗）  
+**持续时间：** 直到被解除
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Instantaneous
+你将一段信息植入射程内一个物体中，当触发条件满足时，该信息会被说出。
 
-You hurl three fiery rays. You can hurl them at one target within range or at several. Make a ranged spell attack for each ray. On a hit, the target takes 2d6 Fire damage.
+选择一个你能看见、且未被其他生物穿戴或携带的物体。
 
-_Using a Higher-Level Spell Slot._ You create one additional ray for each spell slot level above 2.
+然后说出信息，最多 25 个词，不过实际播放过程最长可以持续 10 分钟。
 
-#### Scrying
+最后，决定什么条件会触发该法术传递信息。
 
-_Level 5 Divination (Bard, Cleric, Druid, Warlock, Wizard)_
+触发发生时，一个魔法嘴巴会出现在物体上，并以你的声音和你施放时使用的音量说出信息。
 
-**Casting Time:** 10 minutes
-**Range:** Self
-**Components:** V, S, M (a focus worth 1,000+ GP, such as a crystal ball, mirror, or water-filled font)
-**Duration:** Concentration, up to 10 minutes
+如果你选择的物体本来就有嘴，或者有类似嘴部的结构，例如雕像的嘴，魔法嘴巴会出现在那里，使声音看起来从该物体嘴里发出。
 
-You can see and hear a creature you choose that is on the same plane of existence as you. The target makes a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort of physical connection you have to it. The target doesn't know what it is making the save against, only that it feels uneasy.
+施放法术时，你可以选择让法术在传达一次信息后结束，或者让它继续存在，并在每次满足触发条件时重复信息。
 
-<table>
-  <thead>
-    <tr>
-      <th>Your Knowledge of the Target Is …</th>
-      <th>Save Modifier</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Secondhand (heard of the target)</td>
-      <td>+5</td>
-    </tr>
-    <tr>
-      <td>Firsthand (met the target)</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td>Extensive (know the target well)</td>
-      <td>−5</td>
-    </tr>
-  </tbody>
-</table>
+触发条件可以尽可能笼统或详细，但必须基于距离物体 30 尺内发生的视觉或听觉情况。
 
-<table>
-  <thead>
-    <tr>
-      <th>You Have the Target's …</th>
-      <th>Save Modifier</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Picture or other likeness</td>
-      <td>−2</td>
-    </tr>
-    <tr>
-      <td>Garment or other possession</td>
-      <td>−4</td>
-    </tr>
-    <tr>
-      <td>Body part, lock of hair, or bit of nail</td>
-      <td>−10</td>
-    </tr>
-  </tbody>
-</table>
+例如，你可以让嘴巴在任何生物移动到物体 30 尺内时说话，或者在物体 30 尺内响起银铃时说话。
 
-On a successful save, the target isn't affected, and you can't use this spell on it again for 24 hours.
+#### 魔化武器（Magic Weapon）
 
-On a failed save, the spell creates an Invisible, intangible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it appears as a luminous orb about the size of your fist.
+*2 环变化法术（圣武士、游侠、术士、法师）*
 
-Instead of targeting a creature, you can target a location you have seen. When you do so, the sensor appears at that location and doesn't move.
+**施法时间：** 附赠动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 1 小时
 
-#### Searing Smite
+你触碰一件非魔法武器。
 
-_Level 1 Evocation (Paladin)_
+直到法术结束，该武器变成魔法武器，并在攻击检定和伤害掷骰上获得 +1 加值。
 
-**Casting Time:** Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike
-**Range:** Self
-**Component:** V
-**Duration:** 1 minute
+如果你再次施放该法术，当前法术提前结束。
 
-As you hit the target, it takes an extra 1d6 Fire damage from the attack. At the start of each of its turns until the spell ends, the target takes 1d6 Fire damage and then makes a Constitution saving throw. On a failed save, the spell continues. On a successful save, the spell ends.
+*使用更高环阶法术位。* 使用 3–5 环法术位时，加值提高至 +2；使用 6 环或更高法术位时，提高至 +3。
 
-_Using a Higher-Level Spell Slot._ All the damage increases by 1d6 for each spell slot level above 1.
+#### 华丽府邸（Magnificent Mansion）
 
-#### Secret Chest
+*7 环咒法法术（吟游诗人、法师）*
 
-_Level 4 Conjuration (Wizard)_
+**施法时间：** 1 分钟  
+**射程：** 300 尺  
+**成分：** V、S、M（一扇价值至少 15 GP 的微型门）  
+**持续时间：** 24 小时
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth 5,000+ GP, and a Tiny replica of the chest made from the same materials worth 50+ GP)
-**Duration:** Until dispelled
+你在射程内召唤出一扇闪耀的门，持续至法术结束。
 
-You hide a chest and all its contents on the Ethereal Plane. You must touch the chest and the miniature replica that serve as Material components for the spell. The chest can contain up to 12 cubic feet of nonliving material (3 feet by 2 feet by 2 feet).
+门通向一处异次元住所，宽 5 尺、高 10 尺。
 
-While the chest remains on the Ethereal Plane, you can take a Magic action and touch the replica to recall the chest. It appears in an unoccupied space on the ground within 5 feet of you. You can send the chest back to the Ethereal Plane by taking a Magic action to touch the chest and the replica.
+只要门保持开启，你以及施放法术时指定的任何生物都可以进入异次元住所。
 
-After 60 days, there is a cumulative 5 percent chance at the end of each day that the spell ends. The spell also ends if you cast this spell again or if the Tiny replica chest is destroyed. If the spell ends and the larger chest is on the Ethereal Plane, the chest remains there for you or someone else to find.
+如果你位于门 30 尺内，可以无需动作打开或关闭它。
 
-#### See Invisibility
+门关闭时完全无法被察觉。
 
-_Level 2 Divination (Bard, Sorcerer, Wizard)_
+门后是一座宏伟门厅，通向许多其他房间。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a pinch of talc)
-**Duration:** 1 hour
+住所内空气洁净、新鲜且温暖。
 
-For the duration, you see creatures and objects that have the Invisible condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.
+你可以任意设计住所布局，但总空间不能超过五十个彼此相连的 10 尺立方区域。
 
-#### Seeming
+住所内部按照你的选择布置家具和装饰。
 
-_Level 5 Illusion (Bard, Sorcerer, Wizard)_
+其中包含足以为至多 100 人提供九道菜宴席的食物。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S
-**Duration:** 8 hours
+由该法术创造的家具和其他物体如果被带出住所，会化为烟雾消散。
 
-You give an illusory appearance to each creature of your choice that you can see within range. An unwilling target can make a Charisma saving throw, and if it succeeds, it is unaffected by this spell.
+一百名近乎透明的仆人负责照顾所有进入者。
 
-You can give the same appearance or different ones to the targets. The spell can change the appearance of the targets' bodies and equipment. You can make each creature seem 1 foot shorter or taller and appear heavier or lighter. A target's new appearance must have the same basic arrangement of limbs as the target, but the extent of the illusion is otherwise up to you. The spell lasts for the duration.
+你决定这些仆人的外观和服装。
 
-The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to a creature's outfit, objects pass through the hat.
+它们无法受到伤害，并会服从你的命令。
 
-A creature that takes the Study action to examine a target can make an Intelligence (Investigation) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.
+每个仆人都能完成普通人可以完成的任务，但无法攻击，也不能执行会直接伤害其他生物的动作。
 
-#### Sending
+因此，它们可以取物、清洁、修补、叠衣服、生火、上菜、倒酒等等。
 
-_Level 3 Divination (Bard, Cleric, Wizard)_
+仆人无法离开住所。
 
-**Casting Time:** Action
-**Range:** Unlimited
-**Components:** V, S, M (a copper wire)
-**Duration:** Instantaneous
+法术结束时，所有仍留在异次元空间内的生物和物体都会被排出到入口附近最近的未占据空间。
 
-You send a short message of 25 words or fewer to a creature you have met or a creature described to you by someone who has met it. The target hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables targets to understand the meaning of your message.
+#### 高等幻影（Major Image）
 
-You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive. You know if the delivery fails.
+*3 环幻术法术（吟游诗人、术士、邪术师、法师）*
 
-Upon receiving your message, a creature can block your ability to reach it again with this spell for 8 hours. If you try to send another message during that time, you learn that you are blocked, and the spell fails.
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S、M（一小撮羊毛）  
+**持续时间：** 专注，至多 10 分钟
 
-#### Sequester
+你创造一个物体、生物或其他可见现象的影像，其尺寸不得大于一个 20 尺立方区域。
 
-_Level 7 Transmutation (Wizard)_
+影像出现在射程内一个你能看见的位置，并持续至法术结束。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (gem dust worth 5,000+ GP, which the spell consumes)
-**Duration:** Until dispelled
+影像看起来真实，包括与所描绘事物相符的声音、气味和温度，但无法造成伤害或施加状态。
 
-With a touch, you magically sequester an object or a willing creature. For the duration, the target has the Invisible condition and can't be targeted by Divination spells, detected by magic, or viewed remotely with magic.
+如果你位于幻象射程内，可以执行魔法动作将影像移动到射程内任何其他位置。
 
-If the target is a creature, it enters a state of suspended animation; it has the Unconscious condition, doesn't age, and doesn't need food, water, or air.
+随着影像改变位置，你可以改变它的外观，使其动作显得自然。
 
-You can set a condition for the spell to end early. The condition can be anything you choose, but it must occur or be visible within 1 mile of the target. Examples include "after 1,000 years" or "when the tarrasque awakens." This spell also ends if the target takes any damage.
+例如，如果你创造一个生物影像并让它移动，可以改变影像，使其看起来像在行走。
 
-#### Shapechange
+同样，你可以让幻象在不同时间发出不同声音，甚至进行对话。
 
-_Level 9 Transmutation (Druid, Wizard)_
+与影像进行实体互动会暴露它是幻象，因为物体能够直接穿过它。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a jade circlet worth 1,500+ GP)
-**Duration:** Concentration, up to 1 hour
+一个生物可以执行研究动作检查影像，并通过一次针对你的法术豁免 DC 的智力（调查）检定识破它。
 
-You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an Undead.
+识破后，该生物可以看穿影像，并且对它而言，影像的其他感官特征会变得微弱。
 
-When you cast the spell, you gain a number of Temporary Hit Points equal to the Hit Points of the first form into which you shape-shift. These Temporary Hit Points vanish if any remain when the spell ends.
+*使用更高环阶法术位。* 如果使用 4 环或更高法术位施放，该法术不再需要专注，并持续到被解除为止。
 
-Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting feature, you retain it too.
+#### 群体疗伤术（Mass Cure Wounds）
 
-Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you're in it.
+*5 环防护法术（吟游诗人、牧师、德鲁伊）*
 
-#### Shatter
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-_Level 2 Evocation (Bard, Sorcerer, Wizard)_
+一股治疗能量从射程内一个你能看见的点向外扩散。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a chip of mica)
-**Duration:** Instantaneous
+选择以该点为中心、半径 30 尺球状区域内至多六个生物。
 
-A loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much damage on a successful one. A Construct has Disadvantage on the save.
+每个目标恢复等于 5d8 + 你的施法属性调整值的生命值。
 
-A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.
+*使用更高环阶法术位。* 你每使用高于 5 环一环的法术位，治疗量增加 1d8。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 2.
+#### 群体医疗术（Mass Heal）
 
-#### Shield
+*9 环防护法术（牧师）*
 
-_Level 1 Abjuration (Sorcerer, Wizard)_
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-**Casting Time:** Reaction, which you take when you are hit by an attack roll or targeted by the _Magic Missile_ spell
-**Range:** Self
-**Components:** V, S
-**Duration:** 1 round
+大量治疗能量从你身上流向周围生物。
 
-An imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5
-bonus to AC, including against the triggering attack, and you take no damage from _Magic Missile_.
+你恢复总计至多 700 点生命值，并可以按照自己的选择分配给射程内任意数量你能看见的生物。
 
-#### Shield of Faith
+被该法术治疗的生物身上的目盲、耳聋和中毒状态也会被移除。
 
-_Level 1 Abjuration (Cleric, Paladin)_
+#### 群体治愈真言（Mass Healing Word）
 
-**Casting Time:** Bonus Action
-**Range:** 60 feet
-**Components:** V, S, M (a prayer scroll)
-**Duration:** Concentration, up to 10 minutes
+*3 环防护法术（吟游诗人、牧师）*
 
-A shimmering field surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.
+**施法时间：** 附赠动作  
+**射程：** 60 尺  
+**成分：** V  
+**持续时间：** 立即
 
-#### Shillelagh
+选择至多六个你在射程内能看见的生物。
 
-_Transmutation Cantrip (Druid)_
+每个目标恢复等于 2d4 + 你的施法属性调整值的生命值。
 
-**Casting Time:** Bonus Action
-**Range:** Self
-**Components:** V, S, M (mistletoe)
-**Duration:** 1 minute
+*使用更高环阶法术位。* 你每使用高于 3 环一环的法术位，治疗量增加 1d4。
 
-A Club or Quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. If the attack deals damage, it can be Force damage or the weapon's normal damage type (your choice).
+#### 群体暗示术（Mass Suggestion）
 
-The spell ends early if you cast it again or if you let go of the weapon.
+*6 环惑控法术（吟游诗人、术士、法师）*
 
-_Cantrip Upgrade._ The damage die changes when you reach levels 5 (d10), 11 (d12), and 17 (2d6).
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、M（一条蛇舌）  
+**持续时间：** 24 小时
 
-#### Shining Smite
+你提出一项行动建议，用不超过 25 个词描述，并指定射程内至多十二个能够听见且理解你的生物。
 
-_Level 2 Transmutation (Paladin)_
+建议必须听起来可以实现，并且不能明显要求任何目标做出会伤害自己或其盟友的事情。
 
-**Casting Time:** Bonus Action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike
-**Range:** Self
-**Component:** V
-**Duration:** Concentration, up to 1 minute
+例如，你可以说：“沿着那条路走到村子里，然后帮助村民收割庄稼直到日落。”
 
-The target hit by the strike takes an extra 2d6 Radiant damage from the attack. Until the spell ends, the target sheds Bright Light in a 5-foot radius, attack rolls against it have Advantage, and it can't benefit from the Invisible condition.
+或者说：“现在不是使用暴力的时候。放下武器，跳舞吧！一小时后停下来。”
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d6 for each spell slot level above 2.
+每个目标必须成功通过一次感知豁免，否则在持续时间内陷入魅惑状态，或者直到你或你的盟友对其造成伤害。
 
-#### Shocking Grasp
+每个被魅惑目标都会尽最大努力执行建议。
 
-_Evocation Cantrip (Sorcerer, Wizard)_
+建议的行动可以持续整个法术持续时间，但如果可以在更短时间内完成，则目标完成建议后，该目标身上的法术结束。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S
-**Duration:** Instantaneous
+*使用更高环阶法术位。* 使用更高环阶法术位时，持续时间延长：7 环为 10 天，8 环为 30 天，9 环为 366 天。
 
-Lightning springs from you to a creature that you try to touch. Make a melee spell attack against the target. On a hit, the target takes 1d8 Lightning damage, and it can't make Opportunity Attacks until the start of its next turn.
+#### 迷宫术（Maze）
 
-_Cantrip Upgrade._ The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).
+*8 环咒法法术（法师）*
 
-#### Silence
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
 
-_Level 2 Illusion (Bard, Cleric, Ranger)_
+你将射程内一个你能看见的生物放逐进一个迷宫般的半位面。
 
-**Casting Time:** Action or Ritual
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+目标会留在那里，持续至法术结束，或者直到它从迷宫中逃脱。
 
-For the duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere has Immunity to Thunder damage, and creatures have the Deafened condition while entirely inside it. Casting a spell that includes a Verbal component is impossible there.
+目标可以执行研究动作尝试逃离。
 
-#### Silent Image
+这样做时，它进行一次 DC 20 的智力（调查）检定。
 
-_Level 1 Illusion (Bard, Sorcerer, Wizard)_
+成功时，它逃出迷宫，法术结束。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a bit of fleece)
-**Duration:** Concentration, up to 10 minutes
+法术结束时，目标重新出现在自己离开的空间中；如果该空间被占据，则出现在最近的未占据空间。
 
-You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot Cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects.
+#### 融身入石（Meld into Stone）
 
-As a Magic action, you can cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.
+*3 环变化法术（牧师、德鲁伊、游侠）*
 
-Physical interaction with the image reveals it to be an illusion, since things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.
+**施法时间：** 动作或仪式  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 8 小时
 
-#### Simulacrum
+你进入一个足以完整容纳自己身体的石制物体或表面，并在持续时间内将自己和装备融入石头。
 
-_Level 7 Illusion (Wizard)_
+你必须触碰该石头才能这么做。
 
-**Casting Time:** 12 hours
-**Range:** Touch
-**Components:** V, S, M (powdered ruby worth 1,500+ GP, which the spell consumes)
-**Duration:** Until dispelled
-You create a simulacrum of one Beast or Humanoid that is within 10 feet of you for the entire casting of the spell. You finish the casting by touching both the creature and a pile of ice or snow that is the same size as that creature, and the pile turns into the simulacrum, which is a creature. It uses the game statistics of the original creature at the time of casting, except it is a Construct, its Hit Point maximum is half as much, and it can't cast this spell.
+你的存在不会留下任何可以通过非魔法感官看见或侦测到的痕迹。
 
-The simulacrum is Friendly to you and creatures you designate. It obeys your commands and acts on your turn in combat. The simulacrum can't gain levels, and it can't take Short or Long Rests.
+融入石头期间，你无法看见外界发生的事，并且为了听见外部声音而进行的任何感知（察觉）检定都具有劣势。
 
-If the simulacrum takes damage, the only way to restore its Hit Points is to repair it as you take a Long Rest, during which you expend components worth 100 GP per Hit Point restored. The simulacrum must stay within 5 feet of you for the repair.
+你仍然能够感知时间流逝，并且可以在石头内部对自己施放法术。
 
-The simulacrum lasts until it drops to 0 Hit Points, at which point it reverts to snow and melts away. If you cast this spell again, any simulacrum you created with this spell is instantly destroyed.
+你可以花费 5 尺移动，从自己进入石头的位置离开，从而结束法术。
 
-#### Sleep
+除此之外，你无法移动。
 
-_Level 1 Enchantment (Bard, Sorcerer, Wizard)_
+石头受到轻微实体伤害不会伤害你；但如果石头部分被摧毁，或者形状发生变化，以至于无法再容纳你，你会被强行排出，并受到 6d6 力场伤害。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a pinch of sand or rose petals)
-**Duration:** Concentration, up to 1 minute
+如果石头被完全摧毁，或者被转化为其他物质，你会被排出，并受到 50 点力场伤害。
 
-Each creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a Wisdom saving throw or have the Incapacitated condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the Unconscious condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell's effect.
+被排出时，你会移动到距离最初进入位置最近的未占据空间，并陷入倒地状态。
 
-Creatures that don't sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on saves against this spell.
+#### 修复术（Mending）
 
-#### Sleet Storm
+*变化戏法（吟游诗人、牧师、德鲁伊、术士、法师）*
 
-_Level 3 Conjuration (Druid, Sorcerer, Wizard)_
+**施法时间：** 1 分钟  
+**射程：** 触及  
+**成分：** V、S、M（两块天然磁石）  
+**持续时间：** 立即
 
-**Casting Time:** Action
-**Range:** 150 feet
-**Components:** V, S, M (a miniature umbrella)
-**Duration:** Concentration, up to 1 minute
+该法术修复你触碰物体上的一处断裂或破损，例如断掉的链环、断成两半的钥匙、撕裂的斗篷或漏水的酒袋。
 
-Until the spell ends, sleet falls in a 40-foot-tall, 20-foot-radius Cylinder centered on a point you choose within range. The area is Heavily Obscured, and exposed flames in the area are doused.
+只要断裂或破损在任一方向上都不超过 1 尺，你就能将其修好，并且不会留下原本损坏的痕迹。
 
-Ground in the Cylinder is Difficult Terrain. When a creature enters the Cylinder for the first time on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the Prone condition and lose Concentration.
+该法术可以实体修复魔法物品，但无法恢复物品中失去的魔法。
 
-#### Slow
+#### 传讯术（Message）
 
-_Level 3 Transmutation (Bard, Sorcerer, Wizard)_
+*变化戏法（吟游诗人、德鲁伊、术士、法师）*
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S, M (a drop of molasses)
-**Duration:** Concentration, up to 1 minute
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** S、M（一段铜线）  
+**持续时间：** 1 轮
 
-You alter time around up to six creatures of your choice in a 40-foot Cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.
+你指向射程内一个生物并低声传递信息。
 
-An affected target's Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can't take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a 25 percent chance the spell fails as a result of the target making the spell's gestures too slowly.
+目标且只有目标能听见该信息，并可以同样低声回复，而只有你能听见回复。
 
-An affected target repeats the save at the end of each of its turns, ending the spell on itself on a success.
+如果你熟悉目标并知道它位于实体障碍另一侧，也可以隔着实体物体施放该法术。
 
-#### Sorcerous Burst
+魔法沉默、1 尺厚的石头、金属或木材，或者一层薄铅板都可以阻挡该法术。
 
-_Evocation Cantrip (Sorcerer)_
+#### 流星爆（Meteor Swarm）
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Component:** V, S
-**Duration:** Instantaneous
+*9 环塑能法术（术士、法师）*
 
-You cast sorcerous energy at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 damage of a type you choose: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder.
+**施法时间：** 动作  
+**射程：** 1 里  
+**成分：** V、S  
+**持续时间：** 立即
 
-If you roll an 8 on a d8 for this spell, you can roll another d8, and add it to the damage. When you cast this spell, the maximum number of these d8s you can add to the spell's damage equals your spellcasting ability modifier.
+炽烈火球坠落到射程内你能看见的四个不同地点。
 
-_Cantrip Upgrade._ The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).
+以每个地点为中心、半径 40 尺的球状区域内，每个生物进行一次敏捷豁免。
 
-#### Spare the Dying
+豁免失败时，生物受到 20d6 火焰伤害和 20d6 钝击伤害；成功则受到一半伤害。
 
-_Necromancy Cantrip (Cleric, Druid)_
+如果一个生物位于多个火焰球状区域中，只会受到一次该法术影响。
 
-**Casting Time:** Action
-**Range:** 15 feet
-**Components:** V, S
-**Duration:** Instantaneous
+法术区域内未被穿戴或携带的非魔法物体也会受到伤害；如果物体易燃，还会开始燃烧。
 
-Choose a creature within range that has 0 Hit Points and isn't dead. The creature becomes Stable.
+#### 心灵屏障（Mind Blank）
 
-_Cantrip Upgrade._ The range doubles when you reach levels 5 (30 feet), 11 (60 feet), and 17 (120 feet).
+*8 环防护法术（吟游诗人、法师）*
 
-#### Speak with Animals
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 24 小时
 
-_Level 1 Divination (Bard, Druid, Ranger, Warlock)_
+直到法术结束，你触碰的一个自愿生物免疫心灵伤害和魅惑状态。
 
-**Casting Time:** Action or Ritual
-**Range:** Self
-**Components:** V, S
-**Duration:** 10 minutes
+目标还不会受到任何用于感知其情绪或阵营、读取思想、以魔法侦测其位置的效果影响。
 
-For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action's skill options with them.
+任何法术——甚至包括*祈愿术*——都无法收集目标的信息、远程观察它或控制其心智。
 
-Most Beasts have little to say about topics that don't pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations and monsters, including whatever it has perceived within the past day.
+#### 心灵尖刺（Mind Spike）
 
-#### Speak with Dead
+*2 环预言法术（术士、邪术师、法师）*
 
-_Level 3 Necromancy (Bard, Cleric, Wizard)_
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** S  
+**持续时间：** 专注，至多 1 小时
 
-**Casting Time:** Action
-**Range:** 10 feet
-**Components:** V, S, M (burning incense)
-**Duration:** 10 minutes
+你将一股灵能尖刺刺入射程内一个你能看见的生物心智。
 
-You grant the semblance of life to a corpse of your choice within range, allowing it to answer questions you pose. The corpse must have a mouth, and this spell fails if the deceased creature was Undead when it died. The spell also fails if the corpse was the target of this spell within the past 10 days.
+目标进行一次感知豁免。豁免失败受到 3d8 心灵伤害，成功则受到一半伤害。
 
-Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are antagonistic toward it or it recognizes you as an enemy. This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events.
+豁免失败时，只要你与目标位于同一存在位面，直到法术结束，你都会始终知道目标所在位置。
 
-#### Speak with Plants
+在你拥有这一信息期间，目标无法对你隐藏；即使它处于隐形状态，也无法从该状态中获得对你的收益。
 
-_Level 3 Transmutation (Bard, Druid, Ranger)_
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，伤害增加 1d8。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** 10 minutes
+#### 次级幻象（Minor Illusion）
 
-You imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances.
+*幻术戏法（吟游诗人、术士、邪术师、法师）*
 
-You can also turn Difficult Terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into Difficult Terrain that lasts for the duration.
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** S、M（一小撮羊毛）  
+**持续时间：** 1 分钟
 
-The spell doesn't enable plants to uproot themselves and move about, but they can move their branches, tendrils, and stalks for you.
+你在射程内创造一个持续至法术结束的声音，或者一个物体影像。
 
-If a Plant creature is in the area, you can communicate with it as if you shared a common language.
+具体效果如下。
 
-#### Spider Climb
+如果你再次施放该法术，当前幻象结束。
 
-_Level 2 Transmutation (Sorcerer, Warlock, Wizard)_
+一个生物可以执行研究动作检查声音或影像，并通过一次针对你的法术豁免 DC 的智力（调查）检定判断其为幻象。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a drop of bitumen and a spider)
-**Duration:** Concentration, up to 1 hour
+识破后，幻象对该生物而言会变得模糊或微弱。
 
-Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and along ceilings, while leaving its hands free. The target also gains a Climb Speed equal to its Speed.
+*声音（Sound）。* 如果创造声音，其音量可以从耳语到尖叫。
 
-_Using a Higher-Level Spell Slot._ You can target one additional creature for each spell slot level above 2.
+声音可以是你的声音、别人的声音、狮吼、鼓声或任何你选择的声音。
 
-#### Spike Growth
+声音可以在整个持续时间内持续不断，或者你可以让不同声音在法术结束前的不同时间出现。
 
-_Level 2 Transmutation (Druid, Ranger)_
+*影像（Image）。* 如果创造一个物体影像，例如椅子、泥脚印或小箱子，其大小不得超过一个 5 尺立方区域。
 
-**Casting Time:** Action
-**Range:** 150 feet
-**Components:** V, S, M (seven thorns)
-**Duration:** Concentration, up to 10 minutes
+影像无法产生声音、光线、气味或其他感官效果。
 
-The ground in a 20-foot-radius Sphere centered on a point within range sprouts hard spikes and thorns. The area becomes Difficult Terrain for the duration. When a creature moves into or within the area, it takes 2d4 Piercing damage for every 5 feet it travels.
+与影像进行实体互动会暴露其为幻象，因为物体能够直接穿过影像。
 
-The transformation of the ground is camouflaged to look natural. Any creature that can't see the area when the spell is cast must take a Search action and succeed on a Wisdom (Perception or Survival) check against your spell save DC to recognize the terrain as hazardous before entering it.
+#### 海市蜃楼（Mirage Arcane）
 
-#### Spirit Guardians
+*7 环幻术法术（吟游诗人、德鲁伊、法师）*
 
-_Level 3 Conjuration (Cleric)_
+**施法时间：** 10 分钟  
+**射程：** 视线  
+**成分：** V、S  
+**持续时间：** 10 天
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a prayer scroll)
-**Duration:** Concentration, up to 10 minutes
+你让一片最大为 1 平方里的地形，看起来、听起来、闻起来，甚至摸起来都像另一种地形。
 
-Protective spirits flit around you in a 15-foot Emanation for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.
+开阔田野或道路可以看起来像沼泽、山丘、裂谷或其他粗糙甚至无法通行的地形。
 
-When you cast this spell, you can designate creatures to be unaffected by it. Any other creature's Speed is halved in the Emanation, and whenever the Emanation enters a creature's space and whenever a creature enters the Emanation or ends its turn there, the creature must make a Wisdom saving throw. On a failed save, the creature takes 3d8 Radiant damage (if you are good or neutral) or 3d8 Necrotic damage (if you are evil). On a successful save, the creature takes half as much damage. A creature makes this save only once per turn.
+池塘可以看起来像草地，悬崖可以看起来像缓坡，而遍布岩石的沟谷可以看起来像宽阔平坦的道路。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 3.
+同样，你可以改变建筑物的外观，或者在原本没有建筑的地方增加建筑幻象。
 
-#### Spiritual Weapon
+该法术不会伪装、隐藏或增加生物。
 
-_Level 2 Evocation (Cleric)_
+幻象同时包含听觉、视觉、触觉和嗅觉元素，因此可以让平坦地面变成困难地形，反之亦然，或者以其他方式阻碍区域内的移动。
 
-**Casting Time:** Bonus Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+任何被从法术区域中移走的幻象地形部分，例如幻象岩石或树枝，都会立即消失。
 
-You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to 1d8 plus your spellcasting ability modifier.
+拥有真实视觉的生物能够看穿幻象并看见真实地形；不过幻象的其他元素仍然存在。
 
-As a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.
+因此，即使该生物知道幻象存在，仍可以与幻象实体互动。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for every slot level above 2.
+#### 镜影术（Mirror Image）
 
-#### Starry Wisp
+*2 环幻术法术（吟游诗人、术士、邪术师、法师）*
 
-_Evocation Cantrip (Bard, Druid)_
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 1 分钟
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Instantaneous
+三个你的幻象分身出现在你所在空间。
 
-You launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Radiant damage, and until the end of your next turn, it emits Dim Light in a 10-foot radius and can't benefit from the Invisible condition.
+直到法术结束，这些分身会与你一同移动并模仿你的动作，不断改变位置，使其他生物无法判断哪个是真身。
 
-_Cantrip Upgrade._ The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).
+在法术持续期间，每当一个生物以攻击检定命中你时，为每个仍然存在的分身各掷一枚 d6。
 
-#### Stinking Cloud
+如果其中任意一个 d6 掷出 3 或更高，则该攻击改为命中一个分身，而不是你，并摧毁该分身。
 
-_Level 3 Conjuration (Bard, Sorcerer, Wizard)_
+除此之外，分身会无视一切其他伤害和效果。
 
-**Casting Time:** Action
-**Range:** 90 feet
-**Components:** V, S, M (a rotten egg)
-**Duration:** Concentration, up to 1 minute
+当三个分身都被摧毁时，法术结束。
 
-You create a 20-foot-radius Sphere of yellow, nauseating gas centered on a point within range. The cloud is Heavily Obscured. The cloud lingers in the air for the duration or until a strong wind (such as the one created by _Gust of Wind_) disperses it.
+如果一个生物处于目盲状态，或者拥有盲视或真实视觉，则不受该法术影响。
 
-Each creature that starts its turn in the Sphere must succeed on a Constitution saving throw or have the Poisoned condition until the end of the current turn. While Poisoned in this way, the creature can't take an action or a Bonus Action.
+#### 假象术（Mislead）
 
-#### Stone Shape
+*5 环幻术法术（吟游诗人、邪术师、法师）*
 
-_Level 4 Transmutation (Cleric, Druid, Wizard)_
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** S  
+**持续时间：** 专注，至多 1 小时
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (soft clay)
-**Duration:** Instantaneous
+你陷入隐形状态，同时一个你的幻象分身出现在你原本站立的位置。
 
-You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape you like. For example, you could shape a large rock into a weapon, statue, or coffer, or you could make a small passage through a wall that is 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible.
+分身持续至法术结束，但你的隐形状态会在你进行攻击检定、造成伤害或施放法术后立即结束。
 
-#### Stoneskin
+作为魔法动作，你可以让幻象分身移动至多你速度的两倍，并让它按照你的选择做出手势、说话或行动。
 
-_Level 4 Transmutation (Druid, Ranger, Sorcerer, Wizard)_
+它没有实体，并且无法受到伤害。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (diamond dust worth 100+ GP, which the spell consumes)
-**Duration:** Concentration, up to 1 hour
+你可以通过它的眼睛看见，通过它的耳朵听见，如同自己身处它所在位置。
 
-Until the spell ends, one willing creature you touch has Resistance to Bludgeoning, Piercing, and Slashing damage.
+#### 迷踪步（Misty Step）
 
-#### Storm of Vengeance
+*2 环咒法法术（术士、邪术师、法师）*
 
-_Level 9 Conjuration (Druid)_
+**施法时间：** 附赠动作  
+**射程：** 自身  
+**成分：** V  
+**持续时间：** 立即
 
-**Casting Time:** Action
-**Range:** 1 mile
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+银色薄雾短暂环绕你。
 
-A churning storm cloud forms for the duration, centered on a point within range and spreading to a radius of 300 feet. Each creature under the cloud when it appears must succeed on a Constitution saving throw or take 2d6 Thunder damage and have the Deafened condition for the duration.
+你传送至多 30 尺，到达一个你能看见的未占据空间。
 
-At the start of each of your later turns, the storm produces different effects, as detailed below.
+#### 篡改记忆（Modify Memory）
 
-_Turn 2._ Acidic rain falls. Each creature and object under the cloud takes 4d6 Acid damage.
+*5 环惑控法术（吟游诗人、法师）*
 
-_Turn 3._ You call six bolts of lightning from the cloud to strike six different creatures or objects beneath it. Each target makes a Dexterity saving throw, taking 10d6 Lightning damage on a failed save or half as much damage on a successful one.
-_Turn 4._ Hailstones rain down. Each creature under the cloud takes 2d6 Bludgeoning damage.
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-_Turns 5–10._ Gusts and freezing rain assail the area under the cloud. Each creature there takes 1d6 Cold damage. Until the spell ends, the area is Difficult Terrain and Heavily Obscured, ranged attacks with weapons are impossible there, and strong wind blows through the area.
+你尝试重塑另一个生物的记忆。
 
-#### Suggestion
+射程内一个你能看见的生物进行一次感知豁免。
 
-_Level 2 Enchantment (Bard, Sorcerer, Warlock, Wizard)_
+如果你正在与该生物战斗，它进行该豁免时具有优势。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, M (a drop of honey)
-**Duration:** Concentration, up to 8 hours
+豁免失败时，目标在持续时间内陷入魅惑状态。
 
-You suggest a course of activity—described in no more than 25 words—to one creature you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to the target or its allies. For example, you could say, "Fetch the key to the cult's treasure vault, and give the key to me." Or you could say, "Stop fighting, leave this library peacefully, and don't return."
+以这种方式被魅惑期间，目标还会陷入失能状态，并且无法感知周围环境，不过仍然能够听见你。
 
-The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. The Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for the target upon completing it.
+如果目标受到任何伤害，或者成为另一个法术的目标，该法术立即结束，并且其记忆不会被改变。
 
-#### Summon Dragon
+魅惑持续期间，你可以影响目标在过去 24 小时内亲身经历、且持续时间不超过 10 分钟的一段事件记忆。
 
-_Level 5 Conjuration (Wizard)_
+你可以永久抹去目标对该事件的一切记忆，让目标以完美清晰度回忆该事件，改变它对事件细节的记忆，或者创造一段关于另一事件的记忆。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (an object with the image of a dragon engraved on it worth 500+ GP)
-**Duration:** Concentration, up to 1 hour
+你必须通过说话向目标描述记忆将如何被改变，并且目标必须能够理解你的语言，修改后的记忆才能扎根。
 
-You call forth a Dragon spirit. It manifests in an unoccupied space that you can see within range and uses the Draconic Spirit stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.
+目标的心智会自行填补你描述中的细节空缺。
 
-The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger.
+如果法术在你完成修改记忆的描述之前结束，则目标的记忆不会改变。
 
-_Using a Higher-Level Spell Slot._ Use the spell slot's level for the spell's level in the stat block.
+否则，修改后的记忆会在法术结束时正式生效。
 
-## Draconic Spirit
+修改后的记忆不一定会改变一个生物的行为，尤其当该记忆与其本性、阵营或信念相冲突时。
 
-_Large Dragon, Neutral_
+明显不合逻辑的修改记忆，例如让目标产生“自己曾非常享受在强酸里游泳”的虚假记忆，可能只会被它当作噩梦。
 
-**AC** 14 + the spell's level
-**HP** 50 + 10 for each spell level above 5
-**Speed** 30 ft., Fly 60 ft., Swim 30 ft.
+GM 可以裁定某段修改后的记忆过于荒谬，因此不会影响目标。
 
-<table>
-  <tbody>
-    <tr>
-      <td>MOD</td>
-      <td>SAVE</td>
-      <td></td>
-      <td>MOD</td>
-      <td>SAVE</td>
-      <td></td>
-      <td>MOD</td>
-      <td>SAVE</td>
-      <td colspan="4"></td>
-    </tr>
-    <tr>
-      <td>STR</td>
-      <td>19</td>
-      <td>+4</td>
-      <td>+4</td>
-      <td>DEX</td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td>CON</td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td>INT</td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td>WIS</td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td>CHA</td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-  </tbody>
-</table>
+对目标施放*移除诅咒*或*高等复原术*可以恢复其真实记忆。
 
-**Resistances** Acid, Cold, Fire, Lightning, Poison
-**Immunities** Charmed, Frightened, Poisoned
-**Senses** Blindsight 30 ft., Darkvision 60 ft.; Passive Perception 12
-**Languages** Draconic, understands the languages you know
-**CR** None (XP 0; PB equals your Proficiency Bonus)
+*使用更高环阶法术位。* 你可以改变更久远的记忆：6 环法术位可影响 7 天内的事件，7 环为 30 天内，8 环为 365 天内，9 环则可以影响目标过去任何时间发生的事件。
 
-#### Traits
+#### 月华之光（Moonbeam）
 
-_Shared Resistances._ When you summon the spirit, choose one of its Resistances. You have Resistance to the chosen damage type until the spell ends.
+*2 环塑能法术（德鲁伊）*
 
-#### Actions
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S、M（一片月籽叶）  
+**持续时间：** 专注，至多 1 分钟
 
-_Multiattack._ The spirit makes a number of Rend attacks equal to half the spell's level (round down), and it uses Breath Weapon.
+一道银白色淡光从天而降，以射程内一点为中心形成半径 5 尺、高 40 尺的柱状区域。
 
-_Rend. Melee Attack Roll:_ Bonus equals your spell attack modifier, reach 10 feet. _Hit:_ 1d6 + 4 + the spell's level Piercing damage.
+直到法术结束，柱状区域内充满微光。
 
-_Breath Weapon. Dexterity Saving Throw:_ DC equals your spell save DC, each creature in a 30-foot Cone. _Failure:_ 2d6 damage of a type this spirit has Resistance to (your choice when you cast the spell). _Success:_ Half damage.
+在之后的回合中，你可以执行魔法动作，将柱状区域移动至多 60 尺。
 
-#### Sunbeam
+柱状区域出现时，其中每个生物进行一次体质豁免。
 
-_Level 6 Evocation (Cleric, Druid, Sorcerer, Wizard)_
+豁免失败时，生物受到 2d10 光耀伤害；如果该生物正处于变形形态，例如受到*变形术*影响，则会恢复真实形态，并且直到离开柱状区域前无法再次变形。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S, M (a magnifying glass)
-**Duration:** Concentration, up to 1 minute
+豁免成功时，生物仅受到一半伤害。
 
-You launch a sunbeam in a 5-foot-wide, 60-foot-long Line. Each creature in the Line makes a Constitution saving throw. On a failed save, a creature takes 6d8 Radiant damage and has the Blinded condition until the start of your next turn. On a successful save, it takes half as much damage only.
+当法术区域移动进入一个生物的空间时，以及生物进入法术区域或在那里结束回合时，该生物也必须进行该豁免。
 
-Until the spell ends, you can take a Magic action to create a new Line of radiance.
+一个生物每回合只进行一次该豁免。
 
-For the duration, a mote of brilliant radiance shines above you. It sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. This light is sunlight.
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，伤害增加 1d10。
 
-#### Sunburst
+#### 移土术（Move Earth）
 
-_Level 8 Evocation (Cleric, Druid, Sorcerer, Wizard)_
+*6 环变化法术（德鲁伊、术士、法师）*
 
-**Casting Time:** Action
-**Range:** 150 feet
-**Components:** V, S, M (a piece of sunstone)
-**Duration:** Instantaneous
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S、M（一把微型铲子）  
+**持续时间：** 专注，至多 2 小时
 
-Brilliant sunlight flashes in a 60-foot-radius Sphere centered on a point you choose within range. Each creature in the Sphere makes a Constitution saving throw. On a failed save, a creature takes 12d6 Radiant damage and has the Blinded condition for 1 minute. On a successful save, it takes half as much damage only.
+选择射程内一片边长不超过 40 尺的地形区域。
 
-A creature Blinded by this spell makes another Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.
+持续时间内，你可以按照任意方式重塑区域中的泥土、沙土或黏土。
 
-This spell dispels Darkness in its area that was created by any spell.
+你可以抬高或降低地面高度、挖掘或填平沟渠、竖起或推平土墙，或者形成土柱。
 
-#### Symbol
+任何改变的幅度不得超过区域最大尺寸的一半。
 
-_Level 7 Abjuration (Bard, Cleric, Druid, Wizard)_
+例如，如果你影响一个 40 尺见方区域，就可以创造一根最高 20 尺的土柱，将区域高度升高或降低至多 20 尺，挖掘深至 20 尺的沟渠，等等。
 
-**Casting Time:** 1 minute
-**Range:** Touch
-**Components:** V, S, M (powdered diamond worth 1,000+ GP, which the spell consumes)
-**Duration:** Until dispelled or triggered
+这些变化需要 10 分钟才能完成。
 
-You inscribe a harmful glyph either on a surface (such as a section of floor or wall) or within an object that can be closed (such as a book or chest). The glyph can cover an area no larger than 10 feet in diameter. If you choose an object, it must remain in place; if it is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.
+由于地形变化十分缓慢，区域中的生物通常不会被地面运动困住或伤害。
 
-The glyph is nearly imperceptible and requires a successful Wisdom (Perception) check against your spell save DC to notice.
+在你每专注该法术 10 分钟结束时，可以选择射程内新的地形区域进行影响。
 
-When you inscribe the glyph, you set its trigger and choose which effect the symbol bears: Death, Discord, Fear, Pain, Sleep, or Stunning. Each one is explained below.
+该法术无法操纵天然岩石或石制建筑。
 
-_Set the Trigger._ You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, common triggers include touching or stepping on the glyph, removing another object covering it, or approaching within a certain distance of it. For glyphs inscribed within an object, common triggers include opening that object or seeing the glyph.
+岩石和建筑会随着新地形的位置发生移动，以适应变化。
 
-You can refine the trigger so that only creatures of certain types activate it (for example, the glyph could be set to affect Aberrations). You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.
+如果你的地形改造方式让某座建筑失去稳定，它可能倒塌。
 
-Once triggered, the glyph glows, filling a 60-foot-radius Sphere with Dim Light for 10 minutes, after which time the spell ends. Each creature in the Sphere when the glyph activates is targeted by its effect, as is a creature that enters the Sphere for the first time on a turn or ends its turn there. A creature is targeted only once per turn.
+同样，该法术不会直接影响植物生长。
 
-_Death._ Each target makes a Constitution saving throw, taking 10d10 Necrotic damage on a failed save or half as much damage on a successful save.
+被移动的土壤会连同其中植物一起移动。
 
-_Discord._ Each target makes a Wisdom saving throw. On a failed save, a target argues with other creatures for 1 minute. During this time, it is incapable of meaningful communication and has Disadvantage on attack rolls and ability checks.
+#### 回避侦测（Nondetection）
 
-_Fear._ Each target must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute. While Frightened, the target must move at least 30 feet away from the glyph on each of its turns, if able.
+*3 环防护法术（吟游诗人、游侠、法师）*
 
-_Pain._ Each target must succeed on a Constitution saving throw or have the Incapacitated condition for 1 minute.
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 25 GP 的一撮钻石粉末，法术会将其消耗）  
+**持续时间：** 8 小时
 
-_Sleep._ Each target must succeed on a Wisdom saving throw or have the Unconscious condition for 10 minutes. A creature awakens if it takes damage or if someone takes an action to shake it awake.
+持续时间内，你让所触碰的目标免受预言法术侦测。
 
-_Stunning._ Each target must succeed on a Wisdom saving throw or have the Stunned condition for 1 minute.
+目标可以是一个自愿生物，也可以是一个地点或任意方向上尺寸不超过 10 尺的物体。
 
-#### Telekinesis
+目标无法成为任何预言法术的目标，也无法通过魔法探知感知器被观察。
 
-_Level 5 Transmutation (Sorcerer, Wizard)_
+#### 穿墙术（Passwall）
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** Concentration, up to 10 minutes
+*5 环变化法术（法师）*
 
-You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell and as a Magic action on your later turns before the spell ends, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一撮芝麻）  
+**持续时间：** 1 小时
 
-_Creature._ You can try to move a Huge or smaller creature. The target must succeed on a Strength saving throw, or you move it up to 30 feet in any direction within the spell's range. Until the end of your next turn, the creature has the Restrained condition, and if you lift it into the air, it is suspended there. It falls at the end of your next turn unless you use this option on it again and it fails the save.
+射程内一个你能看见的木质、灰泥或石质表面上出现一道通道，例如墙壁、天花板或地板。
 
-_Object._ You can try to move a Huge or smaller object. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction within the spell's range. If the object is worn or carried by a creature, that creature must succeed on a Strength saving throw, or you pull the object away and move it up to 30 feet in any direction within the spell's range.
+通道持续至法术结束。
 
-You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.
+你决定开口大小：最宽 5 尺、最高 8 尺、最深 20 尺。
 
-#### Telepathic Bond
+该通道不会让周围建筑结构失去稳定。
 
-_Level 5 Divination (Bard, Wizard)_
+通道消失时，仍位于法术创造通道中的生物或物体会被安全排出到距离施法表面最近的未占据空间。
 
-**Casting Time:** Action or Ritual
-**Range:** 30 feet
-**Components:** V, S, M (two eggs)
-**Duration:** 1 hour
+#### 行踪无迹（Pass without Trace）
 
-You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures that can't communicate in any languages aren't affected by this spell.
+*2 环防护法术（德鲁伊、游侠）*
 
-Until the spell ends, the targets can communicate telepathically through the bond whether or not they share a language. The communication is possible over any distance, though it can't extend to other planes of existence.
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（燃烧槲寄生留下的灰烬）  
+**持续时间：** 专注，至多 1 小时
 
-#### Teleport
+持续时间内，你向外散发一道隐藏气息，形成 30 尺发散区域。
 
-_Level 7 Conjuration (Bard, Sorcerer, Wizard)_
+当你和由你选择的生物位于该灵光内时，进行敏捷（隐匿）检定获得 +10 加值，并且不会留下足迹。
 
-**Casting Time:** Action
-**Range:** 10 feet
-**Components:** V
-**Duration:** Instantaneous
+#### 幻影之力（Phantasmal Force）
 
-This spell instantly transports you and up to eight willing creatures that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be Large or smaller, and it can't be held or carried by an unwilling creature.
+*2 环幻术法术（吟游诗人、术士、法师）*
 
-The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The GM rolls 1d100 and consults the Teleportation Outcome table and the explanations after it.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一小撮羊毛）  
+**持续时间：** 专注，至多 1 分钟
 
-**Teleportation Outcome**
+你尝试在射程内一个你能看见的生物心中塑造幻象。
 
-<table>
-  <thead>
-    <tr>
-      <th>Familiarity</th>
-      <th>Mishap</th>
-      <th>Similar Area</th>
-      <th>Off Target</th>
-      <th>On Target</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Permanent circle</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>01–00</td>
-    </tr>
-    <tr>
-      <td>Linked object</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>01–00</td>
-    </tr>
-    <tr>
-      <td>Very familiar</td>
-      <td>01–05</td>
-      <td>06–13</td>
-      <td>14–24</td>
-      <td>25–00</td>
-    </tr>
-    <tr>
-      <td>Seen casually</td>
-      <td>01–33</td>
-      <td>34–43</td>
-      <td>44–53</td>
-      <td>54–00</td>
-    </tr>
-    <tr>
-      <td>Viewed once or described</td>
-      <td>01–43</td>
-      <td>44–53</td>
-      <td>54–73</td>
-      <td>74–00</td>
-    </tr>
-    <tr>
-      <td>False destination</td>
-      <td>01–50</td>
-      <td>51–00</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
+目标进行一次智力豁免。
 
-_Familiarity._ Here are the meanings of the terms in the table's Familiarity column:
+豁免失败时，你创造一个仅目标能够感知的幻象物体、生物或其他现象，其大小不得超过一个 10 尺立方区域，并持续至法术结束。
 
-- "Permanent circle" means a permanent teleportation circle whose sigil sequence you know.
-- "Linked object" means you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library.
-- "Very familiar" is a place you have visited often, a place you have carefully studied, or a place you can see when you cast the spell.
-- "Seen casually" is a place you have seen more than once but with which you aren't very familiar.
-- "Viewed once or described" is a place you have seen once, possibly using magic, or a place you know through someone else's description, perhaps from a map.
-- "False destination" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a location that no longer exists.
+幻象包含声音、温度和其他刺激。
 
-_Mishap._ The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes 3d10 Force damage, and the GM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).
+目标可以执行研究动作，用智力（调查）检定对抗你的法术豁免 DC 来检查幻象。
 
-_Similar Area._ You and your group (or the target object) appear in a different area that's visually or thematically similar to the target area. You appear in the closest similar place. If you are heading for your home laboratory, for example, you might appear in another person's laboratory in the same city.
+成功时，目标意识到幻象并不真实，法术结束。
 
-_Off Target._ You and your group (or the target object) appear 2d12 miles away from the destination in a random direction. Roll 1d8 for the direction: 1, east; 2, southeast; 3, south; 4, southwest; 5, west; 6, northwest; 7, north; or 8, northeast.
+受到法术影响期间，目标会将幻象视为真实，并会合理化与幻象互动时出现的任何不合逻辑结果。
 
-_On Target._ You and your group (or the target object) appear where you intended.
+例如，如果目标踩过一座幻象桥并从中跌落后幸存，它会相信桥确实存在，只是有其他原因导致自己坠落。
 
-#### Teleportation Circle
+如果幻象表现为危险生物或危险环境，它甚至可以伤害目标。
 
-_Level 5 Conjuration (Bard, Sorcerer, Warlock, Wizard)_
+在你的每个回合中，只要目标位于幻象区域内，或者距离幻象 5 尺内，该幻象就可以对目标造成 2d8 心灵伤害。
 
-**Casting Time:** 1 minute
-**Range:** 10 feet
-**Components:** V, M (rare inks worth 50+ GP, which the spell consumes)
-**Duration:** 1 round
+目标会将伤害感知为与幻象相符的类型。
 
-As you cast the spell, you draw a 5-foot-radius circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied.
+#### 幻影杀手（Phantasmal Killer）
 
-Many major temples, guildhalls, and other important places have permanent teleportation circles. Each circle includes a unique sigil sequence—a string of runes arranged in a particular pattern.
+*4 环幻术法术（吟游诗人、法师）*
 
-When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the GM. You might learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute.
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
 
-You can create a permanent teleportation circle by casting this spell in the same location every day for 365 days.
+你深入射程内一个你能看见的生物最深层的噩梦，并创造其最大恐惧的幻象，只有该生物能看见。
 
-#### Thaumaturgy
+目标进行一次感知豁免。
 
-_Transmutation Cantrip (Cleric)_
+豁免失败时，目标受到 4d10 心灵伤害，并且在持续时间内进行属性检定和攻击检定时具有劣势。
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V
-**Duration:** Up to 1 minute
+豁免成功时，目标只受到一半伤害，法术结束。
 
-You manifest a minor wonder within range. You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.
+持续时间内，目标在自己每个回合结束时进行一次感知豁免。
 
-_Altered Eyes._ You alter the appearance of your eyes for 1 minute.
+豁免失败时，再次受到上述心灵伤害。
 
-_Booming Voice._ Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on Charisma (Intimidation) checks.
+豁免成功时，法术结束。
 
-_Fire Play._ You cause flames to flicker, brighten, dim, or change color for 1 minute.
+*使用更高环阶法术位。* 你每使用高于 4 环一环的法术位，伤害增加 1d10。
 
-_Invisible Hand._ You instantaneously cause an unlocked door or window to fly open or slam shut.
+#### 魅影驹（Phantom Steed）
 
-_Phantom Sound._ You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.
+*3 环幻术法术（法师）*
 
-_Tremors._ You cause harmless tremors in the ground for 1 minute.
+**施法时间：** 1 分钟或仪式  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 1 小时
 
-#### Thunderwave
+一个大型、半实体、形似马匹的生物出现在射程内地面上一个由你选择的未占据空间。
 
-_Level 1 Evocation (Bard, Druid, Sorcerer, Wizard)_
+你决定其外观，它自带马鞍、嚼子和缰绳。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** Instantaneous
+如果法术创造出的任何装备被带到距离坐骑超过 10 尺的位置，会化作一阵烟雾消失。
 
-You unleash a wave of thunderous energy. Each creature in a 15-foot Cube originating from you makes a Constitution saving throw. On a failed save, a creature takes 2d8 Thunder damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage only.
+持续时间内，你或你选择的一个生物可以骑乘该坐骑。
 
-In addition, unsecured objects that are entirely within the Cube are pushed 10 feet away from you, and a thunderous boom is audible within 300 feet.
+坐骑使用“怪物”中的骑乘马数据，但速度为 100 尺，并且每小时可以行进 13 里。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 1.
+法术结束时，坐骑会逐渐淡去，使骑手有 1 分钟时间下马。
 
-#### Time Stop
+如果坐骑受到任何伤害，法术提前结束。
 
-_Level 9 Transmutation (Sorcerer, Wizard)_
+#### 异界盟友（Planar Ally）
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V
-**Duration:** Instantaneous
+*6 环咒法法术（牧师）*
 
-You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take 1d4 + 1 turns in a row, during which you can use actions and move as normal.
+**施法时间：** 10 分钟  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-This spell ends if one of the actions you use during this period, or any effects that you create during it, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it.
+你向一个异界实体祈求援助。
 
-#### Tiny Hut
+该存在必须为你所知，例如某位神祇、恶魔王子或其他宇宙级强大存在。
 
-_Level 3 Evocation (Bard, Wizard)_
+该实体会派遣一名忠于自己的天界生物、元素或邪魔来协助你，并让它出现在射程内一个未占据空间。
 
-**Casting Time:** 1 minute or Ritual
-**Range:** Self
-**Components:** V, S, M (a crystal bead)
-**Duration:** 8 hours
+如果你知道某个特定生物的名字，可以在施法时说出名字请求它前来，但你仍有可能得到另一个生物，由 GM 决定。
 
-A 10-foot Emanation springs into existence around you and remains stationary for the duration. The spell fails when you cast it if the Emanation isn't big enough to fully encapsulate all creatures in its area.
+该生物出现后，不会受到任何强制，必须按照某种方式行动。
 
-Creatures and objects within the Emanation when you cast the spell can move through it freely. All other creatures and objects are barred from passing through it. Spells of level 3 or lower can't be cast through it, and the effects of such spells can't extend into it.
+你可以请求它提供服务并给予报酬，但它没有义务答应。
 
-The atmosphere inside the Emanation is comfortable and dry, regardless of the weather outside. Until the spell ends, you can command the interior to have Dim Light or Darkness (no action required). The Emanation is opaque from the outside and of any color you choose, but it's transparent from the inside.
+请求可以简单，例如“带我们飞过峡谷”或“帮助我们打一场战斗”；也可以复杂，例如“监视我们的敌人”或“在我们进入地城期间保护我们”。
 
-The spell ends early if you leave the Emanation or if you cast it again.
+你必须能够与该生物交流，才能就服务进行谈判。
 
-#### Tongues
+报酬形式可以多种多样。
 
-_Level 3 Divination (Bard, Cleric, Sorcerer, Warlock, Wizard)_
+天界生物可能要求你向一个盟友神殿捐赠大量金币或魔法物品，而邪魔可能要求活体祭品或宝物。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, M (a miniature ziggurat)
-**Duration:** 1 hour
+某些生物可能会要求你完成一项任务，以此交换服务。
 
-This spell grants the creature you touch the ability to understand any spoken or signed language that it hears or sees. Moreover, when the target communicates by speaking or signing, any creature that knows at least one language can understand it if that creature can hear the speech or see the signing.
+按分钟计算的任务，每分钟需要价值 100 GP 的报酬。
 
-#### Transport via Plants
+按小时计算的任务，每小时需要 1,000 GP。
 
-_Level 6 Conjuration (Druid)_
+按天计算的任务，最长 10 天，每天需要 10,000 GP。
 
-**Casting Time:** Action
-**Range:** 10 feet
-**Components:** V, S
-**Duration:** 1 minute
+GM 可以根据施法时的具体环境调整报酬。
 
-This spell creates a magical link between a Large or larger inanimate plant within range and another plant, at any distance, on the same plane of existence. You must have seen or touched the destination plant at least once before. For the duration, any creature can step into the target plant and exit from the destination plant by using 5 feet of movement.
+如果任务符合该生物的信条，报酬可能减半甚至完全免除。
 
-#### Tree Stride
+没有危险的任务通常只需要建议报酬的一半，而特别危险的任务可能需要更贵重的报酬。
 
-_Level 5 Conjuration (Druid, Ranger)_
+生物很少接受明显等同于自杀的任务。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+该生物完成任务后，或者约定服务时间结束后，如果可能，会先向你报告，然后返回自己的原生位面。
 
-You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you're in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered.
+如果你无法与该生物就服务价格达成一致，它会立即返回自己的原生位面。
 
-You can use this transportation ability only once on each of your turns. You must end each turn outside a tree.
+#### 异界誓缚（Planar Binding）
 
-#### True Polymorph
+*5 环防护法术（吟游诗人、牧师、德鲁伊、邪术师、法师）*
 
-_Level 9 Transmutation (Bard, Warlock, Wizard)_
+**施法时间：** 1 小时  
+**射程：** 60 尺  
+**成分：** V、S、M（一颗价值至少 1,000 GP 的珠宝，法术会将其消耗）  
+**持续时间：** 24 小时
 
-**Casting Time:** Action
-**Range:** 30 feet
-**Components:** V, S, M (a drop of mercury, a dollop of gum arabic, and a wisp of smoke)
-**Duration:** Concentration, up to 1 hour
+你尝试将一个天界生物、元素、妖精或邪魔束缚为你的仆从。
 
-Choose one creature or nonmagical object that you can see within range. The creature shape-shifts into a different creature or a nonmagical object, or the object shape-shifts into a creature (the object must be neither worn nor carried). The transformation lasts for the duration or until the target dies or is destroyed, but if you maintain Concentration on this spell for the full duration, the spell lasts until dispelled.
+在整个施法过程中，该生物都必须位于射程内。
 
-An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell.
+通常，目标会先被召唤到一个反向运作的*魔法阵*中央，使其在你施放该法术时无法逃离。
 
-_Creature into Creature._ If you turn a creature into another kind of creature, the new form can be any kind you choose that has a Challenge Rating equal to or less than the target's Challenge Rating or level. The target's game statistics are replaced by the stat block of the new form, but it retains its Hit Points, Hit Point Dice, alignment, and personality.
+完成施法时，目标必须成功通过一次魅力豁免，否则在持续时间内被束缚为你服务。
 
-The target gains a number of Temporary Hit Points equal to the Hit Points of the new form. These Temporary Hit Points vanish if any remain when the spell ends.
+如果该生物由另一个法术召唤或创造，那个法术的持续时间会延长，使其与该法术持续时间一致。
 
-The target is limited in the actions it can perform by the anatomy of its new form, and it can't speak or cast spells.
+被束缚的生物必须尽最大能力遵从你的命令。
 
-The target's gear melds into the new form. The creature can't use or otherwise benefit from any of that equipment.
+你可以命令它与你一同冒险、守卫某个地点或传递信息。
 
-_Object into Creature._ You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature has a Challenge Rating of 9 or lower. The creature is Friendly to you and your allies. In combat, it takes its turns immediately after yours, and it obeys your commands.
+如果该生物态度敌对，它会努力曲解你的命令，以达成自己的目的。
 
-If the spell lasts more than an hour, you no longer control the creature. It might remain Friendly to you, depending on how you have treated it.
+如果它在法术结束前完全完成了命令，而你们位于同一存在位面，它会前来向你报告。
 
-_Creature into Object._ If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form, as long as the object's size is no larger than the creature's size. The creature's statistics become those of the object, and the creature has no memory of time spent in this form after the spell ends and it returns to normal.
+如果你位于不同位面，它会返回你束缚它的地点，并在那里停留直到法术结束。
 
-#### True Resurrection
+*使用更高环阶法术位。* 使用更高环阶法术位时，持续时间延长：6 环为 10 天，7 环为 30 天，8 环为 180 天，9 环为 366 天。
 
-_Level 9 Necromancy (Cleric, Druid)_
+#### 异界传送（Plane Shift）
 
-**Casting Time:** 1 hour
-**Range:** Touch
-**Components:** V, S, M (diamonds worth 25,000+ GP, which the spell consumes)
-**Duration:** Instantaneous
+*7 环咒法法术（牧师、德鲁伊、术士、邪术师、法师）*
 
-You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. The creature is revived with all its Hit Points.
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一根价值至少 250 GP、并与某存在位面调谐的叉形金属棒）  
+**持续时间：** 立即
 
-This spell closes all wounds, neutralizes any poison, cures all magical contagions, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was Undead, it is restored to its non-Undead form.
+你和至多八个自愿生物手拉手形成一圈，并被传送到另一个存在位面。
 
-The spell can provide a new body if the original no longer exists, in which case you must speak the creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you.
+你可以用一般描述指定目的地，例如“火元素位面上的某座城市”或者“九层地狱第二层的某座宫殿”。
 
-#### True Seeing
+你会出现在该目的地或附近，具体位置由 GM 决定。
 
-_Level 6 Divination (Bard, Cleric, Sorcerer, Warlock, Wizard)_
+或者，如果你知道另一存在位面某个传送法阵的符记序列，该法术可以直接将你们传送至该法阵。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (mushroom powder worth 25+ GP, which the spell consumes)
-**Duration:** 1 hour
+如果传送法阵太小，无法容纳所有被传送生物，剩余生物会出现在法阵附近最近的未占据空间。
 
-For the duration, the willing creature you touch has Truesight with a range of 120 feet.
+#### 植物滋长（Plant Growth）
 
-#### True Strike
+*3 环变化法术（吟游诗人、德鲁伊、游侠）*
 
-_Divination Cantrip (Bard, Sorcerer, Warlock, Wizard)_
+**施法时间：** 动作（过度生长）或 8 小时（丰饶）  
+**射程：** 150 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** S, M (a weapon with which you have proficiency and that is worth 1+ CP)
-**Duration:** Instantaneous
+该法术将生命力灌注进植物。
 
-Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).
+你使用的施法时间决定产生下列哪一种效果。
 
-_Cantrip Upgrade._ Whether you deal Radiant damage or the weapon's normal damage type, the attack deals extra Radiant damage when you reach levels 5 (1d6), 11 (2d6), and 17 (3d6).
+*过度生长（Overgrowth）。* 选择射程内一点。
 
-#### Tsunami
+以该点为中心、半径 100 尺球状区域内的所有普通植物都变得浓密并疯狂生长。
 
-_Level 8 Conjuration (Druid)_
+生物在该区域内移动时，每移动 1 尺必须花费 4 尺移动。
 
-**Casting Time:** 1 minute
-**Range:** 1 mile
-**Components:** V, S
-**Duration:** Concentration, up to 6 rounds
+你可以指定法术区域中的任意数量、任意大小区域不受影响。
 
-A wall of water springs into existence at a point you choose within range. You can make the wall up to 300 feet long, 300 feet high, and 50 feet thick. The wall lasts for the duration.
+*丰饶（Enrichment）。* 以射程内一点为中心、半径半里的所有植物都会在接下来 365 天内变得格外繁茂。
 
-When the wall appears, each creature in its area makes a Strength saving throw, taking 6d10 Bludgeoning damage on a failed save or half as much damage on a successful one.
+收获时，这些植物会产出正常数量两倍的食物。
 
-At the start of each of your turns after the wall appears, the wall, along with any creatures in it, moves 50 feet away from you. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves must succeed on a Strength saving throw or take 5d10 Bludgeoning damage. A creature can take this damage only once per round. At the end of the turn, the wall's height is reduced by 50 feet, and the damage the wall deals on later rounds is reduced by 1d10. When the wall reaches 0 feet in height, the spell ends.
+同一片植物每年只能获得一次*植物滋长*的该项收益。
 
-A creature caught in the wall can move by swimming. Because of the wave's force, though, the creature must succeed on a Strength (Athletics) check against your spell save DC to move at all. If it fails the check, it can't move. A creature that moves out of the wall falls to the ground.
+#### 毒液喷溅（Poison Spray）
 
-#### Unseen Servant
+*死灵戏法（德鲁伊、术士、邪术师、法师）*
 
-_Level 1 Conjuration (Bard, Warlock, Wizard)_
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 立即
 
-**Casting Time:** Action or Ritual
-**Range:** 60 feet
-**Components:** V, S, M (a bit of string and of wood)
-**Duration:** 1 hour
+你向射程内一个生物喷出有毒雾气。
 
-This spell creates an Invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 Hit Point, and a Strength of 2, and it can't attack. If it drops to 0 Hit Points, the spell ends.
+对目标进行一次远程法术攻击。
 
-Once on each of your turns as a Bonus Action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring drinks. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.
+命中时，目标受到 1d12 毒素伤害。
 
-If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends.
+*戏法升级。* 当你达到 5 级（2d12）、11 级（3d12）和 17 级（4d12）时，伤害各增加 1d12。
 
-#### Vampiric Touch
+#### 变形术（Polymorph）
 
-_Level 3 Necromancy (Sorcerer, Warlock, Wizard)_
+*4 环变化法术（吟游诗人、德鲁伊、术士、法师）*
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一只毛毛虫的茧）  
+**持续时间：** 专注，至多 1 小时
 
-The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against one creature within reach. On a hit, the target takes 3d6 Necrotic damage, and you regain Hit Points equal to half the amount of Necrotic damage dealt.
+你尝试将射程内一个你能看见的生物变成野兽。
 
-Until the spell ends, you can make the attack again on each of your turns as a Magic action, targeting the same creature or a different one.
+目标必须成功通过一次感知豁免，否则在持续时间内变形为一种野兽形态。
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d6 for each spell slot level above 3.
+该形态可以是任意由你选择、挑战等级不高于目标挑战等级的野兽；如果目标没有挑战等级，则不得高于目标等级。
 
-#### Vicious Mockery
+目标的游戏数据被所选野兽的数据替代，但目标保留自己的阵营、人格、生物类型、生命值和生命骰。
 
-_Enchantment Cantrip (Bard)_
+“怪物”的“动物”部分提供了野兽数据范例。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V
-**Duration:** Instantaneous
+目标获得等于野兽形态生命值数量的临时生命值。
 
-You unleash a string of insults laced with subtle enchantments at one creature you can see or hear within range. The target must succeed on a Wisdom saving throw or take 1d6 Psychic damage and have Disadvantage on the next attack roll it makes before the end of its next turn.
+如果法术结束时仍有临时生命值剩余，这些临时生命值会消失。
 
-_Cantrip Upgrade._ The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).
+如果目标失去全部这些临时生命值，法术会提前结束。
 
-#### Vitriolic Sphere
+目标能够采取的动作受到新形态身体构造限制，并且无法说话或施放法术。
 
-_Level 4 Evocation (Sorcerer, Wizard)_
+目标装备会融入新形态中，并且无法使用或以其他方式获得这些装备带来的收益。
 
-**Casting Time:** Action
-**Range:** 150 feet
-**Components:** V, S, M (a drop of bile)
-**Duration:** Instantaneous
+#### 律令医疗（Power Word Heal）
 
-You point at a location within range, and a glowing, 1-foot-diameter ball of acid streaks there and explodes in a 20-foot-radius Sphere. Each creature in that area makes a Dexterity saving throw. On a failed save, a creature takes 10d4 Acid damage and another 5d4 Acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage only.
+*9 环惑控法术（吟游诗人、牧师）*
 
-_Using a Higher-Level Spell Slot._ The initial damage increases by 2d4 for each spell slot level above 4.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V  
+**持续时间：** 立即
 
-#### Wall of Fire
+一股治疗能量席卷射程内一个你能看见的生物。
 
-_Level 4 Evocation (Druid, Sorcerer, Wizard)_
+目标恢复全部生命值。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S, M (a piece of charcoal)
-**Duration:** Concentration, up to 1 minute
+如果该生物正处于魅惑、恐慌、麻痹、中毒或震慑状态，该状态结束。
 
-You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.
+如果该生物处于倒地状态，它可以使用反应站起来。
 
-When the wall appears, each creature in its area makes a Dexterity saving throw, taking 5d8 Fire damage on a failed save or half as much damage on a successful one.
+#### 律令死亡（Power Word Kill）
 
-One side of the wall, selected by you when you cast this spell, deals 5d8 Fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.
+*9 环惑控法术（吟游诗人、术士、邪术师、法师）*
 
-_Using a Higher-Level Spell Slot._ The damage increases by 1d8 for each spell slot level above 4.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V  
+**持续时间：** 立即
 
-#### Wall of Force
+你迫使射程内一个你能看见的生物死亡。
 
-_Level 5 Evocation (Wizard)_
+如果目标当前生命值不高于 100，它立即死亡。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S, M (a shard of glass)
-**Duration:** Concentration, up to 10 minutes
+否则，它受到 12d12 心灵伤害。
 
-An Invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a globe with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick and lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side).
+#### 律令震慑（Power Word Stun）
 
-Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by _Dispel Magic_. A _Disintegrate_ spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane and blocks ethereal travel through the wall.
+*8 环惑控法术（吟游诗人、术士、邪术师、法师）*
 
-#### Wall of Ice
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V  
+**持续时间：** 立即
 
-_Level 6 Evocation (Wizard)_
+你以强大力量压倒射程内一个你能看见的生物心智。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S, M (a piece of quartz)
-**Duration:** Concentration, up to 10 minutes
+如果目标当前生命值不高于 150，它陷入震慑状态。
 
-You create a wall of ice on a solid surface within range. You can form it into a hemispherical dome or a globe with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-square panels. Each panel must be contiguous with another panel. In any form, the wall is 1 foot thick and lasts for the duration.
+否则，其速度变为 0，直到你的下一回合开始。
 
-If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side) and makes a Dexterity saving throw, taking 10d6 Cold damage on a failed save or half as much damage on a successful one.
+被震慑的目标在自己每个回合结束时进行一次体质豁免，成功则结束自身的震慑状态。
 
-The wall is an object that can be damaged and thus breached. It has AC 12 and 30 Hit Points per 10-foot section, and it has Immunity to Cold, Poison, and Psychic damage and Vulnerability to Fire damage. Reducing a 10-foot section of wall to 0 Hit Points destroys it and leaves behind a sheet of frigid air in the space the wall occupied.
+#### 治愈祷言（Prayer of Healing）
 
-A creature moving through the sheet of frigid air for the first time on a turn makes a Constitution saving throw, taking 5d6 Cold damage on a failed save or half as much damage on a successful one.
-_Using a Higher-Level Spell Slot._ The damage the wall deals when it appears increases by 2d6 and the damage from passing through the sheet of frigid air increases by 1d6 for each spell slot level above 6.
+*2 环防护法术（牧师、圣武士）*
 
-#### Wall of Stone
+**施法时间：** 10 分钟  
+**射程：** 30 尺  
+**成分：** V  
+**持续时间：** 立即
 
-_Level 5 Evocation (Druid, Sorcerer, Wizard)_
+选择至多五个在整个施法过程中都保持在射程内的生物。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S, M (a cube of granite)
-**Duration:** Concentration, up to 10 minutes
+每个目标获得一次短休的所有收益，并额外恢复 2d8 生命值。
 
-A nonmagical wall of solid stone springs into existence at a point you choose within range. The wall is 6 inches thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. Alternatively, you can create 10-foot-by-20-foot panels that are only 3 inches thick.
+一个生物在完成一次长休前，不能再次受到该法术影响。
 
-If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its Reaction to move up to its Speed so that it is no longer enclosed by the wall.
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，治疗量增加 1d8。
 
-The wall can have any shape you desire, though it can't occupy the same space as a creature or object. The wall doesn't need to be vertical or rest on a firm foundation. It must, however, merge with and be solidly supported by existing stone. Thus, you can use this spell to bridge a chasm or create a ramp.
+#### 魔法伎俩（Prestidigitation）
 
-If you create a span greater than 20 feet in length, you must halve the size of each panel to create supports. You can crudely shape the wall to create battlements and the like.
+*变化戏法（吟游诗人、术士、邪术师、法师）*
 
-The wall is an object made of stone that can be damaged and thus breached. Each panel has AC 15 and 30 Hit Points per inch of thickness, and it has Immunity to Poison and Psychic damage. Reducing a panel to 0 Hit Points destroys it and might cause connected panels to collapse at the GM's discretion.
+**施法时间：** 动作  
+**射程：** 10 尺  
+**成分：** V、S  
+**持续时间：** 至多 1 小时
 
-If you maintain your Concentration on this spell for its full duration, the wall becomes permanent and can't be dispelled. Otherwise, the wall disappears when the spell ends.
+你在射程内创造一个魔法效果。
 
-#### Wall of Thorns
+从以下选项中选择。
 
-_Level 6 Conjuration (Druid)_
+如果你多次施放该法术，同一时间最多可以有三个非立即效果同时存在。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S, M (a handful of thorns)
-**Duration:** Concentration, up to 10 minutes
+*感官效果（Sensory Effect）。* 你创造一个立即产生且无害的感官效果，例如一阵火花、一股微风、几声轻柔音乐或一种奇怪气味。
 
-You create a wall of tangled brush bristling with needle-sharp thorns. The wall appears within range on a solid surface and lasts for the duration. You choose to make the wall up to 60 feet long, 10 feet high, and 5 feet thick or a circle that has a 20-foot diameter and is up to 20 feet high and 5 feet thick. The wall blocks line of sight.
+*戏火（Fire Play）。* 你立即点燃或熄灭一根蜡烛、一支火把或一小堆营火。
 
-When the wall appears, each creature in its area makes a Dexterity saving throw, taking 7d8 Piercing damage on a failed save or half as much damage on a successful one.
+*清洁或弄脏（Clean or Soil）。* 你立即清洁或弄脏一个不大于 1 立方尺的物体。
 
-A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. Furthermore, the first time a creature enters a space in the wall on a turn or ends its turn there, the creature makes a Dexterity saving throw, taking 7d8 Slashing damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.
+*轻微感受（Minor Sensation）。* 你让最多 1 立方尺的非生命材料变冷、变暖或产生味道，持续 1 小时。
 
-_Using a Higher-Level Spell Slot._ Both types of damage increase by 1d8 for each spell slot level above 6.
+*魔法标记（Magic Mark）。* 你让一个物体或表面上出现一种颜色、一个小标记或符号，持续 1 小时。
 
-#### Warding Bond
+*微型创造（Minor Creation）。* 你创造一件能够放在手中的非魔法小饰物，或者一个可以放在手中的幻象影像。
 
-_Level 2 Abjuration (Cleric, Paladin)_
+它持续到你的下一回合结束。
 
-**Casting Time:** Action
-**Range:** Touch
-**Components:** V, S, M (a pair of platinum rings worth 50+ GP each, which you and the target must wear for the duration)
-**Duration:** 1 hour
+小饰物无法造成伤害，也不具有金钱价值。
 
-You touch another creature that is willing and create a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has Resistance to all damage. Also, each time it takes damage, you take the same amount of damage.
+#### 虹光喷射（Prismatic Spray）
 
-The spell ends if you drop to 0 Hit Points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures.
+*7 环塑能法术（吟游诗人、术士、法师）*
 
-#### Water Breathing
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 立即
 
-_Level 3 Transmutation (Druid, Ranger, Sorcerer, Wizard)_
+八道彩色光线从你身上射出，形成 60 尺锥状区域。
 
-**Casting Time:** Action or Ritual
-**Range:** 30 feet
-**Components:** V, S, M (a short reed)
-**Duration:** 24 hours
+锥状区域内每个生物进行一次敏捷豁免。
 
-This spell grants up to ten willing creatures of your choice within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.
+对于每个目标，掷 1d8 并查阅“虹光射线”表，以决定影响它的光线颜色。
 
-#### Water Walk
+**虹光射线（Prismatic Rays）**
 
-_Level 3 Transmutation (Cleric, Druid, Ranger, Sorcerer)_
+| 1d8 | 射线 |
+|---:|---|
+| 1 | **红色。** *豁免失败：* 12d6 火焰伤害。*豁免成功：* 一半伤害。 |
+| 2 | **橙色。** *豁免失败：* 12d6 强酸伤害。*豁免成功：* 一半伤害。 |
+| 3 | **黄色。** *豁免失败：* 12d6 闪电伤害。*豁免成功：* 一半伤害。 |
+| 4 | **绿色。** *豁免失败：* 12d6 毒素伤害。*豁免成功：* 一半伤害。 |
+| 5 | **蓝色。** *豁免失败：* 12d6 寒冷伤害。*豁免成功：* 一半伤害。 |
+| 6 | **靛色。** *豁免失败：* 目标陷入束缚状态，并在自己每个回合结束时进行一次体质豁免。如果累计成功三次，该状态结束；如果累计失败三次，则目标陷入石化状态，直到被*高等复原术*等效果解除。成功与失败无需连续；分别记录，直到其中一种累计达到三次。 |
+| 7 | **紫罗兰色。** *豁免失败：* 目标陷入目盲状态，并在你的下一回合开始时进行一次感知豁免。成功时，状态结束。失败时，状态结束，同时目标被传送至另一个存在位面，由 GM 选择。 |
+| 8 | **特殊。** 目标同时被两道射线击中。掷两次，并重掷任何 8。 |
 
-**Casting Time:** Action or Ritual
-**Range:** 30 feet
-**Components:** V, S, M (a piece of cork)
-**Duration:** 1 hour
+#### 虹光法墙（Prismatic Wall）
 
-This spell grants the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures of your choice within range gain this ability for the duration.
+*9 环防护法术（吟游诗人、法师）*
 
-An affected target must take a Bonus Action to pass from the liquid's surface into the liquid itself and vice versa, but if the target falls into the liquid, the target passes through the surface into the liquid below.
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 10 分钟
 
-#### Web
+一道闪耀多彩的垂直不透明光墙形成，以射程内一点为中心。
 
-_Level 2 Conjuration (Sorcerer, Wizard)_
+墙最长 90 尺、高 30 尺、厚 1 英寸。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S, M (a bit of spiderweb)
-**Duration:** Concentration, up to 1 hour
+或者，你可以将墙塑造成直径最大 30 尺、以射程内一点为中心的球体。
 
-You conjure a mass of sticky webbing at a point within range. The webs fill a 20-foot Cube there for the duration. The webs are Difficult Terrain, and the area within them is Lightly Obscured.
+墙持续至法术结束。
 
-If the webs aren't anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, the web collapses on itself, and the spell ends at the start of your next turn. Webs layered over a flat surface have a depth of 5 feet.
+如果你将墙放置在有生物占据的空间中，法术立即结束且不产生效果。
 
-The first time a creature enters the webs on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the Restrained condition while in the webs or until it breaks free.
+墙在 100 尺内产生明亮光照，并在额外 100 尺内产生微光。
 
-A creature Restrained by the webs can take an action to make a Strength (Athletics) check against your spell save DC. If it succeeds, it is no longer Restrained.
+你以及你施放法术时指定的生物，可以无害地穿过墙或靠近它。
 
-The webs are flammable. Any 5-foot Cube of webs exposed to fire burns away in 1 round, dealing 2d4 Fire damage to any creature that starts its turn in the fire.
+其他任何能够看见墙的生物，如果移动到墙 20 尺内或在那里开始回合，必须成功通过一次体质豁免，否则陷入目盲状态 1 分钟。
 
-#### Weird
+墙由七层不同颜色构成。
 
-_Level 9 Illusion (Warlock, Wizard)_
+当一个生物伸手进入或穿过墙时，它会依次穿过所有层，每一层都要求该生物进行一次敏捷豁免，否则受到“虹光层”表中描述的效果。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S
-**Duration:** Concentration, up to 1 minute
+墙的 AC 为 10，并可以按照从红色到紫罗兰色的顺序，一层一层被摧毁。
 
-You try to create illusory terrors in others' minds. Each creature of your choice in a 30-foot-radius Sphere centered on a point within range makes a Wisdom saving throw. On a failed save, a target takes 10d10 Psychic damage and has the Frightened condition for the duration. On a successful save, a target takes half as much damage only.
+每一层都有特定的摧毁方式。
 
-A Frightened target makes a Wisdom saving throw at the end of each of its turns. On a failed save, it takes 5d10 Psychic damage. On a successful save, the spell ends on that target.
+一层被摧毁后，会在法术剩余持续时间内永久消失。
 
-#### Wind Walk
+*反魔法力场*无法影响该墙，而*解除魔法*只能影响紫罗兰层。
 
-_Level 6 Transmutation (Druid)_
+**虹光层（Prismatic Layers）**
 
-**Casting Time:** 1 minute
-**Range:** 30 feet
-**Components:** V, S, M (a candle)
-**Duration:** 8 hours
+| 顺序 | 效果 |
+|---:|---|
+| 1 | **红色。** *豁免失败：* 12d6 火焰伤害。*豁免成功：* 一半伤害。*额外效果：* 非魔法远程攻击无法穿过此层。如果此层受到至少 25 点寒冷伤害，会被摧毁。 |
+| 2 | **橙色。** *豁免失败：* 12d6 强酸伤害。*豁免成功：* 一半伤害。*额外效果：* 魔法远程攻击无法穿过此层。强风，例如*舞风术*创造的强风，会摧毁此层。 |
+| 3 | **黄色。** *豁免失败：* 12d6 闪电伤害。*豁免成功：* 一半伤害。*额外效果：* 此层受到至少 60 点力场伤害时被摧毁。 |
+| 4 | **绿色。** *豁免失败：* 12d6 毒素伤害。*豁免成功：* 一半伤害。*额外效果：* *穿墙术*，或任何同环阶或更高、能够在实体表面开启通道的法术，会摧毁此层。 |
+| 5 | **蓝色。** *豁免失败：* 12d6 寒冷伤害。*豁免成功：* 一半伤害。*额外效果：* 此层受到至少 25 点火焰伤害时被摧毁。 |
+| 6 | **靛色。** *豁免失败：* 目标陷入束缚状态，并在自己每个回合结束时进行一次体质豁免。累计成功三次时状态结束；累计失败三次时目标陷入石化状态，直到被*高等复原术*等效果解除。成功与失败无需连续；分别记录，直到其中一种累计达到三次。*额外效果：* 法术无法穿过此层。由*昼明术*产生的明亮光照会摧毁此层。 |
+| 7 | **紫罗兰色。** *豁免失败：* 目标陷入目盲状态，并在你的下一回合开始时进行一次感知豁免。成功时状态结束。失败时状态结束，同时目标传送到另一个存在位面，由 GM 选择。*额外效果：* *解除魔法*会摧毁此层。 |
 
-You and up to ten willing creatures of your choice within range assume gaseous forms for the duration, appearing as wisps of cloud. While in this cloud form, a target has a Fly Speed of 300 feet and can hover; it has Immunity to the Prone condition; and it has Resistance to Bludgeoning, Piercing, and Slashing damage. The only actions a target can take in this form are the Dash action or a Magic action to begin reverting to its normal form. Reverting takes 1 minute, during which the target has the Stunned condition. Until the spell ends, the target can revert to cloud form, which also requires a Magic action followed by a 1-minute transformation.
+#### 私人圣所（Private Sanctum）
 
-If a target is in cloud form and flying when the effect ends, the target descends 60 feet per round for 1 minute until it lands, which it does safely. If it can't land after 1 minute, it falls the remaining distance.
+*4 环防护法术（法师）*
 
-#### Wind Wall
+**施法时间：** 10 分钟  
+**射程：** 120 尺  
+**成分：** V、S、M（一层薄铅片）  
+**持续时间：** 24 小时
 
-_Level 3 Evocation (Druid, Ranger)_
+你让射程内一片区域受到魔法保护。
 
-**Casting Time:** Action
-**Range:** 120 feet
-**Components:** V, S, M (a fan and a feather)
-**Duration:** Concentration, up to 1 minute
+区域为一个立方体，每边最小 5 尺、最大 100 尺。
 
-A wall of strong wind rises from the ground at a point you choose within range. You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. You can shape the wall in any way you choose so long as it makes one continuous path along the ground. The wall lasts for the duration.
+法术持续至持续时间结束。
 
-When the wall appears, each creature in its area makes a Strength saving throw, taking 4d8 Bludgeoning damage on a failed save or half as much damage on a successful one.
+施放法术时，你决定法术提供哪些安全措施，可以选择以下任意数量的属性：
 
-The strong wind keeps fog, smoke, and other gases at bay. Small or smaller flying creatures or objects can't pass through the wall. Loose, lightweight materials brought into the wall fly upward. Arrows, bolts, and other ordinary projectiles launched at targets behind the wall are deflected upward and miss automatically. Boulders hurled by Giants or siege engines, and similar projectiles, are unaffected. Creatures in gaseous form can't pass through it.
+- 声音无法穿过被防护区域边缘的屏障。
+- 被防护区域边缘的屏障看起来漆黑且充满雾气，阻挡一切视觉，包括黑暗视觉。
+- 由预言法术创造的感知器无法出现在保护区域内，也无法穿过区域边界。
+- 区域内的生物无法成为预言法术的目标。
+- 任何东西都无法传送进入或离开被防护区域。
+- 被防护区域内的位面旅行被阻止。
 
-#### Wish
+如果你连续 365 天每天都对同一地点施放该法术，法术会持续至被解除。
 
-_Level 9 Conjuration (Sorcerer, Wizard)_
+*使用更高环阶法术位。* 你每使用高于 4 环一环的法术位，立方体每边最大尺寸增加 100 尺。
 
-**Casting Time:** Action
-**Range:** Self
-**Components:** V
-**Duration:** Instantaneous
+#### 燃火术（Produce Flame）
 
-_Wish_ is the mightiest spell a mortal can cast. By simply speaking aloud, you can alter reality itself.
+*咒法戏法（德鲁伊）*
 
-The basic use of this spell is to duplicate any other spell of level 8 or lower. If you use it this way, you don't need to meet any requirements to cast that spell, including costly components. The spell simply takes effect.
+**施法时间：** 附赠动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 10 分钟
 
-Alternatively, you can create one of the following effects of your choice:
+一团跳动火焰出现在你手中，并持续至法术结束。
 
-**Object Creation.** You create one object of up to 25,000 GP in value that isn't a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space that you can see on the ground.
+火焰停留在你手中时不会产生热量，也不会点燃任何东西。
 
-**Instant Health.** You allow yourself and up to twenty creatures that you can see to regain all Hit Points, and you end all effects on them listed in the _Greater Restoration_ spell.
+它在半径 20 尺内产生明亮光照，并在额外 20 尺内产生微光。
 
-**Resistance.** You grant up to ten creatures that you can see Resistance to one damage type that you choose. This Resistance is permanent.
+如果你再次施放该法术，当前法术结束。
 
-**Spell Immunity.** You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours.
+直到法术结束，你可以执行魔法动作，将火焰投向你 60 尺内一个生物或物体。
 
-**Sudden Learning.** You replace one of your feats with another feat for which you are eligible. You lose all the benefits of the old feat and gain the benefits of the new one. You can't replace a feat that is a prerequisite for any of your other feats or features.
+进行一次远程法术攻击。命中时，目标受到 1d8 火焰伤害。
 
-**Roll Redo.** You undo a single recent event by forcing a reroll of any die roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a _Wish_ spell could undo an ally's failed saving throw or a foe's Critical Hit. You can force the reroll to be made with Advantage or Disadvantage, and you choose whether to use the reroll or the original roll.
+*戏法升级。* 当你达到 5 级（2d8）、11 级（3d8）和 17 级（4d8）时，伤害各增加 1d8。
 
-**Reshape Reality.** You may wish for something not included in any of the other effects. To do so, state your wish to the GM as precisely as possible. The GM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This spell might simply fail, the effect you desire might be achieved only in part, or you might suffer an unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game.
+#### 预设幻影（Programmed Illusion）
 
-Similarly, wishing for a Legendary magic item or an Artifact might instantly transport you to the presence of the item's current owner. If your wish is granted and its effects have consequences for a whole community, region, or world, you are likely to attract powerful foes. If your wish would affect a god, the god's divine servants might instantly intervene to prevent it or to encourage you to craft the wish in a particular way. If your wish would undo the multiverse itself, your wish fails.
+*6 环幻术法术（吟游诗人、法师）*
 
-The stress of casting _Wish_ to produce any effect other than duplicating another spell weakens you. After enduring that stress, each time you cast a spell until you finish a Long Rest, you take 1d10 Necrotic damage per level of that spell. This damage can't be reduced or prevented in any way. In addition, your Strength score becomes 3 for 2d4 days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Finally, there is a 33 percent chance that you are unable to cast _Wish_ ever again if you suffer this stress.
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S、M（价值至少 25 GP 的玉石粉末）  
+**持续时间：** 直到被解除
 
-#### Word of Recall
+你在射程内创造一个物体、生物或其他可见现象的幻象，并让它在特定触发条件发生时启动。
 
-_Level 6 Conjuration (Cleric)_
+触发前，幻象完全无法被感知。
 
-**Casting Time:** Action
-**Range:** 5 feet
-**Components:** V
-**Duration:** Instantaneous
+幻象不得大于一个 30 尺立方区域。
 
-You and up to five willing creatures within 5 feet of you instantly teleport to a previously designated sanctuary. You and any creatures that teleport with you appear in the nearest unoccupied space to the spot you designated when you prepared your sanctuary (see below). If you cast this spell without first preparing a sanctuary, the spell has no effect.
+施放法术时，你决定幻象会如何行动，以及会发出什么声音。
 
-You must designate a location, such as a temple, as a sanctuary by casting this spell there.
+这个预先编排的表演最长可以持续 5 分钟。
 
-#### Zone of Truth
+当你指定的触发条件发生时，幻象立即出现并按照你描述的方式表演。
 
-_Level 2 Enchantment (Bard, Cleric, Paladin)_
+完成表演后，幻象消失并进入 10 分钟休眠。
 
-**Casting Time:** Action
-**Range:** 60 feet
-**Components:** V, S
-**Duration:** 10 minutes
+10 分钟后，它可以再次被触发。
 
-You create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there makes a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.
+触发条件可以尽可能笼统或详细，但必须基于发生在该区域 30 尺内的视觉或听觉现象。
 
-An affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful.
+例如，你可以创造一个自己的幻象，在有人试图打开一扇设有陷阱的门时出现并警告他们。
+
+与影像进行实体互动会暴露它是幻象，因为物体可以直接穿过它。
+
+一个生物可以执行研究动作检查影像，并通过一次针对你的法术豁免 DC 的智力（调查）检定识破幻象。
+
+如果识破，它可以看穿影像，而幻象发出的声音对它而言会显得空洞。
+
+#### 投影术（Project Image）
+
+*7 环幻术法术（吟游诗人、法师）*
+
+**施法时间：** 动作  
+**射程：** 500 里  
+**成分：** V、S、M（一尊价值至少 5 GP 的你自己的小雕像）  
+**持续时间：** 专注，至多 1 天
+
+你创造一个自己的幻象复制体，并持续至法术结束。
+
+复制体可以出现在射程内任何你曾经见过的地点，不受中间障碍物影响。
+
+幻象看起来、听起来都与你一样，但没有实体。
+
+如果幻象受到任何伤害，它会消失，法术结束。
+
+你可以通过幻象的眼睛看见，通过它的耳朵听见，如同自己位于它所在位置。
+
+作为魔法动作，你可以让幻象移动至多 60 尺，并按照自己的选择做出手势、说话和行动。
+
+它会完美模仿你的举止。
+
+与影像进行实体互动会暴露它是幻象，因为物体能够直接穿过它。
+
+一个生物可以执行研究动作检查影像，并通过一次针对你的法术豁免 DC 的智力（调查）检定识破它。
+
+识破后，该生物可以看穿影像，而幻象发出的声音对其而言会显得空洞。
+
+#### 防护能量（Protection from Energy）
+
+*3 环防护法术（牧师、德鲁伊、游侠、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 小时
+
+持续时间内，你触碰的一个自愿生物对你选择的一种伤害类型具有抗性：强酸、寒冷、火焰、闪电或雷鸣。
+
+#### 防护善恶（Protection from Evil and Good）
+
+*1 环防护法术（牧师、德鲁伊、圣武士、邪术师、法师）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一瓶价值至少 25 GP 的圣水，法术会将其消耗）  
+**持续时间：** 专注，至多 10 分钟
+
+直到法术结束，你触碰的一个自愿生物受到保护，可以抵御异怪、天界生物、元素、妖精、邪魔和不死生物。
+
+该保护提供多项收益。
+
+上述类型的生物对目标进行攻击检定时具有劣势。
+
+目标也无法被它们附身，或因它们陷入魅惑或恐慌状态。
+
+如果目标已经被这样的生物附身、魅惑或恐吓，则针对相关效果进行任何新的豁免时具有优势。
+
+#### 防护毒素（Protection from Poison）
+
+*2 环防护法术（牧师、德鲁伊、圣武士、游侠）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 1 小时
+
+你触碰一个生物，并结束其身上的中毒状态。
+
+持续时间内，目标进行避免或结束中毒状态的豁免时具有优势，并且对毒素伤害具有抗性。
+
+#### 净化食粮（Purify Food and Drink）
+
+*1 环变化法术（牧师、德鲁伊、圣武士）*
+
+**施法时间：** 动作或仪式  
+**射程：** 10 尺  
+**成分：** V、S  
+**持续时间：** 立即
+
+你移除以射程内一点为中心、半径 5 尺球状区域内非魔法食物和饮料中的毒素与腐败。
+
+#### 死者复活（Raise Dead）
+
+*5 环死灵法术（吟游诗人、牧师、圣武士）*
+
+**施法时间：** 1 小时  
+**射程：** 触及  
+**成分：** V、S、M（一颗价值至少 500 GP 的钻石，法术会将其消耗）  
+**持续时间：** 立即
+
+你通过触碰复活一个死去的生物，但它死亡时间不得超过 10 天，并且死亡时不能是不死生物。
+
+该生物以 1 点生命值复活。
+
+该法术还会中和生物死亡时影响它的任何毒素。
+
+法术会闭合一切致命伤口，但无法恢复缺失的身体部位。
+
+如果生物缺少生存所必需的身体部位或器官，例如头颅，法术自动失败。
+
+死而复生是一场痛苦考验。
+
+目标进行 D20 检定时承受 −4 减值。
+
+每当目标完成一次长休，该减值降低 1，直到降至 0。
+
+#### 衰弱射线（Ray of Enfeeblement）
+
+*2 环死灵法术（邪术师、法师）*
+
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
+
+一道削弱能量射线从你身上射向射程内一个生物。
+
+目标进行一次体质豁免。
+
+豁免成功时，目标下一次攻击检定具有劣势，持续到你的下一回合开始。
+
+豁免失败时，目标在持续时间内进行基于力量的 D20 检定时具有劣势。
+
+在此期间，它进行所有伤害掷骰时还必须减去 1d8。
+
+目标在自己每个回合结束时再次进行豁免，成功时结束法术。
+
+#### 冻寒之触（Ray of Frost）
+
+*塑能戏法（术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 立即
+
+一道蓝白色极寒射线射向射程内一个生物。
+
+对目标进行一次远程法术攻击。
+
+命中时，目标受到 1d8 寒冷伤害，并且其速度降低 10 尺，直到你的下一回合开始。
+
+*戏法升级。* 当你达到 5 级（2d8）、11 级（3d8）和 17 级（4d8）时，伤害各增加 1d8。
+
+#### 再生术（Regenerate）
+
+*7 环变化法术（吟游诗人、牧师、德鲁伊）*
+
+**施法时间：** 1 分钟  
+**射程：** 触及  
+**成分：** V、S、M（一个转经轮）  
+**持续时间：** 1 小时
+
+你触碰一个生物，使其恢复 4d8 + 15 点生命值。
+
+持续时间内，目标在自己的每个回合开始时恢复 1 点生命值。
+
+任何被切断的身体部位都会在 2 分钟后重新长出。
+
+#### 致病射线（Ray of Sickness）
+
+*1 环死灵法术（术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 立即
+
+你向射程内一个生物发射一道绿色射线。
+
+对目标进行一次远程法术攻击。
+
+命中时，目标受到 2d8 毒素伤害，并陷入中毒状态，直到你的下一回合结束。
+
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，伤害增加 1d8。
+
+#### 转生术（Reincarnate）
+
+*5 环死灵法术（德鲁伊）*
+
+**施法时间：** 1 小时  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 1,000 GP 的稀有油脂，法术会将其消耗）  
+**持续时间：** 立即
+
+你触碰一个死亡的类人生物或其一部分。
+
+如果该生物死亡时间不超过 10 天，法术会为其创造一具新身体，并呼唤其灵魂进入。
+
+掷 1d10 并查阅下表决定新身体的物种，或者由 GM 选择另一个可用作玩家角色的物种。
+
+| 1d10 | 物种 | 1d10 | 物种 |
+|---:|---|---:|---|
+| 1 | 重新掷骰。 | 6 | 歌利亚（Goliath） |
+| 2 | 龙裔（Dragonborn） | 7 | 半身人（Halfling） |
+| 3 | 矮人（Dwarf） | 8 | 人类（Human） |
+| 4 | 精灵（Elf） | 9 | 兽人（Orc） |
+| 5 | 侏儒（Gnome） | 10 | 提夫林（Tiefling） |
+
+转生后的生物重新做出新物种描述中提供的任何选择，并保留自己前世的记忆。
+
+它保留原形态拥有的能力，但失去之前物种的特性，并获得新物种的特性。
+
+#### 移除诅咒（Remove Curse）
+
+*3 环防护法术（牧师、圣武士、邪术师、法师）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 立即
+
+你通过触碰结束影响一个生物或物体的所有诅咒。
+
+如果目标是一件受诅咒的魔法物品，物品本身的诅咒仍然存在，但该法术会解除其拥有者与物品之间的同调，使物品可以被取下或丢弃。
+
+#### 弹力法球（Resilient Sphere）
+
+*4 环防护法术（法师）*
+
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一颗玻璃球）  
+**持续时间：** 专注，至多 1 分钟
+
+一个闪耀球体包裹射程内一个大型或更小的生物或物体。
+
+不自愿生物必须成功通过一次敏捷豁免，否则在持续时间内被封闭其中。
+
+任何东西——无论实体物体、能量或其他法术效果——都无法穿过屏障进出，不过球体内的生物仍可以呼吸。
+
+球体免疫所有伤害。
+
+球体内部的生物或物体无法受到来自外部的攻击或效果伤害，而球体内的生物也无法伤害外部事物。
+
+球体没有重量，大小刚好能够容纳内部生物或物体。
+
+被封闭生物可以执行动作推挤球体内壁，从而以至多自身速度一半的速度滚动球体。
+
+同样，其他生物也可以将球体拿起并移动。
+
+*解离术*如果指定该球体为目标，会将球体摧毁，但不会伤害其中任何事物。
+
+#### 抵抗术（Resistance）
+
+*防护戏法（牧师、德鲁伊）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
+
+你触碰一个自愿生物，并选择一种伤害类型：强酸、钝击、寒冷、火焰、闪电、黯蚀、穿刺、毒素、光耀、挥砍或雷鸣。
+
+在法术结束前，当该生物受到所选类型伤害时，将实际受到的总伤害降低 1d4。
+
+一个生物每回合只能从该法术中获益一次。
+
+#### 复生术（Resurrection）
+
+*7 环死灵法术（吟游诗人、牧师）*
+
+**施法时间：** 1 小时  
+**射程：** 触及  
+**成分：** V、S、M（一颗价值至少 1,000 GP 的钻石，法术会将其消耗）  
+**持续时间：** 立即
+
+你触碰一个死去的生物并将其复活，但该生物死亡时间不得超过一个世纪，不能因衰老而死，并且死亡时不能是不死生物。
+
+该生物以全部生命值复活。
+
+该法术还会中和生物死亡时影响它的任何毒素。
+
+法术会闭合所有致命伤口，并恢复任何缺失的身体部位。
+
+死而复生是一场痛苦考验。
+
+目标进行 D20 检定时承受 −4 减值。
+
+每当目标完成一次长休，该减值降低 1，直到降至 0。
+
+如果你使用该法术复活一个已经死亡 365 天或更久的生物，会对你造成极大负担。
+
+直到完成一次长休前，你无法再次施放法术，并且进行 D20 检定时具有劣势。
+
+#### 反重力（Reverse Gravity）
+
+*7 环变化法术（德鲁伊、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 100 尺  
+**成分：** V、S、M（一块天然磁石和铁屑）  
+**持续时间：** 专注，至多 1 分钟
+
+该法术逆转以射程内一点为中心、半径 50 尺、高 100 尺柱状区域中的重力。
+
+区域内所有没有固定在地面上的生物和物体都会向上“坠落”，直到到达柱状区域顶部。
+
+生物可以进行一次敏捷豁免，抓住自己能够触及的固定物体，从而避免向上坠落。
+
+如果在向上坠落过程中撞到天花板或固定物体，生物和物体会像普通向下坠落时一样撞击。
+
+如果受影响生物或物体到达柱状区域顶部而没有撞到任何东西，它会在持续时间内悬浮在那里。
+
+法术结束时，所有受影响的物体和生物都会向下坠落。
+
+#### 回生术（Revivify）
+
+*3 环死灵法术（牧师、德鲁伊、圣武士、游侠）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一颗价值至少 300 GP 的钻石，法术会将其消耗）  
+**持续时间：** 立即
+
+你触碰一个在过去 1 分钟内死亡的生物。
+
+该生物以 1 点生命值复活。
+
+该法术无法复活因衰老死亡的生物，也无法恢复任何缺失的身体部位。
+
+#### 绳技（Rope Trick）
+
+*2 环变化法术（法师）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一段绳子）  
+**持续时间：** 1 小时
+
+你触碰一根绳子。
+
+绳子一端向上悬浮，直到整根绳子垂直于地面，或者绳子碰到天花板。
+
+在绳子上端，一个隐形的 3 尺 × 5 尺传送口打开，通向一个持续至法术结束的异次元空间。
+
+生物可以通过攀爬绳子进入该空间，而绳子也可以被拉进空间或重新放下。
+
+该空间能够容纳至多八个中型或更小的生物。
+
+攻击、法术和其他效果无法穿过传送口进出空间，但内部生物可以透过传送口看见外面。
+
+法术结束时，空间内的一切都会掉出来。
+
+#### 圣火术（Sacred Flame）
+
+*塑能戏法（牧师）*
+
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 立即
+
+火焰般的光辉降临在射程内一个你能看见的生物身上。
+
+目标必须成功通过一次敏捷豁免，否则受到 1d8 光耀伤害。
+
+目标进行该豁免时无法从半掩护或四分之三掩护中获得收益。
+
+*戏法升级。* 当你达到 5 级（2d8）、11 级（3d8）和 17 级（4d8）时，伤害各增加 1d8。
+
+#### 圣域术（Sanctuary）
+
+*1 环防护法术（牧师）*
+
+**施法时间：** 附赠动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一块镜子碎片）  
+**持续时间：** 1 分钟
+
+你保护射程内一个生物。
+
+直到法术结束，任何生物如果要以攻击检定或造成伤害的法术指定受保护生物为目标，必须先成功通过一次感知豁免。
+
+豁免失败时，攻击者必须选择新目标，否则失去该攻击或法术。
+
+该法术无法保护目标免受影响范围效果。
+
+如果受保护生物进行攻击检定、施放法术或造成伤害，该法术结束。
+
+#### 灼热射线（Scorching Ray）
+
+*2 环塑能法术（术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 立即
+
+你发射三道火焰射线。
+
+这些射线可以全部射向射程内同一个目标，也可以分别射向多个目标。
+
+每道射线分别进行一次远程法术攻击。
+
+命中时，目标受到 2d6 火焰伤害。
+
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，就会额外创造一道射线。
+
+#### 探知（Scrying）
+
+*5 环预言法术（吟游诗人、牧师、德鲁伊、邪术师、法师）*
+
+**施法时间：** 10 分钟  
+**射程：** 自身  
+**成分：** V、S、M（一件价值至少 1,000 GP 的法器，例如水晶球、镜子或盛水的圣水池）  
+**持续时间：** 专注，至多 10 分钟
+
+你可以看见并听见一个与你位于同一存在位面的生物。
+
+目标进行一次感知豁免。
+
+该豁免会根据你对目标的了解程度，以及你与目标之间拥有何种实体联系而获得调整值，见下表。
+
+目标不知道自己正在对抗什么，只会感到不安。
+
+| 你对目标的了解程度 | 豁免调整值 |
+|---|---:|
+| 间接了解（听说过目标） | +5 |
+| 亲自接触（见过目标） | +0 |
+| 非常熟悉（十分了解目标） | −5 |
+
+| 你拥有目标的…… | 豁免调整值 |
+|---|---:|
+| 图片或其他肖像 | −2 |
+| 衣物或其他持有物 | −4 |
+| 身体部位、一绺头发或一小片指甲 | −10 |
+
+豁免成功时，目标不受影响，并且你在接下来 24 小时内无法再次对其使用该法术。
+
+豁免失败时，法术会在目标 10 尺内创造一个隐形、无实体的感知器。
+
+你可以通过感知器看见和听见，如同自己位于那里。
+
+感知器会随目标移动，在持续时间内始终保持在目标 10 尺内。
+
+如果某个生物能够看见感知器，它会看到一个约你拳头大小的发光球体。
+
+你也可以不指定生物，而指定一个自己曾经看见过的地点。
+
+这样做时，感知器会出现在该地点，并且不会移动。
+
+#### 灼热惩击（Searing Smite）
+
+*1 环塑能法术（圣武士）*
+
+**施法时间：** 附赠动作；在你以近战武器或徒手打击命中一个目标后立即使用  
+**射程：** 自身  
+**成分：** V  
+**持续时间：** 1 分钟
+
+当你命中目标时，该次攻击额外造成 1d6 火焰伤害。
+
+直到法术结束，目标在自己每个回合开始时受到 1d6 火焰伤害，然后进行一次体质豁免。豁免失败时，法术继续；豁免成功时，法术结束。
+
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，所有上述伤害各增加 1d6。
+
+#### 秘法箱（Secret Chest）
+
+*4 环咒法法术（法师）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一个长 3 尺、宽 2 尺、高 2 尺，由稀有材料制成且价值至少 5,000 GP 的箱子；以及一个由相同材料制成、价值至少 50 GP 的微型箱子复制品）  
+**持续时间：** 直到被解除
+
+你将一个箱子及其全部内容物隐藏到以太位面。
+
+你必须同时触碰作为该法术材料成分的大箱子和微型复制品。
+
+箱子可以容纳至多 12 立方尺的非生命物质，即 3 尺 × 2 尺 × 2 尺。
+
+当箱子位于以太位面时，你可以执行魔法动作并触碰复制品，将箱子召回。
+
+箱子会出现在你 5 尺内地面上的一个未占据空间。
+
+你也可以执行魔法动作，同时触碰箱子与复制品，再次将箱子送回以太位面。
+
+60 天后，在每一天结束时，该法术都有累积 5% 的几率结束。
+
+如果你再次施放该法术，或者微型复制箱被摧毁，法术也会结束。
+
+如果法术结束时大箱子仍位于以太位面，它会继续留在那里，等待你或其他人找到。
+
+#### 看破隐形（See Invisibility）
+
+*2 环预言法术（吟游诗人、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一撮滑石粉）  
+**持续时间：** 1 小时
+
+持续时间内，你可以如同正常可见一样看见处于隐形状态的生物和物体，并且可以看见以太位面。
+
+位于以太位面的生物和物体看起来呈幽灵般的半透明状态。
+
+#### 群体伪装（Seeming）
+
+*5 环幻术法术（吟游诗人、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S  
+**持续时间：** 8 小时
+
+你为射程内任意数量、由你选择且你能看见的生物赋予幻象外表。
+
+不自愿目标可以进行一次魅力豁免，成功则不受该法术影响。
+
+你可以让所有目标拥有相同外观，也可以分别给予不同外观。
+
+该法术可以改变目标身体及其装备的外观。
+
+你可以让每个生物看起来矮或高最多 1 尺，也可以显得更重或更轻。
+
+目标的新外观必须保留与原本相同的基本肢体结构，除此之外幻象外观由你决定。
+
+法术持续至持续时间结束。
+
+该法术制造的改变无法经受实体检查。
+
+例如，如果你通过该法术让目标看起来戴着一顶帽子，物体会直接穿过帽子。
+
+一个生物可以执行研究动作检查目标，并针对你的法术豁免 DC 进行一次智力（调查）检定。
+
+成功时，它会意识到目标经过伪装。
+
+#### 短讯术（Sending）
+
+*3 环预言法术（吟游诗人、牧师、法师）*
+
+**施法时间：** 动作  
+**射程：** 无限  
+**成分：** V、S、M（一段铜线）  
+**持续时间：** 立即
+
+你向一个你曾经见过的生物，或者一个由见过它的人向你描述过的生物，发送一段不超过 25 个词的短讯。
+
+目标会在心中听见信息；如果它认识你，也会认出你是发送者，并可以立即以同样方式回复。
+
+该法术会让目标理解你的信息含义。
+
+你可以跨越任意距离，甚至跨越不同存在位面发送信息。
+
+然而，如果目标与你位于不同位面，信息有 5% 几率无法送达。
+
+如果发送失败，你会知道。
+
+收到信息后，一个生物可以阻止你在接下来 8 小时内再次通过该法术联系它。
+
+如果你在此期间再次尝试发送信息，你会得知自己已被阻止，法术失败。
+
+#### 隔离术（Sequester）
+
+*7 环变化法术（法师）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 5,000 GP 的宝石粉末，法术会将其消耗）  
+**持续时间：** 直到被解除
+
+你通过触碰以魔法隔离一个物体或一个自愿生物。
+
+持续时间内，目标陷入隐形状态，无法成为预言法术的目标，无法被魔法侦测，也无法通过魔法手段被远程观察。
+
+如果目标是生物，它会进入假死般的静止状态；目标陷入昏迷状态，不会衰老，也不需要食物、水或空气。
+
+你可以设置一个使法术提前结束的条件。
+
+条件可以是任何你选择的事情，但必须发生在目标 1 里内，或者能够在目标 1 里内被观察到。
+
+例如，“一千年后”或“当塔拉斯克苏醒时”。
+
+如果目标受到任何伤害，该法术也会结束。
+
+#### 变形万物（Shapechange）
+
+*9 环变化法术（德鲁伊、法师）*
+
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一顶价值至少 1,500 GP 的玉石头环）  
+**持续时间：** 专注，至多 1 小时
+
+你变形为另一个生物，持续至法术结束，或者直到你执行魔法动作变为另一个符合条件的形态。
+
+新形态必须是一种挑战等级不高于你的等级或挑战等级的生物。
+
+你必须曾经见过该种类的生物，而且新形态不能是构装生物或不死生物。
+
+施放法术时，你获得数量等于第一个变形形态生命值的临时生命值。
+
+法术结束时，任何剩余的这些临时生命值都会消失。
+
+你的游戏数据被所选形态的数据替代，但你保留自己的生物类型、阵营、人格、智力、感知、魅力、生命值、生命骰、熟练项以及交流能力。
+
+如果你拥有施法特性，也会保留它。
+
+变形时，你决定自己的装备是掉落在地，还是改变大小与形状以适合新形态，并在你处于该形态期间随之变化。
+
+#### 粉碎音波（Shatter）
+
+*2 环塑能法术（吟游诗人、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一小片云母）  
+**持续时间：** 立即
+
+一声巨响从射程内你选择的一点爆发。
+
+以该点为中心、半径 10 尺的球状区域内，每个生物进行一次体质豁免。
+
+豁免失败受到 3d8 雷鸣伤害，成功则受到一半伤害。
+
+构装生物进行该豁免时具有劣势。
+
+区域内未被穿戴或携带的非魔法物体也会受到该伤害。
+
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，伤害增加 1d8。
+
+#### 护盾术（Shield）
+
+*1 环防护法术（术士、法师）*
+
+**施法时间：** 反应；当一次攻击检定命中你，或者你成为*魔法飞弹*的目标时使用  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 1 轮
+
+一道无法察觉的魔法力场屏障保护你。
+
+直到你的下一回合开始，你的 AC 获得 +5 加值，该加值也适用于触发该反应的攻击，并且你不会受到*魔法飞弹*造成的伤害。
+
+#### 虔诚护盾（Shield of Faith）
+
+*1 环防护法术（牧师、圣武士）*
+
+**施法时间：** 附赠动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一卷祷文）  
+**持续时间：** 专注，至多 10 分钟
+
+一道闪耀力场环绕射程内一个由你选择的生物。
+
+持续时间内，目标 AC 获得 +2 加值。
+
+#### 橡棍术（Shillelagh）
+
+*变化戏法（德鲁伊）*
+
+**施法时间：** 附赠动作  
+**射程：** 自身  
+**成分：** V、S、M（槲寄生）  
+**持续时间：** 1 分钟
+
+你正握持的一根短棒（Club）或长棍受到自然力量灌注。
+
+持续时间内，你使用该武器进行近战攻击时，可以用你的施法属性取代力量来进行攻击检定和伤害掷骰，并且武器的伤害骰变为 d8。
+
+如果攻击造成伤害，你可以选择让伤害成为力场伤害，或者保持武器原本的伤害类型。
+
+如果你再次施放该法术，或者松开该武器，法术提前结束。
+
+*戏法升级。* 当你达到 5 级时，伤害骰变为 d10；11 级时变为 d12；17 级时变为 2d6。
+
+#### 光耀惩击（Shining Smite）
+
+*2 环变化法术（圣武士）*
+
+**施法时间：** 附赠动作；在你以近战武器或徒手打击命中一个生物后立即使用  
+**射程：** 自身  
+**成分：** V  
+**持续时间：** 专注，至多 1 分钟
+
+被该次攻击命中的目标额外受到 2d6 光耀伤害。
+
+直到法术结束，目标在半径 5 尺内产生明亮光照，对它进行的攻击检定具有优势，并且它无法从隐形状态中获得收益。
+
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，伤害增加 1d6。
+
+#### 电爪术（Shocking Grasp）
+
+*塑能戏法（术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S  
+**持续时间：** 立即
+
+闪电从你身上迸出，射向你试图触碰的一个生物。
+
+对目标进行一次近战法术攻击。
+
+命中时，目标受到 1d8 闪电伤害，并且在其下一回合开始前无法进行借机攻击。
+
+*戏法升级。* 当你达到 5 级（2d8）、11 级（3d8）和 17 级（4d8）时，伤害各增加 1d8。
+
+#### 沉默术（Silence）
+
+*2 环幻术法术（吟游诗人、牧师、游侠）*
+
+**施法时间：** 动作或仪式  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
+
+持续时间内，以射程内你选择的一点为中心、半径 20 尺的球状区域内无法产生声音，声音也无法穿过该区域。
+
+完全位于球状区域内的任何生物或物体免疫雷鸣伤害，而完全位于其中的生物陷入耳聋状态。
+
+在该区域内无法施放具有言语成分的法术。
+
+#### 无声幻影（Silent Image）
+
+*1 环幻术法术（吟游诗人、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一小撮羊毛）  
+**持续时间：** 专注，至多 10 分钟
+
+你创造一个物体、生物或其他可见现象的影像，其大小不得超过一个 15 尺立方区域。
+
+影像出现在射程内一点，并持续至法术结束。
+
+影像完全只有视觉效果，不伴随声音、气味或其他感官效果。
+
+作为魔法动作，你可以让影像移动到射程内任意位置。
+
+随着影像改变位置，你可以改变它的外观，使移动看起来自然。
+
+例如，如果你创造一个生物影像并让它移动，可以改变影像，使其看起来像正在行走。
+
+与影像进行实体互动会暴露它是幻象，因为物体能够穿过它。
+
+一个生物可以执行研究动作检查影像，并通过一次针对你的法术豁免 DC 的智力（调查）检定判断它是幻象。
+
+识破后，该生物可以看穿影像。
+
+#### 拟像术（Simulacrum）
+
+*7 环幻术法术（法师）*
+
+**施法时间：** 12 小时  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 1,500 GP 的红宝石粉末，法术会将其消耗）  
+**持续时间：** 直到被解除
+
+你创造一个野兽或类人生物的拟像。
+
+在整个施法过程中，该生物必须始终位于你 10 尺内。
+
+施法结束时，你同时触碰该生物和一堆与该生物大小相同的冰或雪。
+
+冰雪会转化为拟像，而拟像是一个生物。
+
+它使用原生物在施法时的游戏数据，但它的生物类型变为构装，其生命值上限只有原生物的一半，而且它无法施放该法术。
+
+拟像对你以及你指定的生物态度友好。
+
+它服从你的命令，并在战斗中于你的回合行动。
+
+拟像无法获得等级，也无法进行短休或长休。
+
+如果拟像受到伤害，恢复其生命值的唯一方式是在你进行一次长休期间修复它。
+
+在修复过程中，你每恢复其 1 点生命值，都必须消耗价值 100 GP 的材料成分。
+
+拟像在修复期间必须始终位于你 5 尺内。
+
+拟像会一直存在，直到生命值降至 0。
+
+此时，它会重新变回雪并融化。
+
+如果你再次施放该法术，你之前通过该法术创造的任何拟像都会立即被摧毁。
+
+#### 睡眠术（Sleep）
+
+*1 环惑控法术（吟游诗人、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一撮沙子或玫瑰花瓣）  
+**持续时间：** 专注，至多 1 分钟
+
+以射程内一点为中心、半径 5 尺的球状区域内，每个由你选择的生物都必须成功通过一次感知豁免，否则陷入失能状态，直到其下一回合结束。
+
+届时，它必须再次进行豁免。
+
+如果目标第二次豁免失败，则在持续时间内陷入昏迷状态。
+
+如果目标受到伤害，或者其 5 尺内某个生物执行动作将它摇醒，该目标身上的法术结束。
+
+无需睡眠的生物，例如精灵，或者免疫力竭状态的生物，会自动通过针对该法术的豁免。
+
+#### 雨夹雪（Sleet Storm）
+
+*3 环咒法法术（德鲁伊、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 150 尺  
+**成分：** V、S、M（一把微型雨伞）  
+**持续时间：** 专注，至多 1 分钟
+
+直到法术结束，以射程内你选择的一点为中心，一个高 40 尺、半径 20 尺的柱状区域内持续落下雨夹雪。
+
+该区域处于重度遮蔽状态，并且区域内暴露的火焰会被熄灭。
+
+柱状区域中的地面属于困难地形。
+
+当一个生物在一个回合中第一次进入柱状区域，或者在那里开始回合时，必须成功通过一次敏捷豁免，否则陷入倒地状态，并失去专注。
+
+#### 缓慢术（Slow）
+
+*3 环变化法术（吟游诗人、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S、M（一滴糖蜜）  
+**持续时间：** 专注，至多 1 分钟
+
+你改变射程内一个 40 尺立方区域中至多六个由你选择的生物周围的时间流动。
+
+每个目标必须成功通过一次感知豁免，否则在持续时间内受到该法术影响。
+
+受影响目标的速度减半，AC 和敏捷豁免受到 −2 减值，并且无法执行反应。
+
+在自己的回合中，目标只能执行动作或附赠动作中的一种，不能两者都执行。
+
+如果它执行攻击动作，只能进行一次攻击。
+
+如果目标施放一个具有姿势成分的法术，有 25% 几率因为动作过于迟缓而导致法术失败。
+
+受影响目标在自己每个回合结束时再次进行豁免，成功则结束自身受到的法术。
+
+#### 术法爆发（Sorcerous Burst）
+
+*塑能戏法（术士）*
+
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 立即
+
+你向射程内一个生物或物体释放术法能量。
+
+对目标进行一次远程法术攻击。
+
+命中时，目标受到 1d8 伤害，伤害类型由你选择：强酸、寒冷、火焰、闪电、毒素、心灵或雷鸣。
+
+如果该法术的某枚 d8 掷出 8，你可以再掷一枚 d8，并将结果加入伤害。
+
+每次施放该法术时，通过这种方式能够额外加入伤害的 d8 数量最多等于你的施法属性调整值。
+
+*戏法升级。* 当你达到 5 级（2d8）、11 级（3d8）和 17 级（4d8）时，基础伤害各增加 1d8。
+
+#### 稳定伤势（Spare the Dying）
+
+*死灵戏法（牧师、德鲁伊）*
+
+**施法时间：** 动作  
+**射程：** 15 尺  
+**成分：** V、S  
+**持续时间：** 立即
+
+选择射程内一个生命值为 0 且尚未死亡的生物。
+
+该生物变为稳定（Stable）。
+
+*戏法升级。* 当你达到 5 级时，射程翻倍为 30 尺；11 级时为 60 尺；17 级时为 120 尺。
+
+#### 动物交谈（Speak with Animals）
+
+*1 环预言法术（吟游诗人、德鲁伊、游侠、邪术师）*
+
+**施法时间：** 动作或仪式  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 10 分钟
+
+持续时间内，你可以理解野兽并与其进行口头交流，也可以对它们使用影响动作（Influence）的任何技能选项。
+
+大多数野兽对于与生存或陪伴无关的话题没有太多可说，但至少能够告诉你附近地点和怪物的信息，包括它在过去一天中感知到的事物。
+
+#### 死者交谈（Speak with Dead）
+
+*3 环死灵法术（吟游诗人、牧师、法师）*
+
+**施法时间：** 动作  
+**射程：** 10 尺  
+**成分：** V、S、M（燃烧的熏香）  
+**持续时间：** 10 分钟
+
+你赋予射程内一具由你选择的尸体以生命的表象，使其能够回答你提出的问题。
+
+尸体必须拥有嘴巴。
+
+如果死者死亡时是不死生物，该法术失败。
+
+如果该尸体在过去 10 天内已经成为该法术的目标，该法术也会失败。
+
+直到法术结束，你可以向尸体提出至多五个问题。
+
+尸体只知道自己生前知道的事，包括生前掌握的语言。
+
+回答通常简短、晦涩或重复。
+
+如果你对死者怀有敌意，或者尸体认出你是敌人，它没有义务提供真实答案。
+
+该法术不会让死者灵魂返回身体，只会唤起驱动尸体的灵性。
+
+因此，尸体无法学习新信息，不理解自己死亡之后发生的事情，也无法推测未来事件。
+
+#### 植物交谈（Speak with Plants）
+
+*3 环变化法术（吟游诗人、德鲁伊、游侠）*
+
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 10 分钟
+
+你赋予一个固定不动的 30 尺发散区域内的植物有限感知和行动能力，使其能够与你交流并服从你的简单命令。
+
+你可以询问植物关于过去一天内法术区域中发生的事情，从而得知经过的生物、天气以及其他情况。
+
+你也可以将植物生长造成的困难地形，例如灌木丛和浓密下层植被，变成普通地形，并持续至法术结束。
+
+或者，你可以将存在植物的普通地形变成困难地形，持续至法术结束。
+
+该法术不会让植物连根拔起并自由移动，但它们可以按照你的要求移动树枝、卷须和茎秆。
+
+如果区域内存在植物生物，你可以如同彼此共享一种语言一样与其交流。
+
+#### 蛛行术（Spider Climb）
+
+*2 环变化法术（术士、邪术师、法师）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一滴沥青和一只蜘蛛）  
+**持续时间：** 专注，至多 1 小时
+
+直到法术结束，你触碰的一个自愿生物获得沿垂直表面上下移动，以及沿天花板移动的能力，并且无需占用双手。
+
+目标还获得等于其速度的攀爬速度。
+
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，就可以额外指定一个生物。
+
+#### 荆棘丛生（Spike Growth）
+
+*2 环变化法术（德鲁伊、游侠）*
+
+**施法时间：** 动作  
+**射程：** 150 尺  
+**成分：** V、S、M（七根荆棘）  
+**持续时间：** 专注，至多 10 分钟
+
+以射程内一点为中心、半径 20 尺的球状区域内，地面长出坚硬尖刺和荆棘。
+
+持续时间内，该区域成为困难地形。
+
+当一个生物进入该区域或在区域内移动时，每移动 5 尺就受到 2d4 穿刺伤害。
+
+地面变化会自然地融入环境。
+
+任何在施法时无法看见该区域的生物，在进入之前必须执行搜索动作（Search），并通过一次针对你的法术豁免 DC 的感知（察觉或求生）检定，才能识别出这片地形具有危险。
+
+#### 灵体卫士（Spirit Guardians）
+
+*3 环咒法法术（牧师）*
+
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一卷祷文）  
+**持续时间：** 专注，至多 10 分钟
+
+守护灵体在你周围飞舞，在持续时间内形成 15 尺发散区域。
+
+如果你属于善良或中立阵营，它们的幽灵外观呈现为天使或妖精，由你选择。
+
+如果你属于邪恶阵营，它们呈现为邪魔。
+
+施放该法术时，你可以指定任意数量的生物不受其影响。
+
+其他任何生物在发散区域内速度减半。
+
+每当发散区域进入一个生物的空间，以及生物进入发散区域或在那里结束回合时，该生物必须进行一次感知豁免。
+
+豁免失败时，如果你是善良或中立，生物受到 3d8 光耀伤害；如果你是邪恶，则受到 3d8 黯蚀伤害。
+
+豁免成功时，生物受到一半伤害。
+
+一个生物每回合只进行一次该豁免。
+
+*使用更高环阶法术位。* 你每使用高于 3 环一环的法术位，伤害增加 1d8。
+
+#### 灵体武器（Spiritual Weapon）
+
+*2 环塑能法术（牧师）*
+
+**施法时间：** 附赠动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
+
+你创造一股漂浮的幽灵力场，其外观类似由你选择的一种武器，并持续至法术结束。
+
+该力场出现在射程内你选择的空间。
+
+你可以立即对力场 5 尺内一个生物进行一次近战法术攻击。
+
+命中时，目标受到等于 1d8 + 你的施法属性调整值的力场伤害。
+
+在之后的回合中，你可以使用附赠动作让该力场移动至多 20 尺，并再次攻击其 5 尺内一个生物。
+
+*使用更高环阶法术位。* 你每使用高于 2 环一环的法术位，伤害增加 1d8。
+
+#### 星光微火（Starry Wisp）
+
+*塑能戏法（吟游诗人、德鲁伊）*
+
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 立即
+
+你向射程内一个生物或物体发射一粒光点。
+
+对目标进行一次远程法术攻击。
+
+命中时，目标受到 1d8 光耀伤害。
+
+直到你的下一回合结束，目标会在半径 10 尺内发出微光，并且无法从隐形状态中获得收益。
+
+*戏法升级。* 当你达到 5 级（2d8）、11 级（3d8）和 17 级（4d8）时，伤害各增加 1d8。
+
+#### 臭云术（Stinking Cloud）
+
+*3 环咒法法术（吟游诗人、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 90 尺  
+**成分：** V、S、M（一颗腐烂鸡蛋）  
+**持续时间：** 专注，至多 1 分钟
+
+你创造一团黄色、令人作呕的气体，以射程内一点为中心形成半径 20 尺的球状区域。
+
+云雾处于重度遮蔽状态。
+
+它持续悬浮至法术结束，或者直到强风，例如*舞风术*创造的强风，将其吹散。
+
+任何在球状区域内开始回合的生物都必须成功通过一次体质豁免，否则陷入中毒状态，直到当前回合结束。
+
+以这种方式中毒时，该生物无法执行动作或附赠动作。
+
+#### 塑石术（Stone Shape）
+
+*4 环变化法术（牧师、德鲁伊、法师）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（软黏土）  
+**持续时间：** 立即
+
+你触碰一个中型或更小的石制物体，或者一块任一方向上不超过 5 尺的石头，并将其塑造成你想要的形状。
+
+例如，你可以把一块大石头塑造成武器、雕像或箱子，或者在厚 5 尺的石墙上开出一条小通道。
+
+你也可以改变一扇石门或其门框的形状，将门封死。
+
+你创造的物体最多可以有两个铰链和一个门闩，但无法形成更加精细的机械结构。
+
+#### 石肤术（Stoneskin）
+
+*4 环变化法术（德鲁伊、游侠、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 100 GP 的钻石粉末，法术会将其消耗）  
+**持续时间：** 专注，至多 1 小时
+
+直到法术结束，你触碰的一个自愿生物对钝击、穿刺和挥砍伤害具有抗性。
+
+#### 复仇风暴（Storm of Vengeance）
+
+*9 环咒法法术（德鲁伊）*
+
+**施法时间：** 动作  
+**射程：** 1 里  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
+
+持续时间内，一团翻滚的暴风云形成，以射程内一点为中心，向外扩展至半径 300 尺。
+
+暴风云出现时，云层下方每个生物都必须成功通过一次体质豁免，否则受到 2d6 雷鸣伤害，并在持续时间内陷入耳聋状态。
+
+在你之后每个回合开始时，暴风会产生不同效果，如下所述。
+
+*第 2 回合。* 酸雨落下。云层下方每个生物和物体受到 4d6 强酸伤害。
+
+*第 3 回合。* 你从云层中召下六道闪电，分别击中云层下方六个不同生物或物体。
+
+每个目标进行一次敏捷豁免，豁免失败受到 10d6 闪电伤害，成功则受到一半伤害。
+
+*第 4 回合。* 冰雹倾泻而下。云层下方每个生物受到 2d6 钝击伤害。
+
+*第 5–10 回合。* 狂风和冰冷雨水袭击云层下方区域。
+
+其中每个生物受到 1d6 寒冷伤害。
+
+直到法术结束，该区域属于困难地形并处于重度遮蔽状态；无法在那里进行武器远程攻击，而且区域内持续刮着强风。
+
+#### 暗示术（Suggestion）
+
+*2 环惑控法术（吟游诗人、术士、邪术师、法师）*
+
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、M（一滴蜂蜜）  
+**持续时间：** 专注，至多 8 小时
+
+你向射程内一个你能看见、能够听见并理解你的生物提出一项行动建议，描述不得超过 25 个词。
+
+该建议必须听起来可以实现，并且不能明显要求目标做出会伤害自己或盟友的事情。
+
+例如，你可以说：“去拿邪教宝库的钥匙，然后把钥匙交给我。”
+
+或者：“停止战斗，和平离开这座图书馆，而且不要再回来。”
+
+目标必须成功通过一次感知豁免，否则在持续时间内陷入魅惑状态，或者直到你或你的盟友对它造成伤害。
+
+被魅惑目标会尽最大能力执行建议。
+
+建议的行动可以持续整个法术持续时间，但如果行动能够更快完成，则目标完成建议时，该目标身上的法术结束。
+
+#### 召唤龙族（Summon Dragon）
+
+*5 环咒法法术（法师）*
+
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一件刻有龙形图案、价值至少 500 GP 的物品）  
+**持续时间：** 专注，至多 1 小时
+
+你召唤一个龙族灵体。
+
+它显现在射程内一个你能看见的未占据空间，并使用下方的**龙族灵体（Draconic Spirit）**数据。
+
+当该生物生命值降至 0 或法术结束时，它会消失。
+
+该生物是你和你盟友的盟友。
+
+战斗中，它与你共享先攻值，但会在你的回合结束后立即进行自己的回合。
+
+它服从你的口头命令，无需你使用动作。
+
+如果你没有发出命令，它会执行闪避动作，并使用移动躲避危险。
+
+*使用更高环阶法术位。* 在下方数据中，将你使用的法术位环阶作为该法术的环阶。
+
+## 龙族灵体（Draconic Spirit）
+
+*大型龙类，中立*
+
+**AC** 14 + 法术环阶  
+**生命值** 50 + 每高于 5 环一环增加 10 点  
+**速度** 30 尺；飞行 60 尺；游泳 30 尺
+
+| 属性 | 属性值 | 调整值 | 豁免 | 属性 | 属性值 | 调整值 | 豁免 | 属性 | 属性值 | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| 力量 | 19 | +4 | +4 | 敏捷 | 14 | +2 | +2 | 体质 | 17 | +3 | +3 |
+| 智力 | 10 | +0 | +0 | 感知 | 14 | +2 | +2 | 魅力 | 14 | +2 | +2 |
+
+**抗性** 强酸、寒冷、火焰、闪电、毒素  
+**免疫** 魅惑、恐慌、中毒  
+**感官** 盲视 30 尺；黑暗视觉 60 尺；被动察觉 12  
+**语言** 龙语（Draconic），理解你知道的语言  
+**CR** 无（XP 0；PB 等于你的熟练加值）
+
+#### 特质
+
+*共享抗性（Shared Resistances）。* 召唤灵体时，从它拥有的伤害抗性中选择一种。
+
+直到法术结束，你也对该伤害类型具有抗性。
+
+#### 动作
+
+*多重攻击（Multiattack）。* 灵体进行次数等于该法术环阶一半的撕裂攻击，向下取整，并使用吐息武器。
+
+*撕裂（Rend）。* *近战攻击检定：* 加值等于你的法术攻击调整值，触及 10 尺。*命中：* 1d6 + 4 + 法术环阶的穿刺伤害。
+
+*吐息武器（Breath Weapon）。* *敏捷豁免：* DC 等于你的法术豁免 DC，目标为 30 尺锥状区域内每个生物。*失败：* 受到 2d6 伤害，伤害类型必须是该灵体具有抗性的一种，由你施放法术时选择。*成功：* 一半伤害。
+
+#### 阳炎射线（Sunbeam）
+
+*6 环塑能法术（牧师、德鲁伊、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S、M（一面放大镜）  
+**持续时间：** 专注，至多 1 分钟
+
+你发射一道宽 5 尺、长 60 尺的阳光射线。
+
+线状区域内每个生物进行一次体质豁免。
+
+豁免失败时，生物受到 6d8 光耀伤害，并陷入目盲状态，直到你的下一回合开始。
+
+豁免成功时，只受到一半伤害。
+
+直到法术结束，你可以执行魔法动作，创造一条新的光耀线状区域。
+
+持续时间内，一点极其明亮的光辉悬浮在你上方。
+
+它在半径 30 尺内产生明亮光照，并在额外 30 尺内产生微光。
+
+该光线属于日光。
+
+#### 阳炎爆（Sunburst）
+
+*8 环塑能法术（牧师、德鲁伊、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 150 尺  
+**成分：** V、S、M（一块日长石）  
+**持续时间：** 立即
+
+耀眼阳光在以射程内一点为中心、半径 60 尺的球状区域中爆发。
+
+区域内每个生物进行一次体质豁免。
+
+豁免失败时，生物受到 12d6 光耀伤害，并陷入目盲状态 1 分钟。
+
+豁免成功时，只受到一半伤害。
+
+被该法术致盲的生物在自己每个回合结束时再次进行一次体质豁免，成功则结束自身受到的效果。
+
+该法术会解除其区域内由任何法术创造的黑暗。
+
+#### 徽记术（Symbol）
+
+*7 环防护法术（吟游诗人、牧师、德鲁伊、法师）*
+
+**施法时间：** 1 分钟  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 1,000 GP 的钻石粉末，法术会将其消耗）  
+**持续时间：** 直到被解除或触发
+
+你刻下一枚有害符文，可以刻在一个表面上，例如地板或墙壁的一部分，也可以刻在能够关闭的物体内部，例如书或箱子。
+
+符文覆盖范围不得超过直径 10 尺。
+
+如果你选择一个物体，该物体必须留在原位。
+
+如果物体被移动到距离施法地点超过 10 尺，符文会破坏，法术结束且不会触发。
+
+符文几乎无法察觉。
+
+一个生物必须成功通过一次针对你的法术豁免 DC 的感知（察觉）检定才能注意到它。
+
+刻下符文时，你设定触发条件，并选择徽记承载以下哪一种效果：死亡、纷争、恐惧、痛苦、睡眠或震慑。
+
+具体如下。
+
+*设定触发条件（Set the Trigger）。* 施放法术时，你决定什么会触发符文。
+
+刻在表面上的符文常见触发条件包括触碰或踩到符文、移走覆盖它的物体，或者进入它一定距离内。
+
+刻在物体内部的符文常见触发条件包括打开该物体或看见符文。
+
+你可以细化触发条件，使其仅由特定类型生物触发，例如设置为只影响异怪。
+
+你也可以规定不会触发符文的条件，例如说出特定口令的生物。
+
+一旦符文触发，它会开始发光，并在半径 60 尺球状区域内产生微光，持续 10 分钟，随后法术结束。
+
+符文触发时，球状区域内每个生物都会成为其效果目标。
+
+此后，在一个回合中第一次进入球状区域，或者在其中结束回合的生物，也会成为目标。
+
+一个生物每回合只会成为一次目标。
+
+*死亡（Death）。* 每个目标进行一次体质豁免。豁免失败受到 10d10 黯蚀伤害，成功则受到一半伤害。
+
+*纷争（Discord）。* 每个目标进行一次感知豁免。豁免失败时，目标会与其他生物争吵 1 分钟。在此期间，它无法进行有意义的交流，并且攻击检定和属性检定具有劣势。
+
+*恐惧（Fear）。* 每个目标必须成功通过一次感知豁免，否则陷入恐慌状态 1 分钟。处于恐慌状态时，如果可以，目标在自己的每个回合都必须移动到距离符文至少再远 30 尺的位置。
+
+*痛苦（Pain）。* 每个目标必须成功通过一次体质豁免，否则陷入失能状态 1 分钟。
+
+*睡眠（Sleep）。* 每个目标必须成功通过一次感知豁免，否则陷入昏迷状态 10 分钟。如果生物受到伤害，或者有人执行动作将其摇醒，它会醒来。
+
+*震慑（Stunning）。* 每个目标必须成功通过一次感知豁免，否则陷入震慑状态 1 分钟。
+
+#### 心灵遥控（Telekinesis）
+
+*5 环变化法术（术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 10 分钟
+
+你获得通过意念移动或操纵生物与物体的能力。
+
+施放法术时，以及在之后的回合中法术结束前，你可以执行魔法动作，将意志作用于射程内一个你能看见的生物或物体，并产生下述对应效果。
+
+你可以连续多轮影响同一个目标，也可以随时选择新目标。
+
+如果更换目标，之前的目标不再受到该法术影响。
+
+*生物（Creature）。* 你可以尝试移动一个巨型或更小的生物。
+
+目标必须成功通过一次力量豁免，否则你可以将其沿任意方向移动至多 30 尺，但必须保持在法术射程内。
+
+直到你的下一回合结束，该生物陷入束缚状态。
+
+如果你将它举到空中，它会悬浮在那里。
+
+除非你在下一回合再次对其使用该选项，并且它豁免失败，否则它会在你的下一回合结束时坠落。
+
+*物体（Object）。* 你可以尝试移动一个巨型或更小的物体。
+
+如果物体未被穿戴或携带，你自动将其沿任意方向移动至多 30 尺，但必须保持在法术射程内。
+
+如果物体被某个生物穿戴或携带，该生物必须成功通过一次力量豁免，否则你会将物体从它身上夺走，并沿任意方向移动至多 30 尺。
+
+你还可以用心灵遥控进行精细操作，例如操纵简单工具、打开门或容器、把物品放入开放容器或取出，或者倒出小瓶中的内容物。
+
+#### 心灵联结（Telepathic Bond）
+
+*5 环预言法术（吟游诗人、法师）*
+
+**施法时间：** 动作或仪式  
+**射程：** 30 尺  
+**成分：** V、S、M（两颗蛋）  
+**持续时间：** 1 小时
+
+你在射程内至多八个由你选择的自愿生物之间建立心灵联结，将所有目标彼此连接，持续至法术结束。
+
+无法通过任何语言进行交流的生物不受该法术影响。
+
+直到法术结束，目标可以通过联结彼此进行心灵交流，不论是否共享同一种语言。
+
+这种交流可以跨越任意距离，但无法跨越不同存在位面。
+
+#### 传送术（Teleport）
+
+*7 环咒法法术（吟游诗人、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 10 尺  
+**成分：** V  
+**持续时间：** 立即
+
+该法术立即将你和射程内至多八个你能看见的自愿生物，或者一个你能看见的单一物体，传送到你选择的目的地。
+
+如果指定物体，它必须是大型或更小，并且不能被不自愿生物握持或携带。
+
+你选择的目的地必须为你所知，并且必须与你位于同一存在位面。
+
+你对目的地的熟悉程度决定是否成功抵达。
+
+GM 掷 1d100，并查阅“传送结果”表以及之后的说明。
+
+**传送结果（Teleportation Outcome）**
+
+| 熟悉程度 | 灾难 | 相似地点 | 偏离目标 | 准确抵达 |
+|---|---:|---:|---:|---:|
+| 永久法阵 | — | — | — | 01–00 |
+| 关联物品 | — | — | — | 01–00 |
+| 非常熟悉 | 01–05 | 06–13 | 14–24 | 25–00 |
+| 偶然见过 | 01–33 | 34–43 | 44–53 | 54–00 |
+| 见过一次或听过描述 | 01–43 | 44–53 | 54–73 | 74–00 |
+| 虚假目的地 | 01–50 | 51–00 | — | — |
+
+*熟悉程度（Familiarity）。* 表中术语含义如下：
+
+- **永久法阵**是指你知道符记序列的永久传送法阵。
+- **关联物品**是指你拥有一件在过去六个月内从目标地点带走的物品，例如从法师图书馆中带走的一本书。
+- **非常熟悉**是指你经常造访、仔细研究过，或者在施法时能够看见的地点。
+- **偶然见过**是指你曾看见过不止一次，但并不十分熟悉的地点。
+- **见过一次或听过描述**是指你只见过一次的地点，可能是通过魔法看到；或者你通过他人的描述了解的地点，例如地图上的地点。
+- **虚假目的地**是指实际上并不存在的地点。例如，你试图探知敌人的圣所，却看见了一个幻象；或者试图传送到一个已经不存在的位置。
+
+*灾难（Mishap）。* 法术不可预测的魔力导致旅程发生严重意外。
+
+每个被传送生物，或者目标物体，都受到 3d10 力场伤害。
+
+随后 GM 再次在表中掷骰决定你最终出现的位置。
+
+可能连续发生多次灾难，每次都会造成伤害。
+
+*相似地点（Similar Area）。* 你和同伴，或者目标物体，会出现在另一个在视觉或主题上与目标区域相似的地点。
+
+你会出现在距离目标最近的相似地点。
+
+例如，如果你准备传送到自己的实验室，可能会出现在同一城市另一个人的实验室里。
+
+*偏离目标（Off Target）。* 你和同伴，或者目标物体，会出现在距离目标地点 2d12 里之外的随机方向。
+
+掷 1d8 决定方向：1，东；2，东南；3，南；4，西南；5，西；6，西北；7，北；8，东北。
+
+*准确抵达（On Target）。* 你和同伴，或者目标物体，会出现在你原本预定的地点。
+
+#### 传送法阵（Teleportation Circle）
+
+*5 环咒法法术（吟游诗人、术士、邪术师、法师）*
+
+**施法时间：** 1 分钟  
+**射程：** 10 尺  
+**成分：** V、M（价值至少 50 GP 的稀有墨水，法术会将其消耗）  
+**持续时间：** 1 轮
+
+施放法术时，你在地面画出一个半径 5 尺、刻有符记的圆形法阵，将当前位置连接到同一存在位面上一个由你选择、且你知道其符记序列的永久传送法阵。
+
+一道闪耀传送门会在你画出的圆圈内打开，并持续到你的下一回合结束。
+
+任何进入传送门的生物都会立即出现在目的地法阵 5 尺内，或者如果该空间被占据，则出现在最近的未占据空间。
+
+许多大型神殿、公会大厅以及其他重要地点都拥有永久传送法阵。
+
+每个法阵都有唯一的符记序列，即按照特定模式排列的一串符文。
+
+当你第一次获得施放该法术的能力时，你会知道两个位于主物质位面的目的地符记序列，由 GM 决定。
+
+你可能在冒险期间学会其他符记序列。
+
+研究一个新的符记序列 1 分钟后，你可以将其记住。
+
+如果你连续 365 天每天都在同一地点施放该法术，就可以创造一个永久传送法阵。
+
+#### 奇术（Thaumaturgy）
+
+*变化戏法（牧师）*
+
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V  
+**持续时间：** 至多 1 分钟
+
+你在射程内显现一个微小神迹。
+
+从以下效果中选择一种。
+
+如果你多次施放该法术，同一时间最多可以有三个持续 1 分钟的效果存在。
+
+*改变双眼（Altered Eyes）。* 你改变自己双眼的外观，持续 1 分钟。
+
+*洪亮嗓音（Booming Voice）。* 你的声音变得最多为正常音量的三倍，持续 1 分钟。
+
+持续时间内，你进行魅力（威吓）检定时具有优势。
+
+*戏火（Fire Play）。* 你使火焰闪烁、变亮、变暗或改变颜色，持续 1 分钟。
+
+*隐形之手（Invisible Hand）。* 你立即使一扇未上锁的门或窗猛然打开或关闭。
+
+*幻影声响（Phantom Sound）。* 你在射程内一个由你选择的点制造一个立即出现的声音，例如雷声、乌鸦叫声或不祥耳语。
+
+*震颤（Tremors）。* 你使地面产生无害震颤，持续 1 分钟。
+
+#### 雷鸣波（Thunderwave）
+
+*1 环塑能法术（吟游诗人、德鲁伊、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 立即
+
+你释放一股雷鸣能量波。
+
+以你为起点的一个 15 尺立方区域内，每个生物进行一次体质豁免。
+
+豁免失败时，生物受到 2d8 雷鸣伤害，并被推离你 10 尺。
+
+豁免成功时，只受到一半伤害。
+
+此外，完全位于立方区域内、未被固定的物体也会被推离你 10 尺。
+
+雷鸣爆响在 300 尺内都能听见。
+
+*使用更高环阶法术位。* 你每使用高于 1 环一环的法术位，伤害增加 1d8。
+
+#### 时间停止（Time Stop）
+
+*9 环变化法术（术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V  
+**持续时间：** 立即
+
+你短暂停止除自己之外所有事物的时间流动。
+
+对其他生物而言，没有任何时间流逝，而你连续获得 1d4 + 1 个回合。
+
+在这些回合中，你可以正常使用动作和移动。
+
+如果你在这段时间内使用的某个动作，或者由你创造的任何效果，影响了你之外的另一个生物，或者影响了由其他生物穿戴或携带的物体，该法术立即结束。
+
+此外，如果你移动到距离施法地点超过 1,000 尺的位置，法术也会结束。
+
+#### 小屋术（Tiny Hut）
+
+*3 环塑能法术（吟游诗人、法师）*
+
+**施法时间：** 1 分钟或仪式  
+**射程：** 自身  
+**成分：** V、S、M（一颗水晶珠）  
+**持续时间：** 8 小时
+
+一个 10 尺发散区域以你为中心出现，并在持续时间内固定不动。
+
+如果你施放法术时，该发散区域无法完整容纳区域内的所有生物，法术失败。
+
+施法时位于发散区域内的生物和物体可以自由进出。
+
+其他所有生物和物体都无法穿过。
+
+3 环或更低法术无法穿过该区域进行施放，而这些法术的效果也无法延伸进入其中。
+
+无论外界天气如何，发散区域内部的环境始终舒适、干燥。
+
+直到法术结束，你可以无需动作地命令内部环境保持微光或黑暗。
+
+从外部看，该发散区域不透明，并且可以呈你选择的任意颜色；从内部向外看则完全透明。
+
+如果你离开发散区域，或者再次施放该法术，法术提前结束。
+
+#### 巧言术（Tongues）
+
+*3 环预言法术（吟游诗人、牧师、术士、邪术师、法师）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、M（一座微型阶梯金字塔）  
+**持续时间：** 1 小时
+
+该法术让你触碰的生物能够理解它听见的任何口语，以及看见的任何手语。
+
+此外，当目标通过说话或手势进行交流时，任何至少掌握一种语言的生物，只要能够听见其说话或看见其手势，就能够理解它。
+
+#### 植物传送（Transport via Plants）
+
+*6 环咒法法术（德鲁伊）*
+
+**施法时间：** 动作  
+**射程：** 10 尺  
+**成分：** V、S  
+**持续时间：** 1 分钟
+
+该法术在射程内一个大型或更大的非生命植物与同一存在位面上的另一个植物之间建立魔法连接，不论两者相距多远。
+
+你必须至少曾经一次看见或触碰目的地植物。
+
+持续时间内，任何生物都可以花费 5 尺移动进入目标植物，并从目的地植物中走出。
+
+#### 树跃术（Tree Stride）
+
+*5 环咒法法术（德鲁伊、游侠）*
+
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
+
+你获得进入一棵树，并从其中移动到 500 尺内另一棵同种树木中的能力。
+
+两棵树都必须存活，并且至少与你体型相同。
+
+你必须花费 5 尺移动进入一棵树。
+
+进入时，你会立即知道 500 尺内所有同种树木的位置。
+
+作为进入树木所使用移动的一部分，你可以进入其中一棵树，或者从当前树木中走出来。
+
+你会出现在目的地树木 5 尺内一个由你选择的位置，并额外花费 5 尺移动。
+
+如果你已经没有剩余移动，则会出现在最初进入的树木 5 尺内。
+
+你每个回合只能使用一次这种传送能力。
+
+你必须在树木外结束自己的每个回合。
+
+#### 完全变形术（True Polymorph）
+
+*9 环变化法术（吟游诗人、邪术师、法师）*
+
+**施法时间：** 动作  
+**射程：** 30 尺  
+**成分：** V、S、M（一滴水银、一团阿拉伯胶和一缕烟）  
+**持续时间：** 专注，至多 1 小时
+
+选择射程内一个你能看见的生物或非魔法物体。
+
+你可以让生物变形成另一个生物或一个非魔法物体，也可以让物体变形成一个生物；目标物体不能正被穿戴或携带。
+
+变形持续至法术结束，或者直到目标死亡或被摧毁。
+
+然而，如果你在完整持续时间内维持专注，该法术会持续到被解除为止。
+
+不自愿生物可以进行一次感知豁免，成功则不受该法术影响。
+
+*生物变生物（Creature into Creature）。* 如果你将一个生物变成另一种生物，新形态可以是任意由你选择、挑战等级不高于目标挑战等级或等级的生物。
+
+目标的游戏数据被新形态的数据替代，但保留自己的生命值、生命骰、阵营和人格。
+
+目标获得数量等于新形态生命值的临时生命值。
+
+法术结束时，任何剩余的这些临时生命值都会消失。
+
+目标能够采取的动作受到新形态身体构造限制，并且无法说话或施放法术。
+
+目标装备融入新形态中，无法使用或以其他方式从这些装备中获益。
+
+*物体变生物（Object into Creature）。* 你可以将一个物体变成任何种类的生物，只要该生物体型不大于目标物体，并且挑战等级不高于 9。
+
+该生物对你和你的盟友态度友好。
+
+战斗中，它会在你的回合结束后立即进行自己的回合，并服从你的命令。
+
+如果法术持续超过 1 小时，你将不再控制该生物。
+
+它是否继续对你友好，取决于你此前如何对待它。
+
+*生物变物体（Creature into Object）。* 如果你将一个生物变成物体，只要物体体型不大于该生物，它连同穿戴和携带的一切都会一起变成该物体。
+
+生物的游戏数据变为物体的数据。
+
+法术结束并恢复正常后，该生物不会记得自己处于物体形态期间经历的时间。
+
+#### 完全复生术（True Resurrection）
+
+*9 环死灵法术（牧师、德鲁伊）*
+
+**施法时间：** 1 小时  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 25,000 GP 的钻石，法术会将其消耗）  
+**持续时间：** 立即
+
+你触碰一个死亡时间不超过 200 年，并且并非因衰老死亡的生物。
+
+该生物以全部生命值复活。
+
+该法术会闭合所有伤口、中和所有毒素、治愈所有魔法疫病，并移除生物死亡时受到的全部诅咒。
+
+该法术还会恢复受损或缺失的器官和肢体。
+
+如果该生物是不死生物，则会恢复为原本的非不死生物形态。
+
+如果原身体已经不存在，该法术可以为目标创造一个新身体。
+
+在这种情况下，你必须说出该生物的名字。
+
+随后，该生物出现在你 10 尺内一个由你选择的未占据空间。
+
+#### 真知术（True Seeing）
+
+*6 环预言法术（吟游诗人、牧师、术士、邪术师、法师）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（价值至少 25 GP 的蘑菇粉末，法术会将其消耗）  
+**持续时间：** 1 小时
+
+持续时间内，你触碰的一个自愿生物获得 120 尺真实视觉。
+
+#### 克敌机先（True Strike）
+
+*预言戏法（吟游诗人、术士、邪术师、法师）*
+
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** S、M（一件你拥有熟练且价值至少 1 CP 的武器）  
+**持续时间：** 立即
+
+在一瞬间的魔法洞见指引下，你使用施法时作为材料成分的武器进行一次攻击。
+
+该攻击使用你的施法属性进行攻击检定和伤害掷骰，而不是力量或敏捷。
+
+如果攻击造成伤害，你可以选择让伤害变成光耀伤害，或者保持武器正常的伤害类型。
+
+*戏法升级。* 无论你选择光耀伤害还是武器正常伤害类型，当你达到 5 级时攻击额外造成 1d6 光耀伤害；11 级时为 2d6；17 级时为 3d6。
+
+#### 海啸术（Tsunami）
+
+*8 环咒法法术（德鲁伊）*
+
+**施法时间：** 1 分钟  
+**射程：** 1 里  
+**成分：** V、S  
+**持续时间：** 专注，至多 6 轮
+
+一道水墙在射程内你选择的一点出现。
+
+你可以让水墙最长 300 尺、最高 300 尺、厚 50 尺。
+
+水墙持续至法术结束。
+
+水墙出现时，区域内每个生物进行一次力量豁免。
+
+豁免失败受到 6d10 钝击伤害，成功则受到一半伤害。
+
+水墙出现后的每个你的回合开始时，水墙连同其中的生物一起远离你移动 50 尺。
+
+任何位于墙中，或者水墙移动时其空间被水墙覆盖的巨型或更小生物，都必须成功通过一次力量豁免，否则受到 5d10 钝击伤害。
+
+一个生物每轮只能受到一次该伤害。
+
+在该回合结束时，水墙高度降低 50 尺，而它之后轮次造成的伤害也降低 1d10。
+
+当水墙高度降至 0 尺时，法术结束。
+
+被卷入水墙的生物可以通过游泳移动。
+
+然而，由于巨浪力量强大，生物必须先针对你的法术豁免 DC 成功通过一次力量（运动）检定，才能进行任何移动。
+
+检定失败时，它无法移动。
+
+离开水墙的生物会落到地面。
+
+#### 隐形仆役（Unseen Servant）
+
+*1 环咒法法术（吟游诗人、邪术师、法师）*
+
+**施法时间：** 动作或仪式  
+**射程：** 60 尺  
+**成分：** V、S、M（一小段绳子和一小块木头）  
+**持续时间：** 1 小时
+
+该法术创造一股隐形、无心智、无固定形态的中型力量，在法术结束前按照你的命令完成简单任务。
+
+仆役出现在射程内地面上一个未占据空间。
+
+它具有 AC 10、1 点生命值和 2 点力量，并且无法攻击。
+
+如果生命值降至 0，法术结束。
+
+在你的每个回合中，你可以使用一次附赠动作，通过心灵命令仆役移动至多 15 尺并与物体互动。
+
+仆役可以完成普通人能够完成的简单任务，例如取物、清洁、修补、叠衣物、生火、上菜和倒饮料。
+
+一旦你发出命令，仆役会尽最大能力执行任务直到完成，然后等待你的下一条命令。
+
+如果你命令仆役执行一个会让它移动到距离你超过 60 尺的位置的任务，法术结束。
+
+#### 吸血鬼之触（Vampiric Touch）
+
+*3 环死灵法术（术士、邪术师、法师）*
+
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
+
+你被暗影笼罩的手可以抽取其他生物的生命力，用来治疗自己的伤势。
+
+对触及范围内一个生物进行一次近战法术攻击。
+
+命中时，目标受到 3d6 黯蚀伤害，而你恢复等于实际造成黯蚀伤害一半的生命值。
+
+直到法术结束，在你的每个回合中，你都可以执行魔法动作再次进行该攻击，目标可以是同一个生物，也可以是另一个生物。
+
+*使用更高环阶法术位。* 你每使用高于 3 环一环的法术位，伤害增加 1d6。
+
+#### 恶毒嘲笑（Vicious Mockery）
+
+*惑控戏法（吟游诗人）*
+
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V  
+**持续时间：** 立即
+
+你向射程内一个你能看见或听见的生物发出一连串夹杂微妙惑控魔法的侮辱。
+
+目标必须成功通过一次感知豁免，否则受到 1d6 心灵伤害，并且在其下一回合结束前进行的下一次攻击检定具有劣势。
+
+*戏法升级。* 当你达到 5 级（2d6）、11 级（3d6）和 17 级（4d6）时，伤害各增加 1d6。
+
+#### 强酸法球（Vitriolic Sphere）
+
+*4 环塑能法术（术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 150 尺  
+**成分：** V、S、M（一滴胆汁）  
+**持续时间：** 立即
+
+你指向射程内一个位置，一颗直径 1 尺、发光的强酸球飞向该处，并爆炸形成半径 20 尺的球状区域。
+
+区域内每个生物进行一次敏捷豁免。
+
+豁免失败时，生物受到 10d4 强酸伤害，并在自己下一回合结束时再受到 5d4 强酸伤害。
+
+豁免成功时，只受到一半初始伤害。
+
+*使用更高环阶法术位。* 你每使用高于 4 环一环的法术位，初始伤害增加 2d4。
+
+#### 火墙术（Wall of Fire）
+
+*4 环塑能法术（德鲁伊、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S、M（一块木炭）  
+**持续时间：** 专注，至多 1 分钟
+
+你在射程内一个实体表面上创造一道火墙。
+
+你可以让火墙最长 60 尺、高 20 尺、厚 1 尺，也可以创造直径最大 20 尺、高 20 尺、厚 1 尺的环形火墙。
+
+火墙不透明，并持续至法术结束。
+
+火墙出现时，其区域内每个生物进行一次敏捷豁免。
+
+豁免失败受到 5d8 火焰伤害，成功则受到一半伤害。
+
+施放法术时，你选择火墙的一侧。
+
+任何在该侧 10 尺内，或者在墙体内部结束回合的生物，都会受到 5d8 火焰伤害。
+
+生物在一个回合中第一次进入墙体，或者在那里结束回合时，也受到相同伤害。
+
+火墙另一侧不会造成伤害。
+
+*使用更高环阶法术位。* 你每使用高于 4 环一环的法术位，伤害增加 1d8。
+
+#### 力场墙（Wall of Force）
+
+*5 环塑能法术（法师）*
+
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S、M（一片玻璃碎片）  
+**持续时间：** 专注，至多 10 分钟
+
+一道隐形力场墙在射程内你选择的一点出现。
+
+墙可以按照你选择的任意方向存在，可以是水平、垂直或倾斜屏障。
+
+它可以悬浮，也可以依托实体表面。
+
+你可以将其塑造成半径最大 10 尺的半球穹顶或完整球体，也可以创造一个由十块 10 尺 × 10 尺面板组成的平面。
+
+每块面板必须与至少另一块面板相连。
+
+无论哪种形态，墙体厚度都是 1/4 英寸，并持续至法术结束。
+
+如果墙出现时切过某个生物的空间，该生物会被推到墙的一侧，由你选择哪一侧。
+
+任何实体事物都无法穿过墙体。
+
+墙免疫所有伤害，并且无法被*解除魔法*解除。
+
+然而，*解离术*会立即摧毁该墙。
+
+墙还延伸进入以太位面，因此会阻挡穿墙进行的以太旅行。
+
+#### 冰墙术（Wall of Ice）
+
+*6 环塑能法术（法师）*
+
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S、M（一块石英）  
+**持续时间：** 专注，至多 10 分钟
+
+你在射程内一个实体表面上创造一道冰墙。
+
+你可以将其塑造成半径最大 10 尺的半球穹顶或完整球体，或者创造一个由十块 10 尺见方面板组成的平面。
+
+每块面板必须与至少另一块面板相连。
+
+无论哪种形态，墙体厚度都是 1 尺，并持续至法术结束。
+
+如果墙出现时切过某个生物的空间，该生物会被推到墙的一侧，由你选择哪一侧，并进行一次敏捷豁免。
+
+豁免失败受到 10d6 寒冷伤害，成功则受到一半伤害。
+
+冰墙属于可以受到伤害并被打破的物体。
+
+每个 10 尺墙体区段具有 AC 12 和 30 点生命值，并免疫寒冷、毒素和心灵伤害，对火焰伤害具有易伤。
+
+将一段 10 尺墙体生命值降低至 0 会摧毁该部分，并在原本墙体所在空间留下一片极寒空气。
+
+生物在一个回合中第一次穿过该极寒空气时进行一次体质豁免。
+
+豁免失败受到 5d6 寒冷伤害，成功则受到一半伤害。
+
+*使用更高环阶法术位。* 你每使用高于 6 环一环的法术位，墙出现时造成的伤害增加 2d6，而穿越极寒空气造成的伤害增加 1d6。
+
+#### 石墙术（Wall of Stone）
+
+*5 环塑能法术（德鲁伊、术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S、M（一块花岗岩立方体）  
+**持续时间：** 专注，至多 10 分钟
+
+一道非魔法的坚固石墙在射程内你选择的一点出现。
+
+墙厚 6 英寸，并由十块 10 尺 × 10 尺面板组成。
+
+每块面板必须与至少另一块面板相连。
+
+或者，你可以创造 10 尺 × 20 尺、但只有 3 英寸厚的面板。
+
+如果墙出现时切过某个生物的空间，该生物会被推到墙的一侧，由你选择哪一侧。
+
+如果生物会被墙体完全包围，或者被墙体与另一实体表面共同完全包围，该生物可以进行一次敏捷豁免。
+
+成功时，它可以使用反应移动至多等于自身速度的距离，使自己不再被包围。
+
+墙可以呈你想要的任何形状，但不能占据生物或物体的空间。
+
+墙不必垂直，也不必建立在坚实地基上。
+
+不过，它必须与现有石头连接，并获得稳固支撑。
+
+因此，你可以用该法术横跨峡谷创造桥梁，或者创造坡道。
+
+如果创造长度超过 20 尺的跨度，必须将每块面板尺寸减半，用于创造支撑结构。
+
+你可以粗略塑造墙体，形成城垛等结构。
+
+石墙属于可以受到伤害并被打破的石制物体。
+
+每块面板具有 AC 15，并且每英寸厚度具有 30 点生命值，同时免疫毒素和心灵伤害。
+
+将一块面板生命值降低至 0 会摧毁它，并可能由 GM 决定导致相连面板倒塌。
+
+如果你在该法术完整持续时间内保持专注，墙体会变为永久存在，并且无法被解除。
+
+否则，法术结束时墙会消失。
+
+#### 荆棘墙（Wall of Thorns）
+
+*6 环咒法法术（德鲁伊）*
+
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S、M（一把荆棘）  
+**持续时间：** 专注，至多 10 分钟
+
+你创造一道由纠缠灌木构成、布满针状尖刺的墙。
+
+墙出现在射程内一个实体表面上，并持续至法术结束。
+
+你可以让墙最长 60 尺、高 10 尺、厚 5 尺，或者形成一个直径 20 尺、高至多 20 尺、厚 5 尺的圆形围墙。
+
+墙会阻挡视线。
+
+墙出现时，其区域内每个生物进行一次敏捷豁免。
+
+豁免失败受到 7d8 穿刺伤害，成功则受到一半伤害。
+
+生物可以穿过墙体，但过程缓慢而痛苦。
+
+在墙中每移动 1 尺，都必须花费 4 尺移动。
+
+此外，当一个生物在一个回合中第一次进入墙体空间，或者在其中结束回合时，必须进行一次敏捷豁免。
+
+豁免失败受到 7d8 挥砍伤害，成功则受到一半伤害。
+
+一个生物每回合只进行一次该豁免。
+
+*使用更高环阶法术位。* 你每使用高于 6 环一环的法术位，两种伤害各增加 1d8。
+
+#### 守护之链（Warding Bond）
+
+*2 环防护法术（牧师、圣武士）*
+
+**施法时间：** 动作  
+**射程：** 触及  
+**成分：** V、S、M（一对每枚价值至少 50 GP 的铂金戒指；持续时间内你与目标必须分别佩戴一枚）  
+**持续时间：** 1 小时
+
+你触碰另一个自愿生物，在你与目标之间创造一条神秘连接，持续至法术结束。
+
+当目标位于你 60 尺内时，其 AC 和豁免检定获得 +1 加值，并且对所有伤害具有抗性。
+
+此外，每当目标受到伤害时，你也会受到相同数量的伤害。
+
+如果你的生命值降至 0，或者你与目标之间距离超过 60 尺，法术结束。
+
+如果该法术再次施放在任意一个已连接生物身上，法术也会结束。
+
+#### 水下呼吸（Water Breathing）
+
+*3 环变化法术（德鲁伊、游侠、术士、法师）*
+
+**施法时间：** 动作或仪式  
+**射程：** 30 尺  
+**成分：** V、S、M（一小段芦苇）  
+**持续时间：** 24 小时
+
+直到法术结束，你选择射程内至多十个自愿生物，使其获得在水下呼吸的能力。
+
+受到影响的生物仍然保留原本的呼吸方式。
+
+#### 水上行走（Water Walk）
+
+*3 环变化法术（牧师、德鲁伊、游侠、术士）*
+
+**施法时间：** 动作或仪式  
+**射程：** 30 尺  
+**成分：** V、S、M（一小块软木）  
+**持续时间：** 1 小时
+
+该法术让生物能够在任何液体表面移动，例如水、强酸、泥浆、雪、流沙或熔岩，就如同在无害的坚固地面上移动一样。
+
+穿过熔岩时，生物仍然可能受到高温伤害。
+
+射程内至多十个由你选择的自愿生物获得该能力，持续至法术结束。
+
+受影响目标必须使用附赠动作，才能从液体表面进入液体内部，或者从液体内部穿过表面回到上方。
+
+不过，如果目标直接坠入液体，会穿过表面落入液体内部。
+
+#### 蛛网术（Web）
+
+*2 环咒法法术（术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S、M（一小块蜘蛛网）  
+**持续时间：** 专注，至多 1 小时
+
+你在射程内一点召唤出大量黏性蛛网。
+
+持续时间内，蛛网填满该处一个 20 尺立方区域。
+
+蛛网属于困难地形，并且区域处于轻度遮蔽状态。
+
+如果蛛网没有固定在两个实体物体之间，例如墙壁或树木，或者没有铺在地板、墙壁或天花板上，蛛网会自行坍塌，法术在你的下一回合开始时结束。
+
+铺在平面上的蛛网厚 5 尺。
+
+当一个生物在一个回合中第一次进入蛛网，或者在其中开始回合时，必须成功通过一次敏捷豁免，否则在蛛网内陷入束缚状态，直到挣脱为止。
+
+被蛛网束缚的生物可以执行动作，针对你的法术豁免 DC 进行一次力量（运动）检定。
+
+成功时，它不再处于束缚状态。
+
+蛛网易燃。
+
+任何暴露在火焰中的 5 尺蛛网立方区域会在 1 轮内烧毁，并对任何在火焰中开始回合的生物造成 2d4 火焰伤害。
+
+#### 怪异术（Weird）
+
+*9 环幻术法术（邪术师、法师）*
+
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S  
+**持续时间：** 专注，至多 1 分钟
+
+你尝试在其他生物心中创造幻象恐怖。
+
+以射程内一点为中心、半径 30 尺的球状区域内，每个由你选择的生物都进行一次感知豁免。
+
+豁免失败时，目标受到 10d10 心灵伤害，并在持续时间内陷入恐慌状态。
+
+豁免成功时，目标只受到一半伤害。
+
+处于恐慌状态的目标在自己每个回合结束时进行一次感知豁免。
+
+豁免失败时，它受到 5d10 心灵伤害。
+
+豁免成功时，该目标身上的法术结束。
+
+#### 御风而行（Wind Walk）
+
+*6 环变化法术（德鲁伊）*
+
+**施法时间：** 1 分钟  
+**射程：** 30 尺  
+**成分：** V、S、M（一根蜡烛）  
+**持续时间：** 8 小时
+
+你和射程内至多十个由你选择的自愿生物，在持续时间内化为气体形态，看起来像一缕缕云雾。
+
+处于云雾形态时，目标获得 300 尺飞行速度并可以悬停；免疫倒地状态；对钝击、穿刺和挥砍伤害具有抗性。
+
+目标在该形态下唯一可以执行的动作，是疾走动作，或者开始恢复正常形态的魔法动作。
+
+恢复正常形态需要 1 分钟。
+
+在这一分钟内，目标陷入震慑状态。
+
+直到法术结束，目标仍然可以重新变回云雾形态。
+
+重新变形同样需要先执行魔法动作，再经过 1 分钟的转化。
+
+如果效果结束时目标仍处于云雾形态并正在飞行，它会在接下来 1 分钟内每轮下降 60 尺，直到安全着陆。
+
+如果 1 分钟后仍无法着陆，它会坠落剩余距离。
+
+#### 风墙术（Wind Wall）
+
+*3 环塑能法术（德鲁伊、游侠）*
+
+**施法时间：** 动作  
+**射程：** 120 尺  
+**成分：** V、S、M（一把扇子和一根羽毛）  
+**持续时间：** 专注，至多 1 分钟
+
+一道强风墙从射程内你选择的一点拔地而起。
+
+你可以让墙最长 50 尺、高 15 尺、厚 1 尺。
+
+只要墙沿地面形成一条连续路径，你可以按照任意方式塑造其形状。
+
+墙持续至法术结束。
+
+风墙出现时，其区域内每个生物进行一次力量豁免。
+
+豁免失败受到 4d8 钝击伤害，成功则受到一半伤害。
+
+强风会阻挡雾气、烟雾和其他气体。
+
+小型或更小的飞行生物或物体无法穿过风墙。
+
+进入风墙的松散轻质材料会被吹向空中。
+
+射向墙后目标的箭矢、弩矢和其他普通投射物会被吹偏并自动未命中。
+
+巨人投掷的巨石、攻城武器发射的弹丸以及类似投射物不受影响。
+
+处于气体形态的生物无法穿过风墙。
+
+#### 祈愿术（Wish）
+
+*9 环咒法法术（术士、法师）*
+
+**施法时间：** 动作  
+**射程：** 自身  
+**成分：** V  
+**持续时间：** 立即
+
+*祈愿术*是凡人能够施放的最强大法术。
+
+只需开口说出愿望，你就能够改变现实本身。
+
+该法术最基本的用途，是复制任何其他 8 环或更低法术。
+
+以这种方式使用时，你不需要满足被复制法术的任何施法要求，包括昂贵材料成分。
+
+法术会直接产生效果。
+
+或者，你可以创造以下一种由你选择的效果：
+
+**创造物体（Object Creation）。** 你创造一个价值不超过 25,000 GP、且不是魔法物品的物体。
+
+物体任一方向上不得超过 300 尺，并出现在你能看见的地面上一个未占据空间。
+
+**瞬间康复（Instant Health）。** 你使自己以及至多二十个你能看见的生物恢复全部生命值，并结束它们身上列在*高等复原术*中的所有效果。
+
+**抗性（Resistance）。** 你使至多十个你能看见的生物获得你选择的一种伤害类型抗性。
+
+该抗性永久存在。
+
+**法术免疫（Spell Immunity）。** 你使至多十个你能看见的生物在 8 小时内免疫一个特定法术或其他魔法效果。
+
+**骤然领悟（Sudden Learning）。** 你将自己拥有的一个专长替换为另一个你符合资格的专长。
+
+你失去旧专长的一切收益，并获得新专长的一切收益。
+
+你不能替换作为其他专长或特性先决条件的专长。
+
+**重掷结果（Roll Redo）。** 你撤销一个刚刚发生的事件，迫使在上一轮内进行的任意一次骰子掷骰重新进行，包括你上一回合中的掷骰。
+
+现实会自行重塑，以适应新的结果。
+
+例如，*祈愿术*可以撤销盟友失败的豁免，或者敌人的一次重击。
+
+你可以让重掷具有优势或劣势，并决定最终采用新结果还是原始结果。
+
+**重塑现实（Reshape Reality）。** 你可以许下一个不属于上述任何效果的愿望。
+
+这样做时，尽可能准确地向 GM 描述你的愿望。
+
+GM 对于这种情况下实际发生什么拥有极大裁量权。
+
+愿望越强大，出现问题的可能性就越高。
+
+法术可能直接失败，你想要的效果可能只部分实现，也可能因为你的措辞而出现无法预料的后果。
+
+例如，希望某个反派死亡，可能让你直接被送往未来，在那里那个反派已经死亡；这相当于把你从当前游戏中移走。
+
+同样，希望获得一件传奇魔法物品或神器，可能会让你立即被传送到该物品当前拥有者面前。
+
+如果愿望成功，并且其后果会影响整个社区、地区甚至世界，你很可能引来强大的敌人。
+
+如果你的愿望会影响某位神祇，其神圣仆从可能立即介入，阻止愿望实现，或者鼓励你用特定方式重新表述愿望。
+
+如果你的愿望会毁灭整个多元宇宙，愿望失败。
+
+使用*祈愿术*产生除复制其他法术之外的任何效果，都会给你带来巨大压力并削弱你。
+
+承受这种压力后，直到你完成一次长休，每当你施放法术时，都会受到每环 1d10 的黯蚀伤害。
+
+该伤害无法以任何方式降低或防止。
+
+此外，你的力量值会变为 3，持续 2d4 天。
+
+在这些天中，每当你花一整天休息，并且只进行轻度活动，你剩余的恢复时间就会减少 2 天。
+
+最后，每当你承受这种压力时，有 33% 几率永久失去再次施放*祈愿术*的能力。
+
+#### 回返真言（Word of Recall）
+
+*6 环咒法法术（牧师）*
+
+**施法时间：** 动作  
+**射程：** 5 尺  
+**成分：** V  
+**持续时间：** 立即
+
+你和你 5 尺内至多五个自愿生物立即传送到一个此前指定的圣所。
+
+你以及随你传送的生物，会出现在距离你准备圣所时指定地点最近的未占据空间，见下文。
+
+如果你此前没有准备圣所就施放该法术，法术没有效果。
+
+你必须在某个地点，例如一座神殿，施放一次该法术，将其指定为你的圣所。
+
+#### 诚实之域（Zone of Truth）
+
+*2 环惑控法术（吟游诗人、牧师、圣武士）*
+
+**施法时间：** 动作  
+**射程：** 60 尺  
+**成分：** V、S  
+**持续时间：** 10 分钟
+
+你以射程内一点为中心创造一个半径 15 尺的魔法区域，用来防止欺骗。
+
+直到法术结束，一个生物在一个回合中第一次进入法术区域，或者在那里开始回合时，进行一次魅力豁免。
+
+豁免失败时，该生物位于区域内期间无法故意说谎。
+
+你知道每个生物此次豁免是成功还是失败。
+
+受到影响的生物知道该法术存在，因此可以选择不回答自己通常会以谎言回应的问题。
+
+这样的生物可以含糊其辞或回避，但只要实际作答，就必须说真话。
