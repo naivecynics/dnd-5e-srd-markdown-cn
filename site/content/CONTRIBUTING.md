@@ -1,279 +1,142 @@
-# Contributing to D&D 5.2.1 SRD Markdown
+# D&D 5.2.1 SRD Markdown 贡献指南
 
-Thank you for your interest in improving this resource! This repository serves the D&D developer community by providing the SRD in a clean, accessible format.
+感谢你有兴趣改进这个资源！本仓库旨在为 D&D 开发者社区提供整洁、易访问的 SRD 内容。
 
-## How to Contribute
+## 如何贡献
 
-### Types of Contributions Welcome
+### 欢迎的贡献类型
 
-1. **Bug Reports** - Found a formatting error or typo? Let us know!
-2. **Formatting Improvements** - Better table structures, clearer headers, improved readability
-3. **Internal Linking** - Add helpful links between related sections
-4. **Documentation** - Integration guides, tutorials
-5. **Scripts & Tools** - Parsers, validators, converters, or search tools
+1. **错误报告**——发现格式错误或错别字？请告诉我们。
+2. **格式改进**——优化表格结构、标题层级和可读性。
+3. **内部链接**——在相关章节之间添加有帮助的链接。
+4. **文档**——补充集成指南和教程。
+5. **脚本与工具**——提交解析器、验证器、转换器或搜索工具。
 
-### Types of Changes NOT Accepted
+### 不接受的变更类型
 
-- Changes to official SRD content (we must match the official WotC SRD exactly)
-- Homebrew content (this is for official SRD only)
-- Additions beyond the SRD scope
-- Significant structural reorganization (keep files as-is for consistency)
+- 修改官方 SRD 内容（必须与 WotC 官方 SRD 保持一致）
+- 添加自制内容或超出 SRD 范围的内容
+- 大幅重组文件结构
 
-## Contribution Process
+## 贡献流程
 
-### 1. Before You Start
+### 1. 开始之前
 
-- Check existing issues to avoid duplicates
-- For major changes, open an issue first to discuss
-- Read this guide completely
+- 检查已有 Issue，避免重复报告。
+- 对于重大变更，请先创建 Issue 进行讨论。
+- 完整阅读本指南。
 
-### 2. Making Changes
+### 2. 进行修改
 
 ```bash
-# Fork the repository on GitHub
+# 在 GitHub 上 Fork 本仓库并克隆你的 Fork
+git clone https://github.com/YOUR_USERNAME/dnd-5e-srd-markdown.git
+cd dnd-5e-srd-markdown
 
-# Clone your fork
-git clone https://github.com/YOUR_USERNAME/dnd-5.2-srd-markdown.git
-cd dnd-5.2-srd-markdown
-
-# Create a feature branch
+# 创建功能分支并进行修改
 git checkout -b fix/spell-table-formatting
+# ... 编辑文件 ...
 
-# Make your changes
-# ... edit files ...
-
-# Test your changes (see Testing section below)
-
-# Commit with a clear message
+# 测试、提交并推送
 git commit -m "Fix spell table formatting in spells.md"
-
-# Push to your fork
 git push origin fix/spell-table-formatting
-
-# Open a pull request on GitHub
 ```
 
-### 3. Pull Request Guidelines
+随后在 GitHub 上创建 Pull Request。
 
-**Title Format:**
-- `Fix: [Brief description]` - For bug fixes
-- `Improve: [Brief description]` - For enhancements
-- `Add: [Brief description]` - For new features
-- `Docs: [Brief description]` - For documentation
+### 3. Pull Request 指南
 
-**Description Should Include:**
-- What changed and why
-- Which file(s) were affected
-- Screenshots (if formatting/layout changed)
-- Related issue number (if applicable)
+**标题格式：**
 
-**Example:**
+- `Fix: [简短描述]`——修复错误
+- `Improve: [简短描述]`——改进现有内容
+- `Add: [简短描述]`——新增内容
+- `Docs: [简短描述]`——文档变更
+
+**描述应包括：**修改内容和原因、受影响的文件、格式变化时的截图，以及相关 Issue 编号（如有）。
+
+**示例：**
+
 ```markdown
-## Summary
-Fix malformed table in spells.md causing rendering issues
+## 摘要
+修复 spells.md 中导致渲染问题的错误表格
 
-## Changes
-- Fixed alignment of spell level column in Wizard spell table
-- Corrected missing pipe characters in rows 234-245
+## 变更
+- 修复法术等级表中的列对齐
+- 补全第 234–245 行缺失的竖线
 
-## Testing
-- [x] Previewed in GitHub markdown renderer
-- [x] Validated with markdownlint
-- [x] Checked table renders correctly in VS Code
+## 测试
+- [x] 在 GitHub Markdown 渲染器中预览
+- [x] 使用 markdownlint 验证
+- [x] 在 VS Code Markdown 预览中检查表格
 
-Fixes #42
+修复 #42
 ```
 
-## Testing Your Changes
+## 测试变更
 
-### 1. Markdown Validation
-
-Install and run markdownlint:
+### Markdown 验证
 
 ```bash
 npm install -g markdownlint-cli
-
-# Lint specific file
 markdownlint spells.md
-
-# Lint all files
 markdownlint *.md
 ```
 
-### 2. Preview Rendering
+### 预览渲染
 
-- Preview in your IDE (VS Code markdown preview)
-- Check on GitHub by viewing your branch
-- Test with your intended use case (parser, static site, etc.)
+- 在 IDE 中打开 Markdown 预览。
+- 在 GitHub 上查看你的分支。
+- 按实际使用场景测试解析器、静态站点或其他工具。
 
-### 3. Check for Broken Links
-
-If you added internal links, verify they work:
+### 检查链接
 
 ```bash
-# Install markdown-link-check
 npm install -g markdown-link-check
-
-# Check links
 markdown-link-check README.md
 ```
 
-## Content Guidelines
+## 内容指南
 
-### Preserving Official Content
+### 保留官方内容
 
-The SRD content must remain unchanged from the official WotC release.
+SRD 内容必须保持与 WotC 官方发布版本一致。
 
-**DO:**
-- Fix markdown formatting errors
-- Improve table structure for better parsing
-- Add missing markdown syntax
-- Fix typos in markdown formatting (like incorrect header levels)
+**应该做：**修复 Markdown 格式错误、改进表格结构、补充缺失语法、修正格式性错误。
 
-**DON'T:**
-- Change official spell/monster names
-- Modify statistics or game mechanics
-- Add homebrew content
-- Alter official rules text
-- Remove official content
+**不应该做：**修改官方名称、数值或游戏机制；添加自制内容；改写或删除官方规则文本。
 
-### Formatting Standards
-
-**Headers:**
-```markdown
-# Main Title (H1) - One per file
-## Section Header (H2)
-### Subsection Header (H3)
-#### Detail Header (H4)
-```
-
-**Tables:**
-```markdown
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Data     | Data     | Data     |
-```
-
-- Use consistent column alignment
-- Include header separator row
-- Align pipes for readability (optional but preferred)
-
-**Lists:**
-```markdown
-- Unordered list item
-  - Nested item (2 spaces indent)
-
-1. Ordered list item
-2. Second item
-```
-
-**Emphasis:**
-```markdown
-*Italic* or _italic_
-**Bold** or __bold__
-***Bold and italic***
-```
-
-**Code:**
-````markdown
-Inline `code` uses backticks
-
-```
-Code blocks use triple backticks
-```
-````
-
-**Links:**
-```markdown
-[Link text](https://example.com)
-[Internal link](#section-header)
-```
-
-### Cross-Referencing
-
-When adding internal links:
+### 格式标准
 
 ```markdown
-See the [Spells](#spells) section for more information.
-
-For stat blocks, refer to [monsters-A-Z.md](monsters-A-Z.md#goblin).
+# 文件主标题（每个文件一个 H1）
+## 章节标题（H2）
+### 子章节标题（H3）
+#### 细节标题（H4）
 ```
 
-- Use relative links for files in same directory
-- Use anchor links for sections within a file
-- Test all links before submitting
-
-## Commit Message Guidelines
-
-Use clear, descriptive commit messages:
-
-**Good:**
-```
-Fix table alignment in equipment.md
-Add internal links between class features and spells
-Improve monster stat block formatting
-Update README with documentation improvements
+```markdown
+| 列 1 | 列 2 | 列 3 |
+|------|------|------|
+| 数据 | 数据 | 数据 |
 ```
 
-**Bad:**
-```
-fix stuff
-updates
-changes
-asdf
-```
+表格必须包含表头分隔行；列表、强调、代码块和链接应遵循标准 Markdown 语法。
 
-**Format:**
-```
-<type>: <short description>
+### 交叉引用
 
-<optional longer description>
+- 同一目录中的文件使用相对链接。
+- 文件内链接使用章节锚点。
+- 提交前测试所有链接。
 
-<optional footer>
-```
+## 提交信息规范
 
-**Types:**
-- `fix` - Bug fixes
-- `improve` - Enhancements to existing content
-- `add` - New features or content
-- `docs` - Documentation changes
-- `style` - Formatting changes (no content change)
-- `refactor` - Restructuring without changing content
-- `test` - Adding or updating tests
-- `chore` - Maintenance tasks
+使用清晰、描述性的提交信息，例如 `Fix table alignment in equipment.md`、`Improve monster stat block formatting`。避免使用 `fix stuff` 这类含义不清的信息。
 
-## Code of Conduct
+## 行为准则
 
-### Our Standards
+参与项目时请保持尊重、建设性和包容性，共同维护一个友好的 D&D 开发社区。
 
-- Be respectful and inclusive
-- Welcome newcomers
-- Focus on constructive feedback
-- Respect differing viewpoints
-- Accept constructive criticism gracefully
+## 许可证
 
-### Unacceptable Behavior
-
-- Harassment or discrimination
-- Trolling or insulting comments
-- Publishing others' private information
-- Other unprofessional conduct
-
-## Questions?
-
-- Open an issue with the "question" label
-- Start a discussion in GitHub Discussions
-- Check existing issues and discussions first
-
-## Recognition
-
-Contributors will be:
-- Listed in CHANGELOG.md for significant contributions
-- Mentioned in release notes
-- Credited in project documentation
-
-Thank you for helping make D&D more accessible to developers! 🎲
-
-## License
-
-By contributing, you agree that your contributions will be licensed under the same Creative Commons Attribution 4.0 International License that covers the project.
+通过贡献内容，你同意这些贡献可以依据本项目采用的 CC BY 4.0 许可协议发布。

@@ -1,26 +1,25 @@
-# Changelog
+# 更新日志
 
-All notable changes to this project will be documented in this file.
+本文件记录本项目的所有重要变更。
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to the SRD version numbering.
+格式基于 [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)，版本号遵循 SRD 版本规范。
 
 ## [1.0.0] - 2026-01-09
 
-### Added
+### 新增
 
-- Initial release with complete D&D 5.2.1 SRD content converted to Markdown
-- 13 organized markdown files covering all SRD content (~1.9MB total)
-- Comprehensive README with integration guides
-- LICENSE file with CC BY 4.0 terms
-- CONTRIBUTING guidelines for community contributions
-- GitHub issue templates for bug reports and feature requests
+- 首次发布：将完整的 D&D 5.2.1 SRD 内容转换为 Markdown
+- 13 个按主题整理的 Markdown 文件，覆盖全部 SRD 内容（总计约 1.9 MB）
+- 包含集成指南的完整 README
+- 采用 CC BY 4.0 条款的 LICENSE 文件
+- 面向社区贡献者的 CONTRIBUTING 指南
+- GitHub Issue 模板，包括错误报告和功能请求
 
-### Conversion Notes
+### 转换说明
 
-- All tables converted to GitHub-flavored markdown format
-- Consistent heading hierarchy across all files
-- Preserved all official SRD content exactly as published by WotC
-- Organized content by topic for easy navigation
+- 所有表格均转换为 GitHub 风格 Markdown 表格
+- 所有文件统一采用层级化标题结构
+- 按 WotC 发布的原始内容完整保留官方 SRD 内容
+- 按主题组织内容，便于查找和使用
 
-For the official SRD release history, see [Wizards of the Coast](https://www.dndbeyond.com/).
+官方 SRD 发布历史请参阅 [Wizards of the Coast](https://www.dndbeyond.com/)。

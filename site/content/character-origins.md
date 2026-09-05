@@ -1,374 +1,313 @@
-# Character Origins
+# 角色起源（Character Origins）
 
-## Character Backgrounds
+## 角色背景（Character Backgrounds）
 
-Your character's background is a collection of characteristics that represent the place and occupation that were most formative before your character embarked on a life of adventure.
+你的角色背景（background）是一组特征的集合，代表了在你的角色踏上冒险人生之前，对其塑造最为深刻的地点与职业。
 
-### Parts of a Background
+### 背景的组成部分（Parts of a Background）
 
-A background includes the following parts.
+一个背景包含以下部分。
 
-#### Ability Scores
+#### 属性值（Ability Scores）
 
-A background lists three of your character's ability scores. Increase one by 2 and another one by 1, or increase all three by 1. None of these increases can raise a score above 20.
+一个背景会列出你角色的三项属性值。将其中一项提高 2，另一项提高 1；或者将这三项各提高 1。这些提升均不能使任何属性值超过 20。
 
-#### Feat
+#### 专长（Feat）
 
-A background gives your character a specified Origin feat (described in "Feats").
+一个背景会给予你的角色一个指定的起源专长（Origin feat，详见“专长”）。
 
-#### Skill Proficiencies
+#### 技能熟练（Skill Proficiencies）
 
-A background gives your character proficiency in two specified skills.
+一个背景会给予你的角色两项指定技能的熟练项。
 
-#### Tool Proficiency
+#### 工具熟练（Tool Proficiency）
 
-Each background gives a character proficiency with one tool—either a specific tool or one chosen from the Artisan's Tools category. Tools are detailed in "Equipment."
+每个背景都会给予角色一种工具的熟练项——可以是一种特定工具，也可以是从工匠工具（Artisan's Tools）类别中选择的一种工具。工具的详细说明见“装备”。
 
-#### Equipment
+#### 装备（Equipment）
 
-Each background offers a choice between a package of equipment and 50 GP.
+每个背景都会提供两种选择：一套装备组合，或 50 GP（金币）。
 
-### Background Descriptions
+### 背景说明（Background Descriptions）
 
-#### Acolyte
+#### 侍僧（Acolyte）
 
-**Ability Scores:** Intelligence, Wisdom, Charisma
-**Feat:** Magic Initiate (Cleric) (see "Feats")
-**Skill Proficiencies:** Insight and Religion
-**Tool Proficiency:** Calligrapher's Supplies
-**Equipment:** _Choose A or B:_ (A) Calligrapher's Supplies, Book (prayers), Holy Symbol, Parchment (10 sheets), Robe, 8 GP; or (B) 50 GP
+**属性值：** 智力（Intelligence）、感知（Wisdom）、魅力（Charisma）  
+**专长：** 魔法学徒（牧师）（Magic Initiate [Cleric]）（见“专长”）  
+**技能熟练：** 洞悉（Insight）和宗教（Religion）  
+**工具熟练：** 书法工具（Calligrapher's Supplies）  
+**装备：** _选择 A 或 B：_  
+(A) 书法工具、书籍（祷文）、圣徽（Holy Symbol）、羊皮纸（10 张）、长袍、8 GP；或  
+(B) 50 GP
 
-#### Criminal
+#### 罪犯（Criminal）
 
-**Ability Scores:** Dexterity, Constitution, Intelligence
-**Feat:** Alert (see "Feats")
-**Skill Proficiencies:** Sleight of Hand and Stealth
-**Tool Proficiency:** Thieves' Tools
-**Equipment:** _Choose A or B:_ (A) 2 Daggers, Thieves' Tools, Crowbar, 2 Pouches, Traveler's Clothes, 16 GP; or (B) 50 GP
+**属性值：** 敏捷（Dexterity）、体质（Constitution）、智力  
+**专长：** 警觉（Alert）（见“专长”）  
+**技能熟练：** 巧手（Sleight of Hand）和隐匿（Stealth）  
+**工具熟练：** 盗贼工具（Thieves' Tools）  
+**装备：** _选择 A 或 B：_  
+(A) 2 把匕首（Dagger）、盗贼工具、撬棍（Crowbar）、2 个小袋（Pouch）、旅行者服装（Traveler's Clothes）、16 GP；或  
+(B) 50 GP
 
-#### Sage
+#### 学者（Sage）
 
-**Ability Scores:** Constitution, Intelligence, Wisdom
-**Feat:** Magic Initiate (Wizard) (see "Feats")
-**Skill Proficiencies:** Arcana and History
-**Tool Proficiency:** Calligrapher's Supplies
-**Equipment:** _Choose A or B:_ (A) Quarterstaff, Calligrapher's Supplies, Book (history), Parchment (8 sheets), Robe, 8 GP; or (B) 50 GP
+**属性值：** 体质、智力、感知  
+**专长：** 魔法学徒（法师）（Magic Initiate [Wizard]）（见“专长”）  
+**技能熟练：** 奥秘（Arcana）和历史（History）  
+**工具熟练：** 书法工具  
+**装备：** _选择 A 或 B：_  
+(A) 长棍（Quarterstaff）、书法工具、书籍（历史）、羊皮纸（8 张）、长袍、8 GP；或  
+(B) 50 GP
 
-#### Soldier
+#### 士兵（Soldier）
 
-**Ability Scores:** Strength, Dexterity, Constitution
-**Feat:** Savage Attacker (see "Feats")
-**Skill Proficiencies:** Athletics and Intimidation
-**Tool Proficiency:** _Choose one kind of_ Gaming Set (see "Equipment")
-**Equipment:** _Choose A or B:_ (A) Spear, Shortbow, 20 Arrows, Gaming Set (same as above), Healer's Kit, Quiver, Traveler's Clothes, 14 GP; or (B) 50 GP
+**属性值：** 力量（Strength）、敏捷、体质  
+**专长：** 凶蛮攻击者（Savage Attacker）（见“专长”）  
+**技能熟练：** 运动（Athletics）和威吓（Intimidation）  
+**工具熟练：** _选择一种_ 游戏套具（Gaming Set）（见“装备”）  
+**装备：** _选择 A 或 B：_  
+(A) 长矛（Spear）、短弓（Shortbow）、20 支箭（Arrow）、游戏套具（与上方所选相同）、医疗包（Healer's Kit）、箭袋（Quiver）、旅行者服装、14 GP；或  
+(B) 50 GP
 
-## Character Species
+## 角色物种（Character Species）
 
-When you choose your character's species, you determine whether your character is a human or a member of a fantastical species, such as dragonborn or gnome.
+当你选择角色的物种（species）时，你将决定你的角色是人类，还是某种奇幻物种的成员，例如龙裔或侏儒。
 
-The peoples of the multiverse hail from different worlds and include many kinds of sapient life forms. A player character's species is the set of game traits that an adventurer gains from being one of those life forms.
+多元宇宙（multiverse）中的各个族群来自不同的世界，其中包含许多种类的智慧生命。玩家角色的物种，代表冒险者作为某种生命形态成员所获得的一组游戏特性。
 
-Some species can trace their origin to a single world, plane of existence, or god, while other species first appeared in multiple realms at once. Whatever a species' genesis, its members have spread across the multiverse and contribute to many different cultures.
+有些物种的起源可以追溯至单一世界、位面（plane）或神祇，而另一些物种则最初同时出现在多个国度之中。无论一个物种如何诞生，其成员都已传播至整个多元宇宙，并为无数不同文化作出贡献。
 
-Members of most species live for about 80 years, with exceptions noted in the text about the species in "Character Origins." Regardless of life span, members of all species reach physical maturity at about the same age. Your character can be any age that isn't beyond their species' normal life span.
+大多数物种的成员寿命约为 80 年，但“角色起源”中关于某些物种的说明会列出例外。无论寿命长短，大多数物种的成员都会在大致相同的年龄达到身体成熟。你的角色可以是任何年龄，只要不超过该物种通常的自然寿命。
 
-### Parts of a Species
+### 物种的组成部分（Parts of a Species）
 
-A species includes the following parts.
+一个物种包含以下部分。
 
-#### Creature Type
+#### 生物类型（Creature Type）
 
-A character's species determines the character's creature type, which is described in "Rules Glossary." Every species in "Character Origins" is Humanoid; playable non-Humanoid species appear in other books.
+角色的物种决定该角色的生物类型，其说明见“规则术语表”（Rules Glossary）。“角色起源”中的所有物种均属于类人生物（Humanoid）；可供玩家选择的非类人生物物种会出现在其他书籍中。
 
-#### Size
+#### 体型（Size）
 
-Your character's species determines the character's size. Individuals within a species cover a wide range of heights, and some species include such diversity of size that you can choose whether your character is Small or Medium.
+角色的物种决定角色的体型。同一物种的个体身高可能相差很大，而某些物种的体型差异足够显著，因此你可以选择角色为小型（Small）或中型（Medium）。
 
-#### Speed
+#### 速度（Speed）
 
-Your character's species determines the character's Speed.
+角色的物种决定角色的速度。
 
-#### Special Traits
+#### 特殊特性（Special Traits）
 
-Each species gives a character special traits—unique characteristics based on the species' physiology or magical nature. When you choose a species, your character gets all the special traits listed for it. Some traits involve making a choice from a handful of options.
+每个物种都会给予角色特殊特性——这些是源自该物种生理结构或魔法本质的独特特征。当你选择一个物种时，你的角色会获得该物种列出的所有特殊特性。其中一些特性会要求你从若干选项中作出选择。
 
-### Species Descriptions
+### 物种说明（Species Descriptions）
 
-#### Dragonborn
+#### 龙裔（Dragonborn）
 
-**Creature Type:** Humanoid
-**Size:** Medium (about 5–7 feet tall)
-**Speed:** 30 feet
+**生物类型：** 类人生物  
+**体型：** 中型（身高约 5–7 英尺）  
+**速度：** 30 英尺
 
-As a Dragonborn, you have these special traits.
+作为一名龙裔，你拥有以下特殊特性。
 
-_Draconic Ancestry._ Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.
-
-**Draconic Ancestors**
-
-<table>
-  <thead>
-    <tr>
-      <th>Dragon</th>
-      <th>Damage Type</th>
-      <th>Dragon</th>
-      <th>Damage Type</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Black</td>
-      <td>Acid</td>
-      <td>Gold</td>
-      <td>Fire</td>
-    </tr>
-    <tr>
-      <td>Blue</td>
-      <td>Lightning</td>
-      <td>Green</td>
-      <td>Poison</td>
-    </tr>
-    <tr>
-      <td>Brass</td>
-      <td>Fire</td>
-      <td>Red</td>
-      <td>Fire</td>
-    </tr>
-    <tr>
-      <td>Bronze</td>
-      <td>Lightning</td>
-      <td>Silver</td>
-      <td>Cold</td>
-    </tr>
-    <tr>
-      <td>Copper</td>
-      <td>Acid</td>
-      <td>White</td>
-      <td>Cold</td>
-    </tr>
-  </tbody>
-</table>
-
-_Breath Weapon._ When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).
+_龙族血统（Draconic Ancestry）。_ 你的血脉源自一位龙类祖先。从“龙族祖先”表中选择一种龙。你的选择会影响你的吐息武器（Breath Weapon）和伤害抗性（Damage Resistance）特性，同时也会影响你的外貌。
 
-You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
+**龙族祖先（Draconic Ancestors）**
 
-_Damage Resistance._ You have Resistance to the damage type determined by your Draconic Ancestry trait.
+| 龙 | 伤害类型 | 龙 | 伤害类型 |
+|---|---|---|---|
+| 黑龙（Black） | 强酸（Acid） | 金龙（Gold） | 火焰（Fire） |
+| 蓝龙（Blue） | 闪电（Lightning） | 绿龙（Green） | 毒素（Poison） |
+| 黄铜龙（Brass） | 火焰 | 红龙（Red） | 火焰 |
+| 青铜龙（Bronze） | 闪电 | 银龙（Silver） | 寒冷（Cold） |
+| 赤铜龙（Copper） | 强酸 | 白龙（White） | 寒冷 |
 
-_Darkvision._ You have Darkvision with a range of 60 feet.
+_吐息武器（Breath Weapon）。_ 当你在自己的回合中执行攻击（Attack）动作时，你可以用一次魔法能量吐息代替其中一次攻击。吐息可以形成一个 15 英尺锥形区域，或一条长 30 英尺、宽 5 英尺的线形区域（每次使用时选择形状）。该区域内的每个生物都必须进行一次敏捷豁免（Dexterity saving throw），其 DC 等于 8 + 你的体质调整值 + 熟练加值（Proficiency Bonus）。豁免失败时，该生物受到 1d10 点由你的龙族血统特性决定类型的伤害；豁免成功时，受到一半伤害。
 
-_Draconic Flight._ When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.
+当你的角色等级达到 5 级（2d10）、11 级（3d10）和 17 级（4d10）时，此伤害每次提高 1d10。
 
-#### Dwarf
+你可以使用此吐息武器的次数等于你的熟练加值，并在完成一次长休（Long Rest）后恢复所有已消耗的使用次数。
 
-**Creature Type:** Humanoid
-**Size:** Medium (about 4–5 feet tall)
-**Speed:** 30 feet
+_伤害抗性（Damage Resistance）。_ 你对由龙族血统特性决定的伤害类型具有抗性（Resistance）。
 
-As a Dwarf, you have these special traits.
+_黑暗视觉（Darkvision）。_ 你拥有 60 英尺范围的黑暗视觉。
 
-_Darkvision._ You have Darkvision with a range of 120 feet.
+_龙翼飞行（Draconic Flight）。_ 当你的角色等级达到 5 级时，你可以引导龙族魔法，使自己暂时获得飞行能力。作为一个附赠动作（Bonus Action），你可以在背后长出幽灵般的双翼，持续 10 分钟，直到你主动收回双翼（无需动作），或直到你陷入失能（Incapacitated）状态。
 
-_Dwarven Resilience._ You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.
+在此期间，你拥有等于你速度的飞行速度（Fly Speed）。你的双翼呈现出与你吐息武器相同的能量形态。
 
-_Dwarven Toughness._ Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.
+一旦你使用此特性，在完成一次长休之前无法再次使用。
 
-_Stonecunning._ As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.
+#### 矮人（Dwarf）
 
-You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
+**生物类型：** 类人生物  
+**体型：** 中型（身高约 4–5 英尺）  
+**速度：** 30 英尺
 
-#### Elf
+作为一名矮人，你拥有以下特殊特性。
 
-**Creature Type:** Humanoid
-**Size:** Medium (about 5–6 feet tall)
-**Speed:** 30 feet
+_黑暗视觉。_ 你拥有 120 英尺范围的黑暗视觉。
 
-As an Elf, you have these special traits.
+_矮人韧性（Dwarven Resilience）。_ 你具有毒素伤害抗性。你为避免或结束中毒（Poisoned）状态而进行的豁免检定具有优势（Advantage）。
 
-_Darkvision._ You have Darkvision with a range of 60 feet.
+_矮人坚韧（Dwarven Toughness）。_ 你的生命值（Hit Point）上限提高 1 点，并且每当你获得一个等级时，再提高 1 点。
 
-_Elven Lineage._ You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.
+_石之感知（Stonecunning）。_ 作为一个附赠动作，你获得 60 英尺范围的震颤感知（Tremorsense），持续 10 分钟。你必须站在石质表面上，或正与石质表面接触，才能使用此震颤感知。该石材可以是天然的，也可以是经过加工的。
 
-When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.
+你可以使用此附赠动作的次数等于你的熟练加值，并在完成一次长休后恢复所有已消耗的使用次数。
 
-Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).
+#### 精灵（Elf）
 
-**Elven Lineages**
+**生物类型：** 类人生物  
+**体型：** 中型（身高约 5–6 英尺）  
+**速度：** 30 英尺
 
-<table>
-  <thead>
-    <tr>
-      <th>Lineage</th>
-      <th>Level 1</th>
-      <th>Level 3</th>
-      <th>Level 5</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Drow</td>
-      <td>The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.</td>
-      <td>Faerie Fire</td>
-      <td>Darkness</td>
-    </tr>
-    <tr>
-      <td>High Elf</td>
-      <td>You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</td>
-      <td>Detect Magic</td>
-      <td>Misty Step</td>
-    </tr>
-    <tr>
-      <td>Wood Elf</td>
-      <td>Your Speed increases to 35 feet. You also know the Druidcraft cantrip.</td>
-      <td>Longstrider</td>
-      <td>Pass without Trace</td>
-    </tr>
-  </tbody>
-</table>
+作为一名精灵，你拥有以下特殊特性。
 
-_Fey Ancestry._ You have Advantage on saving throws you make to avoid or end the Charmed condition.
+_黑暗视觉。_ 你拥有 60 英尺范围的黑暗视觉。
 
-_Keen Senses._ You have proficiency in the Insight, Perception, or Survival skill.
+_精灵血统（Elven Lineage）。_ 你属于一个能够赋予你超自然能力的血统。从“精灵血统”表中选择一个血统。你获得该血统的 1 级能力。
 
-_Trance._ You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.
+当你的角色等级达到 3 级和 5 级时，你会学会一个更高环阶的法术，如表中所示。你始终准备着该法术。你可以在不消耗法术位（spell slot）的情况下施放它一次，并在完成一次长休后恢复以这种方式施放该法术的能力。你也可以使用任何适当环阶的法术位施放该法术。
 
-#### Gnome
+当你选择该血统时，从智力、感知或魅力中选择一项，作为你通过此特性施放法术时的施法属性（spellcasting ability）。
 
-**Creature Type:** Humanoid
-**Size:** Small (about 3–4 feet tall)
-**Speed:** 30 feet
+**精灵血统（Elven Lineages）**
 
-As a Gnome, you have these special traits.
+| 血统 | 1 级 | 3 级 | 5 级 |
+|---|---|---|---|
+| 卓尔（Drow） | 你的黑暗视觉范围提高至 120 英尺。你还学会舞光术（Dancing Lights）戏法。 | 妖火术（Faerie Fire） | 黑暗术（Darkness） |
+| 高等精灵（High Elf） | 你学会魔法伎俩（Prestidigitation）戏法。每当你完成一次长休时，你可以将该戏法替换为法师（Wizard）法术列表中的另一项戏法。 | 侦测魔法（Detect Magic） | 迷踪步（Misty Step） |
+| 木精灵（Wood Elf） | 你的速度提高至 35 英尺。你还学会德鲁伊伎俩（Druidcraft）戏法。 | 大步奔行（Longstrider） | 行踪无迹（Pass without Trace） |
 
-_Darkvision._ You have Darkvision with a range of 60 feet.
+_妖精血统（Fey Ancestry）。_ 你为避免或结束魅惑（Charmed）状态而进行的豁免检定具有优势。
 
-_Gnomish Cunning._ You have Advantage on Intelligence, Wisdom, and Charisma saving throws.
+_敏锐感官（Keen Senses）。_ 你获得洞悉、察觉（Perception）或生存（Survival）技能中的一项熟练。
 
-_Gnomish Lineage._ You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):
+_冥想（Trance）。_ 你不需要睡眠，并且魔法无法使你入睡。如果你用 4 小时进行类似恍惚状态的冥想，就可以完成一次长休；在这段冥想期间，你依然保持意识。
 
-**Forest Gnome.** You know the _Minor Illusion_ cantrip. You also always have the _Speak with Animals_ spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.
+#### 侏儒（Gnome）
 
-**Rock Gnome.** You know the _Mending_ and _Prestidigitation_ cantrips. In addition, you can spend 10 minutes casting _Prestidigitation_ to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from _Prestidigitation_; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.
+**生物类型：** 类人生物  
+**体型：** 小型（身高约 3–4 英尺）  
+**速度：** 30 英尺
 
-#### Goliath
+作为一名侏儒，你拥有以下特殊特性。
 
-**Creature Type:** Humanoid
-**Size:** Medium (about 7–8 feet tall)
-**Speed:** 35 feet
+_黑暗视觉。_ 你拥有 60 英尺范围的黑暗视觉。
 
-As a Goliath, you have these special traits.
+_侏儒狡黠（Gnomish Cunning）。_ 你的智力、感知和魅力豁免检定均具有优势。
 
-_Giant Ancestry._ You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:
+_侏儒血统（Gnomish Lineage）。_ 你属于一个能够赋予你超自然能力的血统。从以下选项中选择一个。无论你选择哪一个，当你选择该血统时，都要从智力、感知或魅力中选择一项，作为你通过此特性施放法术时的施法属性：
 
-**Cloud's Jaunt (Cloud Giant).** As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.
+**森林侏儒（Forest Gnome）。** 你学会次级幻象（Minor Illusion）戏法。你还始终准备着动物交谈（Speak with Animals）法术。你可以在不消耗法术位的情况下施放该法术，次数等于你的熟练加值，并在完成一次长休后恢复所有已消耗的使用次数。你也可以使用任何拥有的法术位施放该法术。
 
-**Fire's Burn (Fire Giant).** When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.
+**岩石侏儒（Rock Gnome）。** 你学会修复术（Mending）和魔法伎俩戏法。此外，你可以花费 10 分钟施放魔法伎俩，以创造一个微型（Tiny）发条装置（AC 5，1 HP），例如玩具、点火器或音乐盒。
 
-**Frost's Chill (Frost Giant).** When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.
+当你创造该装置时，你从魔法伎俩的效果中选择一种，以决定该装置的功能；之后，每当你或另一个生物以附赠动作触碰并启动它时，该装置就会产生这一效果。如果你选择的效果本身包含多个选项，你必须在创造装置时为该装置选定其中一个选项。
 
-**Hill's Tumble (Hill Giant).** When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.
+例如，如果你选择该法术的点燃—熄灭效果，就必须决定该装置是点燃火焰还是熄灭火焰；它不能同时做到两者。
 
-**Stone's Endurance (Stone Giant).** When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.
+你同时最多可以让三个此类装置存在。每个装置都会在创造后的 8 小时后自动散架，或者当你以一个使用（Utilize）动作触碰并拆解它时散架。
 
-**Storm's Thunder (Storm Giant).** When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.
+#### 歌利亚（Goliath）
 
-_Large Form._ Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest.
+**生物类型：** 类人生物  
+**体型：** 中型（身高约 7–8 英尺）  
+**速度：** 35 英尺
 
-_Powerful Build._ You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.
+作为一名歌利亚，你拥有以下特殊特性。
 
-#### Halfling
+_巨人血统（Giant Ancestry）。_ 你是巨人（Giant）的后裔。从以下增益中选择一项——这是你的祖先赋予你的超自然恩赐。你可以使用所选增益的次数等于你的熟练加值，并在完成一次长休后恢复所有已消耗的使用次数：
 
-**Creature Type:** Humanoid
-**Size:** Small (about 2–3 feet tall)
-**Speed:** 30 feet
+**云之跃迁（Cloud's Jaunt，云巨人 Cloud Giant）。** 作为一个附赠动作，你可以魔法传送至多 30 英尺，到达一个你能看见的未被占据空间。
 
-As a Halfling, you have these special traits.
+**火之灼烧（Fire's Burn，火巨人 Fire Giant）。** 当你以攻击掷骰命中一个目标并对其造成伤害时，你还可以对该目标造成 1d10 点火焰伤害。
 
-_Brave._ You have Advantage on saving throws you make to avoid or end the Frightened condition.
+**霜之寒意（Frost's Chill，霜巨人 Frost Giant）。** 当你以攻击掷骰命中一个目标并对其造成伤害时，你还可以对该目标造成 1d6 点寒冷伤害，并使其速度降低 10 英尺，直到你的下个回合开始。
 
-_Halfling Nimbleness._ You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.
+**丘陵摔击（Hill's Tumble，丘陵巨人 Hill Giant）。** 当你以攻击掷骰命中一个大型（Large）或更小的生物并对其造成伤害时，你可以使该目标陷入倒地（Prone）状态。
 
-_Luck._ When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.
+**岩石耐力（Stone's Endurance，石巨人 Stone Giant）。** 当你受到伤害时，你可以用一个反应（Reaction）掷 1d12。将你的体质调整值加到掷骰结果上，并使所受伤害减少等于该总值的数值。
 
-_Naturally Stealthy._ You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.
+**风暴雷鸣（Storm's Thunder，风暴巨人 Storm Giant）。** 当你受到来自 60 英尺内一个生物的伤害时，你可以用一个反应对该生物造成 1d8 点雷鸣（Thunder）伤害。
 
-#### Human
+_大型形态（Large Form）。_ 从角色等级 5 级开始，如果你所在的空间足够大，你可以用一个附赠动作将自己的体型变为大型。此转变持续 10 分钟，或直到你主动结束它（无需动作）。
 
-**Creature Type:** Humanoid
-**Size:** Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species
-**Speed:** 30 feet
+在此期间，你的力量检定具有优势，并且你的速度提高 10 英尺。
 
-As a Human, you have these special traits.
+一旦你使用此特性，在完成一次长休之前无法再次使用。
 
-_Resourceful._ You gain Heroic Inspiration whenever you finish a Long Rest.
+_强壮体格（Powerful Build）。_ 你为结束擒抱（Grappled）状态而进行的任何属性检定都具有优势。此外，在决定你的负重能力时，你视为体型比实际大一级。
 
-_Skillful._ You gain proficiency in one skill of your choice.
+#### 半身人（Halfling）
 
-_Versatile._ You gain an Origin feat of your choice (see "Feats"). Skilled is recommended.
+**生物类型：** 类人生物  
+**体型：** 小型（身高约 2–3 英尺）  
+**速度：** 30 英尺
 
-#### Orc
+作为一名半身人，你拥有以下特殊特性。
 
-**Creature Type:** Humanoid
-**Size:** Medium (about 6–7 feet tall)
-**Speed:** 30 feet
+_勇敢（Brave）。_ 你为避免或结束恐慌（Frightened）状态而进行的豁免检定具有优势。
 
-As an Orc, you have these special traits.
+_半身人灵巧（Halfling Nimbleness）。_ 你可以穿过任何体型大于你的生物所占据的空间，但不能停留在同一空间中。
 
-_Adrenaline Rush._ You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.
+_幸运（Luck）。_ 当你在一次 D20 检定（D20 Test）的 d20 上掷出 1 时，你可以重新掷该骰，但必须使用新的掷骰结果。
 
-You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.
+_天生隐匿（Naturally Stealthy）。_ 即使仅仅因为一个体型至少比你大一级的生物而受到遮蔽，你也可以执行躲藏（Hide）动作。
 
-_Darkvision._ You have Darkvision with a range of 120 feet.
+#### 人类（Human）
 
-_Relentless Endurance._ When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest.
+**生物类型：** 类人生物  
+**体型：** 中型（身高约 4–7 英尺）或小型（身高约 2–4 英尺），在选择此物种时决定  
+**速度：** 30 英尺
 
-#### Tiefling
+作为一名人类，你拥有以下特殊特性。
 
-**Creature Type:** Humanoid
-**Size:** Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species
-**Speed:** 30 feet
+_随机应变（Resourceful）。_ 每当你完成一次长休时，你获得一次英雄激励（Heroic Inspiration）。
 
-As a Tiefling, you have the following special traits.
+_多才多艺（Skillful）。_ 你获得一项自选技能的熟练。
 
-_Darkvision._ You have Darkvision with a range of 60 feet.
+_适应性（Versatile）。_ 你获得一个自选起源专长（见“专长”）。推荐选择熟练（Skilled）。
 
-_Fiendish Legacy._ You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.
+#### 兽人（Orc）
 
-When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.
+**生物类型：** 类人生物  
+**体型：** 中型（身高约 6–7 英尺）  
+**速度：** 30 英尺
 
-Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).
+作为一名兽人，你拥有以下特殊特性。
 
-**Fiendish Legacies**
+_肾上腺冲刺（Adrenaline Rush）。_ 你可以用一个附赠动作执行疾走（Dash）动作。这样做时，你获得等于你的熟练加值的临时生命值（Temporary Hit Points）。
 
-<table>
-  <thead>
-    <tr>
-      <th>Legacy</th>
-      <th>Level 1</th>
-      <th>Level 3</th>
-      <th>Level 5</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Abyssal</td>
-      <td>You have Resistance to Poison damage. You also know the Poison Spray cantrip.</td>
-      <td>Ray of Sickness</td>
-      <td>Hold Person</td>
-    </tr>
-    <tr>
-      <td>Chthonic</td>
-      <td>You have Resistance to Necrotic damage. You also know the Chill Touch cantrip.</td>
-      <td>False Life</td>
-      <td>Ray of Enfeeblement</td>
-    </tr>
-    <tr>
-      <td>Infernal</td>
-      <td>You have Resistance to Fire damage. You also know the Fire Bolt cantrip.</td>
-      <td>Hellish Rebuke</td>
-      <td>Darkness</td>
-    </tr>
-  </tbody>
-</table>
+你可以使用此特性的次数等于你的熟练加值，并在完成一次短休（Short Rest）或长休后恢复所有已消耗的使用次数。
 
-_Otherworldly Presence._ You know the _Thaumaturgy_ cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.
+_黑暗视觉。_ 你拥有 120 英尺范围的黑暗视觉。
+
+_不屈耐力（Relentless Endurance）。_ 当你的生命值降至 0，但并未被直接杀死时，你可以改为降至 1 点生命值。一旦使用此特性，在完成一次长休之前无法再次使用。
+
+#### 提夫林（Tiefling）
+
+**生物类型：** 类人生物  
+**体型：** 中型（身高约 4–7 英尺）或小型（身高约 3–4 英尺），在选择此物种时决定  
+**速度：** 30 英尺
+
+作为一名提夫林，你拥有以下特殊特性。
+
+_黑暗视觉。_ 你拥有 60 英尺范围的黑暗视觉。
+
+_邪魔遗承（Fiendish Legacy）。_ 你继承了一份能够赋予你超自然能力的遗承。从“邪魔遗承”表中选择一种遗承。你获得所选遗承的 1 级能力。
+
+当你的角色等级达到 3 级和 5 级时，你会学会一个更高环阶的法术，如表中所示。你始终准备着该法术。你可以在不消耗法术位的情况下施放它一次，并在完成一次长休后恢复以这种方式施放该法术的能力。你也可以使用任何适当环阶的法术位施放该法术。
+
+当你选择该遗承时，从智力、感知或魅力中选择一项，作为你通过此特性施放法术时的施法属性。
+
+**邪魔遗承（Fiendish Legacies）**
+
+| 遗承 | 1 级 | 3 级 | 5 级 |
+|---|---|---|---|
+| 深渊（Abyssal） | 你具有毒素伤害抗性。你还学会毒液喷溅（Poison Spray）戏法。 | 致病射线（Ray of Sickness） | 人类定身术（Hold Person） |
+| 冥界（Chthonic） | 你具有黯蚀（Necrotic）伤害抗性。你还学会寒冷之触（Chill Touch）戏法。 | 虚假生命（False Life） | 衰弱射线（Ray of Enfeeblement） |
+| 炼狱（Infernal） | 你具有火焰伤害抗性。你还学会火焰箭（Fire Bolt）戏法。 | 炼狱叱喝（Hellish Rebuke） | 黑暗术 |
+
+_异界气场（Otherworldly Presence）。_ 你学会奇术（Thaumaturgy）戏法。当你通过此特性施放该戏法时，该法术使用与你的邪魔遗承特性相同的施法属性。

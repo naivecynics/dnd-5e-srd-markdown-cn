@@ -1,1627 +1,635 @@
-# Character Creation
-
-## Choose a Character Sheet
-
-You'll record the main details of your character on a character sheet. Throughout this chapter, we use the term "character sheet" to mean whatever you use to track your character's details, whether it's a printed character sheet, a digital character sheet, or plain paper. Choose whichever style of sheet works for you, and then embark on creating a character!
-
-## Create Your Character
-
-Here are the steps to make a character; each step is explored in detail:
-
-1. **Choose a Class.** Every adventurer is a member of a class. A class broadly describes a character's vocation, special talents, and favored tactics.
-2. **Determine Origin.** A character's origin includes two elements: background and species. How did the character spend the years leading up to a life of adventure? Who are the character's ancestors? You can also choose your character's languages.
-3. **Determine Ability Scores.** Much of what your character does in the game depends on the character's six abilities.
-4. **Choose an Alignment.** Alignment is a shorthand for your character's moral compass.
-5. **Fill in Details.** Using the choices you've made, fill in the remaining details on your character sheet.
-
-### Step 1: Choose Class
-
-Choose a class, and write it on your character sheet. The Class Overview table summarizes the classes. See "Classes" for the classes' details.
-
-**Class Overview**
-
-<table>
-  <thead>
-    <tr>
-      <th>Class</th>
-      <th>Likes ...</th>
-      <th>Primary Ability</th>
-      <th>Complexity</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Barbarian</td>
-      <td>Battle</td>
-      <td>Strength</td>
-      <td>Average</td>
-    </tr>
-    <tr>
-      <td>Bard</td>
-      <td>Performing</td>
-      <td>Charisma</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Cleric</td>
-      <td>Gods</td>
-      <td>Wisdom</td>
-      <td>Average</td>
-    </tr>
-    <tr>
-      <td>Druid</td>
-      <td>Nature</td>
-      <td>Wisdom</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Fighter</td>
-      <td>Weapons</td>
-      <td>Strength or Dexterity</td>
-      <td>Low</td>
-    </tr>
-    <tr>
-      <td>Monk</td>
-      <td>Unarmed combat</td>
-      <td>Dexterity and Wisdom</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Paladin</td>
-      <td>Defense</td>
-      <td>Strength and Charisma</td>
-      <td>Average</td>
-    </tr>
-    <tr>
-      <td>Ranger</td>
-      <td>Survival</td>
-      <td>Dexterity and Wisdom</td>
-      <td>Average</td>
-    </tr>
-    <tr>
-      <td>Rogue</td>
-      <td>Stealth</td>
-      <td>Dexterity</td>
-      <td>Low</td>
-    </tr>
-    <tr>
-      <td>Sorcerer</td>
-      <td>Power</td>
-      <td>Charisma</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Warlock</td>
-      <td>Occult lore</td>
-      <td>Charisma</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Wizard</td>
-      <td>Spellbooks</td>
-      <td>Intelligence</td>
-      <td>Average</td>
-    </tr>
-  </tbody>
-</table>
+# 角色创建（Character Creation）
 
-#### Write Your Level
+## 选择角色卡（Choose a Character Sheet）
 
-Write your character's level on your character sheet. Typically, a character starts at level 1 and advances in level by adventuring and gaining Experience Points (XP).
+你会在角色卡（character sheet）上记录角色的主要信息。在本章中，我们使用“角色卡”一词来泛指任何你用来追踪角色信息的载体，无论是印刷版角色卡、数字版角色卡，还是普通纸张。选择最适合你的记录方式，然后开始创建角色吧！
 
-_Write Your XP._ Also record your Experience Points. A level 1 character has 0 XP.
+## 创建你的角色（Create Your Character）
 
-_Starting at a Higher Level._ Your GM might start you at a higher level. If you start at level 3 or higher, write your chosen subclass on your character sheet. See the "Starting at Higher Levels" section later in "Character Creation" for more information.
+以下是创建角色的步骤；每一步都会在后文详细说明：
 
-#### Note Armor Training
+1. **选择职业（Choose a Class）。** 每位冒险者都属于一个职业（class）。职业大体描述了角色的职业道路、特殊才能以及偏好的战斗方式。
+2. **确定起源（Determine Origin）。** 角色的起源包括两个要素：背景（background）和物种（species）。角色在踏上冒险人生之前的岁月是怎样度过的？角色的祖先是谁？你还可以选择角色掌握的语言。
+3. **确定属性值（Determine Ability Scores）。** 角色在游戏中的大多数行为都取决于六项属性。
+4. **选择阵营（Choose an Alignment）。** 阵营（alignment）是对角色道德准则的一种简略描述。
+5. **填写细节（Fill in Details）。** 根据你已经作出的选择，填写角色卡上的其余信息。
 
-Your class might give you training with certain categories of armor. Note your armor training on your character sheet. Armor training with a kind of armor means you can wear that armor effectively, gaining defensive bonuses from it. The categories of armor are described in "Equipment."
+### 第 1 步：选择职业（Step 1: Choose Class）
 
-### Step 2: Character Origin
+选择一个职业，并将其写在角色卡上。“职业概览”表总结了各个职业。有关各职业的详细信息，见“职业”（Classes）。
 
-Determining your character's origin involves choosing a background, a species, and two languages.
+**职业概览（Class Overview）**
 
-A character's background represents the place and occupation that were most formative for the character. The combination of background, species, and languages provides fertile soil for your imagination as you ponder your character's earliest days.
+| 职业 | 喜欢…… | 主要属性 | 复杂度 |
+|---|---|---|---|
+| 野蛮人（Barbarian） | 战斗 | 力量 | 中等 |
+| 吟游诗人（Bard） | 表演 | 魅力 | 高 |
+| 牧师（Cleric） | 神祇 | 感知 | 中等 |
+| 德鲁伊（Druid） | 自然 | 感知 | 高 |
+| 战士（Fighter） | 武器 | 力量或敏捷 | 低 |
+| 武僧（Monk） | 徒手战斗 | 敏捷和感知 | 高 |
+| 圣武士（Paladin） | 防御 | 力量和魅力 | 中等 |
+| 游侠（Ranger） | 生存 | 敏捷和感知 | 中等 |
+| 游荡者（Rogue） | 隐匿 | 敏捷 | 低 |
+| 术士（Sorcerer） | 力量 | 魅力 | 高 |
+| 邪术师（Warlock） | 神秘学识 | 魅力 | 高 |
+| 法师（Wizard） | 法术书 | 智力 | 中等 |
 
-#### Choose a Background
+#### 写下你的等级（Write Your Level）
 
-Choose your character's background, and write it on your character sheet. You can choose any of the backgrounds detailed in "Character Origins," and your GM might offer additional backgrounds as options.
+在角色卡上写下角色的等级（level）。通常，一个角色从 1 级开始，并通过冒险以及获得经验值（Experience Points，XP）来提升等级。
 
-The background you choose influences step 3, when you determine your character's ability scores. If you're having trouble choosing, the Ability Scores and Backgrounds table shows which backgrounds benefit which ability scores. Look for your class's primary ability there.
-
-**Ability Scores and Backgrounds**
-
-<table>
-  <thead>
-    <tr>
-      <th>Ability</th>
-      <th>Background</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Strength</td>
-      <td>Soldier</td>
-    </tr>
-    <tr>
-      <td>Dexterity</td>
-      <td>Soldier</td>
-    </tr>
-    <tr>
-      <td>Constitution</td>
-      <td>Soldier</td>
-    </tr>
-    <tr>
-      <td>Intelligence</td>
-      <td>Acolyte</td>
-    </tr>
-    <tr>
-      <td>Wisdom</td>
-      <td>Acolyte</td>
-    </tr>
-    <tr>
-      <td>Charisma</td>
-      <td>Acolyte</td>
-    </tr>
-  </tbody>
-</table>
-
-_Record Your Feat._ A background gives you a feat, which grants your character particular capabilities. Feats are detailed in "Feats." Write the feat on your character sheet.
-
-_Note Proficiencies._ Your background gives proficiency in two skills and with one tool. Record this information on your character sheet.
-
-Your class also gives proficiencies. Check your class description in "Classes" and note the proficiencies on your character sheet.
-
-The features table in your class description shows your Proficiency Bonus (described in "Playing the Game"), which is +2 for a level 1 character. Note this number on your character sheet. You'll fill in other numbers connected to these proficiencies in step 5.
-
-#### Choose Starting Equipment
-
-Your background and class both provide starting equipment. Any coins that you gain at this step can be immediately spent on equipment from "Equipment."
-
-Record your chosen equipment on your character sheet. Equipment is described in "Equipment," but for now you can just write it all down and look up the specifics in "Equipment" later. Note any coins you have left after purchasing your equipment.
-
-#### Choose a Species
-
-Choose a species for your character. The following species options are detailed in "Character Origins": Dragonborn, Dwarf, Elf, Gnome, Goliath, Halfling, Human, Orc, and Tiefling. Once you've chosen a species, write it on your character sheet. Then record your species' traits.
-
-Your character's size and Speed are determined by the character's species; record these in the appropriate places on your character sheet as well (you may write just the first letter of your size).
-
-#### Imagine Your Past and Present
-
-Let your character's background and species inspire how you imagine their past. That past fed into the character's present. With that in mind, consider answers to the following questions as your character:
-
-- Who raised you?
-- Who was your dearest childhood friend?
-- Did you grow up with a pet?
-- Have you fallen in love? If so, with whom?
-- Did you join an organization, such as a guild or religion? If so, are you still a member of it?
-- What elements of your past inspire you to go on adventures now?
-
-#### Choose Languages
-
-Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table. Knowledge of a language means your character can communicate in it, read it, and write it. Your class and other features might also give you languages.
-
-The Standard Languages table lists languages that are widespread in the setting. Every player character knows Common. The other standard languages originated with the first members of the most prominent species in the setting and have since spread widely.
-
-**Standard Languages**
-
-<table>
-  <thead>
-    <tr>
-      <th>1d12</th>
-      <th>Language</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>—</td>
-      <td>Common</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Common Sign Language</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Draconic</td>
-    </tr>
-    <tr>
-      <td>3–4</td>
-      <td>Dwarvish</td>
-    </tr>
-    <tr>
-      <td>5–6</td>
-      <td>Elvish</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Giant</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>Gnomish</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Goblin</td>
-    </tr>
-    <tr>
-      <td>10–11</td>
-      <td>Halfling</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>Orc</td>
-    </tr>
-  </tbody>
-</table>
-
-The Rare Languages table lists languages that are either secret or derived from other planes of existence and thus less widespread in the worlds of the Material Plane. Some features let a character learn a rare language.
-
-**Rare Languages**
-
-<table>
-  <thead>
-    <tr>
-      <th>Language</th>
-      <th>Language</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Abyssal</td>
-      <td>Primordial*</td>
-    </tr>
-    <tr>
-      <td>Celestial</td>
-      <td>Sylvan</td>
-    </tr>
-    <tr>
-      <td>Deep Speech</td>
-      <td>Thieves' Cant</td>
-    </tr>
-    <tr>
-      <td>Druidic</td>
-      <td>Undercommon</td>
-    </tr>
-    <tr>
-      <td>Infernal</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
-\*Primordial includes the Aquan, Auran, Ignan, and Terran dialects. Creatures that know one of these dialects can communicate with those that know a different one.
-
-### Step 3: Ability Scores
-
-To determine your character's ability scores, you first generate a set of six numbers using the instructions below and then assign them to your six abilities. "Playing the Game" explains what each ability means.
-
-#### Generate Your Scores
-
-Determine your ability scores by using one of the following three methods. Your GM might prefer you to use a particular one.
-
-_Standard Array._ Use the following six scores for your abilities: 15, 14, 13, 12, 10, 8.
-
-_Random Generation._ Roll four d6s and record the total of the highest three dice. Do this five more times, so you have six numbers.
-
-_Point Cost._ You have 27 points to spend on your ability scores. The cost of each score is shown on the Ability Score Point Costs table. For example, a score of 14 costs 7 of your 27 points.
-
-**Ability Score Point Costs**
-
-<table>
-  <thead>
-    <tr>
-      <th>Score</th>
-      <th>Cost</th>
-      <th>Score</th>
-      <th>Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>8</td>
-      <td>0</td>
-      <td>12</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>1</td>
-      <td>13</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>2</td>
-      <td>14</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>3</td>
-      <td>15</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Assign Ability Scores
-
-Once you've generated six scores, assign them to Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma, keeping in mind your class's primary ability. Fill in the ability modifiers as well.
-
-If you're using the Standard Array option, consult the Standard Array by Class table for suggestions on where to assign scores for your character's class. The table puts the highest scores in a class's main abilities. If you used a different method to generate the scores, you may still use this table to guide where you place your highest and lowest scores.
-
-**Standard Array by Class**
-
-<table>
-  <thead>
-    <tr>
-      <th>Class</th>
-      <th>Str.</th>
-      <th>Dex.</th>
-      <th>Con.</th>
-      <th>Int.</th>
-      <th>Wis.</th>
-      <th>Cha.</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Barbarian</td>
-      <td>15</td>
-      <td>13</td>
-      <td>14</td>
-      <td>10</td>
-      <td>12</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>Bard</td>
-      <td>8</td>
-      <td>14</td>
-      <td>12</td>
-      <td>13</td>
-      <td>10</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>Cleric</td>
-      <td>14</td>
-      <td>8</td>
-      <td>13</td>
-      <td>10</td>
-      <td>15</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <td>Druid</td>
-      <td>8</td>
-      <td>12</td>
-      <td>14</td>
-      <td>13</td>
-      <td>15</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>Fighter</td>
-      <td>15</td>
-      <td>14</td>
-      <td>13</td>
-      <td>8</td>
-      <td>10</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <td>Monk</td>
-      <td>12</td>
-      <td>15</td>
-      <td>13</td>
-      <td>10</td>
-      <td>14</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>Paladin</td>
-      <td>15</td>
-      <td>10</td>
-      <td>13</td>
-      <td>8</td>
-      <td>12</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <td>Ranger</td>
-      <td>12</td>
-      <td>15</td>
-      <td>13</td>
-      <td>8</td>
-      <td>14</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>Rogue</td>
-      <td>12</td>
-      <td>15</td>
-      <td>13</td>
-      <td>14</td>
-      <td>10</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>Sorcerer</td>
-      <td>10</td>
-      <td>13</td>
-      <td>14</td>
-      <td>8</td>
-      <td>12</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>Warlock</td>
-      <td>8</td>
-      <td>14</td>
-      <td>13</td>
-      <td>12</td>
-      <td>10</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>Wizard</td>
-      <td>8</td>
-      <td>12</td>
-      <td>13</td>
-      <td>15</td>
-      <td>14</td>
-      <td>10</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Adjust Ability Scores
-
-After assigning your ability scores, adjust them according to your background. Your background lists three abilities; increase one of those scores by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.
-
-Some players like to increase their class's primary ability, while others prefer to increase a low score.
-
-#### Determine Ability Modifiers
-
-Finally, determine your ability modifiers using the Ability Scores and Modifiers table. Write the modifier next to each of your scores.
-
-**Ability Scores and Modifiers**
-
-<table>
-  <thead>
-    <tr>
-      <th>Score</th>
-      <th>Modifier</th>
-      <th>Score</th>
-      <th>Modifier</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>3</td>
-      <td>−4</td>
-      <td>12–13</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td>4–5</td>
-      <td>−3</td>
-      <td>14–15</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td>6–7</td>
-      <td>−2</td>
-      <td>16–17</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td>8–9</td>
-      <td>−1</td>
-      <td>18–19</td>
-      <td>+4</td>
-    </tr>
-    <tr>
-      <td>10–11</td>
-      <td>+0</td>
-      <td>20</td>
-      <td>+5</td>
-    </tr>
-  </tbody>
-</table>
-
-### Step 4: Alignment
-
-Choose your character's alignment from the options below, and note it on your character sheet.
-
-The game assumes that player characters aren't of an evil alignment. Check with your GM before making an evil character.
-
-#### The Nine Alignments
-
-A creature's alignment broadly describes its ethical attitudes and ideals. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward order (lawful, chaotic, or neutral).
-
-The summaries of the alignments below describe the typical behavior of a creature with that alignment; individuals can vary from that behavior.
-
-_Lawful Good (LG)._ Lawful Good creatures endeavor to do the right thing as expected by society. Someone who fights injustice and protects the innocent without hesitation is probably Lawful Good.
-
-_Neutral Good (NG)._ Neutral Good creatures do the best they can, working within rules but not feeling bound by them. A kindly person who helps others according to their needs is probably Neutral Good.
-
-_Chaotic Good (CG)._ Chaotic Good creatures act as their conscience directs with little regard for what others expect. A rebel who waylays a cruel baron's tax collectors and uses the stolen money to help the poor is probably Chaotic Good.
-
-_Lawful Neutral (LN)._ Lawful Neutral individuals act in accordance with law, tradition, or personal codes. Someone who follows a disciplined rule of life—and isn't swayed either by the demands of those in need or by the temptations of evil—is probably Lawful Neutral.
-
-_Neutral (N)._ Neutral is the alignment of those who prefer to avoid moral questions and don't take sides, doing what seems best at the time. Someone who's bored by moral debate is probably Neutral.
-
-> **Unaligned Creatures**
+_写下你的 XP（Write Your XP）。_ 同时记录你的经验值。一个 1 级角色拥有 0 XP。
+
+_从更高等级开始（Starting at a Higher Level）。_ 你的 GM（游戏主持人，Game Master）可能会让你从更高等级开始。如果你从 3 级或更高等级开始，请将你选择的子职（subclass）写在角色卡上。更多信息见“角色创建”后文的“从更高等级开始”（Starting at Higher Levels）部分。
+
+#### 记录护甲训练（Note Armor Training）
+
+你的职业可能会给予你某些类别护甲的训练。将你的护甲训练记录在角色卡上。拥有某类护甲的训练，意味着你可以有效穿戴该类护甲，并从中获得防御加成。各类护甲详见“装备”（Equipment）。
+
+### 第 2 步：角色起源（Step 2: Character Origin）
+
+确定角色起源时，你需要选择一个背景、一个物种以及两种语言。
+
+角色的背景代表了对角色塑造最为深刻的地点与职业。背景、物种与语言的组合，为你想象角色最初的人生经历提供了丰富的土壤。
+
+#### 选择背景（Choose a Background）
+
+选择角色的背景，并将其写在角色卡上。你可以选择“角色起源”（Character Origins）中详细描述的任何背景，你的 GM 也可能提供额外背景作为可选项。
+
+你所选择的背景会影响第 3 步，也就是确定角色属性值的步骤。如果你难以选择，“属性值与背景”表会显示哪些背景有利于哪些属性值。可以在表中查找你职业的主要属性。
+
+**属性值与背景（Ability Scores and Backgrounds）**
+
+| 属性 | 背景 |
+|---|---|
+| 力量 | 士兵（Soldier） |
+| 敏捷 | 士兵 |
+| 体质 | 士兵 |
+| 智力 | 侍僧（Acolyte） |
+| 感知 | 侍僧 |
+| 魅力 | 侍僧 |
+
+_记录你的专长（Record Your Feat）。_ 一个背景会给予你一个专长（feat），从而赋予角色某些特定能力。专长详见“专长”（Feats）。将该专长写在角色卡上。
+
+_记录熟练项（Note Proficiencies）。_ 你的背景会给予你两项技能熟练以及一种工具熟练。将这些信息记录在角色卡上。
+
+你的职业同样会给予熟练项。查看“职业”中的职业说明，并将相应熟练项记录在角色卡上。
+
+职业说明中的职业特性表会列出你的熟练加值（Proficiency Bonus，详见“进行游戏”[Playing the Game]），对于 1 级角色而言为 +2。将这个数值记录在角色卡上。与这些熟练项相关的其他数值会在第 5 步填写。
+
+#### 选择起始装备（Choose Starting Equipment）
+
+你的背景与职业都会提供起始装备。在这一步获得的任何钱币，都可以立即用于购买“装备”中的物品。
+
+将你选择的装备记录在角色卡上。装备详见“装备”，不过现在你可以先把它们全部记下来，之后再查阅“装备”中的具体说明。购买装备后，将剩余的钱币也记录下来。
+
+#### 选择物种（Choose a Species）
+
+为你的角色选择一个物种。以下物种选项均在“角色起源”中有详细说明：龙裔（Dragonborn）、矮人（Dwarf）、精灵（Elf）、侏儒（Gnome）、歌利亚（Goliath）、半身人（Halfling）、人类（Human）、兽人（Orc）以及提夫林（Tiefling）。选定物种后，将其写在角色卡上。然后记录你的物种特性。
+
+角色的体型和速度由物种决定；也请将这些信息记录在角色卡相应位置（体型可以只写首字母）。
+
+#### 想象你的过去与现在（Imagine Your Past and Present）
+
+让角色的背景与物种帮助你想象角色的过去。那段过去塑造了角色的现在。基于这一点，试着以角色本人的视角回答以下问题：
+
+- 是谁抚养你长大的？
+- 你童年时期最亲密的朋友是谁？
+- 你小时候养过宠物吗？
+- 你曾坠入爱河吗？如果有，对方是谁？
+- 你是否加入过某个组织，例如行会或宗教组织？如果加入过，你现在仍然是其中一员吗？
+- 你过去经历中的哪些因素，促使你如今踏上冒险？
+
+#### 选择语言（Choose Languages）
+
+你的角色至少掌握三种语言：通用语（Common），再加上从“标准语言”表中掷骰决定或自行选择的两种语言。掌握一种语言，意味着你的角色能够使用该语言交流、阅读并书写。你的职业和其他特性也可能给予你额外语言。
+
+“标准语言”表列出了在该设定中广泛使用的语言。每个玩家角色都会通用语。其他标准语言最初由该设定中最重要的一些物种的早期成员使用，之后逐渐广泛传播。
+
+**标准语言（Standard Languages）**
+
+| 1d12 | 语言 |
+|---|---|
+| — | 通用语（Common） |
+| 1 | 通用手语（Common Sign Language） |
+| 2 | 龙语（Draconic） |
+| 3–4 | 矮人语（Dwarvish） |
+| 5–6 | 精灵语（Elvish） |
+| 7 | 巨人语（Giant） |
+| 8 | 侏儒语（Gnomish） |
+| 9 | 地精语（Goblin） |
+| 10–11 | 半身人语（Halfling） |
+| 12 | 兽人语（Orc） |
+
+“稀有语言”表列出了一些秘密语言，或源自其他存在位面的语言，因此它们在主物质位面（Material Plane）的各个世界中并不常见。某些特性可以让角色学会一种稀有语言。
+
+**稀有语言（Rare Languages）**
+
+| 语言 | 语言 |
+|---|---|
+| 深渊语（Abyssal） | 元素语（Primordial）* |
+| 天界语（Celestial） | 木族语（Sylvan） |
+| 深渊密语（Deep Speech） | 盗贼黑话（Thieves' Cant） |
+| 德鲁伊语（Druidic） | 地底通用语（Undercommon） |
+| 炼狱语（Infernal） |  |
+
+\*元素语包括水族语（Aquan）、风族语（Auran）、火族语（Ignan）和土族语（Terran）方言。掌握其中一种方言的生物，可以与掌握另一种方言的生物交流。
+
+### 第 3 步：属性值（Step 3: Ability Scores）
+
+要确定角色的属性值，首先按照下方说明生成一组六个数值，然后将它们分别分配给六项属性。“进行游戏”会解释每项属性的含义。
+
+#### 生成属性值（Generate Your Scores）
+
+使用以下三种方法之一确定属性值。你的 GM 可能会偏好你采用其中某一种方法。
+
+_标准数组（Standard Array）。_ 使用以下六个数值作为你的属性值：15、14、13、12、10、8。
+
+_随机生成（Random Generation）。_ 掷四颗 d6，并记录其中最高三颗骰子的点数总和。再重复五次，这样你就会得到六个数值。
+
+_点数购买（Point Cost）。_ 你有 27 点可以用于购买属性值。每个属性值所需的点数见“属性值点数成本”表。例如，属性值 14 需要花费你的 27 点中的 7 点。
+
+**属性值点数成本（Ability Score Point Costs）**
+
+| 属性值 | 成本 | 属性值 | 成本 |
+|---|---:|---|---:|
+| 8 | 0 | 12 | 4 |
+| 9 | 1 | 13 | 5 |
+| 10 | 2 | 14 | 7 |
+| 11 | 3 | 15 | 9 |
+
+#### 分配属性值（Assign Ability Scores）
+
+生成六个数值后，将它们分别分配给力量、敏捷、体质、智力、感知和魅力，同时牢记你职业的主要属性。也要填写相应的属性调整值（ability modifiers）。
+
+如果你使用“标准数组”选项，可以参考“各职业标准数组”表，了解不同职业建议如何分配属性值。该表会将较高数值分配给一个职业的主要属性。如果你采用其他方法生成属性值，也仍然可以用此表来指导最高与最低属性值的分配。
+
+**各职业标准数组（Standard Array by Class）**
+
+| 职业 | 力量 | 敏捷 | 体质 | 智力 | 感知 | 魅力 |
+|---|---:|---:|---:|---:|---:|---:|
+| 野蛮人 | 15 | 13 | 14 | 10 | 12 | 8 |
+| 吟游诗人 | 8 | 14 | 12 | 13 | 10 | 15 |
+| 牧师 | 14 | 8 | 13 | 10 | 15 | 12 |
+| 德鲁伊 | 8 | 12 | 14 | 13 | 15 | 10 |
+| 战士 | 15 | 14 | 13 | 8 | 10 | 12 |
+| 武僧 | 12 | 15 | 13 | 10 | 14 | 8 |
+| 圣武士 | 15 | 10 | 13 | 8 | 12 | 14 |
+| 游侠 | 12 | 15 | 13 | 8 | 14 | 10 |
+| 游荡者 | 12 | 15 | 13 | 14 | 10 | 8 |
+| 术士 | 10 | 13 | 14 | 8 | 12 | 15 |
+| 邪术师 | 8 | 14 | 13 | 12 | 10 | 15 |
+| 法师 | 8 | 12 | 13 | 15 | 14 | 10 |
+
+#### 调整属性值（Adjust Ability Scores）
+
+分配好属性值后，根据你的背景对它们进行调整。你的背景会列出三项属性；从中选择一项提高 2，另选一项提高 1，或者三项各提高 1。任何这些提升都不能使属性值超过 20。
+
+有些玩家喜欢提高自己职业的主要属性，而另一些玩家则更喜欢提高一个较低的属性值。
+
+#### 确定属性调整值（Determine Ability Modifiers）
+
+最后，使用“属性值与调整值”表确定各项属性调整值。将调整值写在对应属性值旁边。
+
+**属性值与调整值（Ability Scores and Modifiers）**
+
+| 属性值 | 调整值 | 属性值 | 调整值 |
+|---|---:|---|---:|
+| 3 | −4 | 12–13 | +1 |
+| 4–5 | −3 | 14–15 | +2 |
+| 6–7 | −2 | 16–17 | +3 |
+| 8–9 | −1 | 18–19 | +4 |
+| 10–11 | +0 | 20 | +5 |
+
+### 第 4 步：阵营（Step 4: Alignment）
+
+从以下选项中选择角色的阵营，并记录在角色卡上。
+
+游戏默认玩家角色不属于邪恶阵营。在创建邪恶角色之前，请先与 GM 确认。
+
+#### 九大阵营（The Nine Alignments）
+
+一个生物的阵营大体描述其伦理态度与理想。阵营由两个因素组合而成：其中一个描述道德倾向（善良、邪恶或中立），另一个描述其对于秩序的态度（守序、混乱或中立）。
+
+下列阵营说明描述了具有对应阵营的生物通常会表现出的行为；个体行为可能有所不同。
+
+_守序善良（Lawful Good，LG）。_ 守序善良的生物努力按照社会所期望的方式行正确之事。一个毫不犹豫地反抗不公、保护无辜者的人，很可能属于守序善良。
+
+_中立善良（Neutral Good，NG）。_ 中立善良的生物会尽其所能行善，愿意在规则框架内行动，但不会认为自己必须受到规则束缚。一个善良的人按照他人的需要帮助他们，很可能属于中立善良。
+
+_混乱善良（Chaotic Good，CG）。_ 混乱善良的生物依照自己的良知行动，很少在意他人的期待。一个袭击残暴男爵的收税人，并将抢来的钱用于帮助穷人的反抗者，很可能属于混乱善良。
+
+_守序中立（Lawful Neutral，LN）。_ 守序中立的人按照法律、传统或个人准则行事。一个遵循严格生活规范，既不被困苦之人的诉求动摇，也不被邪恶诱惑左右的人，很可能属于守序中立。
+
+_绝对中立（Neutral，N）。_ 绝对中立是那些倾向于避开道德问题、不愿站队，并根据当下情况选择最合适做法之人的阵营。一个对道德争论感到厌烦的人，很可能属于绝对中立。
+
+> **无阵营生物（Unaligned Creatures）**
 >
-> Most creatures that lack the capacity for rational thought don't have alignments; they are unaligned. Sharks are savage predators, for example, but they aren't evil; they are unaligned.
+> 大多数缺乏理性思考能力的生物都没有阵营；它们属于无阵营。例如，鲨鱼是凶猛的捕食者，但它们并不邪恶；它们只是无阵营。
 
-_Chaotic Neutral (CN)._ Chaotic Neutral creatures follow their whims, valuing their personal freedom above all else. A scoundrel who wanders the land living by their wits is probably Chaotic Neutral.
+_混乱中立（Chaotic Neutral，CN）。_ 混乱中立的生物听从自己的冲动，将个人自由置于一切之上。一个靠机智谋生、四处游荡的无赖，很可能属于混乱中立。
 
-_Lawful Evil (LE)._ Lawful Evil creatures methodically take what they want within the limits of a code of tradition, loyalty, or order. An aristocrat exploiting citizens while scheming for power is probably Lawful Evil.
+_守序邪恶（Lawful Evil，LE）。_ 守序邪恶的生物会在传统、忠诚或秩序所规定的准则范围内，有条不紊地夺取自己想要的东西。一个压榨民众，同时谋划夺取权力的贵族，很可能属于守序邪恶。
 
-_Neutral Evil (NE)._ Neutral Evil is the alignment of those who are untroubled by the harm they cause as they pursue their desires. A criminal who robs and murders as they please is probably Neutral Evil.
+_中立邪恶（Neutral Evil，NE）。_ 中立邪恶是那些在追求自身欲望时，并不因自己造成的伤害而感到困扰之人的阵营。一个随心所欲实施抢劫与谋杀的罪犯，很可能属于中立邪恶。
 
-_Chaotic Evil (CE)._ Chaotic Evil creatures act with arbitrary violence, spurred by their hatred or bloodlust. A villain pursuing schemes of vengeance and havoc is probably Chaotic Evil.
+_混乱邪恶（Chaotic Evil，CE）。_ 混乱邪恶的生物会实施任意且毫无规律的暴力，其行为往往受到仇恨或嗜血欲望驱动。一个策划复仇与破坏的恶徒，很可能属于混乱邪恶。
 
-### Step 5: Character Creation Details
+### 第 5 步：角色创建细节（Step 5: Character Creation Details）
 
-Now fill in the rest of your character sheet.
+现在填写角色卡上的其余内容。
 
-#### Record Class Features
+#### 记录职业特性（Record Class Features）
 
-Look at your class's feature table in "Classes," and write down the level 1 features. The class features are detailed there too.
+查看“职业”中你的职业特性表，并写下 1 级时获得的特性。各项职业特性也会在对应职业说明中详细描述。
 
-Some class features offer choices. Make sure to read all your features and make any offered choices.
+某些职业特性会提供选项。务必阅读你的全部特性，并完成其中要求的任何选择。
 
-#### Fill In Numbers
+#### 填写数值（Fill In Numbers）
 
-Note these numbers on your character sheet.
+将以下数值记录在角色卡上。
 
-_Saving Throws_. For the saving throws you have proficiency in, add your Proficiency Bonus to the appropriate ability modifier and note the total. Some players also like to note the modifier for saving throws they're not proficient in, which is just the relevant ability modifier.
+_豁免检定（Saving Throws）。_ 对于你拥有熟练项的豁免检定，将你的熟练加值加到相应属性调整值上，并记录总值。有些玩家也喜欢记录自己未获得熟练的豁免检定调整值；这类调整值就只是对应的属性调整值。
 
-_Skills_. For skills you have proficiency in, add your Proficiency Bonus to the ability modifier associated with that skill, and note the total. You might also wish to note the modifier for skills you're not proficient in, which is just the relevant ability modifier.
+_技能（Skills）。_ 对于你拥有熟练项的技能，将你的熟练加值加到与该技能对应的属性调整值上，并记录总值。你也可以记录自己未获得熟练的技能调整值；这类调整值就只是对应的属性调整值。
 
-_Passive Perception_. Sometimes your GM will determine whether your character notices something without asking you to make a Wisdom (Perception) check; the GM uses your Passive Perception instead. Passive Perception is a score that reflects a general awareness of your surroundings when you're not actively looking for something. Use this formula to determine your Passive Perception score:
+_被动察觉（Passive Perception）。_ 有时，你的 GM 会在不要求你进行感知（察觉）（Wisdom [Perception]）检定的情况下，判断角色是否注意到某件事；此时 GM 会使用你的被动察觉。被动察觉是一个代表角色在没有主动寻找某物时，对周围环境一般性警觉程度的数值。使用以下公式确定你的被动察觉：
 
-Passive Perception = 10 + Wisdom (Perception) check modifier
+被动察觉 = 10 + 感知（察觉）检定调整值
 
-Include all modifiers that apply to your Wisdom (Perception) checks. For example, if your character has a Wisdom of 15 and proficiency in the Perception skill, you have a Passive Perception of 14 (10 + 2 for your Wisdom modifier + 2 for proficiency).
+将所有适用于感知（察觉）检定的调整值计算在内。例如，如果你的角色感知为 15，并且拥有察觉技能熟练，那么你的被动察觉为 14（10 + 2 点感知调整值 + 2 点熟练加值）。
 
-_Hit Points_. Your class and Constitution modifier determine your Hit Point maximum at level 1, as shown on the Level 1 Hit Points by Class table.
+_生命值（Hit Points）。_ 你的职业与体质调整值共同决定你在 1 级时的生命值上限，如“各职业 1 级生命值”表所示。
 
-**Level 1 Hit Points by Class**
+**各职业 1 级生命值（Level 1 Hit Points by Class）**
 
-<table>
-  <thead>
-    <tr>
-      <th>Class</th>
-      <th>Hit Point Maximum</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Barbarian</td>
-      <td>12 + Con. modifier</td>
-    </tr>
-    <tr>
-      <td>Fighter, Paladin, or Ranger</td>
-      <td>10 + Con. modifier</td>
-    </tr>
-    <tr>
-      <td>Bard, Cleric, Druid, Monk, Rogue, or Warlock</td>
-      <td>8 + Con. modifier</td>
-    </tr>
-    <tr>
-      <td>Sorcerer or Wizard</td>
-      <td>6 + Con. modifier</td>
-    </tr>
-  </tbody>
-</table>
+| 职业 | 生命值上限 |
+|---|---|
+| 野蛮人 | 12 + 体质调整值 |
+| 战士、圣武士或游侠 | 10 + 体质调整值 |
+| 吟游诗人、牧师、德鲁伊、武僧、游荡者或邪术师 | 8 + 体质调整值 |
+| 术士或法师 | 6 + 体质调整值 |
 
-The character sheet includes room to note your current Hit Points when you take damage, as well as any Temporary Hit Points you might gain. There's also space to track Death Saving Throws.
+角色卡上会留有位置，用于在你受到伤害时记录当前生命值，以及你可能获得的任何临时生命值（Temporary Hit Points）。角色卡上也有用于记录死亡豁免（Death Saving Throws）的空间。
 
-_Hit Point Dice_. Your class's description tells you the die type of your character's Hit Point Dice (or Hit Dice for short); write this on your character sheet. At level 1, your character has 1 Hit Die. You can spend Hit Dice during a Short Rest to recover Hit Points. Your character sheet also includes space to note how many Hit Dice you've spent.
+_生命骰（Hit Point Dice）。_ 你的职业说明会告诉你角色使用哪种骰子作为生命骰（Hit Point Dice，简称 Hit Dice）；将其写在角色卡上。1 级时，你的角色拥有 1 枚生命骰。你可以在短休期间消耗生命骰来恢复生命值。角色卡也会留有空间，用于记录你已经消耗了多少生命骰。
 
-_Initiative_. Write your Dexterity modifier in the space for Initiative on your character sheet.
+_先攻（Initiative）。_ 将你的敏捷调整值填写到角色卡上的先攻栏。
 
-_Armor Class_. Without armor or a shield, your base Armor Class is 10 plus your Dexterity modifier. If your starting equipment includes armor or a Shield (or both), calculate your AC using the rules in "Equipment." A class feature might give you a different way to calculate your AC.
+_护甲等级（Armor Class）。_ 在没有穿戴护甲或盾牌时，你的基础护甲等级为 10 + 敏捷调整值。如果你的起始装备中包括护甲或盾牌（Shield），或者两者都有，则根据“装备”中的规则计算你的 AC。某项职业特性也可能会给予你另一种计算 AC 的方式。
 
-_Attacks_. In the Weapons & Damage Cantrips section of the character sheet, write your starting weapons. The attack roll bonus for a weapon with which you have proficiency is one of the following unless a weapon's property says otherwise:
+_攻击（Attacks）。_ 在角色卡的“武器与伤害戏法”（Weapons & Damage Cantrips）区域中，写下你的起始武器。除非某件武器的属性另有说明，否则对于你拥有熟练项的武器，其攻击掷骰加值按以下方式计算：
 
-Melee attack bonus = Strength modifier + Proficiency Bonus
-Ranged attack bonus = Dexterity modifier + Proficiency Bonus
+近战攻击加值 = 力量调整值 + 熟练加值  
+远程攻击加值 = 敏捷调整值 + 熟练加值
 
-Look up the damage and properties of your weapons in "Equipment." You add the same ability modifier you use for attacks with a weapon to your damage rolls with that weapon.
+在“装备”中查阅武器的伤害与属性。使用某件武器进行伤害掷骰时，你要将使用该武器进行攻击时所采用的同一项属性调整值加到伤害上。
 
-_Spellcasting_. Note both the saving throw DC for your spells and the attack bonus for attacks you make with them, using these formulas:
-**Spell save DC** = 8 + spellcasting ability modifier + Proficiency Bonus
+_施法（Spellcasting）。_ 使用以下公式，记录你的法术豁免 DC 与法术攻击的攻击加值：
 
-**Spell attack bonus** = spellcasting ability modifier + Proficiency Bonus
+**法术豁免 DC** = 8 + 施法属性调整值 + 熟练加值
 
-Your spellcasting ability modifier for a spell is determined by whatever feature gives you the ability to cast the spell.
+**法术攻击加值** = 施法属性调整值 + 熟练加值
 
-_Spell Slots, Cantrips, and Prepared Spells._ If your class gives you the Spellcasting or Pact Magic feature, your class features table shows the number of spell slots you have available, how many cantrips you know, and how many spells you can prepare. Choose your cantrips and prepared spells, and note them—along with your number of spell slots—on your character sheet.
+某个法术所使用的施法属性调整值，由赋予你施放该法术能力的特性决定。
 
-## Level Advancement
+_法术位、戏法与已准备法术（Spell Slots, Cantrips, and Prepared Spells）。_ 如果你的职业给予你施法（Spellcasting）或契约魔法（Pact Magic）特性，那么你的职业特性表会显示你拥有多少法术位、掌握多少戏法，以及可以准备多少法术。选择你的戏法与已准备法术，并将它们连同法术位数量一起记录在角色卡上。
 
-While going on adventures, your character gains experience, represented by Experience Points (XP). A character who reaches a specified Experience Point total advances in capability. This advancement is called gaining a level.
+## 等级提升（Level Advancement）
 
-The Character Advancement table lists the XP you need to advance to a level and the Proficiency Bonus for a character of that level. When your XP total equals or exceeds a number in the Experience Points column, you reach the corresponding level.
+在冒险过程中，你的角色会获得经验，这由经验值（XP）表示。当一个角色达到规定的经验值总量时，其能力会得到提升。这种提升称为升级（gaining a level）。
 
-**Character Advancement**
+“角色成长”表列出了达到各等级所需的 XP，以及该等级角色拥有的熟练加值。当你的 XP 总量达到或超过“经验值”栏中的某个数值时，你便达到对应等级。
 
-<table>
-  <thead>
-    <tr>
-      <th>Level</th>
-      <th>Experience Points</th>
-      <th>Proficiency Bonus</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>0</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>300</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>900</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>2,700</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>6,500</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>14,000</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>23,000</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>34,000</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>48,000</td>
-      <td>+4</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>64,000</td>
-      <td>+4</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>85,000</td>
-      <td>+4</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>100,000</td>
-      <td>+4</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>120,000</td>
-      <td>+5</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>140,000</td>
-      <td>+5</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>165,000</td>
-      <td>+5</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>195,000</td>
-      <td>+5</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>225,000</td>
-      <td>+6</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>265,000</td>
-      <td>+6</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>305,000</td>
-      <td>+6</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>355,000</td>
-      <td>+6</td>
-    </tr>
-  </tbody>
-</table>
+**角色成长（Character Advancement）**
 
-### Gaining a Level
+| 等级 | 经验值 | 熟练加值 |
+|---:|---:|---:|
+| 1 | 0 | +2 |
+| 2 | 300 | +2 |
+| 3 | 900 | +2 |
+| 4 | 2,700 | +2 |
+| 5 | 6,500 | +3 |
+| 6 | 14,000 | +3 |
+| 7 | 23,000 | +3 |
+| 8 | 34,000 | +3 |
+| 9 | 48,000 | +4 |
+| 10 | 64,000 | +4 |
+| 11 | 85,000 | +4 |
+| 12 | 100,000 | +4 |
+| 13 | 120,000 | +5 |
+| 14 | 140,000 | +5 |
+| 15 | 165,000 | +5 |
+| 16 | 195,000 | +5 |
+| 17 | 225,000 | +6 |
+| 18 | 265,000 | +6 |
+| 19 | 305,000 | +6 |
+| 20 | 355,000 | +6 |
 
-When you gain a level, follow these steps:
+### 升级（Gaining a Level）
 
-**1: Choose a Class.** Most characters advance in the same class. However, you might decide to gain a level in another class using the rules in the "Multiclassing" section.
+当你获得一个等级时，依照以下步骤：
 
-**2: Adjust Hit Points and Hit Point Dice.** Each time you gain a level, you gain an additional Hit Die. Roll that die, add your Constitution modifier to the roll, and add the total (minimum of 1) to your Hit Point maximum. Instead of rolling, you can use the fixed value shown in the Fixed Hit Points by Class table.
+**1：选择一个职业（Choose a Class）。** 大多数角色会继续提升原本的职业。不过，你也可以依据“兼职”（Multiclassing）部分的规则，选择在另一个职业中获得一个等级。
 
-**Fixed Hit Points by Class**
+**2：调整生命值与生命骰（Adjust Hit Points and Hit Point Dice）。** 每次升级时，你都会获得一枚额外生命骰。掷这枚骰子，将体质调整值加到掷骰结果上，再将总值（最低为 1）加到你的生命值上限中。你也可以不掷骰，而是使用“各职业固定生命值”表中列出的固定值。
 
-<table>
-  <thead>
-    <tr>
-      <th>Class</th>
-      <th>Hit Points per Level</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Barbarian</td>
-      <td>7 + Con. modifier</td>
-    </tr>
-    <tr>
-      <td>Fighter, Paladin, or Ranger</td>
-      <td>6 + Con. modifier</td>
-    </tr>
-    <tr>
-      <td>Bard, Cleric, Druid, Monk, Rogue, or Warlock</td>
-      <td>5 + Con. modifier</td>
-    </tr>
-    <tr>
-      <td>Sorcerer or Wizard</td>
-      <td>4 + Con. modifier</td>
-    </tr>
-  </tbody>
-</table>
+**各职业固定生命值（Fixed Hit Points by Class）**
 
-**3: Record New Class Features.** Look at your class features table in "Classes," and note the features you gain at your new level in that class. Make any choices offered by a new feature.
+| 职业 | 每级生命值 |
+|---|---|
+| 野蛮人 | 7 + 体质调整值 |
+| 战士、圣武士或游侠 | 6 + 体质调整值 |
+| 吟游诗人、牧师、德鲁伊、武僧、游荡者或邪术师 | 5 + 体质调整值 |
+| 术士或法师 | 4 + 体质调整值 |
 
-**4: Adjust Proficiency Bonus.** A character's Proficiency Bonus increases at certain levels, as shown in the Character Advancement table and your class features table in "Classes." When your Proficiency Bonus increases, increase all the numbers on your character sheet that include your Proficiency Bonus.
+**3：记录新的职业特性（Record New Class Features）。** 查看“职业”中的职业特性表，并记录你在该职业的新等级所获得的特性。完成任何新特性提供的选择。
 
-**5: Adjust Ability Modifiers.** If you choose a feat that increases one or more of your ability scores, your ability modifier also changes if the new score is an even number. When that happens, adjust all the numbers on your character sheet that use that ability modifier. When your Constitution modifier increases by 1, your Hit Point maximum increases by 1 for each level you have attained. For example, if a character reaches level 8 and increases their Constitution score from 17 to 18, the Constitution modifier increases to +4. The character's Hit Point maximum then increases by 8, in addition to the Hit Points gained for reaching level 8.
+**4：调整熟练加值（Adjust Proficiency Bonus）。** 角色的熟练加值会在某些等级提升，如“角色成长”表以及“职业”中的职业特性表所示。当你的熟练加值提高时，将角色卡上所有包含熟练加值的数值一并提高。
 
-### Tiers of Play
+**5：调整属性调整值（Adjust Ability Modifiers）。** 如果你选择的专长提高了一项或多项属性值，那么当新的属性值为偶数时，相应的属性调整值也会改变。发生这种情况时，调整角色卡上所有使用该属性调整值的数值。
 
-With each new level, characters acquire new capabilities that equip them to handle greater challenges. As characters advance in level, the tone of the game also changes, and the stakes of the campaign get higher. It's helpful to think of a character's (and a campaign's) arc in terms of four tiers of play,
-describing the journey from a level 1 character just beginning an adventuring career to the epic heights of level 20. These tiers don't have any rules associated with them; they point to the fact that the play experience evolves as characters gain levels.
+当你的体质调整值提高 1 时，你的生命值上限会按你已经获得的每个等级提高 1 点。例如，如果一个角色达到 8 级，并将体质从 17 提高到 18，那么体质调整值会提高至 +4。除因升到 8 级而获得的生命值之外，该角色的生命值上限还会额外提高 8 点。
 
-#### Tier 1 (Levels 1–4)
+### 游戏层级（Tiers of Play）
 
-In tier 1, characters are apprentice adventurers, though they are already set apart from the broader populace by virtue of their extraordinary abilities. They learn their starting class features and choose a subclass. The threats they face usually pose a danger to local farmsteads or villages.
+随着每次升级，角色都会获得新的能力，使他们能够应对更大的挑战。随着等级提高，游戏的整体基调也会变化，而战役中的利害关系也会变得更加重大。
 
-#### Tier 2 (Levels 5–10)
+将角色以及战役的发展轨迹理解为四个游戏层级会很有帮助。这四个层级描述了从一个刚开始冒险生涯的 1 级角色，一直到达到 20 级史诗巅峰的旅程。
 
-In tier 2, characters are full-fledged adventurers. Spellcasters gain iconic spells such as _Fireball_, _Lightning Bolt_, and _Raise Dead_. Most weapon-focused classes gain the ability to make multiple attacks in a round. The characters now face dangers that threaten cities and kingdoms.
+这些层级本身并不附带任何规则；它们只是指出，随着角色不断升级，实际游戏体验也会随之演变。
 
-#### Tier 3 (Levels 11–16)
+#### 第一层级（Tier 1，1–4 级）
 
-In tier 3, characters have reached a level of power that makes them special among adventurers. At level 11, many spellcasters learn reality-altering spells. Other characters gain features that allow them to make more attacks or to do more impressive things with those attacks. These adventurers often confront threats to whole regions.
+在第一层级中，角色是尚在学习中的冒险者，不过他们凭借非凡能力，已经与一般民众明显不同。他们会学习职业的起始特性，并选择一个子职。他们面对的威胁通常只会危及当地农庄或村庄。
 
-#### Tier 4 (Levels 17–20)
+#### 第二层级（Tier 2，5–10 级）
 
-At tier 4, characters achieve the pinnacle of their class features, becoming heroic archetypes. The fate of the world or even the order of the multiverse might hang in the balance during their adventures.
+在第二层级中，角色已经成为成熟的冒险者。施法者会获得火球术（Fireball）、闪电束（Lightning Bolt）以及死者复活（Raise Dead）等标志性法术。大多数以武器为核心的职业会获得在一轮中进行多次攻击的能力。此时，角色面对的危险已经足以威胁城市和王国。
 
-## Starting at Higher Levels
+#### 第三层级（Tier 3，11–16 级）
 
-Your GM might start your group's characters at a level higher than 1. It is particularly recommended to start at level 3 if your group is composed of seasoned D&D players.
+在第三层级中，角色已经达到一种即使在冒险者中也极为特殊的力量层次。到了 11 级，许多施法者会学会能够改变现实的法术。其他角色则会获得让自己进行更多攻击，或让攻击产生更加惊人效果的特性。这些冒险者经常面对足以威胁整个地区的灾难。
 
-### Creating Your Character
+#### 第四层级（Tier 4，17–20 级）
 
-Creating a higher-level character uses the same character-creation steps outlined in this chapter and the rules for advancing beyond level 1 provided in the "Level Advancement" section. You begin with the minimum amount of XP required to reach your starting level. For example, if the GM starts you at level 10, you have 64,000 XP.
+到了第四层级，角色会达到自己职业特性的巅峰，并成为英雄原型（heroic archetypes）般的存在。在他们的冒险中，整个世界的命运，乃至多元宇宙的秩序，都可能悬于一线。
 
-> **Bonus Feats at Level 20**
+## 从更高等级开始（Starting at Higher Levels）
+
+你的 GM 可能会让队伍中的角色从高于 1 级的等级开始。如果你的小组主要由经验丰富的 D&D 玩家组成，尤其推荐从 3 级开始。
+
+### 创建你的角色（Creating Your Character）
+
+创建高等级角色时，使用本章前文所述的相同角色创建步骤，并采用“等级提升”部分提供的 1 级以上成长规则。
+
+你的起始 XP 为达到该起始等级所需的最低经验值。例如，如果 GM 让你从 10 级开始，那么你拥有 64,000 XP。
+
+> **20 级后的奖励专长（Bonus Feats at Level 20）**
 >
-> A GM can use feats as a form of advancement after characters reach level 20 to provide greater power to characters who have no more levels to gain. With this approach, each character gains one feat of their choice for every 30,000 XP the character earns above 355,000 XP. Epic Boon feats are especially appropriate for these bonus feats, but a player can choose any feat for which their level 20 character qualifies.
+> 当角色达到 20 级后，由于已经没有更多等级可升，GM 可以使用专长作为一种额外成长方式，让角色继续获得更强的能力。
+>
+> 使用这种方式时，每当角色在 355,000 XP 以上再获得 30,000 XP，该角色就获得一个自选专长。
+>
+> 史诗恩惠专长（Epic Boon feats）尤其适合作为这类奖励专长，不过玩家也可以选择任何其 20 级角色符合先决条件的专长。
 
-### Starting Equipment
+### 起始装备（Starting Equipment）
 
-The GM decides whether your character starts with more than the standard equipment for a level 1 character, possibly even one or more magic items. The Starting Equipment at Higher Levels table is a guide for the GM.
+GM 决定你的角色是否会获得超过标准 1 级角色起始装备的额外物品，甚至可能包括一个或多个魔法物品（magic items）。“高等级起始装备”表可供 GM 参考。
 
-Also, check with your GM about what equipment is available for you to buy with your starting money. For example, the firearms described in "Equipment" are too expensive for level 1 characters, but they might be available for purchase if your GM allows them.
+此外，也请与你的 GM 确认，你可以使用起始资金购买哪些装备。例如，“装备”中描述的火器（firearms）对于 1 级角色而言价格过高，但如果 GM 允许，那么高等级角色可能可以购买它们。
 
-**Starting Equipment at Higher Levels**
+**高等级起始装备（Starting Equipment at Higher Levels）**
 
-<table>
-  <thead>
-    <tr>
-      <th>Starting Level</th>
-      <th>Equipment and Money</th>
-      <th>Magic Items</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>2–4</td>
-      <td>Normal starting equipment</td>
-      <td>1 Common</td>
-    </tr>
-    <tr>
-      <td>5–10</td>
-      <td>500 GP plus 1d10 × 25 GP plus normal starting equipment</td>
-      <td>1 Common, 1 Uncommon</td>
-    </tr>
-    <tr>
-      <td>11–16</td>
-      <td>5,000 gp plus 1d10 × 250 GP plus normal starting equipment</td>
-      <td>2 Common, 3 Uncommon, 1 Rare</td>
-    </tr>
-    <tr>
-      <td>17–20</td>
-      <td>20,000 GP plus 1d10 × 250 GP plus normal starting equipment</td>
-      <td>2 Common, 4 Uncommon, 3 Rare, 1 Very Rare</td>
-    </tr>
-  </tbody>
-</table>
+| 起始等级 | 装备与金钱 | 魔法物品 |
+|---|---|---|
+| 2–4 | 正常起始装备 | 1 件普通（Common） |
+| 5–10 | 500 GP + 1d10 × 25 GP + 正常起始装备 | 1 件普通，1 件非普通（Uncommon） |
+| 11–16 | 5,000 GP + 1d10 × 250 GP + 正常起始装备 | 2 件普通，3 件非普通，1 件稀有（Rare） |
+| 17–20 | 20,000 GP + 1d10 × 250 GP + 正常起始装备 | 2 件普通，4 件非普通，3 件稀有，1 件极珍稀（Very Rare） |
 
-## Multiclassing
+## 兼职（Multiclassing）
 
-Multiclassing allows you to gain levels in multiple classes. With this rule, you have the option of gaining a level in a new class whenever you advance in level instead of gaining a level in your current class. Doing so lets you mix the abilities of those classes to realize a character concept that might not be reflected in a single class.
+兼职允许你在多个职业中获得等级。使用这项规则时，每当你升级，你都可以选择在一个新职业中获得一个等级，而不是在当前职业中获得一个等级。
 
-### Prerequisites
+这样做可以让你混合多个职业的能力，从而实现单一职业可能无法完整体现的角色概念。
 
-To qualify for a new class, you must have a score of at least 13 in the primary ability of the new class and your current classes. For example, a Barbarian who decides to multiclass into the Druid class must have Strength and Wisdom scores of 13 or higher, since Strength is the primary ability for Barbarians and Wisdom is the primary ability for Druids.
+### 先决条件（Prerequisites）
 
-### Experience Points
+要满足进入一个新职业的条件，你必须在新职业以及自己当前所有职业的主要属性上都拥有至少 13 的属性值。
 
-The Experience Point cost to gain a level is based on your total character level, not your level in a particular class, as shown in the Character Advancement table in "Character Creation." For example, if you are a level 6 Cleric / level 1 Fighter, you must gain enough XP to reach level 8 before you can take your second level as a Fighter or your seventh level as a Cleric.
+例如，一个决定兼职成为德鲁伊的野蛮人，力量与感知都必须达到 13 或更高，因为力量是野蛮人的主要属性，而感知是德鲁伊的主要属性。
 
-### Hit Points and Hit Point Dice
+### 经验值（Experience Points）
 
-You gain the Hit Points from your new class as described for levels after 1. You gain the level 1 Hit Points for a class only when your total character level is 1.
+升级所需的经验值成本取决于你的角色总等级，而不是某一个特定职业的等级，具体见“角色创建”中的“角色成长”表。
 
-Add together the Hit Dice granted by all your classes to form your pool of Hit Dice. If these dice are the same die type, you can pool them together. For example, both the Fighter and the Paladin have a d10 Hit Die, so if you are a level 5 Fighter / level 5 Paladin, you have ten d10 Hit Dice. If your classes give you Hit Dice of different types, track them separately. If you are a level 5 Cleric / level 5 Paladin, for example, you have five d8 Hit Dice and five d10 Hit Dice.
+例如，如果你是一名 6 级牧师 / 1 级战士，那么你必须获得足够 XP 达到角色 8 级，之后才能获得战士的第 2 个等级，或者牧师的第 7 个等级。
 
-### Proficiency Bonus
+### 生命值与生命骰（Hit Points and Hit Point Dice）
 
-Your Proficiency Bonus is based on your total character level, not your level in a particular class, as shown in the Character Advancement table. For example, if you are a level 3 Fighter / level 2 Rogue, you have the Proficiency Bonus of a level 5 character, which is +3.
+你从新职业中获得生命值时，应按照该职业“1 级之后等级”的方式计算。只有当你的角色总等级为 1 时，才会获得某职业的 1 级生命值。
 
-### Proficiencies
+将所有职业给予你的生命骰合并，形成你的生命骰池。如果这些骰子的类型相同，可以直接合并计算。
 
-When you gain your first level in a class other than your initial class, you gain only some of the new class's starting proficiencies, as detailed in each class's description in "Classes."
+例如，战士和圣武士都使用 d10 生命骰，因此如果你是 5 级战士 / 5 级圣武士，就拥有十枚 d10 生命骰。
 
-### Class Features
+如果不同职业给予不同类型的生命骰，则分别记录。例如，如果你是 5 级牧师 / 5 级圣武士，那么你拥有五枚 d8 生命骰和五枚 d10 生命骰。
 
-When you gain a new level in a class, you get its features for that level. A few features have additional rules when you're multiclassing. Check the information about multiclassing included in each of your classes' descriptions.
+### 熟练加值（Proficiency Bonus）
 
-Special rules apply to Extra Attack, Spellcasting, and features (such as Unarmored Defense) that give you alternative ways to calculate your Armor Class.
+你的熟练加值取决于角色总等级，而不是某一个特定职业的等级，具体见“角色成长”表。
 
-#### Armor Class
+例如，如果你是 3 级战士 / 2 级游荡者，那么你拥有一个 5 级角色的熟练加值，也就是 +3。
 
-If you have multiple ways to calculate your Armor Class, you can benefit from only one at a time. For example, a Monk/Sorcerer with a Monk's Unarmored Defense feature and a Sorcerer's Draconic Resilience feature must choose only one of those features as a way to calculate Armor Class.
+### 熟练项（Proficiencies）
 
-#### Extra Attack
+当你第一次在初始职业之外的另一个职业中获得等级时，你只会获得该新职业部分起始熟练项。具体内容见“职业”中各职业的说明。
 
-If you gain the Extra Attack feature from more than one class, the features don't stack. You can't make more than two attacks with this feature unless you have a feature that says you can (such as the Fighter's Two Extra Attacks feature).
+### 职业特性（Class Features）
 
-Similarly, the Warlock's Thirsting Blade invocation, which grants you the Extra Attack feature with your pact weapon, doesn't give you additional attacks if you also have Extra Attack.
+当你在某个职业中获得一个新等级时，你会获得该职业对应等级的特性。有少数特性在兼职时具有额外规则。请查看你各个职业说明中的兼职相关信息。
 
-#### Spellcasting
+额外攻击（Extra Attack）、施法，以及那些提供替代护甲等级计算方式的特性（例如无甲防御 [Unarmored Defense]）都适用特殊规则。
 
-Your capacity for spellcasting depends partly on your combined levels in all your spellcasting classes and partly on your individual levels in those classes. Once you have the Spellcasting feature from more than one class, use the rules below. If you multiclass but have the Spellcasting feature from only one class, follow the rules for that class.
+#### 护甲等级（Armor Class）
 
-_Spells Prepared_. You determine what spells you can prepare for each class individually, as if you were a single-classed member of that class. If you are a level 4 Ranger / level 3 Sorcerer, for example, you can prepare five level 1 Ranger spells, and you can prepare six Sorcerer spells of level 1 or 2 (as well as four Sorcerer cantrips).
+如果你拥有多种计算护甲等级的方式，同一时间只能从其中一种方式获益。
 
-Each spell you prepare is associated with one of your classes, and you use the spellcasting ability of that class when you cast the spell.
+例如，一名武僧 / 术士同时拥有武僧的无甲防御特性，以及术士的龙族韧性（Draconic Resilience）特性时，只能选择其中一种作为自己的护甲等级计算方式。
 
-_Cantrips_. If a cantrip of yours increases in power at higher levels, the increase is based on your total character level, not your level in a particular class, unless the spell says otherwise.
+#### 额外攻击（Extra Attack）
 
-_Spell Slots_. You determine your available spell slots by adding together the following:
+如果你从多个职业中获得额外攻击特性，这些特性不会叠加。你不能通过该特性进行超过两次攻击，除非你拥有明确说明可以做到这一点的特性，例如战士的两次额外攻击（Two Extra Attacks）特性。
 
-- All your levels in the Bard, Cleric, Druid, Sorcerer, and Wizard classes
-- Half your levels (round up) in the Paladin and Ranger classes
+同样，邪术师的嗜血之刃（Thirsting Blade）祈唤（invocation）会让你使用契约武器获得额外攻击特性，但如果你已经拥有额外攻击，它不会再给予你额外攻击次数。
 
-Then look up this total level in the Level column of the Multiclass Spellcaster table. You use the slots for that level to cast spells of an appropriate level from any class whose Spellcasting feature you have.
+#### 施法（Spellcasting）
 
-This table might give you spell slots of a higher level than the spells you prepare. You can use those slots but only to cast your lower-level spells. If a lower-level spell that you cast, like _Burning Hands_, has an enhanced effect when cast at a higher level, you can use the enhanced effect as normal.
+你的施法能力部分取决于你在所有施法职业中的总等级，部分则取决于你在各个职业中的独立等级。
 
-For example, if you are a level 4 Ranger / level 3 Sorcerer, you count as a level 5 character when determining your spell slots, counting all your levels as a Sorcerer and half your Ranger levels. As shown
-in the Multiclass Spellcaster table, you have four level 1 spell slots, three level 2 slots, and two level 3 slots. However, you can't prepare any level 3 spells, nor can you prepare any level 2 Ranger spells. You can use the spell slots of those levels to cast the spells you do prepare—and potentially enhance their effects.
+一旦你从超过一个职业中获得施法特性，就使用下述规则。如果你虽然兼职，但只有一个职业拥有施法特性，则遵循那个职业本身的规则。
 
-_Pact Magic._ If you have the Pact Magic feature from the Warlock class and the Spellcasting feature, you can use the spell slots you gain from Pact Magic to cast spells you have prepared from classes with the Spellcasting feature, and you can use the spell slots you gain from the Spellcasting feature to cast Warlock spells you have prepared.
+_已准备法术（Spells Prepared）。_ 你需要分别确定每个职业能够准备哪些法术，就好像你是该职业的单职业角色一样。
 
-**Multiclass Spellcaster: Spell Slots per Spell Level**
+例如，如果你是 4 级游侠 / 3 级术士，那么你可以准备五个 1 环游侠法术，同时可以准备六个 1 环或 2 环术士法术（此外还掌握四个术士戏法）。
 
-<table>
-  <thead>
-    <tr>
-      <th>Level</th>
-      <th>1</th>
-      <th>2</th>
-      <th>3</th>
-      <th>4</th>
-      <th>5</th>
-      <th>6</th>
-      <th>7</th>
-      <th>8</th>
-      <th>9</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>3</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>4</td>
-      <td>2</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>4</td>
-      <td>3</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>4</td>
-      <td>3</td>
-      <td>2</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>1</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>1</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>4</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-  </tbody>
-</table>
+你准备的每个法术都属于你的某一个职业，并且在施放该法术时，使用该职业对应的施法属性。
 
-## Trinkets
+_戏法（Cantrips）。_ 如果你的某个戏法会随着等级提升而增强，那么除非法术本身另有说明，其增强依据的是你的角色总等级，而不是某个职业的等级。
 
-When you make your character, you can roll once on the Trinkets table to gain a Tiny trinket, a simple item lightly touched by mystery. The GM might also use this table. It can help stock a room in a dungeon or fill a creature's pockets.
+_法术位（Spell Slots）。_ 通过将以下等级相加，确定你的可用法术位：
 
-**Trinkets**
+- 你在吟游诗人、牧师、德鲁伊、术士和法师职业中的全部等级
+- 你在圣武士和游侠职业中的一半等级，向上取整
 
-<table>
-  <thead>
-    <tr>
-      <th>1d100</th>
-      <th>Trinket</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>01</td>
-      <td>A mummified goblin hand</td>
-    </tr>
-    <tr>
-      <td>02</td>
-      <td>A crystal that faintly glows in moonlight</td>
-    </tr>
-    <tr>
-      <td>03</td>
-      <td>A gold coin minted in an unknown land</td>
-    </tr>
-    <tr>
-      <td>04</td>
-      <td>A diary written in a language you don't know</td>
-    </tr>
-    <tr>
-      <td>05</td>
-      <td>A brass ring that never tarnishes</td>
-    </tr>
-    <tr>
-      <td>06</td>
-      <td>An old chess piece made from glass</td>
-    </tr>
-    <tr>
-      <td>07</td>
-      <td>A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips</td>
-    </tr>
-    <tr>
-      <td>08</td>
-      <td>A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it</td>
-    </tr>
-    <tr>
-      <td>09</td>
-      <td>A lock of someone's hair</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>The deed for a parcel of land in a realm unknown to you</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>A 1-ounce block made from an unknown material</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>A small cloth doll skewered with needles</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>A tooth from an unknown beast</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>An enormous scale, perhaps from a dragon</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>A bright-green feather</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>An old divination card bearing your likeness</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>A glass orb filled with moving smoke</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>A 1-pound egg with a bright-red shell</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>A pipe that blows bubbles</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>A glass jar containing a bit of flesh floating in pickling fluid</td>
-    </tr>
-    <tr>
-      <td>21</td>
-      <td>A gnome-crafted music box that plays a song you dimly remember from your childhood</td>
-    </tr>
-    <tr>
-      <td>22</td>
-      <td>A wooden statuette of a smug halfling</td>
-    </tr>
-    <tr>
-      <td>23</td>
-      <td>A brass orb etched with strange runes</td>
-    </tr>
-    <tr>
-      <td>24</td>
-      <td>A multicolored stone disk</td>
-    </tr>
-    <tr>
-      <td>25</td>
-      <td>A silver icon of a raven</td>
-    </tr>
-    <tr>
-      <td>26</td>
-      <td>A bag containing forty-seven teeth, one of which is rotten</td>
-    </tr>
-    <tr>
-      <td>27</td>
-      <td>A shard of obsidian that always feels warm to the touch</td>
-    </tr>
-    <tr>
-      <td>28</td>
-      <td>A dragon's talon strung on a leather necklace</td>
-    </tr>
-    <tr>
-      <td>29</td>
-      <td>A pair of old socks</td>
-    </tr>
-    <tr>
-      <td>30</td>
-      <td>A blank book whose pages refuse to hold ink, chalk, graphite, or any other marking</td>
-    </tr>
-    <tr>
-      <td>31</td>
-      <td>A silver badge that is a five-pointed star</td>
-    </tr>
-    <tr>
-      <td>32</td>
-      <td>A knife that belonged to a relative</td>
-    </tr>
-    <tr>
-      <td>33</td>
-      <td>A glass vial filled with nail clippings</td>
-    </tr>
-    <tr>
-      <td>34</td>
-      <td>A rectangular metal device with two tiny metal cups on one end that throws sparks when wet</td>
-    </tr>
-    <tr>
-      <td>35</td>
-      <td>A white, sequined glove sized for a human</td>
-    </tr>
-    <tr>
-      <td>36</td>
-      <td>A vest with one hundred tiny pockets</td>
-    </tr>
-    <tr>
-      <td>37</td>
-      <td>A weightless stone</td>
-    </tr>
-    <tr>
-      <td>38</td>
-      <td>A sketch of a goblin</td>
-    </tr>
-    <tr>
-      <td>39</td>
-      <td>An empty glass vial that smells of perfume</td>
-    </tr>
-    <tr>
-      <td>40</td>
-      <td>A gemstone that looks like a lump of coal when examined by anyone but you</td>
-    </tr>
-    <tr>
-      <td>41</td>
-      <td>A scrap of cloth from an old banner</td>
-    </tr>
-    <tr>
-      <td>42</td>
-      <td>A rank insignia from a lost legionnaire</td>
-    </tr>
-    <tr>
-      <td>43</td>
-      <td>A silver bell without a clapper</td>
-    </tr>
-    <tr>
-      <td>44</td>
-      <td>A mechanical canary inside a lamp</td>
-    </tr>
-    <tr>
-      <td>45</td>
-      <td>A miniature chest carved to look like it has numerous feet on the bottom</td>
-    </tr>
-    <tr>
-      <td>46</td>
-      <td>A dead sprite inside a clear glass bottle</td>
-    </tr>
-    <tr>
-      <td>47</td>
-      <td>A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice)</td>
-    </tr>
-    <tr>
-      <td>48</td>
-      <td>A glass orb filled with water, in which swims a clockwork goldfish</td>
-    </tr>
-    <tr>
-      <td>49</td>
-      <td>A silver spoon with an M engraved on the handle</td>
-    </tr>
-    <tr>
-      <td>50</td>
-      <td>A whistle made from gold-colored wood</td>
-    </tr>
-    <tr>
-      <td>51</td>
-      <td>A dead scarab beetle the size of your hand</td>
-    </tr>
-    <tr>
-      <td>52</td>
-      <td>Two toy soldiers, one missing a head</td>
-    </tr>
-    <tr>
-      <td>53</td>
-      <td>A small box filled with different-sized buttons</td>
-    </tr>
-    <tr>
-      <td>54</td>
-      <td>A candle that can't be lit</td>
-    </tr>
-    <tr>
-      <td>55</td>
-      <td>A miniature cage with no door</td>
-    </tr>
-    <tr>
-      <td>56</td>
-      <td>An old key</td>
-    </tr>
-    <tr>
-      <td>57</td>
-      <td>An indecipherable treasure map</td>
-    </tr>
-    <tr>
-      <td>58</td>
-      <td>A hilt from a broken sword</td>
-    </tr>
-    <tr>
-      <td>59</td>
-      <td>A rabbit's foot</td>
-    </tr>
-    <tr>
-      <td>60</td>
-      <td>A glass eye</td>
-    </tr>
-    <tr>
-      <td>61</td>
-      <td>A cameo of a hideous person</td>
-    </tr>
-    <tr>
-      <td>62</td>
-      <td>A silver skull the size of a coin</td>
-    </tr>
-    <tr>
-      <td>63</td>
-      <td>An alabaster mask</td>
-    </tr>
-    <tr>
-      <td>64</td>
-      <td>A cone of sticky black incense that stinks</td>
-    </tr>
-    <tr>
-      <td>65</td>
-      <td>A nightcap that gives you pleasant dreams when you wear it</td>
-    </tr>
-    <tr>
-      <td>66</td>
-      <td>A single caltrop made from bone</td>
-    </tr>
-    <tr>
-      <td>67</td>
-      <td>A gold monocle frame without the lens</td>
-    </tr>
-    <tr>
-      <td>68</td>
-      <td>A 1-inch cube, each side a different color</td>
-    </tr>
-    <tr>
-      <td>69</td>
-      <td>A crystal doorknob</td>
-    </tr>
-    <tr>
-      <td>70</td>
-      <td>A packet filled with pink dust</td>
-    </tr>
-    <tr>
-      <td>71</td>
-      <td>A fragment of a beautiful song, written as musical notes on two pieces of parchment</td>
-    </tr>
-    <tr>
-      <td>72</td>
-      <td>A silver teardrop earring containing a real teardrop</td>
-    </tr>
-    <tr>
-      <td>73</td>
-      <td>An eggshell painted with scenes of misery in disturbing detail</td>
-    </tr>
-    <tr>
-      <td>74</td>
-      <td>A fan that, when unfolded, shows a sleepy cat</td>
-    </tr>
-    <tr>
-      <td>75</td>
-      <td>A set of bone pipes</td>
-    </tr>
-    <tr>
-      <td>76</td>
-      <td>A four-leaf clover pressed inside a book discussing manners and etiquette</td>
-    </tr>
-    <tr>
-      <td>77</td>
-      <td>A sheet of parchment upon which is drawn a mechanical contraption</td>
-    </tr>
-    <tr>
-      <td>78</td>
-      <td>An ornate scabbard that fits no blade you have found</td>
-    </tr>
-    <tr>
-      <td>79</td>
-      <td>An invitation to a party where a murder happened</td>
-    </tr>
-    <tr>
-      <td>80</td>
-      <td>A bronze pentacle with an etching of a rat's head in its center</td>
-    </tr>
-    <tr>
-      <td>81</td>
-      <td>A purple handkerchief embroidered with the name of an archmage</td>
-    </tr>
-    <tr>
-      <td>82</td>
-      <td>Half a floor plan for a temple, a castle, or another structure</td>
-    </tr>
-    <tr>
-      <td>83</td>
-      <td>A bit of folded cloth that, when unfolded, turns into a stylish cap</td>
-    </tr>
-    <tr>
-      <td>84</td>
-      <td>A receipt of deposit at a bank in a far-off city</td>
-    </tr>
-    <tr>
-      <td>85</td>
-      <td>A diary with seven missing pages</td>
-    </tr>
-    <tr>
-      <td>86</td>
-      <td>An empty silver snuffbox bearing the inscription "dreams" on its lid</td>
-    </tr>
-    <tr>
-      <td>87</td>
-      <td>An iron holy symbol devoted to an unknown god</td>
-    </tr>
-    <tr>
-      <td>88</td>
-      <td>A book about a legendary hero's rise and fall, with the last chapter missing</td>
-    </tr>
-    <tr>
-      <td>89</td>
-      <td>A vial of dragon blood</td>
-    </tr>
-    <tr>
-      <td>90</td>
-      <td>An ancient arrow of elven design</td>
-    </tr>
-    <tr>
-      <td>91</td>
-      <td>A needle that never bends</td>
-    </tr>
-    <tr>
-      <td>92</td>
-      <td>An ornate brooch of dwarven design</td>
-    </tr>
-    <tr>
-      <td>93</td>
-      <td>An empty wine bottle bearing a pretty label that says, "The Wizard of Wines Winery, Red Dragon Crush, 331422-W"</td>
-    </tr>
-    <tr>
-      <td>94</td>
-      <td>A mosaic tile with a multicolored, glazed surface</td>
-    </tr>
-    <tr>
-      <td>95</td>
-      <td>A petrified mouse</td>
-    </tr>
-    <tr>
-      <td>96</td>
-      <td>A black pirate flag adorned with a dragon's skull and crossbones</td>
-    </tr>
-    <tr>
-      <td>97</td>
-      <td>A tiny mechanical crab or spider that moves about when it's not being observed</td>
-    </tr>
-    <tr>
-      <td>98</td>
-      <td>A glass jar containing lard with a label that reads, "Griffon Grease"</td>
-    </tr>
-    <tr>
-      <td>99</td>
-      <td>A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body</td>
-    </tr>
-    <tr>
-      <td>00</td>
-      <td>A metal urn containing the ashes of a hero</td>
-    </tr>
-  </tbody>
-</table>
+然后在“兼职施法者”表的“等级”栏中查找得到的总等级。你使用该等级所对应的法术位，来施放任何你拥有施法特性的职业中，环阶合适的法术。
+
+这张表可能会给予你比你能够准备的法术更高环阶的法术位。你可以使用这些法术位，但只能用它们施放较低环阶的法术。
+
+如果某个较低环阶法术，例如燃烧之手（Burning Hands），在使用更高环阶法术位施放时会获得强化效果，那么你可以正常获得这种强化效果。
+
+例如，如果你是 4 级游侠 / 3 级术士，那么在确定法术位时，你视为 5 级角色，因为你要计算全部术士等级，以及一半的游侠等级。
+
+如“兼职施法者”表所示，你拥有四个 1 环法术位、三个 2 环法术位以及两个 3 环法术位。
+
+不过，你无法准备任何 3 环法术，也无法准备任何 2 环游侠法术。你仍然可以使用这些环阶的法术位来施放自己已经准备的法术，并可能强化它们的效果。
+
+_契约魔法（Pact Magic）。_ 如果你拥有来自邪术师职业的契约魔法特性，同时也拥有施法特性，那么你可以使用契约魔法给予你的法术位，来施放你通过具有施法特性的职业所准备的法术；同样，你也可以使用施法特性给予你的法术位，来施放你准备的邪术师法术。
+
+**兼职施法者：各法术环阶法术位（Multiclass Spellcaster: Spell Slots per Spell Level）**
+
+| 等级 | 1 环 | 2 环 | 3 环 | 4 环 | 5 环 | 6 环 | 7 环 | 8 环 | 9 环 |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 2 | — | — | — | — | — | — | — | — |
+| 2 | 3 | — | — | — | — | — | — | — | — |
+| 3 | 4 | 2 | — | — | — | — | — | — | — |
+| 4 | 4 | 3 | — | — | — | — | — | — | — |
+| 5 | 4 | 3 | 2 | — | — | — | — | — | — |
+| 6 | 4 | 3 | 3 | — | — | — | — | — | — |
+| 7 | 4 | 3 | 3 | 1 | — | — | — | — | — |
+| 8 | 4 | 3 | 3 | 2 | — | — | — | — | — |
+| 9 | 4 | 3 | 3 | 3 | 1 | — | — | — | — |
+| 10 | 4 | 3 | 3 | 3 | 2 | — | — | — | — |
+| 11 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 12 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 13 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 14 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 15 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 16 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 17 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |
+| 18 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |
+| 19 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 20 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
+
+## 小饰物（Trinkets）
+
+创建角色时，你可以在“小饰物”表上掷一次骰，以获得一件微型（Tiny）小饰物——一种略带神秘色彩的简单物品。
+
+GM 也可以使用这张表。它可以帮助 GM 为地城中的房间添加物品，或决定某个生物口袋里装着什么。
+
+**小饰物（Trinkets）**
+
+| 1d100 | 小饰物 |
+|---:|---|
+| 01 | 一只制成木乃伊的地精手 |
+| 02 | 一块在月光下微微发光的水晶 |
+| 03 | 一枚在未知国度铸造的金币 |
+| 04 | 一本用你不认识的语言书写的日记 |
+| 05 | 一枚永不失去光泽的黄铜戒指 |
+| 06 | 一枚用玻璃制成的古老棋子 |
+| 07 | 一对距骨骰，每一颗骰子原本显示六个点的一面都刻着一个骷髅符号 |
+| 08 | 一尊描绘噩梦般生物的小型神像；如果你睡在它附近，它会让你做令人不安的梦 |
+| 09 | 一绺某人的头发 |
+| 10 | 一份某片土地的地契，而那片土地位于你未知的国度 |
+| 11 | 一块重 1 盎司、由未知材料制成的方块 |
+| 12 | 一个被针刺穿的小布偶 |
+| 13 | 一颗来自未知野兽的牙齿 |
+| 14 | 一片巨大的鳞片，也许来自某条龙 |
+| 15 | 一根鲜绿色羽毛 |
+| 16 | 一张绘有你本人形象的古老占卜牌 |
+| 17 | 一个内部充满流动烟雾的玻璃球 |
+| 18 | 一颗重 1 磅、外壳鲜红的蛋 |
+| 19 | 一支能吹出泡泡的烟斗 |
+| 20 | 一个玻璃罐，其中装着一小块浸泡在腌制液中的肉 |
+| 21 | 一个由侏儒打造的音乐盒，会播放一首你依稀记得来自童年的歌曲 |
+| 22 | 一尊神情自鸣得意的半身人木雕 |
+| 23 | 一个刻有奇异符文的黄铜球 |
+| 24 | 一块多彩的石质圆盘 |
+| 25 | 一枚乌鸦造型的银制徽像 |
+| 26 | 一个袋子，里面装着四十七颗牙，其中一颗已经腐烂 |
+| 27 | 一块黑曜石碎片，触摸时总是温热的 |
+| 28 | 一枚用皮绳串成项链的龙爪 |
+| 29 | 一双旧袜子 |
+| 30 | 一本空白书，其书页拒绝留下墨水、粉笔、石墨或任何其他形式的标记 |
+| 31 | 一枚五角星形的银徽章 |
+| 32 | 一把曾属于某位亲属的刀 |
+| 33 | 一个装满剪下指甲的玻璃小瓶 |
+| 34 | 一个长方形金属装置，一端有两个微小金属杯；当它被弄湿时会迸出火花 |
+| 35 | 一只适合人类手掌大小的白色亮片手套 |
+| 36 | 一件有一百个微小口袋的背心 |
+| 37 | 一块没有重量的石头 |
+| 38 | 一幅地精素描 |
+| 39 | 一个空玻璃小瓶，闻起来有香水味 |
+| 40 | 一颗宝石；除你之外的任何人查看它时，它看起来都像一块煤 |
+| 41 | 一块来自旧旗帜的布料碎片 |
+| 42 | 一枚属于某位失踪军团士兵的军衔徽记 |
+| 43 | 一只没有铃舌的银铃 |
+| 44 | 一只装在灯中的机械金丝雀 |
+| 45 | 一个微型箱子，其雕刻看起来像是底部长着许多只脚 |
+| 46 | 一只装在透明玻璃瓶中的死去小妖精（sprite） |
+| 47 | 一个完全没有开口的金属罐，但听起来里面似乎装着液体、沙子、蜘蛛或碎玻璃（由你选择） |
+| 48 | 一个装满水的玻璃球，里面游着一条发条金鱼 |
+| 49 | 一把银勺，勺柄上刻着字母 M |
+| 50 | 一支由金色木材制成的哨子 |
+| 51 | 一只和你的手掌一样大的死圣甲虫 |
+| 52 | 两个玩具士兵，其中一个没有头 |
+| 53 | 一个装满各种不同尺寸纽扣的小盒子 |
+| 54 | 一根无法点燃的蜡烛 |
+| 55 | 一个没有门的微型笼子 |
+| 56 | 一把旧钥匙 |
+| 57 | 一张无法解读的藏宝图 |
+| 58 | 一把断剑留下的剑柄 |
+| 59 | 一只兔脚 |
+| 60 | 一颗玻璃眼珠 |
+| 61 | 一枚雕有丑陋人物肖像的浮雕饰品（cameo） |
+| 62 | 一个硬币大小的银制骷髅 |
+| 63 | 一副雪花石膏面具 |
+| 64 | 一块锥形、黏稠的黑色熏香，散发着恶臭 |
+| 65 | 一顶睡帽，戴着它睡觉时会让你做美梦 |
+| 66 | 一枚由骨头制成的铁蒺藜（caltrop） |
+| 67 | 一副没有镜片的金质单片眼镜框 |
+| 68 | 一个边长 1 英寸的立方体，每一面颜色都不同 |
+| 69 | 一个水晶门把手 |
+| 70 | 一小包粉红色粉末 |
+| 71 | 一段优美歌曲的残篇，以乐谱形式写在两张羊皮纸上 |
+| 72 | 一枚银制泪滴形耳环，其中装着一滴真正的眼泪 |
+| 73 | 一个蛋壳，上面以令人不安的细节绘制着各种悲惨场景 |
+| 74 | 一把扇子，展开时会显现出一只困倦的猫 |
+| 75 | 一套骨制排箫 |
+| 76 | 一株四叶草，被夹在一本讨论礼仪与举止的书中 |
+| 77 | 一张羊皮纸，上面画着一种机械装置 |
+| 78 | 一个装饰华丽的剑鞘，但你至今没找到任何适合插入其中的武器 |
+| 79 | 一张派对邀请函，而那场派对上曾发生过谋杀 |
+| 80 | 一个青铜五芒星符牌，其中央刻着一只老鼠的头 |
+| 81 | 一块紫色手帕，上面绣着一位大法师（archmage）的名字 |
+| 82 | 一份神殿、城堡或其他建筑平面图的一半 |
+| 83 | 一小块折叠布料，展开后会变成一顶时髦的帽子 |
+| 84 | 一张来自遥远城市某家银行的存款凭证 |
+| 85 | 一本缺失七页的日记 |
+| 86 | 一个空的银质鼻烟盒，盒盖上刻着“梦境”（dreams） |
+| 87 | 一个献给未知神祇的铁制圣徽 |
+| 88 | 一本讲述某位传奇英雄兴衰史的书，但缺少最后一章 |
+| 89 | 一小瓶龙血 |
+| 90 | 一支采用精灵工艺制作的古老箭矢 |
+| 91 | 一根永远不会弯曲的针 |
+| 92 | 一枚采用矮人工艺制作的华丽胸针 |
+| 93 | 一个空酒瓶，瓶身贴着一张漂亮标签，上面写着：“葡萄酒巫师酒庄（The Wizard of Wines Winery），红龙压榨（Red Dragon Crush），331422-W” |
+| 94 | 一块镶嵌画用瓷砖，拥有多彩的釉面 |
+| 95 | 一只石化的老鼠 |
+| 96 | 一面黑色海盗旗，上面绘有龙头骨与交叉骨图案 |
+| 97 | 一只微型机械螃蟹或蜘蛛，当无人观察时会自行移动 |
+| 98 | 一个装有猪油的玻璃罐，标签上写着“狮鹫油脂”（Griffon Grease） |
+| 99 | 一个底部为陶瓷材质的木盒，其中装着一条活着的虫子，而它身体两端各长着一个头 |
+| 00 | 一个金属骨灰瓮，其中装着一位英雄的骨灰 |
