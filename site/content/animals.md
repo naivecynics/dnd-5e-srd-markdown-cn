@@ -1,6918 +1,2737 @@
-# Animals
-
-## Allosaurus
-
-_Large Beast (Dinosaur), Unaligned_
-
-**AC** 13 **Initiative** +1 (11) <br>
-**HP** 51 (6d10 + 18) <br>
-**Speed** 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>19</td>
-      <td>+4</td>
-      <td>+4</td>
-      <td><strong>DEX</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +5<br>
-**Senses** Passive Perception 15<br>
-**Languages** None<br>
-**CR** 2 (XP 450; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 15 (2d10 + 4) Piercing damage.
-
-**_Claws._** _Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 8 (1d8 + 4) Slashing damage. If the target is a Large or smaller creature and the allosaurus moved 30+ feet straight toward it immediately before the hit, the target has the Prone condition, and the allosaurus can make one Bite attack against it.
-
-## Ankylosaurus
-
-_Huge Beast (Dinosaur), Unaligned_
-
-**AC** 15 **Initiative** +0 (10) <br>
-**HP** 68 (8d12 + 16) <br>
-**Speed** 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>19</td>
-      <td>+4</td>
-      <td>+6</td>
-      <td><strong>DEX</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 11<br>
-**Languages** None<br>
-**CR** 3 (XP 700; PB +2)
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The ankylosaurus makes two Tail attacks.
-
-**_Tail._** _Melee Attack Roll:_ +6, reach 10 ft. _Hit:_ 9 (1d10 + 4) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.
-
-## Ape
-
-_Medium Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 19 (3d8 + 6) <br>
-**Speed** 30 ft., Climb 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Athletics +5, Perception +3<br>
-**Senses** Passive Perception 13<br>
-**Languages** None<br>
-**CR** 1/2 (XP 100; PB +2)
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The ape makes two Fist attacks.
-
-**_Fist._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 5 (1d4 + 3) Bludgeoning damage.
-
-**_Rock (Recharge 6)._** _Ranged Attack Roll:_ +5, range 25/50 ft. _Hit:_ 10 (2d6 + 3) Bludgeoning damage.
-
-## Archelon
-
-_Huge Beast (Dinosaur), Unaligned_
-
-**AC** 17 **Initiative** +3 (13) <br>
-**HP** 90 (12d12 + 12) <br>
-**Speed** 20 ft., Swim 80 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>18</td>
-      <td>+4</td>
-      <td>+4</td>
-      <td><strong>DEX</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-      <td><strong>WIS</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CHA</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Stealth +5<br>
-**Senses** Passive Perception 12<br>
-**Languages** None<br>
-**CR** 4 (XP 1,100; PB +2)
-
-### Traits
-
-<hr>
-
-**_Amphibious._** The archelon can breathe air and water.
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The archelon makes two Bite attacks.
-
-**_Bite._** _Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 14 (3d6 + 4) Piercing damage.
-
-## Baboon
-
-_Small Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 3 (1d6) <br>
-**Speed** 30 ft., Climb 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 11<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Pack Tactics._** The baboon has Advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +1, reach 5 ft. _Hit:_ 1 (1d4 − 1) Piercing damage.
-
-## Badger
-
-_Tiny Beast, Unaligned_
-
-**AC** 11 **Initiative** +0 (10) <br>
-**HP** 5 (1d4 + 3) <br>
-**Speed** 20 ft., Burrow 5 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>DEX</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3<br>
-**Resistances** Poison<br>
-**Senses** Darkvision 30 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +2, reach 5 ft. _Hit:_ 1 Piercing damage.
-
-## Bat
-
-_Tiny Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 1 (1d4 − 1) <br>
-**Speed** 5 ft., Fly 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Blindsight 60 ft.; Passive Perception 11<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 1 Piercing damage.
-
-## Black Bear
-
-_Medium Beast, Unaligned_
-
-**AC** 11 **Initiative** +1 (11) <br>
-**HP** 19 (3d8 + 6) <br>
-**Speed** 30 ft., Climb 30 ft., Swim 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +5<br>
-**Senses** Darkvision 60 ft.; Passive Perception 15<br>
-**Languages** None<br>
-**CR** 1/2 (XP 100; PB +2)
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The bear makes two Rend attacks.
-
-**_Rend._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 5 (1d6 + 2) Slashing damage.
-
-## Blood Hawk
-
-_Small Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 7 (2d6) <br>
-**Speed** 10 ft., Fly 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +6<br>
-**Senses** Passive Perception 16<br>
-**Languages** None<br>
-**CR** 1/8 (XP 25; PB +2)
-
-### Traits
-
-<hr>
-
-**_Pack Tactics._** The hawk has Advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.
-
-### Actions
-
-<hr>
-
-**_Beak._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 4 (1d4 + 2) Piercing damage, or 6 (1d8 + 2) Piercing damage if the target is Bloodied.
-
-## Boar
-
-_Medium Beast, Unaligned_
-
-**AC** 11 **Initiative** +0 (10) <br>
-**HP** 13 (2d8 + 4) <br>
-**Speed** 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>DEX</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>9</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 9<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Traits
-
-<hr>
-
-**_Bloodied Fury._** While Bloodied, the boar has Advantage on attack rolls.
-
-### Actions
-
-<hr>
-
-**_Gore._** _Melee Attack Roll:_ +3, reach 5 ft. _Hit:_ 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Piercing damage and has the Prone condition.
-
-## Brown Bear
-
-_Large Beast, Unaligned_
-
-**AC** 11 **Initiative** +1 (11) <br>
-**HP** 22 (3d10 + 6) <br>
-**Speed** 40 ft., Climb 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>DEX</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3<br>
-**Senses** Darkvision 60 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 1 (XP 200; PB +2)
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The bear makes one Bite attack and one Claw attack.
-
-**_Bite._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 7 (1d8 + 3) Piercing damage.
-
-**_Claw._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.
-
-## Camel
-
-_Large Beast, Unaligned_
-
-**AC** 10 **Initiative** −1 (9) <br>
-**HP** 17 (2d10 + 6) <br>
-**Speed** 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CON</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+5</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Darkvision 60 ft.; Passive Perception 10<br>
-**Languages** None<br>
-**CR** 1/8 (XP 25; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 4 (1d4 + 2) Bludgeoning damage.
-
-## Cat
-
-_Tiny Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 2 (1d4) <br>
-**Speed** 40 ft., Climb 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+4</td>
-      <td><strong>CON</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3, Stealth +4<br>
-**Senses** Darkvision 60 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Jumper._** The cat's jump distance is determined using its Dexterity rather than its Strength.
-
-### Actions
-
-<hr>
-
-**_Scratch._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 1 Slashing damage.
-
-## Constrictor Snake
-
-_Large Beast, Unaligned_
-
-**AC** 13 **Initiative** +2 (12) <br>
-**HP** 13 (2d10 + 2) <br>
-**Speed** 30 ft., Swim 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +2, Stealth +4<br>
-**Senses** Blindsight 10 ft.; Passive Perception 12<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 6 (1d8 + 2) Piercing damage.
-
-**_Constrict._** _Strength Saving Throw:_ DC 12, one Medium or smaller creature the snake can see within 5 feet. _Failure:_ 7 (3d4) Bludgeoning damage, and the target has the Grappled condition (escape DC 12).
-
-## Crab
-
-_Tiny Beast, Unaligned_
-
-**AC** 11 **Initiative** +0 (10) <br>
-**HP** 3 (1d4 + 1) <br>
-**Speed** 20 ft., Swim 20 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>DEX</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CHA</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Stealth +2<br>
-**Senses** Blindsight 30 ft.; Passive Perception 9<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Amphibious._** The crab can breathe air and water.
-
-### Actions
-
-<hr>
-
-**_Claw._** _Melee Attack Roll:_ +2, reach 5 ft. _Hit:_ 1 Bludgeoning damage.
-
-## Crocodile
-
-_Large Beast, Unaligned_
-
-**AC** 12 **Initiative** +0 (10) <br>
-**HP** 13 (2d10 + 2) <br>
-**Speed** 20 ft., Swim 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Stealth +2<br>
-**Senses** Passive Perception 10<br>
-**Languages** None<br>
-**CR** 1/2 (XP 100; PB +2)
-
-### Traits
-
-<hr>
-
-**_Hold Breath._** The crocodile can hold its breath for 1 hour.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition.
-
-## Deer
-
-_Medium Beast, Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 4 (1d8) <br>
-**Speed** 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>DEX</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +4<br>
-**Senses** Darkvision 60 ft.; Passive Perception 14<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Agile._** The deer doesn't provoke an Opportunity Attack when it moves out of an enemy's reach.
-
-### Actions
-
-<hr>
-
-**_Ram._** _Melee Attack Roll:_ +2, reach 5 ft. _Hit:_ 2 (1d4) Bludgeoning damage.
-
-## Dire Wolf
-
-_Large Beast, Unaligned_
-
-**AC** 14 **Initiative** +2 (12) <br>
-**HP** 22 (3d10 + 6) <br>
-**Speed** 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +5, Stealth +4<br>
-**Senses** Darkvision 60 ft.; Passive Perception 15<br>
-**Languages** None<br>
-**CR** 1 (XP 200; PB +2)
-
-### Traits
-
-<hr>
-
-**_Pack Tactics._** The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 8 (1d10 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.
-
-## Draft Horse
-
-_Large Beast, Unaligned_
-
-**AC** 10 **Initiative** +0 (10) <br>
-**HP** 15 (2d10 + 4) <br>
-**Speed** 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>18</td>
-      <td>+4</td>
-      <td>+4</td>
-      <td><strong>DEX</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 10<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Actions
-
-<hr>
-
-**_Hooves._** _Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 6 (1d4 + 4) Bludgeoning damage.
-
-## Eagle
-
-_Small Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 4 (1d6 + 1) <br>
-**Speed** 10 ft., Fly 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +6<br>
-**Senses** Passive Perception 16<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Actions
-
-<hr>
-
-**_Talons._** _Melee Attack Roll:_ +4, reach 5 feet. _Hit:_ 4 (1d4 + 2) Slashing damage.
-
-## Elephant
-
-_Huge Beast, Unaligned_
-
-**AC** 12 **Initiative** −1 (9) <br>
-**HP** 76 (8d12 + 24) <br>
-**Speed** 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>22</td>
-      <td>+6</td>
-      <td>+6</td>
-      <td><strong>DEX</strong></td>
-      <td>9</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CON</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 10<br>
-**Languages** None<br>
-**CR** 4 (XP 1,100; PB +2)
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The elephant makes two Gore attacks.
-
-**_Gore._** _Melee Attack Roll:_ +8, reach 5 ft. _Hit:_ 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.
-
-### Bonus Actions
-
-<hr>
-
-**_Trample._** _Dexterity Saving Throw:_ DC 16, one creature within 5 feet that has the Prone condition. _Failure:_ 17 (2d10 + 6) Bludgeoning damage. _Success:_ Half damage.
-
-## Elk
-
-_Large Beast, Unaligned_
-
-**AC** 10 **Initiative** +0 (10) <br>
-**HP** 11 (2d10) <br>
-**Speed** 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>DEX</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +2<br>
-**Senses** Darkvision 60 ft.; Passive Perception 12<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Actions
-
-<hr>
-
-**_Ram._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition.
-
-## Flying Snake
-
-_Tiny Monstrosity, Unaligned_
-
-**AC** 14 **Initiative** +2 (12) <br>
-**HP** 5 (2d4) <br>
-**Speed** 30 ft., Fly 60 ft., Swim 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Blindsight 10 ft.; Passive Perception 11<br>
-**Languages** None<br>
-**CR** 1/8 (XP 25; PB +2)
-
-### Traits
-
-<hr>
-
-**_Flyby._** The snake doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 1 Piercing damage plus 5 (2d4) Poison damage.
-
-## Frog
-
-_Tiny Beast, Unaligned_
-
-**AC** 11 **Initiative** +1 (11) <br>
-**HP** 1 (1d4 − 1) <br>
-**Speed** 20 ft., Swim 20 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>DEX</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +1, Stealth +3<br>
-**Senses** Darkvision 30 ft.; Passive Perception 11<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Amphibious._** The frog can breathe air and water.
-
-**_Standing Leap._** The frog's Long Jump is up to 10 feet and its High Jump is up to 5 feet with or without a running start.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +3, reach 5 ft. _Hit:_ 1 Piercing damage.
-
-## Giant Ape
-
-_Huge Beast, Unaligned_
-
-**AC** 12 **Initiative** +5 (15) <br>
-**HP** 168 (16d12 + 64) <br>
-**Speed** 40 ft., Climb 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>23</td>
-      <td>+6</td>
-      <td>+6</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>18</td>
-      <td>+4</td>
-      <td>+4</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Athletics +9, Perception +4, Survival +4<br>
-**Senses** Passive Perception 14<br>
-**Languages** None<br>
-**CR** 7 (XP 2,900; PB +3)
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The ape makes two Fist attacks.
-
-**_Fist._** _Melee Attack Roll:_ +9, reach 10 ft. _Hit:_ 22 (3d10 + 6) Bludgeoning damage.
-
-**_Boulder Toss (Recharge 6)._** The ape hurls a boulder at a point it can see within 90 feet. _Dexterity Saving Throw:_ DC 17, each creature in a 5-foot-radius Sphere centered on that point. _Failure:_ 24 (7d6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition. _Success:_ Half damage only.
-
-### Bonus Actions
-
-<hr>
-
-**_Leap._** The ape jumps up to 30 feet by spending 10 feet of movement.
-
-## Giant Badger
-
-_Medium Beast, Unaligned_
-
-**AC** 13 **Initiative** +0 (10) <br>
-**HP** 15 (2d8 + 6) <br>
-**Speed** 30 ft., Burrow 10 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>DEX</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3<br>
-**Resistances** Poison<br>
-**Senses** Darkvision 60 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +3, reach 5 ft. _Hit:_ 6 (2d4 + 1) Piercing damage.
-
-## Giant Bat
-
-_Large Beast, Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 22 (4d10) <br>
-**Speed** 10 ft., Fly 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Blindsight 120 ft.; Passive Perception 11<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 6 (1d6 + 3) Piercing damage.
-
-## Giant Boar
-
-_Large Beast, Unaligned_
-
-**AC** 13 **Initiative** +0 (10) <br>
-**HP** 42 (5d10 + 15) <br>
-**Speed** 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+5</td>
-      <td><strong>DEX</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 8<br>
-**Languages** None<br>
-**CR** 2 (XP 450; PB +2)
-
-### Traits
-
-<hr>
-
-**_Bloodied Fury._** The boar has Advantage on melee attack rolls while it is Bloodied.
-
-### Actions
-
-<hr>
-
-**_Gore._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.
-
-## Giant Centipede
-
-_Small Beast, Unaligned_
-
-**AC** 14 **Initiative** +2 (12) <br>
-**HP** 9 (2d6 + 2) <br>
-**Speed** 30 ft., Climb 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Blindsight 30 ft.; Passive Perception 8<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede's next turn.
-
-## Giant Constrictor Snake
-
-_Huge Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 60 (8d12 + 8) <br>
-**Speed** 30 ft., Swim 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>19</td>
-      <td>+4</td>
-      <td>+4</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +2<br>
-**Senses** Blindsight 10 ft.; Passive Perception 12<br>
-**Languages** None<br>
-**CR** 2 (XP 450; PB +2)
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The snake makes one Bite attack and uses Constrict.
-
-**_Bite._** _Melee Attack Roll:_ +6, reach 10 ft. _Hit:_ 11 (2d6 + 4) Piercing damage.
-
-**_Constrict._** _Strength Saving Throw:_ DC 14, one Large or smaller creature the snake can see within 10 feet. _Failure:_ 13 (2d8 + 4) Bludgeoning damage, and the target has the Grappled condition (escape DC 14).
-
-## Giant Crab
-
-_Medium Beast, Unaligned_
-
-**AC** 15 **Initiative** +1 (11) <br>
-**HP** 13 (3d8) <br>
-**Speed** 30 ft., Swim 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>DEX</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>9</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Stealth +3<br>
-**Senses** Blindsight 30 ft.; Passive Perception 9<br>
-**Languages** None<br>
-**CR** 1/8 (XP 25; PB +2)
-
-### Traits
-
-<hr>
-
-**_Amphibious._** The crab can breathe air and water.
-
-### Actions
-
-<hr>
-
-**_Claw._** _Melee Attack Roll:_ +3, reach 5 ft. _Hit:_ 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11) from one of two claws.
-
-## Giant Crocodile
-
-_Huge Beast, Unaligned_
-
-**AC** 14 **Initiative** −1 (9) <br>
-**HP** 85 (9d12 + 27) <br>
-**Speed** 30 ft., Swim 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>21</td>
-      <td>+5</td>
-      <td>+5</td>
-      <td><strong>DEX</strong></td>
-      <td>9</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CON</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Stealth +5<br>
-**Senses** Passive Perception 10<br>
-**Languages** None<br>
-**CR** 5 (XP 1,800; PB +3)
-
-### Traits
-
-<hr>
-
-**_Hold Breath._** The crocodile can hold its breath for 1 hour.
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The crocodile makes one Bite attack and one Tail attack.
-
-**_Bite._** _Melee Attack Roll:_ +8, reach 5 ft. _Hit:_ 21 (3d10 + 5) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 15). While Grappled, the target has the Restrained condition and can't be targeted by the crocodile's Tail.
-
-**_Tail._** _Melee Attack Roll:_ +8, reach 10 ft. _Hit:_ 18 (3d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.
-
-## Giant Eagle
-
-_Large Celestial, Neutral Good_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 26 (4d10 + 4) <br>
-**Speed** 10 ft., Fly 80 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>DEX</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>WIS</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CHA</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +6<br>
-**Resistances** Necrotic, Radiant<br>
-**Senses** Passive Perception 16<br>
-**Languages** Celestial; understands Common and Primordial (Auran) but can't speak them<br>
-**CR** 1 (XP 200; PB +2)
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The eagle makes two Rend attacks.
-
-**_Rend._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 5 (1d4 + 3) Slashing damage plus 3 (1d6) Radiant damage.
-
-## Giant Elk
-
-_Huge Celestial, Neutral Good_
-
-**AC** 14 **Initiative** +6 (16) <br>
-**HP** 42 (5d12 + 10) <br>
-**Speed** 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>19</td>
-      <td>+4</td>
-      <td>+6</td>
-      <td><strong>DEX</strong></td>
-      <td>18</td>
-      <td>+4</td>
-      <td>+6</td>
-      <td><strong>CON</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>WIS</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CHA</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +4<br>
-**Resistances** Necrotic, Radiant<br>
-**Senses** Darkvision 90 ft.; Passive Perception 14<br>
-**Languages** Celestial; understands Common, Elvish, and Sylvan but can't speak them<br>
-**CR** 2 (XP 450; PB +2)
-
-### Actions
-
-<hr>
-
-**_Ram._** _Melee Attack Roll:_ +6, reach 10 ft. _Hit:_ 11 (2d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.
-
-## Giant Fire Beetle
-
-_Small Beast, Unaligned_
-
-**AC** 13 **Initiative** +0 (10) <br>
-**HP** 4 (1d6 + 1) <br>
-**Speed** 30 ft., Climb 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>DEX</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Resistances** Fire<br>
-**Senses** Blindsight 30 ft.; Passive Perception 8<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Illumination._** The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +1, reach 5 ft. _Hit:_ 1 Fire damage.
-
-## Giant Frog
-
-_Medium Beast, Unaligned_
-
-**AC** 11 **Initiative** +1 (11) <br>
-**HP** 18 (4d8) <br>
-**Speed** 30 ft., Swim 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>DEX</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +2, Stealth +4<br>
-**Senses** Darkvision 30 ft.; Passive Perception 12<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Traits
-
-<hr>
-
-**_Amphibious._** The frog can breathe air and water.
-
-**_Standing Leap._** The frog's Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +3, reach 5 ft. _Hit:_ 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11).
-
-**_Swallow._** The frog swallows a Small or smaller target it is grappling. While swallowed, the target isn't Grappled but has the Blinded and Restrained conditions, and it has Total Cover against attacks and other effects outside the frog. While swallowing the target, the frog can't use Bite, and if the frog dies, the swallowed target is no longer Restrained and can escape from the corpse using 5 feet of movement, exiting with the Prone condition. <br>
-&emsp;At the end of the frog's next turn, the swallowed target takes 5 (2d4) Acid damage. If that damage doesn't kill it, the frog disgorges it, causing it to exit Prone.
-
-## Giant Goat
-
-_Large Beast, Unaligned_
-
-**AC** 11 **Initiative** +1 (11) <br>
-**HP** 19 (3d10 + 3) <br>
-**Speed** 40 ft., Climb 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+5</td>
-      <td><strong>DEX</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3<br>
-**Senses** Darkvision 60 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 1/2 (XP 100; PB +2)
-
-### Actions
-
-<hr>
-
-**_Ram._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the goat moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.
-
-## Giant Hyena
-
-_Large Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 45 (6d10 + 12) <br>
-**Speed** 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3<br>
-**Senses** Darkvision 60 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 1 (XP 200; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 10 (2d6 + 3) Piercing damage.
-
-### Bonus Actions
-
-<hr>
-
-**_Rampage (1/Day)._** Immediately after dealing damage to a creature that was already Bloodied, the hyena can move up to half its Speed, and it makes one Bite attack.
-
-## Giant Lizard
-
-_Large Beast, Unaligned_
-
-**AC** 12 **Initiative** +1 (11) <br>
-**HP** 19 (3d10 + 3) <br>
-**Speed** 40 ft., Climb 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Darkvision 60 ft.; Passive Perception 10<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Traits
-
-<hr>
-
-**_Spider Climb._** The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 6 (1d8 + 2) Piercing damage.
-
-## Giant Octopus
-
-_Large Beast, Unaligned_
-
-**AC** 11 **Initiative** +1 (11) <br>
-**HP** 45 (7d10 + 7) <br>
-**Speed** 10 ft., Swim 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>DEX</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +4, Stealth +5<br>
-**Senses** Darkvision 60 ft.; Passive Perception 14<br>
-**Languages** None<br>
-**CR** 1 (XP 200; PB +2)
-
-### Traits
-
-<hr>
-
-**_Water Breathing._** The octopus can breathe only underwater. It can hold its breath for 1 hour outside water.
-
-### Actions
-
-<hr>
-
-**_Tentacles._** _Melee Attack Roll:_ +5, reach 10 ft. _Hit:_ 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from all eight tentacles. While Grappled, the target has the Restrained condition.
-
-### Reactions
-
-<hr>
-
-**_Ink Cloud (1/Day)._** _Trigger:_ The octopus takes damage while underwater. _Response:_ The octopus releases ink that fills a 10-foot Cube centered on itself, and the octopus moves up to its Swim Speed. The Cube is Heavily Obscured for 1 minute or until a strong current or similar effect disperses the ink.
-
-## Giant Owl
-
-_Large Celestial, Neutral_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 19 (3d10 + 3) <br>
-**Speed** 5 ft., Fly 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>WIS</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+4</td>
-      <td><strong>CHA</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +6, Stealth +6<br>
-**Resistances** Necrotic, Radiant<br>
-**Senses** Darkvision 120 ft.; Passive Perception 16<br>
-**Languages** Celestial; understands Common, Elvish, and Sylvan but can't speak them<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Traits
-
-<hr>
-
-**_Flyby._** The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.
-
-### Actions
-
-<hr>
-
-**_Talons._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 7 (1d10 + 2) Slashing damage.
-
-**_Spellcasting._** The owl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability: <br>
-&emsp;**At Will:** _Detect Evil and Good_, _Detect Magic_ <br>
-&emsp;**1/Day:** _Clairvoyance_
-
-## Giant Rat
-
-_Small Beast, Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 7 (2d6) <br>
-**Speed** 30 ft., Climb 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>DEX</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+5</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +2<br>
-**Senses** Darkvision 60 ft.; Passive Perception 12<br>
-**Languages** None<br>
-**CR** 1/8 (XP 25; PB +2)
-
-### Traits
-
-<hr>
-
-**_Pack Tactics._** The rat has Advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +5, reach 5 feet. _Hit:_ 5 (1d4 + 3) Piercing damage.
-
-## Giant Scorpion
-
-_Large Beast, Unaligned_
-
-**AC** 15 **Initiative** +1 (11) <br>
-**HP** 52 (7d10 + 14) <br>
-**Speed** 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>DEX</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>9</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Blindsight 60 ft.; Passive Perception 9<br>
-**Languages** None<br>
-**CR** 3 (XP 700; PB +2)
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The scorpion makes two Claw attacks and one Sting attack.
-
-**_Claw._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.
-
-**_Sting._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 7 (1d8 + 3) Piercing damage plus 11 (2d10) Poison damage.
-
-## Giant Seahorse
-
-_Large Beast, Unaligned_
-
-**AC** 14 **Initiative** +1 (11) <br>
-**HP** 16 (3d10) <br>
-**Speed** 5 ft., Swim 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 11<br>
-**Languages** None<br>
-**CR** 1/2 (XP 100; PB +2)
-
-### Traits
-
-<hr>
-
-**_Water Breathing._** The seahorse can breathe only underwater.
-
-### Actions
-
-<hr>
-
-**_Ram._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 9 (2d6 + 2) Bludgeoning damage, or 11 (2d8 + 2) Bludgeoning damage if the seahorse moved 20+ feet straight toward the target immediately before the hit.
-
-### Bonus Actions
-
-<hr>
-
-**_Bubble Dash._** While underwater, the seahorse moves up to half its Swim Speed without provoking Opportunity Attacks.
-
-## Giant Shark
-
-_Huge Beast, Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 92 (8d12 + 40) <br>
-**Speed** 5 ft., Swim 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>23</td>
-      <td>+6</td>
-      <td>+6</td>
-      <td><strong>DEX</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>21</td>
-      <td>+5</td>
-      <td>+5</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3<br>
-**Senses** Blindsight 60 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 5 (XP 1,800; PB +3)
-
-### Traits
-
-<hr>
-
-**_Water Breathing._** The shark can breathe only underwater.
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The shark makes two Bite attacks.
-
-**_Bite._** _Melee Attack Roll:_ +9 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. _Hit:_ 22 (3d10 + 6) Piercing damage.
-
-## Giant Spider
-
-_Large Beast, Unaligned_
-
-**AC** 14 **Initiative** +3 (13) <br>
-**HP** 26 (4d10 + 4) <br>
-**Speed** 30 ft., Climb 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +4, Stealth +7<br>
-**Senses** Darkvision 60 ft.; Passive Perception 14<br>
-**Languages** None<br>
-**CR** 1 (XP 200; PB +2)
-
-### Traits
-
-<hr>
-
-**_Spider Climb._** The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.
-
-**_Web Walker._** The spider ignores movement restrictions caused by webs, and it knows the location of any other creature in contact with the same web.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 7 (1d8 + 3) Piercing damage plus 7 (2d6) Poison damage.
-
-**_Web (Recharge 5–6)._** _Dexterity Saving Throw:_ DC 13, one creature the spider can see within 60 feet. _Failure:_ The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage).
-
-## Giant Toad
-
-_Large Beast, Unaligned_
-
-**AC** 11 **Initiative** +1 (11) <br>
-**HP** 39 (6d10 + 6) <br>
-**Speed** 30 ft., Swim 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Darkvision 60 ft.; Passive Perception 10<br>
-**Languages** None<br>
-**CR** 1 (XP 200; PB +2)
-
-### Traits
-
-<hr>
-
-**_Amphibious._** The toad can breathe air and water.
-
-**_Standing Leap._** The toad's Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12).
-
-**_Swallow._** The toad swallows a Medium or smaller target it is grappling. While swallowed, the target isn't Grappled but has the Blinded and Restrained conditions, and it has Total Cover against attacks and other effects outside the toad. In addition, the target takes 10 (3d6) Acid damage at the end of each of the toad's turns. The <br>
-&emsp;toad can have only one target swallowed at a time, and it can't use Bite while it has a swallowed target. If the toad dies, a swallowed creature is no longer Restrained and can escape from the corpse using 5 feet of movement, exiting with the Prone condition.
-
-## Giant Venomous Snake
-
-_Medium Beast, Unaligned_
-
-**AC** 14 **Initiative** +4 (14) <br>
-**HP** 11 (2d8 + 2) <br>
-**Speed** 40 ft., Swim 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>DEX</strong></td>
-      <td>18</td>
-      <td>+4</td>
-      <td>+4</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +2<br>
-**Senses** Blindsight 10 ft.; Passive Perception 12<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +6, reach 10 ft. _Hit:_ 6 (1d4 + 4) Piercing damage plus 4 (1d8) Poison damage.
-
-## Giant Vulture
-
-_Large Monstrosity, Neutral Evil_
-
-**AC** 10 **Initiative** +0 (10) <br>
-**HP** 25 (3d10 + 9) <br>
-**Speed** 10 ft., Fly 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3<br>
-**Resistances** Necrotic<br>
-**Senses** Darkvision 60 ft.; Passive Perception 13<br>
-**Languages** Understands Common but can't speak<br>
-**CR** 1 (XP 200; PB +2)
-
-### Traits
-
-<hr>
-
-**_Pack Tactics._** The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.
-
-### Actions
-
-<hr>
-
-**_Gouge._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 9 (2d6 + 2) Piercing damage, and the target has the Poisoned condition until the end of its next turn.
-
-## Giant Wasp
-
-_Medium Beast, Unaligned_
-
-**AC** 13 **Initiative** +2 (12) <br>
-**HP** 22 (5d8) <br>
-**Speed** 10 ft., Fly 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 10<br>
-**Languages** None<br>
-**CR** 1/2 (XP 100; PB +2)
-
-### Traits
-
-<hr>
-
-**_Flyby._** The wasp doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.
-
-### Actions
-
-<hr>
-
-**_Sting._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage.
-
-## Giant Weasel
-
-_Medium Beast, Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 9 (2d8) <br>
-**Speed** 40 ft., Climb 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>DEX</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Acrobatics +5, Perception +3, Stealth +5<br>
-**Senses** Darkvision 60 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 1/8 (XP 25; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 5 (1d4 + 3) Piercing damage.
-
-## Giant Wolf Spider
-
-_Medium Beast, Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 11 (2d8 + 2) <br>
-**Speed** 40 ft., Climb 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>DEX</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3, Stealth +7<br>
-**Senses** Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Traits
-
-<hr>
-
-**_Spider Climb._** The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage.
-
-## Goat
-
-_Medium Beast, Unaligned_
-
-**AC** 10 **Initiative** +0 (10) <br>
-**HP** 4 (1d8) <br>
-**Speed** 40 ft., Climb 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +2<br>
-**Senses** Darkvision 60 ft.; Passive Perception 12<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Actions
-
-<hr>
-
-**_Ram._** _Melee Attack Roll:_ +2, reach 5 ft. _Hit:_ 1 Bludgeoning damage, or 2 (1d4) Bludgeoning damage if the goat moved 20+ feet straight toward the target immediately before the hit.
-
-## Hawk
-
-_Tiny Beast, Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 1 (1d4 − 1) <br>
-**Speed** 10 ft., Fly 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-      <td><strong>DEX</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CHA</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +6<br>
-**Senses** Passive Perception 16<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Actions
-
-<hr>
-
-**_Talons._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 1 Slashing damage.
-
-## Hippopotamus
-
-_Large Beast, Unaligned_
-
-**AC** 14 **Initiative** −2 (8) <br>
-**HP** 82 (11d10 + 22) <br>
-**Speed** 30 ft., Swim 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>21</td>
-      <td>+5</td>
-      <td>+7</td>
-      <td><strong>DEX</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>CON</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3<br>
-**Senses** Passive Perception 13<br>
-**Languages** None<br>
-**CR** 4 (XP 1,100; PB +2)
-
-### Traits
-
-<hr>
-
-**_Hold Breath._** The hippopotamus can hold its breath for 10 minutes.
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The hippopotamus makes two Bite attacks.
-
-**_Bite._** _Melee Attack Roll:_ +7, reach 5 ft. _Hit:_ 16 (2d10 + 5) Piercing damage.
-
-## Hunter Shark
-
-_Large Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 45 (6d10 + 12) <br>
-**Speed** 5 ft., Swim 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>18</td>
-      <td>+4</td>
-      <td>+4</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +2<br>
-**Senses** Blindsight 60 ft.; Passive Perception 12<br>
-**Languages** None<br>
-**CR** 2 (XP 450; PB +2)
-
-### Traits
-
-<hr>
-
-**_Water Breathing._** The shark can breathe only underwater.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +6 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. _Hit:_ 14 (3d6 + 4) Piercing damage.
-
-## Hyena
-
-_Medium Beast, Unaligned_
-
-**AC** 11 **Initiative** +1 (11) <br>
-**HP** 5 (1d8 + 1) <br>
-**Speed** 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>DEX</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3<br>
-**Senses** Darkvision 60 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Pack Tactics._** The hyena has Advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +2, reach 5 ft. _Hit:_ 3 (1d6) Piercing damage.
-
-## Jackal
-
-_Small Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 3 (1d6) <br>
-**Speed** 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +5, Stealth +4<br>
-**Senses** Darkvision 90 ft.; Passive Perception 15<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +1, reach 5 ft. _Hit:_ 1 (1d4 − 1) Piercing damage.
-
-## Killer Whale
-
-_Huge Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 90 (12d12 + 12) <br>
-**Speed** 5 ft., Swim 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>19</td>
-      <td>+4</td>
-      <td>+4</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3, Stealth +4<br>
-**Senses** Blindsight 120 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 3 (XP 700; PB +2)
-
-### Traits
-
-<hr>
-
-**_Hold Breath._** The whale can hold its breath for 30 minutes.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 21 (5d6 + 4) Piercing damage.
-
-## Lion
-
-_Large Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 22 (4d10) <br>
-**Speed** 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3, Stealth +4<br>
-**Senses** Darkvision 60 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 1 (XP 200; PB +2)
-
-### Traits
-
-<hr>
-
-**_Pack Tactics._** The lion has Advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.
-
-**_Running Leap._** With a 10-foot running start, the lion can Long Jump up to 25 feet.
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The lion makes two Rend attacks. It can replace one attack with a use of Roar.
-
-**_Rend._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 7 (1d8 + 3) Slashing damage.
-
-**_Roar._** _Wisdom Saving Throw:_ DC 11, one creature within 15 feet. _Failure:_ The target has the Frightened condition until the start of the lion's next turn.
-
-## Lizard
-
-_Tiny Beast, Unaligned_
-
-**AC** 10 **Initiative** +0 (10) <br>
-**HP** 2 (1d4) <br>
-**Speed** 20 ft., Climb 20 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>DEX</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Darkvision 30 ft.; Passive Perception 9<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Spider Climb._** The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +2, reach 5 ft. _Hit:_ 1 Piercing damage.
-
-## Mammoth
-
-_Huge Beast, Unaligned_
-
-**AC** 13 **Initiative** +2 (12) <br>
-**HP** 126 (11d12 + 55) <br>
-**Speed** 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>24</td>
-      <td>+7</td>
-      <td>+10</td>
-      <td><strong>DEX</strong></td>
-      <td>9</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CON</strong></td>
-      <td>21</td>
-      <td>+5</td>
-      <td>+8</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 10<br>
-**Languages** None<br>
-**CR** 6 (XP 2,300; PB +3)
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The mammoth makes two Gore attacks.
-
-**_Gore._** _Melee Attack Roll:_ +10, reach 10 ft. _Hit:_ 18 (2d10 + 7) Piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.
-
-### Bonus Actions
-
-<hr>
-
-**_Trample._** _Dexterity Saving Throw:_ DC 18, one creature within 5 feet that has the Prone condition. _Failure:_ 29 (4d10 + 7) Bludgeoning damage. _Success:_ Half damage.
-
-## Mastiff
-
-_Medium Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 5 (1d8 + 1) <br>
-**Speed** 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+3</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +5<br>
-**Senses** Darkvision 60 ft.; Passive Perception 15<br>
-**Languages** None<br>
-**CR** 1/8 (XP 25; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +3, reach 5 ft. _Hit:_ 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.
-
-## Mule
-
-_Medium Beast, Unaligned_
-
-**AC** 10 **Initiative** +0 (10) <br>
-**HP** 11 (2d8 + 2) <br>
-**Speed** 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+4</td>
-      <td><strong>DEX</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 10<br>
-**Languages** None<br>
-**CR** 1/8 (XP 25; PB +2)
-
-### Traits
-
-<hr>
-
-**_Beast of Burden._** The mule counts as one size larger for the purpose of determining its carrying capacity.
-
-### Actions
-
-<hr>
-
-**_Hooves._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 4 (1d4 + 2) Bludgeoning damage.
-
-## Octopus
-
-_Small Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 3 (1d6) <br>
-**Speed** 5 ft., Swim 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>4</td>
-      <td>-3</td>
-      <td>-3</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>-4</td>
-      <td>-4</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>4</td>
-      <td>-3</td>
-      <td>-3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +2, Stealth +6<br>
-**Senses** Darkvision 30 ft.; Passive Perception 12<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Compression._** The octopus can move through a space as narrow as 1 inch without expending extra movement to do so.
-
-**_Water Breathing._** The octopus can breathe only underwater.
-
-### Actions
-
-<hr>
-
-**_Tentacles._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 1 Bludgeoning damage.
-
-### Reactions
-
-<hr>
-
-**_Ink Cloud (1/Day)._** _Trigger:_ A creature ends its turn within 5 feet of the octopus while underwater. _Response:_ The octopus releases ink that fills a 5-foot Cube centered on itself, and the octopus moves up to its Swim Speed. The Cube is Heavily Obscured for 1 minute or until a strong current or similar effect disperses the ink.
-
-## Owl
-
-_Tiny Beast, Unaligned_
-
-**AC** 11 **Initiative** +1 (11) <br>
-**HP** 1 (1d4 − 1) <br>
-**Speed** 5 ft., Fly 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>3</td>
-      <td>-4</td>
-      <td>-4</td>
-      <td><strong>DEX</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>8</td>
-      <td>-1</td>
-      <td>-1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>-4</td>
-      <td>-4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>-2</td>
-      <td>-2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +5, Stealth +5<br>
-**Senses** Darkvision 120 ft.; Passive Perception 15<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Flyby._** The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.
-
-### Actions
-
-<hr>
-
-**_Talons._** _Melee Attack Roll:_ +3, reach 5 ft. _Hit:_ 1 Slashing damage.
-
-## Panther
-
-_Medium Beast, Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 13 (3d8) <br>
-**Speed** 50 ft., Climb 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>-4</td>
-      <td>-4</td>
-      <td><strong>WIS</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>-2</td>
-      <td>-2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +4, Stealth +7<br>
-**Senses** Darkvision 60 ft.; Passive Perception 14<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Actions
-
-<hr>
-
-**_Rend._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 6 (1d6 + 3) Slashing damage.
-
-### Bonus Actions
-
-<hr>
-
-**_Nimble Escape._** The panther takes the Disengage or Hide action.
-
-## Piranha
-
-_Tiny Beast, Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 1 (1d4 − 1) <br>
-**Speed** 5 ft., Swim 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>2</td>
-      <td>-4</td>
-      <td>-4</td>
-      <td><strong>DEX</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>9</td>
-      <td>-1</td>
-      <td>-1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>-5</td>
-      <td>-5</td>
-      <td><strong>WIS</strong></td>
-      <td>7</td>
-      <td>-2</td>
-      <td>-2</td>
-      <td><strong>CHA</strong></td>
-      <td>2</td>
-      <td>-4</td>
-      <td>-4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Darkvision 60 ft.; Passive Perception 8<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Water Breathing._** The piranha can breathe only underwater.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. _Hit:_ 1 Piercing damage.
-
-## Plesiosaurus
-
-_Large Beast (Dinosaur), Unaligned_
-
-**AC** 13 **Initiative** +2 (12) <br>
-**HP** 68 (8d10 + 24) <br>
-**Speed** 20 ft., Swim 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>18</td>
-      <td>+4</td>
-      <td>+4</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>-4</td>
-      <td>-4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>-3</td>
-      <td>-3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3, Stealth +4<br>
-**Senses** Passive Perception 13<br>
-**Languages** None<br>
-**CR** 2 (XP 450; PB +2)
-
-### Traits
-
-<hr>
-
-**_Hold Breath._** The plesiosaurus can hold its breath for 1 hour.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +6, reach 10 ft. _Hit:_ 11 (2d6 + 4) Piercing damage.
-
-## Polar Bear
-
-_Large Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 42 (5d10 + 15) <br>
-**Speed** 40 ft., Swim 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>20</td>
-      <td>+5</td>
-      <td>+5</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +5, Stealth +4<br>
-**Resistances** Cold<br>
-**Senses** Darkvision 60 ft.; Passive Perception 15<br>
-**Languages** None<br>
-**CR** 2 (XP 450; PB +2)
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The bear makes two Rend attacks.
-
-**_Rend._** _Melee Attack Roll:_ +7, reach 5 ft. _Hit:_ 9 (1d8 + 5) Slashing damage.
-
-## Pony
-
-_Medium Beast, Unaligned_
-
-**AC** 10 **Initiative** +0 (10) <br>
-**HP** 11 (2d8 + 2) <br>
-**Speed** 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+4</td>
-      <td><strong>DEX</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 10<br>
-**Languages** None<br>
-**CR** 1/8 (XP 25; PB +2)
-
-### Actions
-
-<hr>
-
-**_Hooves._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 4 (1d4 + 2) Bludgeoning damage.
-
-## Pteranodon
-
-_Medium Beast (Dinosaur), Unaligned_
-
-**AC** 13 **Initiative** +2 (12) <br>
-**HP** 13 (3d8) <br>
-**Speed** 10 ft., Fly 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>9</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +1<br>
-**Senses** Passive Perception 11<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Traits
-
-<hr>
-
-**_Flyby._** The pteranodon doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 6 (1d8 + 2) Piercing damage.
-
-## Rat
-
-_Tiny Beast, Unaligned_
-
-**AC** 10 **Initiative** +0 (10) <br>
-**HP** 1 (1d4 − 1) <br>
-**Speed** 20 ft., Climb 20 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>DEX</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>9</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +2<br>
-**Senses** Darkvision 30 ft.; Passive Perception 12<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Agile._** The rat doesn't provoke an Opportunity Attack when it moves out of an enemy's reach.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +2, reach 5 ft. _Hit:_ 1 Piercing damage.
-
-## Raven
-
-_Tiny Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 2 (1d4) <br>
-**Speed** 10 ft., Fly 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-      <td><strong>WIS</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3<br>
-**Senses** Passive Perception 13<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Mimicry._** The raven can mimic simple sounds it has heard, such as a whisper or chitter. A hearer can discern the sounds are imitations with a successful DC 10 Wisdom (Insight) check.
-
-### Actions
-
-<hr>
-
-**_Beak._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 1 Piercing damage.
-
-## Reef Shark
-
-_Medium Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 22 (4d8 + 4) <br>
-**Speed** 5 ft., Swim 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +2<br>
-**Senses** Blindsight 30 ft.; Passive Perception 12<br>
-**Languages** None<br>
-**CR** 1/2 (XP 100; PB +2)
-
-### Traits
-
-<hr>
-
-**_Pack Tactics._** The shark has Advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.
-
-**_Water Breathing._** The shark can breathe only underwater.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 7 (2d4 + 2) Piercing damage.
-
-## Rhinoceros
-
-_Large Beast, Unaligned_
-
-**AC** 13 **Initiative** −1 (9) <br>
-**HP** 45 (6d10 + 12) <br>
-**Speed** 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>21</td>
-      <td>+5</td>
-      <td>+5</td>
-      <td><strong>DEX</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CON</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 11<br>
-**Languages** None<br>
-**CR** 2 (XP 450; PB +2)
-
-### Actions
-
-<hr>
-
-**_Gore._** _Melee Attack Roll:_ +7, reach 5 ft. _Hit:_ 14 (2d8 + 5) Piercing damage. If target is a Large or smaller creature and the rhinoceros moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition.
-
-## Riding Horse
-
-_Large Beast, Unaligned_
-
-**AC** 11 **Initiative** +1 (11) <br>
-**HP** 13 (2d10 + 2) <br>
-**Speed** 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>DEX</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 10<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Actions
-
-<hr>
-
-**_Hooves._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 7 (1d8 + 3) Bludgeoning damage.
-
-## Saber-Toothed Tiger
-
-_Large Beast, Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 52 (7d10 + 14) <br>
-**Speed** 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>18</td>
-      <td>+4</td>
-      <td>+6</td>
-      <td><strong>DEX</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+5</td>
-      <td><strong>CON</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +5, Stealth +7<br>
-**Senses** Darkvision 60 ft.; Passive Perception 15<br>
-**Languages** None<br>
-**CR** 2 (XP 450; PB +2)
-
-### Traits
-
-<hr>
-
-**_Running Leap._** With a 10-foot running start, the tiger can Long Jump up to 25 feet.
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The tiger makes two Rend attacks.
-
-**_Rend._** _Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 11 (2d6 + 4) Slashing damage.
-
-### Bonus Actions
-
-<hr>
-
-**_Nimble Escape._** The tiger takes the Disengage or Hide action.
-
-## Scorpion
-
-_Tiny Beast, Unaligned_
-
-**AC** 11 **Initiative** +0 (10) <br>
-**HP** 1 (1d4 − 1) <br>
-**Speed** 10 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>DEX</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CHA</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Blindsight 10 ft.; Passive Perception 9<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Actions
-
-<hr>
-
-**_Sting._** _Melee Attack Roll:_ +2, reach 5 ft. _Hit:_ 1 Piercing damage plus 3 (1d6) Poison damage.
-
-## Seahorse
-
-_Tiny Beast, Unaligned_
-
-**AC** 12 **Initiative** +1 (11) <br>
-**HP** 1 (1d4 − 1) <br>
-**Speed** 5 ft., Swim 20 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>DEX</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +2, Stealth +5<br>
-**Senses** Passive Perception 12<br>
-**Languages** None<br>
-**CR** 0 (XP 0; PB +2)
-
-### Traits
-
-<hr>
-
-**_Water Breathing._** The seahorse can breathe only underwater.
-
-### Actions
-
-<hr>
-
-**_Bubble Dash._** While underwater, the seahorse moves up to its Swim Speed without provoking Opportunity Attacks.
-
-## Spider
-
-_Tiny Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 1 (1d4 − 1) <br>
-**Speed** 20 ft., Climb 20 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Stealth +4<br>
-**Senses** Darkvision 30 ft.; Passive Perception 10<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Spider Climb._** The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.
-
-**_Web Walker._** The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 1 Piercing damage plus 2 (1d4) Poison damage.
-
-## Swarm of Bats
-
-_Large Swarm of Tiny Beasts, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 11 (2d10) <br>
-**Speed** 5 ft., Fly 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Resistances** Bludgeoning, Piercing, Slashing<br>
-**Immunities** Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned<br>
-**Senses** Blindsight 60 ft.; Passive Perception 11<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Traits
-
-<hr>
-
-**_Swarm._** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain Hit Points or gain Temporary Hit Points.
-
-### Actions
-
-<hr>
-
-**_Bites._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 5 (2d4) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied.
-
-## Swarm of Insects
-
-_Medium Swarm of Tiny Beasts, Unaligned_
-
-**AC** 11 **Initiative** +1 (11) <br>
-**HP** 19 (3d8 + 6) <br>
-**Speed** 20 ft., Climb or Fly 20 ft. (GM's choice) <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>DEX</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>CHA</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-    </tr>
-  </tbody>
-</table>
-
-**Resistances** Bludgeoning, Piercing, Slashing<br>
-**Immunities** Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned<br>
-**Senses** Blindsight 30 ft.; Passive Perception 8<br>
-**Languages** None<br>
-**CR** 1/2 (XP 100; PB +2)
-
-### Traits
-
-<hr>
-
-**_Spider Climb._** If the swarm has a Climb Speed, the swarm can climb difficult surfaces, including along ceilings, without needing to make an ability check.
-
-**_Swarm._** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain Hit Points or gain Temporary Hit Points.
-
-### Actions
-
-<hr>
-
-**_Bites._** _Melee Attack Roll:_ +3, reach 5 ft. _Hit:_ 6 (2d4 + 1) Poison damage, or 3 (1d4 + 1) Poison damage if the swarm is Bloodied.
-
-## Swarm of Piranhas
-
-_Medium Swarm of Tiny Beasts, Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 28 (8d8 − 8) <br>
-**Speed** 5 ft., Swim 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>DEX</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>9</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>CHA</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Resistances** Bludgeoning, Piercing, Slashing<br>
-**Immunities** Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned<br>
-**Senses** Darkvision 60 ft.; Passive Perception 8<br>
-**Languages** None<br>
-**CR** 1 (XP 200; PB +2)
-
-### Traits
-
-<hr>
-
-**_Swarm._** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny piranha. The swarm can't regain Hit Points or gain Temporary Hit Points.
-
-**_Water Breathing._** The swarm can breathe only underwater.
-
-### Actions
-
-<hr>
-
-**_Bites._** _Melee Attack Roll:_ +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. _Hit:_ 8 (2d4 + 3) Piercing damage, or 5 (1d4 + 3) Piercing damage if the swarm is Bloodied.
-
-## Swarm of Rats
-
-_Medium Swarm of Tiny Beasts, Unaligned_
-
-**AC** 10 **Initiative** +0 (10) <br>
-**HP** 14 (4d8 − 4) <br>
-**Speed** 30 ft., Climb 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>9</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>DEX</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>9</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Resistances** Bludgeoning, Piercing, Slashing<br>
-**Immunities** Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned<br>
-**Senses** Darkvision 30 ft.; Passive Perception 10<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Traits
-
-<hr>
-
-**_Swarm._** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain Hit Points or gain Temporary Hit Points.
-
-### Actions
-
-<hr>
-
-**_Bites._** _Melee Attack Roll:_ +2, reach 5 ft. _Hit:_ 5 (2d4) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied.
-
-## Swarm of Ravens
-
-_Medium Swarm of Tiny Beasts, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 11 (2d8 + 2) <br>
-**Speed** 10 ft., Fly 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>DEX</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +5<br>
-**Resistances** Bludgeoning, Piercing, Slashing<br>
-**Immunities** Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned<br>
-**Senses** Passive Perception 15<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Traits
-
-<hr>
-
-**_Swarm._** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can't regain Hit Points or gain Temporary Hit Points.
-
-### Actions
-
-<hr>
-
-**_Beaks._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 5 (1d6 + 2) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied.
-
-**_Cacophony (Recharge 6)._** _Wisdom Saving Throw:_ DC 10, one creature in the swarm's space. _Failure:_ The target has the Deafened condition until the start of the swarm's next turn. While Deafened, the target also has Disadvantage on ability checks and attack rolls.
-
-## Swarm of Venomous Snakes
-
-_Medium Swarm of Tiny Beasts, Unaligned_
-
-**AC** 14 **Initiative** +4 (14) <br>
-**HP** 36 (8d8) <br>
-**Speed** 30 ft., Swim 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>DEX</strong></td>
-      <td>18</td>
-      <td>+4</td>
-      <td>+4</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Resistances** Bludgeoning, Piercing, Slashing<br>
-**Immunities** Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned<br>
-**Senses** Blindsight 10 ft.; Passive Perception 10<br>
-**Languages** None<br>
-**CR** 2 (XP 450; PB +2)
-
-### Traits
-
-<hr>
-
-**_Swarm._** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain Hit Points or gain Temporary Hit Points.
-
-### Actions
-
-<hr>
-
-**_Bites._** _Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 8 (1d8 + 4) Piercing damage—or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied—plus 10 (3d6) Poison damage.
-
-## Tiger
-
-_Large Beast, Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 30 (4d10 + 8) <br>
-**Speed** 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>DEX</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3, Stealth +7<br>
-**Senses** Darkvision 60 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 1 (XP 200; PB +2)
-
-### Actions
-
-<hr>
-
-**_Rend._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 10 (2d6 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.
-
-### Bonus Actions
-
-<hr>
-
-**_Nimble Escape._** The tiger takes the Disengage or Hide action.
-
-## Triceratops
-
-_Huge Beast (Dinosaur), Unaligned_
-
-**AC** 14 **Initiative** −1 (9) <br>
-**HP** 114 (12d12 + 36) <br>
-**Speed** 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>22</td>
-      <td>+6</td>
-      <td>+6</td>
-      <td><strong>DEX</strong></td>
-      <td>9</td>
-      <td>−1</td>
-      <td>−1</td>
-      <td><strong>CON</strong></td>
-      <td>17</td>
-      <td>+3</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>5</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 10<br>
-**Languages** None<br>
-**CR** 5 (XP 1,800; PB +3)
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The triceratops makes two Gore attacks.
-
-**_Gore._** _Melee Attack Roll:_ +9, reach 5 ft. _Hit:_ 19 (2d12 + 6) Piercing damage. If the target is Huge or smaller and the triceratops moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition.
-
-## Tyrannosaurus Rex
-
-_Huge Beast (Dinosaur), Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 136 (13d12 + 52) <br>
-**Speed** 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>25</td>
-      <td>+7</td>
-      <td>+10</td>
-      <td><strong>DEX</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>19</td>
-      <td>+4</td>
-      <td>+4</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+4</td>
-      <td><strong>CHA</strong></td>
-      <td>9</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +4<br>
-**Senses** Passive Perception 14<br>
-**Languages** None<br>
-**CR** 8 (XP 3,900; PB +3)
-
-### Actions
-
-<hr>
-
-**_Multiattack._** The tyrannosaurus makes one Bite attack and one Tail attack.
-
-**_Bite._** _Melee Attack Roll:_ +10, reach 10 ft. _Hit:_ 33 (4d12 + 7) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 17). While Grappled, the target has the Restrained condition and can't be targeted by the tyrannosaurus's Tail.
-
-**_Tail._** _Melee Attack Roll:_ +10, reach 15 ft. _Hit:_ 25 (4d8 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.
-
-## Venomous Snake
-
-_Tiny Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 5 (2d4) <br>
-**Speed** 30 ft., Swim 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>11</td>
-      <td>+0</td>
-      <td>+0</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>1</td>
-      <td>−5</td>
-      <td>−5</td>
-      <td><strong>WIS</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Blindsight 10 ft.; Passive Perception 10<br>
-**Languages** None<br>
-**CR** 1/8 (XP 25; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 4 (1d4 + 2) Piercing damage plus 3 (1d6) Poison damage.
-
-## Vulture
-
-_Medium Beast, Unaligned_
-
-**AC** 10 **Initiative** +0 (10) <br>
-**HP** 5 (1d8 + 1) <br>
-**Speed** 10 ft., Fly 50 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-      <td><strong>DEX</strong></td>
-      <td>10</td>
-      <td>+0</td>
-      <td>+0</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>4</td>
-      <td>−3</td>
-      <td>−3</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +3<br>
-**Senses** Passive Perception 13<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Traits
-
-<hr>
-
-**_Pack Tactics._** The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.
-
-### Actions
-
-<hr>
-
-**_Beak._** _Melee Attack Roll:_ +2, reach 5 ft. _Hit:_ 2 (1d4) Piercing damage.
-
-## Warhorse
-
-_Large Beast, Unaligned_
-
-**AC** 11 **Initiative** +1 (11) <br>
-**HP** 19 (3d10 + 3) <br>
-**Speed** 60 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>18</td>
-      <td>+4</td>
-      <td>+4</td>
-      <td><strong>DEX</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CON</strong></td>
-      <td>13</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+3</td>
-      <td><strong>CHA</strong></td>
-      <td>7</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Senses** Passive Perception 11<br>
-**Languages** None<br>
-**CR** 1/2 (XP 100; PB +2)
-
-### Actions
-
-<hr>
-
-**_Hooves._** _Melee Attack Roll:_ +6, reach 5 ft. _Hit:_ 9 (2d4 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.
-
-## Weasel
-
-_Tiny Beast, Unaligned_
-
-**AC** 13 **Initiative** +3 (13) <br>
-**HP** 1 (1d4 − 1) <br>
-**Speed** 30 ft., Climb 30 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>DEX</strong></td>
-      <td>16</td>
-      <td>+3</td>
-      <td>+3</td>
-      <td><strong>CON</strong></td>
-      <td>8</td>
-      <td>−1</td>
-      <td>−1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>2</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Acrobatics +5, Perception +3, Stealth +5<br>
-**Senses** Darkvision 60 ft.; Passive Perception 13<br>
-**Languages** None<br>
-**CR** 0 (XP 10; PB +2)
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 1 Piercing damage.
-
-## Wolf
-
-_Medium Beast, Unaligned_
-
-**AC** 12 **Initiative** +2 (12) <br>
-**HP** 11 (2d8 + 2) <br>
-**Speed** 40 ft. <br>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-      <th></th>
-      <th></th>
-      <th>MOD</th>
-      <th>SAVE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>STR</strong></td>
-      <td>14</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>DEX</strong></td>
-      <td>15</td>
-      <td>+2</td>
-      <td>+2</td>
-      <td><strong>CON</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-    </tr>
-    <tr>
-      <td><strong>INT</strong></td>
-      <td>3</td>
-      <td>−4</td>
-      <td>−4</td>
-      <td><strong>WIS</strong></td>
-      <td>12</td>
-      <td>+1</td>
-      <td>+1</td>
-      <td><strong>CHA</strong></td>
-      <td>6</td>
-      <td>−2</td>
-      <td>−2</td>
-    </tr>
-  </tbody>
-</table>
-
-**Skills** Perception +5, Stealth +4<br>
-**Senses** Darkvision 60 ft.; Passive Perception 15<br>
-**Languages** None<br>
-**CR** 1/4 (XP 50; PB +2)
-
-### Traits
-
-<hr>
-
-**_Pack Tactics._** The wolf has Advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.
-
-### Actions
-
-<hr>
-
-**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.
+# 动物（Animals）
+
+## 异特龙（Allosaurus）
+
+_大型野兽（恐龙），无阵营_
+
+**AC** 13 **先攻** +1（11）  
+**HP** 51（6d10 + 18）  
+**速度** 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 19 | +4 | +4 | **敏捷** | 13 | +1 | +1 | **体质** | 17 | +3 | +3 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 5 | −3 | −3 |
+
+**技能** 察觉 +5  
+**感官** 被动察觉 15  
+**语言** 无  
+**CR** 2（XP 450；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +6，触及 5 尺。_命中：_ 15（2d10 + 4）点穿刺伤害。
+
+**_利爪（Claws）。_** _近战攻击检定：_ +6，触及 5 尺。_命中：_ 8（1d8 + 4）点挥砍伤害。如果目标是大型或更小型生物，并且异特龙在命中前立即沿直线朝目标移动了至少 30 尺，则目标陷入倒地状态，且异特龙可以对其进行一次啃咬攻击。
+
+## 甲龙（Ankylosaurus）
+
+_巨型野兽（恐龙），无阵营_
+
+**AC** 15 **先攻** +0（10）  
+**HP** 68（8d12 + 16）  
+**速度** 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 19 | +4 | +6 | **敏捷** | 11 | +0 | +0 | **体质** | 15 | +2 | +2 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 5 | −3 | −3 |
+
+**感官** 被动察觉 11  
+**语言** 无  
+**CR** 3（XP 700；PB +2）
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 甲龙进行两次尾击攻击。
+
+**_尾击（Tail）。_** _近战攻击检定：_ +6，触及 10 尺。_命中：_ 9（1d10 + 4）点钝击伤害。如果目标是巨型或更小型生物，则其陷入倒地状态。
+
+## 猿（Ape）
+
+_中型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 19（3d8 + 6）  
+**速度** 30 尺，攀爬 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 16 | +3 | +3 | **敏捷** | 14 | +2 | +2 | **体质** | 14 | +2 | +2 |
+| **智力** | 6 | −2 | −2 | **感知** | 12 | +1 | +1 | **魅力** | 7 | −2 | −2 |
+
+**技能** 运动 +5，察觉 +3  
+**感官** 被动察觉 13  
+**语言** 无  
+**CR** 1/2（XP 100；PB +2）
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 猿进行两次拳击攻击。
+
+**_拳击（Fist）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 5（1d4 + 3）点钝击伤害。
+
+**_投石（Rock，充能 6）。_** _远程攻击检定：_ +5，射程 25/50 尺。_命中：_ 10（2d6 + 3）点钝击伤害。
+
+## 古巨龟（Archelon）
+
+_巨型野兽（恐龙），无阵营_
+
+**AC** 17 **先攻** +3（13）  
+**HP** 90（12d12 + 12）  
+**速度** 20 尺，游泳 80 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 18 | +4 | +4 | **敏捷** | 16 | +3 | +3 | **体质** | 13 | +1 | +1 |
+| **智力** | 4 | −3 | −3 | **感知** | 14 | +2 | +2 | **魅力** | 6 | −2 | −2 |
+
+**技能** 隐匿 +5  
+**感官** 被动察觉 12  
+**语言** 无  
+**CR** 4（XP 1,100；PB +2）
+
+### 特质
+
+---
+
+**_两栖（Amphibious）。_** 古巨龟可以呼吸空气和水。
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 古巨龟进行两次啃咬攻击。
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +6，触及 5 尺。_命中：_ 14（3d6 + 4）点穿刺伤害。
+
+## 狒狒（Baboon）
+
+_小型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 3（1d6）  
+**速度** 30 尺，攀爬 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 8 | −1 | −1 | **敏捷** | 14 | +2 | +2 | **体质** | 11 | +0 | +0 |
+| **智力** | 4 | −3 | −3 | **感知** | 12 | +1 | +1 | **魅力** | 6 | −2 | −2 |
+
+**感官** 被动察觉 11  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_群体战术（Pack Tactics）。_** 如果狒狒至少有一名盟友位于某生物 5 尺内，并且该盟友没有处于失能状态，则狒狒对该生物进行的攻击检定具有优势。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +1，触及 5 尺。_命中：_ 1（1d4 − 1）点穿刺伤害。
+
+## 獾（Badger）
+
+_微型野兽，无阵营_
+
+**AC** 11 **先攻** +0（10）  
+**HP** 5（1d4 + 3）  
+**速度** 20 尺，掘地 5 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 10 | +0 | +0 | **敏捷** | 11 | +0 | +0 | **体质** | 16 | +3 | +3 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 5 | −3 | −3 |
+
+**技能** 察觉 +3  
+**抗性** 毒素  
+**感官** 黑暗视觉 30 尺；被动察觉 13  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +2，触及 5 尺。_命中：_ 1 点穿刺伤害。
+
+## 蝙蝠（Bat）
+
+_微型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 1（1d4 − 1）  
+**速度** 5 尺，飞行 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 2 | −4 | −4 | **敏捷** | 15 | +2 | +2 | **体质** | 8 | −1 | −1 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 4 | −3 | −3 |
+
+**感官** 盲视 60 尺；被动察觉 11  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 1 点穿刺伤害。
+
+## 黑熊（Black Bear）
+
+_中型野兽，无阵营_
+
+**AC** 11 **先攻** +1（11）  
+**HP** 19（3d8 + 6）  
+**速度** 30 尺，攀爬 30 尺，游泳 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 15 | +2 | +2 | **敏捷** | 12 | +1 | +1 | **体质** | 14 | +2 | +2 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 7 | −2 | −2 |
+
+**技能** 察觉 +5  
+**感官** 黑暗视觉 60 尺；被动察觉 15  
+**语言** 无  
+**CR** 1/2（XP 100；PB +2）
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 黑熊进行两次撕裂攻击。
+
+**_撕裂（Rend）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 5（1d6 + 2）点挥砍伤害。
+
+## 血鹰（Blood Hawk）
+
+_小型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 7（2d6）  
+**速度** 10 尺，飞行 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 6 | −2 | −2 | **敏捷** | 14 | +2 | +2 | **体质** | 10 | +0 | +0 |
+| **智力** | 3 | −4 | −4 | **感知** | 14 | +2 | +2 | **魅力** | 5 | −3 | −3 |
+
+**技能** 察觉 +6  
+**感官** 被动察觉 16  
+**语言** 无  
+**CR** 1/8（XP 25；PB +2）
+
+### 特质
+
+---
+
+**_群体战术（Pack Tactics）。_** 如果血鹰至少有一名盟友位于某生物 5 尺内，并且该盟友没有处于失能状态，则血鹰对该生物进行的攻击检定具有优势。
+
+### 动作
+
+---
+
+**_喙击（Beak）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 4（1d4 + 2）点穿刺伤害；如果目标处于重伤状态，则改为 6（1d8 + 2）点穿刺伤害。
+
+## 野猪（Boar）
+
+_中型野兽，无阵营_
+
+**AC** 11 **先攻** +0（10）  
+**HP** 13（2d8 + 4）  
+**速度** 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 13 | +1 | +1 | **敏捷** | 11 | +0 | +0 | **体质** | 14 | +2 | +2 |
+| **智力** | 2 | −4 | −4 | **感知** | 9 | −1 | −1 | **魅力** | 5 | −3 | −3 |
+
+**感官** 被动察觉 9  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 特质
+
+---
+
+**_重伤狂怒（Bloodied Fury）。_** 当野猪处于重伤状态时，其攻击检定具有优势。
+
+### 动作
+
+---
+
+**_獠牙突刺（Gore）。_** _近战攻击检定：_ +3，触及 5 尺。_命中：_ 4（1d6 + 1）点穿刺伤害。如果目标是中型或更小型生物，并且野猪在命中前立即沿直线朝目标移动了至少 20 尺，则目标额外受到 3（1d6）点穿刺伤害，并陷入倒地状态。
+
+## 棕熊（Brown Bear）
+
+_大型野兽，无阵营_
+
+**AC** 11 **先攻** +1（11）  
+**HP** 22（3d10 + 6）  
+**速度** 40 尺，攀爬 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 17 | +3 | +3 | **敏捷** | 12 | +1 | +1 | **体质** | 15 | +2 | +2 |
+| **智力** | 2 | −4 | −4 | **感知** | 13 | +1 | +1 | **魅力** | 7 | −2 | −2 |
+
+**技能** 察觉 +3  
+**感官** 黑暗视觉 60 尺；被动察觉 13  
+**语言** 无  
+**CR** 1（XP 200；PB +2）
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 棕熊进行一次啃咬攻击和一次利爪攻击。
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 7（1d8 + 3）点穿刺伤害。
+
+**_利爪（Claw）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 5（1d4 + 3）点挥砍伤害。如果目标是大型或更小型生物，则其陷入倒地状态。
+
+## 骆驼（Camel）
+
+_大型野兽，无阵营_
+
+**AC** 10 **先攻** −1（9）  
+**HP** 17（2d10 + 6）  
+**速度** 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 15 | +2 | +2 | **敏捷** | 8 | −1 | −1 | **体质** | 17 | +3 | +5 |
+| **智力** | 2 | −4 | −4 | **感知** | 11 | +0 | +0 | **魅力** | 5 | −3 | −3 |
+
+**感官** 黑暗视觉 60 尺；被动察觉 10  
+**语言** 无  
+**CR** 1/8（XP 25；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 4（1d4 + 2）点钝击伤害。
+
+## 猫（Cat）
+
+_微型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 2（1d4）  
+**速度** 40 尺，攀爬 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 3 | −4 | −4 | **敏捷** | 15 | +2 | +4 | **体质** | 10 | +0 | +0 |
+| **智力** | 3 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 7 | −2 | −2 |
+
+**技能** 察觉 +3，隐匿 +4  
+**感官** 黑暗视觉 60 尺；被动察觉 13  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_善跃（Jumper）。_** 猫的跳跃距离使用其敏捷而非力量决定。
+
+### 动作
+
+---
+
+**_抓挠（Scratch）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 1 点挥砍伤害。
+
+## 蟒蛇（Constrictor Snake）
+
+_大型野兽，无阵营_
+
+**AC** 13 **先攻** +2（12）  
+**HP** 13（2d10 + 2）  
+**速度** 30 尺，游泳 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 15 | +2 | +2 | **敏捷** | 14 | +2 | +2 | **体质** | 12 | +1 | +1 |
+| **智力** | 1 | −5 | −5 | **感知** | 10 | +0 | +0 | **魅力** | 3 | −4 | −4 |
+
+**技能** 察觉 +2，隐匿 +4  
+**感官** 盲视 10 尺；被动察觉 12  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 6（1d8 + 2）点穿刺伤害。
+
+**_绞缠（Constrict）。_** _力量豁免：_ DC 12，目标为蟒蛇能看见且位于其 5 尺内的一个中型或更小型生物。_失败：_ 7（3d4）点钝击伤害，且目标陷入擒抱状态（逃脱 DC 12）。
+
+## 螃蟹（Crab）
+
+_微型野兽，无阵营_
+
+**AC** 11 **先攻** +0（10）  
+**HP** 3（1d4 + 1）  
+**速度** 20 尺，游泳 20 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 6 | −2 | −2 | **敏捷** | 11 | +0 | +0 | **体质** | 12 | +1 | +1 |
+| **智力** | 1 | −5 | −5 | **感知** | 8 | −1 | −1 | **魅力** | 2 | −4 | −4 |
+
+**技能** 隐匿 +2  
+**感官** 盲视 30 尺；被动察觉 9  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_两栖（Amphibious）。_** 螃蟹可以呼吸空气和水。
+
+### 动作
+
+---
+
+**_螯击（Claw）。_** _近战攻击检定：_ +2，触及 5 尺。_命中：_ 1 点钝击伤害。
+
+## 鳄鱼（Crocodile）
+
+_大型野兽，无阵营_
+
+**AC** 12 **先攻** +0（10）  
+**HP** 13（2d10 + 2）  
+**速度** 20 尺，游泳 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 15 | +2 | +2 | **敏捷** | 10 | +0 | +0 | **体质** | 13 | +1 | +3 |
+| **智力** | 2 | −4 | −4 | **感知** | 10 | +0 | +0 | **魅力** | 5 | −3 | −3 |
+
+**技能** 隐匿 +2  
+**感官** 被动察觉 10  
+**语言** 无  
+**CR** 1/2（XP 100；PB +2）
+
+### 特质
+
+---
+
+**_屏息（Hold Breath）。_** 鳄鱼可以屏住呼吸 1 小时。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 6（1d8 + 2）点穿刺伤害。如果目标是中型或更小型生物，则其陷入擒抱状态（逃脱 DC 12）。在被如此擒抱期间，目标同时处于束缚状态。
+
+## 鹿（Deer）
+
+_中型野兽，无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 4（1d8）  
+**速度** 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 11 | +0 | +0 | **敏捷** | 16 | +3 | +3 | **体质** | 11 | +0 | +0 |
+| **智力** | 2 | −4 | −4 | **感知** | 14 | +2 | +2 | **魅力** | 5 | −3 | −3 |
+
+**技能** 察觉 +4  
+**感官** 黑暗视觉 60 尺；被动察觉 14  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_敏捷（Agile）。_** 鹿移出敌人的触及范围时不会触发借机攻击。
+
+### 动作
+
+---
+
+**_顶撞（Ram）。_** _近战攻击检定：_ +2，触及 5 尺。_命中：_ 2（1d4）点钝击伤害。
+
+## 凶暴狼（Dire Wolf）
+
+_大型野兽，无阵营_
+
+**AC** 14 **先攻** +2（12）  
+**HP** 22（3d10 + 6）  
+**速度** 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 17 | +3 | +3 | **敏捷** | 15 | +2 | +2 | **体质** | 15 | +2 | +2 |
+| **智力** | 3 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 7 | −2 | −2 |
+
+**技能** 察觉 +5，隐匿 +4  
+**感官** 黑暗视觉 60 尺；被动察觉 15  
+**语言** 无  
+**CR** 1（XP 200；PB +2）
+
+### 特质
+
+---
+
+**_群体战术（Pack Tactics）。_** 如果凶暴狼至少有一名盟友位于某生物 5 尺内，并且该盟友没有处于失能状态，则凶暴狼对该生物进行的攻击检定具有优势。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 8（1d10 + 3）点穿刺伤害。如果目标是大型或更小型生物，则其陷入倒地状态。
+
+## 驮马（Draft Horse）
+
+_大型野兽，无阵营_
+
+**AC** 10 **先攻** +0（10）  
+**HP** 15（2d10 + 4）  
+**速度** 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 18 | +4 | +4 | **敏捷** | 10 | +0 | +0 | **体质** | 15 | +2 | +2 |
+| **智力** | 2 | −4 | −4 | **感知** | 11 | +0 | +0 | **魅力** | 7 | −2 | −2 |
+
+**感官** 被动察觉 10  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 动作
+
+---
+
+**_蹄击（Hooves）。_** _近战攻击检定：_ +6，触及 5 尺。_命中：_ 6（1d4 + 4）点钝击伤害。
+
+## 鹰（Eagle）
+
+_小型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 4（1d6 + 1）  
+**速度** 10 尺，飞行 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 6 | −2 | −2 | **敏捷** | 15 | +2 | +2 | **体质** | 12 | +1 | +1 |
+| **智力** | 2 | −4 | −4 | **感知** | 14 | +2 | +2 | **魅力** | 7 | −2 | −2 |
+
+**技能** 察觉 +6  
+**感官** 被动察觉 16  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 动作
+
+---
+
+**_利爪（Talons）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 4（1d4 + 2）点挥砍伤害。
+
+## 大象（Elephant）
+
+_巨型野兽，无阵营_
+
+**AC** 12 **先攻** −1（9）  
+**HP** 76（8d12 + 24）  
+**速度** 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 22 | +6 | +6 | **敏捷** | 9 | −1 | −1 | **体质** | 17 | +3 | +3 |
+| **智力** | 3 | −4 | −4 | **感知** | 11 | +0 | +0 | **魅力** | 6 | −2 | −2 |
+
+**感官** 被动察觉 10  
+**语言** 无  
+**CR** 4（XP 1,100；PB +2）
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 大象进行两次獠牙突刺攻击。
+
+**_獠牙突刺（Gore）。_** _近战攻击检定：_ +8，触及 5 尺。_命中：_ 15（2d8 + 6）点穿刺伤害。如果目标是巨型或更小型生物，并且大象在命中前立即沿直线朝目标移动了至少 20 尺，则目标陷入倒地状态。
+
+### 附赠动作
+
+---
+
+**_践踏（Trample）。_** _敏捷豁免：_ DC 16，目标为 5 尺内一个处于倒地状态的生物。_失败：_ 17（2d10 + 6）点钝击伤害。_成功：_ 受到一半伤害。
+
+## 麋鹿（Elk）
+
+_大型野兽，无阵营_
+
+**AC** 10 **先攻** +0（10）  
+**HP** 11（2d10）  
+**速度** 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 16 | +3 | +3 | **敏捷** | 10 | +0 | +0 | **体质** | 11 | +0 | +0 |
+| **智力** | 2 | −4 | −4 | **感知** | 10 | +0 | +0 | **魅力** | 6 | −2 | −2 |
+
+**技能** 察觉 +2  
+**感官** 黑暗视觉 60 尺；被动察觉 12  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 动作
+
+---
+
+**_顶撞（Ram）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 6（1d6 + 3）点钝击伤害。如果目标是大型或更小型生物，并且麋鹿在命中前立即沿直线朝目标移动了至少 20 尺，则目标额外受到 3（1d6）点钝击伤害，并陷入倒地状态。
+
+## 飞蛇（Flying Snake）
+
+_微型怪兽，无阵营_
+
+**AC** 14 **先攻** +2（12）  
+**HP** 5（2d4）  
+**速度** 30 尺，飞行 60 尺，游泳 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 4 | −3 | −3 | **敏捷** | 15 | +2 | +2 | **体质** | 11 | +0 | +0 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 5 | −3 | −3 |
+
+**感官** 盲视 10 尺；被动察觉 11  
+**语言** 无  
+**CR** 1/8（XP 25；PB +2）
+
+### 特质
+
+---
+
+**_掠空（Flyby）。_** 飞蛇飞出敌人的触及范围时不会触发借机攻击。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 1 点穿刺伤害外加 5（2d4）点毒素伤害。
+
+## 青蛙（Frog）
+
+_微型野兽，无阵营_
+
+**AC** 11 **先攻** +1（11）  
+**HP** 1（1d4 − 1）  
+**速度** 20 尺，游泳 20 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 1 | −5 | −5 | **敏捷** | 13 | +1 | +1 | **体质** | 8 | −1 | −1 |
+| **智力** | 1 | −5 | −5 | **感知** | 8 | −1 | −1 | **魅力** | 3 | −4 | −4 |
+
+**技能** 察觉 +1，隐匿 +3  
+**感官** 黑暗视觉 30 尺；被动察觉 11  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_两栖（Amphibious）。_** 青蛙可以呼吸空气和水。
+
+**_原地跳跃（Standing Leap）。_** 无论是否助跑，青蛙的跳远距离最多为 10 尺，跳高距离最多为 5 尺。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +3，触及 5 尺。_命中：_ 1 点穿刺伤害。
+
+## 巨猿（Giant Ape）
+
+_巨型野兽，无阵营_
+
+**AC** 12 **先攻** +5（15）  
+**HP** 168（16d12 + 64）  
+**速度** 40 尺，攀爬 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 23 | +6 | +6 | **敏捷** | 14 | +2 | +2 | **体质** | 18 | +4 | +4 |
+| **智力** | 5 | −3 | −3 | **感知** | 12 | +1 | +1 | **魅力** | 7 | −2 | −2 |
+
+**技能** 运动 +9，察觉 +4，求生 +4  
+**感官** 被动察觉 14  
+**语言** 无  
+**CR** 7（XP 2,900；PB +3）
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 巨猿进行两次拳击攻击。
+
+**_拳击（Fist）。_** _近战攻击检定：_ +9，触及 10 尺。_命中：_ 22（3d10 + 6）点钝击伤害。
+
+**_投掷巨石（Boulder Toss，充能 6）。_** 巨猿向其能看见的 90 尺内一点投掷一块巨石。_敏捷豁免：_ DC 17，以该点为中心、半径 5 尺球状区域内的每个生物。_失败：_ 24（7d6）点钝击伤害。如果目标是大型或更小型生物，则其陷入倒地状态。_成功：_ 仅受到一半伤害。
+
+### 附赠动作
+
+---
+
+**_飞跃（Leap）。_** 巨猿消耗 10 尺移动力，跳跃至多 30 尺。
+
+## 巨獾（Giant Badger）
+
+_中型野兽，无阵营_
+
+**AC** 13 **先攻** +0（10）  
+**HP** 15（2d8 + 6）  
+**速度** 30 尺，掘地 10 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 13 | +1 | +1 | **敏捷** | 10 | +0 | +0 | **体质** | 17 | +3 | +3 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 5 | −3 | −3 |
+
+**技能** 察觉 +3  
+**抗性** 毒素  
+**感官** 黑暗视觉 60 尺；被动察觉 13  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +3，触及 5 尺。_命中：_ 6（2d4 + 1）点穿刺伤害。
+
+## 巨蝙蝠（Giant Bat）
+
+_大型野兽，无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 22（4d10）  
+**速度** 10 尺，飞行 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 15 | +2 | +2 | **敏捷** | 16 | +3 | +3 | **体质** | 11 | +0 | +0 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 6 | −2 | −2 |
+
+**感官** 盲视 120 尺；被动察觉 11  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 6（1d6 + 3）点穿刺伤害。
+
+## 巨野猪（Giant Boar）
+
+_大型野兽，无阵营_
+
+**AC** 13 **先攻** +0（10）  
+**HP** 42（5d10 + 15）  
+**速度** 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 17 | +3 | +5 | **敏捷** | 10 | +0 | +0 | **体质** | 16 | +3 | +3 |
+| **智力** | 2 | −4 | −4 | **感知** | 7 | −2 | −2 | **魅力** | 5 | −3 | −3 |
+
+**感官** 被动察觉 8  
+**语言** 无  
+**CR** 2（XP 450；PB +2）
+
+### 特质
+
+---
+
+**_重伤狂怒（Bloodied Fury）。_** 当巨野猪处于重伤状态时，其近战攻击检定具有优势。
+
+### 动作
+
+---
+
+**_獠牙突刺（Gore）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 10（2d6 + 3）点穿刺伤害。如果目标是大型或更小型生物，并且巨野猪在命中前立即沿直线朝目标移动了至少 20 尺，则目标额外受到 7（2d6）点穿刺伤害，并陷入倒地状态。
+
+## 巨型蜈蚣（Giant Centipede）
+
+_小型野兽，无阵营_
+
+**AC** 14 **先攻** +2（12）  
+**HP** 9（2d6 + 2）  
+**速度** 30 尺，攀爬 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 5 | −3 | −3 | **敏捷** | 14 | +2 | +2 | **体质** | 12 | +1 | +1 |
+| **智力** | 1 | −5 | −5 | **感知** | 7 | −2 | −2 | **魅力** | 3 | −4 | −4 |
+
+**感官** 盲视 30 尺；被动察觉 8  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 4（1d4 + 2）点穿刺伤害，并且目标陷入中毒状态，直到蜈蚣下一回合开始。
+
+## 巨型蟒蛇（Giant Constrictor Snake）
+
+_巨型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 60（8d12 + 8）  
+**速度** 30 尺，游泳 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 19 | +4 | +4 | **敏捷** | 14 | +2 | +2 | **体质** | 12 | +1 | +1 |
+| **智力** | 1 | −5 | −5 | **感知** | 10 | +0 | +0 | **魅力** | 3 | −4 | −4 |
+
+**技能** 察觉 +2  
+**感官** 盲视 10 尺；被动察觉 12  
+**语言** 无  
+**CR** 2（XP 450；PB +2）
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 巨型蟒蛇进行一次啃咬攻击，并使用绞缠。
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +6，触及 10 尺。_命中：_ 11（2d6 + 4）点穿刺伤害。
+
+**_绞缠（Constrict）。_** _力量豁免：_ DC 14，目标为巨型蟒蛇能看见且位于其 10 尺内的一个大型或更小型生物。_失败：_ 13（2d8 + 4）点钝击伤害，且目标陷入擒抱状态（逃脱 DC 14）。
+
+## 巨蟹（Giant Crab）
+
+_中型野兽，无阵营_
+
+**AC** 15 **先攻** +1（11）  
+**HP** 13（3d8）  
+**速度** 30 尺，游泳 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 13 | +1 | +1 | **敏捷** | 13 | +1 | +1 | **体质** | 11 | +0 | +0 |
+| **智力** | 1 | −5 | −5 | **感知** | 9 | −1 | −1 | **魅力** | 3 | −4 | −4 |
+
+**技能** 隐匿 +3  
+**感官** 盲视 30 尺；被动察觉 9  
+**语言** 无  
+**CR** 1/8（XP 25；PB +2）
+
+### 特质
+
+---
+
+**_两栖（Amphibious）。_** 巨蟹可以呼吸空气和水。
+
+### 动作
+
+---
+
+**_螯击（Claw）。_** _近战攻击检定：_ +3，触及 5 尺。_命中：_ 4（1d6 + 1）点钝击伤害。如果目标是中型或更小型生物，则其被巨蟹的两只螯之一擒抱，并陷入擒抱状态（逃脱 DC 11）。
+
+## 巨型鳄鱼（Giant Crocodile）
+
+_巨型野兽，无阵营_
+
+**AC** 14 **先攻** −1（9）  
+**HP** 85（9d12 + 27）  
+**速度** 30 尺，游泳 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 21 | +5 | +5 | **敏捷** | 9 | −1 | −1 | **体质** | 17 | +3 | +3 |
+| **智力** | 2 | −4 | −4 | **感知** | 10 | +0 | +0 | **魅力** | 7 | −2 | −2 |
+
+**技能** 隐匿 +5  
+**感官** 被动察觉 10  
+**语言** 无  
+**CR** 5（XP 1,800；PB +3）
+
+### 特质
+
+---
+
+**_屏息（Hold Breath）。_** 巨型鳄鱼可以屏住呼吸 1 小时。
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 巨型鳄鱼进行一次啃咬攻击和一次尾击攻击。
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +8，触及 5 尺。_命中：_ 21（3d10 + 5）点穿刺伤害。如果目标是大型或更小型生物，则其陷入擒抱状态（逃脱 DC 15）。在被擒抱期间，目标同时处于束缚状态，并且不能成为巨型鳄鱼尾击的目标。
+
+**_尾击（Tail）。_** _近战攻击检定：_ +8，触及 10 尺。_命中：_ 18（3d8 + 5）点钝击伤害。如果目标是大型或更小型生物，则其陷入倒地状态。
+
+## 巨鹰（Giant Eagle）
+
+_大型天界生物，中立善良_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 26（4d10 + 4）  
+**速度** 10 尺，飞行 80 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 16 | +3 | +3 | **敏捷** | 17 | +3 | +3 | **体质** | 13 | +1 | +1 |
+| **智力** | 8 | −1 | −1 | **感知** | 14 | +2 | +2 | **魅力** | 10 | +0 | +0 |
+
+**技能** 察觉 +6  
+**抗性** 黯蚀、光耀  
+**感官** 被动察觉 16  
+**语言** 天界语；理解通用语和原初语（风族语），但无法说这些语言  
+**CR** 1（XP 200；PB +2）
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 巨鹰进行两次撕裂攻击。
+
+**_撕裂（Rend）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 5（1d4 + 3）点挥砍伤害外加 3（1d6）点光耀伤害。
+
+## 巨麋鹿（Giant Elk）
+
+_巨型天界生物，中立善良_
+
+**AC** 14 **先攻** +6（16）  
+**HP** 42（5d12 + 10）  
+**速度** 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 19 | +4 | +6 | **敏捷** | 18 | +4 | +6 | **体质** | 14 | +2 | +2 |
+| **智力** | 7 | −2 | −2 | **感知** | 14 | +2 | +2 | **魅力** | 10 | +0 | +0 |
+
+**技能** 察觉 +4  
+**抗性** 黯蚀、光耀  
+**感官** 黑暗视觉 90 尺；被动察觉 14  
+**语言** 天界语；理解通用语、精灵语和木族语，但无法说这些语言  
+**CR** 2（XP 450；PB +2）
+
+### 动作
+
+---
+
+**_顶撞（Ram）。_** _近战攻击检定：_ +6，触及 10 尺。_命中：_ 11（2d6 + 4）点钝击伤害外加 5（2d4）点光耀伤害。如果目标是巨型或更小型生物，并且巨麋鹿在命中前立即沿直线朝目标移动了至少 20 尺，则目标额外受到 5（2d4）点钝击伤害，并陷入倒地状态。
+
+## 巨型火甲虫（Giant Fire Beetle）
+
+_小型野兽，无阵营_
+
+**AC** 13 **先攻** +0（10）  
+**HP** 4（1d6 + 1）  
+**速度** 30 尺，攀爬 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 8 | −1 | −1 | **敏捷** | 10 | +0 | +0 | **体质** | 12 | +1 | +1 |
+| **智力** | 1 | −5 | −5 | **感知** | 7 | −2 | −2 | **魅力** | 3 | −4 | −4 |
+
+**抗性** 火焰  
+**感官** 盲视 30 尺；被动察觉 8  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_照明（Illumination）。_** 巨型火甲虫向周围 10 尺半径散发明亮光照，并向外额外 10 尺散发微光。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +1，触及 5 尺。_命中：_ 1 点火焰伤害。
+
+## 巨蛙（Giant Frog）
+
+_中型野兽，无阵营_
+
+**AC** 11 **先攻** +1（11）  
+**HP** 18（4d8）  
+**速度** 30 尺，游泳 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 12 | +1 | +1 | **敏捷** | 13 | +1 | +1 | **体质** | 11 | +0 | +0 |
+| **智力** | 2 | −4 | −4 | **感知** | 10 | +0 | +0 | **魅力** | 3 | −4 | −4 |
+
+**技能** 察觉 +2，隐匿 +4  
+**感官** 黑暗视觉 30 尺；被动察觉 12  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 特质
+
+---
+
+**_两栖（Amphibious）。_** 巨蛙可以呼吸空气和水。
+
+**_原地跳跃（Standing Leap）。_** 无论是否助跑，巨蛙的跳远距离最多为 20 尺，跳高距离最多为 10 尺。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +3，触及 5 尺。_命中：_ 5（1d6 + 2）点穿刺伤害。如果目标是中型或更小型生物，则其陷入擒抱状态（逃脱 DC 11）。
+
+**_吞咽（Swallow）。_** 巨蛙吞下一个正被其擒抱的小型或更小型目标。被吞下期间，目标不再处于擒抱状态，但会陷入目盲和束缚状态，并对来自巨蛙体外的攻击和其他效果拥有全掩护。吞下目标期间，巨蛙不能使用啃咬；如果巨蛙死亡，被吞下的目标不再处于束缚状态，并可以消耗 5 尺移动力从尸体中逃出，出来时陷入倒地状态。  
+&emsp;在巨蛙下一回合结束时，被吞下的目标受到 5（2d4）点强酸伤害。如果这次伤害没有杀死目标，巨蛙会将其吐出，使其以倒地状态离开巨蛙体内。
+
+## 巨山羊（Giant Goat）
+
+_大型野兽，无阵营_
+
+**AC** 11 **先攻** +1（11）  
+**HP** 19（3d10 + 3）  
+**速度** 40 尺，攀爬 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 17 | +3 | +5 | **敏捷** | 13 | +1 | +1 | **体质** | 12 | +1 | +1 |
+| **智力** | 3 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 6 | −2 | −2 |
+
+**技能** 察觉 +3  
+**感官** 黑暗视觉 60 尺；被动察觉 13  
+**语言** 无  
+**CR** 1/2（XP 100；PB +2）
+
+### 动作
+
+---
+
+**_顶撞（Ram）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 6（1d6 + 3）点钝击伤害。如果目标是大型或更小型生物，并且巨山羊在命中前立即沿直线朝目标移动了至少 20 尺，则目标额外受到 5（2d4）点钝击伤害，并陷入倒地状态。
+
+## 巨型鬣狗（Giant Hyena）
+
+_大型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 45（6d10 + 12）  
+**速度** 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 16 | +3 | +3 | **敏捷** | 14 | +2 | +2 | **体质** | 14 | +2 | +2 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 7 | −2 | −2 |
+
+**技能** 察觉 +3  
+**感官** 黑暗视觉 60 尺；被动察觉 13  
+**语言** 无  
+**CR** 1（XP 200；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 10（2d6 + 3）点穿刺伤害。
+
+### 附赠动作
+
+---
+
+**_暴走（Rampage，1/日）。_** 巨型鬣狗对一个原本已经处于重伤状态的生物造成伤害后立即，可以移动至多其速度的一半，并进行一次啃咬攻击。
+
+## 巨蜥（Giant Lizard）
+
+_大型野兽，无阵营_
+
+**AC** 12 **先攻** +1（11）  
+**HP** 19（3d10 + 3）  
+**速度** 40 尺，攀爬 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 15 | +2 | +2 | **敏捷** | 12 | +1 | +3 | **体质** | 13 | +1 | +1 |
+| **智力** | 2 | −4 | −4 | **感知** | 10 | +0 | +0 | **魅力** | 5 | −3 | −3 |
+
+**感官** 黑暗视觉 60 尺；被动察觉 10  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 特质
+
+---
+
+**_蛛行（Spider Climb）。_** 巨蜥可以攀爬困难表面，包括沿天花板移动，而无需进行属性检定。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 6（1d8 + 2）点穿刺伤害。
+
+## 巨型章鱼（Giant Octopus）
+
+_大型野兽，无阵营_
+
+**AC** 11 **先攻** +1（11）  
+**HP** 45（7d10 + 7）  
+**速度** 10 尺，游泳 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 17 | +3 | +3 | **敏捷** | 13 | +1 | +1 | **体质** | 13 | +1 | +1 |
+| **智力** | 5 | −3 | −3 | **感知** | 10 | +0 | +0 | **魅力** | 4 | −3 | −3 |
+
+**技能** 察觉 +4，隐匿 +5  
+**感官** 黑暗视觉 60 尺；被动察觉 14  
+**语言** 无  
+**CR** 1（XP 200；PB +2）
+
+### 特质
+
+---
+
+**_水下呼吸（Water Breathing）。_** 巨型章鱼只能在水下呼吸。离开水后，它可以屏住呼吸 1 小时。
+
+### 动作
+
+---
+
+**_触手（Tentacles）。_** _近战攻击检定：_ +5，触及 10 尺。_命中：_ 10（2d6 + 3）点钝击伤害。如果目标是中型或更小型生物，则其被全部八条触手擒抱，并陷入擒抱状态（逃脱 DC 13）。在被擒抱期间，目标同时处于束缚状态。
+
+### 反应
+
+---
+
+**_墨云（Ink Cloud，1/日）。_** _触发：_ 巨型章鱼在水下受到伤害。_响应：_ 巨型章鱼释放墨汁，填满一个以自身为中心的 10 尺立方区域，并移动至多其游泳速度。该立方区域处于重度遮蔽状态，持续 1 分钟，或直到强劲水流或类似效果将墨汁冲散。
+
+## 巨鸮（Giant Owl）
+
+_大型天界生物，中立_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 19（3d10 + 3）  
+**速度** 5 尺，飞行 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 13 | +1 | +1 | **敏捷** | 15 | +2 | +2 | **体质** | 12 | +1 | +1 |
+| **智力** | 10 | +0 | +0 | **感知** | 14 | +2 | +4 | **魅力** | 10 | +0 | +0 |
+
+**技能** 察觉 +6，隐匿 +6  
+**抗性** 黯蚀、光耀  
+**感官** 黑暗视觉 120 尺；被动察觉 16  
+**语言** 天界语；理解通用语、精灵语和木族语，但无法说这些语言  
+**CR** 1/4（XP 50；PB +2）
+
+### 特质
+
+---
+
+**_掠空（Flyby）。_** 巨鸮飞出敌人的触及范围时不会触发借机攻击。
+
+### 动作
+
+---
+
+**_利爪（Talons）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 7（1d10 + 2）点挥砍伤害。
+
+**_施法（Spellcasting）。_** 巨鸮施放以下法术之一，无需任何法术成分，并使用感知作为施法属性：  
+&emsp;**随意：** *侦测善恶（Detect Evil and Good）*、*侦测魔法（Detect Magic）*  
+&emsp;**1/日：** *鹰眼术（Clairvoyance）*
+
+## 巨鼠（Giant Rat）
+
+_小型野兽，无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 7（2d6）  
+**速度** 30 尺，攀爬 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 7 | −2 | −2 | **敏捷** | 16 | +3 | +5 | **体质** | 11 | +0 | +0 |
+| **智力** | 2 | −4 | −4 | **感知** | 10 | +0 | +0 | **魅力** | 4 | −3 | −3 |
+
+**技能** 察觉 +2  
+**感官** 黑暗视觉 60 尺；被动察觉 12  
+**语言** 无  
+**CR** 1/8（XP 25；PB +2）
+
+### 特质
+
+---
+
+**_群体战术（Pack Tactics）。_** 如果巨鼠至少有一名盟友位于某生物 5 尺内，并且该盟友没有处于失能状态，则巨鼠对该生物进行的攻击检定具有优势。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 5（1d4 + 3）点穿刺伤害。
+
+## 巨型蝎子（Giant Scorpion）
+
+_大型野兽，无阵营_
+
+**AC** 15 **先攻** +1（11）  
+**HP** 52（7d10 + 14）  
+**速度** 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 16 | +3 | +3 | **敏捷** | 13 | +1 | +1 | **体质** | 15 | +2 | +2 |
+| **智力** | 1 | −5 | −5 | **感知** | 9 | −1 | −1 | **魅力** | 3 | −4 | −4 |
+
+**感官** 盲视 60 尺；被动察觉 9  
+**语言** 无  
+**CR** 3（XP 700；PB +2）
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 巨型蝎子进行两次螯击攻击和一次毒刺攻击。
+
+**_螯击（Claw）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 6（1d6 + 3）点钝击伤害。如果目标是大型或更小型生物，则其被两只螯之一擒抱，并陷入擒抱状态（逃脱 DC 13）。
+
+**_毒刺（Sting）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 7（1d8 + 3）点穿刺伤害外加 11（2d10）点毒素伤害。
+
+## 巨海马（Giant Seahorse）
+
+_大型野兽，无阵营_
+
+**AC** 14 **先攻** +1（11）  
+**HP** 16（3d10）  
+**速度** 5 尺，游泳 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 15 | +2 | +2 | **敏捷** | 12 | +1 | +1 | **体质** | 11 | +0 | +0 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 5 | −3 | −3 |
+
+**感官** 被动察觉 11  
+**语言** 无  
+**CR** 1/2（XP 100；PB +2）
+
+### 特质
+
+---
+
+**_水下呼吸（Water Breathing）。_** 巨海马只能在水下呼吸。
+
+### 动作
+
+---
+
+**_顶撞（Ram）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 9（2d6 + 2）点钝击伤害；如果巨海马在命中前立即沿直线朝目标移动了至少 20 尺，则改为 11（2d8 + 2）点钝击伤害。
+
+### 附赠动作
+
+---
+
+**_气泡疾驰（Bubble Dash）。_** 在水下时，巨海马移动至多其游泳速度的一半，且不会触发借机攻击。
+
+## 巨鲨（Giant Shark）
+
+_巨型野兽，无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 92（8d12 + 40）  
+**速度** 5 尺，游泳 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 23 | +6 | +6 | **敏捷** | 11 | +0 | +0 | **体质** | 21 | +5 | +5 |
+| **智力** | 1 | −5 | −5 | **感知** | 10 | +0 | +0 | **魅力** | 5 | −3 | −3 |
+
+**技能** 察觉 +3  
+**感官** 盲视 60 尺；被动察觉 13  
+**语言** 无  
+**CR** 5（XP 1,800；PB +3）
+
+### 特质
+
+---
+
+**_水下呼吸（Water Breathing）。_** 巨鲨只能在水下呼吸。
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 巨鲨进行两次啃咬攻击。
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +9（如果目标当前生命值并非其生命值上限，则具有优势），触及 5 尺。_命中：_ 22（3d10 + 6）点穿刺伤害。
+
+## 巨型蜘蛛（Giant Spider）
+
+_大型野兽，无阵营_
+
+**AC** 14 **先攻** +3（13）  
+**HP** 26（4d10 + 4）  
+**速度** 30 尺，攀爬 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 14 | +2 | +2 | **敏捷** | 16 | +3 | +3 | **体质** | 12 | +1 | +1 |
+| **智力** | 2 | −4 | −4 | **感知** | 11 | +0 | +0 | **魅力** | 4 | −3 | −3 |
+
+**技能** 察觉 +4，隐匿 +7  
+**感官** 黑暗视觉 60 尺；被动察觉 14  
+**语言** 无  
+**CR** 1（XP 200；PB +2）
+
+### 特质
+
+---
+
+**_蛛行（Spider Climb）。_** 巨型蜘蛛可以攀爬困难表面，包括沿天花板移动，而无需进行属性检定。
+
+**_蛛网行者（Web Walker）。_** 巨型蜘蛛忽略蛛网造成的移动限制，并且知道与同一张蛛网接触的任何其他生物的位置。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 7（1d8 + 3）点穿刺伤害外加 7（2d6）点毒素伤害。
+
+**_蛛网（Web，充能 5–6）。_** _敏捷豁免：_ DC 13，目标为巨型蜘蛛能看见的 60 尺内一个生物。_失败：_ 目标陷入束缚状态，直到蛛网被摧毁（AC 10；HP 5；易伤火焰伤害；免疫毒素和心灵伤害）。
+
+## 巨蟾蜍（Giant Toad）
+
+_大型野兽，无阵营_
+
+**AC** 11 **先攻** +1（11）  
+**HP** 39（6d10 + 6）  
+**速度** 30 尺，游泳 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 15 | +2 | +2 | **敏捷** | 13 | +1 | +1 | **体质** | 13 | +1 | +1 |
+| **智力** | 2 | −4 | −4 | **感知** | 10 | +0 | +0 | **魅力** | 3 | −4 | −4 |
+
+**感官** 黑暗视觉 60 尺；被动察觉 10  
+**语言** 无  
+**CR** 1（XP 200；PB +2）
+
+### 特质
+
+---
+
+**_两栖（Amphibious）。_** 巨蟾蜍可以呼吸空气和水。
+
+**_原地跳跃（Standing Leap）。_** 无论是否助跑，巨蟾蜍的跳远距离最多为 20 尺，跳高距离最多为 10 尺。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 5（1d6 + 2）点穿刺伤害外加 5（2d4）点毒素伤害。如果目标是中型或更小型生物，则其陷入擒抱状态（逃脱 DC 12）。
+
+**_吞咽（Swallow）。_** 巨蟾蜍吞下一个正被其擒抱的中型或更小型目标。被吞下期间，目标不再处于擒抱状态，但会陷入目盲和束缚状态，并对来自巨蟾蜍体外的攻击和其他效果拥有全掩护。此外，在巨蟾蜍每个回合结束时，目标受到 10（3d6）点强酸伤害。巨蟾蜍同一时间只能吞下一个目标，并且只要体内有被吞下的目标，就不能使用啃咬。如果巨蟾蜍死亡，被吞下的生物不再处于束缚状态，并可以消耗 5 尺移动力从尸体中逃出，出来时陷入倒地状态。
+
+## 巨型毒蛇（Giant Venomous Snake）
+
+_中型野兽，无阵营_
+
+**AC** 14 **先攻** +4（14）  
+**HP** 11（2d8 + 2）  
+**速度** 40 尺，游泳 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 10 | +0 | +0 | **敏捷** | 18 | +4 | +4 | **体质** | 13 | +1 | +1 |
+| **智力** | 2 | −4 | −4 | **感知** | 10 | +0 | +0 | **魅力** | 3 | −4 | −4 |
+
+**技能** 察觉 +2  
+**感官** 盲视 10 尺；被动察觉 12  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +6，触及 10 尺。_命中：_ 6（1d4 + 4）点穿刺伤害外加 4（1d8）点毒素伤害。
+
+## 巨型秃鹫（Giant Vulture）
+
+_大型怪兽，中立邪恶_
+
+**AC** 10 **先攻** +0（10）  
+**HP** 25（3d10 + 9）  
+**速度** 10 尺，飞行 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 15 | +2 | +2 | **敏捷** | 10 | +0 | +0 | **体质** | 16 | +3 | +3 |
+| **智力** | 6 | −2 | −2 | **感知** | 12 | +1 | +1 | **魅力** | 7 | −2 | −2 |
+
+**技能** 察觉 +3  
+**抗性** 黯蚀  
+**感官** 黑暗视觉 60 尺；被动察觉 13  
+**语言** 理解通用语，但无法说话  
+**CR** 1（XP 200；PB +2）
+
+### 特质
+
+---
+
+**_群体战术（Pack Tactics）。_** 如果巨型秃鹫至少有一名盟友位于某生物 5 尺内，并且该盟友没有处于失能状态，则巨型秃鹫对该生物进行的攻击检定具有优势。
+
+### 动作
+
+---
+
+**_撕啄（Gouge）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 9（2d6 + 2）点穿刺伤害，并且目标陷入中毒状态，直到其下一回合结束。
+
+## 巨蜂（Giant Wasp）
+
+_中型野兽，无阵营_
+
+**AC** 13 **先攻** +2（12）  
+**HP** 22（5d8）  
+**速度** 10 尺，飞行 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 10 | +0 | +0 | **敏捷** | 14 | +2 | +2 | **体质** | 10 | +0 | +0 |
+| **智力** | 1 | −5 | −5 | **感知** | 10 | +0 | +0 | **魅力** | 3 | −4 | −4 |
+
+**感官** 被动察觉 10  
+**语言** 无  
+**CR** 1/2（XP 100；PB +2）
+
+### 特质
+
+---
+
+**_掠空（Flyby）。_** 巨蜂飞出敌人的触及范围时不会触发借机攻击。
+
+### 动作
+
+---
+
+**_毒刺（Sting）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 5（1d6 + 2）点穿刺伤害外加 5（2d4）点毒素伤害。
+
+## 巨鼬（Giant Weasel）
+
+_中型野兽，无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 9（2d8）  
+**速度** 40 尺，攀爬 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 11 | +0 | +0 | **敏捷** | 17 | +3 | +3 | **体质** | 10 | +0 | +0 |
+| **智力** | 4 | −3 | −3 | **感知** | 12 | +1 | +1 | **魅力** | 5 | −3 | −3 |
+
+**技能** 特技 +5，察觉 +3，隐匿 +5  
+**感官** 黑暗视觉 60 尺；被动察觉 13  
+**语言** 无  
+**CR** 1/8（XP 25；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 5（1d4 + 3）点穿刺伤害。
+
+## 巨型狼蛛（Giant Wolf Spider）
+
+_中型野兽，无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 11（2d8 + 2）  
+**速度** 40 尺，攀爬 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 12 | +1 | +1 | **敏捷** | 16 | +3 | +3 | **体质** | 13 | +1 | +1 |
+| **智力** | 3 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 4 | −3 | −3 |
+
+**技能** 察觉 +3，隐匿 +7  
+**感官** 盲视 10 尺，黑暗视觉 60 尺；被动察觉 13  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 特质
+
+---
+
+**_蛛行（Spider Climb）。_** 巨型狼蛛可以攀爬困难表面，包括沿天花板移动，而无需进行属性检定。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 5（1d4 + 3）点穿刺伤害外加 5（2d4）点毒素伤害。
+
+## 山羊（Goat）
+
+_中型野兽，无阵营_
+
+**AC** 10 **先攻** +0（10）  
+**HP** 4（1d8）  
+**速度** 40 尺，攀爬 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 11 | +0 | +2 | **敏捷** | 10 | +0 | +0 | **体质** | 11 | +0 | +0 |
+| **智力** | 2 | −4 | −4 | **感知** | 10 | +0 | +0 | **魅力** | 5 | −3 | −3 |
+
+**技能** 察觉 +2  
+**感官** 黑暗视觉 60 尺；被动察觉 12  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 动作
+
+---
+
+**_顶撞（Ram）。_** _近战攻击检定：_ +2，触及 5 尺。_命中：_ 1 点钝击伤害；如果山羊在命中前立即沿直线朝目标移动了至少 20 尺，则改为 2（1d4）点钝击伤害。
+
+## 鹰隼（Hawk）
+
+_微型野兽，无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 1（1d4 − 1）  
+**速度** 10 尺，飞行 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 5 | −3 | −3 | **敏捷** | 16 | +3 | +3 | **体质** | 8 | −1 | −1 |
+| **智力** | 2 | −4 | −4 | **感知** | 14 | +2 | +2 | **魅力** | 6 | −2 | −2 |
+
+**技能** 察觉 +6  
+**感官** 被动察觉 16  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 动作
+
+---
+
+**_利爪（Talons）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 1 点挥砍伤害。
+
+## 河马（Hippopotamus）
+
+_大型野兽，无阵营_
+
+**AC** 14 **先攻** −2（8）  
+**HP** 82（11d10 + 22）  
+**速度** 30 尺，游泳 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 21 | +5 | +7 | **敏捷** | 7 | −2 | −2 | **体质** | 15 | +2 | +2 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 4 | −3 | −3 |
+
+**技能** 察觉 +3  
+**感官** 被动察觉 13  
+**语言** 无  
+**CR** 4（XP 1,100；PB +2）
+
+### 特质
+
+---
+
+**_屏息（Hold Breath）。_** 河马可以屏住呼吸 10 分钟。
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 河马进行两次啃咬攻击。
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +7，触及 5 尺。_命中：_ 16（2d10 + 5）点穿刺伤害。
+
+## 猎鲨（Hunter Shark）
+
+_大型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 45（6d10 + 12）  
+**速度** 5 尺，游泳 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 18 | +4 | +4 | **敏捷** | 14 | +2 | +2 | **体质** | 15 | +2 | +2 |
+| **智力** | 1 | −5 | −5 | **感知** | 10 | +0 | +0 | **魅力** | 4 | −3 | −3 |
+
+**技能** 察觉 +2  
+**感官** 盲视 60 尺；被动察觉 12  
+**语言** 无  
+**CR** 2（XP 450；PB +2）
+
+### 特质
+
+---
+
+**_水下呼吸（Water Breathing）。_** 猎鲨只能在水下呼吸。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +6（如果目标当前生命值并非其生命值上限，则具有优势），触及 5 尺。_命中：_ 14（3d6 + 4）点穿刺伤害。
+
+## 鬣狗（Hyena）
+
+_中型野兽，无阵营_
+
+**AC** 11 **先攻** +1（11）  
+**HP** 5（1d8 + 1）  
+**速度** 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 11 | +0 | +0 | **敏捷** | 13 | +1 | +1 | **体质** | 12 | +1 | +1 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 5 | −3 | −3 |
+
+**技能** 察觉 +3  
+**感官** 黑暗视觉 60 尺；被动察觉 13  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_群体战术（Pack Tactics）。_** 如果鬣狗至少有一名盟友位于某生物 5 尺内，并且该盟友没有处于失能状态，则鬣狗对该生物进行的攻击检定具有优势。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +2，触及 5 尺。_命中：_ 3（1d6）点穿刺伤害。
+
+## 胡狼（Jackal）
+
+_小型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 3（1d6）  
+**速度** 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 8 | −1 | −1 | **敏捷** | 15 | +2 | +2 | **体质** | 11 | +0 | +0 |
+| **智力** | 3 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 6 | −2 | −2 |
+
+**技能** 察觉 +5，隐匿 +4  
+**感官** 黑暗视觉 90 尺；被动察觉 15  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +1，触及 5 尺。_命中：_ 1（1d4 − 1）点穿刺伤害。
+
+## 虎鲸（Killer Whale）
+
+_巨型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 90（12d12 + 12）  
+**速度** 5 尺，游泳 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 19 | +4 | +4 | **敏捷** | 14 | +2 | +2 | **体质** | 13 | +1 | +1 |
+| **智力** | 3 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 7 | −2 | −2 |
+
+**技能** 察觉 +3，隐匿 +4  
+**感官** 盲视 120 尺；被动察觉 13  
+**语言** 无  
+**CR** 3（XP 700；PB +2）
+
+### 特质
+
+---
+
+**_屏息（Hold Breath）。_** 虎鲸可以屏住呼吸 30 分钟。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +6，触及 5 尺。_命中：_ 21（5d6 + 4）点穿刺伤害。
+
+## 狮子（Lion）
+
+_大型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 22（4d10）  
+**速度** 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 17 | +3 | +3 | **敏捷** | 15 | +2 | +2 | **体质** | 11 | +0 | +0 |
+| **智力** | 3 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 8 | −1 | −1 |
+
+**技能** 察觉 +3，隐匿 +4  
+**感官** 黑暗视觉 60 尺；被动察觉 13  
+**语言** 无  
+**CR** 1（XP 200；PB +2）
+
+### 特质
+
+---
+
+**_群体战术（Pack Tactics）。_** 如果狮子至少有一名盟友位于某生物 5 尺内，并且该盟友没有处于失能状态，则狮子对该生物进行的攻击检定具有优势。
+
+**_助跑跳跃（Running Leap）。_** 如果先助跑 10 尺，狮子的跳远距离最多可达 25 尺。
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 狮子进行两次撕裂攻击。它可以用一次咆哮替代其中一次攻击。
+
+**_撕裂（Rend）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 7（1d8 + 3）点挥砍伤害。
+
+**_咆哮（Roar）。_** _感知豁免：_ DC 11，目标为 15 尺内一个生物。_失败：_ 目标陷入恐慌状态，直到狮子下一回合开始。
+
+## 蜥蜴（Lizard）
+
+_微型野兽，无阵营_
+
+**AC** 10 **先攻** +0（10）  
+**HP** 2（1d4）  
+**速度** 20 尺，攀爬 20 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 2 | −4 | −4 | **敏捷** | 11 | +0 | +0 | **体质** | 10 | +0 | +0 |
+| **智力** | 1 | −5 | −5 | **感知** | 8 | −1 | −1 | **魅力** | 3 | −4 | −4 |
+
+**感官** 黑暗视觉 30 尺；被动察觉 9  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_蛛行（Spider Climb）。_** 蜥蜴可以攀爬困难表面，包括沿天花板移动，而无需进行属性检定。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +2，触及 5 尺。_命中：_ 1 点穿刺伤害。
+
+## 猛犸象（Mammoth）
+
+_巨型野兽，无阵营_
+
+**AC** 13 **先攻** +2（12）  
+**HP** 126（11d12 + 55）  
+**速度** 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 24 | +7 | +10 | **敏捷** | 9 | −1 | −1 | **体质** | 21 | +5 | +8 |
+| **智力** | 3 | −4 | −4 | **感知** | 11 | +0 | +0 | **魅力** | 6 | −2 | −2 |
+
+**感官** 被动察觉 10  
+**语言** 无  
+**CR** 6（XP 2,300；PB +3）
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 猛犸象进行两次獠牙突刺攻击。
+
+**_獠牙突刺（Gore）。_** _近战攻击检定：_ +10，触及 10 尺。_命中：_ 18（2d10 + 7）点穿刺伤害。如果目标是巨型或更小型生物，并且猛犸象在命中前立即沿直线朝目标移动了至少 20 尺，则目标陷入倒地状态。
+
+### 附赠动作
+
+---
+
+**_践踏（Trample）。_** _敏捷豁免：_ DC 18，目标为 5 尺内一个处于倒地状态的生物。_失败：_ 29（4d10 + 7）点钝击伤害。_成功：_ 受到一半伤害。
+
+## 獒犬（Mastiff）
+
+_中型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 5（1d8 + 1）  
+**速度** 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 13 | +1 | +1 | **敏捷** | 14 | +2 | +2 | **体质** | 12 | +1 | +1 |
+| **智力** | 3 | −4 | −4 | **感知** | 12 | +1 | +3 | **魅力** | 7 | −2 | −2 |
+
+**技能** 察觉 +5  
+**感官** 黑暗视觉 60 尺；被动察觉 15  
+**语言** 无  
+**CR** 1/8（XP 25；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +3，触及 5 尺。_命中：_ 4（1d6 + 1）点穿刺伤害。如果目标是中型或更小型生物，则其陷入倒地状态。
+
+## 骡子（Mule）
+
+_中型野兽，无阵营_
+
+**AC** 10 **先攻** +0（10）  
+**HP** 11（2d8 + 2）  
+**速度** 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 14 | +2 | +4 | **敏捷** | 10 | +0 | +0 | **体质** | 13 | +1 | +1 |
+| **智力** | 2 | −4 | −4 | **感知** | 10 | +0 | +0 | **魅力** | 5 | −3 | −3 |
+
+**感官** 被动察觉 10  
+**语言** 无  
+**CR** 1/8（XP 25；PB +2）
+
+### 特质
+
+---
+
+**_驮兽（Beast of Burden）。_** 在决定骡子的载重能力时，将其体型视为比实际大一级。
+
+### 动作
+
+---
+
+**_蹄击（Hooves）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 4（1d4 + 2）点钝击伤害。
+
+## 章鱼（Octopus）
+
+_小型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 3（1d6）  
+**速度** 5 尺，游泳 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 4 | −3 | −3 | **敏捷** | 15 | +2 | +2 | **体质** | 11 | +0 | +0 |
+| **智力** | 3 | −4 | −4 | **感知** | 10 | +0 | +0 | **魅力** | 4 | −3 | −3 |
+
+**技能** 察觉 +2，隐匿 +6  
+**感官** 黑暗视觉 30 尺；被动察觉 12  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_压缩身体（Compression）。_** 章鱼可以穿过窄至 1 英寸的空间，且无需为此消耗额外移动力。
+
+**_水下呼吸（Water Breathing）。_** 章鱼只能在水下呼吸。
+
+### 动作
+
+---
+
+**_触手（Tentacles）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 1 点钝击伤害。
+
+### 反应
+
+---
+
+**_墨云（Ink Cloud，1/日）。_** _触发：_ 在水下时，一个生物在章鱼 5 尺内结束其回合。_响应：_ 章鱼释放墨汁，填满一个以自身为中心的 5 尺立方区域，并移动至多其游泳速度。该立方区域处于重度遮蔽状态，持续 1 分钟，或直到强劲水流或类似效果将墨汁冲散。
+
+## 猫头鹰（Owl）
+
+_微型野兽，无阵营_
+
+**AC** 11 **先攻** +1（11）  
+**HP** 1（1d4 − 1）  
+**速度** 5 尺，飞行 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 3 | −4 | −4 | **敏捷** | 13 | +1 | +1 | **体质** | 8 | −1 | −1 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 7 | −2 | −2 |
+
+**技能** 察觉 +5，隐匿 +5  
+**感官** 黑暗视觉 120 尺；被动察觉 15  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_掠空（Flyby）。_** 猫头鹰飞出敌人的触及范围时不会触发借机攻击。
+
+### 动作
+
+---
+
+**_利爪（Talons）。_** _近战攻击检定：_ +3，触及 5 尺。_命中：_ 1 点挥砍伤害。
+
+## 黑豹（Panther）
+
+_中型野兽，无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 13（3d8）  
+**速度** 50 尺，攀爬 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 14 | +2 | +2 | **敏捷** | 16 | +3 | +3 | **体质** | 10 | +0 | +0 |
+| **智力** | 3 | −4 | −4 | **感知** | 14 | +2 | +2 | **魅力** | 7 | −2 | −2 |
+
+**技能** 察觉 +4，隐匿 +7  
+**感官** 黑暗视觉 60 尺；被动察觉 14  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 动作
+
+---
+
+**_撕裂（Rend）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 6（1d6 + 3）点挥砍伤害。
+
+### 附赠动作
+
+---
+
+**_灵巧脱身（Nimble Escape）。_** 黑豹执行撤离或躲藏动作。
+
+## 食人鱼（Piranha）
+
+_微型野兽，无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 1（1d4 − 1）  
+**速度** 5 尺，游泳 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 2 | −4 | −4 | **敏捷** | 16 | +3 | +3 | **体质** | 9 | −1 | −1 |
+| **智力** | 1 | −5 | −5 | **感知** | 7 | −2 | −2 | **魅力** | 2 | −4 | −4 |
+
+**感官** 黑暗视觉 60 尺；被动察觉 8  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_水下呼吸（Water Breathing）。_** 食人鱼只能在水下呼吸。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +5（如果目标当前生命值并非其生命值上限，则具有优势），触及 5 尺。_命中：_ 1 点穿刺伤害。
+
+## 蛇颈龙（Plesiosaurus）
+
+_大型野兽（恐龙），无阵营_
+
+**AC** 13 **先攻** +2（12）  
+**HP** 68（8d10 + 24）  
+**速度** 20 尺，游泳 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 18 | +4 | +4 | **敏捷** | 15 | +2 | +2 | **体质** | 16 | +3 | +3 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 5 | −3 | −3 |
+
+**技能** 察觉 +3，隐匿 +4  
+**感官** 被动察觉 13  
+**语言** 无  
+**CR** 2（XP 450；PB +2）
+
+### 特质
+
+---
+
+**_屏息（Hold Breath）。_** 蛇颈龙可以屏住呼吸 1 小时。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +6，触及 10 尺。_命中：_ 11（2d6 + 4）点穿刺伤害。
+
+## 北极熊（Polar Bear）
+
+_大型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 42（5d10 + 15）  
+**速度** 40 尺，游泳 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 20 | +5 | +5 | **敏捷** | 14 | +2 | +2 | **体质** | 16 | +3 | +3 |
+| **智力** | 2 | −4 | −4 | **感知** | 13 | +1 | +1 | **魅力** | 7 | −2 | −2 |
+
+**技能** 察觉 +5，隐匿 +4  
+**抗性** 寒冷  
+**感官** 黑暗视觉 60 尺；被动察觉 15  
+**语言** 无  
+**CR** 2（XP 450；PB +2）
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 北极熊进行两次撕裂攻击。
+
+**_撕裂（Rend）。_** _近战攻击检定：_ +7，触及 5 尺。_命中：_ 9（1d8 + 5）点挥砍伤害。
+
+## 矮马（Pony）
+
+_中型野兽，无阵营_
+
+**AC** 10 **先攻** +0（10）  
+**HP** 11（2d8 + 2）  
+**速度** 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 15 | +2 | +4 | **敏捷** | 10 | +0 | +0 | **体质** | 13 | +1 | +1 |
+| **智力** | 2 | −4 | −4 | **感知** | 11 | +0 | +0 | **魅力** | 7 | −2 | −2 |
+
+**感官** 被动察觉 10  
+**语言** 无  
+**CR** 1/8（XP 25；PB +2）
+
+### 动作
+
+---
+
+**_蹄击（Hooves）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 4（1d4 + 2）点钝击伤害。
+
+## 无齿翼龙（Pteranodon）
+
+_中型野兽（恐龙），无阵营_
+
+**AC** 13 **先攻** +2（12）  
+**HP** 13（3d8）  
+**速度** 10 尺，飞行 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 12 | +1 | +1 | **敏捷** | 15 | +2 | +2 | **体质** | 10 | +0 | +0 |
+| **智力** | 2 | −4 | −4 | **感知** | 9 | −1 | −1 | **魅力** | 5 | −3 | −3 |
+
+**技能** 察觉 +1  
+**感官** 被动察觉 11  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 特质
+
+---
+
+**_掠空（Flyby）。_** 无齿翼龙飞出敌人的触及范围时不会触发借机攻击。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 6（1d8 + 2）点穿刺伤害。
+
+## 老鼠（Rat）
+
+_微型野兽，无阵营_
+
+**AC** 10 **先攻** +0（10）  
+**HP** 1（1d4 − 1）  
+**速度** 20 尺，攀爬 20 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 2 | −4 | −4 | **敏捷** | 11 | +0 | +0 | **体质** | 9 | −1 | −1 |
+| **智力** | 2 | −4 | −4 | **感知** | 10 | +0 | +0 | **魅力** | 4 | −3 | −3 |
+
+**技能** 察觉 +2  
+**感官** 黑暗视觉 30 尺；被动察觉 12  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_敏捷（Agile）。_** 老鼠移出敌人的触及范围时不会触发借机攻击。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +2，触及 5 尺。_命中：_ 1 点穿刺伤害。
+
+## 渡鸦（Raven）
+
+_微型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 2（1d4）  
+**速度** 10 尺，飞行 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 2 | −4 | −4 | **敏捷** | 14 | +2 | +2 | **体质** | 10 | +0 | +0 |
+| **智力** | 5 | −3 | −3 | **感知** | 13 | +1 | +1 | **魅力** | 6 | −2 | −2 |
+
+**技能** 察觉 +3  
+**感官** 被动察觉 13  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_模仿（Mimicry）。_** 渡鸦可以模仿它听过的简单声音，例如低语或吱吱声。聆听者成功通过 DC 10 感知（洞悉）检定时，可以辨认出这些声音是模仿出来的。
+
+### 动作
+
+---
+
+**_喙击（Beak）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 1 点穿刺伤害。
+
+## 礁鲨（Reef Shark）
+
+_中型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 22（4d8 + 4）  
+**速度** 5 尺，游泳 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 14 | +2 | +2 | **敏捷** | 15 | +2 | +2 | **体质** | 13 | +1 | +1 |
+| **智力** | 1 | −5 | −5 | **感知** | 10 | +0 | +0 | **魅力** | 4 | −3 | −3 |
+
+**技能** 察觉 +2  
+**感官** 盲视 30 尺；被动察觉 12  
+**语言** 无  
+**CR** 1/2（XP 100；PB +2）
+
+### 特质
+
+---
+
+**_群体战术（Pack Tactics）。_** 如果礁鲨至少有一名盟友位于某生物 5 尺内，并且该盟友没有处于失能状态，则礁鲨对该生物进行的攻击检定具有优势。
+
+**_水下呼吸（Water Breathing）。_** 礁鲨只能在水下呼吸。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 7（2d4 + 2）点穿刺伤害。
+
+## 犀牛（Rhinoceros）
+
+_大型野兽，无阵营_
+
+**AC** 13 **先攻** −1（9）  
+**HP** 45（6d10 + 12）  
+**速度** 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 21 | +5 | +5 | **敏捷** | 8 | −1 | −1 | **体质** | 15 | +2 | +2 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 6 | −2 | −2 |
+
+**感官** 被动察觉 11  
+**语言** 无  
+**CR** 2（XP 450；PB +2）
+
+### 动作
+
+---
+
+**_獠角突刺（Gore）。_** _近战攻击检定：_ +7，触及 5 尺。_命中：_ 14（2d8 + 5）点穿刺伤害。如果目标是大型或更小型生物，并且犀牛在命中前立即沿直线朝目标移动了至少 20 尺，则目标额外受到 9（2d8）点穿刺伤害，并陷入倒地状态。
+
+## 骑乘马（Riding Horse）
+
+_大型野兽，无阵营_
+
+**AC** 11 **先攻** +1（11）  
+**HP** 13（2d10 + 2）  
+**速度** 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 16 | +3 | +3 | **敏捷** | 13 | +1 | +1 | **体质** | 12 | +1 | +1 |
+| **智力** | 2 | −4 | −4 | **感知** | 11 | +0 | +0 | **魅力** | 7 | −2 | −2 |
+
+**感官** 被动察觉 10  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 动作
+
+---
+
+**_蹄击（Hooves）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 7（1d8 + 3）点钝击伤害。
+
+## 剑齿虎（Saber-Toothed Tiger）
+
+_大型野兽，无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 52（7d10 + 14）  
+**速度** 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 18 | +4 | +6 | **敏捷** | 17 | +3 | +5 | **体质** | 15 | +2 | +2 |
+| **智力** | 3 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 8 | −1 | −1 |
+
+**技能** 察觉 +5，隐匿 +7  
+**感官** 黑暗视觉 60 尺；被动察觉 15  
+**语言** 无  
+**CR** 2（XP 450；PB +2）
+
+### 特质
+
+---
+
+**_助跑跳跃（Running Leap）。_** 如果先助跑 10 尺，剑齿虎的跳远距离最多可达 25 尺。
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 剑齿虎进行两次撕裂攻击。
+
+**_撕裂（Rend）。_** _近战攻击检定：_ +6，触及 5 尺。_命中：_ 11（2d6 + 4）点挥砍伤害。
+
+### 附赠动作
+
+---
+
+**_灵巧脱身（Nimble Escape）。_** 剑齿虎执行撤离或躲藏动作。
+
+## 蝎子（Scorpion）
+
+_微型野兽，无阵营_
+
+**AC** 11 **先攻** +0（10）  
+**HP** 1（1d4 − 1）  
+**速度** 10 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 2 | −4 | −4 | **敏捷** | 11 | +0 | +0 | **体质** | 8 | −1 | −1 |
+| **智力** | 1 | −5 | −5 | **感知** | 8 | −1 | −1 | **魅力** | 2 | −4 | −4 |
+
+**感官** 盲视 10 尺；被动察觉 9  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 动作
+
+---
+
+**_毒刺（Sting）。_** _近战攻击检定：_ +2，触及 5 尺。_命中：_ 1 点穿刺伤害外加 3（1d6）点毒素伤害。
+
+## 海马（Seahorse）
+
+_微型野兽，无阵营_
+
+**AC** 12 **先攻** +1（11）  
+**HP** 1（1d4 − 1）  
+**速度** 5 尺，游泳 20 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 1 | −5 | −5 | **敏捷** | 12 | +1 | +1 | **体质** | 8 | −1 | −1 |
+| **智力** | 1 | −5 | −5 | **感知** | 10 | +0 | +0 | **魅力** | 2 | −4 | −4 |
+
+**技能** 察觉 +2，隐匿 +5  
+**感官** 被动察觉 12  
+**语言** 无  
+**CR** 0（XP 0；PB +2）
+
+### 特质
+
+---
+
+**_水下呼吸（Water Breathing）。_** 海马只能在水下呼吸。
+
+### 动作
+
+---
+
+**_气泡疾驰（Bubble Dash）。_** 在水下时，海马移动至多其游泳速度，且不会触发借机攻击。
+
+## 蜘蛛（Spider）
+
+_微型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 1（1d4 − 1）  
+**速度** 20 尺，攀爬 20 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 2 | −4 | −4 | **敏捷** | 14 | +2 | +2 | **体质** | 8 | −1 | −1 |
+| **智力** | 1 | −5 | −5 | **感知** | 10 | +0 | +0 | **魅力** | 2 | −4 | −4 |
+
+**技能** 隐匿 +4  
+**感官** 黑暗视觉 30 尺；被动察觉 10  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_蛛行（Spider Climb）。_** 蜘蛛可以攀爬困难表面，包括沿天花板移动，而无需进行属性检定。
+
+**_蛛网行者（Web Walker）。_** 蜘蛛忽略蛛网造成的移动限制，并且知道与同一张蛛网接触的任何其他生物的位置。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 1 点穿刺伤害外加 2（1d4）点毒素伤害。
+
+## 蝙蝠集群（Swarm of Bats）
+
+_大型微型野兽集群，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 11（2d10）  
+**速度** 5 尺，飞行 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 5 | −3 | −3 | **敏捷** | 15 | +2 | +2 | **体质** | 10 | +0 | +0 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 4 | −3 | −3 |
+
+**抗性** 钝击、穿刺、挥砍  
+**免疫** 魅惑、恐慌、擒抱、麻痹、石化、倒地、束缚、震慑  
+**感官** 盲视 60 尺；被动察觉 11  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 特质
+
+---
+
+**_集群（Swarm）。_** 集群可以占据其他生物的空间，其他生物也可以占据集群的空间；集群可以穿过任何足以让一只微型蝙蝠通过的开口。集群无法恢复生命值，也无法获得临时生命值。
+
+### 动作
+
+---
+
+**_群咬（Bites）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 5（2d4）点穿刺伤害；如果集群处于重伤状态，则改为 2（1d4）点穿刺伤害。
+
+## 昆虫集群（Swarm of Insects）
+
+_中型微型野兽集群，无阵营_
+
+**AC** 11 **先攻** +1（11）  
+**HP** 19（3d8 + 6）  
+**速度** 20 尺，攀爬或飞行 20 尺（由 GM 选择）  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 3 | −4 | −4 | **敏捷** | 13 | +1 | +1 | **体质** | 14 | +2 | +2 |
+| **智力** | 1 | −5 | −5 | **感知** | 7 | −2 | −2 | **魅力** | 1 | −5 | −5 |
+
+**抗性** 钝击、穿刺、挥砍  
+**免疫** 魅惑、恐慌、擒抱、麻痹、石化、倒地、束缚、震慑  
+**感官** 盲视 30 尺；被动察觉 8  
+**语言** 无  
+**CR** 1/2（XP 100；PB +2）
+
+### 特质
+
+---
+
+**_蛛行（Spider Climb）。_** 如果集群拥有攀爬速度，则可以攀爬困难表面，包括沿天花板移动，而无需进行属性检定。
+
+**_集群（Swarm）。_** 集群可以占据其他生物的空间，其他生物也可以占据集群的空间；集群可以穿过任何足以让一只微型昆虫通过的开口。集群无法恢复生命值，也无法获得临时生命值。
+
+### 动作
+
+---
+
+**_群咬（Bites）。_** _近战攻击检定：_ +3，触及 5 尺。_命中：_ 6（2d4 + 1）点毒素伤害；如果集群处于重伤状态，则改为 3（1d4 + 1）点毒素伤害。
+
+## 食人鱼集群（Swarm of Piranhas）
+
+_中型微型野兽集群，无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 28（8d8 − 8）  
+**速度** 5 尺，游泳 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 13 | +1 | +1 | **敏捷** | 16 | +3 | +3 | **体质** | 9 | −1 | −1 |
+| **智力** | 1 | −5 | −5 | **感知** | 7 | −2 | −2 | **魅力** | 2 | −4 | −4 |
+
+**抗性** 钝击、穿刺、挥砍  
+**免疫** 魅惑、恐慌、擒抱、麻痹、石化、倒地、束缚、震慑  
+**感官** 黑暗视觉 60 尺；被动察觉 8  
+**语言** 无  
+**CR** 1（XP 200；PB +2）
+
+### 特质
+
+---
+
+**_集群（Swarm）。_** 集群可以占据其他生物的空间，其他生物也可以占据集群的空间；集群可以穿过任何足以让一只微型食人鱼通过的开口。集群无法恢复生命值，也无法获得临时生命值。
+
+**_水下呼吸（Water Breathing）。_** 集群只能在水下呼吸。
+
+### 动作
+
+---
+
+**_群咬（Bites）。_** _近战攻击检定：_ +5（如果目标当前生命值并非其生命值上限，则具有优势），触及 5 尺。_命中：_ 8（2d4 + 3）点穿刺伤害；如果集群处于重伤状态，则改为 5（1d4 + 3）点穿刺伤害。
+
+## 鼠群（Swarm of Rats）
+
+_中型微型野兽集群，无阵营_
+
+**AC** 10 **先攻** +0（10）  
+**HP** 14（4d8 − 4）  
+**速度** 30 尺，攀爬 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 9 | −1 | −1 | **敏捷** | 11 | +0 | +2 | **体质** | 9 | −1 | −1 |
+| **智力** | 2 | −4 | −4 | **感知** | 10 | +0 | +0 | **魅力** | 3 | −4 | −4 |
+
+**抗性** 钝击、穿刺、挥砍  
+**免疫** 魅惑、恐慌、擒抱、麻痹、石化、倒地、束缚、震慑  
+**感官** 黑暗视觉 30 尺；被动察觉 10  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 特质
+
+---
+
+**_集群（Swarm）。_** 集群可以占据其他生物的空间，其他生物也可以占据集群的空间；集群可以穿过任何足以让一只微型老鼠通过的开口。集群无法恢复生命值，也无法获得临时生命值。
+
+### 动作
+
+---
+
+**_群咬（Bites）。_** _近战攻击检定：_ +2，触及 5 尺。_命中：_ 5（2d4）点穿刺伤害；如果集群处于重伤状态，则改为 2（1d4）点穿刺伤害。
+
+## 渡鸦集群（Swarm of Ravens）
+
+_中型微型野兽集群，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 11（2d8 + 2）  
+**速度** 10 尺，飞行 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 6 | −2 | −2 | **敏捷** | 14 | +2 | +2 | **体质** | 12 | +1 | +1 |
+| **智力** | 5 | −3 | −3 | **感知** | 12 | +1 | +1 | **魅力** | 6 | −2 | −2 |
+
+**技能** 察觉 +5  
+**抗性** 钝击、穿刺、挥砍  
+**免疫** 魅惑、恐慌、擒抱、麻痹、石化、倒地、束缚、震慑  
+**感官** 被动察觉 15  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 特质
+
+---
+
+**_集群（Swarm）。_** 集群可以占据其他生物的空间，其他生物也可以占据集群的空间；集群可以穿过任何足以让一只微型渡鸦通过的开口。集群无法恢复生命值，也无法获得临时生命值。
+
+### 动作
+
+---
+
+**_群喙（Beaks）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 5（1d6 + 2）点穿刺伤害；如果集群处于重伤状态，则改为 2（1d4）点穿刺伤害。
+
+**_嘈杂鸣叫（Cacophony，充能 6）。_** _感知豁免：_ DC 10，目标为集群空间中的一个生物。_失败：_ 目标陷入耳聋状态，直到集群下一回合开始。在耳聋期间，目标的属性检定和攻击检定同时具有劣势。
+
+## 毒蛇集群（Swarm of Venomous Snakes）
+
+_中型微型野兽集群，无阵营_
+
+**AC** 14 **先攻** +4（14）  
+**HP** 36（8d8）  
+**速度** 30 尺，游泳 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 8 | −1 | −1 | **敏捷** | 18 | +4 | +4 | **体质** | 11 | +0 | +0 |
+| **智力** | 1 | −5 | −5 | **感知** | 10 | +0 | +0 | **魅力** | 3 | −4 | −4 |
+
+**抗性** 钝击、穿刺、挥砍  
+**免疫** 魅惑、恐慌、擒抱、麻痹、石化、倒地、束缚、震慑  
+**感官** 盲视 10 尺；被动察觉 10  
+**语言** 无  
+**CR** 2（XP 450；PB +2）
+
+### 特质
+
+---
+
+**_集群（Swarm）。_** 集群可以占据其他生物的空间，其他生物也可以占据集群的空间；集群可以穿过任何足以让一条微型蛇通过的开口。集群无法恢复生命值，也无法获得临时生命值。
+
+### 动作
+
+---
+
+**_群咬（Bites）。_** _近战攻击检定：_ +6，触及 5 尺。_命中：_ 8（1d8 + 4）点穿刺伤害——如果集群处于重伤状态，则改为 6（1d4 + 4）点穿刺伤害——外加 10（3d6）点毒素伤害。
+
+## 老虎（Tiger）
+
+_大型野兽，无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 30（4d10 + 8）  
+**速度** 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 17 | +3 | +3 | **敏捷** | 16 | +3 | +3 | **体质** | 14 | +2 | +2 |
+| **智力** | 3 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 8 | −1 | −1 |
+
+**技能** 察觉 +3，隐匿 +7  
+**感官** 黑暗视觉 60 尺；被动察觉 13  
+**语言** 无  
+**CR** 1（XP 200；PB +2）
+
+### 动作
+
+---
+
+**_撕裂（Rend）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 10（2d6 + 3）点挥砍伤害。如果目标是大型或更小型生物，则其陷入倒地状态。
+
+### 附赠动作
+
+---
+
+**_灵巧脱身（Nimble Escape）。_** 老虎执行撤离或躲藏动作。
+
+## 三角龙（Triceratops）
+
+_巨型野兽（恐龙），无阵营_
+
+**AC** 14 **先攻** −1（9）  
+**HP** 114（12d12 + 36）  
+**速度** 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 22 | +6 | +6 | **敏捷** | 9 | −1 | −1 | **体质** | 17 | +3 | +3 |
+| **智力** | 2 | −4 | −4 | **感知** | 11 | +0 | +0 | **魅力** | 5 | −3 | −3 |
+
+**感官** 被动察觉 10  
+**语言** 无  
+**CR** 5（XP 1,800；PB +3）
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 三角龙进行两次獠角突刺攻击。
+
+**_獠角突刺（Gore）。_** _近战攻击检定：_ +9，触及 5 尺。_命中：_ 19（2d12 + 6）点穿刺伤害。如果目标是巨型或更小型生物，并且三角龙在命中前立即沿直线朝目标移动了至少 20 尺，则目标额外受到 9（2d8）点穿刺伤害，并陷入倒地状态。
+
+## 霸王龙（Tyrannosaurus Rex）
+
+_巨型野兽（恐龙），无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 136（13d12 + 52）  
+**速度** 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 25 | +7 | +10 | **敏捷** | 10 | +0 | +0 | **体质** | 19 | +4 | +4 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +4 | **魅力** | 9 | −1 | −1 |
+
+**技能** 察觉 +4  
+**感官** 被动察觉 14  
+**语言** 无  
+**CR** 8（XP 3,900；PB +3）
+
+### 动作
+
+---
+
+**_多重攻击（Multiattack）。_** 霸王龙进行一次啃咬攻击和一次尾击攻击。
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +10，触及 10 尺。_命中：_ 33（4d12 + 7）点穿刺伤害。如果目标是大型或更小型生物，则其陷入擒抱状态（逃脱 DC 17）。在被擒抱期间，目标同时处于束缚状态，并且不能成为霸王龙尾击的目标。
+
+**_尾击（Tail）。_** _近战攻击检定：_ +10，触及 15 尺。_命中：_ 25（4d8 + 7）点钝击伤害。如果目标是巨型或更小型生物，则其陷入倒地状态。
+
+## 毒蛇（Venomous Snake）
+
+_微型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 5（2d4）  
+**速度** 30 尺，游泳 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 2 | −4 | −4 | **敏捷** | 15 | +2 | +2 | **体质** | 11 | +0 | +0 |
+| **智力** | 1 | −5 | −5 | **感知** | 10 | +0 | +0 | **魅力** | 3 | −4 | −4 |
+
+**感官** 盲视 10 尺；被动察觉 10  
+**语言** 无  
+**CR** 1/8（XP 25；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 4（1d4 + 2）点穿刺伤害外加 3（1d6）点毒素伤害。
+
+## 秃鹫（Vulture）
+
+_中型野兽，无阵营_
+
+**AC** 10 **先攻** +0（10）  
+**HP** 5（1d8 + 1）  
+**速度** 10 尺，飞行 50 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 7 | −2 | −2 | **敏捷** | 10 | +0 | +0 | **体质** | 13 | +1 | +1 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 4 | −3 | −3 |
+
+**技能** 察觉 +3  
+**感官** 被动察觉 13  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 特质
+
+---
+
+**_群体战术（Pack Tactics）。_** 如果秃鹫至少有一名盟友位于某生物 5 尺内，并且该盟友没有处于失能状态，则秃鹫对该生物进行的攻击检定具有优势。
+
+### 动作
+
+---
+
+**_喙击（Beak）。_** _近战攻击检定：_ +2，触及 5 尺。_命中：_ 2（1d4）点穿刺伤害。
+
+## 战马（Warhorse）
+
+_大型野兽，无阵营_
+
+**AC** 11 **先攻** +1（11）  
+**HP** 19（3d10 + 3）  
+**速度** 60 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 18 | +4 | +4 | **敏捷** | 12 | +1 | +1 | **体质** | 13 | +1 | +1 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +3 | **魅力** | 7 | −2 | −2 |
+
+**感官** 被动察觉 11  
+**语言** 无  
+**CR** 1/2（XP 100；PB +2）
+
+### 动作
+
+---
+
+**_蹄击（Hooves）。_** _近战攻击检定：_ +6，触及 5 尺。_命中：_ 9（2d4 + 4）点钝击伤害。如果目标是大型或更小型生物，并且战马在命中前立即沿直线朝目标移动了至少 20 尺，则目标额外受到 5（2d4）点钝击伤害，并陷入倒地状态。
+
+## 鼬（Weasel）
+
+_微型野兽，无阵营_
+
+**AC** 13 **先攻** +3（13）  
+**HP** 1（1d4 − 1）  
+**速度** 30 尺，攀爬 30 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 3 | −4 | −4 | **敏捷** | 16 | +3 | +3 | **体质** | 8 | −1 | −1 |
+| **智力** | 2 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 3 | −4 | −4 |
+
+**技能** 特技 +5，察觉 +3，隐匿 +5  
+**感官** 黑暗视觉 60 尺；被动察觉 13  
+**语言** 无  
+**CR** 0（XP 10；PB +2）
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +5，触及 5 尺。_命中：_ 1 点穿刺伤害。
+
+## 狼（Wolf）
+
+_中型野兽，无阵营_
+
+**AC** 12 **先攻** +2（12）  
+**HP** 11（2d8 + 2）  
+**速度** 40 尺  
+
+|  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |  |  | 调整值 | 豁免 |
+|---|---:|---:|---:|---|---:|---:|---:|---|---:|---:|---:|
+| **力量** | 14 | +2 | +2 | **敏捷** | 15 | +2 | +2 | **体质** | 12 | +1 | +1 |
+| **智力** | 3 | −4 | −4 | **感知** | 12 | +1 | +1 | **魅力** | 6 | −2 | −2 |
+
+**技能** 察觉 +5，隐匿 +4  
+**感官** 黑暗视觉 60 尺；被动察觉 15  
+**语言** 无  
+**CR** 1/4（XP 50；PB +2）
+
+### 特质
+
+---
+
+**_群体战术（Pack Tactics）。_** 如果狼至少有一名盟友位于某生物 5 尺内，并且该盟友没有处于失能状态，则狼对该生物进行的攻击检定具有优势。
+
+### 动作
+
+---
+
+**_啃咬（Bite）。_** _近战攻击检定：_ +4，触及 5 尺。_命中：_ 5（1d6 + 2）点穿刺伤害。如果目标是中型或更小型生物，则其陷入倒地状态。

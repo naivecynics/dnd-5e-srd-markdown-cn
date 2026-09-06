@@ -1,183 +1,199 @@
-# Feats
+# 专长（Feats）
 
-## Feat Descriptions
+## 专长说明（Feat Descriptions）
 
-The feats that follow are organized by category—Origin, General, Fighting Style, or Epic Boon—and alphabetized in each category.
+以下专长按类别整理——起源（Origin）、通用（General）、战斗风格（Fighting Style）或史诗恩赐（Epic Boon）——并在每个类别中按字母顺序排列。
 
-### Parts of a Feat
+### 专长的组成部分（Parts of a Feat）
 
-The description of a feat contains the following parts, which are presented after the feat's name.
+专长说明包含以下部分，并列在专长名称之后。
 
-_Category._ A feat is a member of a category, which is noted in the feat. If you're instructed to choose a feat from a specific category, such as the Origin category, that category must appear under the feat's name. If you're instructed to choose a feat and no category is specified, you can choose from any category.
+_类别（Category）。_ 每项专长都属于一个类别，该类别会在专长中注明。如果你被要求从特定类别中选择专长，例如起源类别，则该类别必须出现在专长名称下方。如果你被要求选择一项专长，但没有指定类别，则可以从任意类别中选择。
 
-_Prerequisite._ To take a feat, you must meet any prerequisite in its description unless a feature allows you to take the feat without the prerequisite. If a prerequisite includes a class, you must have at least 1 level in that class to take the feat.
+_先决条件（Prerequisite）。_ 要获得一项专长，你必须满足其说明中的所有先决条件，除非某项特性允许你无视这些先决条件获得该专长。如果先决条件中包含某个职业，则你必须至少拥有该职业 1 级，才能获得该专长。
 
-_Benefit._ The benefits of a feat are detailed after any prerequisites are listed. If you have a feat, you gain its benefits.
+_收益（Benefit）。_ 专长的收益列在任何先决条件之后。如果你拥有该专长，就获得这些收益。
 
-_Repeatable._ A feat can be taken only once unless its description states otherwise in a "Repeatable" subsection.
+_可重复（Repeatable）。_ 除非专长说明中的“可重复”小节另有说明，否则同一项专长只能获得一次。
 
-### Origin Feats
+### 起源专长（Origin Feats）
 
-#### Alert
+#### 警觉（Alert）
 
-_Origin Feat_
+_起源专长_
 
-You gain the following benefits.
+你获得以下收益。
 
-_Initiative Proficiency._ When you roll Initiative, you can add your Proficiency Bonus to the roll.
+_先攻熟练（Initiative Proficiency）。_ 当你掷先攻时，可以将你的熟练加值加入该检定。
 
-_Initiative Swap._ Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.
+_交换先攻（Initiative Swap）。_ 在你掷完先攻后立即，你可以与同一场战斗中一名自愿盟友交换先攻。如果你或该盟友处于失能状态，则不能进行此次交换。
 
-#### Magic Initiate
+#### 魔法学徒（Magic Initiate）
 
-_Origin Feat_
+_起源专长_
 
-You gain the following benefits.
+你获得以下收益。
 
-_Two Cantrips._ You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).
+_两道戏法（Two Cantrips）。_ 从牧师、德鲁伊或法师法术列表中选择一个列表，并从中学习两道你选择的戏法。智力、感知或魅力是你施放该专长法术时使用的施法属性；在选择此专长时决定使用哪一项。
 
-_Level 1 Spell._ Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.
+_1 环法术（Level 1 Spell）。_ 从你为此专长戏法选择的同一个法术列表中选择一道 1 环法术。你始终准备着该法术。你可以不消耗法术位施放它一次，并在完成一次长休后恢复以这种方式施放它的能力。你也可以使用自己拥有的任何法术位施放该法术。
 
-_Spell Change._ Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.
+_更换法术（Spell Change）。_ 每当你获得一个新等级时，可以将你通过此专长选择的一道法术替换为所选法术列表中另一道同环阶法术。
 
-_Repeatable._ You can take this feat more than once, but you must choose a different spell list each time.
+_可重复（Repeatable）。_ 你可以多次获得此专长，但每次都必须选择不同的法术列表。
 
-#### Savage Attacker
+#### 凶蛮攻击者（Savage Attacker）
 
-_Origin Feat_
+_起源专长_
 
-You've trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.
+你接受过训练，能够发动格外致命的打击。
 
-#### Skilled
+每回合一次，当你使用武器命中一个目标时，可以将该武器的伤害骰掷两次，并选择其中任一组结果作为对目标造成的伤害。
 
-_Origin Feat_
+#### 熟练者（Skilled）
 
-You gain proficiency in any combination of three skills or tools of your choice.
+_起源专长_
 
-_Repeatable._ You can take this feat more than once.
+你选择任意三项技能或工具的组合，并获得它们的熟练。
 
-### General Feats
+_可重复（Repeatable）。_ 你可以多次获得此专长。
 
-#### Ability Score Improvement
+### 通用专长（General Feats）
 
-_General Feat (Prerequisite: Level 4+)_
+#### 属性值提升（Ability Score Improvement）
 
-Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can't increase an ability score above 20.
+_通用专长（先决条件：4 级以上）_
 
-_Repeatable._ You can take this feat more than once.
+将你选择的一项属性值提高 2，或将你选择的两项属性值各提高 1。
 
-#### Grappler
+此专长不能使属性值提高至 20 以上。
 
-_General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)_
+_可重复（Repeatable）。_ 你可以多次获得此专长。
 
-You gain the following benefits.
+#### 擒抱者（Grappler）
 
-_Ability Score Increase._ Increase your Strength or Dexterity score by 1, to a maximum of 20.
+_通用专长（先决条件：4 级以上，力量或敏捷 13 以上）_
 
-_Punch and Grab._ When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.
+你获得以下收益。
 
-_Attack Advantage._ You have Advantage on attack rolls against a creature Grappled by you.
+_属性值提升（Ability Score Increase）。_ 将你的力量或敏捷值提高 1，最高为 20。
 
-_Fast Wrestler._ You don't have to spend extra movement to move a creature Grappled by you if the creature is your size or smaller.
+_拳击并抓取（Punch and Grab）。_ 在你的回合中，当你作为攻击动作的一部分用徒手打击命中一个生物时，可以同时使用徒手打击的“伤害”和“擒抱”选项。你每回合只能使用一次此收益。
 
-### Fighting Style Feats
+_攻击优势（Attack Advantage）。_ 你对被你擒抱的生物进行攻击检定时具有优势。
 
-#### Archery
+_迅捷摔跤手（Fast Wrestler）。_ 当你移动一个被你擒抱、且体型与你相同或更小的生物时，不需要额外消耗移动力。
 
-_Fighting Style Feat (Prerequisite: Fighting Style Feature)_
+### 战斗风格专长（Fighting Style Feats）
 
-You gain a +2 bonus to attack rolls you make with Ranged weapons.
+#### 箭术（Archery）
 
-#### Defense
+_战斗风格专长（先决条件：战斗风格特性）_
 
-_Fighting Style Feat (Prerequisite: Fighting Style Feature)_
+你使用远程武器进行的攻击检定获得 +2 加值。
 
-While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class.
+#### 防御（Defense）
 
-#### Great Weapon Fighting
+_战斗风格专长（先决条件：战斗风格特性）_
 
-_Fighting Style Feat (Prerequisite: Fighting Style Feature)_
+当你穿着轻甲、中甲或重甲时，你的护甲等级获得 +1 加值。
 
-When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.
+#### 巨武器战斗（Great Weapon Fighting）
 
-#### Two-Weapon Fighting
+_战斗风格专长（先决条件：战斗风格特性）_
 
-_Fighting Style Feat (Prerequisite: Fighting Style Feature)_
+当你使用双手持握的近战武器发动攻击并掷伤害时，可以将伤害骰上任何掷出的 1 或 2 视为 3。
 
-When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.
+该武器必须具有双手（Two-Handed）或多用（Versatile）属性，才能获得此收益。
 
-### Epic Boon Feats
+#### 双武器战斗（Two-Weapon Fighting）
 
-#### Boon of Combat Prowess
+_战斗风格专长（先决条件：战斗风格特性）_
 
-_Epic Boon Feat (Prerequisite: Level 19+)_
+当你因为使用具有轻型（Light）属性的武器而发动额外攻击时，如果你尚未将属性调整值加入该攻击的伤害，则可以将其加入该伤害。
 
-You gain the following benefits.
+### 史诗恩赐专长（Epic Boon Feats）
 
-_Ability Score Increase._ Increase one ability score of your choice by 1, to a maximum of 30.
+#### 战斗精通恩赐（Boon of Combat Prowess）
 
-_Peerless Aim._ When you miss with an attack roll, you can hit instead. Once you use this benefit, you can't use it again until the start of your next turn.
+_史诗恩赐专长（先决条件：19 级以上）_
 
-#### Boon of Dimensional Travel
+你获得以下收益。
 
-_Epic Boon Feat (Prerequisite: Level 19+)_
+_属性值提升（Ability Score Increase）。_ 将你选择的一项属性值提高 1，最高为 30。
 
-You gain the following benefits.
+_绝伦瞄准（Peerless Aim）。_ 当你的攻击检定失手时，可以改为命中。
 
-_Ability Score Increase._ Increase one ability score of your choice by 1, to a maximum of 30.
+一旦使用此收益，直到你的下一回合开始前，都不能再次使用。
 
-_Blink Steps._ Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see.
+#### 次元旅行恩赐（Boon of Dimensional Travel）
 
-#### Boon of Fate
+_史诗恩赐专长（先决条件：19 级以上）_
 
-_Epic Boon Feat (Prerequisite: Level 19+)_
+你获得以下收益。
 
-You gain the following benefits.
+_属性值提升（Ability Score Increase）。_ 将你选择的一项属性值提高 1，最高为 30。
 
-_Ability Score Increase._ Increase one ability score of your choice by 1, to a maximum of 30.
+_闪烁步伐（Blink Steps）。_ 在你执行攻击动作或魔法动作后立即，可以传送至多 30 尺，抵达一个你能看见的未占据空间。
 
-_Improve Fate._ When you or another creature within 60 feet of you succeeds on or fails a D20 Test, you can roll 2d4 and apply the total rolled as a bonus or penalty to the d20 roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short or Long Rest.
+#### 命运恩赐（Boon of Fate）
 
-#### Boon of Irresistible Offense
+_史诗恩赐专长（先决条件：19 级以上）_
 
-_Epic Boon Feat (Prerequisite: Level 19+)_
+你获得以下收益。
 
-You gain the following benefits.
+_属性值提升（Ability Score Increase）。_ 将你选择的一项属性值提高 1，最高为 30。
 
-_Ability Score Increase._ Increase your Strength or Dexterity score by 1, to a maximum of 30.
+_改变命运（Improve Fate）。_ 当你或你 60 尺内另一个生物在一次 D20 检定中成功或失败时，你可以掷 2d4，并将掷骰总值作为加值或减值应用于该次 d20 掷骰。
 
-_Overcome Defenses._ The Bludgeoning, Piercing, and Slashing damage you deal always ignores Resistance.
+一旦使用此收益，直到你掷先攻，或完成一次短休或长休之前，都不能再次使用。
 
-_Overwhelming Strike._ When you roll a 20 on the d20 for an attack roll, you can deal extra damage to the target equal to the ability score increased by this feat. The extra damage's type is the same as the attack's type.
+#### 不可阻挡攻势恩赐（Boon of Irresistible Offense）
 
-#### Boon of Spell Recall
+_史诗恩赐专长（先决条件：19 级以上）_
 
-_Epic Boon Feat (Prerequisite: Level 19+, Spellcasting Feature)_
+你获得以下收益。
 
-You gain the following benefits.
+_属性值提升（Ability Score Increase）。_ 将你的力量或敏捷值提高 1，最高为 30。
 
-_Ability Score Increase._ Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.
+_突破防御（Overcome Defenses）。_ 你造成的钝击、穿刺和挥砍伤害始终无视抗性。
 
-_Free Casting._ Whenever you cast a spell with a level 1–4 spell slot, roll 1d4. If the number you roll is the same as the slot's level, the slot isn't expended.
+_压倒性打击（Overwhelming Strike）。_ 当你在攻击检定的 d20 上掷出 20 时，可以对目标造成额外伤害，数值等于通过此专长提高的那项属性值。
 
-#### Boon of the Night Spirit
+额外伤害的类型与该攻击的伤害类型相同。
 
-_Epic Boon Feat (Prerequisite: Level 19+)_
+#### 法术回忆恩赐（Boon of Spell Recall）
 
-You gain the following benefits.
+_史诗恩赐专长（先决条件：19 级以上，施法特性）_
 
-_Ability Score Increase._ Increase one ability score of your choice by 1, to a maximum of 30.
+你获得以下收益。
 
-_Merge with Shadows._ While within Dim Light or Darkness, you can give yourself the Invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.
+_属性值提升（Ability Score Increase）。_ 将你的智力、感知或魅力值提高 1，最高为 30。
 
-_Shadowy Form._ While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.
+_免费施法（Free Casting）。_ 每当你使用 1–4 环法术位施放一道法术时，掷 1d4。
 
-#### Boon of Truesight
+如果掷出的数字与所使用法术位的环阶相同，则该法术位不会被消耗。
 
-_Epic Boon Feat (Prerequisite: Level 19+)_
+#### 暗夜之灵恩赐（Boon of the Night Spirit）
 
-You gain the following benefits.
+_史诗恩赐专长（先决条件：19 级以上）_
 
-_Ability Score Increase._ Increase one ability score of your choice by 1, to a maximum of 30.
+你获得以下收益。
 
-_Truesight._ You have Truesight with a range of 60 feet.
+_属性值提升（Ability Score Increase）。_ 将你选择的一项属性值提高 1，最高为 30。
+
+_融入阴影（Merge with Shadows）。_ 当你处于微光或黑暗中时，可以使用附赠动作使自己陷入隐形状态。
+
+当你执行动作、附赠动作或反应后，该状态立即结束。
+
+_阴影形态（Shadowy Form）。_ 当你处于微光或黑暗中时，你对除心灵和光耀之外的所有伤害具有抗性。
+
+#### 真实视觉恩赐（Boon of Truesight）
+
+_史诗恩赐专长（先决条件：19 级以上）_
+
+你获得以下收益。
+
+_属性值提升（Ability Score Increase）。_ 将你选择的一项属性值提高 1，最高为 30。
+
+_真实视觉（Truesight）。_ 你获得范围 60 尺的真实视觉。

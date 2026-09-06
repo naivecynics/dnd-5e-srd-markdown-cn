@@ -1,433 +1,215 @@
-# Monsters
-
-## Stat Block Overview
-
-A monster has a stat block that contains the rules necessary to use it in the game. Stat blocks are divided into the following parts:
-
-**Name and General Details.** The name of the monster is followed by its size, creature type (along with any descriptive tags), and alignment.
-
-**Combat Highlights.** Armor Class, Hit Points, Speed, and Initiative are provided here.
-
-**Ability Scores.** A monster's ability scores, ability modifiers, and saving throws are listed here.
-
-**Other Details.** The monster's Senses, Languages, and CR entries appear here. Additional details appear in some monsters, such as skill proficiencies, Resistances, Immunities, and Gear. If a monster lacks those details, entries for them don't appear.
-
-**Traits.** Monster characteristics that are active at all times or during certain situations appear here.
-
-**Actions.** The monster can take the actions here in addition to those in "Playing the Game."
-
-**Bonus Actions.** This section provides a monster's Bonus Actions, if any.
-
-**Reactions and Legendary Actions.** These sections provide Reactions and Legendary Actions, if any.
-
-## Parts of a Stat Block
-
-The rules for a stat block are detailed in "Rules Glossary" and in this section.
-
-### Size
-
-A monster is Tiny, Small, Medium, Large, Huge, or Gargantuan. If size options are presented, you choose the creature's size from those options. See "Playing the Game" for information on size.
-
-### Creature Type
-
-Each monster has a tag that identifies the type of creature it is. Certain spells, magic items, class features, and other effects in the game interact in special ways with creatures of a particular type.
-
-The game includes the following creature types, which have no rules of their own:
-
-**Aberrations** are utterly alien beings, such as aboleths and cloakers.
-
-**Beasts** are non-Humanoid natural creatures, like horses and wolves, as well as most giant animals.
-
-**Celestials** are magical creatures, such as angels and pegasi, with ties to the Upper Planes.
-
-**Constructs** are magically created creatures such as homunculi and shield guardians.
-
-**Dragons** are scaly beings of ancient origin, such as red dragons and wyverns.
-
-**Elementals** are beings from the Elemental Planes, such as efreet and water elementals.
-
-**Fey** are creatures tied to the Feywild or the forces of nature, such as dryads and goblins.
-
-**Fiends** are creatures tied to terrifying Lower Planes, such as balors and hell hounds.
-
-**Giants** are towering beings with humanlike shapes, like fire giants and trolls.
-
-**Humanoids** are people defined by their roles and professions, such as mages, pirates, and warriors. They include members of varied species.
-
-**Monstrosities** are unnatural creatures with strange origins, such as mimics and owlbears.
-
-**Oozes** are gelatinous creatures, including black puddings and gelatinous cubes.
-
-**Plants** are sentient vegetation and fungal monsters, such as shambling mounds and treants.
-
-**Undead** are spirits and the reanimated dead, such as ghosts, vampires, and zombies.
-
-#### Descriptive Tags
-
-A monster might have one or more tags in parentheses following its type. Such tags provide additional categorization and have no rules of their own, but certain game effects might refer to them.
-
-### Alignment
-
-The alignment specified in a monster's stat block is a default suggestion of how to roleplay the monster, inspired by its traditional role in the game or real-world folklore. Change a monster's alignment to suit your storytelling needs. The Neutral alignment, in particular, is an invitation for you to consider whether an individual leans toward one of the other alignments.
-
-"Character Creation" describes the nine alignments and unaligned creatures.
-
-### Armor Class
-
-A monster's Armor Class (AC) includes its natural armor, Dexterity, gear, and other defenses. See "Playing the Game" for information on Armor Class.
-
-### Initiative
-
-The Initiative entry specifies the monster's Initiative modifier followed by the monster's Initiative score in parentheses. Use the modifier when you roll to determine a monster's Initiative. A monster's Initiative modifier is typically equal to its Dexterity modifier, but some monsters have additional modifiers, such as Proficiency Bonus, applied to that number.
-
-If you don't want to roll a monster's Initiative, use the Initiative score as the monster's Initiative in combat. Initiative is further detailed in "Playing the Game."
-
-### Hit Points
-
-A monster's Hit Points are presented as a number followed by parentheses, where the monster's Hit Point Dice are provided, along with any contribution from its Constitution. Either use the number for the monster's Hit Points or roll the die expression in parentheses to determine the monster's Hit Points randomly; don't use both.
-
-A monster's size typically determines the die used to calculate its Hit Points, as shown in the Hit Dice by Size table.
-
-**Hit Dice by Size**
-
-<table>
-  <thead>
-    <tr>
-      <th>Monster Size</th>
-      <th>Hit Die</th>
-      <th>Average HP per Die</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Tiny</td>
-      <td>d4</td>
-      <td>2½</td>
-    </tr>
-    <tr>
-      <td>Small</td>
-      <td>d6</td>
-      <td>3½</td>
-    </tr>
-    <tr>
-      <td>Medium</td>
-      <td>d8</td>
-      <td>4½</td>
-    </tr>
-    <tr>
-      <td>Large</td>
-      <td>d10</td>
-      <td>5½</td>
-    </tr>
-    <tr>
-      <td>Huge</td>
-      <td>d12</td>
-      <td>6½</td>
-    </tr>
-    <tr>
-      <td>Gargantuan</td>
-      <td>d20</td>
-      <td>10½</td>
-    </tr>
-  </tbody>
-</table>
-
-A monster's Constitution modifier is multiplied by the number of Hit Dice it possesses, and the result is added to its Hit Points. For example, if a monster has a Constitution of 12 (+1 modifier) and 2d8 Hit Dice, it has 2d8 + 2 Hit Points (average 11).
-
-For more on Hit Points, see "Playing the Game."
-
-### Speed
-
-The Speed entry specifies a monster's Speed. Some monsters have one or more of the following speeds: Burrow, Climb, Fly, Swim. Rules for Speed and these specials speeds appear in "Rules Glossary."
-
-### Ability Scores
-
-Every monster has six ability scores along with corresponding ability score modifiers and saving throw modifiers. For more information on ability scores and saving throws, see "Playing the Game."
-
-### Skills
-
-The Skills entry specifies a monster's skill proficiencies, if any. For example, a monster that is very perceptive and stealthy might have bonuses to Wisdom (Perception) and Dexterity (Stealth) checks. A skill bonus is the sum of a monster's relevant ability modifier and its Proficiency Bonus. Other modifiers might apply.
-
-### Resistances and Vulnerabilities
-
-These entries list a monster's Resistances and Vulnerabilities, if any. See "Playing the Game" for more information.
-
-> **Running a Monster**
+# 怪物（Monsters）
+## 数据栏概览（Stat Block Overview）
+怪物拥有一个数据栏（Stat Block），其中包含在游戏中使用该怪物所需的规则。数据栏分为以下部分：
+**名称与基本信息（Name and General Details）。** 怪物名称之后会列出其体型、生物类型（以及任何描述性标签）和阵营。
+**战斗要点（Combat Highlights）。** 此处列出护甲等级、生命值、速度和先攻。
+**属性值（Ability Scores）。** 此处列出怪物的属性值、属性调整值和豁免。
+**其他信息（Other Details）。** 怪物的感官、语言和 CR 条目列于此处。某些怪物还会列出额外信息，例如技能熟练、抗性、免疫和装备。如果怪物没有这些信息，对应条目就不会出现。
+**特质（Traits）。** 怪物始终生效或在特定情况下生效的特征列于此处。
+**动作（Actions）。** 除了“进行游戏”中列出的动作之外，怪物还可以执行此处列出的动作。
+**附赠动作（Bonus Actions）。** 如果怪物拥有附赠动作，则列于此部分。
+**反应与传奇动作（Reactions and Legendary Actions）。** 如果怪物拥有反应或传奇动作，则分别列于这些部分。
+## 数据栏的组成部分（Parts of a Stat Block）
+数据栏规则详见“规则术语表”和本节。
+### 体型（Size）
+怪物的体型可以是微型、小型、中型、大型、巨型或超巨型。
+如果提供了多个体型选项，则从这些选项中选择该生物的体型。
+有关体型的信息，见“进行游戏”。
+### 生物类型（Creature Type）
+每个怪物都有一个标签，用于标识其生物类型。
+某些法术、魔法物品、职业特性和游戏中的其他效果，会以特殊方式与特定类型的生物互动。
+游戏包括以下生物类型，这些类型本身不具有额外规则：
+**异怪（Aberrations）** 是彻底异质的存在，例如底栖魔鱼（Aboleth）和斗篷怪（Cloaker）。
+**野兽（Beasts）** 是非类人生物的自然生物，例如马和狼，以及大多数巨型动物。
+**天界生物（Celestials）** 是与上层位面（Upper Planes）有关联的魔法生物，例如天使和飞马。
+**构装体（Constructs）** 是通过魔法创造的生物，例如魔胎（Homunculus）和盾卫（Shield Guardian）。
+**龙（Dragons）** 是拥有鳞片、起源古老的生物，例如红龙和双足飞龙。
+**元素（Elementals）** 是来自元素位面（Elemental Planes）的生物，例如火巨灵（Efreet）和水元素。
+**妖精（Fey）** 是与妖精荒野（Feywild）或自然力量有关联的生物，例如树妖和地精。
+**邪魔（Fiends）** 是与可怖的下层位面（Lower Planes）有关联的生物，例如巴洛炎魔和地狱犬。
+**巨人（Giants）** 是体型高大的类人生物形态存在，例如火巨人和巨魔。
+**类人生物（Humanoids）** 是根据其角色和职业定义的人物，例如法师、海盗和战士。它们包括来自不同物种的成员。
+**怪兽（Monstrosities）** 是拥有异常起源的非自然生物，例如拟态怪和枭熊。
+**软泥怪（Oozes）** 是胶状生物，包括黑布丁怪和胶质立方体。
+**植物（Plants）** 是具有感知能力的植物和真菌怪物，例如枯枝怪堆（Shambling Mound）和树人。
+**不死生物（Undead）** 是灵体和重新活动起来的死者，例如幽灵、吸血鬼和僵尸。
+#### 描述性标签（Descriptive Tags）
+怪物的生物类型后可能会在括号中带有一个或多个标签。
+这些标签用于提供额外分类，本身没有独立规则，但某些游戏效果可能会引用这些标签。
+### 阵营（Alignment）
+怪物数据栏中标明的阵营，是根据该怪物在游戏中的传统定位或现实世界民间传说所提供的默认角色扮演建议。
+你可以根据自己的叙事需求改变怪物的阵营。
+尤其是绝对中立（Neutral）阵营，它实际上是在邀请你考虑该个体是否倾向于其他阵营中的某一种。
+“角色创建”说明九种阵营以及无阵营生物。
+### 护甲等级（Armor Class）
+怪物的护甲等级（Armor Class，AC）包含其天生护甲、敏捷、装备以及其他防御因素。
+有关护甲等级的信息，见“进行游戏”。
+### 先攻（Initiative）
+先攻条目首先列出怪物的先攻调整值，随后在括号中列出怪物的先攻值。
+当你通过掷骰决定怪物先攻时，使用该调整值。
+怪物的先攻调整值通常等于其敏捷调整值，但某些怪物会对该数值应用额外调整，例如熟练加值。
+如果你不想为怪物掷先攻，可以直接使用先攻值作为该怪物在战斗中的先攻。
+有关先攻的更多规则，见“进行游戏”。
+### 生命值（Hit Points）
+怪物的生命值以一个数字表示，随后在括号中列出该怪物的生命骰，以及其体质对生命值的任何贡献。
+你可以直接使用列出的数字作为怪物生命值，也可以掷括号中的骰子表达式随机决定其生命值；不能同时使用两者。
+怪物的体型通常决定用于计算其生命值的生命骰类型，如“按体型划分的生命骰”表所示。
+**按体型划分的生命骰（Hit Dice by Size）**
+| 怪物体型 | 生命骰 | 每骰平均生命值 |
+|---|---:|---:|
+| 微型（Tiny） | d4 | 2½ |
+| 小型（Small） | d6 | 3½ |
+| 中型（Medium） | d8 | 4½ |
+| 大型（Large） | d10 | 5½ |
+| 巨型（Huge） | d12 | 6½ |
+| 超巨型（Gargantuan） | d20 | 10½ |
+怪物的体质调整值会乘以其拥有的生命骰数量，并将结果加入生命值。
+例如，如果一个怪物拥有 12 体质（+1 调整值）和 2d8 生命骰，则其生命值为 2d8 + 2，平均为 11。
+关于生命值的更多内容，见“进行游戏”。
+### 速度（Speed）
+速度条目列出怪物的普通速度。
+某些怪物还拥有以下一种或多种速度：掘地、攀爬、飞行或游泳。
+有关速度及这些特殊速度的规则，见“规则术语表”。
+### 属性值（Ability Scores）
+每个怪物都有六项属性值，以及对应的属性调整值和豁免调整值。
+关于属性值和豁免的更多信息，见“进行游戏”。
+### 技能（Skills）
+技能条目列出怪物拥有的技能熟练，如果有。
+例如，一个非常敏锐而又擅长潜行的怪物，可能在感知（察觉）和敏捷（隐匿）检定上拥有加值。
+技能加值等于怪物的相关属性调整值加上其熟练加值。
+其他调整值也可能适用。
+### 抗性与易伤（Resistances and Vulnerabilities）
+这些条目列出怪物拥有的抗性和易伤，如果有。
+更多信息见“进行游戏”。
+> **操控怪物（Running a Monster）**
 >
-> To ensure a monster acts in accordance with its Challenge Rating, follow these rules during combat:
+> 为确保怪物的实际表现符合其挑战等级，请在战斗中遵循以下规则：
 >
-> **Special Abilities.** If the monster has a special ability that deals a lot of damage but has a limited number of uses, such as a recharging breath weapon or a spell it can cast only once per day, have it use that special ability as quickly and as often as possible.
+> **特殊能力（Special Abilities）。** 如果怪物拥有伤害很高、但使用次数有限的特殊能力，例如需要充能的吐息武器，或每日只能施放一次的法术，应让怪物尽可能早、尽可能频繁地使用这种特殊能力。
 >
-> **Multiattack.** If the monster has Multiattack, have it use Multiattack on any of its turns in which it's not using one of its more powerful abilities.
+> **多重攻击（Multiattack）。** 如果怪物拥有多重攻击，则在其回合没有使用其他更强大能力时，应让其使用多重攻击。
 >
-> **Bonus Actions, Reactions, Legendary Actions.** If the monster has Bonus Actions, Reactions, or Legendary Actions in its stat block, make sure it uses them as often as it can.
-
-### Immunities
-
-This entry lists the monster's Immunities, if any. If the monster has damage and condition Immunities, the damage types are listed before the conditions. See "Playing the Game" for details.
-
-### Gear
-
-Monsters have proficiency with their equipment. If a monster has equipment that can be given away or retrieved, the items are listed in the Gear entry. The monster's stat block might include special flourishes that happen when the monster uses an item, and the stat block might ignore the rules in "Equipment" for that item. When used by someone else, a retrievable item uses its "Equipment" rules, ignoring any special flourishes in the stat block.
-
-The Gear entry doesn't necessarily list all of a monster's equipment. For example, a monster that wears clothes is assumed to be dressed appropriately, and those clothes aren't in this entry.
-
-Equipment mentioned outside the Gear entry is considered to be supernatural or highly specialized, and it is unusable when the monster is defeated.
-
-#### Ammunition and Ranged Attacks
-
-A monster that requires ammunition to make ranged attacks carries the necessary ammunition.
-
-#### Equipping a Monster with Other Items
-
-You may equip monsters with additional gear however you like, using the items in "Equipment" for inspiration. You decide how much of a monster's equipment is recoverable after the creature is slain and whether any of that equipment is still usable.
-
-Beware of giving a monster combat-oriented magic items, since those might alter the monster's Challenge Rating. If you do give a monster a magic item, the monster can have Attunement with magic items as noted in "Equipment." A monster with a class tag after its creature type is considered a member of that class for Attunement purposes.
-
-### Senses
-
-The Senses entry specifies a monster's Passive Perception score, as well as any special senses the monster possesses. Passive Perception and special senses are described in "Rules Glossary."
-
-### Languages
-
-This entry lists languages that the monster can use to communicate. Sometimes a monster can understand a language but can't communicate with it, which is noted in its entry. "None" indicates that a creature doesn't comprehend any language.
-
-#### Telepathy
-
-Telepathy is a magical ability that allows a creature to communicate mentally with another creature within a specified range. See "Rules Glossary" for more information.
-
-### Challenge Rating
-
-Challenge Rating is defined in "Rules Glossary," while guidance on using CR to plan potential combat encounters is in "Gameplay Toolbox."
-
-#### Experience Points
-
-The number of Experience Points (XP) a monster is worth is based on its CR, as detailed in the Experience Points by Challenge Rating table. XP is awarded for defeating the monster in combat or otherwise neutralizing it.
-
-Unless a rule says otherwise, a monster summoned by a spell or another magical ability is worth the XP noted in its stat block.
-
-**Experience Points by Challenge Rating**
-
-<table>
-  <thead>
-    <tr>
-      <th>CR</th>
-      <th>XP</th>
-      <th>CR</th>
-      <th>XP</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td>0 or 10</td>
-      <td>14</td>
-      <td>11,500</td>
-    </tr>
-    <tr>
-      <td>1/8</td>
-      <td>25</td>
-      <td>15</td>
-      <td>13,000</td>
-    </tr>
-    <tr>
-      <td>1/4</td>
-      <td>50</td>
-      <td>16</td>
-      <td>15,000</td>
-    </tr>
-    <tr>
-      <td>1/2</td>
-      <td>100</td>
-      <td>17</td>
-      <td>18,000</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>200</td>
-      <td>18</td>
-      <td>20,000</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>450</td>
-      <td>19</td>
-      <td>22,000</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>700</td>
-      <td>20</td>
-      <td>25,000</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>1,100</td>
-      <td>21</td>
-      <td>33,000</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>1,800</td>
-      <td>22</td>
-      <td>41,000</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>2,300</td>
-      <td>23</td>
-      <td>50,000</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>2,900</td>
-      <td>24</td>
-      <td>62,000</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>3,900</td>
-      <td>25</td>
-      <td>75,000</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>5,000</td>
-      <td>26</td>
-      <td>90,000</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>5,900</td>
-      <td>27</td>
-      <td>105,000</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>7,200</td>
-      <td>28</td>
-      <td>120,000</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>8,400</td>
-      <td>29</td>
-      <td>135,000</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>10,000</td>
-      <td>30</td>
-      <td>155,000</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Proficiency Bonus
-
-A monster's Proficiency Bonus (PB) is determined by its CR, as shown in the Proficiency Bonus by Challenge Rating table, and is reflected in saving throws, skills, and other statistics where the monster's exceptional aptitude is a factor.
-
-**Proficiency Bonus by Challenge Rating**
-
-<table>
-  <thead>
-    <tr>
-      <th>CR</th>
-      <th>PB</th>
-      <th>CR</th>
-      <th>PB</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0–4</td>
-      <td>+2</td>
-      <td>17–20</td>
-      <td>+6</td>
-    </tr>
-    <tr>
-      <td>5–8</td>
-      <td>+3</td>
-      <td>21–24</td>
-      <td>+7</td>
-    </tr>
-    <tr>
-      <td>9–12</td>
-      <td>+4</td>
-      <td>25–28</td>
-      <td>+8</td>
-    </tr>
-    <tr>
-      <td>13–16</td>
-      <td>+5</td>
-      <td>29–30</td>
-      <td>+9</td>
-    </tr>
-  </tbody>
-</table>
-
-### Traits
-
-A monster's traits, if any, are features that are active at all times or in certain situations.
-
-### Actions
-
-A monster can take the actions in this section or take one of the actions available to all creatures, as described in "Playing the Game."
-
-#### Attack Notation
-
-The entry for a monster's attack identifies whether the attack is a melee or a ranged attack and then provides the attack roll's bonus, its reach or range, and what happens on a hit. An attack is against one target unless its entry says otherwise. For details on different kinds of attacks, see "Playing the Game" and "Spells."
-
-**_Hit._** Any damage dealt or other effects that occur as a result of an attack hitting a target are described after the "Hit:" notation.
-
-**_Miss._** If an attack has an effect that occurs on a miss, that information follows the "Miss:" notation.
-
-**_Hit or Miss._** If an attack has an effect that occurs regardless of whether it hits or misses its target, that information follows the "Hit or Miss:" notation.
-
-#### Saving Throw Effect Notation
-
-If an effect forces a saving throw, the effect identifies the kind of save required and then provides the save's DC, a description of which creatures make the save, and an explanation of what happens on a failed or successful save.
-
-"Half damage only" on a successful save means the target takes half as much damage (round down) as targets that fail the save, while also ignoring all other parts of the effect.
-
-#### Damage Notation
-
-A stat block usually provides both a number and a die expression for each instance of damage. For example, an attack might deal 4 (1d4 + 2) damage on a hit. You decide whether to use the number or the die expression in parentheses; don't use both.
-
-#### Multiattack
-
-Some creatures can make more than one attack when they take the Attack action. Such creatures have the Multiattack entry in the "Actions" section of their stat block. This entry details the attacks a creature can make, as well as any additional abilities it can use, as part of the Attack action.
-
-#### Spellcasting
-
-If a monster can cast any spells, its stat block lists the spells and provides the monster's spellcasting ability, spell save DC (if any spells require a saving throw), and spell attack bonus (if any spells require an attack roll). Unless noted otherwise, a spell of level 1 or higher is always cast at its lowest possible level and can't be cast at a higher level.
-
-A monster's spell can have special rules or restrictions. For example, a green hag can cast the _Invisibility_ spell, but the spell has a "self only" restriction, which means the spell affects only the hag.
-
-_Spell Components._ The Spellcasting trait notes whether the monster's spellcasting ignores the need for certain spell components. If any spell components are required, describe the monster's use of Verbal, Somatic, or Material components to signal to characters that it is casting a spell. A monster that requires Material components has them.
-
-_Casting Times of 1+ Minutes._ If a spell has a casting time of 1 minute or more yet is listed in a spellcasting action, the monster doesn't cast the spell in just one action unless the action's description states otherwise; the monster must take the Magic action on each of its turns and maintain Concentration to cast the spell, as described in "Rules Glossary."
-
-### Bonus Action
-
-If a monster has Bonus Action options, they are listed in this section. See "Playing the Game" for details on Bonus Actions.
-
-### Reactions
-
-If the monster has Reaction options, those are listed in this section along with their triggers. See "Playing the Game" for details on Reactions.
-
-### Legendary Actions
-
-If the monster has Legendary Action options, those are listed in this section. A Legendary Action is an action that a monster can take immediately after another creature's turn. Only one of these actions can be taken at a time and only after another creature's turn ends. The monster can't take a Legendary Action if it has the Incapacitated condition or is otherwise unable to take actions.
-
-The monster has a limited number of Legendary Action uses, and that number is specified in the stat block. The monster expends one use whenever it takes a Legendary Action, and it regains all expended uses at the start of each of its turns.
-
-### Limited Usage
-
-Some parts of a stat block have restrictions on the number of times they can be used. Here are the most common ways that usage is limited:
-
-**X/Day.** This notation means the stat block part can be used a certain number of times (represented by X) and that a monster must finish a Long Rest to regain expended uses. For example, a Reaction that includes "1/Day" means the Reaction can be taken once and that the monster must finish a Long Rest to take it again.
-
-**Recharge X–Y.** This notation means a monster can use the stat block part once. At the start of each of the monster's turns, roll 1d6. If the roll is within the number range given in the notation (represented by X–Y), the monster regains the use of that part, which also recharges when the monster finishes a Short or Long Rest. For example, "Recharge 5–6" in an action means a monster can take the action once. Then, at the start of each of the monster's turns, it regains the use of that action if it rolls a 5 or 6 on 1d6.
-
-**Recharge after a Short or Long Rest.** This notation means the monster can use the stat block part once and must then finish a Short or Long Rest to use it again.
+> **附赠动作、反应、传奇动作（Bonus Actions, Reactions, Legendary Actions）。** 如果怪物的数据栏中拥有附赠动作、反应或传奇动作，应确保它尽可能频繁地使用这些能力。
+### 免疫（Immunities）
+此条目列出怪物拥有的免疫，如果有。
+如果怪物同时具有伤害免疫和状态免疫，则先列伤害类型，再列状态。
+详见“进行游戏”。
+### 装备（Gear）
+怪物自动熟练其装备。
+如果怪物拥有可以被交出或从其身上取得的装备，这些物品会列在装备条目中。
+怪物的数据栏可能会包含该怪物使用某件物品时发生的特殊效果，并且可能无视“装备”中该物品的一般规则。
+当其他生物使用一件可以取得的物品时，该物品按照“装备”中的规则运作，而忽略怪物数据栏中的任何特殊效果。
+装备条目不一定列出怪物的全部装备。
+例如，一个穿着衣服的怪物默认视为穿着合适服装，但这些衣服不会列在此条目中。
+装备条目之外提及的装备视为超自然物品或高度专门化装备，当怪物被击败后无法使用。
+#### 弹药与远程攻击（Ammunition and Ranged Attacks）
+需要弹药才能发动远程攻击的怪物，会携带所需弹药。
+#### 给怪物装备其他物品（Equipping a Monster with Other Items）
+你可以按自己喜欢的方式为怪物添加额外装备，并参考“装备”中的物品。
+由你决定怪物被杀死后有多少装备可以被取得，以及这些装备是否仍然可以使用。
+给怪物配备以战斗为核心的魔法物品时应当谨慎，因为这些物品可能改变怪物的挑战等级。
+如果你确实给怪物一件魔法物品，则怪物可以按照“装备”中的规则与魔法物品同调。
+如果怪物的生物类型后带有某个职业标签，则在判断同调要求时，该怪物视为该职业的成员。
+### 感官（Senses）
+感官条目列出怪物的被动察觉值，以及怪物拥有的任何特殊感官。
+有关被动察觉和特殊感官的规则，见“规则术语表”。
+### 语言（Languages）
+此条目列出怪物可以用于交流的语言。
+有时，怪物能够理解某种语言，却不能用该语言交流，这会在条目中注明。
+“无（None）”表示该生物无法理解任何语言。
+#### 心灵感应（Telepathy）
+心灵感应是一种魔法能力，使一个生物能够与指定范围内的另一个生物进行精神交流。
+更多信息见“规则术语表”。
+### 挑战等级（Challenge Rating）
+挑战等级在“规则术语表”中定义，而如何使用 CR 规划潜在战斗遭遇的指引见“游戏工具箱”。
+#### 经验值（Experience Points）
+一个怪物价值多少经验值（Experience Points，XP）取决于其 CR，详见“按挑战等级划分的经验值”表。
+在战斗中击败怪物，或通过其他方式解除其威胁时，都会获得 XP。
+除非规则另有说明，通过法术或其他魔法能力召唤出的怪物仍然值其数据栏中标明的 XP。
+**按挑战等级划分的经验值（Experience Points by Challenge Rating）**
+| CR | XP | CR | XP |
+|---:|---:|---:|---:|
+| 0 | 0 或 10 | 14 | 11,500 |
+| 1/8 | 25 | 15 | 13,000 |
+| 1/4 | 50 | 16 | 15,000 |
+| 1/2 | 100 | 17 | 18,000 |
+| 1 | 200 | 18 | 20,000 |
+| 2 | 450 | 19 | 22,000 |
+| 3 | 700 | 20 | 25,000 |
+| 4 | 1,100 | 21 | 33,000 |
+| 5 | 1,800 | 22 | 41,000 |
+| 6 | 2,300 | 23 | 50,000 |
+| 7 | 2,900 | 24 | 62,000 |
+| 8 | 3,900 | 25 | 75,000 |
+| 9 | 5,000 | 26 | 90,000 |
+| 10 | 5,900 | 27 | 105,000 |
+| 11 | 7,200 | 28 | 120,000 |
+| 12 | 8,400 | 29 | 135,000 |
+| 13 | 10,000 | 30 | 155,000 |
+#### 熟练加值（Proficiency Bonus）
+怪物的熟练加值（Proficiency Bonus，PB）根据其 CR 决定，如“按挑战等级划分的熟练加值”表所示。
+这一加值会反映在怪物的豁免、技能以及其他涉及怪物特殊专长的数据中。
+**按挑战等级划分的熟练加值（Proficiency Bonus by Challenge Rating）**
+| CR | PB | CR | PB |
+|---:|---:|---:|---:|
+| 0–4 | +2 | 17–20 | +6 |
+| 5–8 | +3 | 21–24 | +7 |
+| 9–12 | +4 | 25–28 | +8 |
+| 13–16 | +5 | 29–30 | +9 |
+### 特质（Traits）
+怪物的特质，如果有，是始终生效或在某些情况下生效的特性。
+### 动作（Actions）
+怪物可以执行本节列出的动作，也可以执行所有生物都能使用的动作，详见“进行游戏”。
+#### 攻击记法（Attack Notation）
+怪物的攻击条目会先注明该攻击属于近战还是远程攻击，然后列出攻击检定加值、触及或射程，以及命中时发生的效果。
+除非攻击条目另有说明，否则一次攻击以一个目标为目标。
+关于不同类型攻击的详细规则，见“进行游戏”和“法术”。
+**_命中（Hit）。_** 攻击命中目标后造成的任何伤害或其他效果，都列在“命中：”标记之后。
+**_失手（Miss）。_** 如果攻击在失手时也会产生效果，该信息会列在“失手：”标记之后。
+**_命中或失手（Hit or Miss）。_** 如果攻击无论是否命中目标都会产生某项效果，该信息会列在“命中或失手：”标记之后。
+#### 豁免效果记法（Saving Throw Effect Notation）
+如果某个效果要求进行豁免，则效果会注明所需豁免类型，然后列出豁免 DC、哪些生物必须进行豁免，以及豁免失败或成功时分别发生什么。
+如果豁免成功的说明中写有“仅承受一半伤害（Half damage only）”，表示目标受到豁免失败目标一半的伤害，向下取整，并忽略该效果的所有其他部分。
+#### 伤害记法（Damage Notation）
+数据栏通常会为每次伤害同时提供一个固定数字和一个骰子表达式。
+例如，一次攻击命中后可能造成 4（1d4 + 2）点伤害。
+由你决定使用固定数字，还是括号中的骰子表达式；不能同时使用两者。
+#### 多重攻击（Multiattack）
+某些生物执行攻击动作时可以发动多次攻击。
+这种生物会在数据栏的“动作”部分拥有“多重攻击”条目。
+该条目会说明该生物作为攻击动作的一部分可以进行哪些攻击，以及可以同时使用哪些额外能力。
+#### 施法（Spellcasting）
+如果怪物能够施放任何法术，其数据栏会列出这些法术，并提供怪物的施法属性、法术豁免 DC——如果某些法术要求豁免——以及法术攻击加值——如果某些法术要求攻击检定。
+除非另有说明，1 环或更高环阶的法术总是以其最低可能环阶施放，且不能升环施放。
+怪物的法术可能带有特殊规则或限制。
+例如，绿鬼婆（Green Hag）可以施放*隐形术（Invisibility）*，但该法术具有“仅自身（self only）”限制，意味着只能影响鬼婆自身。
+*法术成分（Spell Components）。* 施法特质会注明怪物施法时是否忽略某些法术成分要求。
+如果仍需要任何法术成分，应描述怪物如何使用言语、姿势或材料成分，以让角色意识到它正在施法。
+需要材料成分的怪物默认拥有这些材料。
+*施法时间为 1 分钟或更长。* 如果一个法术的施法时间为 1 分钟或更长，但它列在某项施法动作中，则除非该动作说明明确表示不同，否则怪物并不能只使用一个动作完成施法。
+怪物必须在施法期间的每个回合执行魔法动作，并维持专注才能完成该法术，详见“规则术语表”。
+### 附赠动作（Bonus Action）
+如果怪物拥有附赠动作选项，则列于此部分。
+有关附赠动作的详细规则，见“进行游戏”。
+### 反应（Reactions）
+如果怪物拥有反应选项，则会与其触发条件一起列于此部分。
+有关反应的详细规则，见“进行游戏”。
+### 传奇动作（Legendary Actions）
+如果怪物拥有传奇动作选项，则列于此部分。
+传奇动作是一种怪物可以在另一个生物的回合结束后立刻执行的动作。
+每次只能执行一个传奇动作，并且只能在另一个生物的回合结束后执行。
+如果怪物处于失能状态，或因其他原因无法执行动作，则不能执行传奇动作。
+怪物拥有有限次数的传奇动作使用次数，该数量会在数据栏中注明。
+怪物每执行一次传奇动作，就消耗一次使用次数，并在自身每个回合开始时恢复全部已消耗的传奇动作使用次数。
+### 有限使用次数（Limited Usage）
+数据栏中的某些部分会限制可使用次数。
+以下是最常见的几种限制方式：
+**X／日（X/Day）。** 这种记法表示该数据栏能力可以使用特定次数，以 X 表示，并且怪物必须完成一次长休才能恢复已消耗的使用次数。
+例如，一个标有“1／日”的反应表示该反应可以使用一次，而怪物必须完成一次长休后才能再次使用。
+**充能 X–Y（Recharge X–Y）。** 这种记法表示怪物可以使用该数据栏能力一次。
+在怪物每个回合开始时，掷 1d6。
+如果结果落在该记法标出的数字范围 X–Y 内，怪物恢复该能力的一次使用。
+当怪物完成短休或长休时，该能力也会恢复使用。
+例如，一个动作标有“充能 5–6”，表示怪物可以使用该动作一次。
+此后，在怪物每个回合开始时掷 1d6；如果结果为 5 或 6，则恢复该动作的使用。
+**短休或长休后充能（Recharge after a Short or Long Rest）。** 这种记法表示怪物可以使用该数据栏能力一次，之后必须完成一次短休或长休才能再次使用。

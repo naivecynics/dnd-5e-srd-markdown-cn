@@ -1,1537 +1,1805 @@
-# Rules Glossary
-
-## Glossary Conventions
-
-The glossary uses the following conventions:
-
-**Tags in Brackets.** Some entries have a tag in brackets after the entry's name, as in "Attack [Action]." A tag—Action, Area of Effect, Attitude, Condition, or Hazard—indicates that a rule is part of a family of rules. The tags also have glossary entries.
-
-**"You."** The game's rules—in this glossary and elsewhere—often talk about something happening to you in the game world. That "you" refers to the creature or object that the rule applies to in a particular moment of play. For example, the "you" in the Prone condition is a creature that currently has that condition.
-
-**"See Also."** Some glossary entries include a _See also_ section that points to other entries in the glossary, to other parts of this document, or both.
-
-**No Obsolete Terms.** The glossary contains definitions of current rules terms only. If you're looking for a term from an earlier version of the fifth edition rules, consult the index.
-
-**Abbreviations.** The abbreviations listed below appear in this glossary and elsewhere in the rules.
-
-<table>
-  <tbody>
-    <tr>
-      <td>AC</td>
-      <td>Armor Class</td>
-      <td>M</td>
-      <td>Material</td>
-    </tr>
-    <tr>
-      <td>C</td>
-      <td>Concentration</td>
-      <td></td>
-      <td>component</td>
-    </tr>
-    <tr>
-      <td>CE</td>
-      <td>Chaotic Evil</td>
-      <td>N</td>
-      <td>Neutral</td>
-    </tr>
-    <tr>
-      <td>CG</td>
-      <td>Chaotic Good</td>
-      <td>NE</td>
-      <td>Neutral Evil</td>
-    </tr>
-    <tr>
-      <td>Cha.</td>
-      <td>Charisma</td>
-      <td>NG</td>
-      <td>Neutral Good</td>
-    </tr>
-    <tr>
-      <td>CN</td>
-      <td>Chaotic Neutral</td>
-      <td>NPC</td>
-      <td>Nonplayer</td>
-    </tr>
-    <tr>
-      <td>Con.</td>
-      <td>Constitution</td>
-      <td></td>
-      <td>character</td>
-    </tr>
-    <tr>
-      <td>CP</td>
-      <td>Copper Piece(s)</td>
-      <td>PB</td>
-      <td>Proficiency Bonus</td>
-    </tr>
-    <tr>
-      <td>CR</td>
-      <td>Challenge Rating</td>
-      <td>PP</td>
-      <td>Platinum Piece(s)</td>
-    </tr>
-    <tr>
-      <td>DC</td>
-      <td>Difficulty Class</td>
-      <td>R</td>
-      <td>Ritual</td>
-    </tr>
-    <tr>
-      <td>Dex.</td>
-      <td>Dexterity</td>
-      <td>S</td>
-      <td>Somatic</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>component</td>
-    </tr>
-    <tr>
-      <td>EP</td>
-      <td>Electrum Piece(s)</td>
-      <td>SP</td>
-      <td>Silver Piece(s)</td>
-    </tr>
-    <tr>
-      <td>GM</td>
-      <td>Game Master</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>GP</td>
-      <td>Gold Piece(s)</td>
-      <td>Str.</td>
-      <td>Strength</td>
-    </tr>
-    <tr>
-      <td>HP</td>
-      <td>Hit Point(s)</td>
-      <td>V</td>
-      <td>Verbal</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>component</td>
-    </tr>
-    <tr>
-      <td>Int.</td>
-      <td>Intelligence</td>
-      <td>Wis.</td>
-      <td>Wisdom</td>
-    </tr>
-    <tr>
-      <td>LE</td>
-      <td>Lawful Evil</td>
-      <td>XP</td>
-      <td>Experience</td>
-    </tr>
-    <tr>
-      <td>LG</td>
-      <td>Lawful Good</td>
-      <td></td>
-      <td>Point(s)</td>
-    </tr>
-    <tr>
-      <td>LN</td>
-      <td>Lawful Neutral</td>
-      <td colspan="2"></td>
-    </tr>
-  </tbody>
-</table>
-
-## Rules Definitions
-
-Here are definitions of various rules.
-
-#### Ability Check
-
-An ability check is a D20 Test that represents using one of the six abilities—or a specific skill associated with an ability—to overcome a challenge. _See also_ "Playing the Game" ("D20 Tests" and "Proficiency").
-
-#### Ability Score and Modifier
-
-A creature has six ability scores—Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma—each of which has a corresponding modifier. Add the modifier when you make a D20 Test with the corresponding ability or when a rule asks you to do so. _See also_ "Playing the Game" ("The Six Abilities").
-
-#### Action
+# 规则术语表（Rules Glossary）
 
-On your turn, you can take one action. Choose which action to take from those below or from the special actions provided by your features. _See also_ "Playing the Game" ("Actions"). These actions are defined elsewhere in this glossary:
+## 术语表惯例（Glossary Conventions）
 
-<table>
-  <tbody>
-    <tr>
-      <td>Attack</td>
-      <td>Dodge</td>
-      <td>Influence</td>
-      <td>Search</td>
-    </tr>
-    <tr>
-      <td>Dash</td>
-      <td>Help</td>
-      <td>Magic</td>
-      <td>Study</td>
-    </tr>
-    <tr>
-      <td>Disengage</td>
-      <td>Hide</td>
-      <td>Ready</td>
-      <td>Utilize</td>
-    </tr>
-  </tbody>
-</table>
+本术语表采用以下惯例：
 
-#### Advantage
+**方括号中的标签（Tags in Brackets）。** 某些条目的名称后带有方括号标签，例如“攻击［动作］（Attack [Action]）”。标签——动作（Action）、效果区域（Area of Effect）、态度（Attitude）、状态（Condition）或危害（Hazard）——表示该规则属于某一规则类别。这些标签本身也在术语表中设有条目。
 
-If you have Advantage on a D20 Test, roll two d20s, and use the higher roll. A roll can't be affected by more than one Advantage, and Advantage and Disadvantage on the same roll cancel each other. _See also_ "Playing the Game" ("D20 Tests").
+**“你”（"You."）。** 游戏规则——无论是在本术语表还是其他地方——经常描述某件事在游戏世界中发生在“你”身上。这里的“你”指该规则在特定游戏时刻所适用的生物或物体。例如，倒地状态中的“你”，指当前正处于倒地状态的生物。
 
-#### Adventure
+**“另见”（"See Also."）。** 某些术语表条目包含一个*另见（See also）*部分，指向术语表中的其他条目、本文档中的其他部分，或两者兼有。
 
-An adventure is a series of encounters. A story emerges through playing them. _See also_ "Encounter."
+**不包含废弃术语（No Obsolete Terms）。** 本术语表仅包含当前规则术语的定义。如果你正在寻找第五版规则早期版本中的术语，请查阅索引。
 
-#### Alignment
+**缩写（Abbreviations）。** 以下缩写会出现在本术语表以及规则的其他部分中。
 
-A creature's alignment broadly describes its ethical attitudes and ideals. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward order (lawful, chaotic, or neutral). These factors allow for nine possible combinations, such as Lawful Good and Neutral Evil. _See also_ "Character Creation" ("Create Your Character").
+| 缩写 | 含义 | 缩写 | 含义 |
+|---|---|---|---|
+| AC | 护甲等级（Armor Class） | M | 材料成分（Material component） |
+| C | 专注（Concentration） | N | 绝对中立（Neutral） |
+| CE | 混乱邪恶（Chaotic Evil） | NE | 中立邪恶（Neutral Evil） |
+| CG | 混乱善良（Chaotic Good） | NG | 中立善良（Neutral Good） |
+| Cha. | 魅力（Charisma） | NPC | 非玩家角色（Nonplayer character） |
+| CN | 混乱中立（Chaotic Neutral） | PB | 熟练加值（Proficiency Bonus） |
+| Con. | 体质（Constitution） | PP | 铂金币（Platinum Piece(s)） |
+| CP | 铜币（Copper Piece(s)） | R | 仪式（Ritual） |
+| CR | 挑战等级（Challenge Rating） | S | 姿势成分（Somatic component） |
+| DC | 难度等级（Difficulty Class） | SP | 银币（Silver Piece(s)） |
+| Dex. | 敏捷（Dexterity） | Str. | 力量（Strength） |
+| EP | 琥珀金币（Electrum Piece(s)） | V | 言语成分（Verbal component） |
+| GM | 游戏主持人（Game Master） | Wis. | 感知（Wisdom） |
+| GP | 金币（Gold Piece(s)） | XP | 经验值（Experience Point(s)） |
+| HP | 生命值（Hit Point(s)） |  |  |
+| Int. | 智力（Intelligence） |  |  |
+| LE | 守序邪恶（Lawful Evil） |  |  |
+| LG | 守序善良（Lawful Good） |  |  |
+| LN | 守序中立（Lawful Neutral） |  |  |
 
-#### Ally
+## 规则定义（Rules Definitions）
 
-A creature is your ally if it is a member of your adventuring party, your friend, on your side in combat, or a creature that the rules or the GM designates as your ally.
+以下是各种规则术语的定义。
 
-#### Area of Effect
+#### 属性检定（Ability Check）
 
-The descriptions of many spells and other features specify that they have an area of effect, which typically has one of six shapes. These shapes are defined elsewhere in this glossary:
+属性检定是一种 D20 检定，代表使用六项属性之一——或与某项属性相关的特定技能——克服挑战。
 
-<table>
-  <tbody>
-    <tr>
-      <td>Cone</td>
-      <td>Cylinder</td>
-      <td>Line</td>
-    </tr>
-    <tr>
-      <td>Cube</td>
-      <td>Emanation</td>
-      <td>Sphere</td>
-    </tr>
-  </tbody>
-</table>
-
-An area of effect has a point of origin, a location from which the effect's energy erupts. The rules for each shape specify how to position its point of origin. If all straight lines extending from the point of origin to a location in the area of effect are blocked, that location isn't included in the area of effect. To block a line, an obstruction must provide Total Cover. _See also_ "Cover."
-
-If the creator of an area of effect places it at an unseen point and an obstruction—such as a wall—is between the creator and that point, the point of origin comes into being on the near side of the obstruction.
-
-#### Armor Class
-
-An Armor Class (AC) is the target number for an attack roll. AC represents how difficult it is to hit a target.
-
-Your base AC calculation is 10 plus your Dexterity modifier. If a rule gives you another base AC calculation, you choose which calculation to use; you can't use more than one. _See also_ "Attack Roll."
-
-#### Armor Training
-
-Armor training allows you to use armor of a certain category without the following drawbacks. If you wear Light, Medium, or Heavy armor and lack training with it, you have Disadvantage on any D20 Test that involves Strength or Dexterity, and you can't cast spells. If you use a Shield and lack training with it, you don't gain its AC bonus. _See also_ "Disadvantage" and "Equipment" ("Armor").
-
-#### Attack [Action]
-
-When you take the Attack action, you can make one attack roll with a weapon or an Unarmed Strike.
-
-_Equipping and Unequipping Weapons._ You can either equip or unequip one weapon when you make an attack as part of this action. You do so either before or after the attack. If you equip a weapon before an attack, you don't need to use it for that attack. Equipping a weapon includes drawing it from a sheath or picking it up. Unequipping a weapon includes sheathing, stowing, or dropping it.
-
-_Moving between Attacks._ If you move on your turn and have a feature, such as Extra Attack, that gives you more than one attack as part of the Attack action, you can use some or all of that movement to move between those attacks.
-
-#### Attack Roll
-
-An attack roll is a D20 Test that represents making an attack with a weapon, an Unarmed Strike, or a spell. _See also_ "Playing the Game" ("D20 Tests").
-
-#### Attitude
-
-A monster has a starting attitude toward a player character: Friendly, Hostile, or Indifferent. _See also_ "Friendly," "Hostile," "Indifferent," and "Influence."
-
-#### Attunement
-
-Some magic items require a creature to form a bond—called Attunement—with them before the creature can use an item's magical properties. A creature can have Attunement with no more than three magic items at a time. _See also_ "Equipment" ("Magic Items").
-
-#### Blinded [Condition]
-
-While you have the Blinded condition, you experience the following effects.
-
-_Can't See._ You can't see and automatically fail any ability check that requires sight.
-
-_Attacks Affected._ Attack rolls against you have Advantage, and your attack rolls have Disadvantage.
-
-#### Blindsight
-
-If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can see anything that isn't behind Total Cover even if you have the Blinded condition or are in Darkness. Moreover, in that range, you can see something that has the Invisible condition.
-
-#### Bloodied
-
-A creature is Bloodied while it has half its Hit Points or fewer remaining.
-
-#### Bonus Action
-
-A Bonus Action is a special action that you can take on the same turn that you take an action. You can't take more than one Bonus Action on a turn, and you have a Bonus Action to take only if a rule explicitly says so. _See also_ "Playing the Game" ("Actions").
-
-#### Breaking Objects
-
-Objects can be harmed by attacks and by some spells, using the rules below. If an object is exceedingly fragile, the GM may allow a creature to break it automatically with the Attack or Utilize action.
-
-_Armor Class._ The Object Armor Class table suggests ACs for various substances.
-
-**Object Armor Class**
-
-<table>
-  <thead>
-    <tr>
-      <th>AC</th>
-      <th>Substance</th>
-      <th>AC</th>
-      <th>Substance</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>11</td>
-      <td>Cloth, paper, rope</td>
-      <td>19</td>
-      <td>Iron, steel</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>Crystal, glass, ice</td>
-      <td>21</td>
-      <td>Mithral</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>Wood</td>
-      <td>23</td>
-      <td>Adamantine</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>Stone</td>
-      <td colspan="2"></td>
-    </tr>
-  </tbody>
-</table>
-
-_Hit Points._ An object is destroyed when it has 0 Hit Points. The Object Hit Points table suggests Hit Points for fragile and resilient objects that are Large or smaller. To track Hit Points for a Huge or Gargantuan object, divide it into Large or smaller sections, and track each section's Hit Points separately. The GM determines whether destroying part of an object causes the whole thing to collapse.
-
-**Object Hit Points**
-
-<table>
-  <thead>
-    <tr>
-      <th>Size</th>
-      <th>Fragile</th>
-      <th>Resilient</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Tiny (bottle, lock)</td>
-      <td>2 (1d4)</td>
-      <td>5 (2d4)</td>
-    </tr>
-    <tr>
-      <td>Small (chest, lute)</td>
-      <td>3 (1d6)</td>
-      <td>10 (3d6)</td>
-    </tr>
-    <tr>
-      <td>Medium (barrel, chandelier)</td>
-      <td>4 (1d8)</td>
-      <td>18 (4d8)</td>
-    </tr>
-    <tr>
-      <td>Large (cart, dining table)</td>
-      <td>5 (1d10)</td>
-      <td>27 (5d10)</td>
-    </tr>
-  </tbody>
-</table>
-
-_Damage Types and Objects._ Objects have Immunity to Poison and Psychic damage. The GM might decide that some damage types are more or less effective against an object. For example, Bludgeoning damage works well for smashing things but not for cutting. Paper or cloth objects might have Vulnerability to Fire damage.
-
-_Damage Threshold._ Big objects, such as castle walls, often have extra resilience represented by a damage threshold. _See also_ "Damage Threshold."
-
-_No Ability Scores._ An object lacks ability scores unless a rule assigns scores to the object. Without ability scores, an object can't make ability checks, and it fails all saving throws.
+*另见*“进行游戏”中的“D20 检定”和“熟练”。
 
-#### Bright Light
+#### 属性值与调整值（Ability Score and Modifier）
 
-Bright Light is normal illumination. _See also_ "Playing the Game" ("Exploration").
+一个生物拥有六项属性值——力量、敏捷、体质、智力、感知和魅力——每项属性都有一个对应的调整值。
 
-#### Burning [Hazard]
+当你使用相应属性进行 D20 检定，或某条规则要求你如此做时，加入该调整值。
 
-A burning creature or object takes 1d4 Fire damage at the start of each of its turns. As an action, you can extinguish fire on yourself by giving yourself the Prone condition and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated.
+*另见*“进行游戏”中的“六项属性”。
 
-#### Burrow Speed
+#### 动作（Action）
 
-A creature that has a Burrow Speed can use that speed to move through sand, earth, mud, or ice. The creature can't burrow through solid rock unless the creature has a trait that allows it to do so. _See also_ "Speed."
+在你的回合中，你可以执行一个动作。
 
-#### Campaign
-
-A campaign is a series of adventures. _See also_ "Adventure."
-
-#### Cantrip
-
-A cantrip is a level 0 spell, which is cast without a spell slot. _See also_ "Spells."
-
-#### Carrying Capacity
-
-Your size and Strength score determine the maximum weight in pounds that you can carry, as shown in the Carrying Capacity table. The table also shows the maximum weight you can drag, lift, or push.
-
-While dragging, lifting, or pushing weight in excess of the maximum weight you can carry, your Speed can be no more than 5 feet.
-
-**Carrying Capacity**
-
-<table>
-  <thead>
-    <tr>
-      <th>Creature Size</th>
-      <th>Carry</th>
-      <th>Drag/Lift/Push</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Tiny</td>
-      <td>Str. × 7.5 lb.</td>
-      <td>Str. × 15 lb.</td>
-    </tr>
-    <tr>
-      <td>Small/Medium</td>
-      <td>Str. × 15 lb.</td>
-      <td>Str. × 30 lb.</td>
-    </tr>
-    <tr>
-      <td>Large</td>
-      <td>Str. × 30 lb.</td>
-      <td>Str. × 60 lb.</td>
-    </tr>
-    <tr>
-      <td>Huge</td>
-      <td>Str. × 60 lb.</td>
-      <td>Str. × 120 lb.</td>
-    </tr>
-    <tr>
-      <td>Gargantuan</td>
-      <td>Str. × 120 lb.</td>
-      <td>Str. × 240 lb.</td>
-    </tr>
-  </tbody>
-</table>
+你可以从下列动作中选择，也可以选择你的特性所提供的特殊动作。
 
-#### Challenge Rating
-
-Challenge Rating (CR) summarizes the threat a monster poses to a group of four player characters. Compare a monster's CR to the characters' level. If the CR is higher, the monster is likely a danger. If the CR is lower, the monster likely poses little threat. But circumstances and the number of player characters can significantly alter how threatening a monster is in actual play. "Gameplay Toolbox" ("Combat Encounters") provides guidance to the GM on using CR while planning potential combat encounters. _See also_ "Stat Block."
-
-#### Character Sheet
-
-A character sheet is a paper or digital record that you use to track your character's information. _See also_ "Character Creation."
-
-#### Charmed [Condition]
-
-While you have the Charmed condition, you experience the following effects.
-
-_Can't Harm the Charmer._ You can't attack the charmer or target the charmer with damaging abilities or magical effects.
-
-_Social Advantage._ The charmer has Advantage on any ability check to interact with you socially.
-
-#### Climbing
-
-While you're climbing, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a Climb Speed and use it to climb.
-At the GM's option, climbing a slippery surface or one with few handholds might require a successful DC 15 Strength (Athletics) check.
-
-#### Climb Speed
-
-A Climb Speed can be used in place of Speed to traverse a vertical surface without expending the extra movement normally associated with climbing. _See also_ "Climbing" and "Speed."
-
-#### Concentration
-
-Some spells and other effects require Concentration to remain active, as specified in their descriptions. If the effect's creator loses Concentration, the effect ends. If the effect has a maximum duration, the effect's description specifies how long the creator can concentrate on it: up to 1 minute, 1 hour, or some other duration. The creator can end Concentration at any time (no action required). The following factors break Concentration.
-
-_Another Concentration Effect._ You lose Concentration on an effect the moment you start casting a spell that requires Concentration or activate another effect that requires Concentration.
-
-_Damage._ If you take damage, you must succeed on a Constitution saving throw to maintain Concentration. The DC equals 10 or half the damage taken (round down), whichever number is higher, up to a maximum DC of 30.
-
-_Incapacitated or Dead._ Your Concentration ends if you have the Incapacitated condition or you die.
-
-#### Condition
-
-A condition is a temporary game state. The definition of a condition says how it affects its recipient, and various rules define how to end a condition. This glossary defines these conditions:
-
-<table>
-  <tbody>
-    <tr>
-      <td>Blinded</td>
-      <td>Grappled</td>
-      <td>Poisoned</td>
-    </tr>
-    <tr>
-      <td>Charmed</td>
-      <td>Incapacitated</td>
-      <td>Prone</td>
-    </tr>
-    <tr>
-      <td>Deafened</td>
-      <td>Invisible</td>
-      <td>Restrained</td>
-    </tr>
-    <tr>
-      <td>Exhaustion</td>
-      <td>Paralyzed</td>
-      <td>Stunned</td>
-    </tr>
-    <tr>
-      <td>Frightened</td>
-      <td>Petrified</td>
-      <td>Unconscious</td>
-    </tr>
-  </tbody>
-</table>
+*另见*“进行游戏”中的“动作”。
 
-A condition doesn't stack with itself; a recipient either has a condition or doesn't. The Exhaustion condition is an exception to that rule.
+以下动作在本术语表其他条目中定义：
 
-#### Cone [Area of Effect]
+|  |  |  |  |
+|---|---|---|---|
+| 攻击（Attack） | 闪避（Dodge） | 影响（Influence） | 搜寻（Search） |
+| 疾走（Dash） | 协助（Help） | 魔法（Magic） | 研究（Study） |
+| 撤离（Disengage） | 躲藏（Hide） | 准备（Ready） | 使用（Utilize） |
 
-A Cone is an area of effect that extends in straight lines from a point of origin in a direction its creator chooses. A Cone's width at any point along its length is equal to that point's distance from the point of origin. For example, a Cone is 15 feet wide at a point along its length that is 15 feet from the point of origin. The effect that creates a Cone specifies its maximum length.
+#### 优势（Advantage）
 
-A Cone's point of origin isn't included in the area of effect unless its creator decides otherwise.
+如果你进行某次 D20 检定时具有优势，掷两个 d20，并采用其中较高的结果。
 
-#### Cover
+一次掷骰不会受到超过一个优势的影响，而且同一次掷骰上的优势与劣势会互相抵消。
 
-Cover provides a degree of protection to a target behind it. There are three degrees of cover, each of which provides a different benefit to a target: Half Cover (+2 bonus to AC and Dexterity saving throws), Three-Quarters Cover (+5 bonus to AC and Dexterity saving throws), and Total Cover (can't be targeted directly). If behind more than one degree of cover, a target benefits only from the most protective degree. _See also_ "Playing the Game" ("Combat").
+*另见*“进行游戏”中的“D20 检定”。
 
-#### Crawling
+#### 冒险（Adventure）
 
-While you're crawling, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). _See also_ "Speed."
+一次冒险是一系列遭遇。
 
-#### Creature
+通过游玩这些遭遇，会逐渐形成一个故事。
 
-Any being in the game, including a player's character, is a creature. _See also_ "Creature Type."
+*另见*“遭遇”。
 
-#### Creature Type
+#### 阵营（Alignment）
 
-Every creature, including every player character, has a tag in the rules that identifies the type of creature it is. Most player characters are of the Humanoid type. These are the game's creature types:
-
-<table>
-  <tbody>
-    <tr>
-      <td>Aberration</td>
-      <td>Elemental</td>
-      <td>Monstrosity</td>
-    </tr>
-    <tr>
-      <td>Beast</td>
-      <td>Fey</td>
-      <td>Ooze</td>
-    </tr>
-    <tr>
-      <td>Celestial</td>
-      <td>Fiend</td>
-      <td>Plant</td>
-    </tr>
-    <tr>
-      <td>Construct</td>
-      <td>Giant</td>
-      <td>Undead</td>
-    </tr>
-    <tr>
-      <td>Dragon</td>
-      <td>Humanoid</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
-The types don't have rules themselves, but some rules in the game affect creatures of certain types in different ways.
-
-#### Critical Hit
-
-If you roll a 20 on the d20 for an attack roll, you score a Critical Hit, and the attack hits regardless of any modifiers or the target's AC. A Critical Hit lets you roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers. _See also_ "Playing the Game" ("Damage and Healing").
-
-#### Cube [Area of Effect]
-
-A Cube is an area of effect that extends in straight lines from a point of origin located anywhere on a face of the Cube. The effect that creates a Cube specifies its size, which is the length of each side.
-
-A Cube's point of origin isn't included in the area of effect unless its creator decides otherwise.
-
-#### Curses
-
-Some game effects curse a creature or an object. The effect that confers a curse defines what the curse does. Curses can be removed by the _Remove Curse_ and _Greater Restoration_ spells or other magic that explicitly ends curses.
-
-#### Cylinder [Area of Effect]
-
-A Cylinder is an area of effect that extends in straight lines from a point of origin located at the center of the circular top or bottom of the Cylinder. The effect that creates a Cylinder specifies the radius of the Cylinder's base and the Cylinder's height.
-
-A Cylinder's point of origin is included in the area of effect.
-
-#### D20 Test
-
-D20 Tests encompass the three main d20 rolls of the game: ability checks, attack rolls, and saving throws. If something in the game affects D20 Tests, it affects all three of these rolls. The GM determines whether a D20 Test is warranted in a given circumstance. _See also_ "Playing the Game" ("D20 Tests").
-
-#### Damage
-
-Damage represents harm that causes a creature or an object to lose Hit Points.
-
-#### Damage Roll
-
-A damage roll is a die roll, adjusted by any applicable modifiers, that deals damage to a target. _See also_ "Playing the Game" ("Damage and Healing").
-
-#### Damage Threshold
-
-A creature or an object that has a damage threshold has Immunity to all damage unless it takes an amount of damage from a single attack or effect equal to or greater than its damage threshold, in which case it takes that entire instance of damage. Any damage that fails to meet or exceed the damage threshold is superficial and doesn't reduce Hit Points. For example, if an object has a damage threshold of 10, the object takes no damage if 9 damage is dealt to it, since that damage fails to exceed the threshold. If the same object is dealt 11 damage, it takes all of that damage.
-
-#### Damage Types
-
-Attacks and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as Resistance, rely on the types. The Damage Types table offers examples to help a GM assign a type to a new effect.
-
-**Damage Types**
+一个生物的阵营大体描述其伦理态度和理想。
 
-<table>
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Examples</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Acid</td>
-      <td>Corrosive liquids, digestive enzymes</td>
-    </tr>
-    <tr>
-      <td>Bludgeoning</td>
-      <td>Blunt objects, constriction, falling</td>
-    </tr>
-    <tr>
-      <td>Cold</td>
-      <td>Freezing water, icy blasts</td>
-    </tr>
-    <tr>
-      <td>Fire</td>
-      <td>Flames, unbearable heat</td>
-    </tr>
-    <tr>
-      <td>Force</td>
-      <td>Pure magical energy</td>
-    </tr>
-    <tr>
-      <td>Lightning</td>
-      <td>Electricity</td>
-    </tr>
-    <tr>
-      <td>Necrotic</td>
-      <td>Life-draining energy</td>
-    </tr>
-    <tr>
-      <td>Piercing</td>
-      <td>Fangs, puncturing objects</td>
-    </tr>
-    <tr>
-      <td>Poison</td>
-      <td>Toxic gas, venom</td>
-    </tr>
-    <tr>
-      <td>Psychic</td>
-      <td>Mind-rending energy</td>
-    </tr>
-    <tr>
-      <td>Radiant</td>
-      <td>Holy energy, searing radiation</td>
-    </tr>
-    <tr>
-      <td>Slashing</td>
-      <td>Claws, cutting objects</td>
-    </tr>
-    <tr>
-      <td>Thunder</td>
-      <td>Concussive sound</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Darkness
-
-An area of Darkness is Heavily Obscured. _See also_ "Heavily Obscured" and "Playing the Game" ("Exploration").
-
-#### Darkvision
+阵营由两个因素组成：一个因素描述道德倾向——善良、邪恶或中立；另一个因素描述对秩序的态度——守序、混乱或中立。
 
-If you have Darkvision, you can see in Dim Light within a specified range as if it were Bright Light and in Darkness within that range as if it were Dim Light. You discern colors in that Darkness only as shades of gray. _See also_ "Playing the Game" ("Exploration").
+这些因素可以组成九种可能的组合，例如守序善良和中立邪恶。
 
-#### Dash [Action]
+*另见*“角色创建”中的“创建你的角色”。
 
-When you take the Dash action, you gain extra movement for the current turn. The increase equals your Speed after applying any modifiers. With a Speed of 30 feet, for example, you can move up to 60 feet on your turn if you Dash. If your Speed of 30 feet is reduced to 15 feet, you can move up to 30 feet this turn if you Dash.
+#### 盟友（Ally）
 
-If you have a special speed, such as a Fly Speed or Swim Speed, you can use that speed instead of your Speed when you take this action. You choose which speed to use each time you take it. _See also_ "Speed."
+如果一个生物是你冒险队伍的成员、你的朋友、在战斗中与你处于同一阵营，或被规则或 GM 指定为你的盟友，则该生物是你的盟友。
 
-#### Dead
+#### 效果区域（Area of Effect）
 
-A dead creature has no Hit Points and can't regain them unless it is first revived by magic such as the _Raise Dead_ or _Revivify_ spell. When such a spell is cast, the spirit knows who is casting it and can refuse. The spirit of a dead creature has left the body and departed for the Outer Planes, and reviving the creature requires calling the spirit back.
+许多法术和其他特性的说明会指出它们具有一个效果区域，该区域通常采用六种形状之一。
 
-If the creature returns to life, the revival effect determines the creature's current Hit Points. Unless otherwise stated, the creature returns to life with any conditions, magical contagions, or curses that were affecting it at death if the durations of those effects are still ongoing. If the creature died with any Exhaustion levels, it returns with 1 fewer level. If the creature had Attunement to one or more magic items, it is no longer attuned to them.
+这些形状在本术语表其他条目中定义：
 
-#### Deafened [Condition]
+|  |  |  |
+|---|---|---|
+| 锥状（Cone） | 柱状（Cylinder） | 线状（Line） |
+| 立方（Cube） | 发散范围（Emanation） | 球状（Sphere） |
 
-While you have the Deafened condition, you experience the following effect.
+效果区域具有一个起源点，也就是效果能量爆发出来的位置。
 
-_Can't Hear._ You can't hear and automatically fail any ability check that requires hearing.
+每种形状的规则都会说明如何放置其起源点。
 
-#### Death Saving Throw
+如果从起源点延伸至效果区域中某一位置的所有直线都被阻挡，则该位置不属于效果区域。
 
-A player character must make a Death Saving Throw (also called a Death Save) if they start their turn with 0 Hit Points. _See also_ "Playing the Game" ("Damage and Healing").
+要阻挡一条直线，障碍物必须提供全掩护。
 
-#### Dehydration [Hazard]
+*另见*“掩护”。
 
-A creature requires an amount of water per day based on its size, as shown in the Water Needs per Day table. A creature that drinks less than half the required water for a day gains 1 Exhaustion level at the day's end. Exhaustion caused by dehydration can't be removed until the creature drinks the full amount of water required for a day. _See also_ "Exhaustion."
+如果某个效果区域的创造者把区域放置在一个其无法看见的点上，而创造者和该点之间存在障碍物——例如墙壁——则起源点会出现在障碍物靠近创造者的一侧。
 
-**Water Needs per Day**
+#### 护甲等级（Armor Class）
 
-<table>
-  <thead>
-    <tr>
-      <th>Size</th>
-      <th>Water</th>
-      <th>Size</th>
-      <th>Water</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Tiny</td>
-      <td>1/4 gallon</td>
-      <td>Large</td>
-      <td>4 gallons</td>
-    </tr>
-    <tr>
-      <td>Small</td>
-      <td>1 gallon</td>
-      <td>Huge</td>
-      <td>16 gallons</td>
-    </tr>
-    <tr>
-      <td>Medium</td>
-      <td>1 gallon</td>
-      <td>Gargantuan</td>
-      <td>64 gallons</td>
-    </tr>
-  </tbody>
-</table>
+护甲等级（Armor Class，AC）是攻击检定必须达到的目标数字。
 
-#### Difficult Terrain
+AC 代表命中目标的难度。
 
-If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot. For example, moving 5 feet through Difficult Terrain costs 10 feet of movement. Difficult Terrain isn't cumulative; either a space is Difficult Terrain or it isn't.
+你的基础 AC 计算方式是 10 + 你的敏捷调整值。
 
-A space is Difficult Terrain if the space contains any of the following or something similar:
+如果某条规则给予你另一种基础 AC 计算方式，则由你选择使用哪一种；你不能同时使用多种基础 AC 计算方式。
 
-- A creature that isn't Tiny or your ally
-- Furniture that is sized for creatures of your size or larger
-- Heavy snow, ice, rubble, or undergrowth
-- Liquid that's between shin- and waist-deep
-- A narrow opening sized for a creature one size smaller than you
-- A slope of 20 degrees or more
+*另见*“攻击检定”。
 
-#### Difficulty Class
+#### 护甲训练（Armor Training）
 
-A Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ "Playing the Game" ("D20 Tests").
+护甲训练允许你使用某一类别的护甲而不承受以下缺点。
 
-#### Dim Light
+如果你穿着轻甲、中甲或重甲，但没有相应训练，则所有涉及力量或敏捷的 D20 检定都具有劣势，并且你无法施放法术。
 
-An area with Dim Light is Lightly Obscured. _See also_ "Lightly Obscured" and "Playing the Game" ("Exploration").
+如果你使用盾牌却没有盾牌训练，则无法获得其 AC 加值。
 
-#### Disadvantage
+*另见*“劣势”以及“装备”中的“护甲”。
 
-If you have Disadvantage on a D20 Test, roll two d20s and use the lower roll. A roll can't be affected by more than one Disadvantage, and Advantage and Disadvantage on the same roll cancel each other. _See also_ "Playing the Game" ("D20 Tests").
+#### 攻击［动作］（Attack [Action]）
 
-#### Disengage [Action]
+当你执行攻击动作时，可以使用武器或徒手打击进行一次攻击检定。
 
-If you take the Disengage action, your movement doesn't provoke Opportunity Attacks for the rest of the current turn.
+*装备与收起武器（Equipping and Unequipping Weapons）。* 当你作为该动作的一部分发动一次攻击时，可以装备或收起一件武器。
 
-#### Dodge [Action]
+你可以在攻击前或攻击后进行此操作。
 
-If you take the Dodge action, you gain the following benefits: until the start of your next turn, any attack roll made against you has Disadvantage if you can see the attacker, and you make Dexterity saving throws with Advantage.
+如果你在攻击前装备武器，并不一定必须使用该武器进行这次攻击。
 
-You lose these benefits if you have the Incapacitated condition or if your Speed is 0.
+装备武器包括从鞘中拔出武器或从地上捡起武器。
 
-#### Emanation [Area of Effect]
+收起武器包括把武器插回鞘中、收好或丢下。
 
-An Emanation is an area of effect that extends in straight lines from a creature or an object in all directions. The effect that creates an Emanation specifies the distance it extends.
+*在攻击之间移动（Moving between Attacks）。* 如果你在回合中移动，并且拥有例如额外攻击（Extra Attack）这样的特性，使你在一次攻击动作中可以发动多次攻击，则你可以将部分或全部移动安排在这些攻击之间。
 
-An Emanation moves with the creature or object that is its origin unless it is an instantaneous or a stationary effect.
+#### 攻击检定（Attack Roll）
 
-An Emanation's origin (creature or object) isn't included in the area of effect unless its creator decides otherwise.
+攻击检定是一种 D20 检定，代表使用武器、徒手打击或法术进行攻击。
 
-#### Encounter
+*另见*“进行游戏”中的“D20 检定”。
 
-An encounter is a scene in an adventure that is part of at least one of the game's three pillars: social interaction, exploration, or combat. _See also_ "Playing the Game" ("Social Interaction," "Exploration," and "Combat").
+#### 态度（Attitude）
 
-#### Enemy
+一个怪物对玩家角色拥有初始态度：友善（Friendly）、敌对（Hostile）或冷淡（Indifferent）。
 
-A creature is your enemy if it fights against you in combat, actively works to harm you, or is designated as your enemy by the rules or GM.
+*另见*“友善”“敌对”“冷淡”和“影响”。
 
-#### Exhaustion [Condition]
+#### 同调（Attunement）
 
-While you have the Exhaustion condition, you experience the following effects.
+某些魔法物品要求生物与其建立一种称为同调的联系，之后该生物才能使用物品的魔法属性。
 
-_Exhaustion Levels._ This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.
+一个生物同一时间最多只能与三件魔法物品同调。
 
-_D20 Tests Affected._ When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level.
+*另见*“装备”中的“魔法物品”。
 
-_Speed Reduced._ Your Speed is reduced by a number of feet equal to 5 times your Exhaustion level.
+#### 目盲［状态］（Blinded [Condition]）
 
-_Removing Exhaustion Levels._ Finishing a Long Rest removes 1 of your Exhaustion levels. When your Exhaustion level reaches 0, the condition ends.
+当你处于目盲状态时，受到以下效果影响。
 
-#### Experience Points
+*无法看见。* 你无法看见，并且任何需要视觉的属性检定都自动失败。
 
-As they overcome challenges and complete adventures, characters earn Experience Points (XP), which are awarded by the Game Master. When a character's XP total crosses certain thresholds, the character's level increases. _See also_ "Level Advancement."
+*攻击受影响。* 对你进行的攻击检定具有优势，而你的攻击检定具有劣势。
 
-#### Expertise
+#### 盲视（Blindsight）
 
-Expertise is a feature that enhances your use of a skill proficiency. When you make an ability check with a skill proficiency in which you have Expertise, your Proficiency Bonus is doubled for that check unless the bonus is doubled by another feature.
+如果你拥有盲视，则可以在指定范围内不依赖正常视觉进行看见。
 
-If you gain Expertise, you gain it in one skill in which you have proficiency. You can't have Expertise in the same skill proficiency more than once.
+在该范围内，即使你处于目盲状态或位于黑暗中，你仍可以看见任何不在全掩护后的事物。
 
-_See also_ "Playing the Game" ("Proficiency").
+此外，在该范围内，你可以看见处于隐形状态的事物。
 
-#### Falling [Hazard]
+#### 重伤（Bloodied）
 
-A creature that falls takes 1d6 Bludgeoning damage at the end of the fall for every 10 feet it fell, to a maximum of 20d6. When the creature lands, it has the Prone condition unless it avoids taking any damage from the fall.
+当一个生物剩余生命值为其生命值上限的一半或更少时，该生物处于重伤状态。
 
-A creature that falls into water or another liquid can use its Reaction to make a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check to hit the surface head or feet first. On a successful check, any damage resulting from the fall is halved.
+#### 附赠动作（Bonus Action）
 
-#### Flying
+附赠动作是一种特殊动作，可以与你在同一回合执行的普通动作同时存在。
 
-A variety of effects allow a creature to fly. While flying, you fall if you have the Incapacitated or Prone condition or your Fly Speed is reduced to 0. You can stay aloft in those circumstances if you can hover. _See also_ "Falling" and "Fly Speed."
+你在一个回合中不能执行超过一个附赠动作，而且只有当某条规则明确允许时，你才拥有可执行的附赠动作。
 
-#### Fly Speed
+*另见*“进行游戏”中的“动作”。
 
-A Fly Speed can be used to travel through the air. While you have a Fly Speed, you can stay aloft until you land, fall, or die. _See also_ "Flying" and "Speed."
+#### 破坏物体（Breaking Objects）
 
-#### Friendly [Attitude]
+攻击和某些法术可以伤害物体，使用以下规则。
 
-A Friendly creature views you favorably. You have Advantage on an ability check to influence a Friendly creature. _See also_ "Influence."
+如果一个物体极其脆弱，GM 可以允许生物通过攻击动作或使用动作自动将其破坏。
 
-#### Frightened [Condition]
+*护甲等级。* “物体护甲等级”表给出了各种材质建议使用的 AC。
 
-While you have the Frightened condition, you experience the following effects.
+**物体护甲等级（Object Armor Class）**
 
-_Ability Checks and Attacks Affected._ You have Disadvantage on ability checks and attack rolls while the source of fear is within line of sight.
+| AC | 材质 | AC | 材质 |
+|---:|---|---:|---|
+| 11 | 布、纸、绳索 | 19 | 铁、钢 |
+| 13 | 水晶、玻璃、冰 | 21 | 秘银（Mithral） |
+| 15 | 木材 | 23 | 精金（Adamantine） |
+| 17 | 石材 |  |  |
 
-_Can't Approach._ You can't willingly move closer to the source of fear.
+*生命值。* 当一个物体生命值降至 0 时，该物体被摧毁。
 
-#### Grappled [Condition]
+“物体生命值”表给出了大型或更小型脆弱和坚固物体的建议生命值。
 
-While you have the Grappled condition, you experience the following effects.
+如果要记录巨型或超巨型物体的生命值，将其划分为大型或更小型的部分，并分别记录每部分生命值。
 
-_Speed 0._ Your Speed is 0 and can't increase.
+由 GM 决定摧毁物体的一部分是否会导致整个物体倒塌。
 
-_Attacks Affected._ You have Disadvantage on attack rolls against any target other than the grappler.
+**物体生命值（Object Hit Points）**
 
-_Movable._ The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.
+| 体型 | 脆弱 | 坚固 |
+|---|---:|---:|
+| 微型（瓶子、锁） | 2（1d4） | 5（2d4） |
+| 小型（箱子、鲁特琴） | 3（1d6） | 10（3d6） |
+| 中型（木桶、吊灯） | 4（1d8） | 18（4d8） |
+| 大型（手推车、餐桌） | 5（1d10） | 27（5d10） |
 
-#### Grappling
+*伤害类型与物体。* 物体免疫毒素和心灵伤害。
 
-A creature can grapple another creature. Characters typically grapple by using an Unarmed Strike. Many monsters have special attacks that allow them to quickly grapple prey. However a grapple is initiated, it follows these rules. _See also_ "Unarmed Strike" and "Grappled."
+GM 可以裁定某些伤害类型对特定物体更有效或更无效。
 
-_Grappled Condition._ Successfully grappling a creature gives it the Grappled condition.
+例如，钝击伤害很适合砸碎东西，却不适合切割。
 
-_One Grapple per Hand._ A creature must have a hand free to grapple another creature. Some stat blocks and game effects allow a creature to grapple using a tentacle, a maw, or another body part. Whatever part a grappler uses, it can grapple only one creature at a time with that part, and the grappler can't use that part to target another creature unless it ends the grapple.
+纸张或布制物体可能对火焰伤害具有易伤。
 
-_Ending a Grapple._ A Grappled creature can use its action to make a Strength (Athletics) or Dexterity (Acrobatics) check against the grapple's escape DC, ending the condition on itself on a success. The condition also ends if the grappler has the Incapacitated condition or if the distance between the Grappled target and the grappler exceeds the grapple's range. In addition, the grappler can release the target at any time (no action required).
+*伤害阈值。* 大型物体，例如城墙，通常具有额外韧性，并用伤害阈值表示。
 
-#### Hazard
+*另见*“伤害阈值”。
 
-A hazard is an environmental danger. _See also_ "Burning," "Dehydration," "Falling," "Malnutrition," and "Suffocation."
+*无属性值。* 除非某条规则为物体指定属性值，否则物体没有属性值。
 
-#### Healing
+没有属性值的物体无法进行属性检定，并且所有豁免都自动失败。
 
-Healing is how you regain Hit Points. _See also_ "Playing the Game" ("Damage and Healing").
+#### 明亮光照（Bright Light）
 
-#### Heavily Obscured
+明亮光照是正常照明。
 
-You have the Blinded condition while trying to see something in a Heavily Obscured space. _See also_ "Blinded," "Darkness," and "Playing the Game" ("Exploration").
+*另见*“进行游戏”中的“探索”。
 
-#### Help [Action]
+#### 燃烧［危害］（Burning [Hazard]）
 
-When you take the Help action, you do one of the following.
+正在燃烧的生物或物体在其每个回合开始时受到 1d4 火焰伤害。
 
-_Assist an Ability Check._ Choose one of your skill or tool proficiencies and one ally who is near
-enough for you to assist verbally or physically when they make an ability check. That ally has Advantage on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. The GM has final say on whether your assistance is possible.
+作为动作，你可以通过使自己陷入倒地状态并在地面打滚，扑灭自己身上的火焰。
 
-_Assist an Attack Roll._ You momentarily distract an enemy within 5 feet of you, giving Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn.
+如果火焰被水浇灭、浸没或窒熄，也会熄灭。
 
-#### Heroic Inspiration
+#### 掘地速度（Burrow Speed）
 
-If you (a player character) have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll.
+拥有掘地速度的生物可以使用该速度穿过沙地、泥土、泥浆或冰。
 
-If you gain Heroic Inspiration but already have it, it's lost unless you give it to a player character who lacks it.
+除非该生物拥有允许其这么做的特质，否则无法掘穿实心岩石。
 
-#### Hide [Action]
+*另见*“速度”。
 
-With the Hide action, you try to hide yourself. To do so, you must succeed on a DC 15 Dexterity (Stealth) check while you're Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any enemy's line of sight; if you can see a creature, you can discern whether it can see you.
+#### 战役（Campaign）
 
-On a successful check, you have the Invisible condition while hidden. Make note of your check's total, which is the DC for a creature to find you with a Wisdom (Perception) check.
+战役是一系列冒险。
 
-You stop being hidden immediately after any of the following occurs: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a Verbal component.
+*另见*“冒险”。
 
-#### High Jump
+#### 戏法（Cantrip）
 
-When you make a High Jump, you leap into the air a number of feet equal to 3 plus your Strength modifier (minimum of 0 feet) if you move at least 10 feet on foot immediately before the jump. When you make a standing High Jump, you can jump only half that distance. Either way, each foot of the jump costs a foot of movement.
+戏法是一道 0 环法术，施放时无需消耗法术位。
 
-You can extend your arms half your height above yourself during the jump. Thus, you can reach a distance equal to the height of the jump plus 1½ times your height.
+*另见*“法术”。
 
-#### Hit Point Dice
+#### 载重能力（Carrying Capacity）
 
-Hit Point Dice, or Hit Dice for short, help determine a player character's Hit Point maximum, as explained in "Character Creation." Most monsters also have Hit Dice. A creature can spend Hit Dice during a Short Rest to regain Hit Points. _See also_ "Short Rest."
+你的体型和力量值决定你最多能够携带多少磅重量，如“载重能力”表所示。
 
-#### Hit Points
+该表也列出了你最多能够拖拽、举起或推动的重量。
 
-Hit Points (HP) are a measure of how difficult it is to kill or destroy a creature or an object. Damage reduces Hit Points, and healing restores them. You can't have more Hit Points than your Hit Point maximum, and you can't have less than 0. _See also_ "Breaking Objects" and "Playing the Game" ("Damage and Healing").
+当你拖拽、举起或推动超过最大携带重量的物体时，你的速度最高只能为 5 尺。
 
-#### Hostile [Attitude]
+**载重能力（Carrying Capacity）**
 
-A Hostile creature views you unfavorably. You have Disadvantage on an ability check to influence a Hostile creature. _See also_ "Influence."
+| 生物体型 | 携带 | 拖拽／举起／推动 |
+|---|---:|---:|
+| 微型 | 力量 × 7.5 磅 | 力量 × 15 磅 |
+| 小型／中型 | 力量 × 15 磅 | 力量 × 30 磅 |
+| 大型 | 力量 × 30 磅 | 力量 × 60 磅 |
+| 巨型 | 力量 × 60 磅 | 力量 × 120 磅 |
+| 超巨型 | 力量 × 120 磅 | 力量 × 240 磅 |
 
-#### Hover
+#### 挑战等级（Challenge Rating）
 
-Some creatures can hover, as noted in their stat blocks, and some spells and other effects grant the ability to hover. Hovering while flying prevents you from falling in certain circumstances. _See also_ "Flying."
+挑战等级（Challenge Rating，CR）概括一个怪物对四名玩家角色组成的小队构成的威胁。
 
-#### Illusions
+将怪物的 CR 与角色等级进行比较。
 
-Spells and other effects sometimes create magical illusions. Such an effect defines what the illusion does and which senses or mental faculties it deceives.
+如果 CR 更高，该怪物很可能具有危险性。
 
-If an illusion manifests in space, the illusion is insubstantial and weightless, yet it seems to be affected by the environment as if the illusion were real unless the effect that created it specifies otherwise. For example, a visual illusion of a creature casts shadows and reflections, and wind appears to affect the illusory creature. Similarly, an audible illusion echoes in an echoey space.
+如果 CR 更低，该怪物通常威胁不大。
 
-#### Immunity
+不过，具体环境和玩家角色人数都会显著改变怪物在实际游戏中的威胁程度。
 
-If you have Immunity to a damage type or a condition, it doesn't affect you in any way.
+“游戏工具箱”中的“战斗遭遇（Combat Encounters）”为 GM 提供了在规划潜在战斗遭遇时如何使用 CR 的指引。
 
-#### Improvised Weapons
+*另见*“数据栏”。
 
-An improvised weapon is an object wielded as a makeshift weapon, such as broken glass, a table leg, or a frying pan. A Simple or Martial weapon also counts as an improvised weapon if it's wielded in a way contrary to its design; if you use a Ranged weapon to make a melee attack or throw a Melee weapon that lacks the Thrown property, the weapon counts as an improvised weapon. An improvised weapon follows the rules below.
+#### 角色卡（Character Sheet）
 
-_Proficiency._ Don't add your Proficiency Bonus to attack rolls with an improvised weapon.
+角色卡是一份纸质或数字记录，用于记录你的角色信息。
 
-_Damage._ On a hit, the weapon deals 1d4 damage of a type the GM thinks is appropriate for the object.
+*另见*“角色创建”。
 
-_Range._ If you throw the weapon, it has a normal range of 20 feet and a long range of 60 feet.
+#### 魅惑［状态］（Charmed [Condition]）
 
-_Weapon Equivalents._ If an improvised weapon resembles a Simple or Martial weapon, the GM may say it functions as that weapon and uses that weapon's rules. For example, the GM could treat a table leg as a Club.
+当你处于魅惑状态时，受到以下效果影响。
 
-#### Incapacitated [Condition]
+*无法伤害魅惑者。* 你不能攻击魅惑你的生物，也不能以伤害能力或魔法效果将其作为目标。
 
-While you have the Incapacitated condition, you experience the following effects.
+*社交优势。* 魅惑你的生物进行任何与你进行社交互动的属性检定时具有优势。
 
-_Inactive._ You can't take any action, Bonus Action, or Reaction.
+#### 攀爬（Climbing）
 
-_No Concentration._ Your Concentration is broken.
+当你攀爬时，每移动 1 尺额外消耗 1 尺移动力；如果处于困难地形，则额外消耗 2 尺。
 
-_Speechless._ You can't speak.
+如果你拥有攀爬速度并使用该速度进行攀爬，则忽略这种额外消耗。
 
-_Surprised._ If you're Incapacitated when you roll Initiative, you have Disadvantage on the roll.
+由 GM 决定，在湿滑表面或缺少抓握点的表面上攀爬时，可能需要成功通过 DC 15 力量（运动）检定。
 
-#### Indifferent [Attitude]
+#### 攀爬速度（Climb Speed）
 
-An Indifferent creature has no desire to help or hinder you. Indifferent is the default attitude of a monster. _See also_ "Influence."
+攀爬速度可以替代普通速度用于穿越垂直表面，而无需支付通常由攀爬产生的额外移动消耗。
 
-#### Influence [Action]
+*另见*“攀爬”和“速度”。
 
-With the Influence action, you urge a monster to do something. Describe or roleplay how you're communicating with the monster. Are you trying to deceive, intimidate, amuse, or gently persuade? The GM then determines whether the monster feels willing, unwilling, or hesitant due to your interaction; this determination establishes whether an ability check is necessary, as explained below.
+#### 专注（Concentration）
 
-_Willing._ If your urging aligns with the monster's desires, no ability check is necessary; the monster fulfills your request in a way it prefers.
+某些法术和其他效果需要保持专注才能继续生效，其说明会明确指出这一点。
 
-_Unwilling._ If your urging is repugnant to the monster or counter to its alignment, no ability check is necessary; it doesn't comply.
+如果效果的创造者失去专注，该效果结束。
 
-_Hesitant._ If you urge the monster to do something that it is hesitant to do, you must make an ability check, which is affected by the monster's attitude: Indifferent, Friendly, or Hostile, each of which is defined in this glossary. The Influence Checks table suggests which ability check to make based on how you're interacting with the monster. The GM chooses the check, which has a default DC equal to 15 or the monster's Intelligence score, whichever is higher. On a successful check, the monster does as urged. On a failed check, you must wait 24 hours (or a duration set by the GM) before urging it in the same way again.
+如果效果拥有最大持续时间，其说明会指出创造者可以专注多长时间，例如至多 1 分钟、1 小时或其他持续时间。
 
-**Influence Checks**
+创造者可以随时结束专注，无需动作。
 
-<table>
-  <thead>
-    <tr>
-      <th>Ability Check</th>
-      <th>Interaction</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Charisma (Deception)</td>
-      <td>Deceiving a monster that understands you</td>
-    </tr>
-    <tr>
-      <td>Charisma (Intimidation)</td>
-      <td>Intimidating a monster</td>
-    </tr>
-    <tr>
-      <td>Charisma (Performance)</td>
-      <td>Amusing a monster</td>
-    </tr>
-    <tr>
-      <td>Charisma (Persuasion)</td>
-      <td>Persuading a monster that understands you</td>
-    </tr>
-    <tr>
-      <td>Wisdom (Animal Handling)</td>
-      <td>Gently coaxing a Beast or Monstrosity</td>
-    </tr>
-  </tbody>
-</table>
+以下因素会打断专注。
 
-#### Initiative
+*另一个专注效果。* 当你开始施放另一个需要专注的法术，或启动另一个需要专注的效果时，你立刻失去当前效果的专注。
 
-Initiative determines the order of turns during combat. The combat rules in "Playing the Game" explain how to roll Initiative.
+*受到伤害。* 如果你受到伤害，必须成功通过一次体质豁免才能维持专注。
 
-Sometimes a GM might have combatants use their Initiative scores instead of rolling Initiative. Your Initiative score equals 10 plus your Dexterity modifier. If you have Advantage on Initiative rolls, increase your Initiative score by 5. If you have Disadvantage on those rolls, decrease that score by 5. _See also_ "Playing the Game" ("Combat").
+DC 等于 10 或所受伤害的一半，向下取整，两者取较高者；最高 DC 为 30。
 
-#### Invisible [Condition]
+*失能或死亡。* 如果你处于失能状态或死亡，你的专注结束。
 
-While you have the Invisible condition, you experience the following effects.
+#### 状态（Condition）
 
-_Surprise._ If you're Invisible when you roll Initiative, you have Advantage on the roll.
+状态是一种暂时性的游戏状态。
 
-_Concealed._ You aren't affected by any effect that requires its target to be seen unless the effect's creator can somehow see you. Any equipment you are wearing or carrying is also concealed.
+状态的定义说明它如何影响承受者，而各种规则会说明如何结束某种状态。
 
-_Attacks Affected._ Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don't gain this benefit against that creature.
+本术语表定义以下状态：
 
-#### Jumping
+|  |  |  |
+|---|---|---|
+| 目盲（Blinded） | 擒抱（Grappled） | 中毒（Poisoned） |
+| 魅惑（Charmed） | 失能（Incapacitated） | 倒地（Prone） |
+| 耳聋（Deafened） | 隐形（Invisible） | 束缚（Restrained） |
+| 力竭（Exhaustion） | 麻痹（Paralyzed） | 震慑（Stunned） |
+| 恐慌（Frightened） | 石化（Petrified） | 昏迷（Unconscious） |
 
-When you jump, you make either a Long Jump (horizontal) or a High Jump (vertical). _See also_ "Long Jump" and "High Jump."
+同一种状态不会与自身叠加；承受者要么处于该状态，要么不处于该状态。
 
-#### Knocking Out a Creature
+力竭状态是该规则的例外。
 
-When you would reduce a creature to 0 Hit Points with a melee attack, you can instead reduce the creature to 1 Hit Point. The creature then has the Unconscious condition and starts a Short Rest.
+#### 锥状［效果区域］（Cone [Area of Effect]）
 
-The creature remains Unconscious until it regains any Hit Points or until someone uses an action to administer first aid to it, which requires a successful DC 10 Wisdom (Medicine) check.
+锥状区域从一个起源点沿创造者选择的方向，以直线向外扩展。
 
-#### Lightly Obscured
+锥状区域在长度中任一点处的宽度，等于该点距离起源点的距离。
 
-You have Disadvantage on Wisdom (Perception) checks to see something in a Lightly Obscured space. _See also_ "Dim Light" and "Playing the Game" ("Exploration").
+例如，一个距离起源点 15 尺的位置处，锥状区域宽 15 尺。
 
-#### Line [Area of Effect]
+产生锥状区域的效果会指定其最大长度。
 
-A Line is an area of effect that extends from a point of origin in a straight path along its length and covers an area defined by its width. The effect that creates a Line specifies its length and width.
+除非创造者另行决定，否则锥状区域的起源点不包含在效果区域内。
 
-A Line's point of origin isn't included in the area of effect unless its creator decides otherwise.
+#### 掩护（Cover）
 
-#### Long Jump
+掩护能为位于其后的目标提供一定程度的保护。
 
-When you make a Long Jump, you leap horizontally a number of feet up to your Strength score if you
-move at least 10 feet immediately before the jump. When you make a standing Long Jump, you can leap only half that distance. Either way, each foot you jump costs a foot of movement.
+掩护分为三个等级，每种等级给予不同收益：
 
-If you land in Difficult Terrain, you must succeed on a DC 10 Dexterity (Acrobatics) check or have the Prone condition.
+- 半掩护（Half Cover）：AC 和敏捷豁免获得 +2 加值。
+- 四分之三掩护（Three-Quarters Cover）：AC 和敏捷豁免获得 +5 加值。
+- 全掩护（Total Cover）：不能被直接作为目标。
 
-This Long Jump rule assumes that the height of the jump doesn't matter, such as a jump across a stream or chasm. At your GM's option, you must succeed on a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance), such as a hedge or low wall. Otherwise, you hit the obstacle.
+如果目标同时处于多个等级的掩护之后，只获得保护程度最高的那一档收益。
 
-#### Long Rest
+*另见*“进行游戏”中的“战斗”。
 
-A Long Rest is a period of extended downtime—at least 8 hours—available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.
+#### 爬行（Crawling）
 
-During sleep, you have the Unconscious condition. After you finish a Long Rest, you must wait at least 16 hours before starting another one.
+当你爬行时，每移动 1 尺额外消耗 1 尺移动力；如果处于困难地形，则额外消耗 2 尺。
 
-_Benefits of the Rest._ To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:
+*另见*“速度”。
 
-**Regain All HP.** You regain all lost Hit Points and all spent Hit Point Dice. If your Hit Point maximum was reduced, it returns to normal.
+#### 生物（Creature）
 
-**Ability Scores Restored.** If any of your ability scores were reduced, they return to normal.
+游戏中的任何存在，包括玩家角色，都属于生物。
 
-**Exhaustion Reduced.** If you have the Exhaustion condition, its level decreases by 1.
+*另见*“生物类型”。
 
-**Special Feature.** Some features are recharged by a Long Rest. If you have such a feature, it recharges in the way specified in its description.
+#### 生物类型（Creature Type）
 
-_Interrupting the Rest._ A Long Rest is stopped by the following interruptions:
+每个生物，包括每个玩家角色，在规则中都有一个用于标识其生物类型的标签。
 
-- Rolling Initiative
-- Casting a spell other than a cantrip
-- Taking any damage
-- 1 hour of walking or other physical exertion
+大多数玩家角色属于类人生物类型。
 
-If you rested at least 1 hour before the interruption, you gain the benefits of a Short Rest. _See also_ "Short Rest."
+游戏中的生物类型如下：
 
-You can resume a Long Rest immediately after an interruption. If you do so, the rest requires 1 additional hour per interruption to finish.
+|  |  |  |
+|---|---|---|
+| 异怪（Aberration） | 元素（Elemental） | 怪兽（Monstrosity） |
+| 野兽（Beast） | 妖精（Fey） | 软泥怪（Ooze） |
+| 天界生物（Celestial） | 邪魔（Fiend） | 植物（Plant） |
+| 构装体（Construct） | 巨人（Giant） | 亡灵（Undead） |
+| 龙（Dragon） | 类人生物（Humanoid） |  |
 
-#### Magic [Action]
+这些生物类型本身并没有独立规则，但游戏中的某些规则会以不同方式影响特定类型的生物。
 
-When you take the Magic action, you cast a spell that has a casting time of an action or use a feature or magic item that requires a Magic action to be activated.
+#### 重击（Critical Hit）
 
-If you cast a spell that has a casting time of 1 minute or longer, you must take the Magic action on each turn of that casting, and you must maintain Concentration while you do so. If your Concentration is broken, the spell fails, but you don't expend a spell slot. _See also_ "Concentration."
+如果你在攻击检定的 d20 上掷出 20，则造成一次重击。
 
-#### Magical Effect
+无论任何调整值或目标 AC 为何，该攻击都会命中。
 
-An effect is magical if it is created by a spell, a magic item, or a phenomenon that a rule labels as magical.
+重击允许你为对目标造成的攻击伤害额外掷骰。
 
-#### Malnutrition [Hazard]
+将该攻击的所有伤害骰掷两次并相加，然后加入相关调整值。
 
-A creature needs an amount of food per day based on its size, as shown in the Food Needs per Day table. A creature that eats but consumes less than half the required food for a day must succeed on a DC 10 Constitution saving throw or gain 1 Exhaustion level at the day's end. A creature that eats nothing for 5 days automatically gains 1 Exhaustion level at the end of the fifth day as well as an additional level at the end of each subsequent day without food.
+*另见*“进行游戏”中的“伤害与治疗”。
 
-Exhaustion caused by malnutrition can't be removed until the creature eats the full amount of food required for a day. _See also_ "Exhaustion."
+#### 立方［效果区域］（Cube [Area of Effect]）
 
-**Food Needs per Day**
+立方区域从位于立方体任意一个面的起源点，以直线向外延伸。
 
-<table>
-  <thead>
-    <tr>
-      <th>Size</th>
-      <th>Food</th>
-      <th>Size</th>
-      <th>Food</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Tiny</td>
-      <td>1/4 pound</td>
-      <td>Large</td>
-      <td>4 pounds</td>
-    </tr>
-    <tr>
-      <td>Small</td>
-      <td>1 pound</td>
-      <td>Huge</td>
-      <td>16 pounds</td>
-    </tr>
-    <tr>
-      <td>Medium</td>
-      <td>1 pound</td>
-      <td>Gargantuan</td>
-      <td>64 pounds</td>
-    </tr>
-  </tbody>
-</table>
+产生立方区域的效果会指定其尺寸，也就是每条边的长度。
 
-#### Monster
+除非创造者另行决定，否则立方区域的起源点不包含在效果区域内。
 
-A monster is a creature controlled by the GM, even if the creature is benevolent. _See also_ "Creature" and "NPC."
+#### 诅咒（Curses）
 
-#### Nonplayer Character
+某些游戏效果会诅咒生物或物体。
 
-A nonplayer character (NPC) is a monster that has a personal name and a distinct personality. _See also_ "Monster."
+施加诅咒的效果会定义该诅咒的具体作用。
 
-#### Object
+诅咒可以通过*移除诅咒（Remove Curse）*、*高等复原术（Greater Restoration）*或其他明确能够结束诅咒的魔法移除。
 
-An object is a nonliving, distinct thing. Composite things, like buildings, comprise more than one object. _See also_ "Breaking Objects."
+#### 柱状［效果区域］（Cylinder [Area of Effect]）
 
-#### Occupied Space
+柱状区域从位于圆柱顶部或底部圆形中心的起源点，以直线向外延伸。
 
-A space is occupied if a creature is in it or if it is completely filled by objects.
+产生柱状区域的效果会指定其底面半径与高度。
 
-#### Opportunity Attacks
+柱状区域的起源点包含在效果区域内。
 
-You can make an Opportunity Attack when a creature that you can see leaves your reach using its action, its Bonus Action, its Reaction, or one of its speeds. To make the Opportunity Attack, take a Reaction to make one melee attack with a weapon or an Unarmed Strike against the provoking creature. The attack occurs right before the creature leaves your reach. _See also_ "Playing the Game" ("Combat").
+#### D20 检定（D20 Test）
 
-#### Paralyzed [Condition]
+D20 检定包括游戏中三类主要 d20 掷骰：属性检定、攻击检定和豁免。
 
-While you have the Paralyzed condition, you experience the following effects.
+如果游戏中的某个效果影响 D20 检定，则会影响以上三种掷骰。
 
-_Incapacitated._ You have the Incapacitated condition.
+由 GM 判断在特定情境下是否需要进行 D20 检定。
 
-_Speed 0._ Your Speed is 0 and can't increase.
+*另见*“进行游戏”中的“D20 检定”。
 
-_Saving Throws Affected._ You automatically fail Strength and Dexterity saving throws.
+#### 伤害（Damage）
 
-_Attacks Affected._ Attack rolls against you have Advantage.
+伤害代表使生物或物体失去生命值的损害。
 
-_Automatic Critical Hits._ Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.
+#### 伤害掷骰（Damage Roll）
 
-#### Passive Perception
+伤害掷骰是一次骰子掷骰，并应用所有相关调整值，从而对目标造成伤害。
 
-Passive Perception is a score that reflects a creature's general awareness of its surroundings. The GM uses this score when determining whether a creature notices something without consciously making a Wisdom (Perception) check.
+*另见*“进行游戏”中的“伤害与治疗”。
 
-A creature's Passive Perception equals 10 plus the creature's Wisdom (Perception) check bonus. If the creature has Advantage on such checks, increase the score by 5. If the creature has Disadvantage on them, decrease the score by 5. For example, a level 1 character with a Wisdom of 15 and proficiency in Perception has a Passive Perception of 14 (10 + 2 + 2). If that character has Advantage on Wisdom (Perception) checks, the score becomes 19.
+#### 伤害阈值（Damage Threshold）
 
-#### Per Day
+如果一个生物或物体具有伤害阈值，则除非一次攻击或效果对其造成的单次伤害等于或高于该伤害阈值，否则它免疫该伤害。
 
-If a rule says you can use something a certain number of times per day, that means you must finish a Long Rest to use it again after you run out of uses.
+如果伤害达到或超过伤害阈值，则该生物或物体承受该次伤害的完整数值。
 
-#### Petrified [Condition]
+任何未达到伤害阈值的伤害都只是表面损伤，不会减少生命值。
 
-While you have the Petrified condition, you experience the following effects.
+例如，如果一个物体的伤害阈值为 10，当它受到 9 点伤害时不承受任何伤害，因为伤害未达到阈值。
 
-_Turned to Inanimate Substance._ You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging.
+如果同一物体受到 11 点伤害，则承受全部 11 点伤害。
 
-_Incapacitated._ You have the Incapacitated condition.
+#### 伤害类型（Damage Types）
 
-_Speed 0._ Your Speed is 0 and can't increase.
+攻击和其他有害效果会造成不同类型的伤害。
 
-_Attacks Affected._ Attack rolls against you have Advantage.
+伤害类型本身没有独立规则，但其他规则——例如抗性——会依赖伤害类型。
 
-_Saving Throws Affected._ You automatically fail Strength and Dexterity saving throws.
+“伤害类型”表提供一些示例，帮助 GM 为新效果指定伤害类型。
 
-_Resist Damage._ You have Resistance to all damage.
+**伤害类型（Damage Types）**
 
-_Poison Immunity._ You have Immunity to the Poisoned condition.
+| 类型 | 示例 |
+|---|---|
+| 强酸（Acid） | 腐蚀性液体、消化酶 |
+| 钝击（Bludgeoning） | 钝器、绞压、坠落 |
+| 寒冷（Cold） | 冰水、冰冷冲击 |
+| 火焰（Fire） | 火焰、难以承受的高温 |
+| 力场（Force） | 纯粹魔法能量 |
+| 闪电（Lightning） | 电流 |
+| 黯蚀（Necrotic） | 吸取生命的能量 |
+| 穿刺（Piercing） | 尖牙、刺穿物体 |
+| 毒素（Poison） | 有毒气体、毒液 |
+| 心灵（Psychic） | 撕裂心智的能量 |
+| 光耀（Radiant） | 神圣能量、灼烧辐射 |
+| 挥砍（Slashing） | 利爪、切割物体 |
+| 雷鸣（Thunder） | 冲击性声波 |
 
-#### Player Character
+#### 黑暗（Darkness）
 
-A player character is a character controlled by a player. _See also_ "Character Creation."
+黑暗区域属于重度遮蔽。
 
-#### Poisoned [Condition]
+*另见*“重度遮蔽”和“进行游戏”中的“探索”。
 
-While you have the Poisoned condition, you experience the following effect.
+#### 黑暗视觉（Darkvision）
 
-_Ability Checks and Attacks Affected._ You have Disadvantage on attack rolls and ability checks.
+如果你拥有黑暗视觉，则在指定范围内：
 
-#### Possession
+- 你可以在微光中视物，如同处于明亮光照；
+- 你可以在黑暗中视物，如同处于微光。
 
-Some effects cause a creature to be possessed by another creature or entity. A possessing effect defines how the possession operates. Possession can be prevented by the _Protection from Evil and Good_ spell and ended by the _Dispel Evil and Good_ spell.
+不过，在黑暗中你只能分辨灰度，无法辨认颜色。
 
-#### Proficiency
+*另见*“进行游戏”中的“探索”。
 
-If you have proficiency with something, you can add your Proficiency Bonus to any D20 Test you make using that thing. A creature might have proficiency in a skill or saving throw or with a weapon or tool. _See also_ "Playing the Game" ("Proficiency").
+#### 疾走［动作］（Dash [Action]）
 
-#### Prone [Condition]
+当你执行疾走动作时，本回合获得额外移动力。
 
-While you have the Prone condition, you experience the following effects.
+增加量等于应用所有调整值后的速度。
 
-_Restricted Movement._ Your only movement options are to crawl or to spend an amount of movement equal to half your Speed (round down) to right yourself and thereby end the condition. If your Speed is 0, you can't right yourself.
+例如，如果你的速度为 30 尺，执行疾走后，本回合最多可以移动 60 尺。
 
-_Attacks Affected._ You have Disadvantage on attack rolls. An attack roll against you has Advantage if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage.
+如果你的 30 尺速度被降低到 15 尺，则执行疾走后，本回合最多移动 30 尺。
 
-#### Reach
+如果你拥有特殊速度，例如飞行速度或游泳速度，执行该动作时可以用该速度替代普通速度。
 
-A creature has a reach of 5 feet unless a rule says otherwise.
+每次执行疾走动作时，由你决定使用哪一种速度。
 
-#### Reaction
+*另见*“速度”。
 
-A Reaction is a special action taken in response to a trigger defined in the Reaction's description. You can take a Reaction on another creature's turn, and if you take it on your turn, you can do so even if you also take an action, a Bonus Action, or both. Once you take a Reaction, you can't take another one until the start of your next turn. The Opportunity Attack is a Reaction available to all creatures. _See also_ "Opportunity Attacks" and "Playing the Game" ("Actions").
+#### 死亡（Dead）
 
-#### Ready [Action]
+死亡的生物没有生命值，而且除非先通过*死者复活（Raise Dead）*或*回生术（Revivify）*等魔法复活，否则无法恢复生命值。
 
-You take the Ready action to wait for a particular circumstance before you act. To do so, you take this action on your turn, which lets you act by taking a Reaction before the start of your next turn.
+当施放此类法术时，该生物的灵魂知道是谁在施法，并且可以拒绝返回。
 
-First, you decide what perceivable circumstance will trigger your Reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your Speed in response to it. Examples include "If the cultist steps on the
-trapdoor, I'll pull the lever that opens it," and "If the zombie steps next to me, I move away."
+死亡生物的灵魂已经离开身体，前往外层位面；复活该生物需要将其灵魂召回。
 
-When the trigger occurs, you can either take your Reaction right after the trigger finishes or ignore the trigger.
+如果生物恢复生命，其当前生命值由复活效果决定。
 
-When you Ready a spell, you cast it as normal (expending any resources used to cast it) but hold its energy, which you release with your Reaction when the trigger occurs. To be readied, a spell must have a casting time of an action, and holding on to the spell's magic requires Concentration, which you can maintain up to the start of your next turn. If your Concentration is broken, the spell dissipates without taking effect.
+除非另有说明，如果生物死亡时受到某些状态、魔法疫病或诅咒的影响，而这些效果的持续时间仍未结束，则生物复活后依然受到这些效果影响。
 
-#### Resistance
+如果生物死亡时拥有力竭等级，则复活时减少 1 级力竭。
 
-If you have Resistance to a damage type, damage of that type is halved against you (round down). Resistance is applied only once to an instance of damage. _See also_ "Playing the Game" ("Damage and Healing").
+如果该生物此前与一件或多件魔法物品同调，则复活后不再与这些物品同调。
 
-#### Restrained [Condition]
+#### 耳聋［状态］（Deafened [Condition]）
 
-While you have the Restrained condition, you experience the following effects.
+当你处于耳聋状态时，受到以下效果影响。
 
-_Speed 0._ Your Speed is 0 and can't increase.
+*无法听见。* 你无法听见，并自动失败任何需要听觉的属性检定。
 
-_Attacks Affected._ Attack rolls against you have Advantage, and your attack rolls have Disadvantage.
+#### 死亡豁免（Death Saving Throw）
 
-_Saving Throws Affected._ You have Disadvantage on Dexterity saving throws.
+如果玩家角色在其回合开始时生命值为 0，则必须进行死亡豁免，也称死亡检定（Death Save）。
 
-#### Ritual
+*另见*“进行游戏”中的“伤害与治疗”。
 
-If you have a spell prepared that has the Ritual tag, you can cast that spell as a Ritual. The Ritual version of a spell takes 10 minutes longer to cast than normal. It also doesn't expend a spell slot, which means the ritual version of a spell can't be cast at a higher level. _See also_ "Spells."
+#### 脱水［危害］（Dehydration [Hazard]）
 
-#### Round Down
+一个生物每天需要的饮水量取决于其体型，如“每日饮水需求”表所示。
 
-Whenever you divide or multiply a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater. Some rules make an exception and tell you to round up.
+如果生物某一天饮用的水少于所需量的一半，则在该日结束时获得 1 级力竭。
 
-#### Save
+由脱水造成的力竭，在该生物某一天喝足完整所需饮水量之前无法被移除。
 
-Save is another name for a saving throw. _See also_ "Saving Throw."
+*另见*“力竭”。
 
-#### Saving Throw
+**每日饮水需求（Water Needs per Day）**
 
-A saving throw—also called a save—represents an attempt to avoid or resist a threat. You normally make a saving throw only when a rule requires you to do so, but you can decide to fail the save without rolling. The result of a save is detailed in the effect that allowed it. If a target is forced to make a save and lacks the ability score used by it, the target automatically fails. _See also_ "Playing the Game" ("D20 Tests").
+| 体型 | 饮水量 | 体型 | 饮水量 |
+|---|---:|---|---:|
+| 微型 | 1/4 加仑 | 大型 | 4 加仑 |
+| 小型 | 1 加仑 | 巨型 | 16 加仑 |
+| 中型 | 1 加仑 | 超巨型 | 64 加仑 |
 
-#### Search [Action]
+#### 困难地形（Difficult Terrain）
 
-When you take the Search action, you make a Wisdom check to discern something that isn't obvious. The Search table suggests which skills are applicable when you take this action, depending on what you're trying to detect.
+如果某个空间属于困难地形，则在该空间中每移动 1 尺额外消耗 1 尺移动力。
 
-**Search**
+例如，在困难地形中移动 5 尺，需要消耗 10 尺移动力。
 
-<table>
-  <thead>
-    <tr>
-      <th>Skill</th>
-      <th>Thing to Detect</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Insight</td>
-      <td>Creature's state of mind</td>
-    </tr>
-    <tr>
-      <td>Medicine</td>
-      <td>Creature's ailment or cause of death</td>
-    </tr>
-    <tr>
-      <td>Perception</td>
-      <td>Concealed creature or object</td>
-    </tr>
-    <tr>
-      <td>Survival</td>
-      <td>Tracks or food</td>
-    </tr>
-  </tbody>
-</table>
+困难地形不会叠加；一个空间要么属于困难地形，要么不是。
 
-#### Shape-Shifting
+如果某空间包含以下任一情况或类似情况，则属于困难地形：
 
-If an effect, such as Wild Shape or the _Polymorph_ spell, lets you shape-shift, its description specifies what happens to you. Unless that description says otherwise, any ongoing effects on you—conditions, spells, curses, and the like—carry over from one form to the other. You revert to your true form if you die.
+- 一个既非微型也非你盟友的生物
+- 为与你体型相同或更大型生物设计的家具
+- 厚重积雪、冰面、瓦砾或灌木丛
+- 深度位于小腿与腰部之间的液体
+- 仅适合比你小一级体型生物通过的狭窄开口
+- 倾角达到 20 度或更大的坡面
 
-#### Short Rest
+#### 难度等级（Difficulty Class）
 
-A Short Rest is a 1-hour period of downtime, during which a creature does nothing more strenuous than reading, talking, eating, or standing watch. To start a Short Rest, you must have at least 1 Hit Point.
+难度等级（Difficulty Class，DC）是属性检定或豁免所需达到的目标数字。
 
-_Benefits of the Rest._ When you finish the rest, you gain the following benefits:
+*另见*“进行游戏”中的“D20 检定”。
 
-**Spend Hit Point Dice.** You can spend one or more of your Hit Point Dice to regain Hit Points. For each Hit Point Die you spend in this way, roll the die and add your Constitution modifier to it. You regain Hit Points equal to the total (minimum of 1 Hit Point). You can decide to spend an additional Hit Point Die after each roll.
+#### 微光（Dim Light）
 
-**Special Feature.** Some features are recharged by a Short Rest. If you have such a feature, it recharges in the way specified in its description.
+微光区域属于轻度遮蔽。
 
-_Interrupting the Rest._ A Short Rest is stopped by the following interruptions:
+*另见*“轻度遮蔽”和“进行游戏”中的“探索”。
 
-- Rolling Initiative
-- Casting a spell other than a cantrip
-- Taking any damage
+#### 劣势（Disadvantage）
 
-An interrupted Short Rest confers no benefits.
+如果你进行某次 D20 检定时具有劣势，掷两个 d20，并采用其中较低的结果。
 
-#### Simultaneous Effects
+一次掷骰不会受到超过一个劣势的影响，而且同一次掷骰上的优势和劣势会互相抵消。
 
-If two or more things happen at the same time on a turn, the person at the game table—player or GM—whose turn it is decides the order in which those things happen. For example, if two effects occur at the start of a player character's turn, the player decides which of the effects happens first.
+*另见*“进行游戏”中的“D20 检定”。
 
-#### Size
+#### 撤离［动作］（Disengage [Action]）
 
-A creature or an object belongs to a size category: Tiny, Small, Medium, Large, Huge, or Gargantuan. A creature's size determines how much space the creature occupies in combat. An object's size affects its Hit Points. _See also_ "Breaking Objects" and "Playing the Game" ("Combat").
+如果你执行撤离动作，则在当前回合剩余时间里，你的移动不会触发借机攻击。
 
-#### Skill
+#### 闪避［动作］（Dodge [Action]）
 
-A skill is an area of specialization associated with an ability check. If you have proficiency in a skill, you can add your Proficiency Bonus when you make an ability check associated with that skill. _See also_ "Playing the Game" ("Proficiency").
+如果你执行闪避动作，则获得以下收益：
 
-#### Speed
+直到你的下一回合开始，只要你能看见攻击者，对你进行的任何攻击检定都具有劣势；同时，你进行敏捷豁免时具有优势。
 
-A creature has a Speed, which is the distance in feet the creature can cover when it moves on its turn. _See also_ "Climbing," "Crawling," "Flying," "Jumping," "Swimming" and "Playing the Game" ("Combat").
+如果你处于失能状态或速度为 0，则失去这些收益。
 
-_Special Speeds._ Some creatures have special speeds, such as a Burrow Speed, Climb Speed, Fly Speed, or Swim Speed, each of which is defined in this glossary. If you have more than one speed, choose which one to use when you move; you can switch between the speeds during your move. Whenever you switch, subtract the distance already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can't use the new speed during the current move. For example, if you have a Speed of 30 and a Fly Speed of 40, you could fly 10 feet, walk 10 feet, and leap into the air to fly 20 feet more.
+#### 发散范围［效果区域］（Emanation [Area of Effect]）
 
-_Changes to Your Speeds._ If an effect increases or decreases your Speed for a time, any special speed you have increases or decreases by an equal amount for the same duration. For example, if your Speed is reduced to 0 and you have a Climb Speed, your Climb Speed is also reduced to 0. Similarly, if your Speed is halved and you have a Fly Speed, your Fly Speed is also halved.
+发散范围是一种从某个生物或物体向所有方向沿直线延伸的效果区域。
 
-#### Spell
+创造该发散范围的效果会指定其延伸距离。
 
-A spell is a magical effect that has the characteristics described in "Spells."
+除非该效果为瞬发效果或固定效果，否则发散范围会随着其起源生物或物体一起移动。
 
-#### Spell Attack
+除非创造者另行决定，否则发散范围的起源——生物或物体——本身不包含在效果区域内。
 
-A spell attack is an attack roll made as part of a spell or another magical effect. _See also_ "Spells" ("Casting Spells").
+#### 遭遇（Encounter）
 
-#### Spellcasting Focus
+遭遇是冒险中的一个场景，并且至少属于游戏三大支柱之一：社交互动、探索或战斗。
 
-A Spellcasting Focus is an object that certain creatures can use in place of a spell's Material components if those materials aren't consumed by the spell and don't have a cost specified. Some classes allow its members to use certain types of Spellcasting Focuses. _See also_ "Spells" ("Casting Spells").
+*另见*“进行游戏”中的“社交互动”“探索”和“战斗”。
 
-#### Sphere [Area of Effect]
+#### 敌人（Enemy）
 
-A Sphere is an area of effect that extends in straight lines from a point of origin outward in all directions. The effect that creates a Sphere specifies the distance it extends as the radius of the Sphere.
+如果一个生物在战斗中与你敌对、主动试图伤害你，或被规则或 GM 指定为你的敌人，则该生物是你的敌人。
 
-A Sphere's point of origin is included in the Sphere's area of effect.
+#### 力竭［状态］（Exhaustion [Condition]）
 
-#### Stable
+当你处于力竭状态时，受到以下效果影响。
 
-A creature is Stable if it has 0 Hit Points but isn't required to make Death Saving Throws. _See also_ "Playing the Game" ("Damage and Healing").
+*力竭等级。* 该状态可以累积。
 
-#### Stat Block
+每次你再次获得力竭状态时，获得 1 级力竭。
 
-A stat block contains the game statistics of a monster. Each stat block includes the following information presented after the monster's name.
+如果你的力竭等级达到 6，你死亡。
 
-_Size._ A monster is Tiny, Small, Medium, Large, Huge, or Gargantuan. _See also_ "Size."
+*D20 检定受影响。* 当你进行 D20 检定时，掷骰结果降低你力竭等级两倍的数值。
 
-_Creature Type._ This entry notes the family of beings a monster belongs to, along with any descriptive tags. _See also_ "Creature Type."
+*速度降低。* 你的速度降低等于力竭等级五倍的尺数。
 
-_Alignment._ An alignment is suggested for the monster, with the GM determining its actual alignment. _See also_ "Alignment."
+*移除力竭等级。* 完成一次长休会移除 1 级力竭。
 
-_AC, Initiative, and HP._ These entries give the monster's Armor Class, Initiative, and Hit Points, which are detailed in "Playing the Game." In parentheses after the Hit Points, the monster's Hit Point Dice are provided, along with the contribution of its Constitution, if any, to its Hit Points. Following the Initiative modifier is an Initiative score. Some creatures that are created by magic lack Hit Dice and Initiative information.
+当你的力竭等级降至 0 时，该状态结束。
 
-_Speed._ Here the monster's Speed is provided, along with any special speeds. _See also_ "Burrow Speed," "Climb Speed," "Fly Speed," and "Swim Speed."
+#### 经验值（Experience Points）
 
-_Ability Scores._ A table provides the monster's ability scores, modifiers, and saving throw modifiers, all of which are detailed in "Playing the Game."
+角色克服挑战并完成冒险后，会获得由游戏主持人给予的经验值（Experience Points，XP）。
 
-_Skills._ This entry lists the monster's skill proficiencies, if any. _See also_ "Playing the Game" ("Proficiency").
+当角色的 XP 总量达到特定门槛时，角色等级提升。
 
-_Resistances and Vulnerabilities._ These entries list the monster's Resistances and Vulnerabilities, if any. _See also_ "Resistance" and "Vulnerability."
+*另见*“等级提升”。
 
-_Immunities._ This section lists the monster's damage and condition Immunities, if any. _See also_ "Immunity."
+#### 专精（Expertise）
 
-_Gear._ If the monster has any equipment that can be given away or retrieved, it's listed in this entry.
+专精是一项强化技能熟练使用效果的特性。
 
-_Senses._ This entry lists the monster's special senses, such as Darkvision, and its Passive Perception. _See also_ "Passive Perception."
+当你使用一项拥有专精的技能熟练进行属性检定时，除非熟练加值已经被其他特性翻倍，否则本次检定的熟练加值翻倍。
 
-_Languages._ This entry lists any languages the monster knows.
-_CR._ Challenge Rating summarizes the threat a monster poses and is detailed in "Monsters." The Experience Points characters receive for defeating a monster and its Proficiency Bonus follow. Some creatures that are created by magic have no CR. _See also_ "Challenge Rating" and "Experience Points."
+如果你获得专精，则必须选择一项你已经熟练的技能。
 
-_Traits._ The monster's traits, if any, are features that are active at all times or in certain situations.
+同一项技能熟练不能获得多次专精。
 
-_Actions._ The monster can take these actions in addition to those detailed in this glossary. _See also_ "Playing the Game" ("Actions").
+*另见*“进行游戏”中的“熟练”。
 
-_Bonus Actions._ If the monster has Bonus Action options, they are listed in this section.
+#### 坠落［危害］（Falling [Hazard]）
 
-_Reactions._ If the monster can take special Reactions, those are listed in this section.
+一个生物坠落时，在坠落结束时，每坠落 10 尺受到 1d6 钝击伤害，最高 20d6。
 
-_Attack Notation._ The entry for a monster's attack starts by identifying whether the attack is a melee or a ranged attack and then provides the attack roll's bonus, its reach or range, and what happens on a hit. An attack is against one target unless its entry says otherwise.
+生物落地时会陷入倒地状态，除非其没有受到任何坠落伤害。
 
-_Saving Throw Effect Notation._ If an effect forces a saving throw, the effect's entry starts by identifying the kind of saving throw required and then provides the save's DC, a description of which creatures must make the save, and what happens on a failed or a successful save.
+如果生物落入水中或其他液体中，可以使用反应进行一次 DC 15 力量（运动）或敏捷（特技）检定，以头部或双脚先入水。
 
-_Damage Notation._ A stat block usually provides both a static number and a die expression for each instance of damage. For example, an attack might deal 4 (1d4 + 2) damage on a hit. The GM determines whether you use the static number or the die expression in parentheses; you don't use both.
+检定成功时，由此次坠落造成的伤害减半。
 
-#### Study [Action]
+#### 飞行（Flying）
 
-When you take the Study action, you make an Intelligence check to study your memory, a book, a clue, or another source of knowledge and call to mind an important piece of information about it.
+多种效果可以让生物飞行。
 
-The Areas of Knowledge table suggests which skills are applicable to various areas of knowledge.
+飞行期间，如果你处于失能或倒地状态，或你的飞行速度降为 0，则你会坠落。
 
-**Areas of Knowledge**
+如果你能够悬停，则在这些情况下仍可保持在空中。
 
-<table>
-  <thead>
-    <tr>
-      <th>Skill</th>
-      <th>Areas</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Arcana</td>
-      <td>Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities)</td>
-    </tr>
-    <tr>
-      <td>History</td>
-      <td>Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)</td>
-    </tr>
-    <tr>
-      <td>Investigation</td>
-      <td>Traps, ciphers, riddles, and gadgetry</td>
-    </tr>
-    <tr>
-      <td>Nature</td>
-      <td>Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)</td>
-    </tr>
-    <tr>
-      <td>Religion</td>
-      <td>Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)</td>
-    </tr>
-  </tbody>
-</table>
+*另见*“坠落”和“飞行速度”。
 
-#### Stunned [Condition]
+#### 飞行速度（Fly Speed）
 
-While you have the Stunned condition, you experience the following effects.
+飞行速度可以用于在空中移动。
 
-_Incapacitated._ You have the Incapacitated condition.
+拥有飞行速度时，你可以保持在空中，直到落地、坠落或死亡。
 
-_Saving Throws Affected._ You automatically fail Strength and Dexterity saving throws.
+*另见*“飞行”和“速度”。
 
-_Attacks Affected._ Attack rolls against you have Advantage.
+#### 友善［态度］（Friendly [Attitude]）
 
-#### Suffocation [Hazard]
+友善生物对你抱有好感。
 
-A creature can hold its breath for a number of minutes equal to 1 plus its Constitution modifier (minimum of 30 seconds) before suffocation begins. When a creature runs out of breath or is choking, it gains 1 Exhaustion level at the end of each of its turns. When a creature can breathe again, it removes all levels of Exhaustion it gained from suffocating.
+你进行影响友善生物的属性检定时具有优势。
 
-#### Surprise
+*另见*“影响”。
 
-If a creature is caught unawares by the start of combat, that creature is surprised, which causes it to have Disadvantage on its Initiative roll. _See also_ "Playing the Game" ("Combat").
+#### 恐慌［状态］（Frightened [Condition]）
 
-#### Swimming
+当你处于恐慌状态时，受到以下效果影响。
 
-While you're swimming, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a Swim Speed and use it to swim. At the GM's option, moving any distance in rough water might require a successful DC 15 Strength (Athletics) check.
+*属性检定与攻击受影响。* 只要恐惧来源处于你的视线范围内，你的属性检定和攻击检定都具有劣势。
 
-### Swim Speed
+*无法靠近。* 你不能自愿向恐惧来源靠近。
 
-A Swim Speed can be used to swim without expending the extra movement normally associated with swimming. _See also_ "Swimming" and "Speed."
+#### 擒抱［状态］（Grappled [Condition]）
 
-#### Target
+当你处于擒抱状态时，受到以下效果影响。
 
-A target is the creature or object targeted by an attack roll, forced to make a saving throw by an effect, or selected to receive the effects of a spell or another phenomenon.
+*速度为 0。* 你的速度为 0，并且不能提高。
 
-#### Telepathy
+*攻击受影响。* 除擒抱你的生物之外，你对其他任何目标进行的攻击检定具有劣势。
 
-Telepathy is a magical ability that allows a creature to communicate mentally with another creature within a specified range. Unless a rule states otherwise, the contacted creature doesn't need to share a language with the telepath to understand this communication, but the contacted creature must be able to understand at least one language or be telepathic itself to understand.
+*可被移动。* 擒抱者移动时可以拖拽或携带你，但每移动 1 尺需要额外消耗 1 尺移动力，除非你是微型，或比擒抱者小至少两个体型等级。
 
-A telepath doesn't need to see a contacted creature, and the telepath can start or end the telepathic contact at any time (no action required). Telepathic contact can't be initiated and is immediately broken if either the telepath or the other creature has the Incapacitated condition. Telepathic contact is also broken if the contacted creature is no longer within the telepathy's range or if the telepath contacts a different creature within range.
+#### 擒抱（Grappling）
 
-A creature without telepathy can receive telepathic messages but can't initiate a telepathic conversation. Once a telepathic conversation starts, the non-telepath can communicate mentally to the telepath until the telepathic connection ends.
+生物可以擒抱另一个生物。
 
-#### Teleportation
+角色通常通过徒手打击发动擒抱。
 
-Teleportation is a special kind of magical transportation. If you teleport, you disappear and reappear elsewhere instantly, without moving through the intervening space. This transportation doesn't expend movement unless a rule tells you otherwise, and teleportation never provokes Opportunity Attacks.
+许多怪物拥有特殊攻击，可以迅速擒住猎物。
 
-When you teleport, all the equipment you're wearing and carrying teleports with you. If you're touching another creature when you teleport, that creature doesn't teleport with you unless the teleportation effect says otherwise.
+无论擒抱如何开始，都遵循以下规则。
 
-If the destination space of your teleportation is occupied by another creature or blocked by a solid obstacle, you instead appear in the nearest unoccupied space of your choice.
+*另见*“徒手打击”和“擒抱状态”。
 
-The description of a teleportation effect tells you if you must see the teleportation's destination.
+*擒抱状态。* 成功擒抱一个生物会使其陷入擒抱状态。
 
-#### Temporary Hit Points
+*每只手一个擒抱。* 生物必须有一只空手才能擒抱另一个生物。
 
-Temporary Hit Points are granted by certain effects and act as a buffer against losing real Hit Points. _See also_ "Playing the Game" ("Damage and Healing").
+某些数据栏和游戏效果允许生物使用触手、口器或其他身体部位进行擒抱。
 
-#### Tremorsense
+无论擒抱者使用何种身体部位，该部位同一时间只能擒抱一个生物，而且除非先结束擒抱，否则不能使用该部位以另一个生物为目标。
 
-A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it is detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.
+*结束擒抱。* 处于擒抱状态的生物可以使用动作进行一次力量（运动）或敏捷（特技）检定，对抗该擒抱的逃脱 DC。
 
-Tremorsense can't detect creatures or objects in the air, and it doesn't count as a form of sight.
+成功时，其自身的擒抱状态结束。
 
-#### Truesight
+如果擒抱者陷入失能状态，或被擒抱目标与擒抱者之间的距离超过该擒抱的范围，则擒抱状态同样结束。
 
-If you have Truesight, your vision is enhanced within a specified range. Within that range, your vision pierces through the following:
+此外，擒抱者可以随时主动释放目标，无需动作。
 
-**Darkness.** You can see in normal and magical Darkness.
+#### 危害（Hazard）
 
-**Invisibility.** You see creatures and objects that have the Invisible condition.
+危害是一种环境危险。
 
-**Visual Illusions.** Visual illusions appear transparent to you, and you automatically succeed on saving throws against them.
+*另见*“燃烧”“脱水”“坠落”“营养不良”和“窒息”。
 
-**Transformations.** You discern the true form of any creature or object you see that has been transformed by magic.
+#### 治疗（Healing）
 
-**Ethereal Plane.** You see into the Ethereal Plane.
+治疗是恢复生命值的方式。
 
-#### Unarmed Strike
+*另见*“进行游戏”中的“伤害与治疗”。
 
-Instead of using a weapon to make a melee attack, you can use a punch, kick, headbutt, or similar forceful blow. In game terms, this is an Unarmed Strike—a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.
+#### 重度遮蔽（Heavily Obscured）
 
-Whenever you use your Unarmed Strike, choose one of the following options for its effect.
+当你尝试看见位于重度遮蔽空间中的事物时，你视为处于目盲状态。
 
-_Damage._ You make an attack roll against the target. Your bonus to the roll equals your Strength modifier plus your Proficiency Bonus. On a hit, the target takes Bludgeoning damage equal to 1 plus your Strength modifier.
+*另见*“目盲”“黑暗”和“进行游戏”中的“探索”。
 
-_Grapple._ The target must succeed on a Strength or Dexterity saving throw (it chooses which), or it has the Grappled condition. The DC for the saving throw and any escape attempts equals 8 plus your Strength modifier and Proficiency Bonus. This grapple is possible only if the target is no more than one size larger than you and if you have a hand free to grab it. _See also_ "Grappling."
+#### 协助［动作］（Help [Action]）
 
-_Shove._ The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push it 5 feet away or cause it to have the Prone condition. The DC for the saving throw equals 8 plus your Strength modifier and Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you.
+当你执行协助动作时，选择以下一种方式。
 
-#### Unconscious [Condition]
+*协助属性检定。* 选择一项你熟练的技能或工具，以及一名距离足够近、使你能够在其进行属性检定时通过言语或身体方式提供协助的盟友。
 
-While you have the Unconscious condition, you experience the following effects.
+该盟友使用所选技能或工具进行的下一次属性检定具有优势。
 
-_Inert._ You have the Incapacitated and Prone conditions, and you drop whatever you're holding. When this condition ends, you remain Prone.
+如果盟友在你的下一回合开始前没有使用这项收益，则收益失效。
 
-_Speed 0._ Your Speed is 0 and can't increase.
+由 GM 最终决定你是否能够提供协助。
 
-_Attacks Affected._ Attack rolls against you have Advantage.
+*协助攻击检定。* 你短暂地分散你 5 尺内一个敌人的注意力。
 
-_Saving Throws Affected._ You automatically fail Strength and Dexterity saving throws.
+你的一名盟友对该敌人进行的下一次攻击检定具有优势。
 
-_Automatic Critical Hits._ Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.
+该收益在你的下一回合开始时失效。
 
-_Unaware._ You're unaware of your surroundings.
+#### 英雄激励（Heroic Inspiration）
 
-#### Unoccupied Space
+如果你——一名玩家角色——拥有英雄激励，则可以在掷出任何骰子后立刻消耗英雄激励重新掷该骰，并且必须采用新的结果。
 
-A space is unoccupied if no creatures are in it and it isn't completely filled by objects.
+如果你在已经拥有英雄激励的情况下再次获得英雄激励，则新获得的英雄激励会失去，除非你将其给予一名当前没有英雄激励的玩家角色。
 
-#### Utilize [Action]
+#### 躲藏［动作］（Hide [Action]）
 
-You normally interact with an object while doing something else, such as when you draw a sword as part of the Attack action. When an object requires an action for its use, you take the Utilize action.
+通过躲藏动作，你尝试隐藏自己。
 
-#### Vulnerability
+要这么做，你必须在处于重度遮蔽，或位于四分之三掩护或全掩护之后时，成功通过 DC 15 敏捷（隐匿）检定，而且必须不在任何敌人的视线中。
 
-If you have Vulnerability to a damage type, damage of that type is doubled against you. Vulnerability is applied only once to an instance of damage. _See also_ "Playing the Game" ("Damage and Healing").
+如果你能看见某个生物，你就能判断它是否能够看见你。
 
-#### Weapon
+检定成功后，只要你仍处于隐藏状态，你便具有隐形状态。
 
-A weapon is an object that is in the Simple or Martial weapon category. _See also_ "Equipment" ("Weapons").
+记录此次检定的总结果；该数值即为其他生物使用感知（察觉）检定发现你的 DC。
 
-#### Weapon Attack
+发生以下任一情况后，你会立刻停止隐藏：
 
-A weapon attack is an attack roll made with a weapon. _See also_ "Weapon."
+- 你发出比耳语更响的声音；
+- 一个敌人发现你；
+- 你进行攻击检定；
+- 你施放带有言语成分的法术。
+
+#### 跳高（High Jump）
+
+进行跳高时，如果你在跳跃前立即步行移动至少 10 尺，则你可以跃起相当于 3 + 你的力量调整值尺的高度，最低为 0 尺。
+
+进行原地跳高时，你只能跳跃该距离的一半。
+
+无论哪种情况，每跳跃 1 尺都消耗 1 尺移动力。
+
+跳跃过程中，你可以把手臂向上伸展相当于自身身高一半的距离。
+
+因此，你能够触及的高度等于跳跃高度 + 你身高的 1½ 倍。
+
+#### 生命骰（Hit Point Dice）
+
+生命骰（Hit Point Dice），简称生命骰（Hit Dice），用于帮助决定玩家角色的生命值上限，具体见“角色创建”。
+
+大多数怪物同样拥有生命骰。
+
+生物可以在短休期间消耗生命骰恢复生命值。
+
+*另见*“短休”。
+
+#### 生命值（Hit Points）
+
+生命值（Hit Points，HP）衡量杀死或摧毁一个生物或物体的难度。
+
+伤害会减少生命值，而治疗会恢复生命值。
+
+你的生命值不能超过生命值上限，也不能低于 0。
+
+*另见*“破坏物体”和“进行游戏”中的“伤害与治疗”。
+
+#### 敌对［态度］（Hostile [Attitude]）
+
+敌对生物对你抱有负面看法。
+
+你进行影响敌对生物的属性检定时具有劣势。
+
+*另见*“影响”。
+
+#### 悬停（Hover）
+
+某些生物可以悬停，这会在其数据栏中注明；某些法术和其他效果也会赋予悬停能力。
+
+飞行期间保持悬停，可以在特定情况下防止你坠落。
+
+*另见*“飞行”。
+
+#### 幻象（Illusions）
+
+法术和其他效果有时会产生魔法幻象。
+
+这类效果会定义幻象具体做什么，以及它欺骗哪些感官或心智能力。
+
+如果幻象出现在空间中，则幻象本身没有实体也没有重量，但除非创造它的效果另有说明，它看起来会如同真实存在一样受到环境影响。
+
+例如，一个生物的视觉幻象会投下阴影和倒影，而且风看起来会影响这个幻象生物。
+
+同样，声音幻象在有回声的空间中也会产生回声。
+
+#### 免疫（Immunity）
+
+如果你对某种伤害类型或状态具有免疫，则该伤害或状态不会以任何方式影响你。
+
+#### 临时武器（Improvised Weapons）
+
+临时武器是被当作权宜武器挥舞的物体，例如碎玻璃、桌腿或煎锅。
+
+如果以违反设计用途的方式使用简易或军用武器，该武器同样视为临时武器。
+
+例如，如果你使用远程武器进行近战攻击，或投掷一件没有投掷属性的近战武器，该武器视为临时武器。
+
+临时武器遵循以下规则。
+
+*熟练。* 使用临时武器进行攻击检定时，不加入你的熟练加值。
+
+*伤害。* 命中时，该武器造成 1d4 伤害，伤害类型由 GM 根据物体性质决定。
+
+*射程。* 如果你投掷该武器，其常规射程为 20 尺，远距射程为 60 尺。
+
+*等效武器。* 如果临时武器类似某件简易或军用武器，GM 可以裁定它视为那件武器，并使用该武器的规则。
+
+例如，GM 可以把桌腿视为短棒。
+
+#### 失能［状态］（Incapacitated [Condition]）
+
+当你处于失能状态时，受到以下效果影响。
+
+*无法行动。* 你不能执行任何动作、附赠动作或反应。
+
+*无法专注。* 你的专注被打断。
+
+*无法说话。* 你不能说话。
+
+*遭受突袭。* 如果你掷先攻时处于失能状态，则该先攻检定具有劣势。
+
+#### 冷淡［态度］（Indifferent [Attitude]）
+
+冷淡生物既没有帮助你的意愿，也没有阻碍你的意愿。
+
+冷淡是怪物的默认态度。
+
+*另见*“影响”。
+
+#### 影响［动作］（Influence [Action]）
+
+执行影响动作时，你试图劝说一个怪物做某件事。
+
+描述或角色扮演你如何与怪物交流。
+
+你是在尝试欺骗、威吓、逗乐，还是温和地说服它？
+
+随后由 GM 根据你的互动判断怪物是愿意、不愿意还是犹豫。
+
+这一判断会决定是否需要属性检定，具体如下。
+
+*愿意。* 如果你的请求符合怪物的意愿，则无需属性检定；怪物会以它自己喜欢的方式满足你的请求。
+
+*不愿意。* 如果你的请求令怪物厌恶，或违背其阵营，则无需属性检定；它不会配合。
+
+*犹豫。* 如果你试图让怪物做某件它犹豫是否愿意做的事，则必须进行属性检定。
+
+检定会受到怪物态度影响：冷淡、友善或敌对；这些态度均在本术语表中定义。
+
+“影响检定”表根据你与怪物互动的方式，建议应该进行哪一种属性检定。
+
+由 GM 选择具体检定，其默认 DC 等于 15 或怪物的智力值，两者取较高者。
+
+检定成功时，怪物按你的要求行动。
+
+检定失败时，你必须等待 24 小时——或 GM 决定的其他时长——才能再次用相同方式提出请求。
+
+**影响检定（Influence Checks）**
+
+| 属性检定 | 互动 |
+|---|---|
+| 魅力（欺瞒） | 欺骗能够理解你的怪物 |
+| 魅力（威吓） | 威吓怪物 |
+| 魅力（表演） | 逗乐怪物 |
+| 魅力（游说） | 说服能够理解你的怪物 |
+| 感知（驯兽） | 温和地引导野兽或怪兽 |
+
+#### 先攻（Initiative）
+
+先攻决定战斗中回合的顺序。
+
+“进行游戏”中的战斗规则说明如何进行先攻检定。
+
+有时 GM 可能让参战者使用先攻值，而不是进行先攻检定。
+
+你的先攻值等于 10 + 你的敏捷调整值。
+
+如果你的先攻检定具有优势，则先攻值增加 5。
+
+如果你的先攻检定具有劣势，则先攻值减少 5。
+
+*另见*“进行游戏”中的“战斗”。
+
+#### 隐形［状态］（Invisible [Condition]）
+
+当你处于隐形状态时，受到以下效果影响。
+
+*突袭。* 如果你掷先攻时处于隐形状态，则该先攻检定具有优势。
+
+*隐藏。* 任何要求目标必须被看见的效果都不能影响你，除非该效果的创造者能通过某种方式看见你。
+
+你穿戴或携带的任何装备也同样被隐藏。
+
+*攻击受影响。* 对你进行的攻击检定具有劣势，而你的攻击检定具有优势。
+
+如果某个生物能够通过某种方式看见你，则你面对该生物时无法获得此项收益。
+
+#### 跳跃（Jumping）
+
+跳跃时，你可以进行跳远——水平跳跃——或跳高——垂直跳跃。
+
+*另见*“跳远”和“跳高”。
+
+#### 击昏生物（Knocking Out a Creature）
+
+当你使用近战攻击本应将一个生物的生命值降低至 0 时，可以改为将其生命值降低至 1。
+
+该生物随后陷入昏迷状态，并开始进行一次短休。
+
+该生物会持续昏迷，直到恢复任意生命值，或者有人使用动作对其实施急救。
+
+实施急救需要成功通过 DC 10 感知（医药）检定。
+
+#### 轻度遮蔽（Lightly Obscured）
+
+当你进行感知（察觉）检定，尝试看见轻度遮蔽空间中的事物时，该检定具有劣势。
+
+*另见*“微光”和“进行游戏”中的“探索”。
+
+#### 线状［效果区域］（Line [Area of Effect]）
+
+线状区域从一个起源点沿直线路径延伸，其覆盖区域由长度和宽度决定。
+
+创造线状区域的效果会指定其长度和宽度。
+
+除非创造者另行决定，否则线状区域的起源点不包含在效果区域内。
+
+#### 跳远（Long Jump）
+
+进行跳远时，如果你在跳跃前立即移动至少 10 尺，则可以水平跳跃至多等于你力量值尺的距离。
+
+进行原地跳远时，你只能跳跃该距离的一半。
+
+无论哪种情况，每跳跃 1 尺都消耗 1 尺移动力。
+
+如果你落在困难地形中，必须成功通过 DC 10 敏捷（特技）检定，否则陷入倒地状态。
+
+本跳远规则假定跳跃高度并不重要，例如跳过溪流或裂隙。
+
+由 GM 决定，你可能需要成功通过 DC 10 力量（运动）检定，才能越过低矮障碍——高度不超过跳跃距离的四分之一——例如树篱或矮墙。
+
+否则，你会撞上该障碍。
+
+#### 长休（Long Rest）
+
+长休是一段至少持续 8 小时的长时间休整，任何生物都可以进行。
+
+长休期间，你至少睡眠 6 小时，并且最多只能进行 2 小时轻度活动，例如阅读、交谈、进食或值守。
+
+睡眠期间，你处于昏迷状态。
+
+完成一次长休后，你必须等待至少 16 小时，才能开始下一次长休。
+
+*休息收益。* 开始长休时，你必须至少拥有 1 点生命值。
+
+完成长休后，你获得以下收益：
+
+**恢复全部生命值。** 你恢复所有失去的生命值，并恢复所有已消耗的生命骰。
+
+如果你的生命值上限曾被降低，则恢复正常。
+
+**属性值恢复。** 如果你的任何属性值曾被降低，则恢复正常。
+
+**降低力竭。** 如果你处于力竭状态，则力竭等级降低 1。
+
+**特殊特性。** 某些特性会通过长休恢复。
+
+如果你拥有此类特性，则按特性说明恢复。
+
+*打断休息。* 以下情况会打断长休：
+
+- 掷先攻；
+- 施放戏法以外的法术；
+- 受到任何伤害；
+- 进行 1 小时步行或其他身体活动。
+
+如果你在休息被打断前已经休息至少 1 小时，则获得一次短休的收益。
+
+*另见*“短休”。
+
+长休被打断后，你可以立即继续长休。
+
+如果这么做，每发生一次打断，都需要额外增加 1 小时才能完成长休。
+
+#### 魔法［动作］（Magic [Action]）
+
+当你执行魔法动作时，你可以施放一个施法时间为一个动作的法术，或者使用需要通过魔法动作启动的特性或魔法物品。
+
+如果你施放一个施法时间为 1 分钟或更久的法术，则在整个施法期间的每个回合都必须执行魔法动作，并持续保持专注。
+
+如果专注被打断，法术失败，但你不会消耗法术位。
+
+*另见*“专注”。
+
+#### 魔法效果（Magical Effect）
+
+如果一个效果由法术、魔法物品，或被规则明确标注为魔法的现象产生，则该效果属于魔法效果。
+
+#### 营养不良［危害］（Malnutrition [Hazard]）
+
+一个生物每天需要的食物量取决于其体型，如“每日食物需求”表所示。
+
+如果一个生物某一天有进食，但吃到的食物少于所需量的一半，则必须成功通过 DC 10 体质豁免，否则在当天结束时获得 1 级力竭。
+
+如果生物连续 5 天完全没有进食，则在第 5 天结束时自动获得 1 级力竭，此后每继续一天不进食，在当天结束时再获得 1 级力竭。
+
+由营养不良造成的力竭，在该生物某一天吃足完整所需食物量之前无法被移除。
+
+*另见*“力竭”。
+
+**每日食物需求（Food Needs per Day）**
+
+| 体型 | 食物 | 体型 | 食物 |
+|---|---:|---|---:|
+| 微型 | 1/4 磅 | 大型 | 4 磅 |
+| 小型 | 1 磅 | 巨型 | 16 磅 |
+| 中型 | 1 磅 | 超巨型 | 64 磅 |
+
+#### 怪物（Monster）
+
+怪物是由 GM 控制的生物，即使该生物本性善良也是如此。
+
+*另见*“生物”和“非玩家角色”。
+
+#### 非玩家角色（Nonplayer Character）
+
+非玩家角色（Nonplayer Character，NPC）是拥有个人姓名和独特人格的怪物。
+
+*另见*“怪物”。
+
+#### 物体（Object）
+
+物体是一个没有生命、且彼此独立的事物。
+
+由多个部分组成的事物，例如建筑物，会包含多个物体。
+
+*另见*“破坏物体”。
+
+#### 已占据空间（Occupied Space）
+
+如果一个空间中存在一个生物，或者该空间被物体完全填满，则该空间属于已占据空间。
+
+#### 借机攻击（Opportunity Attacks）
+
+当一个你能看见的生物使用动作、附赠动作、反应或其任一种速度离开你的触及范围时，你可以发动借机攻击。
+
+要发动借机攻击，你使用反应，以武器或徒手打击对触发该攻击的生物进行一次近战攻击。
+
+该攻击发生在该生物即将离开你触及范围之前。
+
+*另见*“进行游戏”中的“战斗”。
+
+#### 麻痹［状态］（Paralyzed [Condition]）
+
+当你处于麻痹状态时，受到以下效果影响。
+
+*失能。* 你处于失能状态。
+
+*速度为 0。* 你的速度为 0，并且不能提高。
+
+*豁免受影响。* 你的力量和敏捷豁免自动失败。
+
+*攻击受影响。* 对你进行的攻击检定具有优势。
+
+*自动重击。* 如果攻击者位于你 5 尺内，则任何命中你的攻击检定都属于重击。
+
+#### 被动察觉（Passive Perception）
+
+被动察觉是反映生物对周围环境一般警觉程度的数值。
+
+GM 在判断生物是否会在没有主动进行感知（察觉）检定的情况下注意到某事时，会使用该数值。
+
+生物的被动察觉等于 10 + 该生物的感知（察觉）检定加值。
+
+如果生物进行此类检定时具有优势，则被动察觉增加 5。
+
+如果进行此类检定时具有劣势，则被动察觉减少 5。
+
+例如，一名 1 级角色拥有 15 感知，并熟练察觉技能，则其被动察觉为 14（10 + 2 + 2）。
+
+如果该角色的感知（察觉）检定具有优势，则被动察觉变为 19。
+
+#### 每日（Per Day）
+
+如果某条规则说明你每天可以使用某个能力一定次数，则意味着在用尽次数后，你必须完成一次长休才能再次使用它。
+
+#### 石化［状态］（Petrified [Condition]）
+
+当你处于石化状态时，受到以下效果影响。
+
+*转化为无生命物质。* 你连同所有穿戴和携带的非魔法物品，一并转化为坚固的无生命物质，通常是石头。
+
+你的重量变为原来的十倍，并停止衰老。
+
+*失能。* 你处于失能状态。
+
+*速度为 0。* 你的速度为 0，并且不能提高。
+
+*攻击受影响。* 对你进行的攻击检定具有优势。
+
+*豁免受影响。* 你的力量和敏捷豁免自动失败。
+
+*伤害抗性。* 你对所有伤害具有抗性。
+
+*免疫中毒。* 你免疫中毒状态。
+
+#### 玩家角色（Player Character）
+
+玩家角色是由玩家控制的角色。
+
+*另见*“角色创建”。
+
+#### 中毒［状态］（Poisoned [Condition]）
+
+当你处于中毒状态时，受到以下效果影响。
+
+*属性检定和攻击受影响。* 你的攻击检定和属性检定具有劣势。
+
+#### 附身（Possession）
+
+某些效果会导致一个生物被另一个生物或实体附身。
+
+附身效果会具体定义附身如何运作。
+
+*防护善恶（Protection from Evil and Good）*法术可以阻止附身，而*解除善恶（Dispel Evil and Good）*法术可以结束附身。
+
+#### 熟练（Proficiency）
+
+如果你对某项事物拥有熟练，则使用该事物进行任何 D20 检定时，可以加入你的熟练加值。
+
+生物可以熟练某项技能、某类豁免、某种武器或某件工具。
+
+*另见*“进行游戏”中的“熟练”。
+
+#### 倒地［状态］（Prone [Condition]）
+
+当你处于倒地状态时，受到以下效果影响。
+
+*移动受限。* 你唯一可以使用的移动方式是爬行，或者消耗等于你速度一半的移动力，向下取整，使自己站起并结束该状态。
+
+如果你的速度为 0，则无法自行站起。
+
+*攻击受影响。* 你的攻击检定具有劣势。
+
+如果攻击者位于你 5 尺内，则对你进行的攻击检定具有优势。
+
+否则，该攻击检定具有劣势。
+
+#### 触及（Reach）
+
+除非规则另有说明，否则一个生物的触及范围为 5 尺。
+
+#### 反应（Reaction）
+
+反应是一种特殊动作，用于响应该反应说明中定义的触发条件。
+
+你可以在其他生物的回合中执行反应。
+
+如果你在自己的回合中执行反应，即使同一回合还执行了动作、附赠动作或两者，也仍可以执行反应。
+
+一旦你执行一个反应，直到你的下一回合开始前，都不能再执行另一个反应。
+
+借机攻击是所有生物都可以使用的一种反应。
+
+*另见*“借机攻击”和“进行游戏”中的“动作”。
+
+#### 准备［动作］（Ready [Action]）
+
+你可以执行准备动作，等待某个特定情况发生后再行动。
+
+你在自己的回合执行此动作，从而允许你在下一回合开始前通过反应采取行动。
+
+首先，你决定什么可感知的情形会触发你的反应。
+
+然后，选择触发后要执行的动作，或者选择在触发后移动至多等于你速度的距离。
+
+例如：“如果邪教徒踩到暗门，我就拉动打开暗门的机关。”或者“如果僵尸走到我旁边，我就移动离开。”
+
+触发条件发生时，你可以在触发事件结束后立刻执行反应，也可以忽略该触发条件。
+
+当你准备一道法术时，你正常施放该法术并消耗施法所需的一切资源，但保留其能量，直到触发条件发生时通过反应释放。
+
+只有施法时间为一个动作的法术才能被准备。
+
+保持法术魔力需要专注，而你最多可以维持到自己的下一回合开始。
+
+如果专注被打断，法术消散且不会产生效果。
+
+#### 抗性（Resistance）
+
+如果你对某种伤害类型具有抗性，则你受到该类型的伤害减半，向下取整。
+
+一次伤害只应用一次抗性。
+
+*另见*“进行游戏”中的“伤害与治疗”。
+
+#### 束缚［状态］（Restrained [Condition]）
+
+当你处于束缚状态时，受到以下效果影响。
+
+*速度为 0。* 你的速度为 0，并且不能提高。
+
+*攻击受影响。* 对你进行的攻击检定具有优势，而你的攻击检定具有劣势。
+
+*豁免受影响。* 你的敏捷豁免具有劣势。
+
+#### 仪式（Ritual）
+
+如果你准备着一道拥有仪式标签的法术，则可以将该法术作为仪式施放。
+
+法术的仪式版本比正常施法时间多花 10 分钟。
+
+仪式施法也不会消耗法术位，因此法术的仪式版本无法以更高环阶施放。
+
+*另见*“法术”。
+
+#### 向下取整（Round Down）
+
+每当你在游戏中对数字进行除法或乘法，并得到分数时，都向下取整，即使小数部分等于或大于二分之一。
+
+某些规则会明确例外，并要求你向上取整。
+
+#### 豁免（Save）
+
+“豁免（Save）”是“豁免检定（Saving Throw）”的另一种称呼。
+
+*另见*“豁免检定”。
+
+#### 豁免检定（Saving Throw）
+
+豁免检定——也称豁免——代表试图避开或抵抗某种威胁。
+
+通常只有当规则要求时你才会进行豁免，但你可以选择不掷骰，直接判定豁免失败。
+
+豁免结果的具体效果由要求该豁免的效果说明决定。
+
+如果某个目标被迫进行豁免，却没有该豁免所使用的属性值，则该目标自动失败。
+
+*另见*“进行游戏”中的“D20 检定”。
+
+#### 搜寻［动作］（Search [Action]）
+
+执行搜寻动作时，你进行一次感知检定，以辨别并不明显的事物。
+
+“搜寻”表根据你试图侦测的对象，给出了执行该动作时适用的技能建议。
+
+**搜寻（Search）**
+
+| 技能 | 侦测内容 |
+|---|---|
+| 洞悉（Insight） | 生物的心理状态 |
+| 医药（Medicine） | 生物的疾病或死因 |
+| 察觉（Perception） | 隐藏的生物或物体 |
+| 求生（Survival） | 足迹或食物 |
+
+#### 变形（Shape-Shifting）
+
+如果某项效果——例如荒野变形（Wild Shape）或*变形术（Polymorph）*——允许你改变形态，其说明会具体说明发生什么。
+
+除非说明另有规定，你身上正在持续的任何效果——状态、法术、诅咒等——都会从一种形态延续到另一种形态。
+
+如果你死亡，则恢复真实形态。
+
+#### 短休（Short Rest）
+
+短休是一段持续 1 小时的休整。
+
+在此期间，生物不能进行比阅读、交谈、进食或值守更剧烈的活动。
+
+要开始短休，你必须至少拥有 1 点生命值。
+
+*休息收益。* 完成短休时，你获得以下收益：
+
+**消耗生命骰。** 你可以消耗一个或多个生命骰恢复生命值。
+
+每消耗一个生命骰，掷该骰并加入你的体质调整值。
+
+你恢复等于总结果的生命值，最低恢复 1 点生命值。
+
+每次掷骰后，你可以决定是否继续消耗另一个生命骰。
+
+**特殊特性。** 某些特性会通过短休恢复。
+
+如果你拥有此类特性，则按特性说明恢复。
+
+*打断休息。* 以下情况会打断短休：
+
+- 掷先攻；
+- 施放戏法以外的法术；
+- 受到任何伤害。
+
+被打断的短休不会提供任何收益。
+
+#### 同时发生的效果（Simultaneous Effects）
+
+如果两个或更多事件在同一个回合中的同一时间发生，则当前轮到谁行动——玩家或 GM——就由谁决定这些事件发生的顺序。
+
+例如，如果两个效果同时在一名玩家角色的回合开始时触发，则由该玩家决定哪一个效果先发生。
+
+#### 体型（Size）
+
+生物或物体属于以下某个体型类别：微型、小型、中型、大型、巨型或超巨型。
+
+生物的体型决定其在战斗中占据多大空间。
+
+物体的体型会影响其生命值。
+
+*另见*“破坏物体”和“进行游戏”中的“战斗”。
+
+#### 技能（Skill）
+
+技能是与属性检定相关联的专门领域。
+
+如果你熟练某项技能，则在进行与该技能相关的属性检定时，可以加入熟练加值。
+
+*另见*“进行游戏”中的“熟练”。
+
+#### 速度（Speed）
+
+一个生物拥有速度，该数值表示该生物在自己的回合中移动时，可以移动多少尺。
+
+*另见*“攀爬”“爬行”“飞行”“跳跃”“游泳”和“进行游戏”中的“战斗”。
+
+*特殊速度。* 某些生物拥有特殊速度，例如掘地速度、攀爬速度、飞行速度或游泳速度；这些都在本术语表中定义。
+
+如果你拥有多种速度，则移动时选择使用其中一种；你也可以在一次移动过程中切换不同速度。
+
+每次切换时，从新速度中减去已经移动的距离。
+
+所得结果决定你还能继续移动多远。
+
+如果结果为 0 或更低，则在当前这次移动中不能使用新的速度。
+
+例如，如果你拥有 30 尺速度和 40 尺飞行速度，则可以先飞行 10 尺，再步行 10 尺，随后跃入空中继续飞行 20 尺。
+
+*速度变化。* 如果某个效果在一段时间内提高或降低你的普通速度，则你拥有的所有特殊速度在相同持续时间内也增加或减少相同数值。
+
+例如，如果你的普通速度降为 0，而你拥有攀爬速度，则攀爬速度也降为 0。
+
+同样，如果你的速度减半，而你拥有飞行速度，则飞行速度也减半。
+
+#### 法术（Spell）
+
+法术是一种具有“法术”章节中所描述特征的魔法效果。
+
+#### 法术攻击（Spell Attack）
+
+法术攻击是作为法术或其他魔法效果一部分进行的攻击检定。
+
+*另见*“法术”中的“施放法术”。
+
+#### 施法法器（Spellcasting Focus）
+
+施法法器是一件某些生物能够用于替代法术材料成分的物品，前提是这些材料不会被法术消耗，而且没有注明价格。
+
+某些职业允许其成员使用特定类型的施法法器。
+
+*另见*“法术”中的“施放法术”。
+
+#### 球状［效果区域］（Sphere [Area of Effect]）
+
+球状区域从一个起源点沿所有方向的直线向外延伸。
+
+创造球状区域的效果会以球体半径的形式指定其延伸距离。
+
+球状区域的起源点包含在该效果区域中。
+
+#### 稳定（Stable）
+
+如果一个生物生命值为 0，但不需要进行死亡豁免，则该生物处于稳定状态。
+
+*另见*“进行游戏”中的“伤害与治疗”。
+
+#### 数据栏（Stat Block）
+
+数据栏包含一个怪物的游戏数据。
+
+每个数据栏都会在怪物名称后列出以下信息。
+
+*体型。* 怪物属于微型、小型、中型、大型、巨型或超巨型。
+
+*另见*“体型”。
+
+*生物类型。* 该条目注明怪物所属的生物类别，以及任何描述性标签。
+
+*另见*“生物类型”。
+
+*阵营。* 数据栏会为怪物提供一个建议阵营，但实际阵营由 GM 决定。
+
+*另见*“阵营”。
+
+*AC、先攻与 HP。* 这些条目分别给出怪物的护甲等级、先攻和生命值，具体见“进行游戏”。
+
+生命值后的括号中会列出怪物的生命骰，以及其体质对生命值的贡献——如果有。
+
+先攻调整值后会列出先攻值。
+
+某些由魔法创造的生物没有生命骰和先攻信息。
+
+*速度。* 此处列出怪物的普通速度，以及任何特殊速度。
+
+*另见*“掘地速度”“攀爬速度”“飞行速度”和“游泳速度”。
+
+*属性值。* 一张表会列出怪物的属性值、属性调整值以及豁免调整值，这些内容都在“进行游戏”中说明。
+
+*技能。* 此条目列出怪物拥有的技能熟练，如果有。
+
+*另见*“进行游戏”中的“熟练”。
+
+*抗性与易伤。* 这些条目列出怪物拥有的抗性与易伤，如果有。
+
+*另见*“抗性”和“易伤”。
+
+*免疫。* 此部分列出怪物对伤害和状态拥有的免疫，如果有。
+
+*另见*“免疫”。
+
+*装备。* 如果怪物拥有任何能够被交出或获取的装备，会列在此处。
+
+*感官。* 此条目列出怪物的特殊感官，例如黑暗视觉，以及其被动察觉。
+
+*另见*“被动察觉”。
+
+*语言。* 此条目列出怪物掌握的语言。
+
+*CR。* 挑战等级概括怪物构成的威胁，并在“怪物”章节中详细说明。
+
+击败怪物后角色获得的经验值以及怪物的熟练加值，也会列在此处。
+
+某些由魔法创造的生物没有 CR。
+
+*另见*“挑战等级”和“经验值”。
+
+*特质。* 如果怪物拥有特质，这些特质通常会始终生效，或在特定情形下生效。
+
+*动作。* 除了本术语表中定义的动作外，怪物还可以执行列在此处的动作。
+
+*另见*“进行游戏”中的“动作”。
+
+*附赠动作。* 如果怪物拥有附赠动作选项，则列在此部分。
+
+*反应。* 如果怪物能够使用特殊反应，则列在此部分。
+
+*攻击记法。* 怪物攻击条目开头会标明该攻击属于近战还是远程攻击，然后列出攻击检定加值、触及或射程，以及命中后的效果。
+
+除非攻击条目另有说明，否则一次攻击只针对一个目标。
+
+*豁免效果记法。* 如果某个效果强迫进行豁免，其条目开头会标明所需豁免类型，然后给出豁免 DC、哪些生物必须进行该豁免，以及豁免失败或成功时分别发生什么。
+
+*伤害记法。* 数据栏通常会为每次伤害同时提供一个固定数字和一个骰子表达式。
+
+例如，一次攻击命中后可能造成 4（1d4 + 2）点伤害。
+
+由 GM 决定使用固定数字还是括号内的骰子表达式；两者不能同时使用。
+
+#### 研究［动作］（Study [Action]）
+
+执行研究动作时，你进行一次智力检定，通过回想记忆、研究书籍、线索或其他知识来源，回忆起与其有关的重要信息。
+
+“知识领域”表给出了各种知识领域适用技能的建议。
+
+**知识领域（Areas of Knowledge）**
+
+| 技能 | 领域 |
+|---|---|
+| 奥秘（Arcana） | 法术、魔法物品、邪术符号、魔法传统、存在位面，以及某些生物：异怪、构装体、元素、妖精和怪兽 |
+| 历史（History） | 历史事件和人物、古代文明、战争，以及某些生物：巨人和类人生物 |
+| 调查（Investigation） | 陷阱、密码、谜题和机关装置 |
+| 自然（Nature） | 地形、植物、天气，以及某些生物：野兽、龙、软泥怪和植物 |
+| 宗教（Religion） | 神祇、宗教阶层和仪式、圣徽、邪教，以及某些生物：天界生物、邪魔和亡灵 |
+
+#### 震慑［状态］（Stunned [Condition]）
+
+当你处于震慑状态时，受到以下效果影响。
+
+*失能。* 你处于失能状态。
+
+*豁免受影响。* 你的力量和敏捷豁免自动失败。
+
+*攻击受影响。* 对你进行的攻击检定具有优势。
+
+#### 窒息［危害］（Suffocation [Hazard]）
+
+一个生物可以屏住呼吸的分钟数等于 1 + 其体质调整值，最低 30 秒，之后开始窒息。
+
+当生物耗尽空气或正在被扼住呼吸时，在其每个回合结束时获得 1 级力竭。
+
+当生物重新能够呼吸后，会移除所有因窒息而获得的力竭等级。
+
+#### 突袭（Surprise）
+
+如果一个生物在战斗开始时措手不及，则该生物受到突袭影响，使其先攻检定具有劣势。
+
+*另见*“进行游戏”中的“战斗”。
+
+#### 游泳（Swimming）
+
+游泳时，每移动 1 尺额外消耗 1 尺移动力；如果处于困难地形，则额外消耗 2 尺。
+
+如果你拥有游泳速度并使用该速度游泳，则忽略这种额外消耗。
+
+由 GM 决定，在汹涌水域中移动任意距离可能需要成功通过 DC 15 力量（运动）检定。
+
+### 游泳速度（Swim Speed）
+
+游泳速度可以用于游泳，而无需支付通常由游泳产生的额外移动消耗。
+
+*另见*“游泳”和“速度”。
+
+#### 目标（Target）
+
+目标是满足以下任一情况的生物或物体：
+
+- 被攻击检定指定；
+- 被某个效果强迫进行豁免；
+- 被选择承受某个法术或其他现象的效果。
+
+#### 心灵感应（Telepathy）
+
+心灵感应是一种魔法能力，使一个生物能够与指定范围内的另一个生物进行精神交流。
+
+除非规则另有说明，被联系的生物无需与心灵感应者共享语言，也可以理解交流内容。
+
+不过，被联系的生物必须至少能够理解一种语言，或者自身也拥有心灵感应能力，才能理解这种交流。
+
+心灵感应者无需看见被联系的生物，而且可以随时开始或结束心灵感应联系，无需动作。
+
+如果心灵感应者或另一生物处于失能状态，则无法建立心灵感应联系，而且现有联系会立刻中断。
+
+如果被联系的生物离开心灵感应范围，或者心灵感应者联系范围内的另一个生物，联系也会中断。
+
+没有心灵感应能力的生物可以接收心灵信息，但无法主动发起心灵对话。
+
+一旦心灵对话开始，非心灵感应者也可以用精神方式回应心灵感应者，直到联系结束。
+
+#### 传送（Teleportation）
+
+传送是一种特殊的魔法移动方式。
+
+如果你进行传送，你会立刻从当前位置消失，并在另一个位置出现，而不会穿过两点之间的空间。
+
+除非规则另有说明，这种移动不会消耗移动力，而且传送永远不会触发借机攻击。
+
+传送时，你穿戴和携带的所有装备都会与你一起传送。
+
+如果你传送时正触碰另一个生物，除非传送效果另有说明，否则该生物不会与你一起传送。
+
+如果传送目的地空间被另一个生物占据，或被坚固障碍物阻挡，则你改为出现在距离目标位置最近、由你选择的未占据空间中。
+
+传送效果的说明会注明你是否必须看见传送目的地。
+
+#### 临时生命值（Temporary Hit Points）
+
+临时生命值由某些效果给予，并作为缓冲，帮助你避免失去真正的生命值。
+
+*另见*“进行游戏”中的“伤害与治疗”。
+
+#### 震颤感知（Tremorsense）
+
+拥有震颤感知的生物可以准确定位指定范围内的生物和移动物体，前提是拥有震颤感知的生物和被侦测目标都与同一个表面——例如地面、墙壁或天花板——或同一种液体保持接触。
+
+震颤感知无法侦测空中的生物或物体，而且不属于视觉。
+
+#### 真实视觉（Truesight）
+
+如果你拥有真实视觉，则在指定范围内，你的视觉获得强化。
+
+在该范围内，你的视觉可以穿透以下事物：
+
+**黑暗。** 你可以在普通黑暗和魔法黑暗中正常看见。
+
+**隐形。** 你可以看见处于隐形状态的生物和物体。
+
+**视觉幻象。** 视觉幻象在你看来是半透明的，而且你对抗这些幻象的豁免自动成功。
+
+**变形。** 你能够辨认任何因魔法而改变形态的生物或物体的真实形态。
+
+**以太位面（Ethereal Plane）。** 你可以看见以太位面。
+
+#### 徒手打击（Unarmed Strike）
+
+你可以不使用武器进行近战攻击，而是使用拳击、踢击、头槌或类似的强力打击。
+
+在游戏术语中，这称为徒手打击——一种近战攻击，你使用自己的身体伤害、擒抱或推撞你 5 尺内的目标。
+
+每次使用徒手打击时，选择以下一种效果。
+
+*伤害。* 你对目标进行一次攻击检定。
+
+攻击加值等于你的力量调整值 + 熟练加值。
+
+命中时，目标受到等于 1 + 你的力量调整值的钝击伤害。
+
+*擒抱。* 目标必须成功通过一次力量或敏捷豁免，由其自行选择，否则陷入擒抱状态。
+
+豁免以及任何逃脱尝试的 DC 等于 8 + 你的力量调整值 + 熟练加值。
+
+只有当目标最多比你大一个体型等级，并且你有一只空手可用于抓住目标时，才能使用这种擒抱。
+
+*另见*“擒抱”。
+
+*推撞。* 目标必须成功通过一次力量或敏捷豁免，由其自行选择，否则你可以选择将其推离你 5 尺，或者使其陷入倒地状态。
+
+豁免 DC 等于 8 + 你的力量调整值 + 熟练加值。
+
+只有当目标最多比你大一个体型等级时，才能使用这种推撞。
+
+#### 昏迷［状态］（Unconscious [Condition]）
+
+当你处于昏迷状态时，受到以下效果影响。
+
+*无法行动。* 你同时处于失能和倒地状态，并掉落所有正在持握的物品。
+
+当昏迷状态结束时，你仍然保持倒地状态。
+
+*速度为 0。* 你的速度为 0，并且不能提高。
+
+*攻击受影响。* 对你进行的攻击检定具有优势。
+
+*豁免受影响。* 你的力量和敏捷豁免自动失败。
+
+*自动重击。* 如果攻击者位于你 5 尺内，则任何命中你的攻击检定都属于重击。
+
+*毫无意识。* 你无法感知周围环境。
+
+#### 未占据空间（Unoccupied Space）
+
+如果一个空间中没有生物，并且也没有被物体完全填满，则该空间属于未占据空间。
+
+#### 使用［动作］（Utilize [Action]）
+
+你通常可以在进行其他事情时顺便与物体互动，例如作为攻击动作的一部分拔出一把剑。
+
+如果某个物体的使用要求一个动作，则你执行使用动作。
+
+#### 易伤（Vulnerability）
+
+如果你对某种伤害类型具有易伤，则你受到该类型的伤害翻倍。
+
+一次伤害只应用一次易伤。
+
+*另见*“进行游戏”中的“伤害与治疗”。
+
+#### 武器（Weapon）
+
+武器是属于简易武器或军用武器类别的物体。
+
+*另见*“装备”中的“武器”。
+
+#### 武器攻击（Weapon Attack）
+
+武器攻击是使用武器进行的攻击检定。
+
+*另见*“武器”。

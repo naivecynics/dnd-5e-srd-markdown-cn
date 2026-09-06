@@ -1,1007 +1,1069 @@
-# Gameplay Toolbox
-
-## Travel Pace
-
-A group of characters can travel overland at a Normal, Fast, or Slow pace, as described in "Playing the Game." During any journey stage, the predominant terrain determines the characters' maximum travel pace, as shown in the Maximum Pace column of the Travel Terrain table. Certain factors can affect a group's travel pace.
-
-### Good Roads
-
-The presence of a good road increases the group's maximum pace by one step (from Slow to Normal or from Normal to Fast).
-
-### Slower Travelers
-
-The group must move at a Slow pace if any group member's Speed is reduced to half or less of normal.
-
-### Extended Travel
-
-Characters can push themselves to travel for more than 8 hours per day, at the risk of tiring. At the end of each additional hour of travel beyond 8 hours, each character must succeed on a Constitution saving throw or gain 1 Exhaustion level. The DC is 10 plus 1 for each hour past 8 hours.
-
-### Special Movement
-
-If a party can travel at a high Speed for an extended time, as with a spell such as _Wind Walk_ or a magic item such as a _Carpet of Flying_, translate the party's Speed into travel rates using these rules:
-
-**Miles per hour** = Speed ÷ 10
-**Miles per day** (Normal pace) = Miles per hour × number of hours traveled (typically 8)
-**Fast pace** = Miles per day × 1⅓ (round down)
-**Slow pace** = Miles per day × 2/3 (round down)
-
-If the characters are flying or their special movement allows them to ignore Difficult Terrain, they can move at a Fast pace regardless of the terrain.
-
-### Vehicles
-
-Characters traveling in a vehicle use the vehicle's speed in miles per hour (as shown in "Equipment") to determine their rate of travel, and they don't choose a travel pace.
-
-**Travel Terrain**
-
-<table>
-  <thead>
-    <tr>
-      <th>Terrain</th>
-      <th>Maximum Pace</th>
-      <th>Encounter Distance</th>
-      <th>Foraging DC</th>
-      <th>Navigation DC</th>
-      <th>Search DC</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Arctic</td>
-      <td>Fast*</td>
-      <td>6d6 × 10 feet</td>
-      <td>20</td>
-      <td>10</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>Coastal</td>
-      <td>Normal</td>
-      <td>2d10 × 10 feet</td>
-      <td>10</td>
-      <td>5</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>Desert</td>
-      <td>Normal</td>
-      <td>6d6 × 10 feet</td>
-      <td>20</td>
-      <td>10</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>Forest</td>
-      <td>Normal</td>
-      <td>2d8 × 10 feet</td>
-      <td>10</td>
-      <td>15</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>Grassland</td>
-      <td>Fast</td>
-      <td>6d6 × 10 feet</td>
-      <td>15</td>
-      <td>5</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>Hill</td>
-      <td>Normal</td>
-      <td>2d10 × 10 feet</td>
-      <td>15</td>
-      <td>10</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>Mountain</td>
-      <td>Slow</td>
-      <td>4d10 × 10 feet</td>
-      <td>20</td>
-      <td>15</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <td>Swamp</td>
-      <td>Slow</td>
-      <td>2d8 × 10 feet</td>
-      <td>10</td>
-      <td>15</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <td>Underdark</td>
-      <td>Normal</td>
-      <td>2d6 × 10 feet</td>
-      <td>20</td>
-      <td>10</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <td>Urban</td>
-      <td>Normal</td>
-      <td>2d6 × 10 feet</td>
-      <td>20</td>
-      <td>15</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>Waterborne</td>
-      <td>Special†</td>
-      <td>6d6 × 10 feet</td>
-      <td>15</td>
-      <td>10</td>
-      <td>15</td>
-    </tr>
-  </tbody>
-</table>
+# 游戏工具箱（Gameplay Toolbox）
 
-\*Appropriate equipment (such as skis) is necessary to keep up a Fast pace in Arctic terrain.
-†Characters' rate of travel while waterborne depends on the vehicle carrying them; see "Vehicles."
+## 旅行步调（Travel Pace）
 
-## Creating a Background
+一组角色可以按照“进行游戏”中的说明，以正常、快速或缓慢步调进行陆上旅行。在旅程的任何阶段，主要地形会决定角色能够采用的最高旅行步调，如“旅行地形”表的“最高步调”栏所示。某些因素会影响队伍的旅行步调。
 
-A character's background represents what the character did prior to becoming an adventurer. Creating a unique background or customizing an existing one can reflect the particular theme of your campaign or elements of your world. You can also create a background to help a player craft the story they have in mind for their character.
+### 良好道路（Good Roads）
 
-This section describes, step by step, how you can create backgrounds tailored for your world and the heroes in it.
+如果存在良好的道路，队伍的最高步调提高一级（从缓慢提高至正常，或从正常提高至快速）。
 
-### 1: Choose Abilities
+### 较慢的旅行者（Slower Travelers）
 
-Choose three abilities that seem appropriate for the background:
+如果队伍中任何成员的速度被降低至正常速度的一半或更低，则整个队伍必须以缓慢步调移动。
 
-**Strength or Dexterity.** These abilities are ideal for a background involving physical exertion.
-**Constitution.** This ability is ideal for a background that involves endurance or long hours of activity.
-**Intelligence or Wisdom.** One or both abilities are ideal for a background that focuses on cerebral or spiritual matters.
-**Charisma.** This ability is ideal for a background that involves performance or social interaction.
+### 延长旅行（Extended Travel）
 
-### 2: Choose a Feat
+角色可以冒着疲劳的风险，每天旅行超过 8 小时。
 
-Choose one feat from the Origin category. See "Origin Feats" for examples of Origin feats.
+从超过 8 小时后的每一个额外旅行小时结束时开始，每个角色都必须成功通过一次体质豁免，否则获得 1 级力竭。
 
-### 3: Choose Skill Proficiencies
+DC 为 10，并且每超过 8 小时 1 小时，DC 再提高 1。
 
-Choose two skills appropriate for the background. There needn't be a relationship between the skill proficiencies a background grants and the ability scores it increases.
+### 特殊移动（Special Movement）
 
-### 4: Choose a Tool Proficiency
+如果队伍能够长时间以较高速度旅行，例如通过*御风而行（Wind Walk）*法术或*飞毯（Carpet of Flying）*之类的魔法物品，可以按照以下规则将队伍的速度换算为旅行速率：
 
-Choose one tool used in the practice of the background or often associated with it.
+**每小时英里数** = 速度 ÷ 10  
+**每日英里数**（正常步调）= 每小时英里数 × 旅行小时数（通常为 8）  
+**快速步调** = 每日英里数 × 1⅓（向下取整）  
+**缓慢步调** = 每日英里数 × 2/3（向下取整）
 
-### 5: Choose Equipment
+如果角色正在飞行，或者其特殊移动方式允许他们忽略困难地形，则无论地形如何，都可以采用快速步调。
 
-Assemble a package of equipment worth 50 GP (including unspent gold). Don't include Martial weapons or armor, as characters get them from their class choices.
+### 载具（Vehicles）
 
-## Curses and Magical Contagions
+乘坐载具旅行的角色使用载具的每小时英里速度（见“装备”）决定其旅行速率，并且不能选择旅行步调。
 
-A curse is a magical burden that lasts for a specified time or until it is ended by some means. A magical contagion is an adverse effect of magical origin that is contagious by definition.
+**旅行地形（Travel Terrain）**
 
-The following sections discuss curses and magical contagions in detail.
+| 地形 | 最高步调 | 遭遇距离 | 觅食 DC | 导航 DC | 搜寻 DC |
+|---|---|---|---:|---:|---:|
+| 极地（Arctic） | 快速* | 6d6 × 10 尺 | 20 | 10 | 10 |
+| 海岸（Coastal） | 正常 | 2d10 × 10 尺 | 10 | 5 | 15 |
+| 沙漠（Desert） | 正常 | 6d6 × 10 尺 | 20 | 10 | 10 |
+| 森林（Forest） | 正常 | 2d8 × 10 尺 | 10 | 15 | 15 |
+| 草原（Grassland） | 快速 | 6d6 × 10 尺 | 15 | 5 | 15 |
+| 丘陵（Hill） | 正常 | 2d10 × 10 尺 | 15 | 10 | 15 |
+| 山地（Mountain） | 缓慢 | 4d10 × 10 尺 | 20 | 15 | 20 |
+| 沼泽（Swamp） | 缓慢 | 2d8 × 10 尺 | 10 | 15 | 20 |
+| 幽暗地域（Underdark） | 正常 | 2d6 × 10 尺 | 20 | 10 | 20 |
+| 城市（Urban） | 正常 | 2d6 × 10 尺 | 20 | 15 | 15 |
+| 水上（Waterborne） | 特殊† | 6d6 × 10 尺 | 15 | 10 | 15 |
 
-### Curses
+\* 在极地地形中保持快速步调需要合适的装备，例如滑雪板。  
+† 角色进行水上旅行时的速率取决于其乘坐的载具；见“载具”。
 
-A curse typically takes one of the forms detailed below.
+## 创建背景（Creating a Background）
 
-#### Bestow Curse
+角色背景代表该角色成为冒险者之前所从事的事情。
 
-The simplest curses are created by the _Bestow Curse_ spell. The effects of such curses are limited and can be ended by the _Remove Curse_ spell.
+创建一个独特背景，或自定义现有背景，可以反映你的战役主题或世界中的特定元素。你也可以创建一个背景，帮助玩家塑造他们心目中的角色故事。
 
-_Bestow Curse_ provides useful benchmarks for gauging the potency of other curses. A curse that lasts for 1 minute equates to a level 3 spell, while one that lasts until dispelled equates to a level 9 spell.
+本节将逐步说明如何为你的世界以及其中的英雄创建量身定制的背景。
 
-#### Cursed Creatures
+### 1：选择属性（Choose Abilities）
 
-Some monsters are associated with curses, whether as part of their origins or due to their ability to spread curses—werewolves being a prime example.
+选择三项适合该背景的属性：
 
-You decide how a spell like _Remove Curse_ affects a creature with accursed origins. For example, you might decide that a mummy was created through a curse and it can be destroyed permanently only by casting _Remove Curse_ on its corpse.
+**力量或敏捷。** 这些属性非常适合涉及体力活动的背景。
 
-#### Cursed Magic Items
+**体质。** 该属性非常适合涉及耐力或长时间活动的背景。
 
-Cursed magic items are created deliberately or originate as the result of supernatural events. Such items are detailed in "Magic Items."
+**智力或感知。** 其中一项或两项都非常适合专注于脑力或精神事务的背景。
 
-#### Narrative Curses
+**魅力。** 该属性非常适合涉及表演或社交互动的背景。
 
-A curse might manifest during an adventure when a creature's violation of a taboo warrants supernatural punishment, such as breaking a vow, defiling a tomb, or murdering an innocent. Such a curse can have any effects you design, or it might be a customized version of another type of curse discussed in this section.
+### 2：选择专长（Choose a Feat）
 
-A creature affected by such a curse should know why they're being punished and be able to learn how to end their curse, likely by symbolically righting the wrong they committed. How a spell like _Remove Curse_ affects a curse that's part of your adventure is up to you—the spell might merely suppress the effects of the curse for a time. Regardless, narrative curses should feel like rare, potent magic rooted in the lore of your campaign.
+从起源类别中选择一项专长。
 
-#### Environmental Curses
+起源专长示例见“起源专长”。
 
-Some locations are so suffused with evil that anyone who lingers there is burdened with a curse. Demonic Possession is one example of an environmental curse.
+### 3：选择技能熟练（Choose Skill Proficiencies）
 
-_Demonic Possession._ Demonic Possession arises from the chaos and evil of the Abyss and commonly besets creatures that interact with demonic objects or linger in desecrated locations, where demonic spirits await victims.
+选择两项适合该背景的技能。
 
-A creature that becomes the target of Demonic Possession must succeed on a DC 15 Charisma saving throw or be possessed by a bodiless demonic entity. Whenever the possessed creature rolls a 1 on a D20 Test, the demonic entity takes control of the creature and determines the creature's behavior thereafter. At the end of each of the possessed creature's later turns, the creature makes a DC 15 Charisma saving throw, regaining control of itself on a success.
+背景给予的技能熟练与其提高的属性值之间不必存在关联。
 
-After finishing a Long Rest, a creature with Demonic Possession makes a DC 15 Charisma saving throw. On a successful save, the effect ends on the creature. A _Dispel Evil and Good_ spell or any magic that removes a curse also ends the effect on it.
+### 4：选择工具熟练（Choose a Tool Proficiency）
 
-### Magical Contagions
+选择一种在该背景所涉及的实践活动中使用，或经常与该背景相关联的工具。
 
-Alchemists, potion brewers, and areas of wild magic are credited with creating the first magical contagions. An outbreak of such a contagion can form the basis of an adventure as characters search for a cure and try to stop the contagion's spread.
+### 5：选择装备（Choose Equipment）
 
-#### Rest and Recuperation
+组合一套总价值为 50 GP 的装备，其中包括未花费的金币。
 
-If a creature infected with a magical contagion spends 3 days recuperating—engaging in no activities that would interrupt a Long Rest—the creature makes a DC 15 Constitution saving throw at the end of the recuperation period. On a successful save, the creature has Advantage on saving throws to fight off the magical contagion for the next 24 hours.
+不要包含军用武器或护甲，因为角色会从职业选择中获得这些装备。
 
-#### Example Contagions
+## 诅咒与魔法传染病（Curses and Magical Contagions）
 
-The following examples show how magical contagions can work. Feel free to alter the saving throw DCs, effects, and other characteristics of these contagions to suit your campaign.
+诅咒是一种魔法负担，会持续指定时间，或直到通过某种方式结束。
 
-#### Cackle Fever
+魔法传染病是一种源自魔法、并且按定义具有传染性的有害效果。
 
-_Magical Contagion_
+以下各节详细讨论诅咒与魔法传染病。
 
-Cheaply made potions and elixirs are sometimes tainted by Cackle Fever, which affects Humanoids only (gnomes are strangely immune). A creature suffers the following effects 1d4 days after infection:
+### 诅咒（Curses）
 
-**Fever.** The creature gains 1 Exhaustion level, which lasts until the contagion ends on the creature.
+诅咒通常会采用下列形式之一。
 
-**Uncontrollable Laughter.** While the creature has the Exhaustion condition, the creature makes a DC 13 Constitution saving throw each time it takes damage other than Psychic damage. On a failed save, the creature takes 5 (1d10) Psychic damage and has the Incapacitated condition as it laughs uncontrollably. At the end of each of its turns, the creature repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.
+#### 降咒术（Bestow Curse）
 
-_Fighting the Contagion._ At the end of each Long Rest, an infected creature makes a DC 13 Constitution saving throw. After the creature succeeds on three of these saves, the contagion ends on it, and the creature is immune to Cackle Fever for 1 year.
+最简单的诅咒由*降咒术（Bestow Curse）*创造。
 
-_Spreading the Contagion._ Any Humanoid (other than a gnome) that starts its turn within a 10-foot Emanation originating from a creature infected with Cackle Fever must succeed on a DC 10 Constitution saving throw or also become infected with the contagion. On a successful save, the Humanoid can't catch the contagion from that particular infected creature for the next 24 hours.
+这类诅咒的效果有限，并可以通过*移除诅咒（Remove Curse）*结束。
 
-#### Sewer Plague
+*降咒术*为衡量其他诅咒的强度提供了实用基准。
 
-_Magical Contagion_
+持续 1 分钟的诅咒大致相当于一道 3 环法术，而持续至被解除的诅咒则大致相当于一道 9 环法术。
 
-Fouled potions and alchemical waste can give rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal must succeed on a DC 11 Constitution saving throw or become infected with Sewer Plague. A creature suffers the following effects 1d4 days after infection:
+#### 受诅咒的生物（Cursed Creatures）
 
-**Fatigue.** The creature gains 1 Exhaustion level.
+某些怪物与诅咒有关，这可能源于其起源，也可能源于它们传播诅咒的能力——狼人就是典型例子。
 
-**Weakness.** While the creature has any Exhaustion levels, it regains only half the normal number of Hit Points from spending Hit Point Dice.
+由你决定像*移除诅咒*这样的法术如何影响一个拥有受诅咒起源的生物。
 
-**Restlessness.** While the creature has any Exhaustion levels, finishing a Long Rest neither restores lost Hit Points nor reduces the creature's Exhaustion level.
+例如，你可能裁定木乃伊是通过诅咒创造的，因此只有对其尸体施放*移除诅咒*，才能将其永久摧毁。
 
-_Fighting the Contagion._ Daily at dawn, an infected creature makes a DC 11 Constitution saving throw. On a failed save, the creature gains 1 Exhaustion level as its fatigue worsens. On a successful save, the creature's Exhaustion level decreases by 1. If the creature's Exhaustion level is reduced to 0, the contagion ends on the creature.
+#### 受诅咒的魔法物品（Cursed Magic Items）
 
-#### Sight Rot
+受诅咒的魔法物品可能是被有意制造出来的，也可能源于超自然事件。
 
-_Magical Contagion_
+这类物品详见“魔法物品”。
 
-Any Beast or Humanoid that drinks water tainted by Sight Rot must succeed on a DC 15 Constitution saving throw or have the Blinded condition until the contagion ends.
+#### 叙事诅咒（Narrative Curses）
 
-_Fighting the Contagion._ Magic such as a _Heal_ or _Lesser Restoration_ spell ends the contagion immediately. A character who is proficient with an Herbalism Kit can use it to create one dose of nonmagical ointment, which takes 1 hour. When applied to the eyes of a creature suffering from Sight Rot, the ointment suppresses the contagion on that creature for 24 hours. If the contagion is suppressed in this way for a total of 72 hours (requiring three doses and applications of the ointment), the contagion ends on the creature.
+在冒险过程中，如果一个生物违反禁忌而理应受到超自然惩罚，例如违背誓言、亵渎墓穴或谋杀无辜者，诅咒可能因此显现。
 
-_Spreading the Contagion._ Any Humanoid that makes skin contact with a creature infected with Sight Rot must succeed on a DC 15 Constitution saving throw or also become infected with the contagion. On a successful save, the Humanoid can't catch the contagion from that particular infected creature for the next 24 hours.
+这种诅咒可以拥有任何由你设计的效果，也可以是本节所述其他类型诅咒的定制版本。
 
-## Environmental Effects
+受到这种诅咒影响的生物应该知道自己为何受罚，并且能够了解到如何结束诅咒——通常需要以象征性的方式弥补自己犯下的过错。
 
-### Deep Water
+像*移除诅咒*这样的法术如何影响作为你冒险组成部分的诅咒，由你决定；该法术可能仅仅暂时压制诅咒的效果。
 
-Swimming through deep water (more than 100 feet deep) presents additional challenges because of the water's pressure and cold temperature. After each hour of swimming in deep water, a creature that lacks a Swim Speed must succeed on a DC 10 Constitution saving throw or gain 1 Exhaustion level.
+无论如何，叙事诅咒应当给人一种稀有而强大的魔法之感，并扎根于你的战役设定与传说。
 
-### Extreme Cold
+#### 环境诅咒（Environmental Curses）
 
-When the temperature is 0 degrees Fahrenheit or lower, a creature exposed to the extreme cold must succeed on a DC 10 Constitution saving throw at the end of each hour or gain 1 Exhaustion level. Creatures that have Resistance or Immunity to Cold damage automatically succeed on the save.
+某些地点充斥着如此强烈的邪恶，以至于任何在那里停留的人都会承受诅咒。
 
-### Extreme Heat
+恶魔附身（Demonic Possession）就是环境诅咒的一种示例。
 
-When the temperature is 100 degrees Fahrenheit or higher, a creature exposed to the extreme heat and without access to drinkable water must succeed on a Constitution saving throw at the end of each hour or gain 1 Exhaustion level. The DC is 5 for the first hour and increases by 1 for each additional hour. Creatures wearing Medium or Heavy armor have Disadvantage on the save. Creatures that have Resistance or Immunity to Fire damage automatically succeed on the save.
+_恶魔附身（Demonic Possession）。_ 恶魔附身源于无底深渊（Abyss）的混乱与邪恶，通常会侵袭那些与恶魔物品互动，或长时间停留在亵渎之地的生物；在那里，恶魔灵体会等待受害者。
 
-### Frigid Water
+成为恶魔附身目标的生物必须成功通过 DC 15 魅力豁免，否则被一个没有实体的恶魔存在附身。
 
-A creature can be immersed in frigid water for a number of minutes equal to its Constitution score before suffering any ill effects. Each additional minute spent in frigid water requires the creature to succeed on a DC 10 Constitution saving throw or gain 1 Exhaustion level. Creatures with Resistance or Immunity to Cold damage automatically succeed on the save, as do creatures that are naturally adapted to living in ice-cold water.
+每当被附身生物在一次 D20 检定中掷出 1，恶魔存在就会控制该生物，并从此决定该生物的行为。
 
-### Heavy Precipitation
+在该被附身生物之后每个回合结束时，它进行一次 DC 15 魅力豁免；成功时重新获得自身控制权。
 
-Everything within an area of heavy rain or heavy snowfall is Lightly Obscured, and creatures in the area have Disadvantage on all Wisdom (Perception) checks. Heavy rain also extinguishes open flames.
+完成一次长休后，受到恶魔附身的生物进行一次 DC 15 魅力豁免。
 
-### High Altitude
+豁免成功时，该效果在其身上结束。
 
-Traveling at altitudes of 10,000 feet or higher above sea level is taxing for most creatures because of the reduced amount of oxygen in the air. Each hour such a creature spends traveling at high altitude counts as 2 hours for the purpose of determining how long that creature can travel (see "Travel Pace").
+*解除善恶（Dispel Evil and Good）*法术或任何能够移除诅咒的魔法，也可以结束该效果。
 
-Creatures can become acclimated to a high altitude by spending 30 days or more at this elevation. Creatures can't become acclimated to elevations above 20,000 feet unless they are native to such environments.
+### 魔法传染病（Magical Contagions）
 
-### Slippery Ice
+炼金术士、药水酿造者以及狂野魔法区域，被认为创造了最早的魔法传染病。
 
-Slippery ice is Difficult Terrain. A creature that moves onto slippery ice for the first time on a turn or starts its turn there must succeed on a DC 10 Dexterity saving throw or have the Prone condition.
+一次此类传染病的爆发可以成为整场冒险的基础：角色们寻找治疗方法，并努力阻止传染病扩散。
 
-### Strong Wind
+#### 休息与恢复（Rest and Recuperation）
 
-Strong wind imposes Disadvantage on ranged attack rolls with weapons. It also extinguishes open flames and disperses fog. A flying creature in a strong wind must land at the end of its turn or fall.
+如果感染魔法传染病的生物用 3 天时间休养——期间不进行任何会打断长休的活动——则在休养期结束时进行一次 DC 15 体质豁免。
 
-A strong wind in a desert can create a sandstorm that imposes Disadvantage on Wisdom (Perception) checks.
+豁免成功时，在之后 24 小时内，该生物进行用于摆脱魔法传染病的豁免时具有优势。
 
-### Thin Ice
+#### 传染病示例（Example Contagions）
 
-Thin ice has a weight tolerance of 3d10 × 10 pounds per 10-foot-square area. Whenever the total weight on an area of thin ice exceeds its tolerance, the ice in that area breaks. All creatures on broken ice fall through. Below the ice is frigid water (see "Frigid Water" above).
+以下示例展示魔法传染病可以如何运作。
 
-## Fear and Mental Stress
+你可以自由修改这些传染病的豁免 DC、效果以及其他特征，以适应你的战役。
 
-Due to the nature of their vocation, adventurers tend to be less susceptible to fear and mental stress than common folk. Whereas a farmer might flee in terror from a bear or an apparition, adventurers are made of sterner stuff. That said, certain creatures and game effects can terrify or fray the mind of even the most stalwart adventurer.
+#### 狂笑热（Cackle Fever）
 
-If you plan to use any of these rules, discuss them with your players at the start of the campaign.
+_魔法传染病_
 
-### Fear Effects
+粗制滥造的药水和灵药有时会受到狂笑热污染。
 
-Whenever the characters encounter something that is supernaturally frightful, use the Frightened condition as the baseline effect. Fear effects typically require a Wisdom saving throw, with a save DC based on how terrifying the situation is. The Sample Fear DCs table provides some examples.
+狂笑热只影响类人生物（侏儒却莫名其妙地免疫）。
 
-**Sample Fear DCs**
+生物在感染 1d4 天后受到以下效果影响：
 
-<table>
-  <thead>
-    <tr>
-      <th>Example</th>
-      <th>Save DC</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>When the characters open a sarcophagus, a harmless yet terrifying apparition appears.</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>A character triggers a magical trap that creates an illusory manifestation of that character's worst fears, visible only to that character.</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>A portal to the Abyss opens, revealing a nightmarish realm of torment and slaughter.</td>
-      <td>20</td>
-    </tr>
-  </tbody>
-</table>
+**发热（Fever）。** 生物获得 1 级力竭，该力竭持续到传染病在该生物身上结束为止。
 
-Typically, a Frightened creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.
+**无法控制的笑声（Uncontrollable Laughter）。** 当生物处于力竭状态时，每当其受到心灵伤害以外的伤害，都必须进行一次 DC 13 体质豁免。
 
-At your discretion, a Frightened creature might be subject to other effects as long as the Frightened condition lasts. Consider these examples:
+豁免失败时，生物受到 5（1d10）点心灵伤害，并因无法控制地大笑而陷入失能状态。
 
-- The Frightened creature must take the Dash action on each of its turns and uses its movement to get farther away from the source of its fear.
-- Attack rolls against the Frightened creature have Advantage.
-- The Frightened creature can do only one of the following on each of its turns: move, take an action, or take a Bonus Action.
+在其每个回合结束时，生物重复该豁免，成功时结束自身受到的该效果。
 
-### Mental Stress Effects
+1 分钟后，生物自动成功。
 
-When a character is subjected to an effect that causes intense mental stress, Psychic damage is the best way to emulate that effect.
+_对抗传染病（Fighting the Contagion）。_ 每次长休结束时，感染生物进行一次 DC 13 体质豁免。
 
-The Sample Mental Stress Effects table provides a few examples of such effects, with suggested saving throw DCs and damage. Mental stress can usually be resisted with a successful Wisdom save, but sometimes an Intelligence or Charisma save is more appropriate. On a successful save, a character might take half as much damage instead of no damage, at your discretion.
+在该生物成功通过三次这种豁免后，传染病在其身上结束，并且该生物在之后 1 年内免疫狂笑热。
 
-**Sample Mental Stress Effects**
+_传播传染病（Spreading the Contagion）。_ 任何类人生物（侏儒除外），如果在狂笑热感染生物所产生的 10 尺发散区域内开始自己的回合，则必须成功通过 DC 10 体质豁免，否则也会感染该传染病。
 
-<table>
-  <thead>
-    <tr>
-      <th>Example</th>
-      <th>Save DC</th>
-      <th>Psychic Damage</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>A character ingests a hallucinogenic substance that distorts the character's perception of reality.</td>
-      <td>10</td>
-      <td>1d6</td>
-    </tr>
-    <tr>
-      <td>A character touches a fiendish idol that tears at the character's mind, threatening to shatter it.</td>
-      <td>15</td>
-      <td>3d6</td>
-    </tr>
-    <tr>
-      <td>A magical trap flings a character into the Far Realm until the end of that character's next turn.</td>
-      <td>20</td>
-      <td>9d6</td>
-    </tr>
-  </tbody>
-</table>
+豁免成功时，该类人生物在之后 24 小时内不会从该特定感染生物身上感染此传染病。
 
-#### Prolonged Effects
+#### 下水道瘟疫（Sewer Plague）
 
-Exposure to mental stress can cause prolonged effects. Consider the following possibilities.
+_魔法传染病_
 
-_Short-Term Effects._ The character has the Frightened, Incapacitated, or Stunned condition for 1d10 minutes. This condition might be accompanied by alarming behavior or hallucinations. These effects can be suppressed with the _Calm Emotions_ spell or removed by the _Lesser Restoration_ spell.
+受到污染的药水和炼金废料可能产生下水道瘟疫。
 
-_Long-Term Effects._ The character has Disadvantage on some or all ability checks for 1d10 × 10 hours, stemming from an unwillingness or inability to exert a particular set of abilities. The character might feel enervated and unable to exert much Strength, for example, or become so suspicious of others that Charisma checks are more difficult. These effects can be suppressed with the _Calm Emotions_ spell or removed by the _Lesser Restoration_ spell.
+这种传染病会在下水道和垃圾堆中潜伏，并且有时会由居住在这些区域中的生物传播，包括奥图怪和老鼠。
 
-_Indefinite Effects._ An indefinite effect is a long-term effect (see above) that lasts until removed by a _Greater Restoration_ spell. It can be suppressed by a _Calm Emotions_ spell.
+任何被携带该传染病的生物伤害，或接触受到污染的污物或内脏的类人生物，都必须成功通过 DC 11 体质豁免，否则感染下水道瘟疫。
 
-## Poison
+生物在感染 1d4 天后受到以下效果影响：
 
-Given their insidious and deadly nature, poisons are a favorite tool among assassins and evil creatures.
+**疲劳（Fatigue）。** 生物获得 1 级力竭。
 
-Poisons come in the following four types:
+**虚弱（Weakness）。** 只要该生物拥有任何力竭等级，其消耗生命骰所恢复的生命值只有正常数值的一半。
 
-**Contact.** Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.
+**躁动不安（Restlessness）。** 只要该生物拥有任何力竭等级，完成长休既不会恢复其失去的生命值，也不会降低其力竭等级。
 
-**Ingested.** A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You may decide that a partial dose has a reduced effect, such as allowing Advantage on the saving throw or dealing only half as much damage on a failed save.
+_对抗传染病（Fighting the Contagion）。_ 每天黎明时，感染生物进行一次 DC 11 体质豁免。
 
-**Inhaled.** Poisonous powders and gases take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot Cube to its effect. The resulting cloud dissipates immediately afterward. Holding one's breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.
+豁免失败时，其疲劳恶化，并获得 1 级力竭。
 
-**Injury.** Injury poison can be applied as a Bonus Action to a weapon, a piece of ammunition, or similar object. The poison remains potent until delivered through a wound or washed off. A creature that takes Piercing or Slashing damage from an object coated with the poison is exposed to its effects.
+豁免成功时，其力竭等级降低 1。
 
-### Purchasing Poison
+如果该生物的力竭等级降低至 0，则传染病在其身上结束。
 
-In some settings, laws prohibit the possession and use of poison, but an illicit dealer or unscrupulous apothecary might keep a hidden stash. Characters with criminal contacts might be able to acquire poison easily. Other characters might have to make extensive inquiries and pay bribes before they acquire the poison they seek.
+#### 视腐病（Sight Rot）
 
-### Harvesting Poison
+_魔法传染病_
 
-A character can attempt to harvest poison from a venomous creature that is dead or has the Incapacitated condition. The effort takes 1d6 minutes, after which the character makes a DC 20 Intelligence (Nature) check using a Poisoner's Kit. On a successful check, the character harvests enough poison for a single dose, and no additional poison can be harvested from that creature. On a failed check, the character is unable to extract any poison. If the character fails the check by 5 or more, the character is subjected to the creature's poison.
+任何饮用被视腐病污染之水的野兽或类人生物，都必须成功通过 DC 15 体质豁免，否则陷入目盲状态，直到该传染病结束。
 
-### Sample Poisons
+_对抗传染病（Fighting the Contagion）。_ *医疗术（Heal）*或*次级复原术（Lesser Restoration）*之类的魔法会立即结束该传染病。
 
-Example poisons are detailed here in alphabetical order. Each poison's description includes the suggested price for a single dose of the poison, its type (contact, ingested, inhaled, or injury), and a description of the poison's debilitating effects.
+熟练草药工具（Herbalism Kit）的角色可以使用它制作一剂非魔法药膏，耗时 1 小时。
 
-#### Assassin's Blood (150 GP)
+将这种药膏涂抹在视腐病患者的眼睛上时，该生物身上的传染病会被压制 24 小时。
 
-_Ingested Poison_
+如果通过这种方式累计压制该传染病共 72 小时——需要三剂药膏并分别施用——则传染病在该生物身上结束。
 
-A creature subjected to Assassin's Blood makes a DC 10 Constitution saving throw. On a failed save, the creature takes 6 (1d12) Poison damage and has the Poisoned condition for 24 hours. On a successful save, the creature takes half as much damage only.
+_传播传染病（Spreading the Contagion）。_ 任何与感染视腐病生物发生皮肤接触的类人生物，都必须成功通过 DC 15 体质豁免，否则同样感染该传染病。
 
-#### Burnt Othur Fumes (500 GP)
+豁免成功时，该类人生物在之后 24 小时内不会从该特定感染生物身上感染此传染病。
 
-_Inhaled Poison_
+## 环境效果（Environmental Effects）
 
-A creature subjected to Burnt Othur Fumes must succeed on a DC 13 Constitution saving throw or take 10 (3d6) Poison damage, and it must repeat the save at the start of each of its turns. On each successive failed save, the creature takes 3 (1d6) Poison damage. After three successful saves, the poison ends.
+### 深水（Deep Water）
 
-#### Crawler Mucus (200 GP)
+在深水——超过 100 尺深——中游泳会因为水压和低温而带来额外挑战。
 
-_Contact Poison_
+每在深水中游泳 1 小时，没有游泳速度的生物都必须成功通过 DC 10 体质豁免，否则获得 1 级力竭。
 
-A creature subjected to Crawler Mucus must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 1 minute. The creature also has the Paralyzed condition while Poisoned in this way. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success.
+### 极寒（Extreme Cold）
 
-#### Essence of Ether (300 GP)
+当温度为华氏 0 度或更低时，暴露于极寒环境中的生物在每小时结束时必须成功通过 DC 10 体质豁免，否则获得 1 级力竭。
 
-_Inhaled Poison_
+对寒冷伤害具有抗性或免疫的生物自动通过该豁免。
 
-A creature subjected to Essence of Ether must succeed on a DC 15 Constitution saving throw or have the Poisoned condition for 8 hours. The creature also has the Unconscious condition while Poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.
+### 极热（Extreme Heat）
 
-#### Malice (250 GP)
+当温度为华氏 100 度或更高时，暴露于极热环境且无法获得可饮用水的生物，在每小时结束时必须进行一次体质豁免，否则获得 1 级力竭。
 
-_Inhaled Poison_
+第一个小时的 DC 为 5，之后每多经过 1 小时，DC 提高 1。
 
-A creature subjected to Malice must succeed on a DC 15 Constitution saving throw or have the Poisoned condition for 1 hour. The creature also has the Blinded condition while Poisoned in this way.
+穿着中甲或重甲的生物进行该豁免时具有劣势。
 
-#### Midnight Tears (1,500 GP)
+对火焰伤害具有抗性或免疫的生物自动通过该豁免。
 
-_Ingested Poison_
+### 冰冷水域（Frigid Water）
 
-A creature that ingests Midnight Tears suffers no effect until the stroke of midnight. Any effect that
-ends the Poisoned condition neutralizes this poison. If the poison hasn't been neutralized before midnight, the creature makes a DC 17 Constitution saving throw, taking 31 (9d6) Poison damage on a failed save or half as much damage on a successful one.
+一个生物可以在冰冷水域中浸泡相当于其体质值分钟数的时间，而不会受到任何负面影响。
 
-#### Oil of Taggit (400 GP)
+此后每多在冰冷水域中停留 1 分钟，该生物都必须成功通过 DC 10 体质豁免，否则获得 1 级力竭。
 
-_Contact Poison_
+对寒冷伤害具有抗性或免疫的生物自动通过该豁免。
 
-A creature subjected to Oil of Taggit must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 24 hours. The creature also has the Unconscious condition while Poisoned in this way. It wakes up if it takes damage.
+天生适应在冰冷水域中生活的生物同样自动成功。
 
-#### Pale Tincture (250 GP)
+### 强降水（Heavy Precipitation）
 
-_Ingested Poison_
+暴雨或大雪区域中的所有事物都处于轻度遮蔽中，而区域内生物的所有感知（察觉）检定都具有劣势。
 
-A creature subjected to Pale Tincture must succeed on a DC 16 Constitution saving throw or take 3 (1d6) Poison damage and have the Poisoned condition. The Poisoned creature repeats the save every 24 hours, taking 3 (1d6) Poison damage on a failed save. The damage the poison deals can't be healed by any means while the creature remains Poisoned. After seven successful saves against the poison, the creature is no longer Poisoned.
+暴雨还会熄灭暴露在外的明火。
 
-#### Purple Worm Poison (2,000 GP)
+### 高海拔（High Altitude）
 
-_Injury Poison_
+对大多数生物而言，在海拔 10,000 尺或更高的区域旅行会因为空气中的氧气减少而十分辛苦。
 
-A creature subjected to Purple Worm Poison makes a DC 21 Constitution saving throw, taking 35 (10d6) Poison damage on a failed save or half as much damage on a successful one.
+这种生物每在高海拔地区旅行 1 小时，在判断该生物能够旅行多久时视为 2 小时（见“旅行步调”）。
 
-#### Serpent Venom (200 GP)
+生物可以通过在这种海拔高度停留至少 30 天来适应高海拔环境。
 
-_Injury Poison_
+除非生物原本就生活在这种环境中，否则无法适应海拔超过 20,000 尺的环境。
 
-A creature subjected to Serpent Venom must succeed on a DC 11 Constitution saving throw, taking 10 (3d6) Poison damage on a failed save or half as much damage on a successful one.
+### 光滑冰面（Slippery Ice）
 
-#### Spider's Sting (200 GP)
+光滑冰面属于困难地形。
 
-_Injury Poison_
+一个生物在某回合第一次移动到光滑冰面上，或在光滑冰面上开始自己的回合时，必须成功通过 DC 10 敏捷豁免，否则陷入倒地状态。
 
-A creature subjected to Spider's Sting must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 1 hour. If the creature fails the save by 5 or more, the creature also has the Unconscious condition while Poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.
+### 强风（Strong Wind）
 
-#### Torpor (600 GP)
+强风会使使用武器进行的远程攻击检定具有劣势。
 
-_Ingested Poison_
+强风也会熄灭暴露在外的明火并吹散雾气。
 
-A creature subjected to Torpor poison must succeed on a DC 15 Constitution saving throw or have the Poisoned condition for 4d6 hours. The creature's Speed is halved while the creature is Poisoned in this way.
+飞行生物处于强风中时，必须在其回合结束时着陆，否则坠落。
 
-#### Truth Serum (150 GP)
+沙漠中的强风可能形成沙尘暴，使感知（察觉）检定具有劣势。
 
-_Ingested Poison_
+### 薄冰（Thin Ice）
 
-A creature subjected to Truth Serum must succeed on a DC 11 Constitution saving throw or have the Poisoned condition for 1 hour. The Poisoned creature can't knowingly communicate a lie.
+每个 10 尺见方的薄冰区域能够承受 3d10 × 10 磅重量。
 
-#### Wyvern Poison (1,200 GP)
+每当某个薄冰区域上的总重量超过其承受上限时，该区域的冰面破裂。
 
-_Injury Poison_
+所有位于破裂冰面上的生物都会掉下去。
 
-A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one.
+冰层下方是冰冷水域（见上文“冰冷水域”）。
 
-## Traps
+## 恐惧与精神压力（Fear and Mental Stress）
 
-Traps should be used sparingly, lest they lose their charm. A hidden pit can be a fun surprise, but too many traps in an adventure can lead players to become overly cautious, which slows down the game.
+由于冒险者所从事的工作性质，他们通常不像普通人那样容易受到恐惧和精神压力影响。
 
-The best traps are fleeting distractions that skilled characters can overcome in a short amount of time or deadly puzzles that require quick thinking and teamwork to overcome. Traps that are undetectable and inescapable are rarely fun.
+农夫可能会因熊或幽灵般的幻影而惊恐逃跑，但冒险者通常拥有更坚强的意志。
 
-### Parts of a Trap
+尽管如此，某些生物和游戏效果依然能够让最坚定的冒险者感到恐惧，甚至损伤其心智。
 
-The description of a trap includes the following parts after the trap's name:
+如果你打算使用这些规则，应在战役开始时与玩家讨论。
 
-**Severity and Levels.** A trap is designated as a nuisance or as deadly for characters of certain levels. A nuisance trap is unlikely to seriously harm characters of the indicated levels, whereas a deadly trap can grievously damage characters of the indicated levels.
+### 恐惧效果（Fear Effects）
 
-**Trigger.** Traps are often set to go off when a creature enters an area or touches an object. Examples of triggers include stepping on a pressure plate, crossing a trip wire, turning a doorknob, or using the wrong key in a lock.
+每当角色遭遇某种超自然的恐怖事物时，以恐慌状态作为基本效果。
 
-**Duration.** Some traps have durations expressed in rounds, minutes, or hours. Others specify that their effects last until the trap is destroyed or dispelled. If a trap's duration is instantaneous, its effect is resolved instantly. If a trap resets after activating, that fact is noted in this entry. A trap is otherwise inert after activation.
+恐惧效果通常要求进行感知豁免，其豁免 DC 根据情况有多么可怕来决定。
 
-Use caution when introducing a trap to characters of a level lower than the trap's level range. A trap that is a nuisance at one level range could be deadly to characters of a lower level range.
+“恐惧 DC 示例”表提供了一些例子。
 
-### Example Traps
+**恐惧 DC 示例（Sample Fear DCs）**
 
-Traps are presented in alphabetical order.
+| 示例 | 豁免 DC |
+|---|---:|
+| 角色打开一具石棺时，一个无害却极为恐怖的幻影出现。 | 10 |
+| 一名角色触发魔法陷阱，陷阱创造出只有该角色能够看见的、其内心最深恐惧的幻象化身。 | 15 |
+| 一道通往无底深渊的传送门打开，显露出一个充满折磨与屠杀的噩梦领域。 | 20 |
 
-#### Collapsing Roof
+通常，处于恐慌状态的生物会在其每个回合结束时重复该豁免，成功时结束自身受到的该效果。
 
-_Deadly Trap (Levels 1–4)_
+由你决定，在恐慌状态持续期间，生物还可能受到其他效果影响。
 
-**Trigger:** A creature crosses a trip wire
-**Duration:** Instantaneous
+可以考虑以下示例：
 
-This trap uses a trip wire to collapse an unstable section of ceiling. The trip wire is 3 inches off the ground and stretches between two weak supports that topple when the trip wire is pulled.
+- 恐慌生物必须在自己的每个回合执行疾走动作，并使用移动尽可能远离恐惧来源。
+- 对恐慌生物进行的攻击检定具有优势。
+- 恐慌生物在每个回合只能进行以下三件事中的一件：移动、执行一个动作，或执行一个附赠动作。
 
-The first creature that crosses the trip wire causes the supports to topple and the unstable section of ceiling to collapse. Each creature beneath the unstable section of ceiling must succeed on a DC 13 Dexterity saving throw, taking 11 (2d10) Bludgeoning damage on a failed save or half as much damage on a successful one. Rubble from the collapse turns the trapped area into Difficult Terrain.
+### 精神压力效果（Mental Stress Effects）
 
-_Detect and Disarm._ As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the unstable section of ceiling on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).
+当角色受到会造成强烈精神压力的效果影响时，心灵伤害最适合用来模拟这种效果。
 
-_At Higher Levels._ You can scale the trap for higher levels by increasing the damage and the save DC, as shown in the following table.
+“精神压力效果示例”表提供了一些此类效果的示例，以及建议的豁免 DC 和伤害。
 
-<table>
-  <thead>
-    <tr>
-      <th>Levels</th>
-      <th>Bludgeoning Damage</th>
-      <th>Save DC</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>5–10</td>
-      <td>22 (4d10)</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>11–16</td>
-      <td>55 (10d10)</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <td>17–20</td>
-      <td>99 (18d10)</td>
-      <td>19</td>
-    </tr>
-  </tbody>
-</table>
+精神压力通常可以通过成功的感知豁免抵抗，但有时智力或魅力豁免会更加合适。
 
-#### Falling Net
+由你决定，角色豁免成功时可能受到一半伤害，而不是完全不受伤害。
 
-_Nuisance Trap (Levels 1–4)_
+**精神压力效果示例（Sample Mental Stress Effects）**
 
-**Trigger:** A creature crosses a trip wire
-**Duration:** Instantaneous
+| 示例 | 豁免 DC | 心灵伤害 |
+|---|---:|---:|
+| 角色摄入一种致幻物质，使其对现实的感知发生扭曲。 | 10 | 1d6 |
+| 角色触碰一个邪魔偶像，该偶像撕扯角色的心智，几乎将其击碎。 | 15 | 3d6 |
+| 一个魔法陷阱将角色抛入遥远国度（Far Realm），直到该角色下一回合结束。 | 20 | 9d6 |
 
-A falling net trap uses a trip wire to release a weighted, 10-foot-square Net suspended from the ceiling. The trip wire is 3 inches off the ground and stretches between two columns or trees.
+#### 持续性效果（Prolonged Effects）
 
-The first creature that crosses the trip wire causes the Net to fall on it. The target must succeed on a DC 10 Dexterity saving throw or have the Restrained condition until it escapes. The target succeeds automatically if it's Huge or larger. A creature can take an action to make a DC 10 Strength (Athletics) check, freeing itself or another creature within its reach from the Net on a successful check.
+长期暴露于精神压力可能产生持续性效果。
 
-_Detect and Disarm._ As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the suspended Net on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).
+可以考虑以下可能情况。
 
-_Destroy the Net._ Reducing the Net to 0 Hit Points frees any creature trapped in it (see "Adventuring Gear" for the Net's statistics).
+_短期效果（Short-Term Effects）。_ 角色陷入恐慌、失能或震慑状态，持续 1d10 分钟。
 
-_Set the Trap._ A creature that has Thieves' Tools and all the trap's components (including a Net) can try to set a falling net trap, doing so with a successful DC 13 Dexterity (Sleight of Hand) check. Each attempt to set this trap takes 10 minutes.
+该状态可能伴随着令人不安的行为或幻觉。
 
-_At Higher Levels._ You can scale the trap for higher levels by increasing the weight of the Net, which increases the save DC and the DC of the Strength (Athletics) check as follows: DC 12 at levels 5–10, DC 14 at levels 11–16, or DC 16 at levels 17–20.
+这些效果可以通过*安定心神（Calm Emotions）*法术压制，或通过*次级复原术*移除。
 
-#### Fire-Casting Statue
+_长期效果（Long-Term Effects）。_ 角色在 1d10 × 10 小时内，部分或全部属性检定具有劣势，其原因是角色不愿或无法充分使用某一组能力。
 
-_Deadly Trap (Levels 1–4)_
+例如，角色可能感到极度虚弱，难以发挥力量；或者变得对他人极度怀疑，使魅力检定变得更加困难。
 
-**Trigger:** A creature moves onto a pressure plate
-**Duration:** Instantaneous, and the trap resets at the start of the next turn
+这些效果可以通过*安定心神*法术压制，或通过*次级复原术*移除。
 
-When a creature moves onto this trap's pressure plate for the first time on a turn or starts its turn there, a nearby statue exhales a 15-foot Cone of magical flame. The statue can look like anything, such as a dragon or a wizard. Each creature in the Cone must succeed on a DC 15 Dexterity saving throw, taking 11 (2d10) Fire damage on a failed save or half as much damage on a successful one.
+_无限期效果（Indefinite Effects）。_ 无限期效果是一种长期效果（见上文），持续到被*高等复原术（Greater Restoration）*移除为止。
 
-_Detect and Disarm._ A _Detect Magic_ spell reveals an aura of Evocation magic around the statue. As a Search action, a creature within 5 feet of the statue can examine it and make a DC 10 Wisdom (Perception) check, detecting a tiny glyph on the statue on a successful check. Once the glyph is found, a character can take a Study action to examine it and make a DC 15 Intelligence (Arcana) check, ascertaining that the glyph means "fire" on a successful check. As an action, a character can use a sharp tool to deface the glyph, which disarms the trap.
+它可以通过*安定心神*法术压制。
 
-As a Search action, a creature can examine the section of floor that forms the pressure plate and make a DC 15 Wisdom (Perception) check, detecting the pressure plate on a successful check. Wedging an Iron Spike or similar object under the pressure plate prevents the trap from triggering.
+## 毒药（Poison）
 
-_At Higher Levels._ You can scale the trap for higher levels by increasing the damage and the area of effect, as shown in the following table.
+由于毒药阴险而致命的性质，它们是刺客和邪恶生物最喜爱的工具之一。
 
-<table>
-  <thead>
-    <tr>
-      <th>Levels</th>
-      <th>Fire Damage</th>
-      <th>Area of Effect</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>5–10</td>
-      <td>22 (4d10)</td>
-      <td>30-foot Cone</td>
-    </tr>
-    <tr>
-      <td>11–16</td>
-      <td>55 (10d10)</td>
-      <td>60-foot Cone</td>
-    </tr>
-    <tr>
-      <td>17–20</td>
-      <td>99 (18d10)</td>
-      <td>120-foot Cone</td>
-    </tr>
-  </tbody>
-</table>
+毒药分为以下四种类型：
 
-#### Hidden Pit
+**接触型（Contact）。** 接触型毒药可以涂抹在物体上，并会一直保持效力，直到被触碰或洗掉。
 
-_Nuisance Trap (Levels 1–4)_
+裸露皮肤接触到接触型毒药的生物会受到其效果影响。
 
-**Trigger:** A creature moves onto the pit's lid
-**Duration:** Instantaneous
+**摄入型（Ingested）。** 生物必须吞下一整剂摄入型毒药，才会受到其效果影响。
 
-This 10-foot-deep pit has a hinged lid constructed from material identical to the surrounding floor. When a creature moves onto the lid, it swings open like a trapdoor, causing the creature to fall into the pit. The lid remains open thereafter.
+毒药可以混入食物或液体中。
 
-A creature that falls into the pit takes 3 (1d6) Bludgeoning damage from the fall.
+你可以裁定部分剂量只产生较弱效果，例如使目标进行豁免时具有优势，或在豁免失败时只造成一半伤害。
 
-_Detect and Disarm._ As a Study action, a creature can examine the section of floor that forms the pit's lid and make a DC 15 Intelligence (Investigation) check, detecting the pit on a successful check. Once the pit is detected, an Iron Spike or a similar object can be wedged between the pit's lid and the surrounding floor to prevent the lid from opening, thereby making it safe to cross. The cover can also be held shut using _Arcane Lock_ or similar magic.
+**吸入型（Inhaled）。** 有毒粉末和气体在被吸入时生效。
 
-_Escape._ A creature needs a Climb Speed, climbing gear, or magic such as _Spider Climb_ to scale the pit's smooth walls. You can make the pit easier to escape by adding cracks in the walls big enough to serve as handholds and footholds.
+吹散粉末或释放气体，会使一个 5 尺立方区域内的生物受到其效果影响。
 
-_At Higher Levels._ You can scale the trap for higher levels by increasing the pit's depth and damage, as shown in the following table.
+形成的毒云随后立即消散。
 
-<table>
-  <thead>
-    <tr>
-      <th>Levels</th>
-      <th>Pit Depth</th>
-      <th>Bludgeoning Damage</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>5–10</td>
-      <td>30 feet</td>
-      <td>10 (3d6)</td>
-    </tr>
-    <tr>
-      <td>11–16</td>
-      <td>60 feet</td>
-      <td>21 (6d6)</td>
-    </tr>
-    <tr>
-      <td>17–20</td>
-      <td>120 feet</td>
-      <td>42 (12d6)</td>
-    </tr>
-  </tbody>
-</table>
+屏住呼吸无法防御吸入型毒药，因为这种毒药会影响鼻腔黏膜、泪管以及身体其他部位。
 
-#### Poisoned Darts
+**创伤型（Injury）。** 创伤型毒药可以使用附赠动作涂抹在武器、一件弹药或类似物体上。
 
-_Deadly Trap (Levels 1–4)_
+毒药会保持效力，直到通过伤口进入目标体内或被洗掉。
 
-**Trigger:** A creature moves onto a pressure plate
-**Duration:** Instantaneous, and the trap resets at the start of the next turn if it has activated fewer than three times
+受到涂有该毒药的物体所造成穿刺或挥砍伤害的生物，会暴露于该毒药的效果之下。
 
-When a creature moves onto this trap's pressure plate for the first time on a turn, poisoned darts shoot from tubes embedded in the surrounding walls. The holes that house these tubes are obscured by dust and cobwebs or skillfully hidden amid bas-reliefs, murals, or frescoes.
+### 购买毒药（Purchasing Poison）
 
-Each creature in the darts' path must succeed on a DC 13 Dexterity saving throw or be struck by 1d3 darts, taking 3 (1d6) Poison damage per dart.
+在某些设定中，法律禁止持有和使用毒药，但非法商人或不择手段的药剂师可能会保存秘密库存。
 
-_Detect and Disarm._ As a Search action, a creature can examine the walls and make a DC 15 Wisdom (Perception) check, detecting the holes on a successful check. Plugging all the holes with wax, cloth, or detritus prevents the darts from firing.
+拥有犯罪关系网的角色或许能够轻松获得毒药。
 
-As a Search action, a creature can examine the section of floor that forms the pressure plate and make a DC 15 Wisdom (Perception) check, detecting the pressure plate on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering.
+其他角色可能需要广泛打听并支付贿赂，才能买到所需毒药。
 
-_At Higher Levels._ You can scale the trap for higher levels by increasing each dart's Poison damage as follows: 7 (2d6) at levels 5–10, 14 (4d6) at levels 11–16, or 24 (7d6) at levels 17–20.
+### 采集毒液（Harvesting Poison）
 
-#### Poisoned Needle
+角色可以尝试从已经死亡或处于失能状态的有毒生物身上采集毒液。
 
-_Nuisance Trap (Levels 1–4)_
+这一过程耗时 1d6 分钟，此后角色使用毒药师工具（Poisoner's Kit）进行一次 DC 20 智力（自然）检定。
 
-**Trigger:** A creature opens the trap's lock improperly or fails to disarm the trap
-**Duration:** Instantaneous
+检定成功时，角色获得足够制作一剂毒药的毒液，而且不能再从该生物身上采集更多毒液。
 
-A poisoned needle is hidden in a lock. When a creature opens the lock with any object other than the proper key, the needle springs out and stabs the creature. The creature makes a DC 11 Constitution saving throw. On a failed save, the creature takes 5 (1d10) Poison damage and has the Poisoned
-condition for 1 hour. On a successful save, the creature takes half as much damage only.
+检定失败时，角色无法提取任何毒液。
 
-_Avoid._ The trap doesn't trigger if the lock is opened using a _Knock_ spell or similar magic.
+如果角色检定失败 5 点或更多，则该角色会受到该生物毒素的影响。
 
-_Detect and Disarm._ As a Search action, a creature can examine the trapped lock and make a DC 15 Wisdom (Perception) check, detecting the needle on a successful check. Once the trap is detected, a character can take an action to try to disarm the trap, doing so with a successful DC 15 Dexterity (Sleight of Hand) check. On a failed check, the creature triggers the trap.
+### 毒药示例（Sample Poisons）
 
-_At Higher Levels._ You can scale the trap for higher levels by increasing the damage and the save DC, as shown in the following table.
+以下示例毒药按字母顺序列出。
 
-<table>
-  <thead>
-    <tr>
-      <th>Levels</th>
-      <th>Poison Damage</th>
-      <th>Save DC</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>5–10</td>
-      <td>11 (2d10)</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <td>11–16</td>
-      <td>22 (4d10)</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>17–20</td>
-      <td>55 (10d10)</td>
-      <td>17</td>
-    </tr>
-  </tbody>
-</table>
+每种毒药的说明都会包括一剂毒药的建议价格、毒药类型——接触型、摄入型、吸入型或创伤型——以及毒药造成的削弱效果说明。
 
-#### Rolling Stone
+#### 刺客之血（Assassin's Blood）（150 GP）
 
-_Deadly Trap (Levels 11–16) or Nuisance Trap (Levels 17–20)_
+_摄入型毒药_
 
-**Trigger:** A creature moves onto a pressure plate
-**Duration:** Until the stone stops rolling
+受到刺客之血影响的生物进行一次 DC 10 体质豁免。
 
-When a creature moves onto a hidden pressure plate, a 5-foot-radius orb of solid stone is released from a secret compartment and begins to roll. The stone and all creatures nearby roll Initiative; the stone gets a +8 bonus on its Initiative roll.
+豁免失败时，生物受到 6（1d12）点毒素伤害，并陷入中毒状态 24 小时。
 
-On its turn, the stone moves 60 feet in one direction, changing course if redirected by an obstacle. The stone can move through creatures' spaces, and creatures can move through the stone's space, treating it as Difficult Terrain. Whenever the stone enters a creature's space for the first time on a turn or a creature enters the stone's space while the stone is rolling, that creature must succeed on a DC 15 Dexterity saving throw or take 55 (10d10) Bludgeoning damage and have the Prone condition.
+豁免成功时，生物只受到一半伤害。
 
-The stone stops when it hits a wall or similar barrier. It can't go around corners, but creative dungeon builders incorporate curving turns into nearby passages that allow the stone to keep moving.
+#### 焚烧奥瑟烟雾（Burnt Othur Fumes）（500 GP）
 
-_Detect and Disarm._ As a Study action, a creature can examine the section of floor that forms the pressure plate and make a DC 15 Intelligence (Investigation) check, deducing the pressure plate's function on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering.
+_吸入型毒药_
 
-_Destroy the Stone._ The stone is a Large object that has AC 17, HP 100, a Damage Threshold of 10, and Immunity to Poison and Psychic damage.
+受到焚烧奥瑟烟雾影响的生物必须成功通过 DC 13 体质豁免，否则受到 10（3d6）点毒素伤害，并必须在其每个回合开始时重复该豁免。
 
-_Slow the Stone._ As an action, a creature can try to slow down the stone with a DC 20 Strength (Athletics) check. If the check is successful, the distance the stone moves on its turn is reduced by 15 feet. If that distance drops to 0, it stops moving and is no longer a threat.
+之后每次豁免失败时，生物受到 3（1d6）点毒素伤害。
 
-#### Spiked Pit
+在累计三次豁免成功后，该毒药的效果结束。
 
-_Deadly Trap (Levels 1–4)_
+#### 爬行怪黏液（Crawler Mucus）（200 GP）
 
-**Trigger:** A creature moves onto the pit's lid
-**Duration:** Instantaneous
+_接触型毒药_
 
-A 10-foot-deep pit has a hinged lid constructed from material identical to the surrounding floor. When a creature moves onto the lid, it swings open like a trapdoor, causing the creature to fall into the pit, which has sharpened wooden or metal spikes at the bottom. The lid remains open thereafter.
+受到爬行怪黏液影响的生物必须成功通过 DC 13 体质豁免，否则陷入中毒状态 1 分钟。
 
-A creature that falls into the pit lands at the bottom and takes 3 (1d6) Bludgeoning damage from the fall plus 9 (2d8) Piercing damage from the spikes.
+以这种方式中毒期间，该生物同时处于麻痹状态。
 
-_Detect and Disarm._ As a Study action, a creature can examine the section of floor that forms the pit's lid and make a DC 15 Intelligence (Investigation) check, detecting the pit on a successful check. Once the hidden pit is detected, an Iron Spike or a similar object can be wedged between the pit's lid and the surrounding floor to prevent the lid from opening, thereby making it safe to cross. The cover can also be held shut using an _Arcane Lock_ spell or similar magic.
+生物在其每个回合结束时重复该豁免，成功时结束自身受到的该效果。
 
-_Escape._ A creature needs a Climb Speed, climbing gear, or magic such as a _Spider Climb_ spell to scale the pit's smooth walls. You can make the pit easier to escape by adding cracks in the walls big enough to serve as handholds and footholds.
+#### 乙醚精华（Essence of Ether）（300 GP）
 
-_At Higher Levels._ You can scale the trap for higher levels by increasing the pit's depth and damage, as shown in the following table.
+_吸入型毒药_
 
-<table>
-  <thead>
-    <tr>
-      <th>Levels</th>
-      <th>Pit Depth</th>
-      <th>Damage</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>5–10</td>
-      <td>30 feet</td>
-      <td>10 (3d6) Bludgeoning plus 13 (3d8) Piercing</td>
-    </tr>
-    <tr>
-      <td>11–16</td>
-      <td>60 feet</td>
-      <td>21 (6d6) Bludgeoning plus 36 (8d8) Piercing</td>
-    </tr>
-    <tr>
-      <td>17–20</td>
-      <td>120 feet</td>
-      <td>42 (12d6) Bludgeoning plus 57 (13d8) Piercing</td>
-    </tr>
-  </tbody>
-</table>
+受到乙醚精华影响的生物必须成功通过 DC 15 体质豁免，否则陷入中毒状态 8 小时。
 
-## Combat Encounters
+以这种方式中毒期间，该生物同时处于昏迷状态。
 
-The following features can make a combat encounter more interesting or challenging:
+如果生物受到伤害，或另一个生物使用动作将其摇醒，它会醒来。
 
-**Changes in Elevation.** Terrain features that provide a change of elevation (such as stacks of empty crates, ledges, and balconies) reward clever positioning and encourage characters to jump, climb, fly, or teleport.
+#### 恶意（Malice）（250 GP）
 
-**Defensive Positions.** Enemies in hard-to-reach locations or defensive positions force characters who normally attack at range to move around.
+_吸入型毒药_
 
-**Mixed Monster Groups.** When different types of monsters work together, they can combine their abilities—just like characters with different classes and origins. A diverse force is more powerful.
+受到恶意影响的生物必须成功通过 DC 15 体质豁免，否则陷入中毒状态 1 小时。
 
-**Reasons to Move.** Use features that encourage characters and their enemies to move around, such as chandeliers, kegs of gunpowder or oil, and rolling stone traps.
+以这种方式中毒期间，该生物同时处于目盲状态。
 
-### Combat Encounter Difficulty
+#### 午夜之泪（Midnight Tears）（1,500 GP）
 
-Use the following guidelines to create a combat encounter of a desired level of difficulty.
+_摄入型毒药_
 
-#### Step 1: Choose a Difficulty
+摄入午夜之泪的生物在午夜到来之前不会受到任何效果。
 
-Three categories describe the range of encounter difficulty:
+任何能够结束中毒状态的效果都会中和这种毒药。
 
-**Low Difficulty.** An encounter of low difficulty is likely to have one or two scary moments for the players, but their characters should emerge victorious with no casualties. One or more of them might need to use healing resources, however. As a rough guideline, a single monster generally presents a low-difficulty challenge for a party of four characters whose level equals the monster's Challenge Rating.
+如果在午夜前毒药仍未被中和，则生物进行一次 DC 17 体质豁免。
 
-**Moderate Difficulty.** Absent healing and other resources, an encounter of moderate difficulty could go badly for the adventurers. Weaker characters might get taken out of the fight, and there's a slim chance that one or more characters might die.
+豁免失败时受到 31（9d6）点毒素伤害，成功时受到一半伤害。
 
-**High Difficulty.** A high-difficulty encounter could be lethal for one or more characters. To survive it, the characters will need smart tactics, quick thinking, and maybe even a little luck.
+#### 塔吉特之油（Oil of Taggit）（400 GP）
 
-#### Step 2: Determine Your XP Budget
+_接触型毒药_
 
-Using the XP Budget per Character table, cross-reference the party's level with the desired encounter difficulty. Multiply the number in the table by the number of characters in the party to get your XP budget for the encounter.
+受到塔吉特之油影响的生物必须成功通过 DC 13 体质豁免，否则陷入中毒状态 24 小时。
 
-**XP Budget per Character**
+以这种方式中毒期间，该生物同时处于昏迷状态。
 
-<table>
-  <thead>
-    <tr>
-      <th>Party's Level</th>
-      <th>Encounter Difficulty Low</th>
-      <th>Encounter Difficulty Moderate</th>
-      <th>Encounter Difficulty High</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>50</td>
-      <td>75</td>
-      <td>100</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>100</td>
-      <td>150</td>
-      <td>200</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>150</td>
-      <td>225</td>
-      <td>400</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>250</td>
-      <td>375</td>
-      <td>500</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>500</td>
-      <td>750</td>
-      <td>1,100</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>600</td>
-      <td>1,000</td>
-      <td>1,400</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>750</td>
-      <td>1,300</td>
-      <td>1,700</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>1,000</td>
-      <td>1,700</td>
-      <td>2,100</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>1,300</td>
-      <td>2,000</td>
-      <td>2,600</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>1,600</td>
-      <td>2,300</td>
-      <td>3,100</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>1,900</td>
-      <td>2,900</td>
-      <td>4,100</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>2,200</td>
-      <td>3,700</td>
-      <td>4,700</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>2,600</td>
-      <td>4,200</td>
-      <td>5,400</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>2,900</td>
-      <td>4,900</td>
-      <td>6,200</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>3,300</td>
-      <td>5,400</td>
-      <td>7,800</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>3,800</td>
-      <td>6,100</td>
-      <td>9,800</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>4,500</td>
-      <td>7,200</td>
-      <td>11,700</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>5,000</td>
-      <td>8,700</td>
-      <td>14,200</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>5,500</td>
-      <td>10,700</td>
-      <td>17,200</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>6,400</td>
-      <td>13,200</td>
-      <td>22,000</td>
-    </tr>
-  </tbody>
-</table>
+如果生物受到伤害，它会醒来。
 
-### Step 3: Spend Your Budget
+#### 苍白酊剂（Pale Tincture）（250 GP）
 
-Every creature has an XP value in its stat block. When you add a creature to your combat encounter, deduct its XP from your XP budget to determine how many XP you have left to spend. Spend as much of your XP budget as you can without going over. It's OK if you have a few unspent XP left over. Examples are given below:
+_摄入型毒药_
 
-**Example 1.** A low-difficulty encounter for four level 1 characters has an XP budget of 50 × 4, for a total of 200 XP. With that, you could build any of the following encounters:
+受到苍白酊剂影响的生物必须成功通过 DC 16 体质豁免，否则受到 3（1d6）点毒素伤害并陷入中毒状态。
 
-- **1 Bugbear Warrior** (200 XP)
-- **2 Giant Wasps** (100 XP each), for 200 XP total
-- **6 Giant Rats** (25 XP each), for 150 XP total
+中毒生物每 24 小时重复该豁免。
 
-**Example 2.** A moderate-difficulty encounter for five level 3 characters has an XP budget of 225 × 5, for a total of 1,125 XP. With that, you could build either of these encounters:
+豁免失败时受到 3（1d6）点毒素伤害。
 
-- **2 Druids** (450 XP each) and **9 Stirges** (25 XP each), for 1,125 XP total
-- **1 Wight** (700 XP), **1 Warhorse Skeleton** (100 XP), and **6 Skeletons** (50 XP each), for 1,100 XP total
-  **Example 3.** A high-difficulty encounter for six level 15 characters has an XP budget of 7,800 × 6, for a total of 46,800 XP. With that, you could build this encounter:
+只要生物仍处于中毒状态，该毒药造成的伤害就无法通过任何方式治疗。
 
-• **2 Adult Red Dragons** (18,000 XP each) and **2 Fire Giants** (5,000 XP each), for 46,000 XP total
+在成功通过七次针对该毒药的豁免后，生物不再处于中毒状态。
 
-## Troubleshooting
+#### 紫虫毒液（Purple Worm Poison）（2,000 GP）
 
-When creating and running combat encounters, keep the following in mind.
+_创伤型毒药_
 
-### Many Creatures
+受到紫虫毒液影响的生物进行一次 DC 21 体质豁免。
 
-The more creatures in an encounter, the higher the risk that a lucky streak on their part could deal more damage to the characters than you expect. If your encounter includes more than two creatures per character, include fragile creatures that can be defeated quickly. This guideline is especially important for characters of level 1 or 2.
+豁免失败时受到 35（10d6）点毒素伤害，成功时受到一半伤害。
 
-### Adjustments
+#### 蛇毒（Serpent Venom）（200 GP）
 
-A player's absence might warrant removing creatures from an encounter to keep it at the intended difficulty. Also, die rolls and other factors can result in an encounter being easier or harder than intended. You can adjust an encounter on the fly, such as by having creatures flee (making the encounter easier) or adding reinforcements (making the encounter harder).
+_创伤型毒药_
 
-### CR 0 Creatures
+受到蛇毒影响的生物必须成功通过 DC 11 体质豁免。
 
-Creatures that have a CR of 0, particularly ones that are worth 0 XP, should be used sparingly. If you want to include many CR 0 critters in an encounter, use swarms instead.
+豁免失败时受到 10（3d6）点毒素伤害，成功时受到一半伤害。
 
-### Number of Stat Blocks
+#### 蜘蛛毒刺（Spider's Sting）（200 GP）
 
-The best combat encounters often pair one kind of creature with another, such as fire giants paired with hell hounds. Be mindful of the number of stat blocks you need to run the encounter. Referencing more than two or three stat blocks for a single encounter can be daunting, particularly if the creatures are complex.
+_创伤型毒药_
 
-### Powerful Creatures
+受到蜘蛛毒刺影响的生物必须成功通过 DC 13 体质豁免，否则陷入中毒状态 1 小时。
 
-If your combat encounter includes a creature whose CR is higher than the party's level, be aware that such a creature might deal enough damage with a single action to take out one or more characters. For example, an **Ogre** (CR 2) can kill a level 1 Wizard with a single blow.
+如果生物的豁免失败 5 点或更多，则以这种方式中毒期间，同时处于昏迷状态。
 
-### Unusual Features
+如果生物受到伤害，或另一个生物使用动作将其摇醒，它会醒来。
 
-If a monster has a feature that lower-level characters can't easily overcome, consider not adding that monster to an encounter for characters whose level is lower than the monster's Challenge Rating.
+#### 昏沉毒药（Torpor）（600 GP）
+
+_摄入型毒药_
+
+受到昏沉毒药影响的生物必须成功通过 DC 15 体质豁免，否则陷入中毒状态 4d6 小时。
+
+以这种方式中毒期间，该生物的速度减半。
+
+#### 诚实血清（Truth Serum）（150 GP）
+
+_摄入型毒药_
+
+受到诚实血清影响的生物必须成功通过 DC 11 体质豁免，否则陷入中毒状态 1 小时。
+
+中毒生物无法故意传达谎言。
+
+#### 双足飞龙毒液（Wyvern Poison）（1,200 GP）
+
+_创伤型毒药_
+
+受到双足飞龙毒液影响的生物进行一次 DC 14 体质豁免。
+
+豁免失败时受到 24（7d6）点毒素伤害，成功时受到一半伤害。
+
+## 陷阱（Traps）
+
+陷阱应该谨慎使用，否则容易失去其魅力。
+
+一个隐藏陷坑可能是有趣的惊喜，但如果冒险中存在过多陷阱，玩家可能会变得过度谨慎，从而拖慢游戏节奏。
+
+最好的陷阱要么是短暂的干扰，熟练角色可以在短时间内克服；要么是致命谜题，需要快速思考和团队合作才能解决。
+
+无法侦测且无法逃脱的陷阱很少会带来乐趣。
+
+### 陷阱的组成部分（Parts of a Trap）
+
+陷阱说明会在名称之后包含以下部分：
+
+**危险程度与等级（Severity and Levels）。** 陷阱会被标记为针对特定等级角色的烦扰型（Nuisance）或致命型（Deadly）。
+
+烦扰型陷阱不太可能对所示等级的角色造成严重伤害，而致命型陷阱则可能重创这些等级的角色。
+
+**触发条件（Trigger）。** 陷阱通常会在生物进入某个区域或触碰某件物体时触发。
+
+触发条件示例包括踩上压力板、穿过绊线、转动门把，或在锁中使用错误的钥匙。
+
+**持续时间（Duration）。** 某些陷阱具有以轮、分钟或小时表示的持续时间。
+
+另一些陷阱会注明其效果持续到陷阱被摧毁或解除。
+
+如果陷阱的持续时间为瞬发，则其效果立即结算。
+
+如果陷阱在触发后会重置，这一点会在该条目中注明。
+
+否则，陷阱在触发之后会失效。
+
+向等级低于陷阱所示等级范围的角色引入陷阱时应谨慎。
+
+在某一等级范围内只是烦扰的陷阱，对更低等级的角色可能会变得致命。
+
+### 陷阱示例（Example Traps）
+
+以下陷阱按字母顺序列出。
+
+#### 坍塌屋顶（Collapsing Roof）
+
+_致命陷阱（1–4 级）_
+
+**触发条件：** 生物穿过绊线  
+**持续时间：** 瞬发
+
+该陷阱使用一根绊线，使一段不稳定的天花板坍塌。
+
+绊线距离地面 3 英寸，并连接两个脆弱支撑物；当绊线被拉动时，这些支撑物会倒塌。
+
+第一个穿过绊线的生物会使支撑物倒塌，并导致不稳定的天花板区域坍落。
+
+位于该不稳定天花板区域下方的每个生物都必须成功通过 DC 13 敏捷豁免。
+
+豁免失败时受到 11（2d10）点钝击伤害，成功时受到一半伤害。
+
+坍塌产生的瓦砾使陷阱区域变成困难地形。
+
+_侦测与解除（Detect and Disarm）。_ 生物可以执行搜寻动作检查陷阱区域，并进行一次 DC 11 感知（察觉）检定。
+
+检定成功时，发现绊线和不稳定的天花板区域。
+
+一旦发现绊线，就可以轻松将其剪断或绕开，无需属性检定。
+
+_更高等级（At Higher Levels）。_ 你可以通过提高伤害和豁免 DC，使该陷阱适用于更高等级，如下表所示。
+
+| 等级 | 钝击伤害 | 豁免 DC |
+|---|---:|---:|
+| 5–10 | 22（4d10） | 15 |
+| 11–16 | 55（10d10） | 17 |
+| 17–20 | 99（18d10） | 19 |
+
+#### 落网陷阱（Falling Net）
+
+_烦扰型陷阱（1–4 级）_
+
+**触发条件：** 生物穿过绊线  
+**持续时间：** 瞬发
+
+落网陷阱使用一根绊线，释放悬挂在天花板上的一张带重物、10 尺见方的网。
+
+绊线距离地面 3 英寸，并连接两根柱子或两棵树。
+
+第一个穿过绊线的生物会使网落在自己身上。
+
+目标必须成功通过 DC 10 敏捷豁免，否则陷入束缚状态，直到逃脱。
+
+如果目标为巨型或更大体型，则自动成功。
+
+生物可以执行一个动作进行 DC 10 力量（运动）检定；成功时，可以使自己或其触及范围内另一个生物从网中脱离。
+
+_侦测与解除（Detect and Disarm）。_ 生物可以执行搜寻动作检查陷阱区域，并进行一次 DC 11 感知（察觉）检定。
+
+检定成功时，发现绊线和悬挂的网。
+
+一旦发现，绊线可以轻松剪断或绕开，无需属性检定。
+
+_摧毁网（Destroy the Net）。_ 将网的生命值降低至 0，会释放所有被困在其中的生物（网的数据见“冒险装备”）。
+
+_设置陷阱（Set the Trap）。_ 拥有盗贼工具和陷阱所有组成部件——包括一张网——的生物，可以尝试设置落网陷阱。
+
+成功通过 DC 13 敏捷（巧手）检定即可完成。
+
+每次尝试设置该陷阱需要 10 分钟。
+
+_更高等级（At Higher Levels）。_ 你可以通过增加网的重量，使该陷阱适用于更高等级。
+
+这会同时提高豁免 DC 和力量（运动）检定 DC：
+
+- 5–10 级：DC 12
+- 11–16 级：DC 14
+- 17–20 级：DC 16
+
+#### 喷火雕像（Fire-Casting Statue）
+
+_致命陷阱（1–4 级）_
+
+**触发条件：** 生物移动到压力板上  
+**持续时间：** 瞬发；陷阱在下一回合开始时重置
+
+当一个生物在某回合第一次移动到该陷阱的压力板上，或在压力板上开始自己的回合时，附近一座雕像会喷出一个 15 尺锥状区域的魔法火焰。
+
+雕像可以拥有任何外观，例如巨龙或法师。
+
+锥状区域内的每个生物都必须成功通过 DC 15 敏捷豁免。
+
+豁免失败时受到 11（2d10）点火焰伤害，成功时受到一半伤害。
+
+_侦测与解除（Detect and Disarm）。_ *侦测魔法（Detect Magic）*法术会揭示雕像周围的塑能魔法灵光。
+
+距离雕像 5 尺内的生物可以执行搜寻动作检查雕像，并进行一次 DC 10 感知（察觉）检定。
+
+检定成功时，发现雕像上的一个微小刻文。
+
+找到刻文后，角色可以执行研究动作检查它，并进行一次 DC 15 智力（奥秘）检定。
+
+检定成功时，角色判断出该刻文代表“火”。
+
+作为一个动作，角色可以使用锋利工具毁损刻文，从而解除陷阱。
+
+生物也可以执行搜寻动作检查构成压力板的地板区域，并进行一次 DC 15 感知（察觉）检定。
+
+检定成功时，发现压力板。
+
+在压力板下楔入一根铁钉或类似物体，可以防止陷阱触发。
+
+_更高等级（At Higher Levels）。_ 你可以通过提高伤害和效果区域，使该陷阱适用于更高等级，如下表所示。
+
+| 等级 | 火焰伤害 | 效果区域 |
+|---|---:|---|
+| 5–10 | 22（4d10） | 30 尺锥状区域 |
+| 11–16 | 55（10d10） | 60 尺锥状区域 |
+| 17–20 | 99（18d10） | 120 尺锥状区域 |
+
+#### 隐藏陷坑（Hidden Pit）
+
+_烦扰型陷阱（1–4 级）_
+
+**触发条件：** 生物移动到陷坑盖板上  
+**持续时间：** 瞬发
+
+这个 10 尺深的陷坑拥有一块带铰链的盖板，其材质与周围地面完全相同。
+
+当生物移动到盖板上时，盖板会像活板门一样打开，使生物掉入陷坑。
+
+之后盖板会保持打开状态。
+
+掉入陷坑的生物因坠落受到 3（1d6）点钝击伤害。
+
+_侦测与解除（Detect and Disarm）。_ 生物可以执行研究动作检查构成陷坑盖板的地板区域，并进行一次 DC 15 智力（调查）检定。
+
+检定成功时，发现陷坑。
+
+发现陷坑后，可以在盖板与周围地板之间楔入一根铁钉或类似物体，防止盖板打开，从而安全通过。
+
+也可以使用*秘法锁（Arcane Lock）*或类似魔法将盖板锁死。
+
+_逃脱（Escape）。_ 生物需要拥有攀爬速度、攀爬装备，或*蛛行术（Spider Climb）*之类的魔法，才能爬上陷坑光滑的墙壁。
+
+你可以在墙上增加足以作为手点和脚点的裂缝，使陷坑更容易逃脱。
+
+_更高等级（At Higher Levels）。_ 你可以通过增加陷坑深度和伤害，使该陷阱适用于更高等级，如下表所示。
+
+| 等级 | 陷坑深度 | 钝击伤害 |
+|---|---:|---:|
+| 5–10 | 30 尺 | 10（3d6） |
+| 11–16 | 60 尺 | 21（6d6） |
+| 17–20 | 120 尺 | 42（12d6） |
+
+#### 毒镖（Poisoned Darts）
+
+_致命陷阱（1–4 级）_
+
+**触发条件：** 生物移动到压力板上  
+**持续时间：** 瞬发；如果陷阱触发次数少于三次，则在下一回合开始时重置
+
+当生物在某回合第一次移动到该陷阱的压力板上时，毒镖会从嵌在周围墙壁中的管道射出。
+
+这些管道的孔洞可能被灰尘和蛛网遮掩，也可能巧妙隐藏在浅浮雕、壁画或湿壁画中。
+
+位于毒镖飞行路径中的每个生物都必须成功通过 DC 13 敏捷豁免，否则被 1d3 枚毒镖击中，每枚毒镖造成 3（1d6）点毒素伤害。
+
+_侦测与解除（Detect and Disarm）。_ 生物可以执行搜寻动作检查墙壁，并进行一次 DC 15 感知（察觉）检定。
+
+检定成功时，发现孔洞。
+
+使用蜡、布料或碎屑堵住所有孔洞，可以阻止毒镖射出。
+
+生物也可以执行搜寻动作检查构成压力板的地面区域，并进行一次 DC 15 感知（察觉）检定。
+
+检定成功时，发现压力板。
+
+在压力板下楔入铁钉或类似物体，可以防止陷阱触发。
+
+_更高等级（At Higher Levels）。_ 你可以通过提高每枚毒镖的毒素伤害，使该陷阱适用于更高等级：
+
+- 5–10 级：7（2d6）
+- 11–16 级：14（4d6）
+- 17–20 级：24（7d6）
+
+#### 毒针（Poisoned Needle）
+
+_烦扰型陷阱（1–4 级）_
+
+**触发条件：** 生物以不正确方式开启陷阱的锁，或尝试解除陷阱失败  
+**持续时间：** 瞬发
+
+一根毒针隐藏在锁中。
+
+当生物使用正确钥匙以外的任何物体打开这把锁时，毒针会弹出并刺中该生物。
+
+生物进行一次 DC 11 体质豁免。
+
+豁免失败时，生物受到 5（1d10）点毒素伤害，并陷入中毒状态 1 小时。
+
+豁免成功时，生物只受到一半伤害。
+
+_避开（Avoid）。_ 如果使用*敲击术（Knock）*或类似魔法打开锁，陷阱不会触发。
+
+_侦测与解除（Detect and Disarm）。_ 生物可以执行搜寻动作检查设有陷阱的锁，并进行一次 DC 15 感知（察觉）检定。
+
+检定成功时，发现毒针。
+
+发现陷阱后，角色可以执行一个动作尝试解除陷阱。
+
+成功通过 DC 15 敏捷（巧手）检定即可解除。
+
+检定失败时，生物触发陷阱。
+
+_更高等级（At Higher Levels）。_ 你可以通过提高伤害和豁免 DC，使该陷阱适用于更高等级，如下表所示。
+
+| 等级 | 毒素伤害 | 豁免 DC |
+|---|---:|---:|
+| 5–10 | 11（2d10） | 13 |
+| 11–16 | 22（4d10） | 15 |
+| 17–20 | 55（10d10） | 17 |
+
+#### 滚石（Rolling Stone）
+
+_致命陷阱（11–16 级）或烦扰型陷阱（17–20 级）_
+
+**触发条件：** 生物移动到压力板上  
+**持续时间：** 直到石球停止滚动
+
+当一个生物移动到隐藏压力板上时，一个半径 5 尺的实心石球会从秘密隔间中被释放，并开始滚动。
+
+石球与附近所有生物都掷先攻；石球的先攻检定获得 +8 加值。
+
+在自己的回合中，石球朝一个方向移动 60 尺；如果受到障碍物引导，则改变路线。
+
+石球可以穿过生物的空间，而生物也可以穿过石球的空间，并将其视为困难地形。
+
+每当石球在某回合第一次进入一个生物的空间，或一个生物在石球仍在滚动时进入石球的空间，该生物都必须成功通过 DC 15 敏捷豁免，否则受到 55（10d10）点钝击伤害，并陷入倒地状态。
+
+当石球撞上墙壁或类似障碍时会停止滚动。
+
+它无法绕过拐角，但富有创意的地下城建造者会在附近通道中设计弯曲转角，让石球可以继续滚动。
+
+_侦测与解除（Detect and Disarm）。_ 生物可以执行研究动作检查构成压力板的地面区域，并进行一次 DC 15 智力（调查）检定。
+
+检定成功时，推断出压力板的功能。
+
+在压力板下楔入铁钉或类似物体，可以防止陷阱触发。
+
+_摧毁石球（Destroy the Stone）。_ 石球是一个大型物体，拥有 AC 17、100 HP、伤害阈值 10，并免疫毒素和心灵伤害。
+
+_减慢石球（Slow the Stone）。_ 生物可以执行一个动作，尝试通过 DC 20 力量（运动）检定减慢石球。
+
+检定成功时，石球在其回合中的移动距离减少 15 尺。
+
+如果这一距离降至 0，石球停止移动，并且不再构成威胁。
+
+#### 尖刺陷坑（Spiked Pit）
+
+_致命陷阱（1–4 级）_
+
+**触发条件：** 生物移动到陷坑盖板上  
+**持续时间：** 瞬发
+
+一个 10 尺深的陷坑拥有一块带铰链的盖板，其材质与周围地面完全相同。
+
+当生物移动到盖板上时，盖板会像活板门一样打开，使该生物掉入陷坑，而陷坑底部布满削尖的木刺或金属尖刺。
+
+之后盖板会保持打开状态。
+
+掉入陷坑的生物会落到坑底，并因坠落受到 3（1d6）点钝击伤害，同时因尖刺受到 9（2d8）点穿刺伤害。
+
+_侦测与解除（Detect and Disarm）。_ 生物可以执行研究动作检查构成陷坑盖板的地面区域，并进行一次 DC 15 智力（调查）检定。
+
+检定成功时，发现陷坑。
+
+发现隐藏陷坑后，可以在盖板与周围地板之间楔入铁钉或类似物体，防止盖板打开，从而安全通过。
+
+也可以使用*秘法锁*法术或类似魔法将盖板锁死。
+
+_逃脱（Escape）。_ 生物需要拥有攀爬速度、攀爬装备，或*蛛行术*之类的魔法，才能爬上陷坑光滑的墙壁。
+
+你可以在墙上增加足以作为手点和脚点的裂缝，使陷坑更容易逃脱。
+
+_更高等级（At Higher Levels）。_ 你可以通过增加陷坑深度和伤害，使该陷阱适用于更高等级，如下表所示。
+
+| 等级 | 陷坑深度 | 伤害 |
+|---|---:|---|
+| 5–10 | 30 尺 | 10（3d6）钝击 + 13（3d8）穿刺 |
+| 11–16 | 60 尺 | 21（6d6）钝击 + 36（8d8）穿刺 |
+| 17–20 | 120 尺 | 42（12d6）钝击 + 57（13d8）穿刺 |
+
+## 战斗遭遇（Combat Encounters）
+
+以下特征可以让战斗遭遇变得更有趣或更具挑战性：
+
+**高度变化（Changes in Elevation）。** 提供高度变化的地形特征——例如成堆的空木箱、岩架和阳台——会奖励聪明的站位，并鼓励角色跳跃、攀爬、飞行或传送。
+
+**防御位置（Defensive Positions）。** 位于难以抵达地点或防御位置的敌人，会迫使那些通常依赖远程攻击的角色移动。
+
+**混合怪物群体（Mixed Monster Groups）。** 当不同种类的怪物一起行动时，它们可以像不同职业和起源的角色一样组合各自能力。
+
+多样化的敌方力量会更加强大。
+
+**移动的理由（Reasons to Move）。** 使用会鼓励角色和敌人不断移动的场景元素，例如吊灯、装有火药或油的桶，以及滚石陷阱。
+
+### 战斗遭遇难度（Combat Encounter Difficulty）
+
+使用以下指引创建达到期望难度等级的战斗遭遇。
+
+#### 步骤 1：选择难度（Step 1: Choose a Difficulty）
+
+以下三个类别描述遭遇难度的范围：
+
+**低难度（Low Difficulty）。** 低难度遭遇可能会让玩家经历一两个紧张时刻，但他们的角色应该能够在没有伤亡的情况下获胜。
+
+不过，其中一名或多名角色可能需要消耗治疗资源。
+
+作为粗略指引，对于由四名角色组成的队伍，单个怪物如果其挑战等级等于角色等级，通常属于低难度挑战。
+
+**中等难度（Moderate Difficulty）。** 如果缺少治疗和其他资源，中等难度遭遇可能会让冒险者陷入糟糕处境。
+
+较脆弱的角色可能会被暂时打出战斗，并且存在很小的可能性会有一名或多名角色死亡。
+
+**高难度（High Difficulty）。** 高难度遭遇可能会使一名或多名角色死亡。
+
+要活下来，角色需要聪明的战术、快速思考，或许还需要一点运气。
+
+#### 步骤 2：确定 XP 预算（Step 2: Determine Your XP Budget）
+
+使用“每名角色的 XP 预算”表，将队伍等级与期望的遭遇难度进行交叉查找。
+
+将表中的数值乘以队伍中的角色人数，即得到本次遭遇的 XP 预算。
+
+**每名角色的 XP 预算（XP Budget per Character）**
+
+| 队伍等级 | 低难度 | 中等难度 | 高难度 |
+|---:|---:|---:|---:|
+| 1 | 50 | 75 | 100 |
+| 2 | 100 | 150 | 200 |
+| 3 | 150 | 225 | 400 |
+| 4 | 250 | 375 | 500 |
+| 5 | 500 | 750 | 1,100 |
+| 6 | 600 | 1,000 | 1,400 |
+| 7 | 750 | 1,300 | 1,700 |
+| 8 | 1,000 | 1,700 | 2,100 |
+| 9 | 1,300 | 2,000 | 2,600 |
+| 10 | 1,600 | 2,300 | 3,100 |
+| 11 | 1,900 | 2,900 | 4,100 |
+| 12 | 2,200 | 3,700 | 4,700 |
+| 13 | 2,600 | 4,200 | 5,400 |
+| 14 | 2,900 | 4,900 | 6,200 |
+| 15 | 3,300 | 5,400 | 7,800 |
+| 16 | 3,800 | 6,100 | 9,800 |
+| 17 | 4,500 | 7,200 | 11,700 |
+| 18 | 5,000 | 8,700 | 14,200 |
+| 19 | 5,500 | 10,700 | 17,200 |
+| 20 | 6,400 | 13,200 | 22,000 |
+
+### 步骤 3：花费预算（Step 3: Spend Your Budget）
+
+每个生物的数据栏中都有一个 XP 数值。
+
+当你把一个生物加入战斗遭遇时，从 XP 预算中扣除该生物的 XP，以确定你还剩多少 XP 可以花费。
+
+在不超过预算的前提下，尽可能花掉更多 XP。
+
+剩下一些未使用的 XP 完全没问题。
+
+以下给出示例：
+
+**示例 1。** 四名 1 级角色的一场低难度遭遇拥有 50 × 4 的 XP 预算，总计 200 XP。
+
+你可以用它构建以下任一遭遇：
+
+- **1 名熊地精战士（Bugbear Warrior）**（200 XP）
+- **2 只巨蜂（Giant Wasp）**（每只 100 XP），总计 200 XP
+- **6 只巨鼠（Giant Rat）**（每只 25 XP），总计 150 XP
+
+**示例 2。** 五名 3 级角色的一场中等难度遭遇拥有 225 × 5 的 XP 预算，总计 1,125 XP。
+
+你可以构建以下任一遭遇：
+
+- **2 名德鲁伊（Druid）**（每名 450 XP）和 **9 只吸血蝙蝠（Stirge）**（每只 25 XP），总计 1,125 XP
+- **1 个尸妖（Wight）**（700 XP）、**1 匹战马骷髅（Warhorse Skeleton）**（100 XP）和 **6 个骷髅（Skeleton）**（每个 50 XP），总计 1,100 XP
+
+**示例 3。** 六名 15 级角色的一场高难度遭遇拥有 7,800 × 6 的 XP 预算，总计 46,800 XP。
+
+你可以构建以下遭遇：
+
+- **2 条成年红龙（Adult Red Dragon）**（每条 18,000 XP）和 **2 个火巨人（Fire Giant）**（每个 5,000 XP），总计 46,000 XP
+
+## 问题处理（Troubleshooting）
+
+创建和运行战斗遭遇时，请记住以下事项。
+
+### 大量生物（Many Creatures）
+
+遭遇中的生物越多，它们凭借一连串幸运掷骰对角色造成超出预期伤害的风险就越高。
+
+如果遭遇中的生物数量超过每名角色两个，应包含一些较脆弱、能够快速被击败的生物。
+
+对于 1 级或 2 级角色而言，这项指引尤其重要。
+
+### 调整（Adjustments）
+
+如果某名玩家缺席，可能需要从遭遇中移除一些生物，以维持原本预期的难度。
+
+此外，骰子结果和其他因素也可能使遭遇比预期更容易或更困难。
+
+你可以在进行中调整遭遇，例如让一些生物逃跑——使遭遇更容易——或加入增援——使遭遇更困难。
+
+### CR 0 生物（CR 0 Creatures）
+
+挑战等级为 0 的生物，尤其是价值 0 XP 的生物，应谨慎使用。
+
+如果你希望在遭遇中加入大量 CR 0 小生物，请改用集群（Swarm）。
+
+### 数据栏数量（Number of Stat Blocks）
+
+最好的战斗遭遇通常会让一种生物与另一种搭配，例如火巨人与地狱犬搭配。
+
+应注意运行遭遇时需要管理多少种数据栏。
+
+在单场遭遇中需要查阅超过两三个数据栏可能会令人难以应付，尤其是在这些生物本身规则较复杂的情况下。
+
+### 强大生物（Powerful Creatures）
+
+如果你的战斗遭遇包含一个 CR 高于队伍等级的生物，要注意这种生物可能只用一个动作就能造成足以击倒一名或多名角色的伤害。
+
+例如，一只**食人魔（Ogre）**（CR 2）可以一击杀死一名 1 级法师。
+
+### 异常特性（Unusual Features）
+
+如果某个怪物拥有低等级角色难以应对的特性，应考虑不要把该怪物加入等级低于其挑战等级的角色所面对的遭遇中。

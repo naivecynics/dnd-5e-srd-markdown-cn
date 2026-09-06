@@ -1,1269 +1,1323 @@
-# Playing the Game
+# 进行游戏（Playing the Game）
 
-## Rhythm of Play
+## 游戏节奏（Rhythm of Play）
 
-The three main pillars of D&D play are social interaction, exploration, and combat. Whichever one you're experiencing, the game unfolds according to this basic pattern:
+D&D 游戏的三大主要支柱是社交互动（Social Interaction）、探索（Exploration）和战斗（Combat）。无论你正在经历其中哪一种，游戏都会按照以下基本模式展开：
 
-**1: The Game Master Describes a Scene.** The GM tells the players where their adventurers are and what's around them (how many doors lead out of a room, what's on a table, and so on).
+**1：游戏主持人描述场景。** GM 告诉玩家他们的冒险者身在何处，以及周围有什么（例如，一个房间有多少扇门通向外面、桌子上有什么，等等）。
 
-**2: The Players Describe What Their Characters Do.** Typically, the characters stick together as they travel through a dungeon or another environment. Sometimes different adventurers do different things: one adventurer might search a treasure chest while a second examines a mysterious symbol engraved on a wall and a third keeps watch for monsters. Outside combat, the GM ensures that every character has a chance to act and decides how to resolve their activity. In combat, the characters take turns.
+**2：玩家描述他们的角色做什么。** 通常，角色们在穿越地下城或其他环境时会一起行动。有时，不同的冒险者会做不同的事：一名冒险者可能搜索宝箱，第二名冒险者检查墙上刻着的神秘符号，而第三名冒险者则警戒怪物。在战斗之外，GM 确保每个角色都有采取行动的机会，并决定如何处理他们的活动。在战斗中，各角色轮流行动。
 
-**3: The GM Narrates the Results of the Adventurers' Actions.** Sometimes resolving a task is easy. If an adventurer walks across a room and tries to open a door, the GM might say the door opens and describe what lies beyond. But the door might be locked, the floor might hide a trap, or some other circumstance might make it challenging for an adventurer to complete a task. In those cases, the GM might ask the player to roll a die to help determine what happens. Describing the results often leads to another decision point, which brings the game back to step 1.
+**3：GM 叙述冒险者行动的结果。** 有时，一项任务很容易解决。如果一名冒险者穿过房间并试图打开一扇门，GM 可能会说门打开了，并描述门后有什么。但那扇门可能上了锁，地板下可能藏着陷阱，或其他情况可能使冒险者难以完成任务。在这些情况下，GM 可能会要求玩家掷骰，以帮助决定发生什么。对结果的描述通常会引出另一个需要做出决定的节点，于是游戏重新回到步骤 1。
 
-This pattern holds during every game session (each time you sit down to play D&D), whether the adventurers are talking to a noble, exploring a ruin, or fighting a dragon. In certain situations—particularly combat—the action is more structured, and everyone takes turns.
+这一模式适用于每次游戏聚会——也就是每次你坐下来玩 D&D 时——无论冒险者是在与贵族交谈、探索废墟，还是与巨龙战斗。在某些情况下，尤其是在战斗中，行动会更加结构化，并且所有人轮流行动。
 
-## The Six Abilities
+## 六项属性（The Six Abilities）
 
-All creatures—characters and monsters—have six abilities that measure physical and mental characteristics, as shown on the Ability Descriptions table.
+所有生物——角色和怪物——都拥有六项属性，用来衡量其身体和心智特征，如“属性说明”表所示。
 
-**Ability Descriptions**
+**属性说明（Ability Descriptions）**
 
-<table>
-  <thead>
-    <tr>
-      <th>Ability</th>
-      <th>Score Measures …</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Strength</td>
-      <td>Physical might</td>
-    </tr>
-    <tr>
-      <td>Dexterity</td>
-      <td>Agility, reflexes, and balance</td>
-    </tr>
-    <tr>
-      <td>Constitution</td>
-      <td>Health and stamina</td>
-    </tr>
-    <tr>
-      <td>Intelligence</td>
-      <td>Reasoning and memory</td>
-    </tr>
-    <tr>
-      <td>Wisdom</td>
-      <td>Perceptiveness and mental fortitude</td>
-    </tr>
-    <tr>
-      <td>Charisma</td>
-      <td>Confidence, poise, and charm</td>
-    </tr>
-  </tbody>
-</table>
+| 属性 | 属性值衡量…… |
+|---|---|
+| 力量（Strength） | 肉体力量 |
+| 敏捷（Dexterity） | 灵活性、反应速度和平衡 |
+| 体质（Constitution） | 健康与耐力 |
+| 智力（Intelligence） | 推理能力与记忆力 |
+| 感知（Wisdom） | 洞察力与精神韧性 |
+| 魅力（Charisma） | 自信、从容与个人魅力 |
 
-### Ability Scores
+### 属性值（Ability Scores）
 
-Each ability has a score from 1 to 20, although some monsters have a score as high as 30. The score represents the magnitude of an ability. The Ability Scores table summarizes what the scores mean.
+每项属性都有一个 1 到 20 的数值，不过某些怪物的属性值可以高达 30。属性值表示该项能力的强弱程度。“属性值”表概括了这些数值所代表的含义。
 
-**Ability Scores**
+**属性值（Ability Scores）**
 
-<table>
-  <thead>
-    <tr>
-      <th>Score</th>
-      <th>Meaning</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>This is the lowest a score can normally go. If an effect reduces a score to 0, that effect explains what happens.</td>
-    </tr>
-    <tr>
-      <td>2–9</td>
-      <td>This represents a weak capability.</td>
-    </tr>
-    <tr>
-      <td>10–11</td>
-      <td>This represents the human average.</td>
-    </tr>
-    <tr>
-      <td>12–19</td>
-      <td>This represents a strong capability.</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>This is the highest an adventurer's score can go unless a feature says otherwise.</td>
-    </tr>
-    <tr>
-      <td>21–29</td>
-      <td>This represents an extraordinary capability.</td>
-    </tr>
-    <tr>
-      <td>30</td>
-      <td>This is the highest a score can go.</td>
-    </tr>
-  </tbody>
-</table>
+| 数值 | 含义 |
+|---:|---|
+| 1 | 这是属性值通常能够降低到的最低值。如果某项效果将属性值降低至 0，该效果会说明会发生什么。 |
+| 2–9 | 代表较弱的能力。 |
+| 10–11 | 代表人类的平均水平。 |
+| 12–19 | 代表较强的能力。 |
+| 20 | 除非某项特性另有说明，否则这是冒险者属性值能够达到的最高值。 |
+| 21–29 | 代表非凡的能力。 |
+| 30 | 这是属性值能够达到的最高值。 |
 
-### Ability Modifiers
+### 属性调整值（Ability Modifiers）
 
-Each ability has a modifier that you apply whenever you make a D20 Test with that ability (explained in "D20 Tests"). An ability modifier is derived from its score, as shown in the Ability Modifiers table.
+每项属性都有一个调整值，每当你使用该属性进行 D20 检定时，就会应用这个调整值（见后文“D20 检定”）。属性调整值根据属性值计算，如“属性调整值”表所示。
 
-> **EXCEPTIONS SUPERSEDE GENERAL RULES**
+> **例外优先于通用规则（EXCEPTIONS SUPERSEDE GENERAL RULES）**
 >
-> General rules govern each part of the game. For example, the combat rules tell you that melee attacks use Strength and ranged attacks use Dexterity. That's a general rule, and a general rule is in effect as long as something in the game doesn't explicitly say otherwise.
+> 通用规则支配游戏中的各个部分。例如，战斗规则告诉你，近战攻击使用力量，而远程攻击使用敏捷。这是一条通用规则，只要游戏中的其他内容没有明确说明例外，它就始终有效。
 >
-> The game also includes elements—class features, feats, weapon properties, spells, magic items, monster abilities, and the like—that sometimes contradict a general rule. When an exception and a general rule disagree, the exception wins. For example, if a feature says you can make melee attacks using your Charisma, you can do so, even though that statement disagrees with the general rule.
+> 游戏中还包括各种元素——职业特性、专长、武器属性、法术、魔法物品、怪物能力等等——它们有时会与通用规则相冲突。当例外规则与通用规则发生冲突时，以例外规则为准。例如，如果某项特性说明你可以使用魅力进行近战攻击，那么你就可以这样做，即使这与通用规则不符。
 
-> **ROUND DOWN**
+> **向下取整（ROUND DOWN）**
 >
-> Whenever you divide or multiply a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater. Some rules make an exception and tell you to round up.
+> 每当你在游戏中对一个数字进行除法或乘法，并得到一个分数时，都向下取整，即使这个分数等于或大于二分之一。某些规则会作为例外明确要求你向上取整。
 
-**Ability Modifiers**
+**属性调整值（Ability Modifiers）**
 
-<table>
-  <thead>
-    <tr>
-      <th>Score</th>
-      <th>Modifier</th>
-      <th>Score</th>
-      <th>Modifier</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>−5</td>
-      <td>16–17</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td>2–3</td>
-      <td>−4</td>
-      <td>18–19</td>
-      <td>+4</td>
-    </tr>
-    <tr>
-      <td>4–5</td>
-      <td>−3</td>
-      <td>20–21</td>
-      <td>+5</td>
-    </tr>
-    <tr>
-      <td>6–7</td>
-      <td>−2</td>
-      <td>22–23</td>
-      <td>+6</td>
-    </tr>
-    <tr>
-      <td>8–9</td>
-      <td>−1</td>
-      <td>24–25</td>
-      <td>+7</td>
-    </tr>
-    <tr>
-      <td>10–11</td>
-      <td>+0</td>
-      <td>26–27</td>
-      <td>+8</td>
-    </tr>
-    <tr>
-      <td>12–13</td>
-      <td>+1</td>
-      <td>28–29</td>
-      <td>+9</td>
-    </tr>
-    <tr>
-      <td>14–15</td>
-      <td>+2</td>
-      <td>30</td>
-      <td>+10</td>
-    </tr>
-  </tbody>
-</table>
+| 属性值 | 调整值 | 属性值 | 调整值 |
+|---:|---:|---:|---:|
+| 1 | −5 | 16–17 | +3 |
+| 2–3 | −4 | 18–19 | +4 |
+| 4–5 | −3 | 20–21 | +5 |
+| 6–7 | −2 | 22–23 | +6 |
+| 8–9 | −1 | 24–25 | +7 |
+| 10–11 | +0 | 26–27 | +8 |
+| 12–13 | +1 | 28–29 | +9 |
+| 14–15 | +2 | 30 | +10 |
 
-## D20 Tests
+## D20 检定（D20 Tests）
 
-When the outcome of an action is uncertain, the game uses a d20 roll to determine success or failure. These rolls are called D20 Tests, and they come in three kinds: ability checks, saving throws, and attack rolls. They follow these steps:
+当一个行动的结果不确定时，游戏会使用一次 d20 掷骰来决定成功或失败。这些掷骰称为 D20 检定，共有三种：属性检定、豁免检定和攻击检定。它们遵循以下步骤：
 
-**4: Roll 1d20.** You always want to roll high. If the roll has Advantage or Disadvantage (described later in "Playing the Game"), you roll two d20s, but you use the number from only one of them—the higher one if you have Advantage or the lower one if you have Disadvantage.
+**4：掷 1d20。** 你总是希望掷得越高越好。如果该掷骰具有优势或劣势（见本章后文），你掷两个 d20，但只采用其中一个结果——拥有优势时取较高者，拥有劣势时取较低者。
 
-**5: Add Modifiers.** Add these modifiers to the number rolled on the d20:
+**5：加入调整值。** 将以下调整值加入 d20 的结果：
 
-- **The Relevant Ability Modifier.** "Playing the Game" and "Rules Glossary" explain which ability modifiers to use for various D20 Tests.
-- **Your Proficiency Bonus If Relevant.** Each creature has a Proficiency Bonus, a number added when making a D20 Test that uses something, such as a skill, in which the creature has proficiency. See "Proficiency" later in "Playing the Game."
-- **Circumstantial Bonuses and Penalties.** A class feature, a spell, or another rule might give a bonus or penalty to the die roll.
+- **相关属性调整值。** “进行游戏”和“规则术语表”会说明各种 D20 检定应该使用哪项属性调整值。
+- **若适用，加入你的熟练加值。** 每个生物都有熟练加值。当生物进行一项涉及其熟练事物——例如某项技能——的 D20 检定时，会加入这个数值。详见本章后文“熟练”。
+- **情境加值与减值。** 职业特性、法术或其他规则可能会给予掷骰加值或减值。
 
-**6: Compare the Total to a Target Number.** If the total of the d20 and its modifiers equals or exceeds the target number, the D20 Test succeeds. Otherwise, it fails. The Game Master determines target numbers and tells players whether their rolls are successful. The target number for an ability check or a saving throw is called a Difficulty Class (DC). The target number for an attack roll is called an Armor Class (AC), which appears on a character sheet or in a stat block (see "Rules Glossary").
+**6：将总值与目标数字比较。** 如果 d20 的结果加上所有调整值后等于或高于目标数字，则 D20 检定成功。否则，检定失败。游戏主持人决定目标数字，并告诉玩家其掷骰是否成功。属性检定或豁免检定的目标数字称为难度等级（Difficulty Class，DC）。攻击检定的目标数字称为护甲等级（Armor Class，AC），它会出现在角色卡或数据栏中（见“规则术语表”）。
 
-### Ability Checks
+### 属性检定（Ability Checks）
 
-An ability check represents a creature using talent and training to try to overcome a challenge, such as forcing open a stuck door, picking a lock, entertaining a crowd, or deciphering a cipher. The GM and the rules often call for an ability check when a creature attempts something other than an attack that has a chance of meaningful failure. When the outcome is uncertain and narratively interesting, the dice determine the result.
+属性检定代表一个生物运用天赋和训练尝试克服挑战，例如强行打开卡住的门、撬锁、娱乐人群或破解密码。当一个生物尝试一件并非攻击、且存在具有实际意义的失败可能性的事情时，GM 和规则通常会要求进行属性检定。当结果既不确定又在叙事上有意义时，由骰子决定结果。
 
-#### Ability Modifier
+#### 属性调整值（Ability Modifier）
 
-An ability check is named for the ability modifier it uses: a Strength check, an Intelligence check, and so on. Different ability checks are called for in different situations, depending on which ability is most relevant. See the Ability Check Examples table for examples of each check's use.
+属性检定以其使用的属性调整值命名，例如力量检定、智力检定等等。不同情境会要求不同的属性检定，具体取决于哪项属性最相关。“属性检定示例”表列出了各类检定的使用示例。
 
-**Ability Check Examples**
+**属性检定示例（Ability Check Examples）**
 
-<table>
-  <thead>
-    <tr>
-      <th>Ability</th>
-      <th>Make a Check To …</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Strength</td>
-      <td>Lift, push, pull, or break something</td>
-    </tr>
-    <tr>
-      <td>Dexterity</td>
-      <td>Move nimbly, quickly, or quietly</td>
-    </tr>
-    <tr>
-      <td>Constitution</td>
-      <td>Push your body beyond normal limits</td>
-    </tr>
-    <tr>
-      <td>Intelligence</td>
-      <td>Reason or remember</td>
-    </tr>
-    <tr>
-      <td>Wisdom</td>
-      <td>Notice things in the environment or in creatures' behavior</td>
-    </tr>
-    <tr>
-      <td>Charisma</td>
-      <td>Influence, entertain, or deceive</td>
-    </tr>
-  </tbody>
-</table>
+| 属性 | 进行检定以…… |
+|---|---|
+| 力量 | 举起、推动、拉动或破坏某物 |
+| 敏捷 | 灵活、快速或安静地移动 |
+| 体质 | 让身体突破正常极限 |
+| 智力 | 推理或回忆 |
+| 感知 | 注意环境中的事物或生物的行为 |
+| 魅力 | 影响、娱乐或欺骗他人 |
 
-#### Proficiency Bonus
+#### 熟练加值（Proficiency Bonus）
 
-Add your Proficiency Bonus to an ability check when the GM determines that a skill or tool proficiency is relevant to the check and you have that proficiency. For example, if a rule refers to a Strength (Acrobatics or Athletics) check, you can add your Proficiency Bonus to the check if you have proficiency in the Acrobatics or Athletics skill. See "Proficiency" later in "Playing the Game" for more information about skill and tool proficiencies.
+如果 GM 判定某项技能或工具熟练与该属性检定相关，而且你拥有对应熟练，则将你的熟练加值加入属性检定。
 
-#### Difficulty Class
+例如，如果一条规则要求你进行力量（特技或运动）检定，而你熟练特技或运动技能，那么你可以将熟练加值加入该检定。
 
-The Difficulty Class of an ability check represents the task's difficulty. The more difficult the task, the higher its DC. The rules provide DCs for certain checks, but the GM ultimately sets them. The Typical Difficulty Classes table presents a range of possible DCs for ability checks.
+关于技能和工具熟练的更多信息，见本章后文“熟练”。
 
-**Typical Difficulty Classes**
+#### 难度等级（Difficulty Class）
 
-<table>
-  <thead>
-    <tr>
-      <th>Task Difficulty</th>
-      <th>DC</th>
-      <th>Task Difficulty</th>
-      <th>DC</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Very easy</td>
-      <td>5</td>
-      <td>Very hard</td>
-      <td>25</td>
-    </tr>
-    <tr>
-      <td>Easy</td>
-      <td>10</td>
-      <td>Nearly impossible</td>
-      <td>30</td>
-    </tr>
-    <tr>
-      <td>Medium</td>
-      <td>15</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Hard</td>
-      <td>20</td>
-      <td colspan="2"></td>
-    </tr>
-  </tbody>
-</table>
+属性检定的难度等级代表任务的困难程度。任务越困难，其 DC 越高。
 
-### Saving Throws
+规则会为某些检定提供 DC，但最终由 GM 设定。“典型难度等级”表列出了一系列可能用于属性检定的 DC。
 
-A saving throw—also called a save—represents an attempt to evade or resist a threat, such as a fiery explosion, a blast of poisonous gas, or a spell trying to invade your mind. You don't normally choose to make a save; you must make one because your character or a monster (if you're the GM) is at risk. A save's result is detailed in the effect that caused it.
+**典型难度等级（Typical Difficulty Classes）**
 
-If you don't want to resist the effect, you can choose to fail the save without rolling.
+| 任务难度 | DC | 任务难度 | DC |
+|---|---:|---|---:|
+| 非常容易 | 5 | 非常困难 | 25 |
+| 容易 | 10 | 几乎不可能 | 30 |
+| 中等 | 15 |  |  |
+| 困难 | 20 |  |  |
 
-#### Ability Modifier
+### 豁免检定（Saving Throws）
 
-Saving throws are named for the ability modifiers they use: a Constitution saving throw, a Wisdom saving throw, and so on. Different saving throws are used to resist different kinds of effects, as shown on the Saving Throw Examples table.
+豁免检定——也称豁免（Save）——代表试图躲避或抵抗某种威胁，例如炽烈爆炸、有毒气体冲击，或试图侵入你心智的法术。
 
-**Saving Throw Examples**
+通常你不会主动选择进行豁免；你必须进行豁免，是因为你的角色或一个怪物——如果你是 GM——正处于危险之中。
 
-<table>
-  <thead>
-    <tr>
-      <th>Ability</th>
-      <th>Make a Save To …</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Strength</td>
-      <td>Physically resist direct force</td>
-    </tr>
-    <tr>
-      <td>Dexterity</td>
-      <td>Dodge out of harm's way</td>
-    </tr>
-    <tr>
-      <td>Constitution</td>
-      <td>Endure a toxic hazard</td>
-    </tr>
-    <tr>
-      <td>Intelligence</td>
-      <td>Recognize an illusion as fake</td>
-    </tr>
-    <tr>
-      <td>Wisdom</td>
-      <td>Resist a mental assault</td>
-    </tr>
-    <tr>
-      <td>Charisma</td>
-      <td>Assert your identity</td>
-    </tr>
-  </tbody>
-</table>
+豁免结果的具体影响由触发它的效果说明决定。
 
-#### Proficiency Bonus
+如果你不想抵抗该效果，可以选择不掷骰，直接使豁免失败。
 
-You add your Proficiency Bonus to your saving throw if you have proficiency in that kind of save. See "Proficiency" later in "Playing the Game."
+#### 属性调整值（Ability Modifier）
 
-#### Difficulty Class
+豁免检定以其使用的属性调整值命名，例如体质豁免、感知豁免等等。不同种类的豁免用于抵抗不同类型的效果，如“豁免检定示例”表所示。
 
-The Difficulty Class for a saving throw is determined by the effect that causes it or by the GM. For example, if a spell forces you to make a save, the DC is determined by the caster's spellcasting ability and Proficiency Bonus. Monster abilities that call for saves specify the DC.
+**豁免检定示例（Saving Throw Examples）**
 
-### Attack Rolls
+| 属性 | 进行豁免以…… |
+|---|---|
+| 力量 | 以身体力量抵抗直接作用力 |
+| 敏捷 | 闪避危险 |
+| 体质 | 承受有毒危害 |
+| 智力 | 识破幻象是虚假的 |
+| 感知 | 抵抗精神攻击 |
+| 魅力 | 坚持自身身份与存在 |
 
-An attack roll determines whether an attack hits a target. An attack roll hits if the roll equals or exceeds the target's Armor Class. Attack rolls usually occur in battle, described in "Combat" later in "Playing the Game," but the GM might also ask for an attack roll in other situations, such as an archery competition.
+#### 熟练加值（Proficiency Bonus）
 
-#### Ability Modifier
+如果你拥有该类豁免的熟练，则将熟练加值加入该豁免检定。
 
-The Attack Roll Abilities table shows which ability modifier to use for different types of attack rolls.
+见本章后文“熟练”。
 
-**Attack Roll Abilities**
+#### 难度等级（Difficulty Class）
 
-<table>
-  <thead>
-    <tr>
-      <th>Ability</th>
-      <th>Attack Type</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Strength</td>
-      <td>Melee attack with a weapon or an Unarmed Strike (see Rules Glossary)</td>
-    </tr>
-    <tr>
-      <td>Dexterity</td>
-      <td>Ranged attack with a weapon</td>
-    </tr>
-    <tr>
-      <td>Varies</td>
-      <td>Spell attack (the ability used is determined by the spellcaster's spellcasting feature, as explained in Spells)</td>
-    </tr>
-  </tbody>
-</table>
+豁免检定的难度等级由触发豁免的效果或 GM 决定。
 
-Some features let you use different ability modifiers from those listed. For example, the Finesse property (see "Equipment") lets you use Strength or Dexterity with a weapon that has that property.
+例如，如果一个法术迫使你进行豁免，其 DC 由施法者的施法属性和熟练加值决定。
 
-#### Proficiency Bonus
+要求进行豁免的怪物能力会注明其 DC。
 
-You add your Proficiency Bonus to your attack roll when you attack using a weapon you have proficiency with, as well as when you attack with a spell. See "Proficiency" later in "Playing the Game" for more information about weapon proficiencies.
+### 攻击检定（Attack Rolls）
 
-#### Armor Class
+攻击检定决定攻击是否命中目标。如果攻击检定的结果等于或高于目标的护甲等级，则攻击命中。
 
-A creature's Armor Class represents how well the creature avoids being wounded in combat. The AC of a character is determined at character creation (see "Character Creation"), whereas the AC of a monster appears in its stat block.
+攻击检定通常发生在战斗中，详见本章后文“战斗”，但 GM 也可能在其他情况下要求攻击检定，例如射箭比赛。
 
-_Calculating AC._ All creatures start with the same base AC calculation:
+#### 属性调整值（Ability Modifier）
 
-**Base AC** = 10 + the creature's Dexterity modifier
+“攻击检定属性”表说明不同类型攻击检定应使用哪项属性调整值。
 
-A creature's AC can then be modified by armor, magic items, spells, and more.
+**攻击检定属性（Attack Roll Abilities）**
 
-_Only One Base AC._ Some spells and class features give characters a different way to calculate their AC. A character with multiple features that give different ways to calculate AC must choose which one to use; only one base calculation can be in effect for a creature.
+| 属性 | 攻击类型 |
+|---|---|
+| 力量 | 使用武器或徒手打击进行近战攻击（见“规则术语表”） |
+| 敏捷 | 使用武器进行远程攻击 |
+| 视情况而定 | 法术攻击（使用哪项属性由施法者的施法特性决定，详见“法术”） |
 
-#### Rolling 20 or 1
+某些特性允许你使用与表中不同的属性调整值。
 
-If you roll a 20 on the d20 (called a "natural 20") for an attack roll, the attack hits regardless of any modifiers or the target's AC. This is called a Critical Hit (see "Combat" later in "Playing the Game").
+例如，灵巧（Finesse）属性（见“装备”）允许你在使用具有该属性的武器时选择力量或敏捷。
 
-If you roll a 1 on the d20 (a "natural 1") for an attack roll, the attack misses regardless of any modifiers or the target's AC.
+#### 熟练加值（Proficiency Bonus）
 
-### Advantage/Disadvantage
+当你使用自己熟练的武器发动攻击时，将熟练加值加入攻击检定；使用法术发动攻击时也一样。
 
-Sometimes a D20 Test is modified by Advantage or Disadvantage. Advantage reflects the positive circumstances surrounding a d20 roll, while Disadvantage reflects negative circumstances.
+有关武器熟练的更多信息，见本章后文“熟练”。
 
-You usually acquire Advantage or Disadvantage through the use of special abilities and actions. The GM can also decide that circumstances grant Advantage or impose Disadvantage.
+#### 护甲等级（Armor Class）
 
-#### Roll Two D20s
+生物的护甲等级代表其在战斗中避免受伤的能力。
 
-When a roll has either Advantage or Disadvantage, roll a second d20 when you make the roll. Use the higher of the two rolls if you have Advantage, and use the lower roll if you have Disadvantage. For example, if you have Disadvantage and roll an 18 and a 3, use the 3. If you instead have Advantage and roll those numbers, use the 18.
+角色的 AC 在角色创建时决定（见“角色创建”），而怪物的 AC 则列在其数据栏中。
 
-#### They Don't Stack
+*计算 AC。* 所有生物都从相同的基础 AC 计算方式开始：
 
-If multiple situations affect a roll and they all grant Advantage on it, you still roll only two d20s. Similarly, if multiple situations impose Disadvantage on a roll, you roll only two d20s.
+**基础 AC = 10 + 生物的敏捷调整值**
 
-If circumstances cause a roll to have both Advantage and Disadvantage, the roll has neither of them, and you roll one d20. This is true even if multiple circumstances impose Disadvantage and only one grants Advantage or vice versa. In such a situation, you have neither Advantage nor Disadvantage.
+之后，生物的 AC 可以受到护甲、魔法物品、法术等因素影响。
 
-#### Interactions with Rerolls
+*只能使用一个基础 AC。* 某些法术和职业特性会为角色提供不同的 AC 计算方式。
 
-When you have Advantage or Disadvantage and something in the game lets you reroll or replace the d20, you can reroll or replace only one die, not both. You choose which one.
+如果一个角色拥有多种不同的 AC 计算方式，则必须选择其中一种；任何生物同一时间只能使用一种基础 AC 计算方式。
 
-For example, if you have Heroic Inspiration (see the sidebar below) and roll a 3 and an 18 on an ability check that has Advantage or Disadvantage, you could expend your Heroic Inspiration to reroll one of those dice, not both of them.
+#### 掷出 20 或 1（Rolling 20 or 1）
 
-> **Heroic Inspiration**
+如果你在攻击检定的 d20 上掷出 20——称为“天然 20（natural 20）”——则无论任何调整值或目标 AC 为何，攻击都会命中。
+
+这称为重击（Critical Hit，见本章后文“战斗”）。
+
+如果你在攻击检定的 d20 上掷出 1——称为“天然 1（natural 1）”——则无论任何调整值或目标 AC 为何，攻击都会失手。
+
+### 优势／劣势（Advantage/Disadvantage）
+
+有时，D20 检定会受到优势或劣势修正。
+
+优势代表围绕一次 d20 掷骰的有利情境，而劣势代表不利情境。
+
+你通常会通过特殊能力和动作获得优势或劣势。GM 也可以裁定环境因素给予优势或施加劣势。
+
+#### 掷两个 D20（Roll Two D20s）
+
+当一次掷骰具有优势或劣势时，进行该掷骰时额外掷一个 d20。
+
+如果你具有优势，则使用两个结果中较高的一个；如果具有劣势，则使用较低的一个。
+
+例如，如果你具有劣势，并掷出 18 和 3，则使用 3。
+
+如果你具有优势并掷出相同结果，则使用 18。
+
+#### 不叠加（They Don't Stack）
+
+如果多个情况同时影响一次掷骰，而且全部给予优势，你依然只掷两个 d20。
+
+同样，如果多个情况都对掷骰施加劣势，你也只掷两个 d20。
+
+如果某些情况令同一次掷骰同时拥有优势和劣势，则两者都不生效，只掷一个 d20。
+
+即使有多个情况施加劣势而只有一个情况给予优势，或者反过来，也是如此。
+
+在这种情况下，你既没有优势，也没有劣势。
+
+#### 与重掷的互动（Interactions with Rerolls）
+
+当你拥有优势或劣势，而游戏中的某个效果允许你重掷或替换 d20 时，你只能重掷或替换其中一个骰子，而不能同时处理两个。
+
+由你选择哪一个。
+
+例如，如果你拥有英雄激励（Heroic Inspiration，见下方提示框），并且在一次具有优势或劣势的属性检定中掷出 3 和 18，你可以消耗英雄激励重掷其中一个骰子，但不能两个都重掷。
+
+> **英雄激励（Heroic Inspiration）**
 >
-> Sometimes the GM or a rule gives you Heroic Inspiration. If you have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll.
+> 有时，GM 或某条规则会给予你英雄激励。如果你拥有英雄激励，可以在掷出任何骰子之后立即消耗它并重掷该骰，而且必须使用新的结果。
 >
-> _Only One at a Time._ You can never have more than one instance of Heroic Inspiration. If something gives you Heroic Inspiration and you already have it, you can give it to a player character in your group who lacks it.
+> *同时只能有一个。* 你绝不能同时拥有超过一个英雄激励。如果某个效果给予你英雄激励，而你已经拥有一个，则可以把新的英雄激励给予队伍中一名没有英雄激励的玩家角色。
 >
-> _Gaining Heroic Inspiration._ Your GM can give you Heroic Inspiration for a variety of reasons. Typically, GMs award it when you do something particularly heroic, in character, or entertaining. It's a reward for making the game more fun for everyone playing.
+> *获得英雄激励。* 你的 GM 可以出于各种原因给予你英雄激励。通常，当你做出特别英勇、符合角色性格或富有娱乐性的行为时，GM 会奖励英雄激励。它是对让游戏对所有参与者来说更加有趣的一种奖励。
 >
-> Other rules might allow your character to gain Heroic Inspiration independent of the GM's decision. For example, Human characters start each day with Heroic Inspiration.
-
-## Proficiency
-
-Characters and monsters are good at various things. Some are skilled with many weapons, while others can use only a few. Some are better at understanding people's motives, and others are better at unlocking the secrets of the multiverse. All creatures have a Proficiency Bonus, which reflects the impact that training has on the creature's capabilities. A character's Proficiency Bonus increases as the character gains levels (described in "Character Creation"). A monster's Proficiency Bonus is based on its Challenge Rating (see "Rules Glossary"). The Proficiency Bonus table shows how the bonus is determined.
-
-This bonus is applied to a D20 Test when the creature has proficiency in a skill, in a saving throw, or with an item that the creature uses to make the D20 Test. The bonus is also used for spell attacks and for calculating the DC of saving throws for spells.
-
-**Proficiency Bonus**
-
-<table>
-  <thead>
-    <tr>
-      <th>Level or CR</th>
-      <th>Bonus</th>
-      <th>Level or CR</th>
-      <th>Bonus</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Up to 4</td>
-      <td>+2</td>
-      <td>17–20</td>
-      <td>+6</td>
-    </tr>
-    <tr>
-      <td>5–8</td>
-      <td>+3</td>
-      <td>21–24</td>
-      <td>+7</td>
-    </tr>
-    <tr>
-      <td>9–12</td>
-      <td>+4</td>
-      <td>25–28</td>
-      <td>+8</td>
-    </tr>
-    <tr>
-      <td>13–16</td>
-      <td>+5</td>
-      <td>29–30</td>
-      <td>+9</td>
-    </tr>
-  </tbody>
-</table>
-
-### The Bonus Doesn't Stack
-
-Your Proficiency Bonus can't be added to a die roll or another number more than once. For example, if a rule allows you to make a Charisma (Deception or Persuasion) check, you add your Proficiency Bonus if you're proficient in either skill, but you don't add it twice if you're proficient in both skills.
-
-Occasionally, a Proficiency Bonus might be multiplied or divided (doubled or halved, for example) before being added. For example, the Expertise feature (see "Rules Glossary") doubles the Proficiency Bonus for certain ability checks. Whenever the bonus is used, it can be multiplied only once and divided only once.
-
-### Skill Proficiencies
-
-Most ability checks involve using a skill, which represents a category of things creatures try to do with an ability check. The descriptions of the actions you take (see "Actions" later in "Playing the Game") specify which skill applies if you make an ability check for that action, and many other rules note when a skill is relevant. The GM has the ultimate say on whether a skill is relevant in a situation.
-
-If a creature is proficient in a skill, the creature applies its Proficiency Bonus to ability checks involving that skill. Without proficiency in a skill, a creature can still make ability checks involving that skill but doesn't add its Proficiency Bonus. For example, if a character tries to climb a cliff, the GM might ask for a Strength (Athletics) check. If the character has Athletics proficiency, the character adds their Proficiency Bonus to the Strength check. If the character lacks that proficiency, they make the check without adding their Proficiency Bonus.
-
-**Skills**
-
-<table>
-  <thead>
-    <tr>
-      <th>Skill</th>
-      <th>Ability</th>
-      <th>Example Uses</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Acrobatics</td>
-      <td>Dexterity</td>
-      <td>Stay on your feet in a tricky situation, or perform an acrobatic stunt.</td>
-    </tr>
-    <tr>
-      <td>Animal Handling</td>
-      <td>Wisdom</td>
-      <td>Calm or train an animal, or get an animal to behave in a certain way.</td>
-    </tr>
-    <tr>
-      <td>Arcana</td>
-      <td>Intelligence</td>
-      <td>Recall lore about spells, magic items, and the planes of existence.</td>
-    </tr>
-    <tr>
-      <td>Athletics</td>
-      <td>Strength</td>
-      <td>Jump farther than normal, stay afloat in rough water, or break something.</td>
-    </tr>
-    <tr>
-      <td>Deception</td>
-      <td>Charisma</td>
-      <td>Tell a convincing lie, or wear a disguise convincingly.</td>
-    </tr>
-    <tr>
-      <td>History</td>
-      <td>Intelligence</td>
-      <td>Recall lore about historical events, people, nations, and cultures.</td>
-    </tr>
-    <tr>
-      <td>Insight</td>
-      <td>Wisdom</td>
-      <td>Discern a person's mood and intentions.</td>
-    </tr>
-    <tr>
-      <td>Intimidation</td>
-      <td>Charisma</td>
-      <td>Awe or threaten someone into doing what you want.</td>
-    </tr>
-    <tr>
-      <td>Investigation</td>
-      <td>Intelligence</td>
-      <td>Find obscure information in books, or deduce how something works.</td>
-    </tr>
-    <tr>
-      <td>Medicine</td>
-      <td>Wisdom</td>
-      <td>Diagnose an illness, or determine what killed the recently slain.</td>
-    </tr>
-    <tr>
-      <td>Nature</td>
-      <td>Intelligence</td>
-      <td>Recall lore about terrain, plants, animals, and weather.</td>
-    </tr>
-    <tr>
-      <td>Perception</td>
-      <td>Wisdom</td>
-      <td>Using a combination of senses, notice something that's easy to miss.</td>
-    </tr>
-    <tr>
-      <td>Performance</td>
-      <td>Charisma</td>
-      <td>Act, tell a story, perform music, or dance.</td>
-    </tr>
-    <tr>
-      <td>Persuasion</td>
-      <td>Charisma</td>
-      <td>Honestly and graciously convince someone of something.</td>
-    </tr>
-    <tr>
-      <td>Religion</td>
-      <td>Intelligence</td>
-      <td>Recall lore about gods, religious rituals, and holy symbols.</td>
-    </tr>
-    <tr>
-      <td>Sleight of Hand</td>
-      <td>Dexterity</td>
-      <td>Pick a pocket, conceal a handheld object, or perform legerdemain.</td>
-    </tr>
-    <tr>
-      <td>Stealth</td>
-      <td>Dexterity</td>
-      <td>Escape notice by moving quietly and hiding behind things.</td>
-    </tr>
-    <tr>
-      <td>Survival</td>
-      <td>Wisdom</td>
-      <td>Follow tracks, forage, find a trail, or avoid natural hazards.</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Skill List
-
-The skills are shown on the Skills table, which notes example uses for each skill proficiency as well as the ability check the skill most often applies to.
-
-#### Determining Skills
-
-A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in its stat block.
-
-### Saving Throw Proficiencies
-
-Proficiency in a saving throw lets a character add their Proficiency Bonus to saves that use a particular ability. For example, proficiency in Wisdom saves lets you add your Proficiency Bonus to your Wisdom saves. Some monsters also have saving throw proficiencies, as noted in their stat blocks.
-
-Each class gives proficiency in at least two saving throws, representing that class's training in evading or resisting certain threats. Wizards, for example, are proficient in Intelligence and Wisdom saves; they train to resist mental assault.
-
-### Equipment Proficiencies
-
-A character gains proficiency with various weapons and tools from their class and background. There are two categories of equipment proficiency:
-
-**Weapons.** Anyone can wield a weapon, but proficiency makes you better at wielding it. If you have proficiency with a weapon, you add your Proficiency Bonus to attack rolls you make with it.
-
-**Tools.** If you have proficiency with a tool, you can add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in the skill that's also used with that check, you have Advantage on the check too. This means you can benefit from both skill proficiency and tool proficiency on the same ability check.
-
-## Actions
-
-When you do something other than moving or communicating, you typically take an action. The Action table lists the game's main actions, which are defined in more detail in "Rules Glossary."
-
-**Actions**
-
-<table>
-  <thead>
-    <tr>
-      <th>Action</th>
-      <th>Summary</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Attack</td>
-      <td>Attack with a weapon or an Unarmed Strike.</td>
-    </tr>
-    <tr>
-      <td>Dash</td>
-      <td>For the rest of the turn, give yourself extra movement equal to your Speed.</td>
-    </tr>
-    <tr>
-      <td>Disengage</td>
-      <td>Your movement doesn't provoke Opportunity Attacks for the rest of the turn.</td>
-    </tr>
-    <tr>
-      <td>Dodge</td>
-      <td>Until the start of your next turn, attack rolls against you have Disadvantage, and you make Dexterity saving throws with Advantage. You lose this benefit if you have the Incapacitated condition or if your Speed is 0.</td>
-    </tr>
-    <tr>
-      <td>Help</td>
-      <td>Help another creature's ability check or attack roll, or administer first aid.</td>
-    </tr>
-    <tr>
-      <td>Hide</td>
-      <td>Make a Dexterity (Stealth) check.</td>
-    </tr>
-    <tr>
-      <td>Influence</td>
-      <td>Make a Charisma (Deception, Intimidation, Performance, or Persuasion) or Wisdom (Animal Handling) check to alter a creature's attitude.</td>
-    </tr>
-    <tr>
-      <td>Magic</td>
-      <td>Cast a spell, use a magic item, or use a magical feature.</td>
-    </tr>
-    <tr>
-      <td>Ready</td>
-      <td>Prepare to take an action in response to a trigger you define.</td>
-    </tr>
-    <tr>
-      <td>Search</td>
-      <td>Make a Wisdom (Insight, Medicine, Perception, or Survival) check.</td>
-    </tr>
-    <tr>
-      <td>Study</td>
-      <td>Make an Intelligence (Arcana, History, Investigation, Nature, or Religion) check.</td>
-    </tr>
-    <tr>
-      <td>Utilize</td>
-      <td>Use a nonmagical object.</td>
-    </tr>
-  </tbody>
-</table>
+> 其他规则也可能让你的角色在不依赖 GM 决定的情况下获得英雄激励。例如，人类角色每天开始时都会拥有英雄激励。
 
-Player characters and monsters can also do things not covered by these actions. Many class features and other abilities provide additional action options, and you can improvise other actions. When you describe an action not detailed elsewhere in the rules, the Game Master tells you whether that action is possible and what kind of D20 Test you need to make, if any.
+## 熟练（Proficiency）
 
-### One Thing at a Time
+角色和怪物各自擅长不同的事。
 
-The game uses actions to govern how much you can do at one time. You can take only one action at a time. This principle is most important in combat, as explained in "Combat" later in "Playing the Game."
+有些生物熟练多种武器，而另一些只能熟练少数几种。
 
-Actions can come up in other situations, too: in a social interaction, you can try to Influence a creature or use the Search action to read the creature's body language, but you can't do both at the same time. And when you're exploring a dungeon, you can't simultaneously use the Search action to look for traps and use the Help action to aid another character who's trying to open a stuck door (with the Utilize action).
+有些擅长理解他人的动机，而另一些则更擅长揭开多元宇宙的秘密。
 
-### Bonus Actions
+所有生物都拥有熟练加值，该数值反映训练对生物能力的影响。
 
-Various class features, spells, and other abilities let you take an additional action on your turn called a Bonus Action. The Cunning Action feature, for example, allows a Rogue to take a Bonus Action. You can take a Bonus Action only when a special ability, a spell, or another feature of the game states that you can do something as a Bonus Action. You otherwise don't have a Bonus Action to take.
+角色的熟练加值会随着等级提高而增加（见“角色创建”）。
 
-You can take only one Bonus Action on your turn, so you must choose which Bonus Action to use if you have more than one available.
+怪物的熟练加值则根据其挑战等级决定（见“规则术语表”）。
 
-You choose when to take a Bonus Action during your turn unless the Bonus Action's timing is specified. Anything that deprives you of your ability to take actions also prevents you from taking a Bonus Action.
+“熟练加值”表说明如何确定该加值。
 
-### Reactions
+当生物进行涉及其熟练技能、熟练豁免，或其用于进行 D20 检定的熟练物品时，会将该加值用于 D20 检定。
 
-Certain special abilities, spells, and situations allow you to take a special action called a Reaction. A Reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The Opportunity Attack, described later in "Playing the Game," is the most common type of Reaction.
+该加值还用于法术攻击，以及计算法术豁免 DC。
 
-When you take a Reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the Reaction.
+**熟练加值（Proficiency Bonus）**
 
-In terms of timing, a Reaction takes place immediately after its trigger unless the Reaction's description says otherwise.
+| 等级或 CR | 加值 | 等级或 CR | 加值 |
+|---:|---:|---:|---:|
+| 最高 4 | +2 | 17–20 | +6 |
+| 5–8 | +3 | 21–24 | +7 |
+| 9–12 | +4 | 25–28 | +8 |
+| 13–16 | +5 | 29–30 | +9 |
 
-## Social Interaction
+### 加值不会叠加（The Bonus Doesn't Stack）
 
-During their adventures, player characters meet many different people and face some monsters that would rather talk than fight. In those situations, it's time for social interaction, which takes many forms. For example, you might try to convince a burglar to confess to wrongdoing or try to flatter a guard. The Game Master assumes the roles of any nonplayer characters who are participating.
+你的熟练加值不能被多次加入同一次掷骰或同一个数值。
 
-An NPC's attitude toward your character is Friendly, Indifferent, or Hostile, as defined in "Rules Glossary." Friendly NPCs are predisposed to help, and Hostile ones are inclined to hinder.
+例如，如果某条规则允许你进行魅力（欺瞒或游说）检定，只要你熟练其中任一技能，就加入熟练加值；即使两项技能你都熟练，也不会加入两次。
 
-Social interactions progress in two ways: through roleplaying and ability checks.
+有时，熟练加值会在加入前被乘或除，例如翻倍或减半。
 
-### Roleplaying
+例如，专精（Expertise，见“规则术语表”）特性会令某些属性检定的熟练加值翻倍。
 
-Roleplaying is, literally, the act of playing out a role. In this case, it's you as a player determining how your character thinks, acts, and talks. Roleplaying is part of every aspect of the game, and it comes to the fore during social interactions.
+每当使用熟练加值时，它最多只能被乘一次，同时最多只能被除一次。
 
-As you roleplay, consider whether you prefer an active approach or a descriptive approach.
+### 技能熟练（Skill Proficiencies）
 
-The GM uses an NPC's personality and your character's actions and attitudes to determine how an
-NPC reacts. A cowardly bandit might buckle under threats of imprisonment. A stubborn merchant refuses to help if the characters badger her. A vain dragon laps up flattery.
+大多数属性检定都会涉及某项技能。
 
-When interacting with an NPC, pay attention to the GM's portrayal of the NPC's personality. You might be able to learn an NPC's goals and then use that information to influence the NPC.
+技能代表生物通过属性检定尝试完成的一类事情。
 
-If you offer NPCs something they want or play on their sympathies, fears, or goals, you can form friendships, ward off violence, or learn a key piece of information. On the other hand, if you insult a proud warrior or speak ill of a noble's allies, your efforts to convince or deceive will likely fail.
+你执行的动作说明（见本章后文“动作”）会说明如果为该动作进行属性检定时适用哪项技能，而许多其他规则也会注明某项技能何时相关。
 
-### Ability Checks
+最终由 GM 决定某项技能在特定情况下是否相关。
 
-Ability checks can be key in determining the outcome of a social interaction. Your roleplaying efforts can alter an NPC's attitude, but there might still be an element of chance if the GM wants dice to play a role in determining an NPC's response to you. In such situations, the GM will typically ask you to take the Influence action.
+如果一个生物熟练某项技能，则进行涉及该技能的属性检定时加入其熟练加值。
 
-Pay attention to your skill proficiencies when thinking of how you will interact with an NPC; use an approach that relies on your group's skill proficiencies. For example, if the group needs to trick a guard into letting them into a castle, the Rogue who is proficient in Deception should lead the discussion.
+即使不熟练某项技能，生物仍然可以进行涉及该技能的属性检定，只是不会加入熟练加值。
 
-## Exploration
+例如，如果一个角色试图攀爬悬崖，GM 可能要求进行力量（运动）检定。
 
-Exploration involves delving into places that are dangerous and full of mystery. The rules in this section detail some of the ways adventurers interact with the environment in such places.
+如果角色熟练运动技能，则将熟练加值加入力量检定。
 
-### Adventuring Equipment
+如果角色没有该熟练，则检定时不加入熟练加值。
 
-As adventurers explore, their equipment can help them in many ways. For example, they can reach out-of-the-way places with a Ladder, perceive things they wouldn't otherwise notice with a Torch or another light source, bypass locked doors and containers with Thieves' Tools, and create obstacles for pursuers with Caltrops.
+**技能（Skills）**
 
-See "Equipment" for rules on many items that are useful on adventures. The items in the "Tools" and "Adventuring Gear" sections are especially useful. The weapons in "Equipment" can also be used for more than battle; you could use a Quarterstaff, for example, to push a sinister-looking button that you're reluctant to touch.
+| 技能 | 属性 | 使用示例 |
+|---|---|---|
+| 特技（Acrobatics） | 敏捷 | 在棘手情况下保持站立，或完成特技动作。 |
+| 驯兽（Animal Handling） | 感知 | 安抚或训练动物，或让动物按特定方式行动。 |
+| 奥秘（Arcana） | 智力 | 回忆有关法术、魔法物品和存在位面的知识。 |
+| 运动（Athletics） | 力量 | 跳得比平常更远、在汹涌水中保持漂浮，或破坏某物。 |
+| 欺瞒（Deception） | 魅力 | 说出令人信服的谎言，或令人信服地进行伪装。 |
+| 历史（History） | 智力 | 回忆有关历史事件、人物、国家和文化的知识。 |
+| 洞悉（Insight） | 感知 | 判断一个人的情绪和意图。 |
+| 威吓（Intimidation） | 魅力 | 震慑或威胁某人，使其按你的意愿行事。 |
+| 调查（Investigation） | 智力 | 在书籍中找到晦涩资料，或推断某物如何运作。 |
+| 医药（Medicine） | 感知 | 诊断疾病，或判断刚刚死亡者的死因。 |
+| 自然（Nature） | 智力 | 回忆有关地形、植物、动物和天气的知识。 |
+| 察觉（Perception） | 感知 | 综合运用感官，注意到容易被忽略的事物。 |
+| 表演（Performance） | 魅力 | 表演戏剧、讲述故事、演奏音乐或跳舞。 |
+| 游说（Persuasion） | 魅力 | 诚实而得体地说服某人接受某件事。 |
+| 宗教（Religion） | 智力 | 回忆有关神祇、宗教仪式和圣徽的知识。 |
+| 巧手（Sleight of Hand） | 敏捷 | 扒窃、藏起手持物品，或表演戏法。 |
+| 隐匿（Stealth） | 敏捷 | 通过安静移动并躲在物体后方来避免被注意。 |
+| 求生（Survival） | 感知 | 追踪足迹、觅食、寻找道路或避开自然危害。 |
 
-### Vision and Light
+#### 技能列表（Skill List）
 
-Some adventuring tasks—such as noticing danger, hitting an enemy, and targeting certain spells—are affected by sight, so effects that obscure vision can hinder you, as explained below.
+所有技能列在“技能”表中，其中注明每项技能熟练的示例用途，以及该技能最常与哪项属性检定相关。
 
-#### Obscured Areas
+#### 决定技能（Determining Skills）
 
-An area might be Lightly or Heavily Obscured. In a Lightly Obscured area—such as an area with Dim Light, patchy fog, or moderate foliage—you have Disadvantage on Wisdom (Perception) checks that rely on sight.
+角色起始时的技能熟练在角色创建过程中决定，而怪物的技能熟练则列于其数据栏中。
 
-A Heavily Obscured area—such as an area with Darkness, heavy fog, or dense foliage—is opaque. You have the Blinded condition (see "Rules Glossary") when trying to see something there.
+### 豁免熟练（Saving Throw Proficiencies）
 
-#### Light
+拥有某类豁免熟练，可以让角色在使用对应属性进行豁免时加入熟练加值。
 
-The presence or absence of light determines the category of illumination in an area, as defined below.
+例如，熟练感知豁免使你可以在感知豁免中加入熟练加值。
 
-**Bright Light.** Bright Light lets most creatures see normally. Even gloomy days provide Bright Light, as do torches, lanterns, fires, and other sources of illumination within a specific radius.
+某些怪物也拥有豁免熟练，这会列在其数据栏中。
 
-**Dim Light.** Dim Light, also called shadows, creates a Lightly Obscured area. An area of Dim Light is usually a boundary between Bright Light and surrounding Darkness. The soft light of twilight and dawn also counts as Dim Light. A full moon might bathe the land in Dim Light.
+每个职业都会给予至少两种豁免熟练，代表该职业在躲避或抵抗某些威胁方面的训练。
 
-**Darkness.** Darkness creates a Heavily Obscured area. Characters face Darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon, or in an area of magical Darkness.
+例如，法师熟练智力和感知豁免；他们接受过抵抗精神攻击的训练。
 
-#### Special Senses
+### 装备熟练（Equipment Proficiencies）
 
-Some creatures have special senses that help them perceive things in certain situations. "Rules Glossary" defines the following special senses:
+角色会从职业和背景中获得各种武器和工具熟练。
 
-- Blindsight
-- Darkvision
-- Tremorsense
-- Truesight
+装备熟练分为两类：
 
-### Hiding
+**武器。** 任何人都可以挥舞武器，但熟练能让你更擅长使用它。
 
-Adventurers and monsters often hide, whether to spy on one another, sneak past a guardian, or set an ambush. The Game Master decides when circumstances are appropriate for hiding. When you try to hide, you take the Hide action.
+如果你熟练某件武器，则使用该武器进行攻击检定时加入你的熟练加值。
 
-### Interacting with Objects
+**工具。** 如果你熟练某件工具，则使用该工具进行任何属性检定时，都可以加入熟练加值。
 
-Interacting with objects is often simple to resolve. The player tells the GM that their character is doing something, such as moving a lever or opening
-a door, and the GM describes what happens. Sometimes, however, rules govern what you can do with an object, as detailed in the following sections.
+如果你同时熟练该检定所使用的技能，则该检定还具有优势。
 
-#### What Is an Object?
+这意味着你可以在同一次属性检定中同时受益于技能熟练和工具熟练。
 
-For the purpose of the rules, an object is a discrete, inanimate item like a window, door, sword, book, table, chair, or stone. It isn't a building or a vehicle, which are composed of many objects.
+## 动作（Actions）
 
-#### Time-Limited Object Interactions
+当你做某件既不是移动也不是交流的事情时，通常需要执行一个动作。
 
-When time is short, such as in combat, interactions with objects are limited: one free interaction per turn. That interaction must occur during a creature's movement or action. Any additional interactions require the Utilize action, as explained in "Combat" later in "Playing the Game."
+“动作”表列出了游戏中的主要动作，这些动作在“规则术语表”中有更详细的定义。
 
-#### Finding Hidden Objects
+**动作（Actions）**
 
-When your character searches for hidden things, such as a secret door or a trap, the GM typically asks you to make a Wisdom (Perception) check, provided you describe the character searching in the hidden object's vicinity. On a success, you find the object, other important details, or both.
+| 动作 | 概述 |
+|---|---|
+| 攻击（Attack） | 使用武器或徒手打击发动攻击。 |
+| 疾走（Dash） | 本回合剩余时间获得等于你速度的额外移动力。 |
+| 撤离（Disengage） | 本回合剩余时间，你的移动不会触发借机攻击。 |
+| 闪避（Dodge） | 直到你的下一回合开始，对你进行的攻击检定具有劣势，而你的敏捷豁免具有优势。如果你处于失能状态或速度为 0，则失去此收益。 |
+| 协助（Help） | 协助另一个生物进行属性检定或攻击检定，或实施急救。 |
+| 躲藏（Hide） | 进行一次敏捷（隐匿）检定。 |
+| 影响（Influence） | 进行魅力（欺瞒、威吓、表演或游说）或感知（驯兽）检定，以改变生物的态度。 |
+| 魔法（Magic） | 施放法术、使用魔法物品或使用魔法特性。 |
+| 准备（Ready） | 准备在你定义的触发条件发生时执行动作。 |
+| 搜寻（Search） | 进行感知（洞悉、医药、察觉或求生）检定。 |
+| 研究（Study） | 进行智力（奥秘、历史、调查、自然或宗教）检定。 |
+| 使用（Utilize） | 使用一个非魔法物体。 |
 
-If you describe your character searching nowhere near a hidden object, a Wisdom (Perception) check won't reveal the object, no matter the check's total.
+玩家角色和怪物还可以进行这些动作之外的事情。
 
-#### Carrying Objects
+许多职业特性和其他能力会提供额外的动作选项，而你也可以即兴采取其他动作。
 
-You can usually carry your gear and treasure without worrying about the weight of those objects. If you try to haul an unusually heavy object or a massive number of lighter objects, the GM might require you to abide by the rules for carrying capacity in "Rules Glossary."
+当你描述一个规则中没有在其他地方明确说明的动作时，游戏主持人会告诉你该动作是否可能，以及需要进行哪种 D20 检定——如果需要的话。
 
-#### Breaking Objects
+### 一次一件事（One Thing at a Time）
 
-As an action, you can automatically break or otherwise destroy a fragile, nonmagical object, such as a glass container or a piece of paper. If you try to damage something more resilient, the GM might use the rules on breaking objects in "Rules Glossary."
+游戏使用动作来管理你在同一时间能做多少事。
 
-> **Marching Order**
+你一次只能执行一个动作。
+
+这一原则在战斗中尤其重要，详见本章后文“战斗”。
+
+动作同样会出现在其他情境中：
+
+在社交互动中，你可以尝试影响一个生物，也可以使用搜寻动作观察其肢体语言，但不能同时做两件事。
+
+当你探索地下城时，也不能一边使用搜寻动作寻找陷阱，一边使用协助动作帮助另一个角色通过使用动作打开一扇卡住的门。
+
+### 附赠动作（Bonus Actions）
+
+各种职业特性、法术和其他能力允许你在自己的回合执行一种额外动作，称为附赠动作。
+
+例如，狡黠动作（Cunning Action）特性允许游荡者执行附赠动作。
+
+只有当某个特殊能力、法术或其他游戏特性明确说明你可以使用附赠动作完成某件事时，你才能执行附赠动作。
+
+否则，你并不存在一个可以自行使用的附赠动作。
+
+你的每个回合只能执行一个附赠动作，因此如果有多个附赠动作可选，必须选择其中一个。
+
+除非某个附赠动作明确规定执行时机，否则你可以自行决定在回合中的什么时候执行。
+
+任何使你失去执行动作能力的效果，也会阻止你执行附赠动作。
+
+### 反应（Reactions）
+
+某些特殊能力、法术和情况允许你执行一种称为反应的特殊动作。
+
+反应是针对某个触发条件的即时回应，可以发生在你的回合或其他人的回合。
+
+借机攻击——见本章后文——是最常见的反应。
+
+一旦执行一个反应，直到你的下一回合开始前，都不能再执行另一个反应。
+
+如果反应打断了另一个生物的回合，则在反应结束后，该生物可以继续自己的回合。
+
+在时机方面，除非反应说明另有规定，否则反应会在触发条件发生后立即执行。
+
+## 社交互动（Social Interaction）
+
+在冒险途中，玩家角色会遇到许多不同的人，也会遇到某些宁愿交谈而非战斗的怪物。
+
+这种情况下，就进入社交互动。
+
+社交互动有许多形式。
+
+例如，你可能试图说服一名窃贼承认罪行，或者试图奉承一名守卫。
+
+游戏主持人负责扮演所有参与其中的非玩家角色。
+
+NPC 对你的角色所持的态度为友善、冷淡或敌对，如“规则术语表”中所定义。
+
+友善 NPC 倾向于提供帮助，而敌对 NPC 则倾向于阻碍你。
+
+社交互动通过两种方式推进：角色扮演和属性检定。
+
+### 角色扮演（Roleplaying）
+
+角色扮演，从字面意义上说，就是扮演一个角色。
+
+在这里，它指你作为玩家决定自己的角色如何思考、行动和说话。
+
+角色扮演贯穿游戏的每个方面，并在社交互动中尤其突出。
+
+进行角色扮演时，可以考虑自己更偏好主动式还是描述式的方式。
+
+GM 会依据 NPC 的个性，以及你的角色的行为和态度，决定 NPC 如何回应。
+
+胆小的强盗可能在监禁威胁下屈服。
+
+固执的商人可能在角色们不断纠缠她时拒绝帮忙。
+
+虚荣的巨龙则可能非常享受奉承。
+
+与 NPC 互动时，留意 GM 对 NPC 个性的演绎。
+
+你可能能够了解 NPC 的目标，并利用这些信息影响对方。
+
+如果你给 NPC 提供他们想要的东西，或利用他们的同情心、恐惧或目标，你可能可以建立友谊、避免暴力，或获得关键信息。
+
+反过来，如果你侮辱一名骄傲的战士，或贬低一位贵族的盟友，你试图说服或欺骗他们的努力很可能会失败。
+
+### 属性检定（Ability Checks）
+
+属性检定可能是决定社交互动结果的关键。
+
+你的角色扮演可能改变 NPC 的态度，但如果 GM 希望骰子参与决定 NPC 如何回应，那么其中仍可能存在一定随机性。
+
+这种情况下，GM 通常会要求你执行影响动作。
+
+思考如何与 NPC 互动时，要留意自己的技能熟练，并采用能够发挥队伍技能熟练优势的方法。
+
+例如，如果队伍需要欺骗一名守卫，让他们进入城堡，那么熟练欺瞒的游荡者应该主导这次交谈。
+
+## 探索（Exploration）
+
+探索意味着深入危险且充满谜团的地方。
+
+本节规则详细说明冒险者在这些地方与环境互动的一些方式。
+
+### 冒险装备（Adventuring Equipment）
+
+冒险者探索时，装备可以从许多方面帮助他们。
+
+例如，他们可以用梯子到达难以抵达的位置，用火把或其他光源看见原本无法注意到的事物，用盗贼工具绕过上锁的门和容器，并用铁蒺藜为追兵制造障碍。
+
+关于许多冒险实用物品的规则，见“装备”。
+
+其中“工具”和“冒险装备”部分的物品尤其有用。
+
+“装备”中的武器也可以用于战斗之外的用途；例如，如果你不愿亲手触碰一个看起来不祥的按钮，可以用长棍去按它。
+
+### 视觉与光照（Vision and Light）
+
+某些冒险任务——例如察觉危险、命中敌人，以及以某些法术指定目标——会受到视觉影响，因此阻碍视线的效果可能妨碍你，具体如下。
+
+#### 遮蔽区域（Obscured Areas）
+
+一个区域可能处于轻度遮蔽或重度遮蔽。
+
+在轻度遮蔽区域中——例如处于微光、零散薄雾或中等密度植物的区域——依赖视觉进行的感知（察觉）检定具有劣势。
+
+重度遮蔽区域——例如黑暗、浓雾或茂密植物覆盖的区域——是不透明的。
+
+当你试图看见其中的事物时，你视为处于目盲状态（见“规则术语表”）。
+
+#### 光照（Light）
+
+一个区域内是否存在光线，决定其照明类别，具体如下。
+
+**明亮光照（Bright Light）。** 明亮光照让大多数生物可以正常视物。
+
+即使阴沉的白天也属于明亮光照，而火把、灯笼、火焰和其他照明源也会在指定半径内提供明亮光照。
+
+**微光（Dim Light）。** 微光也称为阴影，会形成轻度遮蔽区域。
+
+微光区域通常位于明亮光照与周围黑暗的交界处。
+
+黄昏与黎明的柔和光线也属于微光。
+
+满月可能让地面沐浴在微光中。
+
+**黑暗（Darkness）。** 黑暗会形成重度遮蔽区域。
+
+角色会在夜晚的户外——甚至大多数月夜——没有光源的地下城内部，或魔法黑暗区域中面对黑暗。
+
+#### 特殊感官（Special Senses）
+
+某些生物拥有特殊感官，可以帮助它们在特定情况下感知事物。
+
+“规则术语表”定义了以下特殊感官：
+
+- 盲视（Blindsight）
+- 黑暗视觉（Darkvision）
+- 震颤感知（Tremorsense）
+- 真实视觉（Truesight）
+
+### 躲藏（Hiding）
+
+冒险者和怪物经常会隐藏自己，无论是为了互相侦察、偷偷绕过守卫，还是设置伏击。
+
+由游戏主持人判断当前情境是否适合躲藏。
+
+当你尝试隐藏自己时，执行躲藏动作。
+
+### 与物体互动（Interacting with Objects）
+
+与物体互动通常很容易处理。
+
+玩家告诉 GM 自己的角色正在做什么，例如扳动一个操纵杆或打开一扇门，然后 GM 描述发生什么。
+
+不过，有时规则会规定你可以如何使用物体，详见以下部分。
+
+#### 什么是物体？（What Is an Object?）
+
+就规则而言，物体是一个独立、无生命的物件，例如窗户、门、剑、书、桌子、椅子或石块。
+
+建筑物或载具不属于单一物体，因为它们由许多物体组成。
+
+#### 时间受限的物体互动（Time-Limited Object Interactions）
+
+当时间紧迫时，例如战斗中，与物体的互动会受到限制：每回合可以免费互动一次。
+
+这次互动必须发生在生物移动或执行动作期间。
+
+任何额外互动都需要使用使用动作，详见本章后文“战斗”。
+
+#### 找到隐藏物体（Finding Hidden Objects）
+
+当你的角色寻找隐藏事物，例如暗门或陷阱时，只要你描述角色正在隐藏物体附近进行搜索，GM 通常会要求你进行一次感知（察觉）检定。
+
+检定成功时，你会发现该物体、其他重要细节，或两者兼有。
+
+如果你描述自己的角色正在距离隐藏物体很远的地方搜索，那么无论感知（察觉）检定结果多高，都不会发现它。
+
+#### 携带物体（Carrying Objects）
+
+通常，你可以携带自己的装备和财宝，而无需担心这些物品的重量。
+
+如果你试图搬运异常沉重的物体，或数量极其庞大的轻型物品，GM 可能要求你遵守“规则术语表”中的载重能力规则。
+
+#### 破坏物体（Breaking Objects）
+
+作为一个动作，你可以自动打破或以其他方式摧毁一个脆弱的非魔法物体，例如玻璃容器或一张纸。
+
+如果你试图破坏更坚固的东西，GM 可能使用“规则术语表”中的破坏物体规则。
+
+> **行进顺序（Marching Order）**
 >
-> The adventurers should establish a marching order while they travel, whether indoors or outdoors. A marching order makes it easier to determine which characters are affected by traps, which ones can spot hidden enemies, and which ones are the closest to those enemies if a fight breaks out. You can change your marching order outside combat and record the order any way you like: write it down, for example, or arrange miniatures to show it.
-
-### Hazards
-
-Monsters are the main perils characters face, but other dangers await. "Rules Glossary" defines the following hazards:
-
-- Burning
-- Dehydration
-- Falling
-- Malnutrition
-- Suffocation
-
-### Travel
-
-During an adventure, the characters might travel long distances on trips that could take hours or days. The GM can summarize this travel without calculating exact distances or travel times, or the GM might have you use the travel pace rules below.
-
-If you need to know how fast you can move when every second matters, see the movement rules in "Combat" later in "Playing the Game."
-
-#### Travel Pace
-
-While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a Short or Long Rest before they can move at that increased pace again (see "Equipment" for a selection of mounts for sale). "Gameplay Toolbox" has rules that affect which pace you can choose in certain types of terrain.
-
-**Travel Pace**
-
-<table>
-  <thead>
-    <tr>
-      <th>Pace</th>
-      <th>Distance Traveled Per …</th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td></td>
-      <td>Minute</td>
-      <td>Hour</td>
-      <td>Day</td>
-    </tr>
-    <tr>
-      <td>Fast</td>
-      <td>400 feet</td>
-      <td>4 miles</td>
-      <td>30 miles</td>
-    </tr>
-    <tr>
-      <td>Normal</td>
-      <td>300 feet</td>
-      <td>3 miles</td>
-      <td>24 miles</td>
-    </tr>
-    <tr>
-      <td>Slow</td>
-      <td>200 feet</td>
-      <td>2 miles</td>
-      <td>18 miles</td>
-    </tr>
-  </tbody>
-</table>
-
-Each travel pace has a game effect, as defined below.
-
-_Fast._ Traveling at a Fast pace imposes Disadvantage on a traveler's Wisdom (Perception or Survival) and Dexterity (Stealth) checks.
-
-_Normal._ Traveling at a Normal pace imposes Disadvantage on Dexterity (Stealth) checks.
-
-_Slow._ Traveling at a Slow pace grants Advantage on Wisdom (Perception or Survival) checks.
-
-#### Vehicles
-
-Travelers in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, and they don't choose a travel pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day. "Equipment" includes vehicles for sale.
-
-## Combat
-
-Adventurers encounter many dangerous monsters and nefarious villains. In those moments, combat often breaks out.
-
-### The Order of Combat
-
-A typical combat encounter is a clash between two sides: a flurry of weapon swings, feints, parries, footwork, and spellcasting. The game organizes combat into a cycle of rounds and turns. A round represents about 6 seconds in the game world.
-
-During a round, each participant in a battle takes a turn. The order of turns is determined at the beginning of combat when everyone rolls Initiative. Once everyone has taken a turn, the fight continues to the next round if neither side is defeated.
-
-#### Combat Step by Step
-
-Combat unfolds in these steps:
-
-**1: Establish Positions.** The Game Master determines where all the characters and monsters are located. Given the adventurers' marching order or their stated positions in the room or other location, the GM figures out where the adversaries are—how far away and in what direction.
-
-**2: Roll Initiative.** Everyone involved in the combat encounter rolls Initiative, determining the order of combatants' turns.
-
-**3: Take Turns.** Each participant in the battle takes a turn in Initiative order. When everyone involved in the combat has had a turn, the round ends. Repeat this step until the fighting stops.
-
-#### Initiative
-
-Initiative determines the order of turns during combat. When combat starts, every participant rolls Initiative; they make a Dexterity check that determines their place in the Initiative order. The GM rolls for monsters. For a group of identical creatures, the GM makes a single roll, so each member of the group has the same Initiative.
-
-**Surprise.** If a combatant is surprised by combat starting, that combatant has Disadvantage on their Initiative roll. For example, if an ambusher starts combat while hidden from a foe who is unaware that combat is starting, that foe is surprised.
-
-**Initiative Order.** A combatant's check total is called their Initiative count, or Initiative for short. The GM ranks the combatants, from highest to lowest Initiative. This is the order in which they act during each round. The Initiative order remains the same from round to round.
-
-**Ties.** If a tie occurs, the GM decides the order among tied monsters, and the players decide the order among tied characters. The GM decides the order if the tie is between a monster and a player character.
-
-#### Your Turn
-
-On your turn, you can move a distance up to your Speed and take one action. You decide whether to move first or take your action first.
-
-The main actions you can take are listed in "Actions" earlier in "Playing the Game." A character's features and a monster's stat block also provide action options. "Movement and Position" later in "Playing the Game" gives the rules for movement.
-
-**Communicating.** You can communicate however you are able—through brief utterances and gestures—as you take your turn. Doing so uses neither your action nor your move.
-
-Extended communication, such as a detailed explanation of something or an attempt to persuade a foe, requires an action. The Influence action is the main way you try to influence a monster.
-
-**Interacting with Things.** You can interact with one object or feature of the environment for free, during either your move or action. For example, you could open a door during your move as you stride toward a foe.
-
-If you want to interact with a second object, you need to take the Utilize action. Some magic items and other special objects always require an action to use, as stated in their descriptions.
-
-The GM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the GM might require you to take the Utilize action to open a stuck door or turn a crank to lower a drawbridge.
-
-> **Playing on a Grid**
+> 无论在室内还是室外旅行，冒险者都应该确定一个行进顺序。
 >
-> If you play using a square grid and miniatures or other tokens, follow these rules.
+> 行进顺序能更容易判断哪些角色会受到陷阱影响、哪些角色能够发现隐藏敌人，以及如果爆发战斗，哪些角色距离敌人最近。
 >
-> _Squares._ Each square represents 5 feet.
+> 你可以在战斗之外随时改变行进顺序，并可以用任何喜欢的方式记录顺序：例如写下来，或摆放模型来表示。
+
+### 危害（Hazards）
+
+怪物是角色面对的主要危险，但还有其他风险在等待他们。
+
+“规则术语表”定义了以下危害：
+
+- 燃烧（Burning）
+- 脱水（Dehydration）
+- 坠落（Falling）
+- 营养不良（Malnutrition）
+- 窒息（Suffocation）
+
+### 旅行（Travel）
+
+在冒险过程中，角色可能需要进行长距离旅行，这些旅程可能持续数小时或数天。
+
+GM 可以直接概述旅行过程，而不计算精确距离或时间，也可以要求你使用以下旅行步调规则。
+
+如果你需要知道在每秒都很重要的情况下能够移动多快，请参见本章后文“战斗”中的移动规则。
+
+#### 旅行步调（Travel Pace）
+
+在战斗之外旅行时，队伍可以采用快速、正常或缓慢步调，如“旅行步调”表所示。
+
+该表说明队伍在一段时间内能够移动多远。
+
+如果骑乘马匹或其他坐骑，队伍可以在 1 小时内移动两倍距离；此后，这些坐骑必须先完成一次短休或长休，才能再次以这种加速步调移动（可购买的坐骑见“装备”）。
+
+“游戏工具箱”中包含某些地形类型会影响可选步调的规则。
+
+**旅行步调（Travel Pace）**
+
+| 步调 | 每分钟移动 | 每小时移动 | 每日移动 |
+|---|---:|---:|---:|
+| 快速（Fast） | 400 尺 | 4 英里 | 30 英里 |
+| 正常（Normal） | 300 尺 | 3 英里 | 24 英里 |
+| 缓慢（Slow） | 200 尺 | 2 英里 | 18 英里 |
+
+每种旅行步调都会产生一种游戏效果，具体如下。
+
+*快速。* 以快速步调旅行时，旅行者的感知（察觉或求生）以及敏捷（隐匿）检定具有劣势。
+
+*正常。* 以正常步调旅行时，敏捷（隐匿）检定具有劣势。
+
+*缓慢。* 以缓慢步调旅行时，感知（察觉或求生）检定具有优势。
+
+#### 载具（Vehicles）
+
+乘坐马车、四轮马车或其他陆地载具的旅行者正常选择旅行步调。
+
+乘坐水上船只的角色受限于船只本身的速度，不能选择旅行步调。
+
+根据船只和船员数量不同，船只可能每天最多航行 24 小时。
+
+“装备”中列出了可购买的载具。
+
+## 战斗（Combat）
+
+冒险者会遇到许多危险怪物和邪恶反派。
+
+这种时候，经常会爆发战斗。
+
+### 战斗顺序（The Order of Combat）
+
+典型战斗遭遇是两方之间的冲突：武器挥舞、佯攻、格挡、步法和施法交织在一起。
+
+游戏将战斗组织为轮（Round）和回合（Turn）的循环。
+
+一轮在游戏世界中大约代表 6 秒。
+
+每轮中，所有参战者各执行一个回合。
+
+回合顺序在战斗开始时所有人掷先攻后决定。
+
+当所有人都执行完一个回合后，如果双方都还没有被击败，则战斗进入下一轮。
+
+#### 战斗步骤（Combat Step by Step）
+
+战斗按照以下步骤展开：
+
+**1：确定位置。** 游戏主持人决定所有角色和怪物所在的位置。
+
+根据冒险者的行进顺序，或他们此前声明自己在房间或其他地点中的位置，GM 判断敌人在哪里——距离多远、位于什么方向。
+
+**2：掷先攻。** 所有参与战斗遭遇的生物掷先攻，以决定参战者的回合顺序。
+
+**3：执行回合。** 所有参战者按照先攻顺序各执行一个回合。
+
+当所有战斗参与者都完成回合后，本轮结束。
+
+重复这一步骤，直到战斗停止。
+
+#### 先攻（Initiative）
+
+先攻决定战斗中的回合顺序。
+
+战斗开始时，每个参与者都掷先攻；具体而言，他们进行一次敏捷检定，用于决定自己在先攻顺序中的位置。
+
+GM 为怪物掷先攻。
+
+对于一组完全相同的生物，GM 只进行一次掷骰，因此该组所有成员拥有相同先攻。
+
+**突袭（Surprise）。** 如果某个参战者在战斗开始时遭到突袭，则其先攻检定具有劣势。
+
+例如，如果一名伏击者在隐藏状态下发动战斗，而某个敌人完全不知道战斗即将开始，则该敌人受到突袭。
+
+**先攻顺序（Initiative Order）。** 参战者的检定总值称为其先攻值（Initiative count），也简称先攻。
+
+GM 按照先攻从高到低排列所有参战者。
+
+这就是他们在每一轮中的行动顺序。
+
+先攻顺序在各轮之间保持不变。
+
+**平手（Ties）。** 如果出现平手，GM 决定平手怪物之间的顺序，而玩家决定平手角色之间的顺序。
+
+如果平手发生在怪物与玩家角色之间，则由 GM 决定顺序。
+
+#### 你的回合（Your Turn）
+
+在你的回合，你可以移动最多等于你速度的距离，并执行一个动作。
+
+你可以自行决定先移动还是先执行动作。
+
+你可以执行的主要动作列于本章前文“动作”。
+
+角色的特性和怪物的数据栏也会提供其他动作选项。
+
+本章后文“移动与位置”包含移动规则。
+
+**交流（Communicating）。** 在自己的回合中，你可以通过自己能够做到的方式进行交流——例如简短说话和手势。
+
+这么做既不会消耗你的动作，也不会消耗移动。
+
+较长的交流，例如详细解释某件事，或试图说服一个敌人，则需要一个动作。
+
+影响动作是你尝试影响怪物的主要方式。
+
+**与事物互动（Interacting with Things）。** 在移动或执行动作期间，你可以免费与一个物体或环境特征互动一次。
+
+例如，你朝敌人前进时，可以在移动途中打开一扇门。
+
+如果你想与第二个物体互动，则需要执行使用动作。
+
+某些魔法物品和其他特殊物体始终需要使用一个动作，其说明会明确指出。
+
+当某项活动需要格外小心，或遇到特殊阻碍时，GM 也可能要求你使用一个动作完成。
+
+例如，GM 可能要求你执行使用动作才能打开卡住的门，或转动绞盘放下吊桥。
+
+> **使用方格地图游戏（Playing on a Grid）**
 >
-> _Speed._ Rather than moving foot by foot, move square by square on the grid, using your Speed in 5-foot segments. You can translate your Speed into squares by dividing it by 5. For example, a Speed of 30 feet translates into 6 squares. If you use a grid often, consider writing your Speed in squares on your character sheet.
+> 如果你使用方格地图以及模型或其他标记物游戏，请遵守以下规则。
 >
-> _Entering a Square._ To enter a square, you must have enough movement left to pay for entering. It costs 1 square of movement to enter an unoccupied square that's adjacent to your space (orthogonally or diagonally adjacent). A square of Difficult Terrain costs 2 squares to enter. Other effects might make a square cost even more.
+> *方格。* 每个方格代表 5 尺。
 >
-> _Corners._ Diagonal movement can't cross the corner of a wall, a large tree, or another terrain feature that fills its space.
+> *速度。* 不再逐尺移动，而是在方格上逐格移动，并将你的速度按 5 尺为一段使用。
 >
-> _Ranges._ To determine the range on a grid between two things—whether creatures or objects—count squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route.
-
-_Doing Nothing on Your Turn._ You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do, consider taking the defensive Dodge action or the Ready action to delay acting.
-
-#### Ending Combat
-
-Combat ends when one side or the other is defeated, which can mean the creatures are killed or knocked out or have surrendered or fled. Combat can also end when both sides agree to end it.
-
-### Movement and Position
-
-On your turn, you can move a distance equal to your Speed or less. Or you can decide not to move.
-
-Your movement can include climbing, crawling, jumping, and swimming (each explained in "Rules Glossary"). These different modes of movement can be combined with your regular movement, or they can constitute your entire move.
-
-However you're moving with your Speed, you deduct the distance of each part of your move from it until it is used up or until you are done moving, whichever comes first.
-
-A character's Speed is determined during character creation. A monster's Speed is noted in the monster's stat block. See "Rules Glossary" for more about Speed as well as about special speeds, such as a Climb Speed, Fly Speed, or Swim Speed.
-
-#### Difficult Terrain
-
-Combatants are often slowed down by Difficult Terrain. Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are examples of Difficult Terrain.
-
-Every foot of movement in Difficult Terrain costs 1 extra foot, even if multiple things in a space count as Difficult Terrain.
-
-#### Breaking Up Your Move
-
-You can break up your move, using some of its movement before and after any action, Bonus Action, or Reaction you take on the same turn. For example, if you have a Speed of 30 feet, you could go 10 feet, take an action, and then go 20 feet.
-
-#### Dropping Prone
-
-On your turn, you can give yourself the Prone condition (see "Rules Glossary") without using an action or any of your Speed, but you can't do so if your Speed is 0.
-
-#### Creature Size
-
-A creature belongs to a size category, which determines the width of the square space the creature occupies on a map, as shown on the Creature Size and Space table. That table lists the sizes from smallest (Tiny) to largest (Gargantuan). A creature's space is the area that it effectively controls in combat and the area it needs to fight effectively.
-
-A character's size is determined by species, and a monster's size is specified in the monster's stat block.
-
-**Creature Size and Space**
-
-<table>
-  <thead>
-    <tr>
-      <th>Size</th>
-      <th>Space (Feet)</th>
-      <th>Space (Squares)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Tiny</td>
-      <td>2½ by 2½ feet</td>
-      <td>4 per square</td>
-    </tr>
-    <tr>
-      <td>Small</td>
-      <td>5 by 5 feet</td>
-      <td>1 square</td>
-    </tr>
-    <tr>
-      <td>Medium</td>
-      <td>5 by 5 feet</td>
-      <td>1 square</td>
-    </tr>
-    <tr>
-      <td>Large</td>
-      <td>10 by 10 feet</td>
-      <td>4 squares (2 by 2)</td>
-    </tr>
-    <tr>
-      <td>Huge</td>
-      <td>15 by 15 feet</td>
-      <td>9 squares (3 by 3)</td>
-    </tr>
-    <tr>
-      <td>Gargantuan</td>
-      <td>20 by 20 feet</td>
-      <td>16 squares (4 by 4)</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Moving around Other Creatures
-
-During your move, you can pass through the space of an ally, a creature that has the Incapacitated condition (see "Rules Glossary"), a Tiny creature, or a creature that is two sizes larger or smaller than you.
-
-Another creature's space is Difficult Terrain for you unless that creature is Tiny or your ally.
-
-You can't willingly end a move in a space occupied by another creature. If you somehow end a turn in a space with another creature, you have the Prone condition (see "Rules Glossary") unless you are Tiny or are of a larger size than the other creature.
-
-### Making an Attack
-
-When you take the Attack action, you make an attack. Some other actions, Bonus Actions, and Reactions also let you make an attack. Whether you strike with a Melee weapon, fire a Ranged weapon, or make an attack roll as part of a spell, an attack has the following structure:
-
-**1: Choose a Target.** Pick a target within your attack's range: a creature, an object, or a location.
-
-**2: Determine Modifiers.** The GM determines whether the target has Cover (see the next section) and whether you have Advantage or Disadvantage against the target. In addition, spells, special abilities, and other effects can apply penalties or bonuses to your attack roll.
-
-**3: Resolve the Attack.** Make the attack roll, as detailed earlier in "Playing the Game." On a hit, you roll damage unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage.
-
-> **Unseen Attackers and Targets**
+> 你可以将速度除以 5，换算成方格数。
 >
-> When you make an attack roll against a target you can't see, you have Disadvantage on the roll. This is true whether you're guessing the target's location or targeting a creature you can hear but not see. If the target isn't in the location you targeted, you miss.
+> 例如，30 尺速度等于 6 格。
 >
-> When a creature can't see you, you have Advantage on attack rolls against it.
+> 如果你经常使用方格地图，可以考虑在角色卡上同时记录以方格表示的速度。
 >
-> If you are hidden when you make an attack roll, you give away your location when the attack hits or misses.
-
-### Cover
-
-Walls, trees, creatures, and other obstacles can provide cover, making a target more difficult to harm. As detailed in the Cover table, there are three degrees of cover, each of which gives a different benefit to a target.
-
-A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives Half Cover and a tree trunk that gives Three-Quarters Cover, the target has Three-Quarters Cover.
-
-**Cover**
-
-<table>
-  <thead>
-    <tr>
-      <th>Degree</th>
-      <th>Benefit to Target</th>
-      <th>Offered By …</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Half</td>
-      <td>+2 bonus to AC and Dexterity saving throws</td>
-      <td>Another creature or an object that covers at least half of the target</td>
-    </tr>
-    <tr>
-      <td>Three-Quarters</td>
-      <td>+5 bonus to AC and Dexterity saving throws</td>
-      <td>An object that covers at least three-quarters of the target</td>
-    </tr>
-    <tr>
-      <td>Total</td>
-      <td>Can't be targeted directly</td>
-      <td>An object that covers the whole target</td>
-    </tr>
-  </tbody>
-</table>
-
-### Ranged Attacks
-
-When you make a ranged attack, you fire a bow, hurl an axe, or otherwise send projectiles to strike a foe at a distance. Many spells also involve making a ranged attack.
-
-#### Range
-
-You can make ranged attacks only against targets within a specified range. If a ranged attack, such as one made with a spell, has a single range, you can't attack a target beyond this range.
-
-Some ranged attacks, such as those made with a Longbow, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has Disadvantage when your target is beyond normal range, and you can't attack a target beyond long range.
-
-#### Ranged Attacks in Close Combat
-
-Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack roll with a weapon, a spell, or some other means, you have Disadvantage on the roll if you are within 5 feet of an enemy who can see you and doesn't have the Incapacitated condition (see "Rules Glossary").
-
-### Melee Attacks
-
-A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.
-
-#### Reach
-
-A creature has a 5-foot reach and can thus attack targets within 5 feet when making a melee attack. Certain creatures have melee attacks with a reach greater than 5 feet, as noted in their descriptions.
-
-#### Opportunity Attacks
-
-Combatants watch for enemies to drop their guard. If you move heedlessly past your foes, you put yourself in danger by provoking an Opportunity Attack.
-
-_Avoiding Opportunity Attacks._ You can avoid provoking an Opportunity Attack by taking the Disengage action. You also don't provoke an Opportunity Attack when you Teleport or when you are moved without using your movement, action, Bonus Action, or Reaction. For example, you don't provoke an Opportunity Attack if an explosion hurls you out of a foe's reach or if you fall past an enemy.
-
-_Making an Opportunity Attack._ You can make an Opportunity Attack when a creature that you can see leaves your reach. To make the attack, take a Reaction to make one melee attack with a weapon or an Unarmed Strike against that creature. The attack occurs right before it leaves your reach.
-
-### Mounted Combat
-
-A willing creature that is at least one size larger than a rider and that has an appropriate anatomy can serve as a mount, using the following rules.
-
-#### Mounting and Dismounting
-
-During your move, you can mount a creature that is within 5 feet of you or dismount. Doing so costs an amount of movement equal to half your Speed (round down). For example, if your Speed is 30 feet, you spend 15 feet of movement to mount a horse.
-
-#### Controlling a Mount
-
-You can control a mount only if it has been trained to accept a rider. Domesticated horses, mules, and similar creatures have such training.
-
-The Initiative of a controlled mount changes to match yours when you mount it. It moves on your turn as you direct it, and it has only three action options during that turn: Dash, Disengage, and Dodge. A controlled mount can move and act even on the turn that you mount it.
-
-In contrast, an independent mount—one that lets you ride but ignores your control—retains its place in the Initiative order and moves and acts as it likes.
-
-#### Falling Off
-
-If an effect is about to move your mount against its will while you're on it, you must succeed on a DC 10 Dexterity saving throw or fall off, landing with the Prone condition (see "Rules Glossary") in an unoccupied space within 5 feet of the mount.
-
-While mounted, you must make the same save if you're knocked Prone or the mount is.
-
-### Underwater Combat
-
-A fight underwater follows these rules.
-
-#### Impeded Weapons
-
-When making a melee attack roll with a weapon underwater, a creature that lacks a Swim Speed has Disadvantage on the attack roll unless the weapon deals Piercing damage.
-
-A ranged attack roll with a weapon underwater automatically misses a target beyond the weapon's normal range, and the attack roll has Disadvantage against a target within normal range.
-
-#### Fire Resistance
-
-Anything underwater has Resistance to Fire damage (explained in "Damage and Healing").
-
-## Damage and Healing
-
-Injury and death are frequent threats, as detailed in the following rules.
-
-### Hit Points
-
-Hit Points represent durability and the will to live. Creatures with more Hit Points are more difficult to kill. Your Hit Point maximum is the number of Hit Points you have when uninjured. Your current Hit Points can be any number from that maximum down to 0, which is the lowest Hit Points can go.
-
-Whenever you take damage, subtract it from your Hit Points. Hit Point loss has no effect on your capabilities until you reach 0 Hit Points.
-
-If you have half your Hit Points or fewer, you're Bloodied, which has no game effect on its own but which might trigger other game effects.
-
-> **RESTING**
+> *进入方格。* 要进入一个方格，你必须拥有足够的剩余移动力来支付进入该格的消耗。
 >
-> Adventurers can't spend every hour adventuring. They need rest. Any creature can take hour-long Short Rests in the midst of a day and an 8-hour Long Rest to end it. Regaining Hit Points is one of the main benefits of a rest. "Rules Glossary" provides the rules for Short and Long Rests.
-
-### Damage Rolls
-
-Each weapon, spell, and damaging monster ability specifies the damage it deals. You roll the damage dice, add any modifiers, and deal the damage to your target. If there's a penalty to the damage, it's possible to deal 0 damage but not negative damage.
-
-When attacking with a weapon, you add your ability modifier—the same modifier used for the attack roll—to the damage roll. A spell tells you which dice to roll for damage and whether to add any modifiers. Unless a rule says otherwise, you don't add your ability modifier to a fixed damage amount that doesn't use a roll, such as the damage of a Blowgun. See "Equipment" for weapons' damage dice and "Spells" for spells' damage dice.
-
-### Critical Hits
-
-When you score a Critical Hit, you deal extra damage. Roll the attack's damage dice twice, add them together, and add any relevant modifiers as normal. For example, if you score a Critical Hit with a Dagger, roll 2d4 for the damage rather than 1d4, and add your relevant ability modifier. If the attack involves other damage dice, such as from the Rogue's Sneak Attack feature, you also roll those dice twice.
-
-### Saving Throws and Damage
-
-Damage dealt via saving throws uses these rules.
-
-#### Damage against Multiple Targets
-
-When you create a damaging effect that forces two or more targets to make saving throws against it at the same time, roll the damage once for all the targets. For example, when a wizard casts _Fireball_, the spell's damage is rolled once for all creatures caught in the blast.
-
-#### Half Damage
-
-Many saving throw effects deal half damage (round down) to a target when the target succeeds on the saving throw. The halved damage is equal to half the damage that would be dealt on a failed save.
-
-### Damage Types
-
-Each instance of damage has a type, like Fire or Slashing. Damage types are listed in "Rules
-Glossary" and have no rules of their own, but other rules, such as Resistance, rely on damage types.
-
-### Resistance and Vulnerability
-
-Some creatures and objects have Resistance or Vulnerability to certain damage types. If you have Resistance to a damage type, damage of that type is halved against you (round down). If you have Vulnerability to a damage type, damage of that type is doubled against you. For example, if you have Resistance to Cold damage, such damage is halved against you, and if you have Vulnerability to Fire damage, such damage is doubled against you.
-
-#### No Stacking
-
-Multiple instances of Resistance or Vulnerability that affect the same damage type count as only one instance. For example, if you have Resistance to Necrotic damage as well as Resistance to all damage, Necrotic damage is reduced by half against you.
-
-#### Order of Application
-
-Modifiers to damage are applied in the following order: adjustments such as bonuses, penalties, or multipliers are applied first; Resistance is applied second; and Vulnerability is applied third.
-
-For example, a creature has Resistance to all damage and Vulnerability to Fire damage, and it's within a magical aura that reduces all damage by 5. If it takes 28 Fire damage, the damage is first reduced by 5 (to 23), then halved for the creature's Resistance (and rounded down to 11), then doubled for its Vulnerability (to 22).
-
-### Immunity
-
-Some creatures and objects have Immunity to certain damage types and conditions. Immunity to a damage type means you don't take damage of that type, and Immunity to a condition means you aren't affected by it.
-
-### Healing
-
-Hit Points can be restored by magic, such as the _Cure Wounds_ spell or a _Potion of Healing_, or by a Short or Long Rest (see "Rules Glossary").
-
-> **Knocking Out a Creature**
+> 进入与你当前空间相邻——横向、纵向或斜向均可——的未占据方格需要 1 格移动力。
 >
-> When you would reduce a creature to 0 Hit Points with a melee attack, you can instead reduce the creature to 1 Hit Point and give it the Unconscious condition. It then starts a Short Rest, at the end of which that condition ends on it. The condition ends early if the creature regains any Hit Points or if someone takes an action to administer first aid to it, making a successful DC 10 Wisdom (Medicine) check.
+> 进入困难地形方格需要 2 格移动力。
+>
+> 其他效果可能进一步提高进入某格的消耗。
+>
+> *转角。* 斜向移动不能穿过墙壁、大树或其他完全填满其所在空间的地形特征的角。
+>
+> *距离。* 要在方格地图上确定两个事物——无论是生物还是物体——之间的距离，从与其中一个事物相邻的方格开始数格，并在另一个事物所在的方格停止。
+>
+> 按最短路径计算。
 
-When you receive healing, add the restored Hit Points to your current Hit Points. Your Hit Points can't exceed your Hit Point maximum, so any Hit Points regained in excess of the maximum are lost. For example, if you receive 8 Hit Points of healing and have 14 Hit Points and a Hit Point maximum of 20, you regain 6 Hit Points, not 8.
+*回合中什么也不做。* 你可以在自己的回合放弃移动、执行动作，甚至什么都不做。
 
-### Dropping to 0 Hit Points
+如果你不知道该做什么，可以考虑执行防御性的闪避动作，或执行准备动作推迟行动。
 
-When a creature drops to 0 Hit Points, it either dies outright or falls unconscious, as explained below.
+#### 结束战斗（Ending Combat）
 
-#### Instant Death
+当任意一方被击败时，战斗结束。
 
-Here are the main ways a creature can die instantly.
+“被击败”可能意味着相关生物被杀死、击昏、投降或逃跑。
 
-_Monster Death._ A monster dies the instant it drops to 0 Hit Points, although a Game Master can ignore this rule for an individual monster and treat it like a character.
+如果双方都同意停止战斗，战斗也可以结束。
 
-_Hit Point Maximum of 0._ A creature dies if its Hit Point maximum reaches 0. Certain effects drain life energy, reducing a creature's Hit Point maximum.
+### 移动与位置（Movement and Position）
 
-_Massive Damage._ When damage reduces a character to 0 Hit Points and damage remains, the character dies if the remainder equals or exceeds their Hit Point maximum. For example, if your character has a Hit Point maximum of 12, currently has 6 Hit Points, and takes 18 damage, the character drops to 0 Hit Points, but 12 damage remains. The character then dies, since 12 equals their Hit Point maximum.
+在你的回合中，你可以移动等于或少于自身速度的距离。
 
-#### Character Demise
+你也可以选择完全不移动。
 
-If your character dies, others might find a magical way to revive your character, such as with the _Raise Dead_ spell. Or talk with the GM about making a new character to join the group. "Rules Glossary" has more information on being dead.
+你的移动可以包括攀爬、爬行、跳跃和游泳（这些均在“规则术语表”中说明）。
 
-#### Falling Unconscious
+这些不同移动方式可以与你的普通移动结合，也可以构成你全部的移动。
 
-If you reach 0 Hit Points and don't die instantly, you have the Unconscious condition (see "Rules Glossary") until you regain any Hit Points, and you now face making Death Saving Throws (see below).
+无论你如何使用速度进行移动，都要逐段从速度中扣除已移动距离，直到速度全部用完，或你决定停止移动，以先发生者为准。
 
-#### Death Saving Throws
+角色的速度在角色创建时决定。
 
-Whenever you start your turn with 0 Hit Points, you must make a Death Saving Throw to determine whether you creep closer to death or hang on to life. Unlike other saving throws, this one isn't tied to an ability score. You're in the hands of fate now.
+怪物的速度列于其数据栏中。
 
-_Three Successes/Failures._ Roll 1d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become Stable (see "Stabilizing a Character" below). On your third failure, you die.
+关于速度，以及攀爬速度、飞行速度和游泳速度等特殊速度的更多内容，见“规则术语表”。
 
-The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any Hit Points or become Stable.
+#### 困难地形（Difficult Terrain）
 
-**Rolling a 1 or 20.** When you roll a 1 on the d20 for a Death Saving Throw, you suffer two failures. If you roll a 20 on the d20, you regain 1 Hit Point.
+参战者经常会受到困难地形拖慢。
 
-**Damage at 0 Hit Points.** If you take any damage while you have 0 Hit Points, you suffer a Death Saving Throw failure. If the damage is from a Critical Hit, you suffer two failures instead. If the damage equals or exceeds your Hit Point maximum, you die.
+低矮家具、瓦砾、灌木、陡峭楼梯、积雪和浅沼泽都属于困难地形的示例。
 
-#### Stabilizing a Character
+在困难地形中，每移动 1 尺都额外消耗 1 尺移动力，即使同一空间中的多个因素都属于困难地形也一样。
 
-You can take the Help action to try to stabilize a creature with 0 Hit Points, which requires a successful DC 10 Wisdom (Medicine) check.
+#### 分段移动（Breaking Up Your Move）
 
-A Stable creature doesn't make Death Saving Throws even though it has 0 Hit Points, but it still has the Unconscious condition. If the creature takes damage, it stops being Stable and starts making Death Saving Throws again. A Stable creature that isn't healed regains 1 Hit Point after 1d4 hours.
+你可以将移动分成多个部分，在同一回合中执行任何动作、附赠动作或反应之前和之后分别移动。
 
-### Temporary Hit Points
+例如，如果你的速度为 30 尺，可以先移动 10 尺，执行一个动作，然后再移动 20 尺。
 
-Some spells and other effects confer Temporary Hit Points, which are a buffer against losing actual Hit Points, as explained below.
+#### 主动倒地（Dropping Prone）
 
-#### Lose Temporary Hit Points First
+在你的回合，你可以主动让自己陷入倒地状态（见“规则术语表”），无需动作，也不消耗任何速度。
 
-If you have Temporary Hit Points and take damage, those points are lost first, and any leftover damage carries over to your Hit Points. For example, if you have 5 Temporary Hit Points and take 7 damage, you lose those points and then lose 2 Hit Points.
+不过，如果你的速度为 0，则不能这么做。
 
-#### Duration
+#### 生物体型（Creature Size）
 
-Temporary Hit Points last until they're depleted or you finish a Long Rest (see "Rules Glossary").
+一个生物属于某种体型类别，该类别决定生物在地图上占据的方形空间宽度，如“生物体型与空间”表所示。
 
-#### They Don't Stack
+该表按从最小的微型到最大的超巨型排列体型。
 
-Temporary Hit Points can't be added together. If you have Temporary Hit Points and receive more of them, you decide whether to keep the ones you have or to gain the new ones. For example, if a spell grants you 12 Temporary Hit Points when you already have 10, you can have 12 or 10, not 22.
+生物的空间是其在战斗中能够有效控制的区域，也是其有效战斗所需要的区域。
 
-#### They're Not Hit Points or Healing
+角色的体型由物种决定，而怪物的体型则列在其数据栏中。
 
-Temporary Hit Points can't be added to your Hit Points, healing can't restore them, and receiving Temporary Hit Points doesn't count as healing. Because Temporary Hit Points aren't Hit Points, a creature can be at full Hit Points and receive Temporary Hit Points.
+**生物体型与空间（Creature Size and Space）**
 
-If you have 0 Hit Points, receiving Temporary Hit Points doesn't restore you to consciousness. Only true healing can save you.
+| 体型 | 空间（尺） | 空间（方格） |
+|---|---|---|
+| 微型（Tiny） | 2½ × 2½ 尺 | 每格 4 个 |
+| 小型（Small） | 5 × 5 尺 | 1 格 |
+| 中型（Medium） | 5 × 5 尺 | 1 格 |
+| 大型（Large） | 10 × 10 尺 | 4 格（2 × 2） |
+| 巨型（Huge） | 15 × 15 尺 | 9 格（3 × 3） |
+| 超巨型（Gargantuan） | 20 × 20 尺 | 16 格（4 × 4） |
+
+#### 绕过其他生物移动（Moving around Other Creatures）
+
+移动期间，你可以穿过以下生物的空间：
+
+- 盟友；
+- 处于失能状态的生物（见“规则术语表”）；
+- 微型生物；
+- 比你大至少两个体型等级，或比你小至少两个体型等级的生物。
+
+除非另一生物是微型或你的盟友，否则其空间对你而言属于困难地形。
+
+你不能主动在一个被其他生物占据的空间中结束移动。
+
+如果你由于某种原因在与另一个生物相同的空间中结束自己的回合，则你陷入倒地状态（见“规则术语表”），除非你是微型，或你的体型大于另一个生物。
+
+### 发动攻击（Making an Attack）
+
+当你执行攻击动作时，你发动一次攻击。
+
+某些其他动作、附赠动作和反应也允许你发动攻击。
+
+无论你是使用近战武器攻击、发射远程武器，还是作为法术的一部分进行攻击检定，一次攻击都具有以下结构：
+
+**1：选择目标。** 在攻击范围内选择一个目标：生物、物体或地点。
+
+**2：决定调整因素。** GM 判断目标是否拥有掩护（见下一节），以及你针对目标是否具有优势或劣势。
+
+此外，法术、特殊能力和其他效果可能对你的攻击检定施加加值或减值。
+
+**3：结算攻击。** 按照本章前文所述进行攻击检定。
+
+命中时，除非该攻击本身的规则另有说明，否则你进行伤害掷骰。
+
+某些攻击除了伤害之外还会造成特殊效果，或者以特殊效果取代伤害。
+
+> **看不见的攻击者与目标（Unseen Attackers and Targets）**
+>
+> 当你对一个自己看不见的目标进行攻击检定时，该检定具有劣势。
+>
+> 无论你是在猜测目标的位置，还是攻击一个你能听见但看不见的生物，这一规则都适用。
+>
+> 如果目标实际上并不在你指定的位置，则攻击失手。
+>
+> 当一个生物看不见你时，你对其进行的攻击检定具有优势。
+>
+> 如果你在隐藏状态下进行攻击检定，无论攻击命中还是失手，你都会暴露自己的位置。
+
+### 掩护（Cover）
+
+墙壁、树木、生物和其他障碍物都可能提供掩护，使目标更难受到伤害。
+
+如“掩护”表所示，掩护有三个等级，每个等级都会为目标提供不同收益。
+
+只有当攻击或其他效果从掩护另一侧产生时，目标才能从掩护中获益。
+
+如果目标位于多个掩护来源之后，只应用其中保护程度最高的那一个；不同掩护等级不会相加。
+
+例如，如果目标位于一个提供半掩护的生物后方，同时又位于提供四分之三掩护的树干后方，则目标拥有四分之三掩护。
+
+**掩护（Cover）**
+
+| 等级 | 对目标的收益 | 可由……提供 |
+|---|---|---|
+| 半掩护（Half） | AC 和敏捷豁免 +2 | 另一个生物，或至少遮挡目标一半的物体 |
+| 四分之三掩护（Three-Quarters） | AC 和敏捷豁免 +5 | 至少遮挡目标四分之三的物体 |
+| 全掩护（Total） | 不能被直接指定为目标 | 完全遮挡目标的物体 |
+
+### 远程攻击（Ranged Attacks）
+
+进行远程攻击时，你可能会射箭、投掷斧头，或以其他方式发射投射物攻击远处敌人。
+
+许多法术也涉及远程攻击。
+
+#### 射程（Range）
+
+你只能对指定射程内的目标发动远程攻击。
+
+如果一次远程攻击——例如某个法术攻击——只有一个射程数值，则不能攻击超过该距离的目标。
+
+某些远程攻击，例如使用长弓发动的攻击，拥有两个射程数值。
+
+较小的数值是常规射程，较大的数值是远距射程。
+
+当目标超出常规射程时，你的攻击检定具有劣势。
+
+你不能攻击超过远距射程的目标。
+
+#### 近身战斗中的远程攻击（Ranged Attacks in Close Combat）
+
+当敌人就在身旁时，瞄准进行远程攻击会更加困难。
+
+当你使用武器、法术或其他方式进行远程攻击检定时，如果你位于一个敌人 5 尺内，而且该敌人能看见你且没有处于失能状态（见“规则术语表”），则该攻击检定具有劣势。
+
+### 近战攻击（Melee Attacks）
+
+近战攻击允许你攻击触及范围内的目标。
+
+近战攻击通常使用手持武器或徒手打击。
+
+许多怪物会使用爪、牙或其他身体部位进行近战攻击。
+
+少数法术也会涉及近战攻击。
+
+#### 触及（Reach）
+
+生物通常拥有 5 尺触及范围，因此进行近战攻击时可以攻击 5 尺内的目标。
+
+某些生物拥有触及范围超过 5 尺的近战攻击，其说明中会注明。
+
+#### 借机攻击（Opportunity Attacks）
+
+参战者时刻注意敌人是否露出破绽。
+
+如果你不谨慎地从敌人附近经过，就可能使自己陷入危险并触发借机攻击。
+
+*避免借机攻击。* 你可以通过执行撤离动作来避免触发借机攻击。
+
+进行传送时同样不会触发借机攻击。
+
+如果你是在没有使用自己的移动、动作、附赠动作或反应的情况下被移动，也不会触发借机攻击。
+
+例如，如果爆炸将你炸出敌人的触及范围，或者你坠落经过敌人身旁，都不会触发借机攻击。
+
+*发动借机攻击。* 当一个你能看见的生物离开你的触及范围时，你可以发动借机攻击。
+
+要发动该攻击，使用反应，以武器或徒手打击对该生物进行一次近战攻击。
+
+攻击发生在该生物即将离开你的触及范围之前。
+
+### 骑乘战斗（Mounted Combat）
+
+一个自愿的生物，只要至少比骑乘者大一个体型等级，并具有适合骑乘的身体结构，就可以作为坐骑，并遵循以下规则。
+
+#### 上下坐骑（Mounting and Dismounting）
+
+在移动期间，你可以骑上一个位于你 5 尺内的生物，或从坐骑上下来。
+
+这么做消耗等于你速度一半的移动力，向下取整。
+
+例如，如果你的速度为 30 尺，则骑上马匹需要消耗 15 尺移动力。
+
+#### 控制坐骑（Controlling a Mount）
+
+只有接受过载人训练的坐骑才能被你控制。
+
+驯养的马、骡和类似生物都受过这种训练。
+
+当你骑上受控坐骑时，它的先攻会变为与你相同。
+
+它在你的回合中按你的指示移动，而且该回合只能执行以下三种动作：
+
+- 疾走
+- 撤离
+- 闪避
+
+受控坐骑即使是在你骑上它的同一回合，也可以移动和行动。
+
+相比之下，独立坐骑——允许你骑乘，但不服从你控制的坐骑——保留自己在先攻顺序中的位置，并按照自身意愿移动和行动。
+
+#### 从坐骑上摔下（Falling Off）
+
+如果某个效果即将违背坐骑意愿将其移动，而你正骑在它上面，则必须成功通过 DC 10 敏捷豁免，否则从坐骑上摔落，并在坐骑 5 尺内一个未占据空间中以倒地状态落地（见“规则术语表”）。
+
+骑乘期间，如果你被击倒，或坐骑被击倒，你同样必须进行这次豁免。
+
+### 水下战斗（Underwater Combat）
+
+水下战斗遵循以下规则。
+
+#### 武器受阻（Impeded Weapons）
+
+在水下使用武器进行近战攻击检定时，如果生物没有游泳速度，则该攻击检定具有劣势，除非该武器造成穿刺伤害。
+
+在水下使用武器进行远程攻击检定时：
+
+- 对超过武器常规射程的目标自动失手；
+- 对常规射程内的目标进行攻击检定时具有劣势。
+
+#### 火焰抗性（Fire Resistance）
+
+任何完全处于水下的事物都对火焰伤害具有抗性（见“伤害与治疗”）。
+
+## 伤害与治疗（Damage and Healing）
+
+受伤和死亡是冒险中经常出现的威胁，详见以下规则。
+
+### 生命值（Hit Points）
+
+生命值代表耐久力以及求生意志。
+
+生命值越高的生物越难被杀死。
+
+你的生命值上限代表你在没有受伤时拥有的生命值。
+
+你的当前生命值可以处于生命值上限至 0 之间的任意数值，而 0 是生命值能够达到的最低值。
+
+每当你受到伤害时，从当前生命值中减去该伤害。
+
+在你的生命值降至 0 之前，生命值损失不会对你的能力造成影响。
+
+如果你的当前生命值等于或低于生命值上限的一半，则你处于重伤状态。
+
+重伤本身没有游戏效果，但可能触发其他游戏效果。
+
+> **休息（RESTING）**
+>
+> 冒险者不能每时每刻都在冒险。
+>
+> 他们需要休息。
+>
+> 任何生物都可以在一天中进行持续 1 小时的短休，并通过持续 8 小时的长休结束一天的活动。
+>
+> 恢复生命值是休息的主要收益之一。
+>
+> “规则术语表”提供短休和长休的完整规则。
+
+### 伤害掷骰（Damage Rolls）
+
+每件武器、每道造成伤害的法术，以及每项造成伤害的怪物能力，都会注明其造成的伤害。
+
+你掷伤害骰，加入所有相关调整值，然后对目标造成伤害。
+
+如果伤害具有减值，最终可能造成 0 点伤害，但不能造成负数伤害。
+
+使用武器攻击时，将你的属性调整值——即攻击检定所使用的同一调整值——加入伤害掷骰。
+
+法术会说明应该掷哪些伤害骰，以及是否加入任何调整值。
+
+除非规则另有说明，否则对于不通过掷骰得到的固定伤害数值，例如吹箭筒的伤害，你不会加入属性调整值。
+
+武器伤害骰见“装备”，法术伤害骰见“法术”。
+
+### 重击（Critical Hits）
+
+当你造成重击时，会造成额外伤害。
+
+将此次攻击的伤害骰掷两次并相加，然后正常加入所有相关调整值。
+
+例如，如果你使用匕首造成重击，伤害不再掷 1d4，而是掷 2d4，然后加入相关属性调整值。
+
+如果攻击还包含其他伤害骰，例如游荡者的偷袭（Sneak Attack）特性，则这些伤害骰同样掷两次。
+
+### 豁免与伤害（Saving Throws and Damage）
+
+通过豁免造成的伤害遵循以下规则。
+
+#### 对多个目标造成伤害（Damage against Multiple Targets）
+
+如果你产生一个造成伤害的效果，同时迫使两个或更多目标进行豁免，则只为所有目标掷一次伤害。
+
+例如，当一名法师施放*火球术（Fireball）*时，对爆炸范围内所有生物只掷一次法术伤害。
+
+#### 半伤（Half Damage）
+
+许多要求豁免的效果会在目标豁免成功时对其造成一半伤害，向下取整。
+
+减半后的伤害等于目标豁免失败时本应受到伤害的一半。
+
+### 伤害类型（Damage Types）
+
+每次伤害都有一个类型，例如火焰或挥砍。
+
+所有伤害类型都列于“规则术语表”。
+
+伤害类型本身没有额外规则，但抗性等其他规则会依赖伤害类型。
+
+### 抗性与易伤（Resistance and Vulnerability）
+
+某些生物和物体对特定伤害类型具有抗性或易伤。
+
+如果你对某种伤害类型具有抗性，则该类型伤害对你减半，向下取整。
+
+如果你对某种伤害类型具有易伤，则该类型伤害对你翻倍。
+
+例如，如果你对寒冷伤害具有抗性，则受到的寒冷伤害减半；如果你对火焰伤害具有易伤，则受到的火焰伤害翻倍。
+
+#### 不叠加（No Stacking）
+
+影响相同伤害类型的多个抗性或易伤只算作一个。
+
+例如，如果你既对黯蚀伤害具有抗性，又对所有伤害具有抗性，则黯蚀伤害依然只减半一次。
+
+#### 应用顺序（Order of Application）
+
+伤害调整按照以下顺序应用：
+
+1. 首先应用加值、减值、乘数等调整；
+2. 然后应用抗性；
+3. 最后应用易伤。
+
+例如，一个生物对所有伤害具有抗性，同时对火焰伤害具有易伤，并且它身处一个使所有伤害减少 5 点的魔法灵光中。
+
+如果它受到 28 点火焰伤害：
+
+1. 首先减少 5 点，变为 23；
+2. 然后因抗性减半，向下取整为 11；
+3. 最后因易伤翻倍，变为 22。
+
+### 免疫（Immunity）
+
+某些生物和物体对特定伤害类型和状态具有免疫。
+
+对某种伤害类型免疫，意味着你不会受到该类型伤害。
+
+对某种状态免疫，则意味着你不会受到该状态影响。
+
+### 治疗（Healing）
+
+生命值可以通过魔法恢复，例如*疗伤术（Cure Wounds）*或*治疗药水（Potion of Healing）*，也可以通过短休或长休恢复（见“规则术语表”）。
+
+> **击昏生物（Knocking Out a Creature）**
+>
+> 当你使用近战攻击本应将一个生物的生命值降低至 0 时，可以改为将其生命值降低至 1，并使其陷入昏迷状态。
+>
+> 随后，该生物开始一次短休，并在短休结束时结束昏迷状态。
+>
+> 如果该生物恢复任何生命值，或者有人使用一个动作为其实施急救，并成功通过 DC 10 感知（医药）检定，则昏迷状态会提前结束。
+
+当你接受治疗时，将恢复的生命值加入当前生命值。
+
+你的生命值不能超过生命值上限，因此任何超过上限的恢复量都会失去。
+
+例如，如果你接受 8 点治疗，而当前拥有 14 点生命值，生命值上限为 20，则实际恢复 6 点生命值，而不是 8 点。
+
+### 降至 0 生命值（Dropping to 0 Hit Points）
+
+当一个生物降至 0 生命值时，它要么直接死亡，要么陷入昏迷，具体如下。
+
+#### 立即死亡（Instant Death）
+
+以下是生物可能立即死亡的主要方式。
+
+*怪物死亡（Monster Death）。* 怪物在生命值降至 0 的瞬间死亡。
+
+不过，游戏主持人可以选择忽略这条规则，将某个特定怪物按照角色的规则处理。
+
+*生命值上限为 0（Hit Point Maximum of 0）。* 如果一个生物的生命值上限降至 0，则该生物死亡。
+
+某些效果会吸取生命能量，降低生物的生命值上限。
+
+*巨量伤害（Massive Damage）。* 当一次伤害将角色生命值降低至 0 后仍有剩余伤害，如果该剩余伤害等于或高于角色的生命值上限，则角色死亡。
+
+例如，如果你的角色生命值上限为 12，当前拥有 6 点生命值，并受到 18 点伤害，则角色生命值降至 0 后还剩余 12 点伤害。
+
+角色随后死亡，因为剩余的 12 点伤害等于其生命值上限。
+
+#### 角色死亡（Character Demise）
+
+如果你的角色死亡，其他人可能找到魔法手段将其复活，例如施放*死者复活（Raise Dead）*。
+
+你也可以与 GM 商量，制作一个新角色加入队伍。
+
+关于死亡状态的更多信息，见“规则术语表”。
+
+#### 陷入昏迷（Falling Unconscious）
+
+如果你的生命值降至 0 而没有立即死亡，则你陷入昏迷状态（见“规则术语表”），直到恢复任何生命值为止，并且现在必须进行死亡豁免（见下文）。
+
+#### 死亡豁免（Death Saving Throws）
+
+每当你的回合开始时生命值为 0，你都必须进行一次死亡豁免，以判断自己是更接近死亡，还是继续坚持生命。
+
+与其他豁免不同，死亡豁免不与任何属性值相关。
+
+此刻，你只能听凭命运。
+
+*三次成功／失败。* 掷 1d20。
+
+如果结果为 10 或更高，则成功。
+
+否则失败。
+
+单独一次成功或失败不会立刻产生效果。
+
+当你累计第三次成功时，你变为稳定状态（见下文“稳定角色”）。
+
+当你累计第三次失败时，你死亡。
+
+成功和失败不需要连续出现；分别记录两者，直到其中一种累计达到三次。
+
+当你恢复任何生命值或变为稳定状态时，成功和失败次数都会重置为 0。
+
+**掷出 1 或 20。** 当你进行死亡豁免，并在 d20 上掷出 1 时，记为两次失败。
+
+如果在 d20 上掷出 20，则恢复 1 点生命值。
+
+**0 生命值时受到伤害。** 当你生命值为 0 并受到任何伤害时，记一次死亡豁免失败。
+
+如果该伤害来自重击，则改为记两次失败。
+
+如果该伤害等于或高于你的生命值上限，则你死亡。
+
+#### 稳定角色（Stabilizing a Character）
+
+你可以执行协助动作，尝试稳定一个生命值为 0 的生物。
+
+这么做需要成功通过 DC 10 感知（医药）检定。
+
+处于稳定状态的生物即使生命值仍为 0，也不需要进行死亡豁免，但依然处于昏迷状态。
+
+如果该生物受到伤害，则不再处于稳定状态，并重新开始进行死亡豁免。
+
+一个没有接受治疗的稳定生物会在 1d4 小时后恢复 1 点生命值。
+
+### 临时生命值（Temporary Hit Points）
+
+某些法术和其他效果会给予临时生命值。
+
+临时生命值是一层缓冲，用于保护你不失去实际生命值，规则如下。
+
+#### 优先失去临时生命值（Lose Temporary Hit Points First）
+
+如果你拥有临时生命值并受到伤害，首先扣除临时生命值，任何剩余伤害才会扣除你的实际生命值。
+
+例如，如果你拥有 5 点临时生命值，并受到 7 点伤害，则先失去全部 5 点临时生命值，然后再失去 2 点生命值。
+
+#### 持续时间（Duration）
+
+临时生命值会一直持续，直到被消耗完，或你完成一次长休（见“规则术语表”）。
+
+#### 不叠加（They Don't Stack）
+
+临时生命值不能相加。
+
+如果你已经拥有临时生命值，并再次获得新的临时生命值，则必须选择保留现有数值，或采用新获得的数值。
+
+例如，如果一个法术给予你 12 点临时生命值，而你已经拥有 10 点，则你可以拥有 12 点或 10 点，但不能拥有 22 点。
+
+#### 它们不是生命值，也不是治疗（They're Not Hit Points or Healing）
+
+临时生命值不能加入你的实际生命值，治疗也不能恢复临时生命值，而获得临时生命值也不算接受治疗。
+
+因为临时生命值不是实际生命值，所以一个已经处于满生命值的生物仍然可以获得临时生命值。
+
+如果你的生命值为 0，获得临时生命值不会让你恢复意识。
+
+只有真正的治疗才能救你。
